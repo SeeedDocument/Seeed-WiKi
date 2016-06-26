@@ -15,6 +15,8 @@ test by Jiankai.li 4
 test by Jiankai.li 5
 
 test by Jiankai.li 6
+
+test by Jiankai.li 7
 ## Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
