@@ -2,6 +2,9 @@ site_name: Seeed Wiki
 pages:
 - Home: index.md
 - Grove:
-    - LinkIt ONE: file/LinkIt_ONE.md
+    - LinkIt ONE: 
+        - LinkIt TWO: file/LinkIt_ONE.md
+    - LinkIt Three:
+        - LinkIt: file/LinkIt_ONE.md
 - Shield: Shield.md
 - About: about.md
