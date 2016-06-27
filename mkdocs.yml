@@ -1,7 +1,7 @@
 site_name: Seeed Wiki
 pages:
 - Home: index.md
-- Grove: Grove.md
-    - LinkIt ONE: LinkIt_ONE.md
+- Grove:
+    - LinkIt ONE: file/LinkIt_ONE.md
 - Shield: Shield.md
 - About: about.md
