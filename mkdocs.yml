@@ -1,14 +1,40 @@
 site_name: Seeed Wiki
 pages:
 - Home: index.md
-- Grove:
-    - LinkIt ONE: 
-        - LinkIt TWO: file/LinkIt_ONE.md
-    - LinkIt Three:
-        - LinkIt: file/LinkIt_ONE.md
-- Shield: Shield.md
-- About: about.md
 
-h1 {
-  color: red;
-}
+- Platform:
+	- Arduino:
+		- Seeeduino V4.2: Platform/Arduino/SeeeduinoV4.2.md
+	
+	- Raspberry Pi:
+	
+	- LinkIt:
+		- LinkIt ONE: Platform/LinkIt/LinkIt_ONE.md
+	
+	- RePhone:
+	
+	- Wio:
+	
+	- BeagleBone
+	
+	- Intel Edison
+	
+	- mbed
+	
+	- LaunchPad
+
+- Grove:
+	- Sensor:
+		- Grove - Barometer Sensor(BMP280):Grove/Sensor/Grove_Barometer_Sensor_BMP280.md
+	
+	- Actuator:
+	
+	- Display
+	
+	- Communication
+	
+- Shield:
+
+- Robot:
+
+- About: about.md
