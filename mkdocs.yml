@@ -8,5 +8,3 @@ pages:
         - LinkIt: file/LinkIt_ONE.md
 - Shield: Shield.md
 - About: about.md
-
-theme: readthedocs
