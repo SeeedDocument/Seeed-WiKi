@@ -15,13 +15,13 @@ pages:
 	
 	- Wio:
 	
-	- BeagleBone
+	- BeagleBone:
 	
-	- Intel Edison
+	- Intel Edison:
 	
-	- mbed
+	- mbed:
 	
-	- LaunchPad
+	- LaunchPad:
 
 - Grove:
 	- Sensor:
@@ -29,9 +29,9 @@ pages:
 	
 	- Actuator:
 	
-	- Display
+	- Display:
 	
-	- Communication
+	- Communication:
 	
 - Shield:
 
