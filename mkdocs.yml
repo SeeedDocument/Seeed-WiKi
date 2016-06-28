@@ -40,13 +40,11 @@ pages:
     
     - Communication:
         - Communication: Grove/Communication/Communication.md
-        
-- Shield:
-    - Shield: Shield/Shield.md
-    
-- Robot:
-    - Robot: Robot/Robot.md
-    
+
+- IoT:
+    - IoT: IoT.md
+
+
 - SZ2U:
     - SZ2U: SZ2U/SZ2U.md
     
