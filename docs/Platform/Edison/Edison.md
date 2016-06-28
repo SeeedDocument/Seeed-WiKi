@@ -1,4 +1,4 @@
-#Actuator
+#Intel Edison
 ----
 
 // to be continued

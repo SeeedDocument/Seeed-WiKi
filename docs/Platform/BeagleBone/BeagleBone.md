@@ -1,4 +1,4 @@
-#Actuator
+#beagleBone
 ----
 
 // to be continued

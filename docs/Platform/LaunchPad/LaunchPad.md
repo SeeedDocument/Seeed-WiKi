@@ -1,4 +1,4 @@
-#Actuator
+#TI LaunchPad
 ----
 
 // to be continued
