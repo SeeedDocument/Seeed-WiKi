@@ -10,6 +10,6 @@ pages:
     
 - Grove:
     - Sensor:
-        - Grove - Barometer Sensor(BMP280):Grove/Sensor/Grove_Barometer_Sensor_BMP280.md
+        - Grove - Barometer Sensor(BMP280): Grove/Sensor/Grove_Barometer_Sensor_BMP280.md
 
 - About: about.md
