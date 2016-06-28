@@ -13,3 +13,8 @@
 
     You should never edit files in your gh-pages branch by hand if you're using
     the `gh-deploy` command because you will lose your work.
+
+
+!!! note
+
+    hello world
