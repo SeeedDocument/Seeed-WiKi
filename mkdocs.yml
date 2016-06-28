@@ -19,7 +19,7 @@ pages:
     
     
 markdown_extensions:
-    - smarty
     - toc:
-        permalink: True
-    - sane_lists
+        permalink: 
+    - admonition:
+    - smarty
