@@ -6,7 +6,7 @@ pages:
     - Arduino:
         - Seeeduino V4.2: Platform/Arduino/SeeeduinoV4.2.md
         
-    - Raspberry Pi:
+    - Raspberry Pi: Platform/Arduino/SeeeduinoV4.2.md
     
 - Grove:
     - Sensor:
