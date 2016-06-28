@@ -42,7 +42,7 @@ pages:
         - Communication: Grove/Communication/Communication.md
 
 - IoT:
-    - IoT: IoT.md
+    - IoT: /IoT/IoT.md
 
 
 - SZ2U:
