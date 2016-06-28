@@ -43,16 +43,20 @@ Typical applications: Enhancement of GPS navigation, outdoor/indoor navigation, 
 |Weight	|3g (for breakout board)|
 |Dimensions	|40 (width) × 20 (depth) mm|
 
-**Note 1:** We will show/describe how to select interface bus soon.
- 
-**Note 2:** The altitude is calculated by a combination of temperature and atmospheric pressure. No specialized components for altitude.
+!!! note
+We will show/describe how to select interface bus soon.
+
+
+!!! note
+The altitude is calculated by a combination of temperature and atmospheric pressure. No specialized components for altitude.
 ###Platforms supported (only for battery)
 
 |Platform	     |Seeeduino/Arduino	|Rasberry Pi	|Beaglebone|	LinkIt ONE|
 |----------------|------------------|---------------|----------|--------------|
 |Supported status|	Supported       |Not supported  |Supported |Supported     |
 
-**Notes**: If no version number is present for a specific platform, it means this product supports all versions within this platform.
+!!! note
+If no version number is present for a specific platform, it means this product supports all versions within this platform.
 
 ##Hardware Overview
 ![enter image description here](http://www.seeedstudio.com/wiki/images/e/ec/Grove_-_Barometer_Sensor_%28BMP280%29_Components_1200_s.jpg)
@@ -63,7 +67,8 @@ Typical applications: Enhancement of GPS navigation, outdoor/indoor navigation, 
 If you have selected I2C bus, the default address for slave board is 0x77(right-two pads are connected). If you want to use the address 0x76, connect only left two (disconnect right two) by soldering. Tips: you can disconnect pads with just a sharp knife.
 If you have selected SPI bus, the default address for slave board is 0x77(right-two pads are connected). If you want to use the address 0x76, disconnect all three pads.
 
-**Note:** Do not touch or shake or let this product in vibration when it works. This will cause interference and will affect the accuracy of data collected.
+!!! note
+Do not touch or shake or let this product in vibration when it works. This will cause interference and will affect the accuracy of data collected.
 
 ###Package includes (main parts)
 |Parts name                         |Quantity |
