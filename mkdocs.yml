@@ -1,4 +1,5 @@
 site_name: Seeed Wiki
+
 pages:
 - Home: index.md
 
@@ -15,3 +16,9 @@ pages:
 - About: 
     - About: about.md
     - Test: test.md
+    
+    
+markdown_extensions:
+    - toc:
+        permalink: 
+    - admonition:
