@@ -1,53 +1,28 @@
-# Seeed Wiki
+#Seeed Product Document
+----
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
-test by loovee
-test by Jiankai.li
+![](http://seeedstudio.com/wiki/images/3/32/Wiki_banner-1.jpg)
 
-test by Jiankai.li 1
+Wellcome to Seeed Product Document, here you will get the user manual of all the product that provide by SeeedStudio.
 
-test by Jiankai.li 2
+The products include:
 
-test by Jiankai.li 3
+- **Platform**
+	- Arduino
+	- Raspberry Pi
+	- LinkIt
+	- LaunchPad
+	- BeagleBone
+	- Intel Edison
+	- mbed
+	- RePhone
+	- Wio
 
-test by Jiankai.li 4
+- **Grove**
+	- Sensor
+	- Actuator
+	- Display
+	- Communication
 
-test by Jiankai.li 5
-
-test by Jiankai.li 6
-
-test by Jiankai.li 7
-
-test by Jiankai.li 8
-
-test by Jiankai.li 9
-
-test by Jiankai.li 10
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
-* `mkdocs help` - Print this help message.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
-## Project layout1
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
-## Project layout2
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- **Shield**
+- **Robot**
