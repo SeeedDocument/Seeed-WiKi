@@ -53,8 +53,9 @@ pages:
 - About: 
     - About: about.md
     - Test: test.md
-    
-    
+
+theme: Cyborg
+
 markdown_extensions:
     - toc:
         permalink: 
