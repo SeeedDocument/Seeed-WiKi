@@ -54,7 +54,7 @@ pages:
     - About: about.md
     - Test: test.md
 
-theme: readthedocs
+#theme: readthedocs
 
 markdown_extensions:
     - toc:
