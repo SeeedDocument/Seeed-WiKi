@@ -44,6 +44,8 @@ pages:
 - IoT:
     - IoT: IoT/IoT.md
 
+- Tutorial:
+    - Tutorial: Tutorial/Tutorial.md
 
 - SZ2U:
     - SZ2U: SZ2U/SZ2U.md
