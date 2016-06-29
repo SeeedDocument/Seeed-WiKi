@@ -31,7 +31,7 @@ pages:
 - Grove:
     - Sensor:
         - Grove - Barometer Sensor(BMP280): Grove/Sensor/Grove_Barometer_Sensor_BMP280.md
-
+        - Grove - LED: Grove/Actuator/Grove_LED.md
     - Actuator:
         - Actuator: Grove/Actuator/Actuator.md
     
@@ -52,7 +52,7 @@ pages:
     
 - About: 
     - About: about.md
-    - Test: test.md
+    - 如何添加一篇文档: Tutorial/update_wiki.md
 
 #theme: readthedocs
 
