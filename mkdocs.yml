@@ -43,6 +43,7 @@ pages:
 
 - IoT:
     - IoT: IoT/IoT.md
+    - Microsoft IoT Grove Kit: IoT/Microsoft_IoT_Grove_Kit.md
 
 - Tutorial:
     - Tutorial: Tutorial/Tutorial.md
