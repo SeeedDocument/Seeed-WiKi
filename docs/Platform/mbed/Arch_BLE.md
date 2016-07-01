@@ -89,6 +89,7 @@ There's 3pin on the LED Strip, please connect it you Arch BLD as shown below:
 2. Copy the hex file to the MBED disk of your Arch BLE
 3. Download [the Color Pixels Android app](http://tangram.qiniudn.com/seeed_ble_color_pixels.apk)
 
+![](http://www.seeedstudio.com/wiki/images/a/a8/Color_pixels_app.png)
 
 If you want to change the program, click [this link](https://mbed.org/compiler/#import:/teams/Seeed/code/BLE_Color_Pixels/;platform:Seeed-Arch-BLE) to import the Color Pixels program to mbed online IDE.
 
