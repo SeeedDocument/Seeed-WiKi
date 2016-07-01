@@ -20,7 +20,8 @@ pages:
         - LinkIt ONE: Platform/LinkIt/LinkIt_ONE.md
     
     - mbed:
-        - mbdd: Platform/mbed/mbed.md
+        - mbed: Platform/mbed/mbed.md
+        - Arch BLE: Platform/mbed/Arch_BLE.md
         
     - RePhone:
         - RePhone: Platform/RePhone/RePhone.md
