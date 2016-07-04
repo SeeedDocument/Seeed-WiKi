@@ -57,8 +57,8 @@ pages:
 - About: 
     - About: about.md
     - 如何添加一篇文档: Tutorial/update_wiki.md
-    - 文档移植：
-        - Github的使用：Port/port_github.md
+    - 文档移植:
+        - Github的使用: Port/port_github.md
     
 
 #theme: readthedocs
