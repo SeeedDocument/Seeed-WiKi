@@ -118,7 +118,7 @@ Note that to use the recording functionality, you need to update on-board firmwa
 
 ##Resources
 
-* [Schematic files](http://www.seeedstudio.com/wiki/images/4/41/Breakout_for_LinkIt_Smart_7688_v2.0_schematic_files.zip)
+* Schematic files
 * [LinkIt smart 7688](http://www.seeedstudio.com/wiki/LinkIt_Smart_7688)
 * [OpenWrt](http://wiki.openwrt.org/doc/howto/user.beginner)
 * [Link to buy a LinkIt Smart 7688](http://www.seeedstudio.com/depot/LinkIt-Smart-7688-p-2573.html?cPath=122_142)
