@@ -46,6 +46,7 @@ pages:
 - IoT:
     - IoT: IoT/IoT.md
     - Microsoft IoT Grove Kit: IoT/Microsoft_IoT_Grove_Kit.md
+    - Breakout for LinkIt Smart 7688 V2.0: Platform/LinkIt/Breakout_for_LinkIt_Smart_7688_v2_0.md
 
 - Tutorial:
     - Tutorial: Tutorial/Tutorial.md

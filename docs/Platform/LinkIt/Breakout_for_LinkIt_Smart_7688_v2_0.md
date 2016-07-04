@@ -4,6 +4,8 @@
 
 **Breakout for LinkIt Smart 7688 v2.0** is a Grove port integrated expansion board for LinkItTM Smart 7688 development board. This breakout board will save a lot of work and makes prototyping easier through simplified wiring. It will assist a beginner to get started fast. It supports serial buses like I2C, UART. It comes with USB, Ethernet, and 3.5mm Audio ports.
 
+![](https://github.com/SeeedDocument/Breakout_for_LinkIt_Smart_7688_v2_0/blob/master/image/Breakout_for_LinkIt_Smart_7688_v2.0_product_view_700.jpg?raw=true)
+
 ###Version Tracker
 
 |Product reversion | Release date |Support status |Notes                  |
@@ -12,11 +14,14 @@
 |Version 2.0       |April 2016	  |Supported      | Refer to New Features |
     
 
+
 ###New features:
 
 * Support recording functionality
 * For 3.5 mm phone connector (audio jack), it supports the protocol OMTP and CTIA. You can use either protocol by switching a switch. About how to switch protocol, we will describe it later.
 Get One Now Banner.png
+
+[![enter image description here](http://www.seeedstudio.com/wiki/images/thumb/d/d0/Get_One_Now_Banner.png/150px-Get_One_Now_Banner.png)](http://www.seeedstudio.com/depot/Breakout-for-LinkIt-Smart-7688-v20-p-2641.html)
 
 ##Features
 
@@ -87,7 +92,7 @@ Note that to use the recording functionality, you need to update on-board firmwa
 - USB flash driver (with audio file of MP3 format inside) × 1
 
 ###Play music
-1. Refer here to connect your LinkIt Smart 7688 to Internet.
+**Step1:** Refer [here](http://www.seeedstudio.com/wiki/LinkIt_Smart_7688#Getting_Started) to connect your LinkIt Smart 7688 to Internet.
 
 
 !!!note
@@ -96,17 +101,20 @@ Note that to use the recording functionality, you need to update on-board firmwa
 !!!note
     In rare cases, you might not connect to Internet successfully, reboot the embedded OS.
 
-2. Open a console with USB to Serial adapter.
-3. Connect all parts like follows:
+**Step2:** Open a console with USB to Serial adapter.
+
+**Step3:** Connect all parts like follows:
 
 ![](https://github.com/SeeedDocument/Breakout_for_LinkIt_Smart_7688_v2_0/blob/master/image/Breakout_for_LinkIt_Smart_7688_demo_connection_1200.jpg?raw=true)
 
 !!!note
     This is a figure of Breakout for LinkIt Smart 7688(v1.0).
 
-4. Enter folder of USB by type **cd /Media/USB-A1** in console.
-5. Play music with utility **Madplay**(installed on OpenWRT) by typing **madplay filename.mp3** into console.
-6. Now you will hear the music.
+**Step4:** Enter folder of USB by type **cd /Media/USB-A1** in console.
+
+**Step5:** Play music with utility **Madplay**(installed on OpenWRT) by typing **madplay filename.mp3** into console.
+ 
+**Step6:** Now you will hear the music.
 
 ##Resources
 
