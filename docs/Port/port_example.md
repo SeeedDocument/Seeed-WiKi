@@ -14,7 +14,7 @@
 
 ###STEP2
 
-打开产品wiki的页面，按照[文档审核](http://wiki.seeed.cc/Port/Port_review/)的内容审核文档。如果运气足够好没有任何问题，就可以调到**step3**,否则就需要把错误的记下来，在写文档的时候修正。
+打开产品wiki的页面，按照[文档审核](http://wiki.seeed.cc/Port/port_review/)的内容审核文档。如果运气足够好没有任何问题，就可以调到**step3**,否则就需要把错误的记下来，在写文档的时候修正。
 
 ###STEP3
 

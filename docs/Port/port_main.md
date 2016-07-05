@@ -7,7 +7,7 @@
 
 对于具体的一个产品文档的移植，通常有以下几个步骤
 
-* [文档审核](http://wiki.seeed.cc/Port/Port_review/)
+* [文档审核](http://wiki.seeed.cc/Port/port_review/)
 * [文档移植（撰写）](http://wiki.seeed.cc/Port/port_markdown/)
 * [上传Github](http://wiki.seeed.cc/Port/port_github/)
 * [一个例子]((http://wiki.seeed.cc/Port/port_example/))
