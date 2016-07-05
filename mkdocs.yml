@@ -58,8 +58,11 @@ pages:
     - About: about.md
     - 如何添加一篇文档: Tutorial/update_wiki.md
     - 文档移植:
+        - 需要做什么: Port/port_main.md
+        - 文档审核: Port/Port_review.md
         - Github的使用: Port/port_github.md
         - Markdown: Port/port_markdown.md
+        
     
 
 #theme: readthedocs
