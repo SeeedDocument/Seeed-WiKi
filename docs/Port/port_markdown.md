@@ -43,7 +43,7 @@
 
 Warning也是一样的，不过是把note换成warning。
 
-!!!note
+!!!warning
     这个格式在MarkdownPad2软件里面并不能预览，因为该软件不支持这个格式，不过我们的文档系统是支持的。
 
 ###插入超链接
