@@ -17,11 +17,11 @@ GitHub项目本身自然而然的也在GitHub上进行托管，只不过在一�
     上面的内容摘自百度百科，随便看一下就好，你需要记住的是：git是一个很屌的工具，github是一个很牛x的网站。我们的所有文档都会存放在github上面
 
 !!!warning
-    这篇文档并不打算讲述太多原理性的内容，只会讲一些能够用到的需要操作的东西。所以如果你希望深入的了解github以及git的用法，可以利用空余时间利用[搜索引擎](google.com)搜索相关内容进行学习。
+    这篇文档并不打算讲述太多原理性的内容，只会讲一些能够用到的需要操作的东西。所以如果你希望深入的了解github以及git的用法，可以利用空余时间利用[搜索引擎](http://www.google.com)搜索相关内容进行学习。
 
 
 ##注册账号
-首先登陆[Github](www.github.com)，用公司邮箱注册一个账号，并且申请加入[Seeed文档组织](https://github.com/SeeedDocument)。
+首先登陆[Github](http://www.github.com)，用公司邮箱注册一个账号，并且申请加入[Seeed文档组织](https://github.com/SeeedDocument)。
 
 ##安装git base
 
@@ -74,7 +74,7 @@ GitHub项目本身自然而然的也在GitHub上进行托管，只不过在一�
 
 	**SKU**: [103100022](https://www.seeedstudio.com/item_detail.html?p_id=2641)
 
-	**Wiki Link**: [wiki.seeed.cc](wiki.seeed.cc)
+	**Wiki Link**: [wiki.seeed.cc](http://wiki.seeed.cc)
 
 	
 	###Change Log:
