@@ -27,7 +27,7 @@
 
 ###插入图片
 
-插入图片可以用快捷键**ctrl+G**，然后插入图片的地址链接。在Github的那篇文档中我们提到需要把所有的图片放到image文件夹里面。当我们把图片传到github后，可以获得图片的地址。
+插入图片可以用快捷键**ctrl+G**，然后插入图片的地址链接。在《[Github的使用](http://wiki.seeed.cc/Port/port_github/)》中我们提到需要把所有的图片放到image文件夹里面。当我们把图片传到github后，可以获得图片的地址。
 
 ###Note&Warning
 
@@ -108,5 +108,17 @@ Warning也是一样的，不过是把note换成warning。
 * 一级列表2
 * 一级列表3
 
+###插入代码
 
+插入代码只需要在代码的每一行前插入4个空格,就会变成以下这样。
 
+    void setup()
+    {
+        Serial.begin(115200);
+        Serial.println("hello world");
+    }
+
+    void loop()
+    {
+    
+    }
