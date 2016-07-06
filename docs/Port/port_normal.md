@@ -22,10 +22,12 @@
 
 		[![](image_link)](_target_page_)
 
-###插入文件调查
+###插入问卷调查
 
-    ##Is this page helpful
-    <iframe style="height: 600px; width: 500px; margin: 10px 0 10px;" allowTransparency="true" src="https://www.surveymonkey.com/r/P56YN6P" frameborder="0"></iframe>
+* 把下面代码的link_to_sruvey替换成产品问卷调查链接
+
+        ##Is this page helpful
+        <iframe style="height: 600px; width: 500px; margin: 10px 0 10px;" allowTransparency="true" src="link_to_survey" frameborder="0"></iframe>
 
 ###插入表格
 
