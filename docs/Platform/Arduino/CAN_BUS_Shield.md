@@ -73,8 +73,51 @@ The SPI pins(SCK, MISO, MOSI) is default to the ICSP pins. But for some Boards, 
 
 ##Getting Started
 
-// to be continue
+Here's a simple demo to show you how CAN-BUS Shield works. In this demo we need 2 piece of CAN-BUS Shield as well as Arduino/Seeeduino.
 
+!!!note
+    This demo is built under [Arduino IDE version 1.6.9](https://www.arduino.cc/download_handler.php?f=/arduino-1.6.9-windows.zip).
+
+
+###STEP1: What do we need
+
+|Name|Function|Qty|Link|
+|----|--------|---|----|
+|CAN-BUS Shield|CAN Bus communication | 2 | [link](http://www.seeedstudio.com/depot/CANBUS-Shield-V12-p-2256.html) |
+|Seeeduino V4.2|Controller|2|[link](http://www.seeedstudio.com/item_detail.html?p_id=2517)|
+|Jumper Wire|connection|2|[link](http://www.seeedstudio.com/item_detail.html?p_id=234)|
+
+###STEP2: Hardware Connection
+
+Insert each CAN-BUS Shield to Seeeduino V4.2, and connect the 2 CAN-BUS Shield togeter via 2 jumper wires. Shown as below images. 
+
+![](https://raw.githubusercontent.com/SeeedDocument/CAN_BUS_Shield/master/image/connection.png)
+
+!!!note
+    CAN_H to CAN_H, CAN_L to CAN_L
+
+###STEP3: Software
+
+Click on the below button to download the library.
+
+[![](https://raw.githubusercontent.com/SeeedDocument/CAN_BUS_Shield/master/image/download_library.png)](https://github.com/Seeed-Studio/CAN_BUS_Shield)
+
+Install the library to your Arduino IDE when it is downloaded. 
+
+Of of the node(a node means Seeeduino + CAN_BUS Shield) act as master, the other act as slaver. The master will send data to slaver constantly. 
+
+!!!note
+    Each node can act at master before the code is uploaded. 
+
+Open the **send** example (**File > Examples > CAN_BUS_Shield-master > send**) and upload to the **master**. 
+
+Open the **receive_check** example (**File > Examples > CAN_BUS_Shield-master > receive_check**) and upload to the **slaver**.
+
+###STEP4: View Result
+
+Open the Serial Monitor of Arduino IDE(**slaver**), you will get the data sent from the master. 
+
+![](https://raw.githubusercontent.com/SeeedDocument/CAN_BUS_Shield/master/image/serial_monitor.png)
 
 ##APIs
 
