@@ -2,11 +2,14 @@
 ----
 ##Introduction
 
-CAN-BUS is a common industrial bus because of its long travel distance, medium communication speed and high reliability. It is commonly found on modern machine tools and as an automotive diagnostic bus. 
+![](https://github.com/SeeedDocument/CAN_BUS_Shield/blob/master/image/Can_bus_shield_all.jpg?raw=true)
+
+**CAN-BUS** is a common industrial bus because of its long travel distance, medium communication speed and high reliability. It is commonly found on modern machine tools and as an automotive diagnostic bus. 
 
 This CAN-BUS Shield adopts MCP2515 CAN Bus controller with SPI interface and MCP2551 CAN transceiver to give your Arduino/Seeeduino CAN-BUS capibility. With an OBD-II converter cable added on and the OBD-II library imported, you are ready to build an onboard diagnostic device or data logger.
 
-![](https://github.com/SeeedDocument/CAN_BUS_Shield/blob/master/image/Can_bus_shield_all.jpg?raw=true)
+
+[![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now.png)](http://www.seeedstudio.com/depot/CANBUS-Shield-V12-p-2256.html)
 
 ##Features
 
@@ -29,10 +32,10 @@ This CAN-BUS Shield adopts MCP2515 CAN Bus controller with SPI interface and MCP
     - **RX**: blink when there's data coming
     - **INT**: data interrupt
 4. **Terminal** - CAN_H and CAN_L
-5. Arduino UNO pin out
-6. Serial Grove connector
-7. I2C Grove connector
-8. ICSP pins
+5. **Arduino UNO pin out**
+6. **Serial Grove connector**
+7. **I2C Grove connector**
+8. **ICSP pins**
 9. **IC** - MCP2551, a high-speed can transceiver ([datasheet](https://github.com/SeeedDocument/CAN_BUS_Shield/raw/master/resource/Mcp2551.pdf))
 10. **IC** - MCP2515, stand-alone CAN controller wth SPI interface ([datasheet](https://github.com/SeeedDocument/CAN_BUS_Shield/raw/master/resource/MCP2515.pdf))
 
@@ -41,36 +44,12 @@ This CAN-BUS Shield adopts MCP2515 CAN Bus controller with SPI interface and MCP
     When you use more than two CAN Bus Shield in one net, you should think about the impedance.
     You can just cut P1 in the PCB with a knife, or just remove R3 on the PCB.
 
-###Digital Pin Used(Arduino UNO pinout)
+###Pin map
 
-|Arduino Pin|Function               |
-|-----------|-----------------------|
-|D0         |Not Used               |
-|D1	        |Not Used               |
-|D2		    |**Receive Interrupt**  |
-|D3     	|Not Used               |
-|D4	        |Not_Used               |
-|D5	        |Not Used               |
-|D6	        |Not Used               |
-|D7	        |Not Used               |
-|D8	        |Not Used               |
-|D9	        |**SPI_CS(default)**    |
-|D10        |**SPI_CS(selectable)** |
-|D11        |**SPI_MOSI(default)**  |
-|D12        |**SPI_MISO(default)**  |
-|D13        |**SPI_SCK(default)**   |
+![](https://raw.githubusercontent.com/SeeedDocument/CAN_BUS_Shield/master/image/PINMAP.png)
 
-###Analog Pin Used(Arduino UNO pinout)
-
-
-|Arduino Pin|Function|
-|-----------|--------|
-|A0	        |Not_Used|
-|A1	        |Not_Used|
-|A2	        |Not_Used|
-|A3	        |Not_Used|
-|A4	        |Not Used|
-|A5	        |Not Used|
+!!!note
+    The pin FREE is available for the others usage. 
 
 ###CS pin
 
@@ -253,8 +232,6 @@ Ever wanted to play a car/truck simulator with a real dashboard on your PC? Me t
 [![](https://github.com/SeeedDocument/CAN_BUS_Shield/blob/master/image/Wiki_makeitnow_logo.png?raw=true)](http://www.seeed.cc/project_detail.html?id=291)
 
 ###Hack your vehicle CAN-BUS
-
-![](https://github.com/SeeedDocument/CAN_BUS_Shield/blob/master/image/project2.jpg?raw=true)
 
 [![enter image description here](http://www.seeedstudio.com/wiki/images/thumb/d/d0/Get_One_Now_Banner.png/150px-Get_One_Now_Banner.png)](http://www.seeedstudio.com/depot/Breakout-for-LinkIt-Smart-7688-v20-p-2641.html)
 
