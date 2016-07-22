@@ -29,7 +29,7 @@ pages:
         - RePhone: Platform/RePhone/RePhone.md
     
     - Wio:
-        - Wio: Platform/Wio/Wio.md
+        - Wio Node: Platform/Wio/Wio_Node.md
     
 - Grove:
     - Sensor:
