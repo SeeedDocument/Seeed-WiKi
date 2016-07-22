@@ -1,3 +1,5 @@
+#Wio Node
+---
 ## Introduction
 
 Building IoT project is exciting, as you can connect almost everything around you and control them. However it is also not easy to build IoT applications since it requires a lot of hard works such as hardware programming, jump wires, soldering etc.Even a well trained user would spend hours to hanlde all the work, let alone beginers. In order to simplify the development of IoT project, Seeed launched **[Wio Link](http://www.seeedstudio.com/wiki/Wio_Link)** on **[kickstarter](https://www.kickstarter.com/projects/seeed/wio-link-3-steps-5-minutes-build-your-iot-applicat?ref=nav_search)** and it turn out a big sucess.The slogen on kickstarter well defined the main feature of Wio link:
@@ -27,7 +29,7 @@ The ecosystem of Wio Node also consists of Open Hardware **Wio Node board**, **O
 - CE/FCC/TELEC Certified for core module ESP-WROOM-02
 
 ## Specifications
-|General||Power Management||
+|General|Value|Power Management|Value|
 |:---|---|:---|---:|
 |**Size**|28mm * 28mm|**DC Current Per I/O Pin**|12mA|
 |**Crystal**|26MHz|**Input Voltage (MicroUSB)**| 5V|
