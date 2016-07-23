@@ -68,7 +68,7 @@ pages:
         
     
 
-theme: readthedocs
+#theme: readthedocs
 
 markdown_extensions:
     - toc:
