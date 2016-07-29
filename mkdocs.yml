@@ -72,7 +72,7 @@ pages:
         - Mark Down: Wiki migration manuals for Seeedia team/Mark_Down.md
         - Summary: Wiki migration manuals for Seeedia team/Summary.md
         
--New System Style:
+- New System Style:
         - New System Style: New document system style/New_system_style.md 
         
 theme: readthedocs
