@@ -7,6 +7,7 @@ pages:
     - Arduino:
         - Seeeduino V4.2: Platform/Arduino/SeeeduinoV4.2.md
         - CAN-BUS Shield: Platform/Arduino/CAN_BUS_Shield.md
+        - Seeeduino Stalker V3.1: Platform/Arduino/Seeeduino_Stalker_V3_1.md
         
     - Raspberry Pi: 
         - Raspberry Pi: Platform/RaspberryPi/RaspberryPi.md
