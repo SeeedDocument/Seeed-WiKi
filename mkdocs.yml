@@ -65,7 +65,12 @@ pages:
         - Markdown: Port/port_markdown.md
         - 一个例子: Port/port_example.md
         - 常用格式代码: Port/port_normal.md
-
+        
+- Wiki migration manuals for Seeedia team:
+        - Review the Wiki: Review_the_Wiki.md
+        - How to use github: How_to_use_github.md
+        - Mark Down: Mark_Down.md
+        - Summary: Summary.md
 theme: readthedocs
 
 markdown_extensions:
