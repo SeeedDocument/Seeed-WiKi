@@ -1,10 +1,10 @@
-Github is the main and most important tool we use during migratin, all the documents, pictures, files will be deposited at github. 
+Github is the main and most important tool we use during migration, all the documents, pictures and files will be deposited at github. 
 
 ## Sign up
 I guess you already have an account for github. If you don't have, please sign up with your company email and apply to join [Seeed Document](https://github.com/SeeedDocument)
 
 ## Install Git Bash
-Git bash is similer to cmd in window which you can input command in it and it will excute the command.
+Git bash is similar to CMD in windows which you can input command in it and it will execute the command.
 
 Download and install [Git Bash](https://git-scm.com/download)
 
@@ -16,9 +16,9 @@ git config --global user.name "your username"
 git config --global user.email "your email"
 ```
 ## Create new repository.
-After every thing has been set up, let go back to the github website to create repository.
+After everything has been set up, let go back to the github website to create repository.
 
-Every product's documents(including images,resources,md files etc) need a repository to manage.Make show you are alreay a memeber of [Seeed Document](https://github.com/SeeedDocument) before creating a new repository.
+Every product's documents (including images, resources, md files etc) need a repository to manage. Make sure you are already a member of [Seeed Document](https://github.com/SeeedDocument) before creating a new repository.
 
 Find the green icon "New Repository" and click it.
 ![](http://www.seeedstudio.com/wiki/images/a/a8/Create_repository.png)
@@ -27,12 +27,58 @@ Then you will see page as below:
 
 ![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/Wiki%20migration%20manuals%20for%20Seeedia%20team/image/How%20to%20use%20github/This%20is%20a%20test.png)
 - Choose Seeed Document in Owner(make sure you already joint Seeed Document group)
-- Fill in product name in the rectangular box underd **Repository name**
+- Fill in product name in the rectangular box under **Repository name**
    - If there is blank space or "-" in product name, replace them with "_"
-   - ie: Grove_LED，Breakout_for_LinkIt_Smart_7688_2_0
+   - Examples: Grove_LED，Breakout_for_LinkIt_Smart_7688_2_0
 
-If you have created the reporitory successfylly, the page will jump to the main page of the repository. You will find that there is only one README.md file, don't worry, we will add more things to it later.
+If you have created the repository successfully, the page will jump to the main page of the repository. You will find that there is only one README.md file, don't worry, we will add more things to it later.
 ![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/Wiki%20migration%20manuals%20for%20Seeedia%20team/image/How%20to%20use%20github/This%20is%20a%20test%20main%20page.png)
+
+If you enter other product's repository, you will find there is contect in README.md  file.take Wio Node for example:
+![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/Wiki%20migration%20manuals%20for%20Seeedia%20team/image/How%20to%20use%20github/Wio%20node%20README%20md%20file.png)
+
+So README.md has to contain below content
+```
+Wio_Node
+
+SKU: [102110057](https://www.seeedstudio.com/Wio-Node-p-2637.html)
+
+Wiki Link: wiki.seeed.cc
+
+Change Log:
+
+2016-7-7: create repos by Jeremy.xiao (jeremy.xiao@seeed.cc)
+This document is written by Seeed Studio and is licensed under MIT License.
+
+Contributing to this document is warmly welcomed. You can do this basically by forking, committing modifications and then pulling requests (follow the links above for operating guide). Adding change log and your contact into file header is encouraged. Thanks for your contribution.
+
+Seeed is a hardware innovation platform for makers to grow inspirations into differentiating products. By working closely with technology providers of all scale, Seeed provides accessible technologies with quality, speed and supply chain knowledge. When prototypes are ready to iterate, Seeed helps productize 1 to 1,000 pcs using in-house engineering, supply chain management and agile manufacture forces. Seeed also team up with incubators, Chinese tech ecosystem, investors and distribution channels to portal Maker startups beyond.
+```
+
+How to make the README.md to have contect as above?
+
+- Click into the README.md file
+
+![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/Wiki%20migration%20manuals%20for%20Seeedia%20team/image/How%20to%20use%20github/Click%20README%20file.png)
+
+- Click the edit icon to edit the file
+
+![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/Wiki%20migration%20manuals%20for%20Seeedia%20team/image/How%20to%20use%20github/Edit%20the%20README%20file.png)
+
+- Copy the content from other product's README.md file.
+
+![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/Wiki%20migration%20manuals%20for%20Seeedia%20team/image/How%20to%20use%20github/Copy%20from%20wio%20node%20readme%20file.png)
+
+- Modify the content to suitable for the product which is being migrated.
+
+![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/Wiki%20migration%20manuals%20for%20Seeedia%20team/image/How%20to%20use%20github/Modify%20the%20content.png)
+
+- Commit changes
+
+![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/Wiki%20migration%20manuals%20for%20Seeedia%20team/image/How%20to%20use%20github/Commit%20changes.png)
+
+- Result
+![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/Wiki%20migration%20manuals%20for%20Seeedia%20team/image/How%20to%20use%20github/finish%20change%20README%20file.png)
 
 You will also see the product's repository at the main page of Seeed Document.
 
@@ -50,34 +96,7 @@ Take Wio Node's repository for example:
 
 ![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/Wiki%20migration%20manuals%20for%20Seeedia%20team/image/How%20to%20use%20github/What%20a%20repository%20usually%20contains.png)
 
-readme.md has to contain below content
-```
-Breakout for Linkit Smart 7688 V2
----
 
-**SKU**: [103100022](https://www.seeedstudio.com/item_detail.html?p_id=2641)
-
-**Wiki Link**: [wiki.seeed.cc](http://wiki.seeed.cc)
-
-
-###Change Log:
-
-**2016-7-4:** create repos by loovee (loovee@seeed.cc)
-
-
---------
-This document is written by Seeed Studio and is licensed under MIT License.
-
-Contributing to this document is warmly welcomed. You can do this basically by
-[forking](https://help.github.com/articles/fork-a-repo), committing modifications and then [pulling requests](https://help.github.com/articles/using-pull-requests) (follow the links above
-for operating guide). Adding change log and your contact into file header is encouraged.
-Thanks for your contribution.
-
-Seeed is a hardware innovation platform for makers to grow inspirations into differentiating products. By working closely with technology providers of all scale, Seeed provides accessible technologies with quality, speed and supply chain knowledge. When prototypes are ready to iterate, Seeed helps productize 1 to 1,000 pcs using in-house engineering, supply chain management and agile manufacture forces. Seeed also team up with incubators, Chinese tech ecosystem, investors and distribution channels to portal Maker startups beyond.
-```
-Here is an example of "Wio Node"
-
-![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/Wiki%20migration%20manuals%20for%20Seeedia%20team/image/How%20to%20use%20github/Wio%20node%20README%20md%20file.png)
 
 ## Add new files to github
 Once you have created the repository at github successfully, the next step is to add new files in the repository. Git bash is a tool to make the uploading more efficiently, let's go back to git bash and open it. The first command you are going to use is:
@@ -95,7 +114,7 @@ Then use input the command "git clone + the link you just copied"
 ![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/Wiki%20migration%20manuals%20for%20Seeedia%20team/image/How%20to%20use%20github/git%20clone.png)
 
 !!!note
-Actually you don't need to type the web link letter by letter, if you are using Windows, copy the web link, the push "insert" at git bash, then you can successfully copy the link in git bash. ctrl+v is not useful in git bash.
+Actually you don't need to type the web link letter by letter, if you are using Windows, copy the web link, the push "insert" at git bash, then you can successfully copy the link in git bash. "Ctrl+v" is not useful in git bash.
 
 After you git clone the repository, you will find a folder with the repository's name in local driver.
 

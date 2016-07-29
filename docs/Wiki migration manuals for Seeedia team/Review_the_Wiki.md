@@ -1,6 +1,6 @@
-Now let's begin the great work of Wiki migration. With the work of us, Seeeed will have a much better document system in about 3 month.
+Now let's begin the great work of Wiki migration. With the work of us, Seeed will have a much better document system in about 3 month.
 # What content need to be reviewed?
-As the purpose of WiKi migration is to provide a more proffessional document system for our customers, and the old WiKi indeed has many content that is either wrong or improper, before migration, it is very essential to have a review on below content:
+As the purpose of WiKi migration is to provide a more professional document system for our customers, and the old WiKi indeed has many content that is either wrong or improper, before migration, it is very essential to have a review on below content:
 
 - Picture
 - Hyperlink
@@ -16,7 +16,7 @@ Currently we have issues about picture as below:
 - The product in picture is not the most updated one. maybe it is prototype (The color of board is green)
 - The picture is blurred
 
-For those product you have stock in India, you can rephoto it if needed, If you don't have the product, please contact with me directly and I will ask related colleague to provide new picture.
+For those product you have stock in India, you can take new picture it if needed, If you don't have the product, please contact with me directly and I will ask related colleague to provide new picture.
 
 ## Hyperlink
 There are some hyperlinks in old WiKi that are disabled any more, what need to do is to click every hyperlink to check if it still link to the right place, if not, find the right link and update it. If you have any query on it, please contact with me(Jeremy.xiao@seeed.cc) directly.
@@ -71,7 +71,7 @@ It will show many surveys that is already existing, select any one of them.
 <iframe style="height: 600px; width: 500px; margin: 10px 0 10px;" allowTransparency="true" src="Here put the link you just generated" frameborder="0"></iframe>
 ```
 
-## Are there any content that is redundent?
+## Are there any content that is redundant?
 Usually there are some content that is out of date and need to be deleted, including:
 
 - Support

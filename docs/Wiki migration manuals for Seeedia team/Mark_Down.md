@@ -6,7 +6,7 @@ Recommend a software named "[MakedownPad2](http://markdownpad.com/)", there are 
 
 ## Grammar
 
-Regarding the grammar of Markdown, recommend the article 《[markdown tutorial](http://www.markdowntutorial.com/)》,or you can goole "markdown" and you will find many tutorials.
+Regarding the grammar of Markdown, recommend the article 《[markdown tutorial](http://www.markdowntutorial.com/)》,or you can google "markdown" and you will find many tutorials.
 
 Some format that will be used during migration.
 
@@ -36,7 +36,7 @@ Some format that will be used during migration.
 
 There are 2 ways:
 
-- 1.Use Ctrl+G and input the weblink of the image
+- 1.Use Ctrl+G and input the web link of the image
 - 2.Use ![](web link of the image)
 ---
 ### Note and Warning

@@ -1,10 +1,10 @@
-## Summary
+# Summary
 
 After previous introduction, you should be able to：
-* Review the old wiki and point out where need to modify
-* Create repository at github
-* Use git bash to clone from repository or push new files to repository.
-* Use markdown to write new Wiki document
+- Review the old wiki and point out where need to modify
+- Create repository at github
+- Use git bash to clone from repository or push new files to repository.
+- Use markdown to write new Wiki document
 
 Before you start, please make sure you have install below software.
 - Git bash
@@ -25,7 +25,7 @@ Open the old Wiki, review the content based on previous way introduced in 《Rev
 ## Step3
 Use **MarkdownPad2** open Product_Name.md file, copy the content from old wiki and input them by markdown grammar.
 
-For images, please download the image from old Wiki, put the picture in image fold, then use git bash to upload them to github, you will get a new weblink of the image. for detail method please refer to 《How to use github》
+For images, please download the image from old Wiki, put the picture in image fold, then use git bash to upload them to github, you will get a new web link of the image. for detail method please refer to 《How to use github》
 
 !!!Warning
 If you right click the picture and save it directly, you may save a picture in smaller size, for formal size, please click the picture first to get a the formal size picture, then right click it to save.
@@ -34,6 +34,6 @@ If you right click the picture and save it directly, you may save a picture in s
 After you finished the Product_Name.md file, update the README.md file and then upload the whole product folder to github.
 
 ## Step5
-Open Product_Name.md file at github, you can preview the file at github. you can know whether everything is fine. If not, go back to Step3 to modify and upload it again until you see the perfect one.
+Open Product_Name.md file at github, you can preview the file at github. You can know whether everything is fine. If not, go back to Step3 to modify and upload it again until you see the perfect one.
 
 Now, you have successfully finished 1 Wiki migration.
