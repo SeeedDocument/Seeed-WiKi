@@ -67,10 +67,11 @@ pages:
         - 常用格式代码: Port/port_normal.md
         
 - Wiki migration manuals for Seeedia team:
-        - Review the Wiki: Review_the_Wiki.md
-        - How to use github: How_to_use_github.md
-        - Mark Down: Mark_Down.md
-        - Summary: Summary.md
+        - Review the Wiki: Wiki migration manuals for Seeedia team/Review_the_Wiki.md
+        - How to use github: Wiki migration manuals for Seeedia team/How_to_use_github.md
+        - Mark Down: Wiki migration manuals for Seeedia team/Mark_Down.md
+        - Summary: Wiki migration manuals for Seeedia team/Summary.md
+        
 theme: readthedocs
 
 markdown_extensions:
