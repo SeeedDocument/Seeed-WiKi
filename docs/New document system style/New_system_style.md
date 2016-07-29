@@ -10,12 +10,14 @@ Mkdocs的系统并没有主页，所以我们要创建一个主页以使得我�
 ![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/New%20document%20system%20style/images/Main%20Page%20Style.png)
 
 主页的菜单栏，应该包含：
+
 - Docs
 - Bazzar
 - Recipe
 - 搜索框
 
 根据产品的重要性，我们选出了9个主题板块放在主页中，他们分别是：
+
 - Arduino
 - Respberry Pi
 - Beaglebone
@@ -38,6 +40,7 @@ Mkdocs的系统并没有主页，所以我们要创建一个主页以使得我�
 ## 1.目录-打开收起功能
 
 目录需要有打开收起功能。现在的目录里，以下属于一级标题，不需要收起。
+
 - Platform
 - Grove
 - IoT
@@ -46,6 +49,7 @@ Mkdocs的系统并没有主页，所以我们要创建一个主页以使得我�
 - About
 
 点击一级标题可以打开二级标题,二级标题可以被隐藏。并且二级标题以下的具体文档的标题都可以被隐藏。以下是二级标题：
+
 - Arduino
 - Respberry Pi
 - Edision
@@ -64,6 +68,7 @@ Mkdocs的系统并没有主页，所以我们要创建一个主页以使得我�
 
 ## 3.点击某一篇文档
 点击某一篇具体的文档后，需要有做到：
+
 - 目录自动聚焦到该篇文档的详细目录上。以防止因目录太长使用者需要向下寻找文档的具体目录。
 - 收起其他标题，让目录看起来更为简洁。
 
