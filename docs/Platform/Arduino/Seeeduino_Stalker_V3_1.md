@@ -201,7 +201,7 @@ Open your Arduino IDE, **File > Examples > SD**, you will get many examples.
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Stalker_V3_1/master/images/sd_cs.png)
 
 !!!Note
-The CS pin is connected to D10 of Stalker, so you need to change the CS pin into D10 at the examples. 
+    The CS pin is connected to D10 of Stalker, so you need to change the CS pin into D10 at the examples. 
 
 ##Power Manager
 There's Lipo battery manage circuit built in Stalker. There are two useful function supply at the sketch.
