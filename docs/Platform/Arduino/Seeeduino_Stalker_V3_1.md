@@ -255,6 +255,22 @@ Open Arduino IDE, **File > Sketchbook > StalkerV30_DataLogger_10Sec** to open th
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Stalker_V3_1/master/images/data_log_example.png)
 
+##Q&A
+----
+
+Here are some questions that we usually received from new users. If you have any other issues when you are using Seeeduino Stalker V3.1, welcome to the [Community of Arduino](http://www.seeed.cc/discover.html?t=Arduino) where there are many professional users waiting to give you advices and also many advanced users providing plenty of ideas on how to use this products! 
+
+**Q1:** The RTC is reset to the original time when power off and on again.
+> There's a cell battery to power the RTC when there's no power from the system. The cell battery is supposed to last at least 3 years. You can check if the cell battery run off.
+
+**Q2:** I can't upload sketch to Stalker V3.1
+> Firstly, check if your USB-UART connected to Stalker right, then check if you select the right port number and board(**Arduino Fio** or **Arduino Arduino Pro or Pro Mini (3.3v , 8 MHz)w/ATmega328**). Finaly, if you had inserted a Bee on the socket and the RX/TX is selected to D0/D1, you should take the bee off when uploading the skteck. 
+
+**Q3:** The RTC interrupt demo is not work, I can't get any interrupt.
+> Firstly, check if you set the alarm time right, and don't fortet to put the RTC_INT switch to the right side. 
+
+**Q4:** The solar pannel can't charge the lipo battery.
+> Make sure your solar pannel is able to supple 4.5~6V voltage.
 
 ##Resources
 ---
