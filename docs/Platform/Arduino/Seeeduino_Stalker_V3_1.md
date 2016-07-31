@@ -282,3 +282,7 @@ Here are some questions that we usually received from new users. If you have any
   * [CN3065](https://github.com/SeeedDocument/Seeeduino_Stalker_V3_1/raw/master/resources/DSE-CN3065.pdf)
   * [ETA3406](https://github.com/SeeedDocument/Seeeduino_Stalker_V3_1/raw/master/resources/eta3406.pdf)
 * [Sketchbook](https://github.com/Seeed-Studio/Sketch_Stalker_V3_1)
+
+## Help us to make it better
+----
+<iframe style="height: 600px; width: 500px; margin: 10px 0 10px;" allowTransparency="true" src="https://www.surveymonkey.com/r/JK7RKNH" frameborder="0"></iframe>
