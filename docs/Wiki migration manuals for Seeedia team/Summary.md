@@ -1,19 +1,22 @@
 # Summary
 
 After previous introduction, you should be able to：
+
 - Review the old wiki and point out where need to modify
 - Create repository at github
 - Use git bash to clone from repository or push new files to repository.
 - Use markdown to write new Wiki document
 
 Before you start, please make sure you have install below software.
+
 - Git bash
 - MarkdownPad2 or other markdown editing software. 
 
 A migration usually takes 60 to 90 minutes. This example is only for your reference. If you have more efficient way, welcome to share will everyone.
 
 ## Step1
-Create a new repository at github, clone it to local driver, then create new folders in the folder that cloned form github
+Create a new repository at github, clone it to local driver, then create new folders in the folder that cloned form github.
+
 - image folder
 - resource folder
 - Product_Name.md file
