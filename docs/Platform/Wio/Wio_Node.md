@@ -306,25 +306,25 @@ The guide covers:
 ----
 Here are some questions that we usually received from new users. If you have any other issues when you are using Wio Node or other Wio products, welcome to the [Community of Wio](http://www.seeed.cc/topics.html?t=Wio) where there are many professional users waiting to give you advices and also many advanced users providing plenty of ideas on how to use Wio products! 
 
-**1. What's the difference between Wio Node and Wio Link?**
+**Q1. What's the difference between Wio Node and Wio Link?**
 
-Wio Node is like mini Wio Link, it is only quarter size of Wio Link and much cheaper. Despite the size and price, Wio Node still has full function of Wio Link. For those who prefer smaller size to more grove connectors. Wio node is the best choice.
+>Wio Node is like mini Wio Link, it is only quarter size of Wio Link and much cheaper. Despite the size and price, Wio Node still has full function of Wio Link. For those who prefer smaller size to more grove connectors. Wio node is the best choice.
 
 **2. What should I do if can't connect with Server?**
 
-Log out and check if you chose wrong server before logging in. If you are not in China Mainland, please choose global server.
+>Log out and check if you chose wrong server before logging in. If you are not in China Mainland, please choose global server.
 
 **3. Fail to configure Wio Node and can't find Wio Node in wifi list?**
 
-Pay attention to the blue LED. Make sure it is in breathing mode (blinking with fade in & fade out effect, it is a very unique mode, very easy to recognize) before any further steps. Only the LED in breathing mode can Wio Node be found in WiFi list.
+>Pay attention to the blue LED. Make sure it is in breathing mode (blinking with fade in & fade out effect, it is a very unique mode, very easy to recognize) before any further steps. Only the LED in breathing mode can Wio Node be found in WiFi list.
 
 **4. If I want to connect more than 1 I2C devices, what should I do?**
 
-[Grove-I2C hub](https://www.seeedstudio.com/s/I2C%20hub.html) can branch 1 I2C port into 4. Come to [Bazzar](https://www.seeedstudio.com/s/I2C%20hub.html) to get one!
+>[Grove-I2C hub](https://www.seeedstudio.com/s/I2C%20hub.html) can branch 1 I2C port into 4. Come to [Bazzar](https://www.seeedstudio.com/s/I2C%20hub.html) to get one!
 
 **5. Can I change Wio Node into sleep mode?**
 
-Yes, please check the last API, where you can command Wio Node into sleep mode.
+>Yes, please check the last API, where you can command Wio Node into sleep mode.
 
 ## Resources
 ----
