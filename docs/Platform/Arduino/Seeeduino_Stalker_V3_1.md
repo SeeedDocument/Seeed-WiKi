@@ -214,9 +214,9 @@ Open Arduino IDE, **File > Sketchbook > ReadBattery** to open the example.
 The voltage of the battery is related to the battery quantity. Below is a reference, but please know that it's not for every battery, for a certain battery, the data may a little different. 
 
 
-| Quantity |100%| 90% | 80% | 70% | 60% | 50% | 40% | 30% | 20% | 10% |
-|----------|----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Voltage(V)|4.20|3.84 |3.98 |3.92 |3.87 |3.79 |3.77 |3.74 |3.68 |3.00 |
+| Quantity |100%| 90% | 80% | 70% | 60% | 50% | 40% | 30% | 20% | 10% | 0% |
+|----------|----|-----|-----|-----|-----|-----|-----|-----|-----|-----|----|
+|Voltage(V)|4.20|4.08 |4.00 |3.93 |3.87 |3.82 |3.79 |3.77 |3.73 |3.68 |3.00|
 
 ###GET Charge Status
 
