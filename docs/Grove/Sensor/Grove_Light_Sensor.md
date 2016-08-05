@@ -30,6 +30,14 @@ This document can be **applied to** the following version of products:
 * Small footprint
 * Recognize wider spectrum
 
+###Platform Support
+
+|Arduino|Wio|BeagleBone|Raspberry Pi|LinkIt|
+|---------|-----|-----|------|------|
+|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/arduino_logo.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/wio_logo.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/bbg_logo.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/raspberry_pi_logo.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/linkit_logo.jpg)|
+|YES|YES|YES|YES|YES|
+
+
 ##Specification
 ----
 |Item|Value|
