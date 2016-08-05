@@ -264,14 +264,17 @@ You can also specific which part of the strip be lighted and give a special colo
 ---
 
 Hardware
+
 - [EAGLE Schematic files](https://github.com/SeeedDocument/Wio_Link/raw/master/resource/Wio_Link_SCH_v1.0.rar)
 - [EAGLE PCB file](https://github.com/SeeedDocument/Wio_Link/raw/master/resource/202000877%20Wio%20Link%20v1.0%20sch%20pcb.zip)
 - [Schematic files(pdf)](https://github.com/SeeedDocument/Wio_Link/raw/master/resource/Wio%20Link%20v1.0%20sch.pdf)
 
 Software
+
 - [Source Code on Github.](https://github.com/Seeed-Studio/Wio_Link)
 
 More documentation and references
+
 - [API Reference](http://seeed-studio.github.io/Wio_Link/)
 - [Server Deployment Guide](https://github.com/Seeed-Studio/Wio_Link/wiki/Server%20Deployment%20Guide)
 - [How to write module driver for Wio Link](https://github.com/Seeed-Studio/Wio_Link/wiki/How-to-write-module-driver-for-Wio-Link%3F)
