@@ -30,6 +30,7 @@ pages:
         - RePhone: Platform/RePhone/RePhone.md
     
     - Wio:
+        - Wio Link: Platform/Wio/Wio_Link.md
         - Wio Node: Platform/Wio/Wio_Node.md
     
 - Grove:
