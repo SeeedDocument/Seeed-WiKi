@@ -36,6 +36,7 @@ pages:
 - Grove:
     - Sensor:
         - Grove - Barometer Sensor(BMP280): Grove/Sensor/Grove_Barometer_Sensor_BMP280.md
+        - Grove - Light Sensor: Grove/Sensor/Grove_Light_Sensor.md
 
     - Actuator:
         - Actuator: Grove/Actuator/Actuator.md
