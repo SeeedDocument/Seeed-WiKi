@@ -55,7 +55,7 @@ In fact, we have already designed many projects in our [**recipe**](http://www.s
 |[MAKE IT NOW](http://www.seeed.cc/project_detail.html?id=1081)    |[MAKE IT NOW](http://www.seeed.cc/project_detail.html?id=1059) |[MAKE IT NOW](http://www.seeed.cc/project_detail.html?id=1077)|
 
 !!!Note
-Some of the recipe are made for Wio Node, but it can apply to Wio Link too.
+       * Some of the recipe are made for Wio Node, but it can apply to Wio Link too.
 
 ## Hardware Overview
 ---
@@ -88,7 +88,7 @@ Near to the FUNCTION button there’re 2 status Leds, a blue one and a red one. 
 - blink quickly (on 100ms then off 100ms) OTA  
 
 !!!Note
-The BLUE led is attached to GPIO2 which is also the TX pin of UART1. When downloading firmware, the UART1 dumps the data transmitting on UART0 by instinct. So the BLUE led will blink while downloading firmware. After startup the GPIO2 will be configured as a GPIO not TX of UART1.
+     * The BLUE led is attached to GPIO2 which is also the TX pin of UART1. When downloading firmware, the UART1 dumps the data transmitting on UART0 by instinct. So the BLUE led will blink while downloading firmware. After startup the GPIO2 will be configured as a GPIO not TX of UART1.
 
 The RED led is another status led which indicates the power status of Grove modules. All the six Grove interface’s VCC converge together and can be controlled with GPIO 15. When the node is in deep sleep mode, all the grove modules lose their power too. The RED led will light on when Grove modules are powered and will go off when Grove modules aren’t powered.
 
@@ -98,7 +98,7 @@ Wio Link has an inbuilt LiPo battery charger, so you can charge 3.7v LiPo batter
 ![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/500px-Wio_Link_Battery.jpg)
 
 !!!Note
-Battery needs to be bought separately. Please visit Bazzar where we arranged many choices for you.
+     * Battery needs to be bought separately. Please visit [Bazzar](https://www.seeedstudio.com/s/Battery.html) where we arranged many choices for you.
 
 ## Get Started
 ---
@@ -113,6 +113,7 @@ Let us build a very basic LED application with Wio Link, in this application you
 !!!NOTE
     * A smartphone is needed as well (Android OS version 4.1 or advanced, iOS version 7 or advanced)
     * Grove - LED include a Grove cable already
+
 ### **STEP 1:** Install Android/iOS App
 You need to install the Wio Link App to manage and configure your Wio Link devices.
 
@@ -123,14 +124,14 @@ Download the Android or iOS App and install. Or you can go to App Store of Apple
 |[Get Android App](https://play.google.com/store/apps/details?id=cc.seeed.iot.ap)|[Get iOS App](https://itunes.apple.com/us/app/wio-link/id1054893491?mt=8)|
 
 !!!Note
-    Make sure your Android OS version is 4.1 or advanced, iOS version is 7 or advanced.
+    * Make sure your Android OS version is 4.1 or advanced, iOS version is 7 or advanced.
 
 ### **STEP 2:** Create your Account
 - If it is your first time to use Wio APP, it may require GPS authorization, please approve it, then sign up.
 - If you already have an account, check the server location before logging in.
 
 !!!Note
-Please pay attention to the server location, because wrong server location will lead to failure when connecting to Wio Link.
+    * Please pay attention to the server location, because wrong server location will lead to failure when connecting to Wio Link.
 
 [![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/Wio%20App/sign%20in%2Blog%20in%2Bchoose%20server.png)](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/Wio%20App/sign%20in%2Blog%20in%2Bchoose%20server.png)
 
@@ -218,9 +219,10 @@ If you have successfully controlled the grove-led with your smartphone, and want
 
 Before you start, please check if you have below devices on hand.
 
-|![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/RGB%20LED%20Strip.jpg)|![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/grove-T%26H%20sensor.jpg)|
+|RGB Led strip|Grove-Temperature and Humidity Sensor|
 |:---:|:---:|
-|[RGB Led strip](https://www.seeedstudio.com/s/led%20strip.html)|[Grove-Temperature and Humidity Sensor](https://www.seeedstudio.com/Grove-Temp%26Humi-Sensor-p-745.html)|
+|![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/RGB%20LED%20Strip.jpg)|![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/grove-T%26H%20sensor.jpg)|
+|[Get One Now](https://www.seeedstudio.com/s/led%20strip.html)|[Get One Now](https://www.seeedstudio.com/Grove-Temp%26Humi-Sensor-p-745.html)|
 
 
 - Step1: Remove the Grove LED from the grove connector, plug the Led strip to Wio Link and drag the same module to Wio Link in the App.
@@ -249,7 +251,7 @@ Because the Wio Link App read hex RGB value, RGB value need to be converted to h
 ![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/FF0000.png)
 
 !!!Note
-The RGB value you input should be any nature number between 0 and 255 (Including 0 and 255)
+    * The RGB value you input should be any nature number between 0 and 255 (Including 0 and 255)
 
 Then input how many Leds you want to lighten and the hex value in the app, here my Led strip has 30 Leds, so I lighten all of them.
 
@@ -261,17 +263,19 @@ You can also specific which part of the strip be lighted and give a special colo
 ## Resource
 ---
 
-- Hardware
-   - [EAGLE Schematic files](https://github.com/SeeedDocument/Wio_Link/raw/master/resource/Wio_Link_SCH_v1.0.rar)
-   - [EAGLE PCB file](https://github.com/SeeedDocument/Wio_Link/raw/master/resource/202000877%20Wio%20Link%20v1.0%20sch%20pcb.zip)
-   - [Schematic files(pdf)](https://github.com/SeeedDocument/Wio_Link/raw/master/resource/Wio%20Link%20v1.0%20sch.pdf)
-- Software
-   - [Source Code on Github.](https://github.com/Seeed-Studio/Wio_Link)
-- More documentation and references
-   - [API Reference](http://seeed-studio.github.io/Wio_Link/)
-   - [Server Deployment Guide](https://github.com/Seeed-Studio/Wio_Link/wiki/Server%20Deployment%20Guide)
-   - [How to write module driver for Wio Link](https://github.com/Seeed-Studio/Wio_Link/wiki/How-to-write-module-driver-for-Wio-Link%3F)
-   - [iot.seeed.cc](http://iot.seeed.cc/index.html) to get more info.
+Hardware
+- [EAGLE Schematic files](https://github.com/SeeedDocument/Wio_Link/raw/master/resource/Wio_Link_SCH_v1.0.rar)
+- [EAGLE PCB file](https://github.com/SeeedDocument/Wio_Link/raw/master/resource/202000877%20Wio%20Link%20v1.0%20sch%20pcb.zip)
+- [Schematic files(pdf)](https://github.com/SeeedDocument/Wio_Link/raw/master/resource/Wio%20Link%20v1.0%20sch.pdf)
+
+Software
+- [Source Code on Github.](https://github.com/Seeed-Studio/Wio_Link)
+
+More documentation and references
+- [API Reference](http://seeed-studio.github.io/Wio_Link/)
+- [Server Deployment Guide](https://github.com/Seeed-Studio/Wio_Link/wiki/Server%20Deployment%20Guide)
+- [How to write module driver for Wio Link](https://github.com/Seeed-Studio/Wio_Link/wiki/How-to-write-module-driver-for-Wio-Link%3F)
+- [iot.seeed.cc](http://iot.seeed.cc/index.html) to get more info.
 
 
 ## FAQ
