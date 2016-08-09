@@ -21,10 +21,10 @@ This document can be applied to the following version of products:
 
 |Version|Released Date|How to Buy|
 |--------|-----------|-----------|
-|Seeeduino V4.0 | | EOL		|
-|Seeeduino V4.2 | |[![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now_small.png)](http://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html)|
+|Seeeduino V4.0 |Aug 15, 2014|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/EOL.png)|
+|Seeeduino V4.2 |Aug 24, 2015|[![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now_small.png)](http://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html)|
 
-###Difference Seeeduino V4.0 and Seeeduino V4.2
+###What's New in Seeeduino V4.2
 
 There're many updates from V4.0 to V4.2. Listed below:
 
@@ -41,7 +41,7 @@ There're many updates from V4.0 to V4.2. Listed below:
 * Robot
 * Learning
 
-Here are some funny project for your reference.
+Here is some funny project for your reference.
 
 |Paper Man|Fingerprint Lock|Monitor Stand|
 |-------|-------|-------|
@@ -90,7 +90,7 @@ Here are some funny project for your reference.
 !!!Note
     This part is based on Seeeduino V4.2
 
-The images below shows an overview of Seeeduino v4.2 hardware features. The pin-out and alternate functions of various pins of Seeeduino v4.2 are shown in the pin-out diagram. This could be used as a quick reference.
+The images below show an overview of Seeeduino v4.2 hardware features. The pin-out and alternate functions of various pins of Seeeduino v4.2 are shown in the pin-out diagram. This could be used as a quick reference.
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/hardware.JPG)
 
@@ -99,13 +99,13 @@ An LED is connected to D13 pin of the board. This can be used as an on-board LED
 - **USB Input**
 USB Port is used to connect the board to your PC for programming and for powering up. Micro USB is the ubiquitous version of USB, found in most Android phones, and other devices. You probably have dozens of these cables laying around your house.
 - **RX/TX Indicator**
-The TX and RX LED indicators are connected to Txd and Rxd of USB-to-UART chip. They work automatically, they let you know when the board is sending or receiving data respectively.
+The TX and RX LED indicators are connected to TX and RX of USB-to-UART chip. They work automatically, they let you know when the board is sending or receiving data respectively.
 - **System Power Switch**
-Slide switch is used to change the logic level and operating voltage of the board to either 5V or 3.3V. Nowadays, many new and great sensors are being developed to work only with 3.3V, with other *duino boards you would need to place a logic level converter between the board and these sensor(s). With the Seeeduino V4.2 board all you have to do is slide the switch!
+Slide switch is used to change the logic level and operating voltage of the board to either 5V or 3.3V. Nowadays, many new and great sensors are being developed to work only with 3.3V, with other Arduino boards you would need to place a logic level converter between the board and these sensor(s). With the Seeeduino V4 board all you have to do is slide the switch!
 - **DC Input**
-The DC power jack allows your Seeeduino board to be powered from a wall adapter so that you can supply more power to your project if needed. For example when using DC motors or other high power devices. The DC input can be 7V-15V.
+The DC power jack allows your Seeeduino board to be powered from a wall adapter so that you can supply more power to your project if needed. For example, when using DC motors or other high power devices. The DC input can be 7V-15V.
 - **Reset**
-This button is conveniently placed on the side to allow you to reset the Seeeduino board even when a shield is placed on top. This is not the case in other -duino boards where the button is placed on top making it hard to access.
+This button is conveniently placed on the side to allow you to reset the Seeeduino board even when a shield is placed on top. This is not the case in other Arduino boards where the button is placed on top making it hard to access.
 - **Power Pins & Analog Pins**
 Just like the extra Digital header pads, these extra connections are something we have personally come to realize people need in their projects, especially the power connections if you want to power more than one sensor/device without the use of a breadboard.
 - **Grove Connectors**
@@ -115,7 +115,7 @@ This is the ICSP connection for the ATmega328P, it is located in the standard IC
 - **USB 2 Uart**
 Pinout of USB-2-Uart. These pads can be used to interact with other UART devices by putting the on-board ATmega328 in reset mode. This makes Seeeduino V4.2 to be used a USB2UART utility board.
 - **Additional 0.1" Grid aligned header Pads**
-Sometimes it is very convenient to connect a sensor/device to your board directly instead of going through a breadboard, or perhaps you want to solder the sensor directly to the board once you've completed your project, or maybe you want to monitor the output of the pins while they're been used by other devices. In any cases we have added these extra pads to help you along the way. These pads are aligned in 0.1" grid and can conveniently work with general purpose dot-matrix PCBs .
+Sometimes it is very convenient to connect a sensor/device to your board directly instead of going through a breadboard, or perhaps you want to solder the sensor directly to the board once you've completed your project, or maybe you want to monitor the output of the pins while they're been used by other devices. In any cases we have added these extra pads to help you along the way. These pads are aligned in 0.1" grid and can conveniently work with general purpose dot-matrix PCBs.
 
 !!!Warning
     Take gentle care in handling micro USB socket, or you might break the socket off.
@@ -125,7 +125,7 @@ Sometimes it is very convenient to connect a sensor/device to your board directl
 First of all, you need to:
 
 * **Get a Micro-USB cable**
-    * You need a Micro-USB cable first, the data cable of an Android Phone will do fine.
+    * You need a Micro-USB cable first; the data cable of an Android Phone will do fine.
 If you can't find one, you can buy one [here](http://www.seeedstudio.com/depot/Micro-USB-Cable-48cm-p-1475.html?cPath=98_100).
 
 * **Connect the board**
@@ -158,7 +158,7 @@ You don't need to install any drivers.
 !!!Note
     This part is based on Arduino 1.6.9 under Windows 10.
     
-First of all , you need to Install an Arduino Software.
+First of all, you need to Install an Arduino Software.
 
 [![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Stalker_V3_1/master/images/Download_IDE.png)](https://www.arduino.cc/en/Main/Software)
 
@@ -178,7 +178,7 @@ Open the LED blink example sketch: **File > Examples >01.Basics > Blink**.
 ###Add Seeeduino to your Arduino IDE
 
 Click on **File > Preference**, and fill Additional Boards Manager URLs with below url:
-    https://raw.githubusercontent.com/Seeed-Studio/Seeeduino-Boards/master/package_seeeduino_index.json
+    *https://raw.githubusercontent.com/Seeed-Studio/Seeeduino-Boards/master/package_seeeduino_index.json*
 
 Click OK to finish the setting. Then Click on **Tools > Board > Boards Manager**, find **Seeeduino by Seeed Studio**, and Install it.
 
@@ -206,22 +206,53 @@ A few seconds after the upload finishes, you should see the pin 13 (L) LED on th
 
 For using on Linux, please go to [Installing Arduino on Linux](http://playground.arduino.cc/Learning/Linux)
 
-##Resources/References
+##Resources
 
-**Resources**
+* **Schematic**
+    * [Seeeduino V4.2 in EAGLE file](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/SeeeduinoV4.2.zip)
+    * [Seeeduino V4.2 in PDF](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/Seeeduino_v4.2_sch.pdf)
+    * [Seeeduino V4.0 in EAGLE file](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/Seeeduino_v4.0_sch.pdf)
+    * [Seeeduino V4.0 in PDF](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/Seeeduino_v4.0_sch.pdf)
 
-- [Schematic and PCB files Seeeduino V4.2 in EAGLE format](http://www.seeedstudio.com/wiki/images/8/8a/SeeeduinoV4.2.zip)
-- [Schematic of Seeeduino V4.2 in PDF](http://www.seeedstudio.com/wiki/File:Seeeduino_v4.2_sch.pdf)
-- [ATMEGA328P-MU Summary](http://www.atmel.com/Images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Summary.pdf)
-- [ATMEGA16U2 Summary](http://www.atmel.com/Images/7799S.pdf)
-- [Other Version of Seeeduino](http://www.seeedstudio.com/wiki/Seeeduino)
-- [Driver for Seeeduino V4.2](http://www.seeedstudio.com/wiki/images/f/fa/Driver_seeeduino_v4.2.zip)
+* **Datasheet**
+    * [ATmega328P](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/ATmega328.pdf)
+    * [ATmega16U2](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/ATmega16u2.pdf)
 
-**References**
+* **[Download above all](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/resources_seeeduino_v4.zip)**
 
-- [Getting Started with Arduino](https://www.arduino.cc/en/Guide/HomePage)
-- [Arduino Language Reference](https://www.arduino.cc/en/Reference/HomePage)
-- [Download the Arduino Software(IDE)](https://www.arduino.cc/en/Main/Software)
-- [Arduino FAQ](https://www.arduino.cc/en/Main/FAQ)
-- [Arduino Introduction](https://www.arduino.cc/en/guide/introduction)
-- [Wikipedia page for Arduino](https://en.wikipedia.org/wiki/Arduino)
+* **References**
+    * [Getting Started with Arduino](https://www.arduino.cc/en/Guide/HomePage)
+    * [Arduino Language Reference](https://www.arduino.cc/en/Reference/HomePage)
+    * [Download the Arduino Software(IDE)](https://www.arduino.cc/en/Main/Software)
+    * [Arduino FAQ](https://www.arduino.cc/en/Main/FAQ)
+    * [Arduino Introduction](https://www.arduino.cc/en/guide/introduction)
+    * [Wikipedia page for Arduino](https://en.wikipedia.org/wiki/Arduino)
+
+##FAQ
+
+####Q1. What's the different between Arduino UNO and Seeeduino V4
+
+Seeeduino V4 is fully compatible with Arduino UNO. The mainly difference list below:
+
+* Use a micro USB to power and program the board
+* 3 on-board Grove connector
+* 3.3/5V system power switch
+* DCDC circuit instead of LDO, more efficiency
+* Others circuit improve
+
+####Q2. I can't upload my sketch to Seeeduino V4
+
+Please check,
+
+* If the Power LED on
+* If you choose the right Port and Board (Seeeduino V4)
+* Close and reopen Arduino IDE and try again
+
+####Q3. Where can I find technical support if I have some other issue. 
+
+You can post a question to [Seeed Forum](http://www.seeed.cc/discover.html?t=Arduino) or send an email to **techsupport@seeed.cc**.
+
+
+##Help us to make it better
+
+<iframe style="height: 600px; width: 700px; margin: 10px 0 10px;" allowTransparency="true" src="https://www.surveymonkey.com/r/YMJVL8N" frameborder="0"></iframe>

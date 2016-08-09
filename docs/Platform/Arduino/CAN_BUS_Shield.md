@@ -1,17 +1,30 @@
 #CAN-BUS Shield
 ----
 ##Introduction
+----
 
 ![](https://github.com/SeeedDocument/CAN_BUS_Shield/blob/master/image/Can_bus_shield_all.jpg?raw=true)
 
 **CAN-BUS** is a common industrial bus because of its long travel distance, medium communication speed and high reliability. It is commonly found on modern machine tools and as an automotive diagnostic bus. 
 
-This CAN-BUS Shield adopts **MCP2515** CAN Bus controller with SPI interface and **MCP2551** CAN transceiver to give your Arduino/Seeeduino CAN-BUS capibility. With an **OBD-II** converter cable added on and the OBD-II library imported, you are ready to build an onboard diagnostic device or data logger.
+This CAN-BUS Shield adopts **MCP2515** CAN Bus controller with SPI interface and **MCP2551** CAN transceiver to give your Arduino/Seeeduino CAN-BUS capability. With an **OBD-II** converter cable added on and the OBD-II library imported, you are ready to build an onboard diagnostic device or data logger.
 
+###Version
 
-[![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now.png)](http://www.seeedstudio.com/depot/CANBUS-Shield-V12-p-2256.html)
+This document can be applied to the following version of products:
+
+|Version|Released Date|How to Buy|
+|--------|-----------|-----------|
+|CAN BUS Shield V1.0 |Oct 14, 2012|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/EOL.png)|
+|CAN BUS Shield V1.1 |Aug 10, 2013|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/EOL.png)|
+|CAN BUS Shield V1.2|Jan 5, 2015|[![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now_small.png)](http://www.seeedstudio.com/CAN-BUS-Shield-V1.2-p-2256.html)|
+
+###What's new in CAN BUS Shield V1.2
+* Pads on the back of PCBA
+* Change terminal resistor to 120 Ohm
 
 ##Features
+-----
 
 - Implements CAN V2.0B at up to **1 Mb/s**
 - SPI Interface up to **10 MHz**
@@ -20,12 +33,16 @@ This CAN-BUS Shield adopts **MCP2515** CAN Bus controller with SPI interface and
 - Industrial standard DB-9 connector
 - LED indicators
 
+!!!Note
+    CAN BUS Shield Work well with Arduino UNO (ATmega328), Arduino Mega (ATmega1280/2560) as well as Arduino Leonardo (ATmega32U4).
+    
 ##Hardware Overview
+-----
 
 ![](https://github.com/SeeedDocument/CAN_BUS_Shield/blob/master/image/hardware_overview_1.png?raw=true)
 
 1. **DB9 Interface** - to connect to OBDII Interface via a DBG-OBD Cable.
-2. **V_OBD** - If get power from OBDII Interface(from DB9)
+2. **V_OBD** - If get power from OBDII Interface (from DB9)
 3. **Led Indicator**:
     - **PWR**: power
     - **TX**: blink when the data is sending
@@ -37,7 +54,7 @@ This CAN-BUS Shield adopts **MCP2515** CAN Bus controller with SPI interface and
 7. **I2C Grove connector**
 8. **ICSP pins**
 9. **IC** - MCP2551, a high-speed can transceiver ([datasheet](https://github.com/SeeedDocument/CAN_BUS_Shield/raw/master/resource/Mcp2551.pdf))
-10. **IC** - MCP2515, stand-alone CAN controller wth SPI interface ([datasheet](https://github.com/SeeedDocument/CAN_BUS_Shield/raw/master/resource/MCP2515.pdf))
+10. **IC** - MCP2515, stand-alone CAN controller with SPI interface ([datasheet](https://github.com/SeeedDocument/CAN_BUS_Shield/raw/master/resource/MCP2515.pdf))
 
 
 !!!warning
@@ -57,7 +74,7 @@ This CAN-BUS Shield adopts **MCP2515** CAN Bus controller with SPI interface and
 
 ###CS pin
 
-SPI_CS pin of V1.2 is fefault to **D9**. If you want to change it to **D10**. Take a look at the back of the PCBA, you will find a pad named CS. You can cut the wire that at the left of the pad with a box cutter, and the solder the right 2 pads. 
+SPI_CS pin of V1.2 is default to **D9**. If you want to change it to **D10**. Take a look at the back of the PCBA, you will find a pad named CS. You can cut the wire that at the left of the pad with a box cutter, and the solder the right 2 pads. 
 
 !!!warning
     Be careful when you are going to change CS pin, it's easy to hear yourself or the PCBA.
@@ -66,7 +83,7 @@ SPI_CS pin of V1.2 is fefault to **D9**. If you want to change it to **D10**. Ta
 
 ###SPI pins
 
-The SPI pins(SCK, MISO, MOSI) is default to the ICSP pins. But for some Boards, maybe the SPI pins is at D11~D13, if so you need to change something in the PCBA. Take a look that the back of the PCBA, there're there pads, MOSI, MISO and SCK, they are default to A. You can change them to B if needed.
+The SPI pins (SCK, MISO, MOSI) is default to the ICSP pins. But for some Boards, maybe the SPI pins is at D11~D13, if so you need to change something in the PCBA. Take a look that the back of the PCBA, there're three pads, MOSI, MISO and SCK, they are default to A. You can change them to B if needed.
 
 !!!note
     For Arduino UNO, Arduino Mega, Arduino Leonardo and any others AVR based Arduino boards, default is working. 
@@ -76,6 +93,7 @@ The SPI pins(SCK, MISO, MOSI) is default to the ICSP pins. But for some Boards, 
 
 
 ##Getting Started
+-----
 
 Here's a simple demo to show you how CAN-BUS Shield works. In this demo we need 2 piece of CAN-BUS Shield as well as Arduino/Seeeduino.
 
@@ -93,7 +111,7 @@ Here's a simple demo to show you how CAN-BUS Shield works. In this demo we need 
 
 ###STEP2: Hardware Connection
 
-Insert each CAN-BUS Shield to Seeeduino V4.2, and connect the 2 CAN-BUS Shield togeter via 2 jumper wires. Shown as below images. 
+Insert each CAN-BUS Shield to Seeeduino V4.2, and connect the 2 CAN-BUS Shield together via 2 jumper wires. Shown as below images. 
 
 ![](https://raw.githubusercontent.com/SeeedDocument/CAN_BUS_Shield/master/image/connection.png)
 
@@ -108,7 +126,7 @@ Click on the below button to download the library.
 
 Install the library to your Arduino IDE when it is downloaded. 
 
-Of of the node(a node means Seeeduino + CAN_BUS Shield) act as master, the other act as slaver. The master will send data to slaver constantly. 
+Of of the node (a node means Seeeduino + CAN_BUS Shield) act as master, the other act as slaver. The master will send data to slaver constantly. 
 
 !!!note
     Each node can act at master before the code is uploaded. 
@@ -124,12 +142,13 @@ Open the Serial Monitor of Arduino IDE(**slaver**), you will get the data sent f
 ![](https://raw.githubusercontent.com/SeeedDocument/CAN_BUS_Shield/master/image/serial_monitor.png)
 
 ##APIs
+-----
 
-###1. Set the Baudrate
+###1. Set the Baud rate
 
-This function is used to initialize the baudrate of the CAN Bus system.
+This function is used to initialize the baud rate of the CAN Bus system.
 
-The available baudrates are listed as follws:
+The available baud rates are listed as follows:
 
 	#define CAN_5KBPS    1
 	#define CAN_10KBPS   2
@@ -267,6 +286,7 @@ Then you can use the baud rate you need. And please give me a pull request at gi
 
 
 ##Projects
+-----
 
 If you want to make some awesome projects with CAN-BUS shield, here's some projects for reference.
 
@@ -284,14 +304,15 @@ Ever wanted to play a car/truck simulator with a real dashboard on your PC? Me t
 
 Modern Vehicles all come equipped with a CAN-BUS Controller Area Network, Instead of having a million wires running back and forth from various devices in your car to the battery, its making use of a more clever system.
 
-All electronic functions are connected to the TIPM, (Totally integrated Power Module), such as solenoids/relays to lock the doors or mini motors to wind the windows ect ect.
-
-From each node (IE Switch pod that controls your windows or electric door locks) it broadcasts a message across the CAN. When the TIPM detects a valid message it will react accordingly like, lock the doors , switch on lights and so on.
+All electronic functions are connected to the TIPM, (Totally integrated Power Module), such as solenoids/relays to lock the doors or mini motors to wind the windows etc.
+ 
+From each node (IE Switch pod that controls your windows or electric door locks) it broadcasts a message across the CAN. When the TIPM detects a valid message it will react accordingly like, lock the doors, switch on lights and so on.
 
 
 [![](https://github.com/SeeedDocument/CAN_BUS_Shield/blob/master/image/Wiki_makeitnow_logo.png?raw=true)](http://www.instructables.com/id/Hack-your-vehicle-CAN-BUS-with-Arduino-and-Seeed-C/)
 
 ##Resources
+-----
 
 * **【PDF】**[CAN-BUS Shield V1.2 Schmatics](https://github.com/SeeedDocument/CAN_BUS_Shield/raw/master/resource/CAN-BUS_Shield_v1.2.pdf)
 * **【Eagle】**[Schematic of CAN-BUS Shield V1.2](https://github.com/SeeedDocument/CAN_BUS_Shield/raw/master/resource/CAN-BUS_Shield_v1.2_sch_pcb.zip) 
@@ -302,4 +323,4 @@ From each node (IE Switch pod that controls your windows or electric door locks)
 * 【**Tool】**[MCP2515 Baud Rate Tool](https://github.com/SeeedDocument/CAN_BUS_Shield/raw/master/resource/CAN_Baudrate_CalcV1.3.zip)
 
 ##Is this page helpful
-<iframe style="height: 600px; width: 500px; margin: 10px 0 10px;" allowTransparency="true" src="https://www.surveymonkey.com/r/32WG3KT" frameborder="0"></iframe>
+<iframe style="height: 600px; width: 700px; margin: 10px 0 10px;" allowTransparency="true" src="https://www.surveymonkey.com/r/32WG3KT" frameborder="0"></iframe>
