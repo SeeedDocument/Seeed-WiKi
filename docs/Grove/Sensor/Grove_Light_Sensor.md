@@ -108,12 +108,12 @@ If you don't need a Grove - LED Bar, there's another example you can try, Open A
 
 Here we will show you a project made with Grove - Light Sensor - Secret Box. First you need a box, a paper box, wooden box, any box is ok. Put something in the box, because we named it secret box, that means we don't want anybody to open it, otherwise there will be an alarm to inform you. 
 
-Here we will use LinkIt ONE as the controller, which is an Arduino compatible board and consist of rich function. And you need things below:
+Here we use LinkIt ONE as the controller, which is an Arduino compatible board and consist of rich function. And you need things below:
 
 * [LinkIt ONE](http://www.seeedstudio.com/LinkIt-ONE-p-2017.html)
 * Grove - Light Sensor
 * Grove - Base Shield
-* A Sim card
+* A Sim Card
 
 Let's connect Grove - Light Sensor to A0 or Base Shield, and open Arduino IDE, **File > Sketchbook > SecretBox**, what you need to do is upload the example to LinkIt ONE. Then someone open the box, the light will detect it, and send you a SMS. 
 
