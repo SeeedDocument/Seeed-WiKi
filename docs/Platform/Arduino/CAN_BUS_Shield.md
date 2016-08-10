@@ -11,7 +11,7 @@ This CAN-BUS Shield adopts **MCP2515** CAN Bus controller with SPI interface and
 
 ###Version
 
-This document can be applied to the following version of products:
+This document applies to the following version of products:
 
 |Version|Released Date|How to Buy|
 |--------|-----------|-----------|
@@ -321,6 +321,22 @@ From each node (IE Switch pod that controls your windows or electric door locks)
 * **【Datasheet】**[MCP2551 datasheet](https://github.com/SeeedDocument/CAN_BUS_Shield/raw/master/resource/Mcp2551.pdf)
 * **【Demo】**[An OBD Demo](https://github.com/Seeed-Studio/CANBUS_SHIELD_OBD_RECIPLE)
 * 【**Tool】**[MCP2515 Baud Rate Tool](https://github.com/SeeedDocument/CAN_BUS_Shield/raw/master/resource/CAN_Baudrate_CalcV1.3.zip)
+
+##FAQ
+------
+####Q1: I can't get data from other CAN device.
+
+* Check if the connection is right
+* Check if the baud rate set right
+
+####Q2: The serial monitor print Init Fail.
+
+* Check if the CS pin set right in the code. For CAN Bus Shield V1.1/1.2, CS pin is default to D9, others default to D10.
+
+####Q3. Where can I find technical support if I have some other issue. 
+
+* You can post a question to [Seeed Forum](http://www.seeed.cc/discover.html?t=Arduino) or send an email to **techsupport@seeed.cc**.
+
 
 ##Is this page helpful
 <iframe style="height: 600px; width: 700px; margin: 10px 0 10px;" allowTransparency="true" src="https://www.surveymonkey.com/r/32WG3KT" frameborder="0"></iframe>

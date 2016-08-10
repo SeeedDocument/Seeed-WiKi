@@ -10,6 +10,21 @@ Seeeduino Stalker V3.1 is not just a simple update of V3.0.The main surprise you
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Stalker_V3_1/master/images/cover.JPG)
 
+###Version Track
+
+|Version|Released Date|How to Buy|
+|--------|-----------|-----------|
+|Seeeduino Stalker V1.0|Dec23, 2009|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/EOL.png)|
+|Seeeduino Stalker V2.0|Dec10, 2010|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/EOL.png)|
+|Seeeduino Stalker V2.1|Oct3, 2011|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/EOL.png)|
+|Seeeduino Stalker V2.2|Dec27, 2011|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/EOL.png)|
+|Seeeduino Stalker V2.3|Jan10, 2013|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/EOL.png)|
+|Seeeduino Stalker V3.0|Jun6, 2014|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/EOL.png)|
+|Seeeduino Stalker V3.0|Jul10,2016|[![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now_small.png)](http://www.seeedstudio.com/Seeeduino-Stalker-V3.1-p-2686.html)|
+
+
+###What's new in Seeeduino Stalker V3.1
+
 **Improve Power Management**
 
 In V3.1, when MCU is in sleep mode, all other power supplement, including Bee area port, 3.3v port, VCC can be cut off manually, so that power can really be saved.
@@ -20,7 +35,6 @@ There is a toggle switch added to X-bee area, which allows you to select either 
 
 We also added 2 toggle switch on RTC circuitry corresponding 2 INT pin of MCU, so that users can easily choose which INT pin to be connected with RTC INT port then activate MCU.
 
-[![Get one now](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/300px-Get_One_Now_Banner.png)](http://www.seeedstudio.com/Seeeduino-Stalker-V3.1-p-2686.html)
 
 ##Features
 ----
@@ -256,7 +270,19 @@ Open Arduino IDE, **File > Sketchbook > StalkerV30_DataLogger_10Sec** to open th
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Stalker_V3_1/master/images/data_log_example.png)
 
-##Q&A
+
+##Resources
+---
+* **Schematic**
+  * [Schematic in **Eagle**](https://github.com/SeeedDocument/Seeeduino_Stalker_V3_1/raw/master/resources/202000956_Seeeduino%20Stalker%20v3.1.zip)
+  * [Schematic in **PDF**](https://github.com/SeeedDocument/Seeeduino_Stalker_V3_1/raw/master/resources/Seeeduino%20Stalker%20v3.1.pdf)
+* **Datasheet**
+  * [DS1307](https://github.com/SeeedDocument/Seeeduino_Stalker_V3_1/raw/master/resources/ds1307.pdf)
+  * [CN3065](https://github.com/SeeedDocument/Seeeduino_Stalker_V3_1/raw/master/resources/DSE-CN3065.pdf)
+  * [ETA3406](https://github.com/SeeedDocument/Seeeduino_Stalker_V3_1/raw/master/resources/eta3406.pdf)
+* [Sketchbook](https://github.com/Seeed-Studio/Sketch_Stalker_V3_1)
+
+##FAQ
 ----
 
 Here are some questions that we usually received from new users. If you have any other issues when you are using Seeeduino Stalker V3.1, welcome to the [Community of Arduino](http://www.seeed.cc/discover.html?t=Arduino) where there are many professional users waiting to give you advices and also many advanced users providing plenty of ideas on how to use this products! 
@@ -273,17 +299,6 @@ Here are some questions that we usually received from new users. If you have any
 **Q4:** The solar pannel can't charge the lipo battery.
 > Make sure your solar pannel is able to supple 4.5~6V voltage.
 
-##Resources
----
-* **Schematic**
-  * [Schematic in **Eagle**](https://github.com/SeeedDocument/Seeeduino_Stalker_V3_1/raw/master/resources/202000956_Seeeduino%20Stalker%20v3.1.zip)
-  * [Schematic in **PDF**](https://github.com/SeeedDocument/Seeeduino_Stalker_V3_1/raw/master/resources/Seeeduino%20Stalker%20v3.1.pdf)
-* **Datasheet**
-  * [DS1307](https://github.com/SeeedDocument/Seeeduino_Stalker_V3_1/raw/master/resources/ds1307.pdf)
-  * [CN3065](https://github.com/SeeedDocument/Seeeduino_Stalker_V3_1/raw/master/resources/DSE-CN3065.pdf)
-  * [ETA3406](https://github.com/SeeedDocument/Seeeduino_Stalker_V3_1/raw/master/resources/eta3406.pdf)
-* [Sketchbook](https://github.com/Seeed-Studio/Sketch_Stalker_V3_1)
-
 ## Help us to make it better
 ----
-<iframe style="height: 600px; width: 500px; margin: 10px 0 10px;" allowTransparency="true" src="https://www.surveymonkey.com/r/JK7RKNH" frameborder="0"></iframe>
+<iframe style="height: 600px; width: 700px; margin: 10px 0 10px;" allowTransparency="true" src="https://www.surveymonkey.com/r/JK7RKNH" frameborder="0"></iframe>

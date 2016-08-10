@@ -2,19 +2,22 @@
 
 ##Introduction
 ---
+
+![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/cover.jpg)
+
+
 The Grove - Light sensor a photo-resistor(light dependent resistor) to detect the intensity of light in the environment. The resistance of photo-resistor decreases when the intensity of light increases. A dual OpAmp chip LM358 on board produces voltage corresponding to intensity of light(i.e. based on resistance value). The output signal is analog value, the brighter the light, the larger the value.
 
 This module can be used to build a light controlled switch i.e. switch off lights during day time and switch on lights during night time.
 
 
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/cover.jpg)
 
 !!!Warning
     The light sensor value only reflects the approximated trend of the intensity of light, it DOES NOT represent the exact Lumen. 
     
 
 ###Version Track
-This document can be **applied to** the following version of products:
+This document applies to the following version of products:
 
 | Version 	| Released Date	| How to buy	|
 |-----------|---------------|---------------|

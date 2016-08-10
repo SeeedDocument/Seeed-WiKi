@@ -1,4 +1,4 @@
-#Seeeduino V4.2
+#Seeeduino V4
 -------
 ##Introduction
 
@@ -17,7 +17,7 @@ Finally, the three on-board Grove interfaces can make your board connect to Grov
 
 ###Version
 
-This document can be applied to the following version of products:
+This document applies to the following version of products:
 
 |Version|Released Date|How to Buy|
 |--------|-----------|-----------|
