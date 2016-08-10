@@ -397,7 +397,6 @@ Here's the list of supported Groves so far:
 |101020083 |	Grove - Gesture							|I2C	| [link](http://www.seeedstudio.com/Grove-Gesture-p-2463.html) |
 |101020088 |	Grove - Multichannel Gas Sensor			|I2C	| [link](http://www.seeedstudio.com/Grove-Multichannel-Gas-Sensor-p-2502.html) |
 |103020013 |	Grove - I2C ADC							|I2C	| [link](http://www.seeedstudio.com/Grove-I2C-ADC-p-1580.html) |
-|104030001 |	Grove - LCD RGB Backlight				|I2C	| [link](http://www.seeedstudio.com/Grove-LCD-RGB-Backlight-p-1643.html) |
 |104030008 |	Grove - OLED Display 1.12''				|I2C	| [link](http://www.seeedstudio.com/Grove-OLED-Display-0.96''-p-781.html) |
 |104030011 |	Grove - OLED Display 0.96''				|I2C	| [link](http://www.seeedstudio.com/Grove-OLED-Display-0.96''-p-781.html) |
 |105020001 |	Grove - I2C Motor Driver					|I2C	| [link](http://www.seeedstudio.com/Grove-I2C-Motor-Driver-p-907.html) |
@@ -414,7 +413,6 @@ Here's the list of supported Groves so far:
 |103020018 |	Grove - Recorder							|Others	| [link](http://www.seeedstudio.com/Grove-Recorder-p-1825.html) |
 |104020006 |	Grove - LED Bar v2.0						|Others	| [link](http://www.seeedstudio.com/Grove-LED-Bar-v2.0-p-2474.html) |
 |104030003 |	Grove - 4-Digit Display					|Others	| [link](http://www.seeedstudio.com/Grove-4-Digit-Display-p-1198.html) |
-|111020001 |	Grove - Encoder							|Others	| [link](http://www.seeedstudio.com/Grove-Encoder-p-1352.html) |
 |316010005 |	Grove - Servo							|Others	| [link](http://www.seeedstudio.com/Grove-Servo-p-1241.html) |
 |101020067 |	Grove - CO2 Sensor						|UART	| [link](http://www.seeedstudio.com/Grove-CO2-Sensor-p-1863.html) |
 
