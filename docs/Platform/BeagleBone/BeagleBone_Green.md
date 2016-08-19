@@ -249,7 +249,7 @@ Click on **Write** button, then the process is started.
     * This process may need up to 10 minutes.
 
 
-###STEP6. Boot your board off of the SD card
+###STEP5. Boot your board off of the SD card
 
 Insert SD card into your (powered-down first) board. Then the board will boot from the SD card.
 
