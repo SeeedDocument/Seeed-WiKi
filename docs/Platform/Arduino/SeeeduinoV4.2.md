@@ -182,13 +182,18 @@ Click on **File > Preference**, and fill Additional Boards Manager URLs with bel
 
 Click OK to finish the setting. Then Click on **Tools > Board > Boards Manager**, find **Seeeduino by Seeed Studio**, and Install it.
 
+![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/add_board.png)
 
 ###Select your board
 You'll need to select the entry in the **Tools > Board** menu that corresponds to your Arduino.
 Selecting a **Seeeduino V4**.
 
+![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/select_board.png)
+
 ###Select your serial port
 Select the serial device of the Arduino board from the Tools | Serial Port menu. This is likely to be COM3 or higher (**COM1** and **COM2** are usually reserved for hardware serial ports). To find out, you can disconnect your Arduino board and re-open the menu; the entry that disappears should be the Arduino board. Reconnect the board and select that serial port.
+
+![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/select_port.png)
 
 !!!Note
     On the Mac, this should be something with **/dev/tty.USBmodem**.
@@ -196,7 +201,7 @@ Select the serial device of the Arduino board from the Tools | Serial Port menu.
 ###Upload the program
 Now, simply click the "Upload" button in the environment. Wait a few seconds - you should see the RX and TX LED indicators on the board flashing. If the upload is successful, the message "Done uploading." will appear in the status bar.
 
-![enter image description here](http://www.seeedstudio.com/wiki/images/b/b2/UploadButton1.png)
+![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/upload_button.png)
 
 A few seconds after the upload finishes, you should see the pin 13 (L) LED on the board start to blink (in orange). If it does, congratulations! You've gotten Arduino up-and-running. If you have problems, please see the troubleshooting suggestions.
 
