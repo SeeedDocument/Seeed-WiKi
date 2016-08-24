@@ -37,6 +37,7 @@ pages:
         - Wio Node: Platform/Wio/Wio_Node.md
     
 - Grove:
+    - Grove System: Grove/Grove_System.md
     - Sensor:
         - Grove - Barometer Sensor(BMP280): Grove/Sensor/Grove_Barometer_Sensor_BMP280.md
         - Grove - Light Sensor: Grove/Sensor/Grove_Light_Sensor.md

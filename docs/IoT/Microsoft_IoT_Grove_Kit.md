@@ -14,7 +14,7 @@ In addition to the high performance sensors and actuators, the kit contains a 5 
 Please note this kit DOES NOT include the Raspberry Pi board. Please visit [here](https://www.seeedstudio.com/Boards-for-Raspberry-pi-c-25.html) to purchase separately.
 
 !!!Note
-    GrovePi+ and some of the code was designed by [Dexter](http://www.dexterindustries.com/the-raspberry-pi-2-will-work-with-dexter-industries-products/).  Click to get more information about Dexter. 
+    GrovePi+ and some of the code was designed by [Dexter](http://www.dexterindustries.com/).  Click to get more information about Dexter. 
     
 [![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now.png)](http://www.seeedstudio.com/Microsoft-IoT-Grove-Kit-(Azure-Certified)-p-2694.html)
 
@@ -305,6 +305,6 @@ You can see the Distance Sound Light value and relay state on the LCD Screen. Th
 
 ##See Also
 
-* Windows Dev Center https://dev.windows.com/en-us/iot
-* GrovePi C# Library Code https://github.com/DexterInd/GrovePi/tree/master/Software/CSharp
-* Example Code https://github.com/Seeed-Studio/GrovePiExamples_win10
+* [Windows Dev Center](https://dev.windows.com/en-us/iot)
+* [GrovePi C# Library Code](https://github.com/DexterInd/GrovePi/tree/master/Software/CSharp)
+* [Example Code](https://github.com/Seeed-Studio/GrovePiExamples_win10)
