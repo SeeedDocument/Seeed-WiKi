@@ -11,7 +11,8 @@ pages:
         
     - BeagleBone:
         - BeagleBone Green: Platform/BeagleBone/BeagleBone_Green.md
-        
+        - BeagleBone Green Wireless: Platform/BeagleBone/BeagleBone_Green_Wireless.md
+
     - Raspberry Pi: 
         - Raspberry Pi: Platform/RaspberryPi/RaspberryPi.md
     
