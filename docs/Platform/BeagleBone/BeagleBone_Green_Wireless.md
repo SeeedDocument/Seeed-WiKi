@@ -1,34 +1,36 @@
-----
 ##Introduction
 ----
+
 ![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/BBGW_cover.png?raw=true)
+
 SeeedStudio BeagleBone Green Wireless (BBGW) is a joint effort by BeagleBoard.org and Seeed Studio. It is based on the open-source hardware design of [BeagleBone Black](http://beagleboard.org/black) and developed into this differentiated version. SeeedStudio BeagleBone Green Wireless has included a high-performance flexible WiFi/Bluetooth interface and two Grove connectors, making it easier to connect to the large family of Grove sensors. The on-board HDMI and Ethernet are removed to make room for these wireless features and Grove connectors.
 
 [![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/get_one_now.png?raw=true)](http://www.seeedstudio.com/SeeedStudio-BeagleBone-Green-Wireless-p-2650.html)
 
 ##Features
 ----
-- **Processor: AM335x 1GHz ARM® Cortex-A8**
-  - 512MB DDR3 RAM
-  - 4GB 8-bit eMMC on-board flash storage
-  - 3D graphics accelerator
-  - NEON floating-point accelerator
-  - 2x PRU 32-bit microcontrollers
 
-- **Connectivity**
-  - USB client for power & communications
-  - USB host with 4-port hub
-  - WiFi 802.11 b/g/n 2.4GHz
-  - Bluetooth 4.1 with BLE
-  - 2x 46 pin headers
-  - 2x Grove connectors (I2C and UART)
+* **Processor: AM335x 1GHz ARM® Cortex-A8**
+	* 512MB DDR3 RAM
+	* 4GB 8-bit eMMC on-board flash storage
+	* 3D graphics accelerator
+	* NEON floating-point accelerator
+	* 2x PRU 32-bit microcontrollers
 
-- **Software Compatibility**
-  - Debian
-  - Android
-  - Ubuntu
-  - Cloud9 IDE on Node.js w/ BoneScript library
-  - plus much more
+* **Connectivity**
+	* USB client for power & communications
+	* USB host with 4-port hub
+	* WiFi 802.11 b/g/n 2.4GHz
+	* Bluetooth 4.1 with BLE
+	* 2x 46 pin headers
+	* 2x Grove connectors (I2C and UART)
+
+* **Software Compatibility**
+	* Debian
+	* Android
+	* Ubuntu
+	* Cloud9 IDE on Node.js w/ BoneScript library
+	* plus much more
 
 ##Specification
 ----
@@ -60,9 +62,7 @@ Here are some funny projects for your reference.
 
 ##Getting Started
 !!!Note
-
-
-This chapter is writing under Win10. The steps are familiar for the other operate systems.
+    This chapter is writing under Win10. The steps are familiar for the other operate systems.
 
 ###STEP1. Plug in your BBGW via USB
 Use the provided micro USB cable to plug your BBGW into your computer. This will both power the board and provide a development interface. BBGW will boot Linux from the **on-board 2GB** or 4GB eMMC.
@@ -121,20 +121,27 @@ To begin editing programs that live on your board, you can use the Cloud9 IDE by
 ###STEP5. Connect your BBGW to Wi-Fi 
 
 Using your smart phone or computer to scan local Wi-Fi network and connect to the AP named "BeagleBone XXX"
+
 ![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/wifi1.png?raw=true)
+
 After connection success, it will head to the login page automatically. Select the SSID of your Wi-Fi and enter the passwd, click OK.
+
 ![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/wifi2.png?raw=true)
+
 Now your BBGW is connected to Wi-Fi.
+
 ![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/wifi3.png?raw=true)
 
 ###STEP6. Connect your BBGW to your Bluetooth Device
 
 Connect to Cloud9 IDE and start a new terminal.
 Start the bluetooth config with the command: 
-``
+
+```
 bb-wl18x-bluetooth
 bluetoothctl
-``
+```
+
 ![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/bluetooth1.jpg?raw=true)
 
 Type ``scan on`` to scan local bluetooth devices. My device named "jy" is found. 
@@ -142,12 +149,15 @@ Type ``scan on`` to scan local bluetooth devices. My device named "jy" is found.
 ![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/bluetooth2.jpg?raw=true)
 
 Copy the device mac address, then contect to the device  with the command:
-``
+
+```
 pair 0C:xx:xx:xx:xx:0B
 trust 0C:xx:xx:xx:xx:0B
 connect 0C:xx:xx:xx:xx:0B
-``
+```
+
 ![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/bluetooth3.jpg?raw=true)
+
 Now your BBGW is connected to your bluetooth device. Type ``quit`` back to the terminal.
 Play music on BBGW, then you will hear music on your bluetooth speaker device.
 
@@ -290,19 +300,24 @@ while True:
 ```
 
 - More Tutorials
+
 [Grove - 3-Axis Digital Accelerometer(±16g)
  Grove - Variable Color LED](http://www.seeed.cc/BBGW-starter-tutorial%231-The-breath-LED-p-1641.html)
+
 [Grove - Mini Fan
 Grove - PIR Motion Sensor
 Grove - Rotary Angle Sensor
 ](http://www.seeed.cc/BBGW-starter-tutorial%232%3A-storm-on-your-table-p-1643.html)
+
 [Grove - Relay
 Grove - Sound Sensor
 ](http://www.seeed.cc/BBGW-starter-tutorial%233-Speak-louuuuuudly-p-1644.html)
+
 [Grove - OLED Display 0.96”
 Grove - Light Sensor 
 Grove - Temperature Sensor
 ](http://www.seeed.cc/BBGW-starter-tutorial%234%3AHow-hot-is-it-today%3F-Ask-BBGW!-p-1645.html)
+
 [Grove - GPS
 Grove - Button(P)
 Grove - Buzzer
@@ -310,8 +325,8 @@ Grove - RTC v2.0
 ](http://www.seeed.cc/BBGW-starter-tutorial%235-Where-are-you%3F-p-1648.html)
 
 
+
 ##References and Resources
-----
 ###References
 ----
 There're many references to help you to get more information about the board. 
@@ -331,4 +346,4 @@ There're many references to help you to get more information about the board.
 ##Help us to make it better
 -------
 
-<iframe style="height: 600px; width: 700px; margin: 10px 0 10px;" allowTransparency="true" src="https://www.surveymonkey.com/r/N9DGB9K" frameborder="0"></iframe>
+<iframe style="height: 600px; width: 700px; margin: 10px 0 10px;" allowTransparency="true" src="https://www.surveymonkey.com/r/bbg_w" frameborder="0"></iframe>
