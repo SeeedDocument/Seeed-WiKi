@@ -46,7 +46,7 @@ pages:
         - Actuator: Grove/Actuator/Actuator.md
     
     - Display:
-        - Display: Grove/Display/Display.md
+        - Grove - LCD RGB Backlight: Grove/Display/Grove_LCD_RGB_Backlight.md
     
     - Communication:
         - Communication: Grove/Communication/Communication.md
@@ -59,28 +59,28 @@ pages:
 - Tutorial:
     - Tutorial: Tutorial/Tutorial.md
 
-- SZ2U:
-    - SZ2U: SZ2U/SZ2U.md
+- MakerPro:
+    - MakerPro: SZ2U/SZ2U.md
     
-- About: 
-    - About: about.md
-    - 如何添加一篇文档: Tutorial/update_wiki.md
-    - 文档移植:
-        - 需要做什么: Port/port_main.md
-        - 文档审核: Port/port_review.md
-        - Github的使用: Port/port_github.md
-        - Markdown: Port/port_markdown.md
-        - 一个例子: Port/port_example.md
-        - 常用格式代码: Port/port_normal.md
+#- About: 
+#    - About: about.md
+#    - 如何添加一篇文档: Tutorial/update_wiki.md
+#    - 文档移植:
+#        - 需要做什么: Port/port_main.md
+#        - 文档审核: Port/port_review.md
+#        - Github的使用: Port/port_github.md
+#        - Markdown: Port/port_markdown.md
+#        - 一个例子: Port/port_example.md
+#        - 常用格式代码: Port/port_normal.md
         
-- Wiki migration manuals for Seeedia team:
-        - Review the Wiki: Wiki migration manuals for Seeedia team/Review_the_Wiki.md
-        - How to use github: Wiki migration manuals for Seeedia team/How_to_use_github.md
-        - Mark Down: Wiki migration manuals for Seeedia team/Mark_Down.md
-        - Summary: Wiki migration manuals for Seeedia team/Summary.md
+#- Wiki migration manuals for Seeedia team:
+#        - Review the Wiki: Wiki migration manuals for Seeedia team/Review_the_Wiki.md
+#        - How to use github: Wiki migration manuals for Seeedia team/How_to_use_github.md
+#        - Mark Down: Wiki migration manuals for Seeedia team/Mark_Down.md
+#        - Summary: Wiki migration manuals for Seeedia team/Summary.md
         
-- New System Style:
-        - New System Style: New document system style/New_system_style.md 
+#- New System Style:
+#        - New System Style: New document system style/New_system_style.md 
         
 theme: readthedocs
 
