@@ -45,12 +45,15 @@ pages:
     - Sensor:
         - Grove - Barometer Sensor(BMP280): Grove/Sensor/Grove_Barometer_Sensor_BMP280.md
         - Grove - Light Sensor: Grove/Sensor/Grove_Light_Sensor.md
+        - Grove - Barometer Sensor(BMP280): Grove/Sensor/Grove_Barometer_Sensor_BMP280.md
+        - Grove - Sound Sensor: Grove/Sensor/Grove_Sound_Sensor.md
 
     - Actuator:
         - Actuator: Grove/Actuator/Actuator.md
     
     - Display:
         - Grove - LCD RGB Backlight: Grove/Display/Grove_LCD_RGB_Backlight.md
+        - Grove - OLED Display 1.12``: Grove/Display/Grove_OLED_Dispaly_1.12.md
     
     - Communication:
         - Communication: Grove/Communication/Communication.md
