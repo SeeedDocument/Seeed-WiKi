@@ -9,6 +9,7 @@ pages:
         - CAN-BUS Shield: Platform/Arduino/CAN_BUS_Shield.md
         - Seeeduino Stalker V3.1: Platform/Arduino/Seeeduino_Stalker_V3_1.md
         - Motor Shield V2.0: Platform/Arduino/Motor_Shield_V2.0.md
+        - 2.8 TFT Touch Shield V2: Platform/Arduino/TFT_Touch_Shield_V2.md
 
         
     - BeagleBone:
@@ -64,7 +65,7 @@ pages:
     - Breakout for LinkIt Smart 7688 V2.0: Platform/LinkIt/Breakout_for_LinkIt_Smart_7688_v2_0.md
 
 - Tutorial:
-    - Tutorial: Tutorial/Tutorial.md
+    - How to Install an Arduino Library: Tutorial/How_to_Install_an_Arduino_Library.md
 
 - MakerPro:
     - MakerPro: SZ2U/SZ2U.md

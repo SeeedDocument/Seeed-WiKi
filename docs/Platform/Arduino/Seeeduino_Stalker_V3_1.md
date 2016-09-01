@@ -294,11 +294,11 @@ Here are some questions that we usually received from new users. If you have any
 > Firstly, check if your USB-UART connected to Stalker right, then check if you select the right port number and board(**Arduino Fio** or **Arduino Arduino Pro or Pro Mini (3.3v , 8 MHz)w/ATmega328**). Finaly, if you had inserted a Bee on the socket and the RX/TX is selected to D0/D1, you should take the bee off when uploading the skteck. 
 
 **Q3:** The RTC interrupt demo is not work, I can't get any interrupt.
-> Firstly, check if you set the alarm time right, and don't fortet to put the RTC_INT switch to the right side. 
+> Firstly, check if you set the alarm time right, and don't forget to put the RTC_INT switch to the right side. 
 
-**Q4:** The solar pannel can't charge the lipo battery.
-> Make sure your solar pannel is able to supple 4.5~6V voltage.
+**Q4:** The solar panel can't charge the lipo battery.
+> Make sure your solar panel is able to supple 4.5~6V voltage.
 
 ## Help us to make it better
 ----
-<iframe style="height: 600px; width: 700px; margin: 10px 0 10px;" allowTransparency="true" src="https://www.surveymonkey.com/r/JK7RKNH" frameborder="0"></iframe>
+<iframe style="height: 600px; width: 700px; margin: 10px 0 10px;" allowTransparency="true" src="https://www.research.net/r/Seeeduino_Stalker" frameborder="0"></iframe>
