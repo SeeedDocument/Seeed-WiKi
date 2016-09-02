@@ -71,7 +71,7 @@ We have developed rich libraries hooking into Arduino IDE, Lua and JavaScript, w
 
 Check out:
 
-[Arduino IDE for RePhone Kit](http://www.seeedstudio.com/wiki/Arduino_IDE_for_RePhone_Kit)
+[Arduino IDE for RePhone Kit](http://wiki.seeed.cc/Platform/RePhone/RePhone/)
 
 [Eclipse IDE for RePhone Kit](http://www.seeedstudio.com/wiki/Eclipse_IDE_for_RePhone_Kit)
 

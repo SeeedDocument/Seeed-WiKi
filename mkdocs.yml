@@ -36,6 +36,7 @@ pages:
     - RePhone:
         - RePhone: Platform/RePhone/RePhone.md
         - Xadow GSM+BLE: Platform/RePhone/Xadow_GSM_BLE.md
+        - Arduino IDE for RePhone: Platform/RePhone/Arduino_IDE_for_RePhone.md
     
     - Wio:
         - Wio Link: Platform/Wio/Wio_Link.md
