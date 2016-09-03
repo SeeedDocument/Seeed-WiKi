@@ -1,13 +1,13 @@
-#Seeed Document
+#Seeed Documentation
 
-Here you can find all the document for Seeedstudio, including Grove modules, Seeeduino series, LinkIt series as well as the others product. 
+Here you can find all the Documentation for Seeedstudio, including Grove modules, Seeeduino series, LinkIt series as well as the others product. 
 
-To view the document, visit [wiki.seeed.cc](wiki.seeed.cc), where the document is hosted. The document system is drive by [MkDocs](http://www.mkdocs.org/). 
+To view the Documentation, visit [wiki.seeed.cc](wiki.seeed.cc), where the Documentation is hosted. The Documentation system is drive by [MkDocs](http://www.mkdocs.org/). 
 
 
 #Contributions
 
-This document is managed by Seeed, and we warmly welcome contribution to this documentation project.
+This Documentation is managed by Seeed, and we warmly welcome contribution to this documentation project.
 
 * Improve grammar of fix wrong typing. 
 * Additional content to help provide a better understanding for the users
@@ -15,7 +15,7 @@ This document is managed by Seeed, and we warmly welcome contribution to this do
 * Translations to other languages
 * Others edits that is necessary.
 
-We have an independent repository for each product. Such as, here's the repository of document of [LinkIt ONE](https://github.com/SeeedDocument/Linkit_ONE). Making a contribution is as simple as forking this repository, making edits to your fork, and contributing those edits as a pull request. For more information on how to make a pull request, see [Github's documentation](https://help.github.com/articles/about-pull-requests/). Our system will add the changes to this repository automatically.
+We have an independent repository for each product. Such as, here's the repository of Documentation of [LinkIt ONE](https://github.com/SeeedDocument/Linkit_ONE). Making a contribution is as simple as forking this repository, making edits to your fork, and contributing those edits as a pull request. For more information on how to make a pull request, see [Github's documentation](https://help.github.com/articles/about-pull-requests/). Our system will add the changes to this repository automatically.
 
 # MkDocs
 
