@@ -9,7 +9,7 @@ To view the Documentation, visit [wiki.seeed.cc](wiki.seeed.cc), where the Docum
 
 This Documentation is managed by Seeed, and we warmly welcome contribution to this documentation project.
 
-* Improve grammar of fix wrong typing. 
+* Improve grammar or fix wrong typing. 
 * Additional content to help provide a better understanding for the users
 * A better image for a better performance
 * Translations to other languages
