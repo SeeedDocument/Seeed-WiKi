@@ -27,7 +27,6 @@ Project documentation with Markdown.
 [![Build Status][travis-image]][travis-link]
 [![Windows Build Status][appveyor-image]][appveyor-link]
 [![Coverage Status][codecov-image]][codecov-link]
-[![Landscale Code Health][landscape-image]][landscape-link]
 
 - View the [MkDocs documentation][mkdocs].
 - Project [release notes][release-notes].
