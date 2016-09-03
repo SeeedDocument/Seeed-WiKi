@@ -67,6 +67,7 @@ pages:
 
 - Tutorial:
     - How to Install an Arduino Library: Tutorial/How_to_Install_an_Arduino_Library.md
+    - Survey: Tutorial/survey_end.md
 
 - MakerPro:
     - MakerPro: SZ2U/SZ2U.md

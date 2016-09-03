@@ -111,6 +111,8 @@ Check out this excel for the compatibility with Xadow 1.0 modules:
 ##Is this page helpful  
 <iframe style="height: 600px; width: 700px; margin: 10px 0 10px;" allowTransparency="true" src="https://www.surveymonkey.com/r/Xadow_GSM_BLE" frameborder="0"></iframe>
 
+<iframe style="height: 600px; width: 700px; margin: 10px 0 10px;" allowTransparency="true" src="https://www.research.net/r/X2VBMJD" frameborder="0"></iframe>
+
 
 
  
