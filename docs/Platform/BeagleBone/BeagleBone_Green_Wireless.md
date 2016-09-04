@@ -61,7 +61,8 @@ SeeedStudio BeagleBone Green Wireless (BBGW) is a joint effort by [BeagleBoard.o
 - Sensor Hub
 - Robot
 
-Here are some tutorials for the starters to use some Grove modules to realize their interesting ideas with BeagleBone Green Wireless(BBGW). The tutorials are based on Python and mraa/upm library. 
+###BBGW Starter Tutorial #1-#6
+Here are some tutorials for the starters to use some Grove modules to realize their interesting ideas with BeagleBone Green Wireless(BBGW). The tutorials are based on Python and mraa/upm library.  
 
 |#1 The Breath LED|#2 Storm on your table|#3 Speak Louuuuuudly|
 |---------------|-----|--------------|
@@ -73,9 +74,12 @@ Here are some tutorials for the starters to use some Grove modules to realize th
 |![](http://statics3.seeedstudio.com/seeed/img/2016-06/THIPlcFCtqtxnSWBkiJPf59M.jpg)|![](http://statics3.seeedstudio.com/seeed/img/2016-06/tOZJ1MeVXARwuqxTkfYD2aUx.jpg)|![](http://statics3.seeedstudio.com/seeed/img/2016-06/tuZhqFgoabZkjJFpHBUzeKrO.jpg)|
 |[MAKE IT NOW!](http://www.seeed.cc/BBGW-starter-tutorial%234%3AHow-hot-is-it-today%3F-Ask-BBGW!-p-1645.html)|[MAKE IT NOW!](http://www.seeed.cc/BBGW-starter-tutorial%235-Where-are-you%3F-p-1648.html)|[MAKE IT NOW!](http://www.seeed.cc/BBGW-starter-tutorial%236-My-little-alarm-clock-p-1646.html)|
 
+###Funny Projects
 
-Here are some funny projects for your reference.
-doing.....
+|Bluetooth Device Detection|Home Control Center|SAP HCP IoT Service|
+|---------------|-----|--------------|
+|![](http://statics3.seeedstudio.com/upload/img/community/20160526075527-90edbd.png)|![](http://statics3.seeedstudio.com/upload/img/community/20160524014508-4a47a0.png)|![](http://statics3.seeedstudio.com/upload/img/community/20160523121641-1ed045.png)|
+|[MAKE IT NOW!](http://www.seeed.cc/Bluetooth-Device-Detection-with-the-BeagleBone-Green-Wireless-p-1601.html)|[MAKE IT NOW!](http://www.seeed.cc/Home-Control-Center-using-BeagleBone-Green-Wireless-p-1596.html)|[MAKE IT NOW!](http://www.seeed.cc/SAP-HCP-IOT-SERVICE-WITH-WIOLINK-p-1581.html)|
 
 ##Hardware Overview
 
