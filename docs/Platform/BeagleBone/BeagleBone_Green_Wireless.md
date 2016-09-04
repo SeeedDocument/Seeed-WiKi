@@ -1,15 +1,18 @@
+----
+#BeagleBone Green Wireless
 ##Introduction
 ----
 
 ![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/BBGW_cover.png?raw=true)
 
-SeeedStudio BeagleBone Green Wireless (BBGW) is a joint effort by BeagleBoard.org and Seeed Studio. It is based on the open-source hardware design of [BeagleBone Black](http://beagleboard.org/black) and developed into this differentiated version. SeeedStudio BeagleBone Green Wireless has included a high-performance flexible WiFi/Bluetooth interface and two Grove connectors, making it easier to connect to the large family of Grove sensors. The on-board HDMI and Ethernet are removed to make room for these wireless features and Grove connectors.
+SeeedStudio BeagleBone Green Wireless (BBGW) is a joint effort by [BeagleBoard.org](http://beagleboard.org) and Seeed Studio. It is based on the open-source hardware design of [BeagleBone Black](http://beagleboard.org/black) and developed into this differentiated version. SeeedStudio BeagleBone Green Wireless has included a high-performance flexible WiFi/Bluetooth interface and two Grove connectors, making it easier to connect to the large family of Grove sensors. The on-board HDMI and Ethernet are removed to make room for these wireless features and Grove connectors.
 
 [![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/get_one_now.png?raw=true)](http://www.seeedstudio.com/SeeedStudio-BeagleBone-Green-Wireless-p-2650.html)
 
 ##Features
 ----
 
+* **Fully Compatiable with BeagleBone Black**
 * **Processor: AM335x 1GHz ARM® Cortex-A8**
 	* 512MB DDR3 RAM
 	* 4GB 8-bit eMMC on-board flash storage
@@ -58,9 +61,78 @@ SeeedStudio BeagleBone Green Wireless (BBGW) is a joint effort by BeagleBoard.or
 - Sensor Hub
 - Robot
 
+Here are some tutorials for the starters to use some Grove modules to realize their interesting ideas with BeagleBone Green Wireless(BBGW). The tutorials are based on Python and mraa/upm library. 
+
+|#1 The Breath LED|#2 Storm on your table|#3 Speak Louuuuuudly|
+|---------------|-----|--------------|
+|![](http://statics3.seeedstudio.com/seeed/img/2016-06/OHfZigwiAdjKOyhXkxIsIzGW.jpg)|![](http://statics3.seeedstudio.com/seeed/img/2016-06/auGIP35SMMZsK87FELS1pkRF.jpg)|![](http://statics3.seeedstudio.com/seeed/img/2016-06/GmpI3336wzuJ3teZ3O4GXMSB.jpg)|
+|[MAKE IT NOW!](http://www.seeed.cc/BBGW-starter-tutorial%231-The-breath-LED-p-1641.html)|[MAKE IT NOW!](http://www.seeed.cc/BBGW-starter-tutorial%232%3A-storm-on-your-table-p-1643.html)|[MAKE IT NOW!](http://www.seeed.cc/BBGW-starter-tutorial%233-Speak-louuuuuudly-p-1644.html)|
+
+|#4 How hot is it today?|#5 Where are you?|#6 My Little alarm clock|
+|---------------|-----|--------------|
+|![](http://statics3.seeedstudio.com/seeed/img/2016-06/THIPlcFCtqtxnSWBkiJPf59M.jpg)|![](http://statics3.seeedstudio.com/seeed/img/2016-06/tOZJ1MeVXARwuqxTkfYD2aUx.jpg)|![](http://statics3.seeedstudio.com/seeed/img/2016-06/tuZhqFgoabZkjJFpHBUzeKrO.jpg)|
+|[MAKE IT NOW!](http://www.seeed.cc/BBGW-starter-tutorial%234%3AHow-hot-is-it-today%3F-Ask-BBGW!-p-1645.html)|[MAKE IT NOW!](http://www.seeed.cc/BBGW-starter-tutorial%235-Where-are-you%3F-p-1648.html)|[MAKE IT NOW!](http://www.seeed.cc/BBGW-starter-tutorial%236-My-little-alarm-clock-p-1646.html)|
+
+
 Here are some funny projects for your reference.
+doing.....
+
+##Hardware Overview
+
+![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/green_wireless_hardware_details.png?raw=true)
+
+###Pin map
+
+Each digital I/O pin has 8 different modes that can be selected, including GPIO.
+
+####65 Possible Digital I/Os
+
+!!!Note
+    In GPIO mode, each digital I/O can produce interrupts.
+
+![enter image description here](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/BeagleBoneGreenWirelessPins.jpg?raw=true)
+
+####PWMs and Timers
+
+!!!Note
+    Up to 8 digital I/O pins can be configured with pulse-width modulators (PWM) to produce signals to control motors or create pseudo analog voltage levels, without taking up any extra CPU cycles.
+
+![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/cape-headers-pwm.png?raw=true)
+
+####Analog Inputs
+
+!!!Note
+    Make sure you don't input more than 1.8V to the analog input pins. This is a single 12-bit analog-to-digital converter with 8 channels, 7 of which are made available on the headers.
+
+![enter image description here](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/cape-headers-analog.png?raw=true)
+
+
+####UART
+
+!!!Note
+    There is a dedicated header for getting to the UART0 pins and connecting a debug cable. Five additional serial ports are brought to the expansion headers, but one of them only has a single direction brought to the headers.
+
+![enter image description here](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/cape-headers-serial.png?raw=true)
+
+
+####I2C
+
+!!!Note
+    The first I2C bus is utilized for reading EEPROMS on cape add-on boards and can't be used for other digital I/O operations without interfering with that function, but you can still use it to add other I2C devices at available addresses. The second I2C bus is available for you to configure and use.
+
+![enter image description here](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/cape-headers-i2c.png?raw=true)
+
+####SPI
+
+!!!Note
+    For shifting out data fast, you might consider using one of the SPI ports.
+
+![enter image description here](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/cape-headers-spi.png?raw=true)
+
 
 ##Getting Started
+----
+
 !!!Note
     This chapter is writing under Win10. The steps are familiar for the other operate systems.
 
