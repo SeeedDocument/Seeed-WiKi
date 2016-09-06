@@ -10,9 +10,31 @@ Seeeduino Lotus is an ATMEGA328 Microcontroller development board. It is a combi
 
 ##Application Ideas
 
- 
+* DIY
+* IoT and Smart Home
+* Robot
+* Learning
+* Toy
+
+Here is some funny project for your reference.
+
+|Car Controlled by Track Ball|FM Receiver|HCHO Detector|
+|-------|-------|-------|
+|![](http://statics3.seeedstudio.com/images/recipe/img/recipe/2016-01/56a4cdeb5a05d.png)|![](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/images/Fm%20demo.jpg?raw=true)|![](http://statics3.seeedstudio.com/images/recipe/img/recipe/2015-09/55ee8da543f83.png)|
+|[Make it Now](http://www.seeed.cc/A-Car-Controlled-by-Track-Ball-p-1132.html)|[Make it Now](http://wiki.seeedstudio.com/wiki/Seeeduino_Lotus_v1.0#Usage)|[Make it Now](http://www.seeed.cc/A-Handheld-Formaldehyde(HCHO)-Detector-p-380.html)|
+
+
 ##Feature 
 
+* Fully compatible with Arduino UNO
+* ATmega328 microcontroller
+* 12 on-board Grove connectors
+* 14 Digital I/O Pins (6 PWM outputs)
+* 6 Analog Inputs
+* ISP Header
+* Arduino UNO-R3 Shield Compatible
+* Micro USB programming and power supply
+* 5V Operating Voltage
 
 
 ##Specification
@@ -33,9 +55,30 @@ Seeeduino Lotus is an ATMEGA328 Microcontroller development board. It is a combi
 
 ##Hardware Overview 
 
+The images below show an overview of Seeeduino Lotus hardware features. The pin-out and alternate functions of various pins of Seeeduino Lotus are shown in the pin-out diagram. This could be used as a quick reference.
+
+![](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/images/seeeduino_lotus_hardware_overview.jpg?raw=true) 
+
  
- 
- 
+- **LED-D13**
+An LED is connected to D13 pin of the board. This can be used as an on-board LED indicator for programs/sketches.
+- **USB Input**
+USB Port is used to connect the board to your PC for programming and for powering up. Micro USB is the ubiquitous version of USB, found in most Android phones, and other devices. You probably have dozens of these cables laying around your house.
+- **Reset**
+This button is conveniently placed on the side to allow you to reset the Seeeduino board even when a shield is placed on top. This is not the case in other Arduino boards where the button is placed on top making it hard to access.
+- **Power Pins & Analog Pins**
+Just like the extra Digital header pads, these extra connections are something we have personally come to realize people need in their projects, especially the power connections if you want to power more than one sensor/device without the use of a breadboard.
+- **Grove Connectors**
+SeeedStudio has a variety of sensors/devices that can make use of this Analog, Digital,I2C and UART connection. In addition, we sell independent Grove connectors to help you make our own sensor connections.
+- **ICSP**
+This is the ICSP connection for the ATmega328P, it is located in the standard ICSP/SPI position for Arduino Uno, Due, Mega, and Leonardo compatible hardware (e.g. shields) that may use this connector. The SPI pins in this port: MISO, SCK, and MOSI, are also connected to digital pins 12, 13, and 11 respectively just like those of the Arduino Uno.
+- **USB 2 Uart**
+Pinout of USB-2-Uart. These pads can be used to interact with other UART devices by putting the on-board ATmega328 in reset mode. This makes Seeeduino Lotus to be used a USB2UART utility board.
+
+!!!Warning
+    Take gentle care in handling micro USB socket, or you might break the socket off.
+
+
  
 ##Install the Driver
 
@@ -46,7 +89,7 @@ First of all, you need to:
 If you can't find one, you can buy one [here](http://www.seeedstudio.com/depot/Micro-USB-Cable-48cm-p-1475.html?cPath=98_100).
 
 * **Connect the board**
-    * The Seeeduino Lotus automatically draw power from either the USB connection to the computer or an external power supply. Connect the Arduino board to your computer using the USB cable. The green power LED (labelled **PWR**) should go on.
+    * Connect the Arduino board to your computer using the USB cable. The green power LED (labelled **PWR**) should go on.
 
 
 ###For Windows
@@ -68,7 +111,6 @@ If you can't find one, you can buy one [here](http://www.seeedstudio.com/depot/M
 ###For Mac OSX
 
 You don't need to install any drivers. 
-
 
 
 ##Getting Started
@@ -105,34 +147,48 @@ Click OK to finish the setting. Then Click on **Tools > Board > Boards Manager**
 
 ###Select your board
 You'll need to select the entry in the **Tools > Board** menu that corresponds to your Arduino.
-Selecting a **Seeeduino V4**.
+Selecting a **Seeeduino Lotus**.
 
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/select_board.png)
+![enter image description here](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/images/select_seeeduino_lotus.jpg?raw=true)
 
 ###Select your serial port
 Select the serial device of the Arduino board from the Tools | Serial Port menu. This is likely to be COM3 or higher (**COM1** and **COM2** are usually reserved for hardware serial ports). To find out, you can disconnect your Arduino board and re-open the menu; the entry that disappears should be the Arduino board. Reconnect the board and select that serial port.
 
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/select_port.png)
+![enter image description here](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/images/select_com.jpg?raw=true)
 
 !!!Note
     On the Mac, this should be something with **/dev/tty.USBmodem**.
     
 ###Upload the program
-Now, simply click the "Upload" button in the environment. Wait a few seconds - you should see the RX and TX LED indicators on the board flashing. If the upload is successful, the message "Done uploading." will appear in the status bar.
+Now, simply click the "Upload" button in the environment. Wait a few seconds and if the upload is successful, the message "Done uploading." will appear in the status bar.
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/upload_button.png)
 
 A few seconds after the upload finishes, you should see the pin 13 (L) LED on the board start to blink (in orange). If it does, congratulations! You've gotten Arduino up-and-running. If you have problems, please see the troubleshooting suggestions.
 
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/Seeeduino_v4_2_L.jpg)
-
 ##Getting Started on Linux
 
 For using on Linux, please go to [Installing Arduino on Linux](http://playground.arduino.cc/Learning/Linux)
 
+##Resources
 
+##FAQ
 
+####Q1. What's the different between Arduino UNO and Seeeduino Lotus
 
+##Help us to make it better
+
+Thank you for choosing Seeed. As one of the world-leading open-hardware suppliers, Seeedstudio has been continuously creating well-quality and diversified modules for our customers, makers and developers. As a young company, it is inevitable that there are things we neglected the importance, for example, our document system. It is a little shame however true that we have been continuously receiving complaint about how hard it is to use our document system——ugly interface, confusing content, and the URL that can never be opened etc. Here we sincerely apologize for all the inconvenient you’ve experienced during using the old system.
+
+It is time to say good bye to the user-unfriendly old document system now, in order to bring better experience to our users, we have launched a project to optimize the document system from the middle of 2016. The work includes:
+
+* Replace the old WiKi system with a new one that developed from Mkdocs, a more widely used and cooler project documentation tool.  
+* Review and rewrite documents for hundreds of products to make them more understandable.
+* Inspected repair all the URL to make sure it can be linked to the right page.
+
+Although we have tried our best to optimize, it is still possible that we make some mistakes, so if you find anything that needs to be updated, it is very welcome to submit the amended version as our contributor or give us suggestions in the survey below. Please don’t forget to leave your email address if you need our reply, we will reply to you as soon as we can.
+
+By the way, we will feel very happy and encouraged if we receive 5 stars from you. With the help and encouragement from you, we believe that we can make this document better and better!
 
 
 
