@@ -394,15 +394,15 @@ Grove - RTC v2.0
 
 ###Mraa Map for BBGW
 
-![GPIO](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/mraa_map_bbgw_gpio.jpg?raw=true)
+![GPIO](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/BBGW_Mraa_Gpio.png?raw=true)
 
-![I2C](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/mraa_map_bbgw_i2c.jpg?raw=true)
+![I2C](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/BBGW_Mraa_I2C.png?raw=true)
 
-![PWM](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/mraa_map_bbgw_pwm.jpg?raw=true)
+![PWM](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/BBGW_Mraa_PWM.png?raw=true)
 
-![ADC_IN](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/mraa_map_bbgw_adc.jpg?raw=true)
+![ADC_IN](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/BBGW_Mraa_ADC.png?raw=true)
 
-![UART](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/mraa_map_bbgw_uart.jpg?raw=true)
+![UART](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/BBGW_Mraa_UART.png?raw=true)
 
 
 
