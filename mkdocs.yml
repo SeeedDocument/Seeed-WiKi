@@ -93,7 +93,7 @@ pages:
 #- New System Style:
 #        - New System Style: New document system style/New_system_style.md 
         
-theme: readthedocs
+theme_dir: mkdocs/themes/readthedocs
 
 markdown_extensions:
     - toc:

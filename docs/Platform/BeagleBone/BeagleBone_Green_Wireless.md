@@ -310,29 +310,18 @@ Then you will find the 4 user led light as below
 When the flashing is complete, all 4 USRx LEDs will be **off**. The latest Debian flasher images automatically power down the board upon completion. This can take up to **10 minutes**. Power-down your board, remove the SD card and apply power again to be complete.
 
 
-##Program Grove Module with MRAA and UPM
+##Program Grove Module with Mraa and UPM
 
 We have provided Mraa library and UPM library to make it easy for developers and sensor manufacturers to map their sensors & actuators on top of supported hardware and to allow control of low level communication protocol by high level languages & constructs.
 ###What are Mraa and UPM?
 Mraa is a C/C++ library with bindings to Python, Javascript and Java to interface with the I/O on BBG, BBGW and other platforms, with a structured and sane API where port names/numbering matches the board that you are on. Use of Mraa does not tie you to specific hardware with board detection done at runtime you can create portable code that will work across the supported platforms.
 UPM is a high level repository for sensors that use MRAA. Each sensor links to MRAA and are not meant to be interlinked although some groups of sensors may be. Each sensor contains a header which allows to interface with it. Typically a sensor is represented as a class and instantiated.The constructor is expected to initialise the sensor and parameters may be used to provide identification/pin location on the board.
-###How to use Mraa and UPM?
-####1.Install and update
+
+###Install and update
 Mraa and UPM are already installed in the system image of BBGW, so **you don't need to install it.** However if you want to update the library, or want to upgrade the library, use ``apt-get update`` and ``apt-get upgrade`` please. Refer to [https://github.com/intel-iot-devkit/mraa](https://github.com/intel-iot-devkit/mraa) and [https://github.com/intel-iot-devkit/upm](https://github.com/intel-iot-devkit/upm) for more information.
-####2.Mraa Map for BBGW
 
-![GPIO](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/mraa_map_bbgw_gpio.jpg?raw=true)
+###Mraa Example
 
-![I2C](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/mraa_map_bbgw_i2c.jpg?raw=true)
-
-![PWM](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/mraa_map_bbgw_pwm.jpg?raw=true)
-
-![ADC_IN](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/mraa_map_bbgw_adc.jpg?raw=true)
-
-![UART](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/mraa_map_bbgw_uart.jpg?raw=true)
-
-
-###Example
 - light a led
 
 ```
@@ -349,6 +338,7 @@ while True:
     time.sleep(1)
 
 ```
+
 - Grove - PIR Sensor
 
 ```
@@ -362,6 +352,7 @@ while True:
     print (pir.read())
     time.sleep(1)
 ```
+
 - Grove - Rotary Angle Sensor
 
 ```
@@ -399,6 +390,19 @@ Grove - Button(P)
 Grove - Buzzer
 Grove - RTC v2.0
 ](http://www.seeed.cc/BBGW-starter-tutorial%235-Where-are-you%3F-p-1648.html)
+
+
+###Mraa Map for BBGW
+
+![GPIO](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/mraa_map_bbgw_gpio.jpg?raw=true)
+
+![I2C](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/mraa_map_bbgw_i2c.jpg?raw=true)
+
+![PWM](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/mraa_map_bbgw_pwm.jpg?raw=true)
+
+![ADC_IN](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/mraa_map_bbgw_adc.jpg?raw=true)
+
+![UART](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/mraa_map_bbgw_uart.jpg?raw=true)
 
 
 
