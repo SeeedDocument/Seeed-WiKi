@@ -56,6 +56,7 @@ pages:
     - Display:
         - Grove - LCD RGB Backlight: Grove/Display/Grove_LCD_RGB_Backlight.md
         - Grove - OLED Display 1.12``: Grove/Display/Grove_OLED_Dispaly_1.12.md
+        - I2C_LCD: Grove/Display/I2C_LCD.md
     
     - Communication:
         - Communication: Grove/Communication/Communication.md
@@ -92,7 +93,7 @@ pages:
 #- New System Style:
 #        - New System Style: New document system style/New_system_style.md 
         
-theme: readthedocs
+theme_dir: mkdocs/themes/readthedocs
 
 markdown_extensions:
     - toc:
