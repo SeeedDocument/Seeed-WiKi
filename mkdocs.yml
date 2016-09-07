@@ -10,7 +10,7 @@ pages:
         - Seeeduino Stalker V3.1: Platform/Arduino/Seeeduino_Stalker_V3_1.md
         - Motor Shield V2.0: Platform/Arduino/Motor_Shield_V2.0.md
         - 2.8 TFT Touch Shield V2: Platform/Arduino/TFT_Touch_Shield_V2.md
-	- Seeeduino Lotus: Platform/Arduino/Seeeduino_Lotus.md
+        - Seeeduino Lotus: Platform/Arduino/Seeeduino_Lotus.md
 
         
     - BeagleBone:
