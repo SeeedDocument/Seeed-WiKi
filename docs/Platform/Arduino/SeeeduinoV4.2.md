@@ -1,4 +1,4 @@
-#Seeeduino V4
+﻿#Seeeduino V4
 -------
 ##Introduction
 
@@ -268,7 +268,7 @@ It is time to say good bye to the user-unfriendly old document system now, in or
 * Review and rewrite documents for hundreds of products to make them more understandable.
 * Inspected repair all the URL to make sure it can be linked to the right page.
 
-Although we have tried our best to optimize, it is still possible that we make some mistakes, so if you find anything that needs to be updated, it is very welcome to submit the amended version as our contributor or give us suggestions in the survey below. Please don’t forget to leave your email address if you need our reply, we will reply to you as soon as we can.
+Although we have tried our best to optimize, it is still possible that we make some mistakes, so if you find anything that needs to be updated, it is very welcome to submit the amended version as our contributor or give us suggestions in the survey below. Please don't forget to leave your email address if you need our reply, we will reply to you as soon as we can.
 
 By the way, we will feel very happy and encouraged if we receive 5 stars from you. With the help and encouragement from you, we believe that we can make this document better and better!
 

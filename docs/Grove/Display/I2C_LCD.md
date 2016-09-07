@@ -6,11 +6,11 @@
 
 I2C_LCD is an easy-to-use display module, It can make display easier. Using it can reduce the difficulty of make, so that makers can focus on the core of the work.
 
-We developed the Arduino liary for I2C_LCD, user just need a few lines of the code can achieve complex graphics and text display features. It can replace the serial monitor of Arduino in some place, you can get running informations without a computer.
+We developed the Arduino library for I2C_LCD, user just need a few lines of the code can achieve complex graphics and text display features. It can replace the serial monitor of Arduino in some place, you can get running informations without a computer.
 
-More than that, we also develop the dedicated picture data convert software (bitmap converter)，now is available to support PC platform of windows, Linux, Mac OS. Through the bitmap convert software you can get your favorite picture displayed on I2C_LCD, without the need for complex programming.
+More than that, we also develop the dedicated picture data convert software (bitmap converter)now is available to support PC platform of windows, Linux, Mac OS. Through the bitmap convert software you can get your favorite picture displayed on I2C_LCD, without the need for complex programming.
 
-I2C_LCD can provide you with a very convenient way of make. Enjoy yourself！
+I2C_LCD can provide you with a very convenient way of make. Enjoy yourself!
 
 
 ###Product Version
@@ -18,7 +18,7 @@ I2C_LCD can provide you with a very convenient way of make. Enjoy yourself！
 | Version 	| How to buy	|
 |-----------|---------------|
 |I2C_LCD (With universal Grove cable)|[![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/300px-Get_One_Now_Banner.png)](https://www.seeedstudio.com/I2C_LCD-(With-universal-Grove-cable)-p-2601.html)|
-|I2C_LCD (With conversion Grove cable)|[![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/300px-Get_One_Now_Banner.png)](http://www.elecrow.com/i2c-lcd-with-female-jumper-cable.html)|
+|I2C_LCD (With conversion Grove cable)|[![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/300px-Get_One_Now_Banner.png)](https://www.seeedstudio.com/I2C_LCD-(With-universal-Grove-cable)-p-2601.html)|
 
 
 ##Features
@@ -26,12 +26,12 @@ I2C_LCD can provide you with a very convenient way of make. Enjoy yourself！
 * Only 2 Arduino pins are occupied (Use I2C interface).
 * Supports standard I2C mode (100Kbit/s) and fast I2C mode (400Kbit/s).
 * Compatible with multiple communication logic levels: 2.8~5VDC.
-* Arduino liary supported, use a line of code to complete the display.
+* Arduino library supported, use a line of code to complete the display.
 * Integrate 7 sizes of ASCll fonts, 5 graphics functions.
 * Provide dedicated picture data convert software (Bitmap Converter).
 * Most of the complex operation is processed by I2C_LCD independent controller, saving user controller resources.
 * Supports cursor function, can set up 16 cursor flicker frequency.
-* Supports 128 level backlight ightness adjustment.
+* Supports 128 level backlight lightness adjustment.
 * Support 64 level screen contrast adjustment.
 * Support device address modification.
 * Supports 127 I2C_LCD work in parallel.
@@ -57,12 +57,12 @@ I2C_LCD can provide you with a very convenient way of make. Enjoy yourself！
 ##Specification
 |Parameter|Value|
 |---------|-------------|
-|Screen Type|Dual color LCD|
+|Screen Type|Dual colour LCD|
 |Screen Resolution|128*64 Pixels|
 |Screen Active Area (L*W)| 47.1*26.5mm|
 |Individual Pixel Size|0.33*0.33mm|
 |Communication Mode|I2C(100Kbit/s and 400Kbit/s)|
-|Controler|STM8S005KBT6|
+|Controller|STM8S005KBT6|
 |Operating Frequency|16 MHz|
 |Weight|20g|
 
@@ -82,9 +82,9 @@ I2C_LCD can provide you with a very convenient way of make. Enjoy yourself！
 
 [![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Stalker_V3_1/master/images/Download_IDE.png)](https://www.arduino.cc/en/Main/Software)
 
-**Step 2:** Download and install the I2C_LCD Liary to Arduino IDE:
+**Step 2:** Download and install the I2C_LCD library to Arduino IDE:
 
-Open Arduino IDE, click Sketch -> Include Liary -> Add .ZIP Liary.
+Open Arduino IDE, click Sketch -> Include library -> Add .ZIP library.
 
 ![enter image description here](https://raw.githubusercontent.com/SparkingStudio/I2C_LCD/master/images/I2C_LCD_InstalLib_1.jpg)
 
@@ -121,7 +121,7 @@ Select the COM: Click Tools -> Serial Port -> COMX(which connected with your boa
 
 **PS:**
 
-1. For more details about liary install please refer to http://www.arduino.cc/en/Guide/Liaries.
+1. For more details about library install please refer to http://www.arduino.cc/en/Guide/Liaries.
 2. If you encounter other problems during the use, please refer to the User Manual for help. If you can't solve it, please contact us.
 
 
@@ -154,9 +154,9 @@ Select the COM: Click Tools -> Serial Port -> COMX(which connected with your boa
 
 Keeping update the latest version.
 
-The [repository of Arduino library hosted here](https://github.com/SparkingStudio/I2C_LCD_Liary), if you have any good idea of the code, you can pull to us.
+The [repository of Arduino library hosted here](https://github.com/SparkingStudio/I2C_LCD_library), if you have any good idea of the code, you can pull to us.
 
-* [I2C_LCD Library](https://github.com/SparkingStudio/I2C_LCD/raw/master/resources/I2C_LCD_Liary.zip)
+* [I2C_LCD Library](https://github.com/SparkingStudio/I2C_LCD/raw/master/resources/I2C_LCD_library.zip)
 * [I2C_LCD User Manual EN](https://github.com/SparkingStudio/I2C_LCD/blob/master/resources/I2C_LCD-UserManual_EN.zip)
 * [I2C_LCD User Manual 中文](https://github.com/SparkingStudio/I2C_LCD/blob/master/resources/I2C_LCD-UserManual_CN.zip)
 * [BitmapConverter(ForWindows)](https://github.com/SparkingStudio/I2C_LCD/blob/master/resources/Bitmap%20Converter.rar)
