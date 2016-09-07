@@ -172,9 +172,43 @@ For using on Linux, please go to [Installing Arduino on Linux](http://playground
 
 ##Resources
 
+* **Schematic**
+    * [Seeeduino Lotus Eagle file](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/resources/Seeeduino_Lotus_v1.0_Sch.zip)
+    * [Seeeduino Lotus PDF file](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/resources/Seeeduino_lotus_bootloader.zip)
+
+* **Datasheet**
+    * [ATmega328P](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/ATmega328.pdf)
+    * [ATmega16U2](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/ATmega16u2.pdf)
+
+* **Bootloader**    
+    * [Seeeduino Lotus Bootloader](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/resources/Seeeduino_Lotus_v1.0_pdf.pdf)
+
+* **References**
+    * [Getting Started with Arduino](https://www.arduino.cc/en/Guide/HomePage)
+    * [Arduino Language Reference](https://www.arduino.cc/en/Reference/HomePage)
+    * [Download the Arduino Software(IDE)](https://www.arduino.cc/en/Main/Software)
+    * [Arduino FAQ](https://www.arduino.cc/en/Main/FAQ)
+    * [Arduino Introduction](https://www.arduino.cc/en/guide/introduction)
+    * [Wikipedia page for Arduino](https://en.wikipedia.org/wiki/Arduino)
+
 ##FAQ
 
 ####Q1. What's the different between Arduino UNO and Seeeduino Lotus
+
+Seeeduino Lotus is fully compatible with Arduino UNO. And Seeeduino Lotus has 12 Grove connectors, which makes it convenient to create your demo with Seeed Studio Grove Modules. What's more, Seeeduino Lotus uses a micro USB to power and program. 
+
+####Q2. I can't upload my sketch to Seeeduino Lotus
+
+Please check,
+
+* If the Power LED on
+* If you choose the right Port and Board (Seeeduino Lotus)
+* Close and reopen Arduino IDE and try again
+
+####Q3. Where can I find technical support if I have some other issue. 
+
+You can post a question to [Seeed Forum](http://www.seeed.cc/discover.html?t=Arduino) or send an email to **techsupport@seeed.cc**.
+
 
 ##Help us to make it better
 
