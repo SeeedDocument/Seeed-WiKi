@@ -1,0 +1,57 @@
+site_name: Seeed Wiki
+
+pages:
+- Home: index.md
+
+- Platform:
+    - Arduino:
+{{ range .Data.Pages.ByTitle }}{{if eq .Params.category "Arduino"}}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
+    - BeagleBone:
+{{ range .Data.Pages.ByTitle }}{{if eq .Params.category "BeagleBone"}}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
+    - Raspberry Pi:
+{{ range .Data.Pages.ByTitle }}{{if eq .Params.category "Raspberry Pi"}}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
+    - Edison:
+{{ range .Data.Pages.ByTitle }}{{if eq .Params.category "Edison"}}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
+    - LaunchPad:
+{{ range .Data.Pages.ByTitle }}{{if eq .Params.category "LaunchPad"}}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
+    - LinkIt:
+{{ range .Data.Pages.ByTitle }}{{if eq .Params.category "LinkIt"}}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
+    - mbed:
+        - mbed: mbed.md
+{{ range .Data.Pages.ByTitle }}{{if eq .Params.category "mbed"}}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
+    - RePhone:
+        - RePhone: RePhone.md
+{{ range .Data.Pages.ByTitle }}{{if eq .Params.category "RePhone"}}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
+    - Wio:
+{{ range .Data.Pages.ByTitle }}{{if eq .Params.category "Wio"}}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
+    
+- Grove:
+    - Grove System: Grove_System.md
+    - Sensor:
+{{ range .Data.Pages.ByTitle }}{{if eq .Params.category "Sensor"}}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
+    - Actuator:
+{{ range .Data.Pages.ByTitle }}{{if eq .Params.category "Actuator"}}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}    
+    - Display:
+{{ range .Data.Pages.ByTitle }}{{if eq .Params.category "Display"}}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}  
+    - Communication:
+{{ range .Data.Pages.ByTitle }}{{if eq .Params.category "Communication"}}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
+
+- IoT:
+        - IoT: IoT.md
+{{ range .Data.Pages.ByTitle }}{{if eq .Params.category "IoT"}}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
+
+- Tutorial:
+        - Survey: survey_end.md
+{{ range .Data.Pages.ByTitle }}{{if eq .Params.category "Tutorial"}}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}    
+
+- MakerPro:
+{{ range .Data.Pages.ByTitle }}{{if eq .Params.category "MakerPro"}}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
+
+        
+theme_dir: mkdocs/themes/readthedocs
+
+markdown_extensions:
+    - toc:
+        permalink: 
+    - admonition:
+    - smarty

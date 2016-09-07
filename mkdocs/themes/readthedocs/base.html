@@ -94,7 +94,11 @@
           <div role="main">
             <div class="section">
               {% block content %}
+                {% if meta.title%}<h1>{{meta.title[0]}}</h1>{%endif%}
+                {% if meta.category%}<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link"></a></h2>{% endif %}
                 {{ content }}
+                {% if meta.surveyurl%}<h2 id="help-us-to-make-it-better">Help us to make it better<a class="headerlink" href="#help-us-to-make-it-better" title="Permanent link"></a></h2>{% endif %}
+                {% if meta.surveyurl%}<iframe style="height: 600px; width: 700px; margin: 10px 0 10px;" allowTransparency="true" src="{{ meta.surveyurl[0]}}" frameborder="0"></iframe></iframe>{% endif %}
               {% endblock %}
             </div>
           </div>
