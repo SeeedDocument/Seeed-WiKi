@@ -4,6 +4,7 @@ category: Arduino
 bzurl: http://www.seeedstudio.com/Seeeduino-Stalker-V3.1-p-2686.html
 prodimagename: cover.JPG
 surveyurl: https://www.research.net/r/Seeeduino_Stalker
+sku: 102010070
 ---
 
 Maybe you are very familiar with the Seeeduino stalker series, or maybe you are totally new to this feature rich Wireless Sensor Network Node. No matter what situation you are in, if you are going to make an outdoor data-logging application, you will find that Seeeduino Stalker is the best board.

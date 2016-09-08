@@ -4,6 +4,7 @@ bzurl: https://www.seeedstudio.com/RePhone-Kit-Create-p-2552.html
 oldwikiname: Rephone
 prodimagename: 375px-IMG_2999.JPG
 surveyurl: https://www.surveymonkey.com/r/RePhone
+sku: 110040002
 ---
 
 ## Introduction

@@ -4,6 +4,7 @@ category: LinkIt
 bzurl: https://www.seeedstudio.com/Breakout-for-LinkIt-Smart-7688-v20-p-2641.html
 oldwikiname: Breakout_for_LinkIt_Smart_7688_v2.0
 prodimagename: Breakout_for_LinkIt_Smart_7688_v2.0_product_view_700.jpg
+sku: 103100022
 ---
 
 **Breakout for LinkIt Smart 7688 v2.0** is a Grove port integrated expansion board for LinkItTM Smart 7688 development board. This breakout board will save a lot of work and makes prototyping easier through simplified wiring. It will assist a beginner to get started fast. It supports serial buses like I2C, UART. It comes with USB, Ethernet, and 3.5mm Audio ports.

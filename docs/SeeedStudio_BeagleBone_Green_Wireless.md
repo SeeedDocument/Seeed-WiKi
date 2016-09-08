@@ -1,10 +1,11 @@
 ---
-title: BeagleBone Green Wireless
+title: SeeedStudio BeagleBone Green Wireless
 category: BeagleBone
 bzurl: https://www.seeedstudio.com/SeeedStudio-BeagleBone-Green-Wireless-p-2650.html
-oldwikiname: BeagleBone_Green_Wireless
+oldwikiname: SeeedStudio_BeagleBone_Green_Wireless
 prodimagename: BBGW_cover.png
 surveyurl: https://www.surveymonkey.com/r/bbg_w
+sku: 102010048
 ---
 
 ![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/BBGW_cover.png?raw=true)

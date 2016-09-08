@@ -5,6 +5,7 @@ bzurl: https://www.seeedstudio.com/Motor-Shield-V2.0-p-1377.html
 oldwikiname: Motor_Shield_V2.0
 prodimagename: 500px-Motorshield_01.jpg
 surveyurl: https://www.surveymonkey.com/r/MotorShield
+sku: 105030001
 ---
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Motor_Shield_V2.0/master/image/500px-Motorshield_01.jpg)

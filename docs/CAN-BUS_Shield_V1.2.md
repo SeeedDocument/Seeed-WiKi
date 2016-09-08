@@ -1,10 +1,11 @@
 ---
-title: CAN-BUS Shield
+title: CAN-BUS Shield V1.2
 category: Arduino
-bzurl: http://www.seeedstudio.com/CAN-BUS-Shield-V1.2-p-2256.html
-oldwikiname: CAN_BUS_Shield
+bzurl: https://www.seeedstudio.com/CAN-BUS-Shield-V1.2-p-2256.html
+oldwikiname: CAN-BUS_Shield_V1.2
 prodimagename: Can_bus_shield_all.jpg
 surveyurl: https://www.research.net/r/can_bus_shield
+sku: 113030021
 ---
 
 ![](https://github.com/SeeedDocument/CAN_BUS_Shield/blob/master/image/Can_bus_shield_all.jpg?raw=true)

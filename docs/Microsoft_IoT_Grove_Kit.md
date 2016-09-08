@@ -1,9 +1,9 @@
 ---
 title: Microsoft IoT Grove Kit (Azure Certified)
 category: IoT
-bzurl: https://www.seeedstudio.com/Microsoft-IoT-Grove-Kit-%28Azure-Certified%29-p-2694.html
-oldwikiname: Microsoft_IoT_Grove_Kit
+bzurl: https://www.seeedstudio.com/Microsoft-IoT-Grove-Kit-(Azure-Certified)-p-2694.html
 prodimagename: cover.jpg
+sku: 110060482
 ---
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Microsoft_IoT_Grove_Kit/master/images/cover.jpg)

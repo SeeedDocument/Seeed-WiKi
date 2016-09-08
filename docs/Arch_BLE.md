@@ -4,6 +4,7 @@ category: mbed
 bzurl: https://www.seeedstudio.com/Arch-BLE-p-1998.html
 oldwikiname: Arch_BLE
 prodimagename: Arch_BLE.jpg
+sku: 113010002
 ---
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Arch_BLE/master/img/Arch_BLE.jpg)

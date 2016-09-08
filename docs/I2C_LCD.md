@@ -1,10 +1,11 @@
 ---
-title: I2C_LCD
+title: I2C LCD
 category: Display
 bzurl: https://www.seeedstudio.com/I2C_LCD-%28With-universal-Grove-cable%29-p-2601.html
 oldwikiname: I2C_LCD
 prodimagename: I2C_LCD_WIKI_1.jpg
 surveyurl: https://www.research.net/r/I2C_LCD
+sku: 114990279
 ---
 
 ![enter image description here](https://raw.githubusercontent.com/SparkingStudio/I2C_LCD/master/images/I2C_LCD_WIKI_1.jpg)

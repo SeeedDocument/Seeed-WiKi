@@ -1,10 +1,11 @@
 ---
-title: Linkit ONE
+title: LinkIt ONE
 category: LinkIt
 bzurl: https://www.seeedstudio.com/LinkIt-ONE-p-2017.html
-oldwikiname: Linkit_ONE
+oldwikiname: LinkIt_ONE
 prodimagename: 500px-Linkit-one-page.jpg
 surveyurl: https://www.surveymonkey.com/r/LinkIt_ONE
+sku: 102030002
 ---
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Linkit_ONE/master/image/500px-Linkit-one-page.jpg)

@@ -1,10 +1,11 @@
 ---
-title: Grove - OLED Display 1.12
+title: Grove - OLED Display 1.12"
 category: Display
 bzurl: https://www.seeedstudio.com/Grove-OLED-Display-1.12%22-p-824.html
-oldwikiname: Grove_-_ OLED_Display_1.12
+oldwikiname: Grove_-_OLED_Display_1.12"
 prodimagename: main.jpg
 surveyurl: https://www.research.net/r/F79KN2D
+sku: 104030011
 ---
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_OLED_1.12/master/images/main.jpg)

@@ -1,9 +1,10 @@
 ---
 title: Grove - Light Sensor
 category: Sensor
-bzurl: https://www.seeedstudio.com/Grove-Light-Sensor%28P%29-p-1253.html
+bzurl: https://www.seeedstudio.com/Grove-Light-Sensor-(P)-v1.1-p-2693.html
 oldwikiname: Grove_-_Light_Sensor
 prodimagename: cover.jpg
+sku: 101020173
 ---
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/cover.jpg)

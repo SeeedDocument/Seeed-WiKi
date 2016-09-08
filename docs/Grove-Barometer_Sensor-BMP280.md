@@ -5,6 +5,7 @@ bzurl: https://www.seeedstudio.com/Grove-Barometer-Sensor-BMP280-p-2652.html
 oldwikiname: Grove_-_Barometer_Sensor_(BMP280)
 prodimagename: Grove_-_Barometer_Sensor_%28BMP280%29_700_s.jpg
 surveyurl: https://www.surveymonkey.com/r/P56YN6P
+sku: 101020192
 ---
 
 Grove - Barometer Sensor (BMP280) is a breakout board for Bosch BMP280 high-precision and low-power digital barometer. This module can be used to measure temperature and atmospheric pressure accurately. As the atmospheric pressure changes with altitude, it can also measure approximate altitude of a place. It can be connected to a microcontroller with I2C (integrated with Grove socket) or through SPI bus. We have also provided highly abstracted library to make this more product easier to use.

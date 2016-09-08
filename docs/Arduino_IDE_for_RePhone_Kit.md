@@ -1,7 +1,7 @@
 ---
-title: Arduino IDE for RePhone
+title: Arduino IDE for RePhone Kit
 category: RePhone
-oldwikiname: Arduino_IDE_for_RePhone
+oldwikiname: Arduino_IDE_for_RePhone_Kit
 prodimagename: rephone.jpg
 ---
 

@@ -5,6 +5,7 @@ bzurl: https://www.seeedstudio.com/Grove-Sound-Sensor-p-752.html
 oldwikiname: Grove_-_Sound_Sensor
 prodimagename: page.jpg
 surveyurl: https://www.surveymonkey.com/r/SoundSensor
+sku: 101020023
 ---
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Sound_Sensor/master/images/page.jpg)

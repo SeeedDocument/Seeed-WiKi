@@ -5,6 +5,7 @@ bzurl: https://www.seeedstudio.com/Wio-Link-p-2604.html
 oldwikiname: Wio_Link
 prodimagename: WioLink.png
 surveyurl: https://www.surveymonkey.com/r/8CMWZDL
+sku: 102110037
 ---
 
 What's the toughest part of building IoT applications? Someone says the jump wires usually make him frustrated, while the other guy says he hates soldering the most. There are even some people who don't like breadboard. Maybe you are not one of them, but the knowledge of electronic engineering, micro-controller programming, network programming, IoT protocols handling are still great burden between you and a successful IoT project.

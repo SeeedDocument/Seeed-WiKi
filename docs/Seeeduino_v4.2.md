@@ -1,10 +1,11 @@
 ---
-title: Seeeduino V4
+title: Seeeduino v4.2
 category: Arduino
 bzurl: http://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html
 oldwikiname: Seeeduino_v4.2
 prodimagename: cover.JPG
 surveyurl: https://www.research.net/r/Seeeduino
+sku: 102010026
 ---
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/cover.JPG)

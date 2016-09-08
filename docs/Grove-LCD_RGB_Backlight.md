@@ -5,6 +5,7 @@ bzurl: https://www.seeedstudio.com/Grove-LCD-RGB-Backlight-p-1643.html
 oldwikiname: Grove_-_LCD_RGB_Backlight
 prodimagename: intro.jpg
 surveyurl: https://www.surveymonkey.com/r/LCD_Backlight
+sku: 104030001
 ---
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_LCD_RGB_Backlight/master/images/intro.jpg)
