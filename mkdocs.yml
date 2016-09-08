@@ -5,19 +5,19 @@ pages:
 
 - Platform:
     - Arduino:
-        - CAN-BUS Shield: CAN_BUS_Shield.md
+        - 2.8&#39;&#39; TFT Touch Shield v2.0: 2.8_TFT_Touch_Shield_v2.0.md
+        - CAN-BUS Shield V1.2: CAN-BUS_Shield_V1.2.md
         - Motor Shield V2.0: Motor_Shield_V2.0.md
         - Seeeduino Lotus: Seeeduino_Lotus.md
-        - Seeeduino Stalker V3.1: Seeeduino_Stalker_V3_1.md
-        - Seeeduino V4: SeeeduinoV4.2.md
-        - TFT Touch Shield: TFT_Touch_Shield_V2.md
+        - Seeeduino Stalker V3.1: Seeeduino_Stalker_V3.1.md
+        - Seeeduino v4.2: Seeeduino_v4.2.md
 
     - BeagleBone:
         - BeagleBone Green: BeagleBone_Green.md
-        - BeagleBone Green Wireless: BeagleBone_Green_Wireless.md
+        - SeeedStudio BeagleBone Green Wireless: SeeedStudio_BeagleBone_Green_Wireless.md
 
     - Raspberry Pi:
-        - Raspberry Pi: RaspberryPi.md
+        - Raspberry Pi: Raspberry_Pi.md
 
     - Edison:
         - Intel Edison: Edison.md
@@ -26,8 +26,8 @@ pages:
         - TI LaunchPad: LaunchPad.md
 
     - LinkIt:
-        - Breakout for LinkIt Smart 7688 v2.0: Breakout_for_LinkIt_Smart_7688_v2_0.md
-        - Linkit ONE: LinkIt_ONE.md
+        - Breakout for LinkIt Smart 7688 v2.0: Breakout_for_LinkIt_Smart_7688_v2.0.md
+        - LinkIt ONE: LinkIt_ONE.md
 
     - mbed:
         - mbed: mbed.md
@@ -35,8 +35,8 @@ pages:
 
     - RePhone:
         - RePhone: RePhone.md
-        - Arduino IDE for RePhone: Arduino_IDE_for_RePhone.md
-        - Xadow GSM&#43;BLE: Xadow_GSM_BLE.md
+        - Arduino IDE for RePhone Kit: Arduino_IDE_for_RePhone_Kit.md
+        - Xadow GSM&#43;BLE: Xadow_GSMPlusBLE.md
 
     - Wio:
         - Wio Link: Wio_Link.md
@@ -46,17 +46,18 @@ pages:
 - Grove:
     - Grove System: Grove_System.md
     - Sensor:
-        - Grove - Barometer Sensor (BMP280): Grove_Barometer_Sensor_BMP280.md
-        - Grove - Light Sensor: Grove_Light_Sensor.md
-        - Grove - Sound Sensor: Grove_Sound_Sensor.md
+        - Grove - Barometer Sensor (BMP280): Grove-Barometer_Sensor-BMP280.md
+        - Grove - Gas Sensor(O₂): Grove-Gas_Sensor-O₂.md
+        - Grove - Light Sensor: Grove-Light_Sensor.md
+        - Grove - Sound Sensor: Grove-Sound_Sensor.md
 
     - Actuator:
         - Actuator: Actuator.md
     
     - Display:
-        - Grove - LCD RGB Backlight: Grove_LCD_RGB_Backlight.md
-        - Grove - OLED Display 1.12: Grove_OLED_Dispaly_1.12.md
-        - I2C_LCD: I2C_LCD.md
+        - Grove - LCD RGB Backlight: Grove-LCD_RGB_Backlight.md
+        - Grove - OLED Display 1.12&#34;: Grove-OLED_Display_1.12inch.md
+        - I2C LCD: I2C_LCD.md
   
     - Communication:
         - Communication: Communication.md
