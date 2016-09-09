@@ -8,11 +8,6 @@ surveyurl: https://www.research.net/r/Seeeduino
 sku: 102010026
 ---
 
-#Seeeduino V4
-
-##Introduction
-=======
-
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/cover.JPG)
 
 Seeeduino v4 is an Open Source, Arduino-compatible ATmega328 MCU development board. We think Seeeduino v4 is one of the best Arduino derivatives/compatibles available. Seeeduino v4 is feature rich, much more stable, easy-to-use and even good looking.
@@ -23,7 +18,6 @@ Seeeduino v4 is based the Arduino UNO bootloader, an ATmega16U2 as a UART-to-USB
 You can program the board via a micro-USB cable. Also, you can power the board via a DC Jack input (7 to 15V DC) is acceptable. There is a switch to choose the system's supply voltage either 3.3V or 5V, which is very useful if you want to set the system to 3.3V to interact with low voltage sensors.
 
 Finally, the three on-board Grove interfaces can make your board connect to Grove modules easily. Want to make something awesome, maybe just a Seeeduino v4.2 and some Groves is enough.
-
 
 
 ###Version

@@ -17,28 +17,25 @@ pages:
         - SeeedStudio BeagleBone Green Wireless: SeeedStudio_BeagleBone_Green_Wireless.md
 
     - Raspberry Pi:
-
-    - Edison:
-
-    - LaunchPad:
-        - TI LaunchPad: LaunchPad.md
+        - Raspberry Pi: Raspberry_Pi.md
 
     - LinkIt:
         - Breakout for LinkIt Smart 7688 v2.0: Breakout_for_LinkIt_Smart_7688_v2.0.md
         - LinkIt ONE: LinkIt_ONE.md
 
     - mbed:
-        - mbed: mbed.md
         - Arch BLE: Arch_BLE.md
 
     - RePhone:
-        - RePhone: Rephone.md
         - Arduino IDE for RePhone Kit: Arduino_IDE_for_RePhone_Kit.md
         - Xadow GSM&#43;BLE: Xadow_GSMPlusBLE.md
 
     - Wio:
         - Wio Link: Wio_Link.md
         - Wio Node: Wio_Node.md
+
+    - Others:
+        - Platform Others: Platform_Others.md
 
     
 - Grove:
@@ -50,6 +47,7 @@ pages:
         - Grove - Sound Sensor: Grove-Sound_Sensor.md
 
     - Actuator:
+        - Actuator: Actuator.md
     
     - Display:
         - Grove - LCD RGB Backlight: Grove-LCD_RGB_Backlight.md
@@ -57,10 +55,10 @@ pages:
         - I2C LCD: I2C_LCD.md
   
     - Communication:
+        - Communication: Communication.md
 
 
 - IoT:
-        - IoT: IoT.md
         - Microsoft IoT Grove Kit (Azure Certified): Microsoft_IoT_Grove_Kit.md
 
 
@@ -70,6 +68,7 @@ pages:
     
 
 - MakerPro:
+        - Maker Pro: MakerPro.md
 
 
         
