@@ -5,6 +5,7 @@ bzurl: https://www.seeedstudio.com/Xadow-Basic-Sensors-p-2555.html
 oldwikiname: Xadow - Basic Sensors
 prodimagename: Xadow_Basic_Sensors.JPG
 surveyurl: https://www.surveymonkey.com/r/Xadow-Basic-Sensors
+sku: 101040006
 ---
 
 # Xadow Basic Sensors

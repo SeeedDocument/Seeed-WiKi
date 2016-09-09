@@ -16,9 +16,9 @@ pages:
         - BeagleBone Green: BeagleBone_Green.md
         - SeeedStudio BeagleBone Green Wireless: SeeedStudio_BeagleBone_Green_Wireless.md
 
-    - Raspberry Pi:
+#    - Raspberry Pi:
 
-    - Edison:
+#    - Edison:
 
     - LaunchPad:
         - TI LaunchPad: LaunchPad.md
@@ -41,7 +41,7 @@ pages:
         - Wio Link: Wio_Link.md
         - Wio Node: Wio_Node.md
 
-    
+
 - Grove:
     - Grove System: Grove_System.md
     - Sensor:
@@ -50,14 +50,14 @@ pages:
         - Grove - Light Sensor: Grove-Light_Sensor.md
         - Grove - Sound Sensor: Grove-Sound_Sensor.md
 
-    - Actuator:
-    
+#    - Actuator:
+
     - Display:
         - Grove - LCD RGB Backlight: Grove-LCD_RGB_Backlight.md
         - Grove - OLED Display 1.12&#34;: Grove-OLED_Display_1.12inch.md
         - I2C LCD: I2C_LCD.md
-  
-    - Communication:
+
+#    - Communication:
 
 
 - IoT:
@@ -68,12 +68,12 @@ pages:
 - Tutorial:
         - Survey: survey_end.md
         - How to install an Arduino library: How_to_Install_an_Arduino_Library.md
-    
-
-- MakerPro:
 
 
-        
+#- MakerPro:
+
+
+
 theme_dir: mkdocs/themes/readthedocs
 
 markdown_extensions:
