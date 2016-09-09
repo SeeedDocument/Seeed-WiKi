@@ -1,5 +1,7 @@
-#Seeed Product Document
-----
+---
+title: Home
+nointro:
+---
 
 ![](http://wiki.seeedstudio.com/images/archive/3/32/20130918070120%21Wiki_banner-1.jpg)
 

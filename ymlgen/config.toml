@@ -1,0 +1,3 @@
+baseurl = "http://wiki.seeed.cc/"
+languageCode = "en-us"
+title = "A test config to generate mkdocs.yml frontmatter using Hugo's templating engine"

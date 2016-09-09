@@ -1,0 +1,103 @@
+site_name: Seeed Wiki
+
+pages:
+- Home: index.md
+
+- Platform:
+    - Arduino:
+        - Seeeduino V4: Platform/Arduino/SeeeduinoV4.2.md
+        - CAN-BUS Shield: Platform/Arduino/CAN_BUS_Shield.md
+        - Seeeduino Stalker V3.1: Platform/Arduino/Seeeduino_Stalker_V3_1.md
+        - Motor Shield V2.0: Platform/Arduino/Motor_Shield_V2.0.md
+        - 2.8 TFT Touch Shield V2: Platform/Arduino/TFT_Touch_Shield_V2.md
+	- Seeeduino Lotus: Platform/Arduino/Seeeduino_Lotus.md
+
+        
+    - BeagleBone:
+        - BeagleBone Green: Platform/BeagleBone/BeagleBone_Green.md
+        - BeagleBone Green Wireless: Platform/BeagleBone/BeagleBone_Green_Wireless.md
+
+    - Raspberry Pi: 
+        - Raspberry Pi: Platform/RaspberryPi/RaspberryPi.md
+    
+    - Edison: 
+        - Intel Edison: Platform/Edison/Edison.md
+    
+    - LaunchPad: 
+        - TI LaunchPad: Platform/LaunchPad/LaunchPad.md
+    
+    - LinkIt: 
+        - LinkIt ONE: Platform/LinkIt/LinkIt_ONE.md
+        - Breakout for LinkIt Smart 7688 V2.0: Platform/LinkIt/Breakout_for_LinkIt_Smart_7688_v2_0.md
+    
+    - mbed:
+        - mbed: Platform/mbed/mbed.md
+        - Arch BLE: Platform/mbed/Arch_BLE.md
+        
+    - RePhone:
+        - RePhone: Platform/RePhone/RePhone.md
+        - Xadow GSM+BLE: Platform/RePhone/Xadow_GSM_BLE.md
+        - Arduino IDE for RePhone: Platform/RePhone/Arduino_IDE_for_RePhone.md
+    
+    - Wio:
+        - Wio Link: Platform/Wio/Wio_Link.md
+        - Wio Node: Platform/Wio/Wio_Node.md
+    
+- Grove:
+    - Grove System: Grove/Grove_System.md
+    - Sensor:
+        - Grove - Barometer Sensor(BMP280): Grove/Sensor/Grove_Barometer_Sensor_BMP280.md
+        - Grove - Light Sensor: Grove/Sensor/Grove_Light_Sensor.md
+        - Grove - Barometer Sensor(BMP280): Grove/Sensor/Grove_Barometer_Sensor_BMP280.md
+        - Grove - Sound Sensor: Grove/Sensor/Grove_Sound_Sensor.md
+
+    - Actuator:
+        - Actuator: Actuator.md
+    
+    - Display:
+        - Grove - LCD RGB Backlight: Grove/Display/Grove_LCD_RGB_Backlight.md
+        - Grove - OLED Display 1.12``: Grove/Display/Grove_OLED_Dispaly_1.12.md
+        - I2C_LCD: Grove/Display/I2C_LCD.md
+    
+    - Communication:
+        - Communication: Grove/Communication/Communication.md
+
+- IoT:
+    - IoT: IoT/IoT.md
+    - Microsoft IoT Grove Kit: IoT/Microsoft_IoT_Grove_Kit.md
+    - Breakout for LinkIt Smart 7688 V2.0: Platform/LinkIt/Breakout_for_LinkIt_Smart_7688_v2_0.md
+
+- Tutorial:
+    - How to Install an Arduino Library: Tutorial/How_to_Install_an_Arduino_Library.md
+    - Survey: Tutorial/survey_end.md
+
+- MakerPro:
+    - MakerPro: SZ2U/SZ2U.md
+    
+#- About: 
+#    - About: about.md
+#    - 如何添加一篇文档: Tutorial/update_wiki.md
+#    - 文档移植:
+#        - 需要做什么: Port/port_main.md
+#        - 文档审核: Port/port_review.md
+#        - Github的使用: Port/port_github.md
+#        - Markdown: Port/port_markdown.md
+#        - 一个例子: Port/port_example.md
+#        - 常用格式代码: Port/port_normal.md
+        
+#- Wiki migration manuals for Seeedia team:
+#        - Review the Wiki: Wiki migration manuals for Seeedia team/Review_the_Wiki.md
+#        - How to use github: Wiki migration manuals for Seeedia team/How_to_use_github.md
+#        - Mark Down: Wiki migration manuals for Seeedia team/Mark_Down.md
+#        - Summary: Wiki migration manuals for Seeedia team/Summary.md
+        
+#- New System Style:
+#        - New System Style: New document system style/New_system_style.md 
+        
+theme_dir: mkdocs/themes/readthedocs
+
+markdown_extensions:
+    - toc:
+        permalink: 
+    - admonition:
+    - smarty
