@@ -5,7 +5,6 @@ pages:
 
 - Platform:
     - Arduino:
-
         - 2.8&#39;&#39; TFT Touch Shield v2.0: 2.8_TFT_Touch_Shield_v2.0.md
         - CAN-BUS Shield V1.2: CAN-BUS_Shield_V1.2.md
         - Motor Shield V2.0: Motor_Shield_V2.0.md
@@ -18,10 +17,8 @@ pages:
         - SeeedStudio BeagleBone Green Wireless: SeeedStudio_BeagleBone_Green_Wireless.md
 
     - Raspberry Pi:
-        - Raspberry Pi: Raspberry_Pi.md
 
     - Edison:
-        - Intel Edison: Edison.md
 
     - LaunchPad:
         - TI LaunchPad: LaunchPad.md
@@ -53,7 +50,6 @@ pages:
         - Grove - Sound Sensor: Grove-Sound_Sensor.md
 
     - Actuator:
-        - Actuator: Actuator.md
     
     - Display:
         - Grove - LCD RGB Backlight: Grove-LCD_RGB_Backlight.md
@@ -61,7 +57,6 @@ pages:
         - I2C LCD: I2C_LCD.md
   
     - Communication:
-        - Communication: Communication.md
 
 
 - IoT:
@@ -75,7 +70,6 @@ pages:
     
 
 - MakerPro:
-        - SZ2U: SZ2U.md
 
 
         
