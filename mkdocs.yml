@@ -24,6 +24,7 @@ pages:
         - TI LaunchPad: LaunchPad.md
 
     - LinkIt:
+        - Arduino Breakout for LinkIt Smart 7688 Duo: Arduino_Breakout_for_LinkIt_Smart_7688_Duo.md
         - Breakout for LinkIt Smart 7688 v2.0: Breakout_for_LinkIt_Smart_7688_v2.0.md
         - LinkIt ONE: LinkIt_ONE.md
 
