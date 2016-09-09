@@ -1,6 +1,6 @@
 ---
-title: Xadow Basic Sensors
-category: Rephone
+title: Xadow - Basic Sensors
+category: RePhone
 bzurl: https://www.seeedstudio.com/Xadow-Basic-Sensors-p-2555.html
 oldwikiname: Xadow - Basic Sensors
 prodimagename: Xadow_Basic_Sensors.JPG
@@ -8,9 +8,7 @@ surveyurl: https://www.surveymonkey.com/r/Xadow-Basic-Sensors
 sku: 101040006
 ---
 
-# Xadow Basic Sensors
-## Introduction
----
+
 ![](https://github.com/SeeedDocument/Xadow_Basic_Sensors/raw/master/images/Xadow_Basic_Sensors.JPG)
 
 Xadow Basic Sensors integrates three different sensors on one single board:
