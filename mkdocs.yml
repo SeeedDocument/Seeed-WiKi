@@ -5,7 +5,7 @@ pages:
 
 - Platform:
     - Arduino:
-        - 2.8&#39;&#39; TFT Touch Shield v2.0: 2.8_TFT_Touch_Shield_v2.0.md
+        - 2.8&#39;&#39; TFT Touch Shield v2.0: 2.8inch_TFT_Touch_Shield_v2.0.md
         - CAN-BUS Shield V1.2: CAN-BUS_Shield_V1.2.md
         - Motor Shield V2.0: Motor_Shield_V2.0.md
         - Seeeduino Lotus: Seeeduino_Lotus.md
@@ -47,7 +47,7 @@ pages:
     - Grove System: Grove_System.md
     - Sensor:
         - Grove - Barometer Sensor (BMP280): Grove-Barometer_Sensor-BMP280.md
-        - Grove - Gas Sensor(O₂): Grove-Gas_Sensor-O₂.md
+        - Grove - Gas Sensor(O₂): Grove-Gas_Sensor-O2.md
         - Grove - Light Sensor: Grove-Light_Sensor.md
         - Grove - Sound Sensor: Grove-Sound_Sensor.md
 
