@@ -20,7 +20,7 @@ pages:
         - mbed: mbed.md
 {{ range .Data.Pages.ByTitle }}{{if eq .Params.category "mbed"}}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
     - RePhone:
-        - RePhone: RePhone.md
+        - RePhone: Rephone.md
 {{ range .Data.Pages.ByTitle }}{{if eq .Params.category "RePhone"}}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
     - Wio:
 {{ range .Data.Pages.ByTitle }}{{if eq .Params.category "Wio"}}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}

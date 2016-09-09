@@ -34,7 +34,7 @@ pages:
         - Arch BLE: Arch_BLE.md
 
     - RePhone:
-        - RePhone: RePhone.md
+        - RePhone: Rephone.md
         - Arduino IDE for RePhone Kit: Arduino_IDE_for_RePhone_Kit.md
         - Xadow GSM&#43;BLE: Xadow_GSMPlusBLE.md
 

@@ -1,5 +1,5 @@
 ---
-title: Rephone
+title: RePhone
 bzurl: https://www.seeedstudio.com/RePhone-Kit-Create-p-2552.html
 oldwikiname: Rephone
 prodimagename: 375px-IMG_2999.JPG
