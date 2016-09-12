@@ -16,17 +16,8 @@ pages:
         - BeagleBone Green: BeagleBone_Green.md
         - SeeedStudio BeagleBone Green Wireless: SeeedStudio_BeagleBone_Green_Wireless.md
 
-<<<<<<< HEAD
     - Raspberry Pi:
         - Raspberry Pi: Raspberry_Pi.md
-=======
-#    - Raspberry Pi:
-
-#    - Edison:
-
-    - LaunchPad:
-        - TI LaunchPad: LaunchPad.md
->>>>>>> 0bdd9e9e1a792fe1944cf5a66e81260e8fcb5453
 
     - LinkIt:
         - Arduino Breakout for LinkIt Smart 7688 Duo: Arduino_Breakout_for_LinkIt_Smart_7688_Duo.md
@@ -45,14 +36,10 @@ pages:
         - Wio Link: Wio_Link.md
         - Wio Node: Wio_Node.md
 
-<<<<<<< HEAD
     - Others:
         - Platform Others: Platform_Others.md
 
     
-=======
-
->>>>>>> 0bdd9e9e1a792fe1944cf5a66e81260e8fcb5453
 - Grove:
     - Grove System: Grove_System.md
     - Sensor:
@@ -61,26 +48,16 @@ pages:
         - Grove - Light Sensor: Grove-Light_Sensor.md
         - Grove - Sound Sensor: Grove-Sound_Sensor.md
 
-<<<<<<< HEAD
     - Actuator:
         - Actuator: Actuator.md
     
-=======
-#    - Actuator:
-
->>>>>>> 0bdd9e9e1a792fe1944cf5a66e81260e8fcb5453
     - Display:
         - Grove - LCD RGB Backlight: Grove-LCD_RGB_Backlight.md
         - Grove - OLED Display 1.12&#34;: Grove-OLED_Display_1.12inch.md
         - I2C LCD: I2C_LCD.md
-<<<<<<< HEAD
   
     - Communication:
         - Communication: Communication.md
-=======
-
-#    - Communication:
->>>>>>> 0bdd9e9e1a792fe1944cf5a66e81260e8fcb5453
 
 
 - IoT:
@@ -90,17 +67,13 @@ pages:
 - Tutorial:
         - Survey: survey_end.md
         - How to install an Arduino library: How_to_Install_an_Arduino_Library.md
+    
 
-<<<<<<< HEAD
 - MakerPro:
         - Maker Pro: MakerPro.md
-=======
-
-#    - MakerPro:
-
->>>>>>> 0bdd9e9e1a792fe1944cf5a66e81260e8fcb5453
 
 
+        
 theme_dir: mkdocs/themes/readthedocs
 
 markdown_extensions:
