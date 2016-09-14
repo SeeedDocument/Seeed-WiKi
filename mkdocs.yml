@@ -47,12 +47,14 @@ pages:
         - Grove - Gas Sensor(O₂): Grove-Gas_Sensor-O2.md
         - Grove - Light Sensor: Grove-Light_Sensor.md
         - Grove - Sound Sensor: Grove-Sound_Sensor.md
+        - Grove - Voice Recognizer: Grove_Voice_Recognizer.md
 
     - Actuator:
         - Actuator: Actuator.md
     
     - Display:
         - Grove - LCD RGB Backlight: Grove-LCD_RGB_Backlight.md
+        - Grove - OLED Display 0.96 inch: Grove_OLED_Display_0.96.md
         - Grove - OLED Display 1.12&#34;: Grove-OLED_Display_1.12inch.md
         - I2C LCD: I2C_LCD.md
   
@@ -61,6 +63,8 @@ pages:
 
 
 - IoT:
+        - BLE Carbon: BLE-Carbon.md
+        - BLE Nitrogen: BLE-Nitrogen.md
         - Microsoft IoT Grove Kit (Azure Certified): Microsoft_IoT_Grove_Kit.md
 
 

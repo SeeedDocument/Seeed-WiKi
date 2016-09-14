@@ -13,9 +13,9 @@
             {% if meta.nointro %} {% else %}<li class="toctree-l3"><a href="#introduction">Introduction</a></li>{%endif%}
             {% for toc_item in toc %}
                 <li class="toctree-l3"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
-                {% for toc_item in toc_item.children %}
+                <!-- {% for toc_item in toc_item.children %}
                     <li><a class="toctree-l4" href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
-                {% endfor %}
+                {% endfor %} -->
             {% endfor %}
             {% if meta.surveyurl%}<li class="toctree-l3"><a href="#help-us-to-make-it-better">Help us to make it better</a></li>{% endif %}
             </ul>
