@@ -51,6 +51,7 @@ pages:
 
     - Actuator:
         - Actuator: Actuator.md
+        - Grove - Recorder V3: Grove_Recorder_V3.md
     
     - Display:
         - Grove - LCD RGB Backlight: Grove-LCD_RGB_Backlight.md
