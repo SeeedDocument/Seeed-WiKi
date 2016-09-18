@@ -8,7 +8,7 @@ surveyurl: https://www.surveymonkey.com/r/Grove_Voice_Recognizer
 sku: 
 ---
 
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Voice_Recognizer/master/img/cover.jpg)
+![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Speech_Recognizer/master/img/cover.jpg)
 
 Use voice to interact with things around you can always be one of the most interesting things of IoT application, we want to make something more different and cooler. Recently we just launched the voice control solution “Respeaker” on Kickstarter and it becomes the blockbuster. However not everybody needs a Respeaker to build voice control project, sometimes people only need a simple solution, here we would like to introduce the first generation of grove speech recognizer to realize your dream of smart home easily and fast.
 Grove speech recognizer is a designed for voice control application such as smart home, smart toy, voice control robot, anything you would like to control through voice, it worth a try. The board includes a Nuvoton ISD9160, a microphone, 1 SPI flash, 1 grove connector,1 speaker connector and 1 led to reflect to your voice.
@@ -70,7 +70,7 @@ When it recognizes the awaken word, LED turn red, then you can say the command w
 
 ##Hardware Overview
 
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Voice_Recognizer/master/img/hw.png)
+![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Speech_Recognizer/master/img/hw.png)
 
 1. Speaker Connector - You can connect a speaker to get the voice return
 2. Microphone
@@ -112,14 +112,14 @@ Here we will show you how this Grove - Speech Recognizer works via a simple demo
 
 | Seeeduino V4 | Grove - Speech Recognizer | Base Shield |
 |--------------|----------------------|-----------------|
-|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_1.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Voice_Recognizer/master/img/stuff1.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_4.jpg)|
+|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_1.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Speech_Recognizer/master/img/stuff1.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_4.jpg)|
 |[Get ONE Now](http://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html)|[Get ONE Now](http://www.seeedstudio.com/Grove-Light-Sensor%28P%29-p-1253.html)|[Get ONE Now](http://www.seeedstudio.com/Grove-Universal-4-Pin-20cm-Unbuckled-Cable-%285-PCs-Pack%29-p-749.html)|
 
 
 ###Hardware Connection
 Thanks to the benefit of Grove series module, you don't need to make soldering or bread board, what you need to do is connect the modules to the right port of Base Shield. For this demo, we connect Grove - Speech Recognizer to D2.
 
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Voice_Recognizer/master/img/connect.jpeg)
+![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Speech_Recognizer/master/img/connect.jpeg)
 
 
 ###Software
@@ -194,10 +194,10 @@ After the module is awake, you can speak out the command. Such as
     "Turn on the TV"
 If the blue led is light(last about 1s), that means the command was recognized correctly. Take a look at your Serial monitor, the command was printed on it.
 
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Voice_Recognizer/master/img/monitor.png)
+![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Speech_Recognizer/master/img/monitor.png)
 
 
 ##Resources
 
-* [Schematics in Eagle](https://github.com/SeeedDocument/Grove_Voice_Recognizer/raw/master/res/eagle.zip)
-* [Schematics in PDF](https://github.com/SeeedDocument/Grove_Voice_Recognizer/raw/master/res/Grove%20-%20Speech%20Recognizer%20v1.0.pdf)
+* [Schematics in Eagle](https://github.com/SeeedDocument/Grove_Speech_Recognizer/raw/master/res/eagle.zip)
+* [Schematics in PDF](https://github.com/SeeedDocument/Grove_Speech_Recognizer/raw/master/res/Grove%20-%20Speech%20Recognizer%20v1.0.pdf)

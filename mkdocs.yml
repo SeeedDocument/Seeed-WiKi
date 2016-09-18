@@ -48,7 +48,7 @@ pages:
         - Grove - Gas Sensor(O₂): Grove-Gas_Sensor-O2.md
         - Grove - Light Sensor: Grove-Light_Sensor.md
         - Grove - Sound Sensor: Grove-Sound_Sensor.md
-        - Grove - Speech Recognizer: Grove_Voice_Recognizer.md
+        - Grove - Speech Recognizer: Grove_Speech_Recognizer.md
 
     - Actuator:
         - Actuator: Actuator.md
