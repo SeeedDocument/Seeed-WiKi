@@ -1,5 +1,5 @@
 ---
-title: Grove - Voice Recognizer
+title: Grove - Speech Recognizer
 category: Sensor
 bzurl: 
 oldwikiname: 
@@ -108,16 +108,16 @@ When it recognizes the awaken word, LED turn red, then you can say the command w
 
 ##Getting Started
 
-Here we will show you how this Grove - Voice Recognizer works via a simple demo. First of all, you need to prepare the below stuffs:
+Here we will show you how this Grove - Speech Recognizer works via a simple demo. First of all, you need to prepare the below stuffs:
 
-| Seeeduino V4 | Grove - Voice Recognizer | Base Shield |
+| Seeeduino V4 | Grove - Speech Recognizer | Base Shield |
 |--------------|----------------------|-----------------|
 |![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_1.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Voice_Recognizer/master/img/stuff1.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_4.jpg)|
 |[Get ONE Now](http://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html)|[Get ONE Now](http://www.seeedstudio.com/Grove-Light-Sensor%28P%29-p-1253.html)|[Get ONE Now](http://www.seeedstudio.com/Grove-Universal-4-Pin-20cm-Unbuckled-Cable-%285-PCs-Pack%29-p-749.html)|
 
 
 ###Hardware Connection
-Thanks to the benefit of Grove series module, you don't need to make soldering or bread board, what you need to do is connect the modules to the right port of Base Shield. For this demo, we connect Grove - Voice Recognize to D2.
+Thanks to the benefit of Grove series module, you don't need to make soldering or bread board, what you need to do is connect the modules to the right port of Base Shield. For this demo, we connect Grove - Speech Recognizer to D2.
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Voice_Recognizer/master/img/connect.jpeg)
 
