@@ -1,6 +1,6 @@
 ---
 title: SeeedStudio BeagleBone Green Wireless
-category: BeagleBone
+category: BeagleBone, IoT
 bzurl: https://www.seeedstudio.com/SeeedStudio-BeagleBone-Green-Wireless-p-2650.html
 oldwikiname: SeeedStudio_BeagleBone_Green_Wireless
 prodimagename: BBGW_cover.png
