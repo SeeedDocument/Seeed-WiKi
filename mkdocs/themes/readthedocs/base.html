@@ -97,6 +97,27 @@
                 {% if meta.title %}<h1>{{ meta.title[0] }}</h1>{% endif %}
                 {% if meta.nointro %} {% else %}<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link"></a></h2>{% endif %}
                 {{ content }}
+
+{% if meta.tags %}{% set tags=[] %}{% set la = meta.tags[0].split(',') %}{% for item in la %}{{ tags.append(item.strip()) or '' }}{% endfor %}{% if 'plat_pi' in tags or 'plat_duino' in tags or 'plat_bbg' in tags or 'plat_wio' in tags or 'plat_linkit' in tags %}
+<div id="platform-supported-table">
+</br>
+<table><thead><tr><th>Arduino</th><th>Wio</th><th>BeagleBone</th><th>Raspberry Pi</th><th>LinkIt</th></tr></thead><tbody>
+<tr>
+<td>{%if 'plat_duino' in tags %}<img src="https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/arduino_logo.jpg">{% else %}<img src="https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/arduino_logo_n.jpg">{% endif %}</td>
+<td>{%if 'plat_wio' in tags %}<img src="https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/wio_logo.jpg">{% else %}<img src="https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/wio_logo_n.jpg">{% endif %}</td>
+<td>{%if 'plat_bbg' in tags %}<img src="https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/bbg_logo.jpg">{% else %}<img src="https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/bbg_logo_n.jpg">{% endif %}</td>
+<td>{%if 'plat_pi' in tags %}<img src="https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/raspberry_pi_logo.jpg">{% else %}<img src="https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/raspberry_pi_logo_n.jpg">{% endif %}</td>
+<td>{%if 'plat_linkit' in tags %}<img src="https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/linkit_logo.jpg">{% else %}<img src="https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/linkit_logo_n.jpg">{% endif %}</td>
+</tr>
+</tbody>
+</table>
+</div>
+<script>
+$("#platform-supported-table")
+    .appendTo("#platform-support");
+</script>
+{% endif %}{% endif %}
+
                 {% if meta.surveyurl %}<h2 id="help-us-to-make-it-better">Help us to make it better<a class="headerlink" href="#help-us-to-make-it-better" title="Permanent link"></a></h2>{% endif  %}
                 {% if meta.surveyurl %}<iframe style="height: 600px; width: 700px; margin: 10px 0 10px;" allowTransparency="true" src="{{ meta.surveyurl[0]}}" frameborder="0"></iframe></iframe>{% endif %}
               {% endblock %}
