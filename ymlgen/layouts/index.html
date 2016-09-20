@@ -5,42 +5,42 @@ pages:
 
 - Platform:
     - Arduino:
-{{ range .Data.Pages.ByTitle }}{{if eq .Params.category "Arduino"}}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
+{{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Arduino") (eq $cat2 "Arduino") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
     - BeagleBone:
-{{ range .Data.Pages.ByTitle }}{{if eq .Params.category "BeagleBone"}}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
+{{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "BeagleBone") (eq $cat2 "BeagleBone") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
     - Raspberry Pi:
-{{ range .Data.Pages.ByTitle }}{{if eq .Params.category "Raspberry Pi"}}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
+{{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Raspberry Pi") (eq $cat2 "Raspberry Pi") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
     - LinkIt:
-{{ range .Data.Pages.ByTitle }}{{if eq .Params.category "LinkIt"}}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
+{{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "LinkIt") (eq $cat2 "LinkIt") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
     - mbed:
-{{ range .Data.Pages.ByTitle }}{{if eq .Params.category "mbed"}}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
+{{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "mbed") (eq $cat2 "mbed") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
     - RePhone:
-{{ range .Data.Pages.ByTitle }}{{if eq .Params.category "RePhone"}}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
+{{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "RePhone") (eq $cat2 "RePhone") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
     - Wio:
-{{ range .Data.Pages.ByTitle }}{{if eq .Params.category "Wio"}}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
+{{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Wio") (eq $cat2 "Wio") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
     - Others:
-{{ range .Data.Pages.ByTitle }}{{if eq .Params.category "Others"}}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
+{{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Others") (eq $cat2 "Others") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
     
 - Grove:
     - Grove System: Grove_System.md
     - Sensor:
-{{ range .Data.Pages.ByTitle }}{{if eq .Params.category "Sensor"}}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
+{{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Sensor") (eq $cat2 "Sensor") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
     - Actuator:
-{{ range .Data.Pages.ByTitle }}{{if eq .Params.category "Actuator"}}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}    
+{{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Actuator") (eq $cat2 "Actuator") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
     - Display:
-{{ range .Data.Pages.ByTitle }}{{if eq .Params.category "Display"}}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}  
+{{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Display") (eq $cat2 "Display") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
     - Communication:
-{{ range .Data.Pages.ByTitle }}{{if eq .Params.category "Communication"}}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
+{{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Communication") (eq $cat2 "Communication") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
 
 - IoT:
-{{ range .Data.Pages.ByTitle }}{{if eq .Params.category "IoT"}}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
+{{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "IoT") (eq $cat2 "IoT") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
 
 - Tutorial:
         - Survey: survey_end.md
-{{ range .Data.Pages.ByTitle }}{{if eq .Params.category "Tutorial"}}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}    
+{{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Tutorial") (eq $cat2 "Tutorial") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
 
 - MakerPro:
-{{ range .Data.Pages.ByTitle }}{{if eq .Params.category "MakerPro"}}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
+{{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "MakerPro") (eq $cat2 "MakerPro") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
 
         
 theme_dir: mkdocs/themes/readthedocs

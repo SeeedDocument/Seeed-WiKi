@@ -56,13 +56,13 @@ pages:
         - Actuator: Actuator.md
         - Grove - Recorder V3: Grove_Recorder_V3.md
         - Grove - Relay: Grove-Relay.md
-    
+
     - Display:
         - Grove - LCD RGB Backlight: Grove-LCD_RGB_Backlight.md
         - Grove - OLED Display 0.96 inch: Grove_OLED_Display_0.96.md
         - Grove - OLED Display 1.12&#34;: Grove-OLED_Display_1.12inch.md
         - I2C LCD: I2C_LCD.md
-  
+
     - Communication:
         - Communication: Communication.md
         - Grove - UART Wi-Fi: Grove-UART_Wifi.md
@@ -72,12 +72,13 @@ pages:
         - BLE Carbon: BLE-Carbon.md
         - BLE Nitrogen: BLE-Nitrogen.md
         - Microsoft IoT Grove Kit (Azure Certified): Microsoft_IoT_Grove_Kit.md
+        - SeeedStudio BeagleBone Green Wireless: SeeedStudio_BeagleBone_Green_Wireless.md
 
 
 - Tutorial:
         - Survey: survey_end.md
         - How to install an Arduino library: How_to_Install_an_Arduino_Library.md
-    
+
 
 - MakerPro:
         - Maker Pro: MakerPro.md
