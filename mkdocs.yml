@@ -9,13 +9,16 @@ pages:
         - Base Shield V2: Base_Shield_V2.md
         - CAN-BUS Shield V1.2: CAN-BUS_Shield_V1.2.md
         - Motor Shield V2.0: Motor_Shield_V2.0.md
+        - Seeeduino Cloud: Seeeduino_Cloud.md
+        - Seeeduino GPRS: Seeeduino_GPRS.md
         - Seeeduino Lotus: Seeeduino_Lotus.md
+        - Seeeduino Mega: Seeeduino_Mega.md
         - Seeeduino Stalker V3.1: Seeeduino_Stalker_V3.1.md
         - Seeeduino v4.2: Seeeduino_v4.2.md
 
     - BeagleBone:
         - BeagleBone Green: BeagleBone_Green.md
-        - SeeedStudio BeagleBone Green Wireless: SeeedStudio_BeagleBone_Green_Wireless.md
+        - BeagleBone Green Wireless: BeagleBone_Green_Wireless.md
 
     - Raspberry Pi:
         - Raspberry Pi: Raspberry_Pi.md
@@ -71,8 +74,11 @@ pages:
 - IoT:
         - BLE Carbon: BLE-Carbon.md
         - BLE Nitrogen: BLE-Nitrogen.md
+        - BeagleBone Green: BeagleBone_Green.md
+        - BeagleBone Green Wireless: BeagleBone_Green_Wireless.md
         - Microsoft IoT Grove Kit (Azure Certified): Microsoft_IoT_Grove_Kit.md
-        - SeeedStudio BeagleBone Green Wireless: SeeedStudio_BeagleBone_Green_Wireless.md
+        - Seeeduino Cloud: Seeeduino_Cloud.md
+        - Seeeduino GPRS: Seeeduino_GPRS.md
 
 
 - Tutorial:
