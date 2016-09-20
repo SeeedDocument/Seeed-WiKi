@@ -18,14 +18,12 @@ More than that, we also develop the dedicated picture data convert software (bit
 
 I2C_LCD can provide you with a very convenient way of make. Enjoy yourself!
 
-
 ###Product Version
 
 | Version 	| How to buy	|
 |-----------|---------------|
 |I2C_LCD (With universal Grove cable)|[![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/300px-Get_One_Now_Banner.png)](https://www.seeedstudio.com/I2C_LCD-(With-universal-Grove-cable)-p-2601.html)|
 |I2C_LCD (With conversion Grove cable)|[![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/300px-Get_One_Now_Banner.png)](https://www.seeedstudio.com/I2C_LCD-(With-universal-Grove-cable)-p-2601.html)|
-
 
 ##Features
 
@@ -55,7 +53,6 @@ I2C_LCD can provide you with a very convenient way of make. Enjoy yourself!
 |![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/arduino_logo.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/wio_logo_n.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/bbg_logo_n.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/raspberry_pi_logo_n.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/linkit_logo.jpg)|
 
 
-
 ##Interface Function
 
 ![enter image description here](https://raw.githubusercontent.com/SparkingStudio/I2C_LCD/master/images/I2C_LCD_Board.jpg)
@@ -81,6 +78,21 @@ I2C_LCD can provide you with a very convenient way of make. Enjoy yourself!
 |Temperature|-20|25|70|℃
 
 
+##Application Ideas
+
+Here is some funny project for your reference.
+
+|Display Picture|Clock With Calendar|Used As Debuger|
+|-------|-------|-------|
+|![enter image description here](https://raw.githubusercontent.com/SparkingStudio/I2C_LCD/master/images/BitmapDisplay_p1.png)|![enter image description here](https://raw.githubusercontent.com/SparkingStudio/I2C_LCD/master/images/ClockWithCalendar_p1.png)|![enter image description here](https://raw.githubusercontent.com/SparkingStudio/I2C_LCD/master/images/debugWithMe_p1.png)|
+| [Make it Now](http://www.instructables.com/id/Display-Picture-Or-Icon-On-the-fancy-I2CLCD/) | [Make it Now](http://www.instructables.com/id/Beautiful-and-practical-clock-with-calendar/) | [Make it Now](http://www.instructables.com/id/Use-I2CLCD-to-Debug-Your-Project-1/ )|
+
+
+|Automatic Humidifier|Snake Game|
+|-------|-------|
+|![enter image description here](https://raw.githubusercontent.com/SparkingStudio/I2C_LCD/master/images/AutomaticHumidifier.png)|![enter image description here](https://raw.githubusercontent.com/SparkingStudio/I2C_LCD/master/images/DIY_SnakeGame.png)|
+| [Make it Now](http://www.instructables.com/id/DIY-a-Simple-Automatic-Humidifier/) | [Make it Now](http://www.seeed.cc/project_detail.html?id=1621)|
+
 
 ##Getting Started
 
@@ -90,19 +102,19 @@ I2C_LCD can provide you with a very convenient way of make. Enjoy yourself!
 
 **Step 2:** Download and install the I2C_LCD library to Arduino IDE:
 
-Open Arduino IDE, click Sketch -> Include library -> Add .ZIP library.
+Open Arduino IDE, **click Sketch -> Include library -> Add .ZIP library**.
 
 ![enter image description here](https://raw.githubusercontent.com/SparkingStudio/I2C_LCD/master/images/I2C_LCD_InstalLib_1.jpg)
 
-Find and select the I2C_LCD.zip file you just downloaded.
+Find and select the **I2C_LCD.zip** file you just downloaded.
 
 ![enter image description here](https://raw.githubusercontent.com/SparkingStudio/I2C_LCD/master/images/I2C_LCD_InstalLib_2.jpg)
 
 Restart the Arduino IDE.
 
 **Step 3:** Chose the example project which you like. (Take "HelloWorld" project for example here.)
-Click **File > Examples > I2C_LCD > HelloWorld**
 
+**Click File > Examples > I2C_LCD > HelloWorld**
 
 ![enter image description here](https://raw.githubusercontent.com/SparkingStudio/I2C_LCD/master/images/I2C_LCD_InstalLib_3.jpg)
 
@@ -112,28 +124,24 @@ Click **File > Examples > I2C_LCD > HelloWorld**
 
 **Step 5:** Select your board and serial port.
 
-Select the board: Click Tools > Board > Arduino Duemilanove or Diecimila(Seeeduino V3.0 Or early version), Arduino Uno(Seeeduino Lotus or Seeeduino V4.0).
+Select the board: **Click Tools > Board > "Arduino Duemilanove or Diecimila"(Seeeduino V3.0 Or early version), "Arduino Uno"(Seeeduino Lotus or Seeeduino V4.0)**.
 
 ![enter image description here](https://raw.githubusercontent.com/SparkingStudio/I2C_LCD/master/images/I2C_LCD_InstalLib_5.jpg)
 
-Select the COM: Click Tools -> Serial Port -> COMX(which connected with your board.)
+Select the COM: **Click Tools -> Serial Port -> COMX(which connected with your board.)**
 
 ![enter image description here](https://raw.githubusercontent.com/SparkingStudio/I2C_LCD/master/images/I2C_LCD_InstalLib_6.jpg)
 
-**Step 6:** Upload the program and enjoy yourself!
+**Step 6:** Upload the program and **enjoy yourself!**
 
 ![enter image description here](https://raw.githubusercontent.com/SparkingStudio/I2C_LCD/master/images/I2C_LCD_InstalLib_7.jpg)
-
 
 **PS:**
 
 1. For more details about library install please refer to http://www.arduino.cc/en/Guide/Liaries.
 2. If you encounter other problems during the use, please refer to the User Manual for help. If you can't solve it, please contact us.
 
-
 **Technical support:** Joney.s@foxmail.com
-
-
 
 ##Version Tracker
 **I2C_LCD Hardware:**
@@ -162,25 +170,10 @@ Keeping update the latest version.
 
 The [repository of Arduino library hosted here](https://github.com/SparkingStudio/I2C_LCD_library), if you have any good idea of the code, you can pull to us.
 
-* [I2C_LCD Library](https://github.com/SparkingStudio/I2C_LCD/raw/master/resources/I2C_LCD_library.zip)
+* [I2C_LCD Library](https://github.com/SparkingStudio/I2C_LCD/blob/master/resources/I2C_LCD_Library.zip)
 * [I2C_LCD User Manual EN](https://github.com/SparkingStudio/I2C_LCD/blob/master/resources/I2C_LCD-UserManual_EN.zip)
 * [I2C_LCD User Manual 中文](https://github.com/SparkingStudio/I2C_LCD/blob/master/resources/I2C_LCD-UserManual_CN.zip)
 * [BitmapConverter(ForWindows)](https://github.com/SparkingStudio/I2C_LCD/blob/master/resources/Bitmap%20Converter.rar)
 * [BitmapConverter(ForMacOS)](https://github.com/SparkingStudio/I2C_LCD/blob/master/resources/Bitmap%20Converter.dmg)
 * [BitmapConverter(ForLinux)](https://github.com/SparkingStudio/I2C_LCD/blob/master/resources/Bitmap%20Converter.tar.gz)
 * [I2C_LCD_SourceFile](https://github.com/SparkingStudio/I2C_LCD/blob/master/resources/I2C_LCD12864_SourceFile.zip)
-
-##Help us to make it better
-
-Thank you for choosing Seeed. As one of the world-leading open-hardware suppliers, Seeedstudio has been continuously creating well-quality and diversified modules for our customers, makers and developers. As a young company, it is inevitable that there are things we neglected the importance, for example, our document system. It is a little shame however true that we have been continuously receiving complaint about how hard it is to use our document system——ugly interface, confusing content, and the URL that can never be opened etc. Here we sincerely apologize for all the inconvenient you’ve experienced during using the old system.
-
-It is time to say good bye to the user-unfriendly old document system now, in order to bring better experience to our users, we have launched a project to optimize the document system from the middle of 2016. The work includes:
-
-* Replace the old WiKi system with a new one that developed from Mkdocs, a more widely used and cooler project documentation tool.
-* Review and rewrite documents for hundreds of products to make them more understandable.
-* Inspected repair all the URL to make sure it can be linked to the right page.
-
-Although we have tried our best to optimize, it is still possible that we make some mistakes, so if you find anything that needs to be updated, it is very welcome to submit the amended version as our contributor or give us suggestions in the survey below. Please don’t forget to leave your email address if you need our reply, we will reply to you as soon as we can.
-
-By the way, we will feel very happy and encouraged if we receive 5 stars from you. With the help and encouragement from you, we believe that we can make this document better and better!
-
