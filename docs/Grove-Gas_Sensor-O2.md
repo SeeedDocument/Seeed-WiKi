@@ -6,7 +6,9 @@ oldwikiname: Grove_-_Gas_Sensor(O₂)
 prodimagename: cover.jpg
 surveyurl: https://www.research.net/r/Gas_Sensor_O2
 sku: 101020002
+tags: plat_duino
 ---
+<!-- tags: I2C, plat_duino, plat_bbg, plat_pi, plat_wio, plat_linkit -->
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Gas_Sensor_O2/master/images/cover.jpg)
 
@@ -35,12 +37,7 @@ Grove-Gas Sensor (O2) is a kind of sensor to test the oxygen concentration in ai
 |Temperature Range |	-20 oC~50 oC |
 |Preheat Time	| 20 minutes|
 
-##Platform Support
-
-|Arduino|Wio|BeagleBone|Raspberry Pi|LinkIt|
-|---------|-----|-----|------|------|
-|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/arduino_logo.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/wio_logo_n.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/bbg_logo_n.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/raspberry_pi_logo_n.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/linkit_logo_n.jpg)|
-
+## Platform Support
 
 ##Getting Started
 
