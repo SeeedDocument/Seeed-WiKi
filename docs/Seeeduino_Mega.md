@@ -8,8 +8,6 @@ surveyurl: https://www.surveymonkey.com/r/Seeeduino_Mega
 sku: 102010007
 ---
 
-##Introduction
-
 ![](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/img/Seeeduino_Mega_cover.jpg?raw=true)
 
 Seeeduino Mega is a powerful micro-controller derived from Arduino Mega. It features ATmega2560 processor which brings a large number of I/O pins, as much as 70 digital I/O, 16 analog inputs, 14 PWM, and 4 hardware serial ports. Compared to Arduino Mega, we shrunk the volume of Arduino Mega by at least 30% and made it 100% compatible with [Seeed Shield products](https://www.seeedstudio.com/s/shield.html). And as a member of Seeeduino series, Seeeduino Mega inherits deliberate details from Seeeduino, like selectable operating voltage(3.3V/5V), right angle reset button, and so on.
@@ -29,8 +27,8 @@ Seeeduino Mega is a powerful micro-controller derived from Arduino Mega. It feat
 Here is some funny project for your reference.
 
 |8*8*8 LED Cube|Hexapod Robot|DIY Arduino 3D Printer|
-|-------|-------|--------|
-|[](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/img/example_1.jpg?raw=true)|[](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/img/example_2.jpg?raw=true)|[](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/img/example_3.jpg?raw=true)|
+|-------|-------|--------
+|![](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/img/example_1.jpg?raw=true)|![](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/img/example_2.jpg?raw=true)|![](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/img/example_3.jpg?raw=true)|
 |[Make it Now](http://www.instructables.com/id/Arduino-Mega-8x8x8-RGB-LED-Cube/)|[Make it Now](http://www.instructables.com/id/Arduino-Mega-Hexapod/)|[Make it Now](http://www.instructables.com/id/Arduino-Controlled-CNC-3D-Printer/)|
 
 ##Features
@@ -87,29 +85,27 @@ This is the ICSP connection for the ATmega328P, it is located in the standard IC
 There are up to 70 digital pins in Seeeduino Mega. Click [here](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/res/Seeeduino%20Mega%20pin%20mapping.pdf) to see the pin mapping between Arduino Pins and Atmega2560 pins.
 Each of the 70 digital pins on the Mega can be used as an input or output, using pinMode(), digitalWrite(), and digitalRead() functions. They operate at 5 volts. Each pin can provide or receive 20 mA as recommended operating condition and has an internal pull-up resistor (disconnected by default) of 20-50 k ohm. A maximum of 40mA is the value that must not be exceeded to avoid permanent damage to the microcontroller.
 In addition, some pins have specialized functions:
-Serial: 0 (RX) and 1 (TX); Serial 1: 19 (RX) and 18 (TX); Serial 2: 17 (RX) and 16 (TX); Serial 3: 15 (RX) and 14 (TX). Used to receive (RX) and transmit (TX) TTL serial data. Pins 0 and 1 are also connected to the corresponding pins of the ATmega16U2 USB-to-TTL Serial chip.
-External Interrupts: 2 (interrupt 0), 3 (interrupt 1), 18 (interrupt 5), 19 (interrupt 4), 20 (interrupt 3), and 21 (interrupt 2). These pins can be configured to trigger an interrupt on a low level, a rising or falling edge, or a change in level. See the attachInterrupt() function for details.
-PWM: 2 to 13 and 44 to 46. Provide 8-bit PWM output with the analogWrite() function.
-SPI: 50 (MISO), 51 (MOSI), 52 (SCK), 53 (SS). These pins support SPI communication using the SPI library. The SPI pins are also broken out on the ICSP header, which is physically compatible with the Arduino /Genuino Uno.
-LED: 13. There is a built-in LED connected to digital pin 13. When the pin is HIGH value, the LED is on, when the pin is LOW, it's off.
-TWI: 20 (SDA) and 21 (SCL). Support TWI communication using the Wire library. Note that these pins are not in the same location as the TWI pins on the old Duemilanove or Diecimila Arduino boards.
-See also the mapping Arduino Mega 2560 PIN diagram.
-The Mega 2560 has 16 analog inputs, each of which provide 10 bits of resolution (i.e. 1024 different values). By default they measure from ground to 5 volts, though is it possible to change the upper end of their range using the AREF pin and analogReference() function.
-There are a couple of other pins on the board:
-AREF. Reference voltage for the analog inputs. Used with analogReference().
-Reset. Bring this line LOW to reset the microcontroller. Typically used to add a reset button to shields which block the one on the board.
-The no marked pins. Use them with operating the Register.
+	* Serial: 0 (RX) and 1 (TX); Serial 1: 19 (RX) and 18 (TX); Serial 2: 17 (RX) and 16 (TX); Serial 3: 15 (RX) and 14 (TX). Used to receive (RX) and transmit (TX) TTL serial data. Pins 0 and 1 are also connected to the corresponding pins of the ATmega16U2 USB-to-TTL Serial chip.
+	* External Interrupts: 2 (interrupt 0), 3 (interrupt 1), 18 (interrupt 5), 19 (interrupt 4), 20 (interrupt 3), and 21 (interrupt 2). These pins can be configured to trigger an interrupt on a low level, a rising or falling edge, or a change in level. See the attachInterrupt() function for details.
+	* PWM: 2 to 13 and 44 to 46. Provide 8-bit PWM output with the analogWrite() function.
+	* SPI: 50 (MISO), 51 (MOSI), 52 (SCK), 53 (SS). These pins support SPI communication using the SPI library. The SPI pins are also broken out on the ICSP header, which is physically compatible with the Arduino /Genuino Uno.
+	* LED: 13. There is a built-in LED connected to digital pin 13. When the pin is HIGH value, the LED is on, when the pin is LOW, it's off.
+	* TWI: 20 (SDA) and 21 (SCL). Support TWI communication using the Wire library. Note that these pins are not in the same location as the TWI pins on the old Duemilanove or Diecimila Arduino boards.
+	* Analog: The Mega 2560 has 16 analog inputs, each of which provide 10 bits of resolution (i.e. 1024 different values). By default they measure from ground to 5 volts, though is it possible to change the upper end of their range using the AREF pin and analogReference() function.
+	* AREF: Reference voltage for the analog inputs. Used with analogReference().
+	* Reset: Bring this line LOW to reset the microcontroller. Typically used to add a reset button to shields which block the one on the board.
+	* The no marked pins: Use them with operating the Register.
 
 ##Install the Driver
 
 First of all, you need to:
 
 * **Get a Micro-USB cable**
-    * You need a Micro-USB cable first; the data cable of an Android Phone will do fine.
+You need a Micro-USB cable first; the data cable of an Android Phone will do fine.
 If you can't find one, you can buy one [here](http://www.seeedstudio.com/depot/Micro-USB-Cable-48cm-p-1475.html?cPath=98_100).
 
 * **Connect the board**
-    * Connect the Arduino board to your computer using the USB cable. The green power LED (labelled **PWR**) should go on.
+Connect the Arduino board to your computer using the USB cable. The green power LED (labelled **PWR**) should go on.
 
 
 ###For Windows
@@ -140,7 +136,7 @@ You don't need to install any drivers.
     
 First of all, you need to Install an Arduino Software.
 
-[![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Stalker_V3_1/master/img/Download_IDE.png)](https://www.arduino.cc/en/Main/Software)
+[![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Stalker_V3_1/master/images/Download_IDE.png)](https://www.arduino.cc/en/Main/Software)
 
 
 ###Launch the Arduino application
@@ -154,7 +150,7 @@ Double-click the Arduino application (arduino.exe) you have previously downloade
 
 Open the LED blink example sketch: **File > Examples >01.Basics > Blink**.
 
-![enter image description here]()
+![enter image description here](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/img/select_blink.png?raw=true)
 
 ###Add Seeeduino to your Arduino IDE
 
@@ -163,7 +159,7 @@ Click on **File > Preference**, and fill Additional Boards Manager URLs with bel
 
 Click OK to finish the setting. Then Click on **Tools > Board > Boards Manager**, find **Seeeduino by Seeed Studio**, and Install it.
 
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/img/add_board.png)
+![enter image description here](https://github.com/SeeedDocument/SeeeduinoV4/blob/master/images/add_board.png?raw=true)
 
 ###Select your board
 You'll need to select the entry in the **Tools > Board** menu that corresponds to your Arduino.
@@ -182,7 +178,7 @@ Select the serial device of the Arduino board from the Tools | Serial Port menu.
 ###Upload the program
 Now, simply click the "Upload" button in the environment. Wait a few seconds and if the upload is successful, the message "Done uploading." will appear in the status bar.
 
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/img/upload_button.png)
+![enter image description here](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/img/upload_image.png?raw=true)
 
 A few seconds after the upload finishes, you should see the pin 13 (L) LED on the board start to blink (in orange). If it does, congratulations! You've gotten Arduino up-and-running. If you have problems, please see the troubleshooting suggestions.
 
@@ -195,19 +191,28 @@ For using on Linux, please go to [Installing Arduino on Linux](http://playground
 ##Resources
 
 * **Schematic**
-    * [Seeeduino Mega Eagle File](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/res/Seeeduino_Mega_v3.0.zip)
+
+    [Seeeduino Mega Eagle File](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/res/Seeeduino_Mega_v3.0.zip)
 
 * **Pin Mapping**
-    * [Seeeduino Mega Pin Mapping PDF](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/res/Seeeduino%20Mega%20pin%20mapping.pdf)
+
+    [Seeeduino Mega Pin Mapping PDF](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/res/Seeeduino%20Mega%20pin%20mapping.pdf)
     
 * **References**
-    * [Getting Started with Arduino](https://www.arduino.cc/en/Guide/HomePage)
-    * [Arduino Language Reference](https://www.arduino.cc/en/Reference/HomePage)
-    * [Download the Arduino Software(IDE)](https://www.arduino.cc/en/Main/Software)
-    * [Arduino FAQ](https://www.arduino.cc/en/Main/FAQ)
-    * [Arduino Introduction](https://www.arduino.cc/en/guide/introduction)
-    * [Wikipedia page for Arduino](https://en.wikipedia.org/wiki/Arduino)
-    * [Arduino Mega](https://www.arduino.cc/en/Main/ArduinoBoardMega2560?setlang=en)
+
+    [Getting Started with Arduino](https://www.arduino.cc/en/Guide/HomePage)
+    
+    [Arduino Language Reference](https://www.arduino.cc/en/Reference/HomePage)
+    
+    [Download the Arduino Software(IDE)](https://www.arduino.cc/en/Main/Software)
+    
+    [Arduino FAQ](https://www.arduino.cc/en/Main/FAQ)
+    
+    [Arduino Introduction](https://www.arduino.cc/en/guide/introduction)
+    
+    [Wikipedia page for Arduino](https://en.wikipedia.org/wiki/Arduino)
+    
+    [Arduino Mega](https://www.arduino.cc/en/Main/ArduinoBoardMega2560?setlang=en)
 
 ##FAQ
 
@@ -219,5 +224,3 @@ Seeeduino Mega is a powerful microcontroller derived from Arduino Mega. And ther
 * Add 3.3/5V system power switch
 * Add automatic reset mode swtich
 * Smaller size
-
-##Help us to make it better

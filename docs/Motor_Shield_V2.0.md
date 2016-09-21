@@ -145,7 +145,7 @@ You need to do some preparing first:
 
 Then open **motor_dc** example in the library. Upload the code to Seeeduino V4.2.
 
-```Javascript
+```
 //  Demo function:The application method to drive the DC motor.
 //  Author:Loovee (luweicong@seeed.cc)
 //  2016-3-11

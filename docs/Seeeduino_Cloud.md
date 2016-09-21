@@ -8,7 +8,6 @@ surveyurl: https://www.surveymonkey.com/r/Seeeduino_Cloud
 sku: 1020100021
 ---
 
-
 ![](https://github.com/SeeedDocument/Seeeduino_Cloud/blob/master/img/seeeduino_cloud_cover.jpg?raw=true)
 
 Seeeduino Cloud is a microcontroller board based on [Dragino WiFi IoT module HE](http://www.dragino.com/products/linux-module/item/87-he.html) and ATmega32u4. HE is a high performance, low cost 150M, 2.4G WiFi module which means “core” in Chinese and with an Open Source OpenWrt system inside. Seeeduino Cloud is also an Arduino compatible board, 100% compatible to Grove, shield and IDEs(Arduino IDE 1.5.3 and later). Except for the normal interface of Arduino, Seeeduino Cloud has built-in Ethernet and WiFi support, a USB-A port which makes it very suitable for those prototype design that need network connection and mass storage. It is also a good idea to make Seeeduino Cloud to be an IoT gateway.
@@ -23,7 +22,7 @@ Here is some funny project for your reference.
 
 |Simple Wi-Fi Messager|Send data to Google Docs|Solar Panel Monitoring System|
 |--------|----------|---------|
-|![](https://cdn.instructables.com/FC3/FOVR/HQVLC501/FC3FOVRHQVLC501.MEDIUM.jpg)|![](https://cdn.instructables.com/FEK/CKBT/HO7XFET3/FEKCKBTHO7XFET3.MEDIUM.jpg)|![](https://cdn.instructables.com/FQI/J0IT/IIDJEIC0/FQIJ0ITIIDJEIC0.MEDIUM.jpg)|
+|![](https://github.com/SeeedDocument/Seeeduino_Cloud/blob/master/img/example_1.jpg?raw=true)|![](https://github.com/SeeedDocument/Seeeduino_Cloud/blob/master/img/example_2.jpg?raw=true)|![](https://github.com/SeeedDocument/Seeeduino_Cloud/blob/master/img/example_3.jpg?raw=true)|
 |[Make it Now](http://www.instructables.com/id/Arduino-Yun-Messager/)|[Make it Now](http://www.instructables.com/id/Google-Docs-and-the-Arduino-Y%C3%BAn/)|[Make it Now](http://www.instructables.com/id/Arduino-Yun-Solar-Panel-Monitoring-System/)|
 
 
@@ -140,23 +139,23 @@ There is no need to install drivers for Ubuntu 10.0.4 and later, but make sure p
 
 Open the LED blink example sketch: File > Examples >01.Basics > Blink.
 
-![](https://www.arduino.cc/en/uploads/Guide/UNO_Load_Blink.jpg)
+![](https://github.com/SeeedDocument/Seeeduino_Cloud/blob/master/img/UNO_Load_Blink.jpg?raw=true)
 
 ####Select your board type and port
 
 You'll need to select the entry in the Tools > Board menu that corresponds to your Arduino or Genuino board.
 
-![](https://www.arduino.cc/en/uploads/Guide/YUN_SelBoard.jpg)
+![](https://github.com/SeeedDocument/Seeeduino_Cloud/blob/master/img/YUN_SelBoard.jpg?raw=true)
 
 Select the serial device of the board from the Tools | Serial Port menu. This is likely to be COM3 or higher (COM1 and COM2 are usually reserved for hardware serial ports). To find out, you can disconnect your board and re-open the menu; the entry that disappears should be the Arduino or Genuino board. Reconnect the board and select that serial port. When your board is properly configured on WiFi, you will find it in the Port list, as in our screenshot.
 
-![](https://www.arduino.cc/en/uploads/Guide/YUN_SelPort.jpg)
+![](https://github.com/SeeedDocument/Seeeduino_Cloud/blob/master/img/YUN_SelPort.jpg?raw=true)
 
 ####Upload the program
 
 Now, simply click the "Upload" button in the environment. Wait a few seconds - you should see the RX and TX leds on the board flashing. If the upload is successful, the message "Done uploading." will appear in the status bar.
 
-![](https://www.arduino.cc/en/uploads/Guide/UNO_Upload.png)
+![](https://github.com/SeeedDocument/Seeeduino_Cloud/blob/master/img/UNO_Upload.png?raw=true)
 
 A few seconds after the upload finishes, you should see the LED(D13) on the board start to blink (in green). If it does, congratulations! You’ve gotten Arduino up-and-running. If you have problems, please see the troubleshooting suggestions.
 
@@ -213,38 +212,38 @@ This example is a hello test between the Arduino and Seeeduino Cloud. The exampl
 
 ```
 #include <Console.h>
- 
+
 String name;
- 
+
 void setup() {
-  // Initialize Console and wait for port to open:
-  Bridge.begin();
-  Console.begin();
- 
-  // Wait for Console port to connect
-  while (!Console);
- 
-  Console.println("Hi, what's your name?");
+    // Initialize Console and wait for port to open:
+    Bridge.begin();
+    Console.begin();
+
+    // Wait for Console port to connect
+    while (!Console);
+
+    Console.println("Hi, what's your name?");
 }
- 
+
 void loop() {
-  if (Console.available() > 0) {
-    char c = Console.read(); // read the next char received
-    // look for the newline character, this is the last character in the string
-    if (c == '\n') {
-      //print text with the name received
-      Console.print("Hi ");
-      Console.print(name);
-      Console.println("! Nice to meet you!");
-      Console.println();
-      // Ask again for name and clear the old name
-      Console.println("Hi, what's your name?");
-      name = "";  // clear the name string
+    if (Console.available() > 0) {
+        char c = Console.read(); // read the next char received
+        // look for the newline character, this is the last character in the string
+        if (c == '\n') {
+            //print text with the name received
+            Console.print("Hi ");
+            Console.print(name);
+            Console.println("! Nice to meet you!");
+            Console.println();
+            // Ask again for name and clear the old name
+            Console.println("Hi, what's your name?");
+            name = "";  // clear the name string
+        }
+        else {       // if the buffer is empty Cosole.read() returns -1
+            name += c; // append the read char from Console to the name string
+        }
     }
-    else {  	 // if the buffer is empty Cosole.read() returns -1
-      name += c; // append the read char from Console to the name string
-    }
-  }
 }
 
 ```
@@ -260,111 +259,107 @@ Before uploading the sketch, make sure:
 ```
 /*
   Xively sensor client with Strings
- 
+
  This sketch connects an analog sensor to Xively,
  using an Arduino Yún.
- 
+
  created 15 March 2010
  updated 27 May 2013
  by Tom Igoe
- 
- http://arduino.cc/en/Tutorial/YunXivelyClient
- 
- */
- 
 
-// include all Libraries needed:
+ http://arduino.cc/en/Tutorial/YunXivelyClient
+
+ */
 #include <Process.h>
 #include "passwords.h"      // contains my passwords, see below
- 
+
 /*
   NOTE: passwords.h is not included with this repo because it contains my passwords.
  You need to create it for your own version of this application.  To do so, make
  a new tab in Arduino, call it passwords.h, and include the following variables and constants:
- 
+
  #define APIKEY        "foo"                  // replace your pachube api key here
  #define FEEDID        0000                   // replace your feed ID
  #define USERAGENT     "my-project"           // user agent is the project name
  */
- 
- 
+
 // set up net client info:
 const unsigned long postingInterval = 60000;  //delay between updates to xively.com
 unsigned long lastRequest = 0;      // when you last made a request
 String dataString = "";
- 
+
 void setup() {
-  // start serial port:
-  Bridge.begin();
-  Serial.begin(9600);
- 
-  while (!Serial);   // wait for Network Serial to open
-  Serial.println("Xively client");
- 
-  // Do a first update immediately
-  updateData();
-  sendData();
-  lastRequest = millis();
-}
- 
-void loop() {
-  // get a timestamp so you can calculate reading and sending intervals:
-  long now = millis();
- 
-  // if the sending interval has passed since your
-  // last connection, then connect again and send data:
-  if (now - lastRequest >= postingInterval) {
+    // start serial port:
+    Bridge.begin();
+    Serial.begin(9600);
+
+    while (!Serial);   // wait for Network Serial to open
+    Serial.println("Xively client");
+
+    // Do a first update immediately
     updateData();
     sendData();
-    lastRequest = now;
-  }
+    lastRequest = millis();
 }
- 
+
+void loop() {
+    // get a timestamp so you can calculate reading and sending intervals:
+    long now = millis();
+
+    // if the sending interval has passed since your
+    // last connection, then connect again and send data:
+    if (now - lastRequest >= postingInterval) {
+        updateData();
+        sendData();
+        lastRequest = now;
+    }
+}
+
 void updateData() {
-  // convert the readings to a String to send it:
-  dataString = "Temperature,";
-  dataString += random(10) + 20;
-  // add pressure:
-  dataString += "\nPressure,";
-  dataString += random(5) + 100;
+    // convert the readings to a String to send it:
+    dataString = "Temperature,";
+    dataString += random(10) + 20;
+    // add pressure:
+    dataString += "\nPressure,";
+    dataString += random(5) + 100;
 }
- 
+
 // this method makes a HTTP connection to the server:
 void sendData() {
-  // form the string for the API header parameter:
-  String apiString = "X-ApiKey: ";
-  apiString += APIKEY;
- 
-  // form the string for the URL parameter:
-  String url = "https://api.xively.com/v2/feeds/";
-  url += FEEDID;
-  url += ".csv";
- 
-  // Send the HTTP PUT request
- 
-  // Is better to declare the Process here, so when the
-  // sendData function finishes the resources are immediately
-  // released. Declaring it global works too, BTW.
-  Process xively;
-  Serial.print("\n\nSending data... ");
-  xively.begin("curl");
-  xively.addParameter("-k");
-  xively.addParameter("--request");
-  xively.addParameter("PUT");
-  xively.addParameter("--data");
-  xively.addParameter(dataString);
-  xively.addParameter("--header");
-  xively.addParameter(apiString);
-  xively.addParameter(url);
-  xively.run();
-  Serial.println("done!");
- 
-  // If there's incoming data from the net connection,
-  // send it out the Serial:
-  while (xively.available() > 0) {
-    char c = xively.read();
-    Serial.write(c);
-  }
+    // form the string for the API header parameter:
+    String apiString = "X-ApiKey: ";
+    apiString += APIKEY;
+
+    // form the string for the URL parameter:
+    String url = "https://api.xively.com/v2/feeds/";
+    url += FEEDID;
+    url += ".csv";
+
+    // Send the HTTP PUT request
+
+    // Is better to declare the Process here, so when the
+    // sendData function finishes the resources are immediately
+    // released. Declaring it global works too, BTW.
+    Process xively;
+    Serial.print("\n\nSending data... ");
+    xively.begin("curl");
+    xively.addParameter("-k");
+    xively.addParameter("--request");
+    xively.addParameter("PUT");
+    xively.addParameter("--data");
+    xively.addParameter(dataString);
+    xively.addParameter("--header");
+    xively.addParameter(apiString);
+    xively.addParameter(url);
+    xively.run();
+    Serial.println("done!");
+
+    // If there's incoming data from the net connection,
+    // send it out the Serial:
+    while (xively.available() > 0) {
+        char c = xively.read();
+        Serial.write(c);
+    }
 }
 
 ```
@@ -378,65 +373,64 @@ This example shows how to log data to a USB flash. The sketch used in this examp
 The Seeeduino Cloud will auto mount the USB flash to directory /mnt/sda1. And the sketch will append the sensor data to the file /mnt/sda1/data/datalog.csv. So make sure there is such a file in the USB flash before running the sketch.
 
 ```
-
 #include <FileIO.h>     //FileIO class allow user to operate Linux file system
 #include <Console.h>    //Console class provide the interactive between IDE and Yun Shield
 void setup() {
-  // Initialize the Console
-  Bridge.begin();
-  Console.begin();
-  FileSystem.begin();
-  while(!Console);   // wait for Serial port to connect.
-  Console.println("Filesystem datalogger\n");
+    // Initialize the Console
+    Bridge.begin();
+    Console.begin();
+    FileSystem.begin();
+    while(!Console);   // wait for Serial port to connect.
+    Console.println("Filesystem datalogger\n");
 }
 void loop () {
-  // make a string that start with a timestamp for assembling the data to log:
-  String dataString;
-  dataString += getTimeStamp();
-  dataString += " , ";
-  // read three sensors and append to the string:
-  for (int analogPin = 0; analogPin < 3; analogPin++) {
-    int sensor = analogRead(analogPin);
-    dataString += String(sensor);
-    if (analogPin < 2) {
-      dataString += ",";    // separate the values with a comma
+    // make a string that start with a timestamp for assembling the data to log:
+    String dataString;
+    dataString += getTimeStamp();
+    dataString += " , ";
+    // read three sensors and append to the string:
+    for (int analogPin = 0; analogPin < 3; analogPin++) {
+        int sensor = analogRead(analogPin);
+        dataString += String(sensor);
+        if (analogPin < 2) {
+            dataString += ",";    // separate the values with a comma
+        }
     }
-  }
-  // open the file. note that only one file can be open at a time,
-  // so you have to close this one before opening another.
-  // The USB flash card is mounted at "/mnt/sda1" by default
-  File dataFile = FileSystem.open("/mnt/sda1/data/datalog.csv", FILE_APPEND);
-  // if the file is available, write to it:
-  if (dataFile) {
-    dataFile.println(dataString);
-    dataFile.close();
-    // print to the serial port too:
-    Console.println(dataString);
-  }  
-  // if the file isn't open, pop up an error:
-  else { 
-    Console.println("error opening datalog.csv");
-  } 
-  delay(15000);  //Write every 15 seconds
+    // open the file. note that only one file can be open at a time,
+    // so you have to close this one before opening another.
+    // The USB flash card is mounted at "/mnt/sda1" by default
+    File dataFile = FileSystem.open("/mnt/sda1/data/datalog.csv", FILE_APPEND);
+    // if the file is available, write to it:
+    if (dataFile) {
+        dataFile.println(dataString);
+        dataFile.close();
+        // print to the serial port too:
+        Console.println(dataString);
+    }
+    // if the file isn't open, pop up an error:
+    else {
+        Console.println("error opening datalog.csv");
+    }
+    delay(15000);  //Write every 15 seconds
 }
 // getTimeStamp function return a string with the time stamp
 // Yun Shield will call the Linux "date" command and get the time stamp
 String getTimeStamp() {
-  String result;
-  Process time;
-  // date is a command line utility to get the date and the time 
-  // in different formats depending on the additional parameter 
-  time.begin("date");
-  time.addParameter("+%D-%T");   // parameters: D for the complete date mm/dd/yy
-  //              T for the time hh:mm:ss
-  time.run();   // run the command
-  // read the output of the command
-  while(time.available()>0) {
-    char c = time.read();
-    if(c != '\n')
-      result += c;
-  }
-  return result;
+    String result;
+    Process time;
+    // date is a command line utility to get the date and the time
+    // in different formats depending on the additional parameter
+    time.begin("date");
+    time.addParameter("+%D-%T");   // parameters: D for the complete date mm/dd/yy
+    //              T for the time hh:mm:ss
+    time.run();   // run the command
+    // read the output of the command
+    while(time.available()>0) {
+        char c = time.read();
+        if(c != '\n')
+        result += c;
+    }
+    return result;
 }
 
 ```
@@ -453,34 +447,34 @@ and the sketch is shown below.
 
 ```
 /*
-  Simulate UART TX Data 
- 
- This sketch simulate Temperature and Humidity data to UART. 
- 
- To test the pass through feature for different IoT service 
- 
+  Simulate UART TX Data
+
+ This sketch simulate Temperature and Humidity data to UART.
+
+ To test the pass through feature for different IoT service
+
  created 25 Apr 2014
  by Dragino Technology Co., Limited
- 
+
  Reference:
  http://wiki.dragino.com/index.php?title=Xively#Upload_data_to_Xively_use_Pass_Through_Mode
- 
+
  */
 String dataString = "";
- 
+
 void setup() {
-  Serial1.begin(115200);
+    Serial1.begin(115200);
 }
- 
+
 void loop() {
-  dataString = "temp:";
-  dataString += random(10) + 20;
-  Serial1.println(dataString);  // upload Temperature data
-  delay(20000);
-  dataString = "humidity:";
-  dataString += random(5) + 70;  // upload humidity data
-  Serial1.println(dataString);  
-  delay(20000);
+    dataString = "temp:";
+    dataString += random(10) + 20;
+    Serial1.println(dataString);  // upload Temperature data
+    delay(20000);
+    dataString = "humidity:";
+    dataString += random(5) + 70;  // upload humidity data
+    Serial1.println(dataString);
+    delay(20000);
 }
 ```
 

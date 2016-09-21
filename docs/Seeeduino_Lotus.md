@@ -90,11 +90,11 @@ Pinout of USB-2-Uart. These pads can be used to interact with other UART devices
 First of all, you need to:
 
 * **Get a Micro-USB cable**
-    * You need a Micro-USB cable first; the data cable of an Android Phone will do fine.
+You need a Micro-USB cable first; the data cable of an Android Phone will do fine.
 If you can't find one, you can buy one [here](http://www.seeedstudio.com/depot/Micro-USB-Cable-48cm-p-1475.html?cPath=98_100).
 
 * **Connect the board**
-    * Connect the Arduino board to your computer using the USB cable. The green power LED (labelled **PWR**) should go on.
+Connect the Arduino board to your computer using the USB cable. The green power LED (labelled **PWR**) should go on.
 
 
 ###For Windows
@@ -139,7 +139,7 @@ Double-click the Arduino application (arduino.exe) you have previously downloade
 
 Open the LED blink example sketch: **File > Examples >01.Basics > Blink**.
 
-![enter image description here]()
+![enter image description here](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/img/select_blink.png?raw=true)
 
 ###Add Seeeduino to your Arduino IDE
 
@@ -148,7 +148,7 @@ Click on **File > Preference**, and fill Additional Boards Manager URLs with bel
 
 Click OK to finish the setting. Then Click on **Tools > Board > Boards Manager**, find **Seeeduino by Seeed Studio**, and Install it.
 
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/img/add_board.png)
+![enter image description here](https://github.com/SeeedDocument/SeeeduinoV4/blob/master/images/add_board.png?raw=true)
 
 ###Select your board
 You'll need to select the entry in the **Tools > Board** menu that corresponds to your Arduino.
@@ -167,7 +167,7 @@ Select the serial device of the Arduino board from the Tools | Serial Port menu.
 ###Upload the program
 Now, simply click the "Upload" button in the environment. Wait a few seconds and if the upload is successful, the message "Done uploading." will appear in the status bar.
 
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/img/upload_button.png)
+![enter image description here](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/img/upload_image.png?raw=true)
 
 A few seconds after the upload finishes, you should see the pin 13 (L) LED on the board start to blink (in orange). If it does, congratulations! You've gotten Arduino up-and-running. If you have problems, please see the troubleshooting suggestions.
 
@@ -178,23 +178,34 @@ For using on Linux, please go to [Installing Arduino on Linux](http://playground
 ##Resources
 
 * **Schematic**
-    * [Seeeduino Lotus Eagle file](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/res/Seeeduino_Lotus_v1.0_Sch.zip)
-    * [Seeeduino Lotus PDF file](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/res/Seeeduino_lotus_bootloader.zip)
+
+    [Seeeduino Lotus Eagle file](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/res/Seeeduino_Lotus_v1.0_Sch.zip)
+    
+    [Seeeduino Lotus PDF file](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/res/Seeeduino_lotus_bootloader.zip)
 
 * **Datasheet**
-    * [ATmega328P](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/res/ATmega328.pdf)
-    * [ATmega16U2](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/res/ATmega16u2.pdf)
+
+    [ATmega328P](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/res/ATmega328.pdf)
+    
+    [ATmega16U2](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/res/ATmega16u2.pdf)
 
 * **Bootloader**    
-    * [Seeeduino Lotus Bootloader](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/res/Seeeduino_Lotus_v1.0_pdf.pdf)
+
+    [Seeeduino Lotus Bootloader](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/res/Seeeduino_Lotus_v1.0_pdf.pdf)
 
 * **References**
-    * [Getting Started with Arduino](https://www.arduino.cc/en/Guide/HomePage)
-    * [Arduino Language Reference](https://www.arduino.cc/en/Reference/HomePage)
-    * [Download the Arduino Software(IDE)](https://www.arduino.cc/en/Main/Software)
-    * [Arduino FAQ](https://www.arduino.cc/en/Main/FAQ)
-    * [Arduino Introduction](https://www.arduino.cc/en/guide/introduction)
-    * [Wikipedia page for Arduino](https://en.wikipedia.org/wiki/Arduino)
+
+    [Getting Started with Arduino](https://www.arduino.cc/en/Guide/HomePage)
+    
+    [Arduino Language Reference](https://www.arduino.cc/en/Reference/HomePage)
+    
+    [Download the Arduino Software(IDE)](https://www.arduino.cc/en/Main/Software)
+    
+    [Arduino FAQ](https://www.arduino.cc/en/Main/FAQ)
+    
+    [Arduino Introduction](https://www.arduino.cc/en/guide/introduction)
+    
+    [Wikipedia page for Arduino](https://en.wikipedia.org/wiki/Arduino)
 
 ##FAQ
 
