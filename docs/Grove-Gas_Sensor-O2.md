@@ -6,9 +6,9 @@ oldwikiname: Grove_-_Gas_Sensor(O₂)
 prodimagename: cover.jpg
 surveyurl: https://www.research.net/r/Gas_Sensor_O2
 sku: 101020002
-tags: plat_duino
+tags: plat_duino, grove_analog, io_3v3, io_5v
 ---
-<!-- tags: I2C, plat_duino, plat_bbg, plat_pi, plat_wio, plat_linkit -->
+<!-- tags: io_3v3, io_5v, grove_i2c, grove_analog, grove_digital, grove_uart, plat_duino, plat_bbg, plat_pi, plat_wio, plat_linkit -->
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Gas_Sensor_O2/master/images/cover.jpg)
 
