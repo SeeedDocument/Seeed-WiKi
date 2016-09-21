@@ -148,3 +148,64 @@ img{
 table{
   width: 100%;
 }
+
+span.tag {
+display: inline-block;
+color: #FFE;
+font-weight: 700;
+margin: -15px 5px 10px 0px;
+padding: 5px;
+font-size: 85%;
+line-height: 1;
+text-align: center;
+white-space: nowrap;
+vertical-align: baseline;
+border-radius: 0.1em;
+}
+
+.red {
+background-color: #d9524e;
+}
+
+.yellow {
+background-color: #ff9900;
+}
+
+.green {
+background-color: #5db95c;
+}
+
+.blue {
+background-color: #327bb7;
+}
+
+.black {
+background-color: #000;
+}
+
+.gray {
+background-color: #666;
+}
+
+.orange {
+background-color: #ff6600;
+}
+
+#platform-supported-table table {
+table-layout: fixed;
+width: 100%;
+font-size: 90%;
+}
+
+#platform-supported-table td, th {
+width: 20%;
+}
+
+#platform-supported-table img
+{
+  vertical-align:middle;
+  max-width:100%;
+  width: 100%;
+  display: block;
+  margin: auto;
+}
