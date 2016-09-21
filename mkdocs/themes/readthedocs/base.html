@@ -109,7 +109,7 @@
                 {{ content }}
 
 {% if meta.tags %}{% set tags=[] %}{% set la = meta.tags[0].split(',') %}{% for item in la %}{{ tags.append(item.strip()) or '' }}{% endfor %}{% if 'plat_pi' in tags or 'plat_duino' in tags or 'plat_bbg' in tags or 'plat_wio' in tags or 'plat_linkit' in tags %}
-<div id="platform-supported-table">
+<div id="platforms-supported-table">
 </br>
 <table class="wy-table rst-content"><thead><tr><th>Arduino</th><th>Wio</th><th>BeagleBone</th><th>Raspberry Pi</th><th>LinkIt</th></tr></thead><tbody>
 <tr>
@@ -123,13 +123,13 @@
 </table>
 </div>
 <script>
-$("#platform-supported-table")
-    .appendTo("#platform-support");
+$("#platforms-supported-table")
+    .appendTo("#platforms-supported");
 </script>
 {% endif %}{% endif %}
 
 
-                {% if meta.surveyurl %}<h2 id="help-us-to-make-it-better">Help us to make it better<a class="headerlink" href="#help-us-to-make-it-better" title="Permanent link"></a></h2>{% endif  %}
+                {% if meta.surveyurl %}<h2 id="help-us-to-make-it-better">Help us make it better<a class="headerlink" href="#help-us-make-it-better" title="Permanent link"></a></h2>{% endif  %}
                 {% if meta.surveyurl %}<iframe style="height: 600px; width: 700px; margin: 10px 0 10px;" allowTransparency="true" src="{{ meta.surveyurl[0]}}" frameborder="0"></iframe></iframe>{% endif %}
               {% endblock %}
             </div>
