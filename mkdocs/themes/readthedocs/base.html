@@ -96,12 +96,22 @@
               {% block content %}
                 {% if meta.title %}<h1>{{ meta.title[0] }}</h1>{% endif %}
                 {% if meta.nointro %} {% else %}<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link"></a></h2>{% endif %}
+{% if meta.tags %}{% set tags=[] %}{% set la = meta.tags[0].split(',') %}{% for item in la %}{{ tags.append(item.strip()) or '' }}{% endfor %}
+                <div id="tags">
+                     {%if 'io_3v3' in tags %}<span class="tag red" title="IO 3.3V" >3.3V</span>{% endif %}
+                     {%if 'io_5v' in tags %}<span class="tag blue" title="IO 5.0V" >5.0V</span>{% endif %}
+                     {%if 'grove_i2c' in tags %}<span class="tag yellow" title="Grove I2C">I2C</span>{% endif %}
+                     {%if 'grove_digital' in tags %}<span class="tag gray" title="Grove Digital">Digital</span>{% endif %}
+                     {%if 'grove_analog' in tags %}<span class="tag green" title="Grove Analog">Analog</span>{% endif %}
+                     {%if 'grove_uart' in tags %}<span class="tag orange" title="Grove UART">UART</span>{% endif %}
+                </div>
+{% endif %}
                 {{ content }}
 
 {% if meta.tags %}{% set tags=[] %}{% set la = meta.tags[0].split(',') %}{% for item in la %}{{ tags.append(item.strip()) or '' }}{% endfor %}{% if 'plat_pi' in tags or 'plat_duino' in tags or 'plat_bbg' in tags or 'plat_wio' in tags or 'plat_linkit' in tags %}
-<div id="platform-supported-table">
+<div id="platforms-supported-table">
 </br>
-<table><thead><tr><th>Arduino</th><th>Wio</th><th>BeagleBone</th><th>Raspberry Pi</th><th>LinkIt</th></tr></thead><tbody>
+<table class="wy-table rst-content"><thead><tr><th>Arduino</th><th>Wio</th><th>BeagleBone</th><th>Raspberry Pi</th><th>LinkIt</th></tr></thead><tbody>
 <tr>
 <td>{%if 'plat_duino' in tags %}<img src="https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/arduino_logo.jpg">{% else %}<img src="https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/arduino_logo_n.jpg">{% endif %}</td>
 <td>{%if 'plat_wio' in tags %}<img src="https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/wio_logo.jpg">{% else %}<img src="https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/wio_logo_n.jpg">{% endif %}</td>
@@ -113,12 +123,13 @@
 </table>
 </div>
 <script>
-$("#platform-supported-table")
-    .appendTo("#platform-support");
+$("#platforms-supported-table")
+    .appendTo("#platforms-supported");
 </script>
 {% endif %}{% endif %}
 
-                {% if meta.surveyurl %}<h2 id="help-us-to-make-it-better">Help us to make it better<a class="headerlink" href="#help-us-to-make-it-better" title="Permanent link"></a></h2>{% endif  %}
+
+                {% if meta.surveyurl %}<h2 id="help-us-to-make-it-better">Help us make it better<a class="headerlink" href="#help-us-make-it-better" title="Permanent link"></a></h2>{% endif  %}
                 {% if meta.surveyurl %}<iframe style="height: 600px; width: 700px; margin: 10px 0 10px;" allowTransparency="true" src="{{ meta.surveyurl[0]}}" frameborder="0"></iframe></iframe>{% endif %}
               {% endblock %}
             </div>
