@@ -8,8 +8,6 @@ surveyurl: https://www.surveymonkey.com/r/grove-buzzer
 sku: 107020000
 ---
 
-# Grove - Buzzer
-## Introduction
 ---
 ![](https://github.com/SeeedDocument/Grove_Buzzer/raw/master/images/Grove%20Buzzer.jpg)
 The Grove - Buzzer module has a [piezo buzzer](https://en.wikipedia.org/wiki/Buzzer#Piezoelectric) as the main component. The piezo can be connected to digital outputs, and will emit a tone when the output is HIGH. Alternatively, it can be connected to an analog pulse-width modulation output to generate various tones and effects.

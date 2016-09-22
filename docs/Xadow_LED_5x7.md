@@ -67,7 +67,9 @@ The Xadow LED 5x7 consists of a 5x7 monochrome LED matrix and a LED controller. 
 ## Resources
 ---
 We will be keep updating the source code on our github page:
+
 - [Source Code for Xadow LED 5x7](https://github.com/WayenWeng/Xadow_LED_5x7/)
 
 The schematic diagram of Xadow LED 5x7 is provided in the following link:
+
 - [Xadow Duino Schematic Files](https://github.com/SeeedDocument/Xadow_LED_5x7/raw/master/resources/202000746_PCBA%3BXadow%20LED%205%C3%977%20v1.0_schemic%20files.zip)

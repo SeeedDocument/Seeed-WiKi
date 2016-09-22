@@ -42,7 +42,7 @@ The Motor Shield is a driver module for motors that allows you to use Arduino to
 |PWM Range	 |0-100% |
 |Output    |2 Channels, 4 Ports|
 
-## Hardware Overivew
+## Hardware Overview
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Motor_Shield_V2.0/master/image/700px-MotorShieldHardware.png)
 
@@ -60,7 +60,7 @@ The Motor Shield is a driver module for motors that allows you to use Arduino to
 
 - Channel 0 - OUT1, OUT2
 - Channel 1 - OUT3, OUT4
-  
+
 **4**.Channel 0 Sense
 
 **5**.Channel 0 indicator, include 3 leds
@@ -68,7 +68,7 @@ The Motor Shield is a driver module for motors that allows you to use Arduino to
 - EB - channel 0 enable, high active
 - IN1 - status of OUT1
 - IN2 - status of OUT2
- 
+
 **6**.External Power Input, range 6-15V
 
 **7**.Reset indicator - turn red when Reset button is pressed
@@ -117,9 +117,9 @@ The Motor Shield is a driver module for motors that allows you to use Arduino to
 
 
 !!!Note
-    Not Used means you can use those pins freely. 
-    
-## Getteing Started
+    Not Used means you can use those pins freely.
+
+## Getting Started
 
 Here we will show you how to drive a dc motor and a stepper with this shield.
 
@@ -149,17 +149,17 @@ Then open **motor_dc** example in the library. Upload the code to Seeeduino V4.2
 //  Demo function:The application method to drive the DC motor.
 //  Author:Loovee (luweicong@seeed.cc)
 //  2016-3-11
- 
+
 #include "MotorDriver.h"
 
 MotorDriver motor;
- 
+
 void setup()
 {
     // initialize
     motor.begin();
 }
- 
+
 void loop()
 {
     motor.speed(0, 100);            // set motor0 to speed 100
@@ -205,20 +205,20 @@ Then open **stepper_test** example in the library, upload it to Seeeduino V4, th
  * Stepper test for Seeed Motor Shield V2
  * loovee @ 15 Mar, 2016
  */
- 
+
 #include <Stepper.h>
- 
+
 // change this to the number of steps on your motor
 #define STEPS 200
- 
+
 // create an instance of the stepper class, specifying
 // the number of steps of the motor and the pins it's
 // attached to
 Stepper stepper(STEPS, 8, 11, 12, 13);
- 
+
 // the previous reading from the analog input
 int previous = 0;
- 
+
 void step(int steps)
 {
     digitalWrite(9, HIGH);
@@ -227,7 +227,7 @@ void step(int steps)
     digitalWrite(9, LOW);
     digitalWrite(10, LOW);
 }
- 
+
 void setup()
 {
     // set the speed of the motor to 30 RPMs
@@ -237,13 +237,13 @@ void setup()
     digitalWrite(10, LOW);
     stepper.setSpeed(30);
 }
- 
+
 void loop()
 {
     step(1000);
     step(-1000);
 }
- 
+
 // END FILE
 ```
 If there's nothing happen, please double check if you had connected the wire right.
@@ -290,4 +290,3 @@ There's something need to be modified, please refer the examples.
 - [Motor Shield Library](https://github.com/Seeed-Studio/SeeedMotorShieldV2)
 - [L298 Datasheet](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/resource/L298.pdf)
 - [78M05 Datasheet](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/resource/78M05_datasheet.pdf)
-

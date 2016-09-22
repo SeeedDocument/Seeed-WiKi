@@ -1,7 +1,12 @@
-# Grove-Dust Sensor
-
-
-## Introduction
+---
+title: Grove - Dust Sensor
+category: Sensor
+bzurl: https://www.seeedstudio.com/Grove-Dust-Sensor-p-1050.html
+oldwikiname: Grove - Dust Sensor
+prodimagename: Dust_sensor.JPG
+surveyurl: https://www.research.net/r/grove-dust-sensor
+sku: 101020012
+---
 ---
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove_Dust_Sensor/master/image/Dust_sensor.JPG)
 

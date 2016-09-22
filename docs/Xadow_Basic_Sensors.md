@@ -1,6 +1,6 @@
 ---
 title: Xadow Basic Sensors
-category: Rephone
+category: RePhone
 bzurl: https://www.seeedstudio.com/Xadow-Basic-Sensors-p-2555.html
 oldwikiname: Xadow - Basic Sensors
 prodimagename: Xadow_Basic_Sensors.JPG

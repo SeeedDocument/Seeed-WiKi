@@ -196,10 +196,13 @@ Some frequently asked questions in [RePhone Community](http://www.seeed.cc/disco
 ## Resources
 ---
 We will be keep updating the source code on our github page:
+
 - [Source Code for Xadow Duino](https://github.com/WayenWeng/Xadow_Duino/)
 
 The schematic diagram of Xadow Duino is provided in the following link:
+
 - [Xadow Duino Schematic Files](https://github.com/SeeedDocument/Xadow-Duino/raw/master/Resources/Xadow%20Duino%20v1.0_schemic_file.zip)
 
 Check more info about the fascinating RGB LED WS2812B:
+
 - [WS2812B](https://github.com/SeeedDocument/Xadow-Duino/raw/master/Resources/WS2812B%20Datasheet.pdf)

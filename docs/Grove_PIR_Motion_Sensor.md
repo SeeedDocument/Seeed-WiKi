@@ -17,9 +17,9 @@ This is a simple to use PIR motion sensor with Grove compatible interface. This 
 
 ## Features
 ---
-Grove compatible interface
-Adjustable detecting distance
-Adjustable holding time
+- Grove compatible interface
+- Adjustable detecting distance
+- Adjustable holding time
 
 ## Specification
 
@@ -39,12 +39,14 @@ Adjustable holding time
 
 |Arduino|Raspberry Pi|TI LaunchPad
 |---|---|---|
-|![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/arduino_logo.jpg)|![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/raspberry_pi_logo.jpg)||
+|![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/arduino_logo.jpg)|![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/raspberry_pi_logo.jpg)|![](https://github.com/SeeedDocument/Grove_PIR_Motion_Sensor/raw/master/img/rocket-logo-240.png)|
 
 ## Get Started
 ---
 Following documents help in getting the user started with Grove.
+
 - [Preface - Getting Started](https://github.com/SeeedDocument/Grove_PIR_Motion_Sensor/raw/master/resources/Preface.pdf)
+
 - [Introduction to Grove](https://github.com/SeeedDocument/Grove_PIR_Motion_Sensor/raw/master/resources/Introduction%20to%20Grove.pdf)
 
 ## Demos
@@ -56,6 +58,7 @@ The following sketch demonstrates a simple application of sensing motion. When s
 **Connections**
 
 Base Shield	Grove module
+
 - D2:	Grove - PIR Motion Sensor
 - D4:	Grove - LED
 

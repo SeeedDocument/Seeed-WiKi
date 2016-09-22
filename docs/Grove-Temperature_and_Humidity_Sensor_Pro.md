@@ -3,7 +3,7 @@ title: Grove - Temperature and Humidity Sensor Pro
 category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Temperature%26Humidity-Sensor-Pro-p-838.html
 oldwikiname: Grove - Temperature and Humidity Sensor Pro
-prodimagename: 
+prodimagename:
 surveyurl: https://www.surveymonkey.com/r/Grove_Temperature_and_Humidity_Sensor_Pro
 sku: 101020019
 ---
@@ -46,7 +46,7 @@ Following documents help in getting the user started with Grove.
 
 **With Arduino**
 
-1. Connect the Temperature and Humidity Sensor Pro to D2 of Grove - Base Shield. Then plug Grove - Base Shield into Arduino and connect Arduino to PC using a USB cable. 
+1. Connect the Temperature and Humidity Sensor Pro to D2 of Grove - Base Shield. Then plug Grove - Base Shield into Arduino and connect Arduino to PC using a USB cable.
 ![](https://github.com/SeeedDocument/Grove-Temperature_and_Humidity_Sensor_Pro/raw/master/img/Temperature%26Humidity_Sensor_Pro_demo_Seeeduino_600_s.jpg)
 
 2. Download Seeed DHT library for arduino boards with 16MHz XTAL; Unzip and put it in the libraries file of Arduino IDE by the path: ..\arduino-1.0\libraries; Another library - DHTlib is also available instead of Seeed DHT library. This library supports both 16MHz and 8MHz Arduino (eg. Seeeduino Stalker)
@@ -70,7 +70,7 @@ Following documents help in getting the user started with Grove.
 **With Raspberry Pi**
 1.You should have got a raspberry pi and a grovepi or grovepi+.
 
-2.You should have completed configuring the development enviroment, otherwise 
+2.You should have completed configuring the development enviroment, otherwise
 follow here.
 
 3.Connection
@@ -86,16 +86,16 @@ To see the code
 ```
 ```
 import grovepi
- 
+
 # Connect the Grove Temperature & Humidity Sensor Pro to digital port D4
 # SIG,NC,VCC,GND
 sensor = 4
- 
+
 while True:
     try:
         [temp,humidity] = grovepi.dht(sensor,1)
         print "temp =", temp, " humidity =", humidity
- 
+
     except IOError:
         print "Error"
 ```
@@ -103,12 +103,12 @@ while True:
 ```
       sudo python grove_dht_pro.py
 ```
-6.Result 
+6.Result
 
 ![](https://github.com/SeeedDocument/Grove-Temperature_and_Humidity_Sensor_Pro/raw/master/img/Grovepi_dht_pro_00.png)
 
 ## Resources
 
-- Temp Humi Pro eagle files.zip
-- Humidity Temperature Sensor pro.zip
-- AM2302.pdf
+- [Temp Humi Pro eagle files.zip](https://github.com/SeeedDocument/Grove-Temperature_and_Humidity_Sensor_Pro/raw/master/res/Temp_Humi_Pro_eagle_files.zip)
+- [Humidity Temperature Sensor pro.zip](https://github.com/SeeedDocument/Grove-Temperature_and_Humidity_Sensor_Pro/raw/master/res/Humidity_Temperature_Sensor_pro.zip)
+- [AM2302.pdf](https://github.com/SeeedDocument/Grove-Temperature_and_Humidity_Sensor_Pro/raw/master/res/AM2302.pdf)

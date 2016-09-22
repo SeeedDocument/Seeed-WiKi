@@ -8,8 +8,6 @@ surveyurl: https://www.research.net/r/xadow-gps-v2
 sku: 113040009
 ---
 
-# Xadow GPS V2
-## Introduction
 ---
 ![](https://github.com/SeeedDocument/Xadow_GPS_V2/raw/master/images/Xadow_GPS_v2.JPG)
 
@@ -81,13 +79,18 @@ Some frequently asked questions in [RePhone Community](http://www.seeed.cc/disco
 ## Resources
 ---
 We will be keep updating the source code on our github page:
+
 - [Source Code for Xadow GPS v2](https://github.com/WayenWeng/Xadow_GPS_v2/)
 - [Testing Code for Xadow GPS v2 based on Eclipse IDE](https://github.com/WayenWeng/Xadow_GPS_v2_test/)
 
 The schematic diagram of Xadow GPS v2 is provided in the following link:
+
 - [Xadow GPS v2 Schematic Files](https://github.com/SeeedDocument/Xadow_GPS_V2/raw/master/resources/202000729_PCBA%3BXadow%20GPS%20v2.1_schemic%20file.zip)
 
 When you find the GPS values are a bit far from your actual location, you might need to burn new firmware to Xadow GPS V2:
+
 - [Learn how to burn new firmware with a mbed board](https://github.com/SeeedDocument/Xadow_GPS_V2/raw/master/resources/Burn_to_Xadow_modules.zip)
+
 Check more info about the GPS L70 and the chip antenna:
+
 - [Specification for GPS L70 and the chip antenna](https://github.com/SeeedDocument/Xadow_GPS_V2/raw/master/resources/GPS_L70_%26_Chip_Antenna.rar)

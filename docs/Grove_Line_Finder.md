@@ -111,20 +111,4 @@ while True:
 
 ## Resources
 ---
-- Eagle files
-
-## Help us to make it better
----
-Thank you for choosing Seeed. As one of the world-leading open-hardware suppliers, Seeedstudio has been continuously creating well-quality and diversified modules for our customers, makers and developers. As a young company, it is inevitable that there are things we neglected the importance, for example, our document system. It is a little shame however true that we have been continuously receiving complaint about how hard it is to use our document system——ugly interface, confusing content, and the URL that can never be opened etc. Here we sincerely apologize for all the inconvenient you’ve experienced during using the old system.
-
-It is time to say good bye to the user-unfriendly old document system now, in order to bring better experience to our users, we have launched a project to optimize the document system from the middle of 2016. The work includes:
-
-* Replace the old WiKi system with a new one that developed from Mkdocs, a more widely used and cooler project documentation tool.
-* Review and rewrite documents for hundreds of products to make them more understandable.
-* Inspected repair all the URL to make sure it can be linked to the right page.
-
-Although we have tried our best to optimize, it is still possible that we make some mistakes, so if you find anything that needs to be updated, it is very welcome to submit the amended version as our contributor or give us suggestions in the survey below. Please don’t forget to leave your email address if you need our reply, we will reply to you as soon as we can.
-
-By the way, we will feel very happy and encouraged if we receive 5 stars from you. With the help and encouragement from you, we believe that we can make this document better and better!
-
-<iframe style="height: 600px; width: 700px; margin: 10px 0 10px;" allowTransparency="true" src="https://www.research.net/r/grove-line-finder" frameborder="0"></iframe>
+- [Eagle files](https://github.com/SeeedDocument/Grove_Line_Finder/raw/master/res/202000970_Grove%20-%20Line%20Finder%20v1.0_eagle%20files.zip)
