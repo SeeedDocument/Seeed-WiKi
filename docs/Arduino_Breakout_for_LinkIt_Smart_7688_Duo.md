@@ -103,7 +103,7 @@ while True:
 Have you successfully make the buzzer to buzz? Here are 2 more awesome projects that use LinkIt Smart 7688 Duo. Let's make them now!
 
 
-|Smart router with WiFi Connection Visualization|Facebook Like Monitor|
+|Smart Router With <br>WiFi Connection Visualization|Facebook Like Monitor|
 |:---:|:---:|
 |![](https://github.com/SeeedDocument/Arduino_Breakout_for_LinkIt_Smart_7688_Duo/raw/master/images/F9SCHIKIPH4SPTP.MEDIUM.jpg)|![](https://github.com/SeeedDocument/Arduino_Breakout_for_LinkIt_Smart_7688_Duo/raw/master/images/F9MQJJOIHQOBV4Q.MEDIUM.jpg)|
 |[![](https://github.com/SeeedDocument/Arduino_Breakout_for_LinkIt_Smart_7688_Duo/raw/master/images/200px-Wiki_makeitnow_logo.png)](http://www.instructables.com/id/ReRouter-Make-an-Extensible-IoT-Router/)|[![](https://github.com/SeeedDocument/Arduino_Breakout_for_LinkIt_Smart_7688_Duo/raw/master/images/200px-Wiki_makeitnow_logo.png)](http://www.instructables.com/id/Facebook-Like-Monitor/)|

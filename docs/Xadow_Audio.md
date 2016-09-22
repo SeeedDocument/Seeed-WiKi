@@ -85,6 +85,6 @@ Some frequently asked questions in [RePhone Community](http://www.seeed.cc/disco
 
 ## Resources
 ---
-
 The schematic diagram of Xadow Audio is provide in the following link:
+
 - [Xadow Audio Schematic Files](https://github.com/SeeedDocument/Xadow_Audio/raw/master/resources/202000723_PCBA%3BXadow%20Audio%20v1.0_schemic%20file.zip)
