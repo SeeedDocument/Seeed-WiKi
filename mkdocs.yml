@@ -53,7 +53,7 @@ pages:
     - Others:
         - Platform Others: Platform_Others.md
 
-
+    
 - Grove:
     - Grove System: Grove_System.md
     - Sensor:
@@ -103,6 +103,7 @@ pages:
 
 
 - Tutorial:
+        - Survey: survey_end.md
         - FM Receiver: FM_Receiver.md
         - How to install an Arduino library: How_to_Install_an_Arduino_Library.md
 
@@ -110,11 +111,9 @@ pages:
 - MakerPro:
         - Maker Pro: MakerPro.md
 
-- About:
-        - Survey: survey_end.md
 
 - 404: 404.md
-
+        
 theme_dir: mkdocs/themes/readthedocs
 
 markdown_extensions:
