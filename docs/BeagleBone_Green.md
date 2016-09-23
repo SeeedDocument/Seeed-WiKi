@@ -1,6 +1,6 @@
 ---
 title: BeagleBone Green
-category: BeagleBone, IoT
+category: BeagleBone,IoT
 bzurl: https://www.seeedstudio.com/SeeedStudio-BeagleBone-Green-p-2504.html
 oldwikiname: BeagleBone_Green
 prodimagename: cover.jpg
