@@ -26,7 +26,6 @@ pages:
 
     - LinkIt:
         - Arduino Breakout for LinkIt Smart 7688 Duo: Arduino_Breakout_for_LinkIt_Smart_7688_Duo.md
-        - Breakout for LinkIt Smart 7688 v2.0: Breakout_for_LinkIt_Smart_7688_v2.0.md
         - Breakout for LinkIt Smart 7688 v2.0: Breakout_for_LinkIt_Smart_7688_v2_0.md
         - Grove Breakout for LinkIt Smart 7688 Duo: Grove-Breakout_for_LinkIt_Smart_7688_Duo.md
         - LinkIt ONE: LinkIt_ONE.md
@@ -104,7 +103,6 @@ pages:
 
 
 - Tutorial:
-        - Survey: survey_end.md
         - FM Receiver: FM_Receiver.md
         - How to install an Arduino library: How_to_Install_an_Arduino_Library.md
 
@@ -112,13 +110,11 @@ pages:
 - MakerPro:
         - Maker Pro: MakerPro.md
 
+- About:
+        - Survey: survey_end.md
 
-<<<<<<< HEAD
-
-=======
 - 404: 404.md
-        
->>>>>>> 465d4357e72657014312775c0ebcf9fcf538df9d
+
 theme_dir: mkdocs/themes/readthedocs
 
 markdown_extensions:
