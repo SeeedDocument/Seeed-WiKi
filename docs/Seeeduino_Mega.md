@@ -24,7 +24,7 @@ Seeeduino Mega is a powerful micro-controller derived from Arduino Mega. It feat
 * 3D Printer
 * Industrial
 
-Here is some funny project for your reference.
+Here are some funny projects for your reference.
 
 |8*8*8 LED Cube|Hexapod Robot|DIY Arduino 3D Printer|
 |-------|-------|--------
@@ -68,9 +68,9 @@ The image below shows an overview of Seeeduino Mega hardware features. The pin-o
 
 ![](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/img/Seeeduino_Mega_hardware1.png?raw=true)
 
- 
+
 - **Mini USB**
-Mini USB Port is used to connect the board to your PC for programming and for powering up. 
+Mini USB Port is used to connect the board to your PC for programming and for powering up.
 - **Mode Switch**
 Slide switch used to allow or avoid automatic reset and upload.
 - **Power Switch**
@@ -112,7 +112,7 @@ Connect the Arduino board to your computer using the USB cable. The green power 
 
 !!!Note
     This drive is available for Windows XP, Windows Vista, Windows 7, Windows 8/8.1 and Windows 10.
-    
+
 [![enter image description here](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/img/download_driver.png?raw=true)](https://github.com/Seeed-Studio/Signed_USB_Serial_Driver/archive/master.zip)
 
 - Plug in your board and wait for Windows to begin its driver installation process. After a few moments, the process will fail, despite best efforts.
@@ -126,21 +126,21 @@ Connect the Arduino board to your computer using the USB cable. The green power 
 
 ###For Mac OSX
 
-You don't need to install any drivers. 
+You don't need to install any drivers.
 
 
 ##Getting Started
 
 !!!Note
     This part is based on Arduino 1.6.9 under Windows 10.
-    
+
 First of all, you need to Install an Arduino Software.
 
 [![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Stalker_V3_1/master/images/Download_IDE.png)](https://www.arduino.cc/en/Main/Software)
 
 
 ###Launch the Arduino application
-Double-click the Arduino application (arduino.exe) you have previously downloaded. 
+Double-click the Arduino application (arduino.exe) you have previously downloaded.
 
 !!!Note
     If the Arduino Software loads in a different language, you can change it in the preferences dialog. See the [Arduino Software (IDE) page](https://www.arduino.cc/en/Guide/Environment#languages) for details.
@@ -174,7 +174,7 @@ Select the serial device of the Arduino board from the Tools | Serial Port menu.
 
 !!!Note
     On the Mac, this should be something with **/dev/tty.USBmodem**.
-    
+
 ###Upload the program
 Now, simply click the "Upload" button in the environment. Wait a few seconds and if the upload is successful, the message "Done uploading." will appear in the status bar.
 
@@ -187,7 +187,7 @@ A few seconds after the upload finishes, you should see the pin 13 (L) LED on th
 For using on Linux, please go to [Installing Arduino on Linux](http://playground.arduino.cc/Learning/Linux)
 
 
-    
+
 ##Resources
 
 * **Schematic**
@@ -197,21 +197,21 @@ For using on Linux, please go to [Installing Arduino on Linux](http://playground
 * **Pin Mapping**
 
     [Seeeduino Mega Pin Mapping PDF](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/res/Seeeduino%20Mega%20pin%20mapping.pdf)
-    
+
 * **References**
 
     [Getting Started with Arduino](https://www.arduino.cc/en/Guide/HomePage)
-    
+
     [Arduino Language Reference](https://www.arduino.cc/en/Reference/HomePage)
-    
+
     [Download the Arduino Software(IDE)](https://www.arduino.cc/en/Main/Software)
-    
+
     [Arduino FAQ](https://www.arduino.cc/en/Main/FAQ)
-    
+
     [Arduino Introduction](https://www.arduino.cc/en/guide/introduction)
-    
+
     [Wikipedia page for Arduino](https://en.wikipedia.org/wiki/Arduino)
-    
+
     [Arduino Mega](https://www.arduino.cc/en/Main/ArduinoBoardMega2560?setlang=en)
 
 ##FAQ

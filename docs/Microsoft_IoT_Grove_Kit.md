@@ -17,15 +17,15 @@ In addition to the high performance sensors and actuators, the kit contains a 5 
 Please note this kit DOES NOT include the Raspberry Pi board. Please visit [here](https://www.seeedstudio.com/Boards-for-Raspberry-pi-c-25.html) to purchase separately.
 
 !!!Note
-    GrovePi+ and some of the code was designed by [Dexter Industry](http://www.dexterindustries.com/).  Click to get more information about Dexter. 
-    
+    GrovePi+ and some of the code was designed by [Dexter Industry](http://www.dexterindustries.com/).  Click to get more information about Dexter.
+
 [![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now.png)](http://www.seeedstudio.com/Microsoft-IoT-Grove-Kit-(Azure-Certified)-p-2694.html)
 
-###FEATURES
+## Features
 * Easy-to-use GrovePi+ that is compatible with Raspberry Pi B/B+/A+/2/3
 * Plug-n-play Grove Modules for rapid prototyping
 
-##Part List
+## Part List
 
 | SKU | Part Name | Qty | Link |
 |------|--------------|------|-------|
@@ -45,7 +45,7 @@ Please note this kit DOES NOT include the Raspberry Pi board. Please visit [here
 |321010007| Micro USB Cable - 48cm| 1 | [Get One Now](https://www.seeedstudio.com/Micro-USB-Cable-1200px-p-1475.html) |
 
 
-##Hardware connection for GrovePi+
+## Hardware connection for GrovePi+
 
 ###1.1	Connecting the GrovePi+ to the Raspberry Pi
 
@@ -64,16 +64,16 @@ Remember to use a good power adapter capable of supplying 2A at 5V. If you want 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Microsoft_IoT_Grove_Kit/master/images/1_2_1.png)
 
 
-##Install GrovePi C# library for Raspberry Pi
+## Install GrovePi C# library for Raspberry Pi
 
 The GrovePi can be programed in C#, but first you should install the Windows 10 IoT C# driver library for GrovePi, There’re two ways to do this: install the NuGet package and use the GrovePi C# library code powered by Dexter .
 
 ###Install the NuGet package
 
-The GrovePi NuGet package for the current release is available. 
+The GrovePi NuGet package for the current release is available.
 To install GrovePi for Windows IoT follow the following steps.
 
-####STEP1. 
+####STEP1.
 
 From the Tools menu, select Library Package Manager and then click Package Manager Console.
 
@@ -87,18 +87,18 @@ The **Package Manager Console window** is displayed.
 
 Run the following command in the Package Manager Console.
 
-    PM> Install-Package GrovePi 
+    PM> Install-Package GrovePi
 
-More details at [https://www.nuget.org/packages/GrovePi/](https://www.nuget.org/packages/GrovePi/). 
+More details at [https://www.nuget.org/packages/GrovePi/](https://www.nuget.org/packages/GrovePi/).
 
 
 ###	Use the GrovePi C# library code
 
 If you’re a senior programmer or you can’t install the GrovePi NuGet package successfully, you can download the library code by click this [https://github.com/DexterInd/GrovePi/tree/master/Software/CSharp](https://github.com/DexterInd/GrovePi/tree/master/Software/CSharp).
 
-####STEP1. 
+####STEP1.
 
-Move the two C# library projects “GrovePi” and “Driver” to the folder where your project resides. And add them to your project in Solution Explorer. 
+Move the two C# library projects “GrovePi” and “Driver” to the folder where your project resides. And add them to your project in Solution Explorer.
 For example, right click the Solution “GrovePiExamples ”, Add | Existing Project, as below shows.
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Microsoft_IoT_Grove_Kit/master/images/2_2_1.png)
@@ -143,7 +143,7 @@ Sound the buzzer plugged into digital pin 2 (D2).
     DeviceFactory.Build.Buzzer(Pin.DigitalPin2).ChangeState(SensorStatus.On);
 
 
-##Running Win10 IoT Examples on Rpi3
+## Running Win10 IoT Examples on Rpi3
 
 Here we have a list of example projects that show just how easy it is to start a project with the Raspberry Pi. These Raspberry Pi projects combine easy-to-use Grove sensors with the powerful Raspberry Pi.
 You can click [here](https://github.com/Seeed-Studio/GrovePiExamples_win10) to download the GrovePi Example code for win10. You will need to press the green button “Clone or download” on the right and choose “Download ZIP”. Then you need to extract the ZIP in a location of your choice.
@@ -160,7 +160,7 @@ This example is meant to be your first project with the GrovePi+. All the parts 
 ####**Step1:** Set the HelloWorld(LCD) project as StartUp Project.
 ####**Step2:** Hardware connection.
 
-Connect the RGB LCD to Port I2C-1 and power on the Raspberry Pi using the Grove wire connector. 
+Connect the RGB LCD to Port I2C-1 and power on the Raspberry Pi using the Grove wire connector.
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Microsoft_IoT_Grove_Kit/master/images/3_1_1.png)
 
@@ -178,7 +178,7 @@ Connect the RGB LCD to Port I2C-1 and power on the Raspberry Pi using the Grove 
 
 4)	You can verify or modify these values by navigating to the project properties (select Properties in the Solution Explorer) and choosing the Debug tab on the left.
 
-When everything is set up, you should be able to press F5 from Visual Studio. If there are any missing packages that you did not install during setup, Visual Studio may prompt you to acquire those now. 
+When everything is set up, you should be able to press F5 from Visual Studio. If there are any missing packages that you did not install during setup, Visual Studio may prompt you to acquire those now.
 The HelloWorld app will deploy and start on the Windows IoT device, and you will see the HelloWorld form the Grove RGB LCD.
 
 
@@ -191,7 +191,7 @@ This example can be set up the same way as HelloWorld(LCD).
 Connect the Grove Angle Sensor to Port A0 and connect Raspberry Pi to LCD screen by HDMI cable.
 * **Step3:** Deploy your app. Refer to the HelloWorld(LCD) example of Step3.
 
-When everything is set up, you should be able to press F5 from Visual Studio. If there are any missing packages that you did not install during setup, Visual Studio may prompt you to acquire those now. 
+When everything is set up, you should be able to press F5 from Visual Studio. If there are any missing packages that you did not install during setup, Visual Studio may prompt you to acquire those now.
 The GroveAngleSensor app will deploy and start on the Windows IoT device. You can see the Grove Angle Sensor value on the LCD Screen.
 
 
@@ -205,7 +205,7 @@ This example can be set up the same way as HelloWorld(LCD).
 Connect the Grove Led Bar to Port D5.
 * **Step3:** Deploy your app. Refer to the HelloWorld(LCD) example of Step3.
 
-When everything is set up, you should be able to press F5 from Visual Studio. If there are any missing packages that you did not install during setup, Visual Studio may prompt you to acquire those now. 
+When everything is set up, you should be able to press F5 from Visual Studio. If there are any missing packages that you did not install during setup, Visual Studio may prompt you to acquire those now.
 The GroveLedBar app will deploy and start on the Windows IoT device. You can see the Grove Led Bar will be lighted up in cycle.
 
 ###Grove - Light Sensor
@@ -216,7 +216,7 @@ This example is the same use as HelloWorld(LCD).
 Connect the Grove Light Sensor to Port A2 and connect Raspberry Pi to LCD screen by HDMI cable.
 * **Step3**: Deploy your app. Refer to the HelloWorld(LCD) example of Step3.
 
-When everything is set up, you should be able to press F5 from Visual Studio. If there are any missing packages that you did not install during setup, Visual Studio may prompt you to acquire those now. 
+When everything is set up, you should be able to press F5 from Visual Studio. If there are any missing packages that you did not install during setup, Visual Studio may prompt you to acquire those now.
 The GroveLightSensor app will deploy and start on the Windows IoT device. You can see the Grove Light Sensor value on the LCD Screen.
 
 ###Grove - Relay
@@ -228,7 +228,7 @@ This example is the same use as HelloWorld(LCD).
 Connect the Grove Relay to Port D2.
 * **Step3**: Deploy your app. Refer to the HelloWorld(LCD) example of Step3.
 
-When everything is set up, you should be able to press F5 from Visual Studio. If there are any missing packages that you did not install during setup, Visual Studio may prompt you to acquire those now. 
+When everything is set up, you should be able to press F5 from Visual Studio. If there are any missing packages that you did not install during setup, Visual Studio may prompt you to acquire those now.
 The GroveRelay app will deploy and start on the Windows IoT device. You can see the Grove Relay will open and close every 1 second.
 
 ###Grove - Sound Sensor
@@ -240,7 +240,7 @@ This example is the same use as HelloWorld(LCD).
 Connect the Grove Sound Sensor to Port A1 and connect Raspberry Pi to LCD screen by HDMI cable.
 * **Step3**: Deploy your app. Refer to the HelloWorld(LCD) example of Step3.
 
-When everything is set up, you should be able to press F5 from Visual Studio. If there are any missing packages that you did not install during setup, Visual Studio may prompt you to acquire those now. 
+When everything is set up, you should be able to press F5 from Visual Studio. If there are any missing packages that you did not install during setup, Visual Studio may prompt you to acquire those now.
 The GroveSoundSensor app will deploy and start on the Windows IoT device. You can see the Grove Sound Sensor value on the LCD Screen.
 
 
@@ -253,7 +253,7 @@ This example is the same use as HelloWorld(LCD).
 Connect the Grove Temp & Humi Sensor to Port D3 and connect Raspberry Pi to LCD screen by HDMI cable.
 * **Step3**: Deploy your app. Refer to the HelloWorld(LCD) example of Step3.
 
-When everything is set up, you should be able to press F5 from Visual Studio. If there are any missing packages that you did not install during setup, Visual Studio may prompt you to acquire those now. 
+When everything is set up, you should be able to press F5 from Visual Studio. If there are any missing packages that you did not install during setup, Visual Studio may prompt you to acquire those now.
 The GroveTempAndHumi app will deploy and start on the Windows IoT device. You can see the Temperature and Humidity value on the LCD Screen.
 
 ###Grove - Ultrasonic Ranger
@@ -265,7 +265,7 @@ This example is the same use as HelloWorld(LCD).
 Connect the Grove Ultrasonic Ranger to Port D4 and connect Raspberry Pi to LCD screen by HDMI cable.
 * **Step3**: Deploy your app. Refer to the HelloWorld(LCD) example of Step3.
 
-When everything is set up, you should be able to press F5 from Visual Studio. If there are any missing packages that you did not install during setup, Visual Studio may prompt you to acquire those now. 
+When everything is set up, you should be able to press F5 from Visual Studio. If there are any missing packages that you did not install during setup, Visual Studio may prompt you to acquire those now.
 The GroveUltrasonicSensor app will deploy and start on the Windows IoT device. You can see the Distance value on the LCD Screen.
 
 ###Home Weather Display
@@ -274,10 +274,10 @@ This example is the same use as HelloWorld(LCD).
 
 * **Step1**: Set the HomeWeatherDisplay project as StartUp Project.
 * **Step2**: Hardware connection.
-Connect the Grove Temp and Humi Sensor to Port D3, RGB LCD to Port I2C using the Grove wire connector. 
+Connect the Grove Temp and Humi Sensor to Port D3, RGB LCD to Port I2C using the Grove wire connector.
 * **Step3**: Deploy your app. Refer to the Blink example of Step5.
 
-When everything is set up, you should be able to press F5 from Visual Studio. If there are any missing packages that you did not install during setup, Visual Studio may prompt you to acquire those now. 
+When everything is set up, you should be able to press F5 from Visual Studio. If there are any missing packages that you did not install during setup, Visual Studio may prompt you to acquire those now.
 The Home Weather Display app will deploy and start on the Windows IoT device, and you can see the temperature on the RGB LCD.
 
 
@@ -301,14 +301,13 @@ Connect the Grove Modules to GrovePi+ as the table shows. And connect Raspberry 
 
 * **Step3**: Deploy your app. Refer to the HelloWorld(LCD) example of Step3.
 
-When everything is set up, you should be able to press F5 from Visual Studio. If there are any missing packages that you did not install during setup, Visual Studio may prompt you to acquire those now. 
+When everything is set up, you should be able to press F5 from Visual Studio. If there are any missing packages that you did not install during setup, Visual Studio may prompt you to acquire those now.
 The All_in_One app will deploy and start on the Windows IoT device.
 You can see the Distance Sound Light value and relay state on the LCD Screen. The angle sensor will be shown as the chart on the screen. The Led Bar indicates the value of angle sensor. Press the Button and hold it, the Grove Relay will open.
 
 
-##See Also
+## See Also
 
 * [Windows Dev Center](https://dev.windows.com/en-us/iot)
 * [GrovePi C# Library Code](https://github.com/DexterInd/GrovePi/tree/master/Software/CSharp)
 * [Example Code](https://github.com/Seeed-Studio/GrovePiExamples_win10)
-

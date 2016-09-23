@@ -14,7 +14,7 @@ SeeedStudio BeagleBone Green Wireless (BBGW) is a joint effort by [BeagleBoard.o
 
 [![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/get_one_now.png?raw=true)](http://www.seeedstudio.com/SeeedStudio-BeagleBone-Green-Wireless-p-2650.html)
 
-##Features
+## Features
 ----
 
 * **Fully Compatiable with BeagleBone Black**
@@ -40,7 +40,7 @@ SeeedStudio BeagleBone Green Wireless (BBGW) is a joint effort by [BeagleBoard.o
 	* Cloud9 IDE on Node.js w/ BoneScript library
 	* plus much more
 
-##Specification
+## Specification
 ----
 
 |Item|Value|
@@ -57,7 +57,7 @@ SeeedStudio BeagleBone Green Wireless (BBGW) is a joint effort by [BeagleBoard.o
 |Operating Temperature	|0 ~ 75 |
 
 
-##Application Ideas
+## Application Ideas
 - Internet of Things
 - Smart House
 - Industrial
@@ -86,7 +86,7 @@ Here are some tutorials for the starters to use some Grove modules to realize th
 |![](http://statics3.seeedstudio.com/upload/img/community/20160526075527-90edbd.png)|![](http://statics3.seeedstudio.com/upload/img/community/20160524014508-4a47a0.png)|![](http://statics3.seeedstudio.com/upload/img/community/20160523121641-1ed045.png)|
 |[MAKE IT NOW!](http://www.seeed.cc/Bluetooth-Device-Detection-with-the-BeagleBone-Green-Wireless-p-1601.html)|[MAKE IT NOW!](http://www.seeed.cc/Home-Control-Center-using-BeagleBone-Green-Wireless-p-1596.html)|[MAKE IT NOW!](http://www.seeed.cc/SAP-HCP-IOT-SERVICE-WITH-WIOLINK-p-1581.html)|
 
-##Hardware Overview
+## Hardware Overview
 
 ![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/green_wireless_hardware_details.png?raw=true)
 
@@ -139,7 +139,7 @@ Each digital I/O pin has 8 different modes that can be selected, including GPIO.
 ![enter image description here](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/cape-headers-spi.png?raw=true)
 
 
-##Getting Started
+## Getting Started
 ----
 
 !!!Note
@@ -170,15 +170,15 @@ Install the drivers for your operating system to give you network-over-USB acces
 
 !!!Note
     For window system, please note that:
-    
+
     * Windows Driver Certification warning may pop up two or three times. Click "Ignore", "Install" or "Run"
     * To check if you're running 32 or 64-bit Windows see [this](https://support.microsoft.com/kb/827218).
-    *  On systems without the latest service release, you may get an error (0xc000007b). In that case, please [install](https://www.microsoft.com/en-us/download/confirmation.aspx?id=13523) and retry: 
+    *  On systems without the latest service release, you may get an error (0xc000007b). In that case, please [install](https://www.microsoft.com/en-us/download/confirmation.aspx?id=13523) and retry:
     * You may need to reboot Windows.
     * These drivers have been tested to work up to Windows 10
 
 !!!Note
-    Additional FTDI USB to serial/JTAG information and drivers are available from [https://www.ftdichip.com/Drivers/VCP.htm](https://www.ftdichip.com/Drivers/VCP.htm).
+    Additional FTDI USB to serial/JTAG information and drivers are available from [https://www.ftdichip.com/Drivers/VCP.html](https://www.ftdichip.com/Drivers/VCP.html).
 
 !!!Note
     Additional USB to virtual Ethernet information and drivers are available from [https://www.linux-usb.org/gadget/](https://www.linux-usb.org/gadget/) and [https://joshuawise.com/horndis](https://joshuawise.com/horndis).
@@ -199,13 +199,13 @@ To begin editing programs that live on your board, you can use the Cloud9 IDE by
 
 [![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/cloud9.png)](http://192.168.7.2:3000/ide.html)
 
-###STEP5. Connect your BBGW to Wi-Fi 
+###STEP5. Connect your BBGW to Wi-Fi
 
 Using your smart phone or computer to scan local Wi-Fi network and connect to the AP named "BeagleBone XXX"
 
 ![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/wifi1.png?raw=true)
 
-After connection success, it will head to the login page automatically. Select the SSID of your Wi-Fi and enter the passwd, click OK.
+After connection succeeded, it will head to the login page automatically. Select the SSID of your Wi-Fi and enter the passwd, click OK.
 
 ![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/wifi2.png?raw=true)
 
@@ -216,7 +216,7 @@ Now your BBGW is connected to Wi-Fi.
 ###STEP6. Connect your BBGW to your Bluetooth Device
 
 Connect to Cloud9 IDE and start a new terminal.
-Start the bluetooth config with the command: 
+Start the bluetooth config with the command:
 
 ```
 bb-wl18x-bluetooth
@@ -225,7 +225,7 @@ bluetoothctl
 
 ![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/bluetooth1.jpg?raw=true)
 
-Type ``scan on`` to scan local bluetooth devices. My device named "jy" is found. 
+Type ``scan on`` to scan local bluetooth devices. My device named "jy" is found.
 
 ![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/bluetooth2.jpg?raw=true)
 
@@ -242,25 +242,25 @@ connect 0C:xx:xx:xx:xx:0B
 Now your BBGW is connected to your bluetooth device. Type ``quit`` back to the terminal.
 Play music on BBGW, then you will hear music on your bluetooth speaker device.
 
-##Update to latest software
+## Update to latest software
 -----
 
-You need to update the board to latest software to keep a better performance, here we will show you how to make it step by step. 
+You need to update the board to latest software to keep a better performance, here we will show you how to make it step by step.
 
 ###STEP1. Download the latest software image
 
-First of all, you have to download the suitable image here. 
+First of all, you have to download the suitable image here.
 
 [![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/down_latest_image.png)](http://beagleboard.org/latest-images)
 
 !!!Note
-    Due to sizing necessities, this download may take about 30 minutes or more. 
+    Due to sizing necessities, this download may take about 30 minutes or more.
 
-The file you download will have an **.img.xz** extension. This is a compressed sector-by-sector image of the SD card. 
+The file you download will have an **.img.xz** extension. This is a compressed sector-by-sector image of the SD card.
 
 ###STEP2. Install compression utility and decompress the image
 
-Download and install [7-zip.](http://www.7-zip.org/download.html) 
+Download and install [7-zip.](http://www.7-zip.org/download.html)
 
 !!!Note
     Choose a version that suitable for your system.
@@ -277,7 +277,7 @@ You need a SD adapter to connect your microSD card to your computer at the first
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/win32_disk_image.png)
 
-Click on **Write** button, then the process is started. 
+Click on **Write** button, then the process is started.
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/win32_disk_image_process.png)
 
@@ -294,7 +294,7 @@ Insert SD card into your (powered-down first) board. Then the board will boot fr
 !!!Note
     If you don't need to write the image to your on-board eMMC, you don't need to read the last of this chapter.  Otherwise pleas go ahead.
 
-If you desire to write the image to your on-board eMMC, you need to launch to the board, and modify a file. 
+If you desire to write the image to your on-board eMMC, you need to launch to the board, and modify a file.
 
 In **/boot/uEnv.txt**:
 
@@ -310,12 +310,12 @@ Then you will find the 4 user led light as below
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/flashing.gif)
 
 !!!Note
-    If you don't find the upper tracing light, please press the RESET button to reset the board. 
-    
+    If you don't find the upper tracing light, please press the RESET button to reset the board.
+
 When the flashing is complete, all 4 USRx LEDs will be **off**. The latest Debian flasher images automatically power down the board upon completion. This can take up to **10 minutes**. Power-down your board, remove the SD card and apply power again to be complete.
 
 
-##Program Grove Module with Mraa and UPM
+## Program Grove Module with Mraa and UPM
 
 We have provided Mraa library and UPM library to make it easy for developers and sensor manufacturers to map their sensors & actuators on top of supported hardware and to allow control of low level communication protocol by high level languages & constructs.
 ###What are Mraa and UPM?
@@ -386,7 +386,7 @@ Grove - Sound Sensor
 ](http://www.seeed.cc/BBGW-starter-tutorial%233-Speak-louuuuuudly-p-1644.html)
 
 [Grove - OLED Display 0.96”
-Grove - Light Sensor 
+Grove - Light Sensor
 Grove - Temperature Sensor
 ](http://www.seeed.cc/BBGW-starter-tutorial%234%3AHow-hot-is-it-today%3F-Ask-BBGW!-p-1645.html)
 
@@ -411,10 +411,10 @@ Grove - RTC v2.0
 
 
 
-##References and Resources
+## References and Resources
 ###References
 ----
-There're many references to help you to get more information about the board. 
+There're many references to help you to get more information about the board.
 
 * [BeagleBoard Main Page](http://beagleboard.org/)
 * [BeagleBone Green Wireless info at BeagleBoard page](http://beagleboard.org/green-wireless)
@@ -423,7 +423,6 @@ There're many references to help you to get more information about the board.
 * [Hardware documentation](http://beagleboard.org/getting-started#hardware)
 * [Projects of BeagleBoard](http://beagleboard.org/project)
 
-###Resources
+## Resources
 -----
 - [BeagleBone_Green_Wireless Schematic(pdf)](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/tree/master/resources/BeagleBone_Green Wireless_V1.0_SCH_20160314.pdf)
-

@@ -16,9 +16,9 @@ Seeeduino Cloud is a microcontroller board based on [Dragino WiFi IoT module HE]
 
 * Internet of Things  
 * Smart House
-* Learning 
+* Learning
 
-Here is some funny project for your reference.
+Here are some funny projects for your reference.
 
 |Simple Wi-Fi Messager|Send data to Google Docs|Solar Panel Monitoring System|
 |--------|----------|---------|
@@ -38,7 +38,7 @@ Here is some funny project for your reference.
 
 ##Specification
 
-Because Seeeduino Cloud has two processors, this section shows the characteristics of each one in two separate tables. 
+Because Seeeduino Cloud has two processors, this section shows the characteristics of each one in two separate tables.
 
 ###Dragino HE Module
 |Parameter|Value|
@@ -71,7 +71,7 @@ Because Seeeduino Cloud has two processors, this section shows the characteristi
 The images below show an overview of Seeeduino Cloud hardware features. The pin-out and alternate functions of various pins of Seeeduino Cloud are shown in the pin-out diagram. This could be used as a quick reference.
 
 ![](https://github.com/SeeedDocument/Seeeduino_Cloud/blob/master/img/seeeduino_cloud_hardware.png?raw=true)
-  
+
 
 * **RJ45 Ethernet Port**
 The LAN Port is connected to ATHEROS AR9331 and has its own IP address that can be used for Internet connection and device management.
@@ -80,11 +80,11 @@ USB Port is used to connect the board to your PC for programming and for powerin
 * **USB HOST**
 Seeeduino Cloud provides USB host capability that enables it to connect to various USB devices such as webcams, USB drives, keyboards, joysticks and more.
 * **32U4 RST**
-Pressing the 32U4 Reset button will reset the ATmega32U4 MCU. Usually, it is used for re-starting your sketch. 
+Pressing the 32U4 Reset button will reset the ATmega32U4 MCU. Usually, it is used for re-starting your sketch.
 * **SYS RST**
-Pressing the System Reset button will reboot the Linux system. 
+Pressing the System Reset button will reboot the Linux system.
 * **Wi-Fi RST**
-The Wi-Fi Reset button only supports long press. When pressed and released after 5 seconds, it will reset the WiFi settings. Other settings will be retained. If the button is pressed and released after 30 seconds, it will reset ALL the settings to factory default. 
+The Wi-Fi Reset button only supports long press. When pressed and released after 5 seconds, it will reset the WiFi settings. Other settings will be retained. If the button is pressed and released after 30 seconds, it will reset ALL the settings to factory default.
 * **Grove Connectors**
 SeeedStudio has a variety of sensors/devices that can make use of this I2C or UART connection. In addition, we sell independent Grove connectors to help you make our own sensor connections. The I2C Grove connector is also connected to analog pin A4 and A5 for SDA and SCL respectively if you would like to use those pins instead. The UART Grove connector is connected to digital pins 0 and 1 for RX and TX respectively.
 * **ICSP**
@@ -92,7 +92,7 @@ This is the ICSP connection for the ATmega32U4, it is located in the standard IC
 * **I-PEX Connector**
 This is an I-PEX Connector for an external antenna.
 * **Pins**
-It is not possible to access the I/O pins of the Atheros AR9331. All I/O lines are tied to the ATmega32U4. 
+It is not possible to access the I/O pins of the Atheros AR9331. All I/O lines are tied to the ATmega32U4.
 Each of the 20 digital pins on the 32U4 can be used as an input or output, using pinMode(), digitalWrite(), and digitalRead() functions. They operate at 5 volts. Each pin can provide or receive a maximum of 40 mA and has an internal pull-up resistor (disconnected by default) of 20-50 kOhms.
 In addition, some pins have specialized functions:
 	* Serial: 0 (RX) and 1 (TX). Used to receive (RX) and transmit (TX) TTL serial data using the ATmega32U4 hardware serial capability. Note that on the Seeeduino Cloud, the Serial class refers to USB (CDC) communication; for TTL serial on pins 0 and 1, use the Serial1 class. The hardware serials of the ATmega32U4 and the AR9331 on the Seeeduino Cloud are connected together and are used to communicate between the two processors. As is common in Linux systems, on the serial port of the AR9331 is exposed the console for access to the system, this means that you can access to the programs and tools offered by Linux from your sketch.
@@ -109,9 +109,9 @@ Seeeduino Cloud has two processors on board. One is an ATmega32U4 like on the Le
 
 
 ###Program on ATmega32U4 side
-    
+
 The ATmega32U4 is programmed using the [Arduino Software (IDE)](https://www.arduino.cc/en/Main/Software?setlang=en), if you haven't install, please click [here](https://www.arduino.cc/en/Guide/HomePage) for installation instructions.
-    
+
 ####Install the Driver
 
 First of all, you need to:
@@ -174,7 +174,7 @@ After connect SeeeduinoCloud-AXXXX, type 172.31.255.254 or 192.168.240.1 in brow
 
 ![](https://github.com/SeeedDocument/Seeeduino_Cloud/blob/master/img/seeeduino_cloud_login.png?raw=true)
 
-Click "SYSTEM", select your Wi-Fi network, enter the password and click "CONFIGURE & RESTART". 
+Click "SYSTEM", select your Wi-Fi network, enter the password and click "CONFIGURE & RESTART".
 
 ![](https://github.com/SeeedDocument/Seeeduino_Cloud/blob/master/img/seeeduino_cloud_sta.png?raw=true)
 
@@ -199,11 +199,11 @@ password: seeeduino
 
 ###Yun Bridge Library
 
-The Bridge Library simplifies the communication between the Arduino Board and Dragino HE. Bridge commands from the AVR (Arduino Board) are interpreted by Python on the HE. 
-Its role is to 
-* execute programs on the GNU/Linux side when asked by Arduino, 
-* provide a shared storage space for sharing data like sensor readings between the Arduino and the Internet 
-* receive commands from the Internet and pass them directly to the Arduino. 
+The Bridge Library simplifies the communication between the Arduino Board and Dragino HE. Bridge commands from the AVR (Arduino Board) are interpreted by Python on the HE.
+Its role is to
+* execute programs on the GNU/Linux side when asked by Arduino,
+* provide a shared storage space for sharing data like sensor readings between the Arduino and the Internet
+* receive commands from the Internet and pass them directly to the Arduino.
 There are detailed explanations and lots of examples to show how to use Bridge on the [Arduino Official Website](https://www.arduino.cc/en/Reference/YunBridgeLibrary). Following are some examples that use Bridge Library.
 
 ####Example 1: Say hello to Linux
@@ -250,10 +250,10 @@ void loop() {
 
 ####Example 2: Upload data to IoT Server
 
-This example shows how to log data to the public IoT server “Xively”. The example is a modified version (change Serial to Console to fit for different Arduino Board and debug over WiFi) from Arduino IDE--> File --> Examples --> Bridge --> XivelyClient. Tutorial of this example can be referred [here](https://www.arduino.cc/en/Tutorial/YunXivelyClient). 
+This example shows how to log data to the public IoT server “Xively”. The example is a modified version (change Serial to Console to fit for different Arduino Board and debug over WiFi) from Arduino IDE--> File --> Examples --> Bridge --> XivelyClient. Tutorial of this example can be referred [here](https://www.arduino.cc/en/Tutorial/YunXivelyClient).
 Before uploading the sketch, make sure:
 
-* The Seeeduino Cloud already has internet access. 
+* The Seeeduino Cloud already has internet access.
 * Input your FEED ID and API KEY according to the Tutorial. Note, The FEED ID should be within double quotation marks "" .
 
 ```
@@ -443,7 +443,7 @@ The IoT Server page allows you to upload data to IoT websites such as Xively whi
 
 ![](https://github.com/SeeedDocument/Seeeduino_Cloud/blob/master/img/500px-SeeeduinoCloud_IoTServer.png?raw=true)
 
-and the sketch is shown below. 
+and the sketch is shown below.
 
 ```
 /*
@@ -483,10 +483,10 @@ void loop() {
 * **Schematic**
     * [Seeeduino Cloud Eagle file](https://github.com/SeeedDocument/Seeeduino_Cloud/blob/master/res/Seeeduino_Cloud_v1.0.zip)
     * [Seeeduino Cloud PDF file](https://github.com/SeeedDocument/Seeeduino_Cloud/blob/master/res/Seeeduino_Cloud_PDF.pdf)
-    
+
 * **Firmware**
     * [Seeeduino Cloud Firmware](https://github.com/SeeedDocument/Seeeduino_Cloud/blob/master/res/Seeeduino_Cloud_Firmware--v1.3.4--20140815-1100.zip)
-    
+
 * **References**
     * [Getting Started with Arduino](https://www.arduino.cc/en/Guide/HomePage)
     * [Arduino Language Reference](https://www.arduino.cc/en/Reference/HomePage)
@@ -497,10 +497,10 @@ void loop() {
     * [Arduino Yun Wiki](https://www.arduino.cc/en/Main/ArduinoBoardYun)
     * [Getting started with Arduino Yun](https://www.arduino.cc/en/Guide/ArduinoYun#toc2)
     * [Yun Bridge Library](https://www.arduino.cc/en/Reference/YunBridgeLibrary)
-    
-    
+
+
 ##FAQ
 
-* What is Yun Bridge Library? 
+* What is Yun Bridge Library?
 
-Yun Bridge Library is the mechanism used in Arduino Yun for communication between a MPU and a MCU. Seeeduino Cloud supports Yun Bridge Library to make it easy for Arduino users to build their IoT projects. 
+Yun Bridge Library is the mechanism used in Arduino Yun for communication between a MPU and a MCU. Seeeduino Cloud supports Yun Bridge Library to make it easy for Arduino users to build their IoT projects.
