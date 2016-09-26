@@ -45,6 +45,7 @@ pages:
         - Xadow GPS V2: Xadow_GPS_V2.md
         - Xadow GSM Breakout: Xadow_GSM_Breakout.md
         - Xadow GSM&#43;BLE: Xadow_GSMPlusBLE.md
+        - Xadow NFC: Xadow_NFC.md
 
     - Wio:
         - Wio Link: Wio_Link.md

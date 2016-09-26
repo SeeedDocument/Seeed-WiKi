@@ -5,7 +5,8 @@ bzurl: https://www.seeedstudio.com/Xadow-NFC-p-1627.html
 oldwikiname: Xadow - NFC
 prodimagename: X_nfc_01.jpg
 surveyurl: https://www.surveymonkey.com/r/Xadow-NFC
-SKU：113040000
+sku: 113040000
+
 ---
 
 ---
