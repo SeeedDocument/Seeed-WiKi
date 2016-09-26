@@ -177,12 +177,6 @@ Install the drivers for your operating system to give you network-over-USB acces
     * You may need to reboot Windows.
     * These drivers have been tested to work up to Windows 10
 
-!!!Note
-    Additional FTDI USB to serial/JTAG information and drivers are available from [https://www.ftdichip.com/Drivers/VCP.html](https://www.ftdichip.com/Drivers/VCP.html).
-
-!!!Note
-    Additional USB to virtual Ethernet information and drivers are available from [https://www.linux-usb.org/gadget/](https://www.linux-usb.org/gadget/) and [https://joshuawise.com/horndis](https://joshuawise.com/horndis).
-
 
 ###STEP3. Browse to your Beagle
 
