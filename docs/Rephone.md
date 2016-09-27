@@ -8,9 +8,7 @@ surveyurl: https://www.surveymonkey.com/r/RePhone
 sku: 110040002
 ---
 
-
-## Introduction
-
+---
 RePhone Kit is an open source modular phone kit that changes the way we put our phone into use. It provides a new form of phone customization, and the easiest solution to wearable/IoT development.
 
 With Rephone you can create your own phone in minutes by using the slim MODULES, accessible SOFTWARE, and customizable PHONE CASE. You can also hack things around you, giving inanimate objects the power of cellular communication, having conversations with your pets, plants, toys, motorcycle helmets, robots, or drones through cellular connectivity.
@@ -25,9 +23,9 @@ With Rephone you can create your own phone in minutes by using the slim MODULES,
 - Various rich-featured add-on modules for function extension
 - DIY Phone
 - Last for about 25 hours @ standby (RePhone Kit Create)
-  
+
 ## RePhone Family
-The core of the RePhone is provided by Xadow GSM+BLE or by RePhone Core 3G Module (coming soon), beyond these two core modules are 8 more chainable add-on modules to extend the features and functionalities – Xadow 1.54’’ Touchscreen, Xadow Audio, Xadow GSM Breakout, Xadow LED 5x7, Xadow Basic Sensors, Xadow Duino, Xadow GPS v2 and Xadow NFC v2. 
+The core of the RePhone is provided by Xadow GSM+BLE or by RePhone Core 3G Module (coming soon), beyond these two core modules are 8 more chainable add-on modules to extend the features and functionalities – Xadow 1.54’’ Touchscreen, Xadow Audio, Xadow GSM Breakout, Xadow LED 5x7, Xadow Basic Sensors, Xadow Duino, Xadow GPS v2 and Xadow NFC v2.
 
 
 |Xadow GPS v2|Xadow Basic Sensors|Xadow NFC v2|
@@ -72,7 +70,7 @@ The core of the RePhone is provided by Xadow GSM+BLE or by RePhone Core 3G Modul
 
 
 ## Development Environment
-We have developed rich libraries hooking into Arduino IDE, Lua and JavaScript, with detailed example sketches to help entry-level programmers develop with RePhone modules easily and quickly. We also provide a full power SDK based on Eclipse IDE for C/C++ developers to work with high level applications. 
+We have developed rich libraries hooking into Arduino IDE, Lua and JavaScript, with detailed example sketches to help entry-level programmers develop with RePhone modules easily and quickly. We also provide a full power SDK based on Eclipse IDE for C/C++ developers to work with high level applications.
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Rephone/master/image/600px-IDE_LOGOs.png)
 
@@ -113,11 +111,11 @@ To reset your RePhone to **DEFAULTS:**
 1. Follow the instructions in "Update/Flash the Firmware" section to flash the firmware
 2. Download the RePhone_Create_Kit_VXP file
 3. Enter the [RePhone Mass Storage Mode](http://www.seeedstudio.com/wiki/Xadow_GSM%2BBLE#Mass_Storage_Mode)
-4. Copy everything under the file named "RePhone Create Kit VXP" into the RePhone 5MB mass storage. 
-5. Restart your RePhone then its done. As reset have deleted all the files, you would have to put an mp3 file in the mass storage as well for the use of ringtone. 
+4. Copy everything under the file named "RePhone Create Kit VXP" into the RePhone 5MB mass storage.
+5. Restart your RePhone then its done. As reset have deleted all the files, you would have to put an mp3 file in the mass storage as well for the use of ringtone.
 
 
-## RePhone Community 
+## RePhone Community
 
 We’ve been looking for a better place where our backers (RePhone Users) can sit together, warmly and comfortably, have conversations about RePhone, discuss technical problems, share ideas/projects, and give feedback on the modules’ development in the future. And then here we go, the RePhone Community.
 
@@ -127,23 +125,22 @@ Together we seek answers, make interesting stuff, care about each other, and sha
 
 **Frequently Asked Questions**
 
-Some frequently asked questions in RePhone Community are collected and answered to the topic [ "Frequently Asked Questions of RePhone (FAQ)"](http://www.seeed.cc/topic_detail.html?id=5170#p23753),the topic will be kept updating whenever a new FAQ comes out. 
+Some frequently asked questions in RePhone Community are collected and answered to the topic [ "Frequently Asked Questions of RePhone (FAQ)"](http://www.seeed.cc/topic_detail.html?id=5170#p23753),the topic will be kept updating whenever a new FAQ comes out.
 
 ## Resources
 The schematic diagrams of RePhone Modules are provided in the following link:
 
-- [Schematic Diagrams of RePhone Modules](https://github.com/SeeedDocument/Rephone/blob/master/resource/Schematic_Diagrams_of_RePhone_Modules.rar). 
+- [Schematic Diagrams of RePhone Modules](https://github.com/SeeedDocument/Rephone/blob/master/resource/Schematic_Diagrams_of_RePhone_Modules.rar).
 
 which includes:
 
-- [Xadow GSM+BLE](http://www.seeedstudio.com/wiki/Xadow_GSM%2BBLE). 
-- [Xadow GSM Breakout](http://www.seeedstudio.com/wiki/Xadow_GSM_Breakout). 
+- [Xadow GSM+BLE](http://www.seeedstudio.com/wiki/Xadow_GSM%2BBLE).
+- [Xadow GSM Breakout](http://www.seeedstudio.com/wiki/Xadow_GSM_Breakout).
 - [Xadow 1.54” Touchscreen](http://www.seeedstudio.com/wiki/Xadow_1.54%27%27_Touchscreen).
-- [Xadow Audio](http://www.seeedstudio.com/wiki/Xadow_Audio). 
-- [Xadow Duino](http://www.seeedstudio.com/wiki/Xadow_Duino). 
-- [Xadow GPS v2](http://www.seeedstudio.com/wiki/Xadow_GPS_v2). 
-- [Xadow Basic Sensors](http://www.seeedstudio.com/wiki/Xadow_Basic_Sensors). 
-- [Xadow NFC v2](http://www.seeedstudio.com/wiki/Xadow_NFC_v2). 
-- [Xadow LED 5x7](http://www.seeedstudio.com/wiki/Xadow_LED_5x7). 
-- [Xadow Pebble Time Adapter](http://www.seeedstudio.com/wiki/Xadow_Pebble_Time_Adapter). 
-
+- [Xadow Audio](http://www.seeedstudio.com/wiki/Xadow_Audio).
+- [Xadow Duino](http://www.seeedstudio.com/wiki/Xadow_Duino).
+- [Xadow GPS v2](http://www.seeedstudio.com/wiki/Xadow_GPS_v2).
+- [Xadow Basic Sensors](http://www.seeedstudio.com/wiki/Xadow_Basic_Sensors).
+- [Xadow NFC v2](http://www.seeedstudio.com/wiki/Xadow_NFC_v2).
+- [Xadow LED 5x7](http://www.seeedstudio.com/wiki/Xadow_LED_5x7).
+- [Xadow Pebble Time Adapter](http://www.seeedstudio.com/wiki/Xadow_Pebble_Time_Adapter).
