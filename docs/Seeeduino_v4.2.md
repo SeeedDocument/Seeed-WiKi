@@ -75,7 +75,7 @@ Here is some funny project for your reference.
 ##Specification
 
 | Item | 	Value  |
-| ----------------|--------------------| 
+| ----------------|--------------------|
 | DC Jack Input       | 7-12V   |
 |DC Output Current|
 |5V Pin | With Micro USB	500mA Max |
@@ -141,7 +141,7 @@ If you can't find one, you can buy one [here](http://www.seeedstudio.com/depot/M
 
 !!!Note
     This drive is available for Windows XP, Windows Vista, Windows 7, Windows 8/8.1 and Windows 10.
-    
+
 [![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/download_driver.png)](https://github.com/Seeed-Studio/Signed_USB_Serial_Driver/archive/master.zip)
 
 - Plug in your board and wait for Windows to begin its driver installation process. After a few moments, the process will fail, despite best efforts.
@@ -155,21 +155,21 @@ If you can't find one, you can buy one [here](http://www.seeedstudio.com/depot/M
 
 ###For Mac OSX
 
-You don't need to install any drivers. 
+You don't need to install any drivers.
 
 
 ##Getting Started
 
 !!!Note
     This part is based on Arduino 1.6.9 under Windows 10.
-    
+
 First of all, you need to Install an Arduino Software.
 
 [![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Stalker_V3_1/master/images/Download_IDE.png)](https://www.arduino.cc/en/Main/Software)
 
 
 ###Launch the Arduino application
-Double-click the Arduino application (arduino.exe) you have previously downloaded. 
+Double-click the Arduino application (arduino.exe) you have previously downloaded.
 
 !!!Note
     If the Arduino Software loads in a different language, you can change it in the preferences dialog. See the [Arduino Software (IDE) page](https://www.arduino.cc/en/Guide/Environment#languages) for details.
@@ -202,7 +202,7 @@ Select the serial device of the Arduino board from the Tools | Serial Port menu.
 
 !!!Note
     On the Mac, this should be something with **/dev/tty.USBmodem**.
-    
+
 ###Upload the program
 Now, simply click the "Upload" button in the environment. Wait a few seconds - you should see the RX and TX LED indicators on the board flashing. If the upload is successful, the message "Done uploading." will appear in the status bar.
 
@@ -240,7 +240,7 @@ For using on Linux, please go to [Installing Arduino on Linux](http://playground
 
 ##FAQ
 
-####Q1. What's the different between Arduino UNO and Seeeduino V4
+####Q1. What's the difference between Arduino UNO and Seeeduino V4
 
 Seeeduino V4 is fully compatible with Arduino UNO. The mainly difference list below:
 
@@ -258,7 +258,7 @@ Please check,
 * If you choose the right Port and Board (Seeeduino V4)
 * Close and reopen Arduino IDE and try again
 
-####Q3. Where can I find technical support if I have some other issue. 
+####Q3. Where can I find technical support if I have some other issue.
 
 You can post a question to [Seeed Forum](http://www.seeed.cc/discover.html?t=Arduino) or send an email to **techsupport@seeed.cc**.
 
@@ -276,4 +276,3 @@ It is time to say good bye to the user-unfriendly old document system now, in or
 Although we have tried our best to optimize, it is still possible that we make some mistakes, so if you find anything that needs to be updated, it is very welcome to submit the amended version as our contributor or give us suggestions in the survey below. Please don't forget to leave your email address if you need our reply, we will reply to you as soon as we can.
 
 By the way, we will feel very happy and encouraged if we receive 5 stars from you. With the help and encouragement from you, we believe that we can make this document better and better!
-

@@ -2,7 +2,7 @@
 title: Base Shield V2
 category: Arduino
 bzurl: https://www.seeedstudio.com/base-shield-v13-p-1378.html
-oldwikiname: 
+oldwikiname:
 prodimagename: Base_Shield_v2-1.png
 surveyurl: https://www.surveymonkey.com/r/base_shield_v2
 sku: 103030000
@@ -53,8 +53,8 @@ We have used Grove - LED and Grove - Button with Base Shield v2. All Grove produ
  The circuit:
 * LED attached from pin 3 to ground
 * Button attached to pin 2 from +5V
-* 10K resistor attached to pin 2 from ground 
-* Button Control An LED 
+* 10K resistor attached to pin 2 from ground
+* Button Control An LED
 */
 
 const int button = 2;       // the Grove port No. you attached a button to
@@ -72,7 +72,7 @@ void loop()
 }
 ```
 
-##Resource
+##Resources
 
 * [Schematic of Base Shield v2](https://raw.githubusercontent.com/SeeedDocument/Base_Shield_V2/master/res/Base_Shield_v2.zip)
 * [Schematics PDF of Base Shield V2](https://raw.githubusercontent.com/SeeedDocument/Base_Shield_V2/master/res/Base_Shield_v2.pdf)

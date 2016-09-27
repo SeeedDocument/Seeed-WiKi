@@ -10,11 +10,11 @@ sku: 113030021
 
 ![](https://github.com/SeeedDocument/CAN_BUS_Shield/blob/master/image/Can_bus_shield_all.jpg?raw=true)
 
-**CAN-BUS** is a common industrial bus because of its long travel distance, medium communication speed and high reliability. It is commonly found on modern machine tools and as an automotive diagnostic bus. 
+**CAN-BUS** is a common industrial bus because of its long travel distance, medium communication speed and high reliability. It is commonly found on modern machine tools and as an automotive diagnostic bus.
 
 This CAN-BUS Shield adopts **MCP2515** CAN Bus controller with SPI interface and **MCP2551** CAN transceiver to give your Arduino/Seeeduino CAN-BUS capability. With an **OBD-II** converter cable added on and the OBD-II library imported, you are ready to build an onboard diagnostic device or data logger.
 
-###Version
+**Version**
 
 This document applies to the following version of products:
 
@@ -24,11 +24,11 @@ This document applies to the following version of products:
 |CAN BUS Shield V1.1 |Aug 10, 2013|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/EOL.png)|
 |CAN BUS Shield V1.2|Jan 5, 2015|[![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now_small.png)](http://www.seeedstudio.com/CAN-BUS-Shield-V1.2-p-2256.html)|
 
-###What's new in CAN BUS Shield V1.2
+**What's new in CAN BUS Shield V1.2**
 * Pads on the back of PCBA
 * Change terminal resistor to 120 Ohm
 
-##Features
+## Features
 -----
 
 - Implements CAN V2.0B at up to **1 Mb/s**
@@ -40,8 +40,8 @@ This document applies to the following version of products:
 
 !!!Note
     CAN BUS Shield Work well with Arduino UNO (ATmega328), Arduino Mega (ATmega1280/2560) as well as Arduino Leonardo (ATmega32U4).
-    
-##Hardware Overview
+
+## Hardware Overview
 -----
 
 ![](https://github.com/SeeedDocument/CAN_BUS_Shield/blob/master/image/hardware_overview_1.png?raw=true)
@@ -66,38 +66,38 @@ This document applies to the following version of products:
     When you use more than two CAN Bus Shield in one net, you should think about the impedance.
     You can just cut P1 in the PCB with a knife, or just remove R3 on the PCB.
 
-###Pin map
+**Pin map**
 
 ![](https://raw.githubusercontent.com/SeeedDocument/CAN_BUS_Shield/master/image/PINMAP.png)
 
 !!!note
-    The pin FREE is available for the others usage. 
+    The pin FREE is available for the other usages.
 
-###DB9&OBDii Interface
+**DB9&OBDii Interface**
 
 ![](https://raw.githubusercontent.com/SeeedDocument/CAN_BUS_Shield/master/image/OBD.png)
 
-###CS pin
+**CS pin**
 
-SPI_CS pin of V1.2 is default to **D9**. If you want to change it to **D10**. Take a look at the back of the PCBA, you will find a pad named CS. You can cut the wire that at the left of the pad with a box cutter, and the solder the right 2 pads. 
+SPI_CS pin of V1.2 is default to **D9**. If you want to change it to **D10**. Take a look at the back of the PCBA, you will find a pad named CS. You can cut the wire that at the left of the pad with a box cutter, and the solder the right 2 pads.
 
 !!!warning
     Be careful when you are going to change CS pin, it's easy to hear yourself or the PCBA.
 
 ![](https://github.com/SeeedDocument/CAN_BUS_Shield/blob/master/image/hardware_overview_pins_setting.png?raw=true)
 
-###SPI pins
+**SPI pins**
 
 The SPI pins (SCK, MISO, MOSI) is default to the ICSP pins. But for some Boards, maybe the SPI pins is at D11~D13, if so you need to change something in the PCBA. Take a look that the back of the PCBA, there're three pads, MOSI, MISO and SCK, they are default to A. You can change them to B if needed.
 
 !!!note
-    For Arduino UNO, Arduino Mega, Arduino Leonardo and any others AVR based Arduino boards, default is working. 
+    For Arduino UNO, Arduino Mega, Arduino Leonardo and any others AVR based Arduino boards, default is working.
 
 !!!warning
     Be careful when you are going to change SPI pins, it's easy to hear yourself or the PCBA.
 
 
-##Getting Started
+## Getting Started
 -----
 
 Here's a simple demo to show you how CAN-BUS Shield works. In this demo we need 2 piece of CAN-BUS Shield as well as Arduino/Seeeduino.
@@ -106,7 +106,7 @@ Here's a simple demo to show you how CAN-BUS Shield works. In this demo we need 
     This demo is built under [Arduino IDE version 1.6.9](https://www.arduino.cc/download_handler.php?f=/arduino-1.6.9-windows.zip).
 
 
-###STEP1: What do we need
+**STEP1: What do we need**
 
 |Name|Function|Qty|Link|
 |----|--------|---|----|
@@ -114,35 +114,35 @@ Here's a simple demo to show you how CAN-BUS Shield works. In this demo we need 
 |Seeeduino V4.2|Controller|2|[link](http://www.seeedstudio.com/item_detail.html?p_id=2517)|
 |Jumper Wire|connection|2|[link](http://www.seeedstudio.com/item_detail.html?p_id=234)|
 
-###STEP2: Hardware Connection
+**STEP2: Hardware Connection**
 
-Insert each CAN-BUS Shield to Seeeduino V4.2, and connect the 2 CAN-BUS Shield together via 2 jumper wires. Shown as below images. 
+Insert each CAN-BUS Shield to Seeeduino V4.2, and connect the 2 CAN-BUS Shield together via 2 jumper wires. Shown as below images.
 
 ![](https://raw.githubusercontent.com/SeeedDocument/CAN_BUS_Shield/master/image/connection.png)
 
 !!!note
     CAN_H to CAN_H, CAN_L to CAN_L
 
-###STEP3: Software
+**STEP3: Software**
 
 Click on the below button to download the library.
 
 [![](https://raw.githubusercontent.com/SeeedDocument/CAN_BUS_Shield/master/image/download_library.png)](https://github.com/Seeed-Studio/CAN_BUS_Shield)
 
-Install the library to your Arduino IDE when it is downloaded. 
+Install the library to your Arduino IDE when it is downloaded.
 
-Of of the node (a node means Seeeduino + CAN_BUS Shield) act as master, the other act as slaver. The master will send data to slaver constantly. 
+Of of the node (a node means Seeeduino + CAN_BUS Shield) act as master, the other act as slaver. The master will send data to slaver constantly.
 
 !!!note
-    Each node can act at master before the code is uploaded. 
+    Each node can act at master before the code is uploaded.
 
-Open the **send** example (**File > Examples > CAN_BUS_Shield-master > send**) and upload to the **master**. 
+Open the **send** example (**File > Examples > CAN_BUS_Shield-master > send**) and upload to the **master**.
 
 Open the **receive_check** example (**File > Examples > CAN_BUS_Shield-master > receive_check**) and upload to the **slaver**.
 
-###STEP4: View Result
+**STEP4: View Result**
 
-Open the Serial Monitor of Arduino IDE(**slaver**), you will get the data sent from the master. 
+Open the Serial Monitor of Arduino IDE(**slaver**), you will get the data sent from the master.
 
 ![](https://raw.githubusercontent.com/SeeedDocument/CAN_BUS_Shield/master/image/serial_monitor.png)
 
@@ -158,7 +158,7 @@ The available baud rates are listed as follows:
 	#define CAN_5KBPS    1
 	#define CAN_10KBPS   2
 	#define CAN_20KBPS   3
-	#define CAN_25KBPS   4 
+	#define CAN_25KBPS   4
 	#define CAN_31K25BPS 5
 	#define CAN_33KBPS   6
 	#define CAN_40KBPS   7
@@ -194,7 +194,7 @@ We provide two functions for you to utilize these mask and filter registers. The
 - **ulData** represents the content of the mask of filter.
 
 ###3. Check Receive
-The MCP2515 can operate in either a polled mode, where the software checks for a received frame, or using additional pins to signal that a frame has been received or transmit completed. 
+The MCP2515 can operate in either a polled mode, where the software checks for a received frame, or using additional pins to signal that a frame has been received or transmit completed.
 
 Use the following function to poll for received frames.
 
@@ -233,14 +233,14 @@ In conditions that masks and filters have been set. This function can only get f
 * **len** represents the data length.
 * **buf** is where you store the data.
 
-##Generate a New BaudRate
+## Generate a New BaudRate
 
 We had provided many frequently-used baud rate, as below:
 
 	#define CAN_5KBPS    1
 	#define CAN_10KBPS   2
 	#define CAN_20KBPS   3
-	#define CAN_25KBPS   4 
+	#define CAN_25KBPS   4
 	#define CAN_31K25BPS 5
 	#define CAN_33KBPS   6
 	#define CAN_40KBPS   7
@@ -258,12 +258,12 @@ We had provided many frequently-used baud rate, as below:
 
 Yet you may still can't find the rate you want. Here we provide a software to help you to calculate the baud rate you need.
 
-Click [here](https://github.com/SeeedDocument/CAN_BUS_Shield/raw/master/resource/CAN_Baudrate_CalcV1.3.zip) to download the software, it's in Chinese, but never mind, it's easy to use. 
+Click [here](https://github.com/SeeedDocument/CAN_BUS_Shield/raw/master/resource/CAN_Baudrate_CalcV1.3.zip) to download the software, it's in Chinese, but never mind, it's easy to use.
 
 ![](https://github.com/SeeedDocument/CAN_BUS_Shield/blob/master/image/CAN_BUS_Shield_SetBaud.jpg?raw=true)
 
 !!!note
-    This software support Windows system only. If you can't open it, please free to contact loovee@seeed.cc for help. 
+    This software support Windows system only. If you can't open it, please free to contact loovee@seeed.cc for help.
 
 Open the software, what you need to do is set the baud rate you want, and do some simple setting, then click **calculate**.
 
@@ -290,7 +290,7 @@ Open **mcp_can.cpp**, goto the function **mcp2515_configRate**(at about line 190
 Then you can use the baud rate you need. And please give me a pull request at github when you use a new rate, so I can add it to the library to help the other guys.
 
 
-##Projects
+## Projects
 -----
 
 If you want to make some awesome projects with CAN-BUS shield, here's some projects for reference.
@@ -310,24 +310,24 @@ Ever wanted to play a car/truck simulator with a real dashboard on your PC? Me t
 Modern Vehicles all come equipped with a CAN-BUS Controller Area Network, Instead of having a million wires running back and forth from various devices in your car to the battery, its making use of a more clever system.
 
 All electronic functions are connected to the TIPM, (Totally integrated Power Module), such as solenoids/relays to lock the doors or mini motors to wind the windows etc.
- 
+
 From each node (IE Switch pod that controls your windows or electric door locks) it broadcasts a message across the CAN. When the TIPM detects a valid message it will react accordingly like, lock the doors, switch on lights and so on.
 
 
 [![](https://github.com/SeeedDocument/CAN_BUS_Shield/blob/master/image/Wiki_makeitnow_logo.png?raw=true)](http://www.instructables.com/id/Hack-your-vehicle-CAN-BUS-with-Arduino-and-Seeed-C/)
 
-##Resources
+## Resources
 -----
 
 * **【PDF】**[CAN-BUS Shield V1.2 Schmatics](https://github.com/SeeedDocument/CAN_BUS_Shield/raw/master/resource/CAN-BUS_Shield_v1.2.pdf)
-* **【Eagle】**[Schematic of CAN-BUS Shield V1.2](https://github.com/SeeedDocument/CAN_BUS_Shield/raw/master/resource/CAN-BUS_Shield_v1.2_sch_pcb.zip) 
+* **【Eagle】**[Schematic of CAN-BUS Shield V1.2](https://github.com/SeeedDocument/CAN_BUS_Shield/raw/master/resource/CAN-BUS_Shield_v1.2_sch_pcb.zip)
 * **【Library】**[Arduino Library for CAN-BUS Shield](https://github.com/Seeed-Studio/CAN_BUS_Shield)
 * **【Datasheet】**[MCP2515 datasheet](https://github.com/SeeedDocument/CAN_BUS_Shield/raw/master/resource/MCP2515.pdf)
 * **【Datasheet】**[MCP2551 datasheet](https://github.com/SeeedDocument/CAN_BUS_Shield/raw/master/resource/Mcp2551.pdf)
 * **【Demo】**[An OBD Demo](https://github.com/Seeed-Studio/CANBUS_SHIELD_OBD_RECIPLE)
 * 【**Tool】**[MCP2515 Baud Rate Tool](https://github.com/SeeedDocument/CAN_BUS_Shield/raw/master/resource/CAN_Baudrate_CalcV1.3.zip)
 
-##FAQ
+## FAQ
 ------
 ####Q1: I can't get data from other CAN device.
 
@@ -338,7 +338,6 @@ From each node (IE Switch pod that controls your windows or electric door locks)
 
 * Check if the CS pin set right in the code. For CAN Bus Shield V1.1/1.2, CS pin is default to D9, others default to D10.
 
-####Q3. Where can I find technical support if I have some other issue. 
+####Q3. Where can I find technical support if I have some other issue.
 
 * You can post a question to [Seeed Forum](http://www.seeed.cc/discover.html?t=Arduino) or send an email to **techsupport@seeed.cc**.
-

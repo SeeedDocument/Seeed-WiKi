@@ -102,9 +102,9 @@ The schematic diagram of Xadow Basic Sensors is provided in the following link:
 - [Xadow Duino Schematic Files](https://github.com/SeeedDocument/Xadow_Basic_Sensors/raw/master/resources/202000745_PCBA%3BXadow%20Basic%20Sensors%20v1.0_schemic%20file.zip)
 
 Check more info about the datasheet for each sensors:
-- ADXL345 - 3_Axis Acceserometer
-- LM75A NXP - Temperature Sensor
-- TSL2561 - Light Sensor
+- [ADXL345 - 3_Axis Acceserometer](https://github.com/SeeedDocument/Xadow_Basic_Sensors/raw/master/res/ADXL345-3_Axis_Acceserometer.pdf)
+- [LM75A NXP - Temperature Sensor](https://github.com/SeeedDocument/Xadow_Basic_Sensors/raw/master/res/LM75A_NXP-Temperature_Sensor_.pdf)
+- [TSL2561 - Light Sensor](https://github.com/SeeedDocument/Xadow_Basic_Sensors/raw/master/res/TSL2561-Light_Sensor_.pdf)
 
 And the MCU STM32F030F4:
-- STM32F030F4
+- [STM32F030F4](https://github.com/SeeedDocument/Xadow_Basic_Sensors/raw/master/res/STM32F030F4.pdf)

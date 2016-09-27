@@ -72,4 +72,4 @@ We will be keep updating the source code on our github page:
 
 The schematic diagram of Xadow LED 5x7 is provided in the following link:
 
-- [Xadow Duino Schematic Files](https://github.com/SeeedDocument/Xadow_LED_5x7/raw/master/resources/202000746_PCBA%3BXadow%20LED%205%C3%977%20v1.0_schemic%20files.zip)
+- [Xadow LED 5×7 v1.0_schemic files.zip](https://github.com/SeeedDocument/Xadow_LED_5x7/raw/master/res/202000746_PCBA%3BXadow%20LED%205%C3%977%20v1.0_schemic%20files.zip)

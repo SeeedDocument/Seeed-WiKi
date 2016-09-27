@@ -9,7 +9,7 @@ sku: 104040002
 ---
 
 ---
-If you have used or heard about Rephone, the world's first open source and modular phone, you will not be strange with the product we are going to talk about. Yes! The Xadow 1.54`` Touchscreen is right just the touchscreen that Rephone uses.
+If you have used or heard about Rephone, the world's first open source and modular phone, you will not be strange with the product we are going to talk about. Yes! The Xadow 1.54'' Touchscreen is right just the touchscreen that Rephone uses.
 
 This TFT Display contains 240 x 240 pixels that can be controlled individually to display up to 262K colors. Above the display is a layer of a capacitive touchscreen, offering 29.4mm x 29.4mm active area at the center of the display. As a single touch screen, it can detect finger presses anywhere within the active area during normal operations. The TFT driver gets the ST7789S IC Driver inside with 2-bit data and 4-bit control serial interface while the capacitive touchscreen controller uses I2C.
 
@@ -85,4 +85,11 @@ Now join us in the [RePhone Community](http://www.seeed.cc/discover.html?t=RePho
 
 ## Resources
 ---
+The schematic diagram of Xadow 1.54” Touchscreen is provided in the following link:
+
 - [Xadow 1.54”Touchscreen schematic files](https://github.com/SeeedDocument/Xadow_1.54_Inch_Touchscreen/raw/master/resources/202000724_PCBA%3BXadow%201.54''Touchscreen%20v1.0%20schematic%20files.zip)
+
+Check more info about the TFT Display and the Capacitive Touchscreen:
+
+- [Datasheet of the TFT display](https://github.com/SeeedDocument/Xadow_1.54_Inch_Touchscreen/raw/master/res/Datasheet-Capacitive_touchscreen.pdf)
+- [Datasheet of the capacitive touchscreen](https://github.com/SeeedDocument/Xadow_1.54_Inch_Touchscreen/raw/master/res/TFT_Display.rar)
