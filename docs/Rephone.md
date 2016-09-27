@@ -134,13 +134,13 @@ The schematic diagrams of RePhone Modules are provided in the following link:
 
 which includes:
 
-- [Xadow GSM+BLE](http://www.seeedstudio.com/wiki/Xadow_GSM%2BBLE).
-- [Xadow GSM Breakout](http://www.seeedstudio.com/wiki/Xadow_GSM_Breakout).
-- [Xadow 1.54” Touchscreen](http://www.seeedstudio.com/wiki/Xadow_1.54%27%27_Touchscreen).
-- [Xadow Audio](http://www.seeedstudio.com/wiki/Xadow_Audio).
-- [Xadow Duino](http://www.seeedstudio.com/wiki/Xadow_Duino).
-- [Xadow GPS v2](http://www.seeedstudio.com/wiki/Xadow_GPS_v2).
-- [Xadow Basic Sensors](http://www.seeedstudio.com/wiki/Xadow_Basic_Sensors).
-- [Xadow NFC v2](http://www.seeedstudio.com/wiki/Xadow_NFC_v2).
-- [Xadow LED 5x7](http://www.seeedstudio.com/wiki/Xadow_LED_5x7).
+- [Xadow GSM+BLE](http://wiki.seeed.cc/Xadow_GSMPlusBLE/).
+- [Xadow GSM Breakout](http://wiki.seeed.cc/Xadow_GSM_Breakout/).
+- [Xadow 1.54” Touchscreen](http://wiki.seeed.cc/Xadow_1.54_inch_Touchscreen/).
+- [Xadow Audio](http://wiki.seeed.cc/Xadow_Audio/).
+- [Xadow Duino](http://wiki.seeed.cc/Xadow_Duino/).
+- [Xadow GPS v2](http://wiki.seeed.cc/Xadow_GPS_V2/).
+- [Xadow Basic Sensors](http://wiki.seeed.cc/Xadow_Basic_Sensors/).
+- [Xadow NFC v2](http://wiki.seeed.cc/Xadow_NFC/).
+- [Xadow LED 5x7](http://wiki.seeed.cc/Xadow_LED_5x7/).
 - [Xadow Pebble Time Adapter](http://www.seeedstudio.com/wiki/Xadow_Pebble_Time_Adapter).
