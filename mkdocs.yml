@@ -104,7 +104,6 @@ pages:
 
 
 - Tutorial:
-        - Survey: survey_end.md
         - FM Receiver: FM_Receiver.md
         - How to install an Arduino library: How_to_Install_an_Arduino_Library.md
 
@@ -113,7 +112,9 @@ pages:
         - Maker Pro: MakerPro.md
 
 
-- 404: 404.md
+- About:
+    - Survey: survey_end.md
+    - 404: 404.md
         
 theme_dir: mkdocs/themes/readthedocs
 
