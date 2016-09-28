@@ -51,9 +51,6 @@ pages:
         - Wio Link: Wio_Link.md
         - Wio Node: Wio_Node.md
 
-    - Others:
-        - Platform Others: Platform_Others.md
-
     
 - Grove:
     - Grove System: Grove_System.md
@@ -91,6 +88,9 @@ pages:
     - Communication:
         - Communication: Communication.md
         - Grove - UART Wi-Fi: Grove-UART_Wifi.md
+
+    - Others:
+        - Platform Others: Platform_Others.md
 
 
 - IoT:
