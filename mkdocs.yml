@@ -5,6 +5,7 @@ pages:
 
 - Platform:
     - Arduino:
+        - Introduction to the Arduino Platform: Arduino_Introduction_page.md
         - 2.8&#39;&#39; TFT Touch Shield v2.0: 2.8inch_TFT_Touch_Shield_v2.0.md
         - Base Shield V2: Base_Shield_V2.md
         - CAN-BUS Shield V1.2: CAN-BUS_Shield_V1.2.md
@@ -18,13 +19,16 @@ pages:
         - Seeeduino v4.2: Seeeduino_v4.2.md
 
     - BeagleBone:
+        - Introduction of Beaglebone Platform: BeagleBone_Platform_introduction.md
         - BeagleBone Green: BeagleBone_Green.md
         - BeagleBone Green Wireless: BeagleBone_Green_Wireless.md
 
     - Raspberry Pi:
+        - Introduction of Raspberry Pi Platform: Raspberry_Pi_ Platform_Introduction.md
         - Raspberry Pi: Raspberry_Pi.md
 
     - LinkIt:
+        - Introduction of LinkIt Platform: LinkIt_Platform_Introduction.md
         - Arduino Breakout for LinkIt Smart 7688 Duo: Arduino_Breakout_for_LinkIt_Smart_7688_Duo.md
         - Breakout for LinkIt Smart 7688 v2.0: Breakout_for_LinkIt_Smart_7688_v2_0.md
         - Grove Breakout for LinkIt Smart 7688 Duo: Grove-Breakout_for_LinkIt_Smart_7688_Duo.md
@@ -32,9 +36,11 @@ pages:
         - LinkIt Smart 7688 Duo: LinkIt_Smart_7688_Duo.md
 
     - mbed:
+        - Introduction if mbed Platform: mbed_platform_introduction.md
         - Arch BLE: Arch_BLE.md
 
     - RePhone:
+        - Introduction of RePhone Platform: RePhone_Platform_Introduction.md
         - Arduino IDE for RePhone Kit: Arduino_IDE_for_RePhone_Kit.md
         - RePhone: Rephone.md
         - Xadow - LED 5x7: Xadow_LED_5x7.md
@@ -48,13 +54,14 @@ pages:
         - Xadow NFC: Xadow_NFC.md
 
     - Wio:
+        - Introduction of Wio Platform: Wio_Platform_Introduction.md
         - Wio Link: Wio_Link.md
         - Wio Node: Wio_Node.md
 
     - Others:
         - Platform Others: Platform_Others.md
 
-    
+
 - Grove:
     - Grove System: Grove_System.md
     - Sensor:
@@ -115,7 +122,7 @@ pages:
 - About:
     - Survey: survey_end.md
     - 404: 404.md
-        
+
 theme_dir: mkdocs/themes/readthedocs
 
 markdown_extensions:
