@@ -45,17 +45,16 @@
   <script src="{{ path }}"></script>
   {%- endfor %}
 
-  {% if google_analytics %}
   <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-      ga('create', '{{ google_analytics[0] }}', '{{ google_analytics[1] }}');
-      ga('send', 'pageview');
+  ga('create', 'UA-84917600-1', 'auto');
+  ga('send', 'pageview');
   </script>
-  {% endif %}
+  
 </head>
 
 <body class="wy-body-for-nav" role="document">
@@ -111,7 +110,7 @@
 {% if meta.tags %}{% set tags=[] %}{% set la = meta.tags[0].split(',') %}{% for item in la %}{{ tags.append(item.strip()) or '' }}{% endfor %}{% if 'plat_pi' in tags or 'plat_duino' in tags or 'plat_bbg' in tags or 'plat_wio' in tags or 'plat_linkit' in tags %}
 <div id="platforms-supported-table">
 </br>
-<table class="wy-table rst-content"><thead><tr><th>Arduino</th><th>Wio</th><th>BeagleBone</th><th>Raspberry Pi</th><th>LinkIt</th></tr></thead><tbody>
+<table class="wy-table rst-content"><thead><tr><th>Arduino</th><th>Wio</th><th>BeagleBone</th><th>Raspberry Pi</th><th>LinkIt ONE</th></tr></thead><tbody>
 <tr>
 <td>{%if 'plat_duino' in tags %}<img src="https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/arduino_logo.jpg">{% else %}<img src="https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/arduino_logo_n.jpg">{% endif %}</td>
 <td>{%if 'plat_wio' in tags %}<img src="https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/wio_logo.jpg">{% else %}<img src="https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/wio_logo_n.jpg">{% endif %}</td>
@@ -121,6 +120,10 @@
 </tr>
 </tbody>
 </table>
+<div class="admonition danger">
+<p class="admonition-title">Caution</p>
+<p class="plat-table-note">The platforms mentioned above as supported is/are an indication of the module's hardware or theoritical compatibility. We only provide software library or code examples for Arduino platform in most cases. It is not possible to provide software library / demo code for all possible MCU platforms. Hence, users have to write their own software library.</p>
+</div>
 </div>
 <script>
 $("#platforms-supported-table")

@@ -18,8 +18,6 @@ pages:
 {{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "RePhone") (eq $cat2 "RePhone") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
     - Wio:
 {{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Wio") (eq $cat2 "Wio") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
-    - Others:
-{{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Others") (eq $cat2 "Others") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
     
 - Grove:
     - Grove System: Grove_System.md
@@ -31,6 +29,8 @@ pages:
 {{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Display") (eq $cat2 "Display") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
     - Communication:
 {{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Communication") (eq $cat2 "Communication") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
+    - Others:
+{{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Others") (eq $cat2 "Others") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
 
 - IoT:
 {{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "IoT") (eq $cat2 "IoT") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
