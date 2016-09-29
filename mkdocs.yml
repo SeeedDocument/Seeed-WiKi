@@ -5,7 +5,7 @@ pages:
 
 - Platform:
     - Arduino:
-        - Introduction to the Arduino Platform: Arduino_Introduction_page.md
+        - Arduino Introduction: Arduino.md
         - 2.8&#39;&#39; TFT Touch Shield v2.0: 2.8inch_TFT_Touch_Shield_v2.0.md
         - Base Shield V2: Base_Shield_V2.md
         - Battery Detector with Polymer Lithium Ion 1050mAh 3.7V: Battery_Detector_with_Polymer_Lithium_Ion_1050mAh_3.7V.md
@@ -37,11 +37,8 @@ pages:
         - Wifi Shield V2.0: Wifi_Shield_V2.0.md
 
     - BeagleBone:
-<<<<<<< HEAD
-        - Introduction of Beaglebone Platform: BeagleBone_Platform_introduction.md
-=======
+        - BeagleBone Introduction: BeagleBone.md
         - Beagle Bone Green and Grove IoT Starter Kit Powered by AWS: Beagle_Bone_Green_and_Grove_IoT_Starter_Kit_Powered_by_AWS.md
->>>>>>> 7fdf35fa060fda3863b5ab410557f89629de5bac
         - BeagleBone Green: BeagleBone_Green.md
         - BeagleBone Green HDMI Cape: BeagleBone_Green_HDMI_Cape.md
         - BeagleBone Green Wireless: BeagleBone_Green_Wireless.md
@@ -49,15 +46,14 @@ pages:
         - Motor Bridge Cape v1.0: Motor_Bridge_Cape_v1.0.md
 
     - Raspberry Pi:
-        - Introduction of Raspberry Pi Platform: Raspberry_Pi_ Platform_Introduction.md
-        - Raspberry Pi: Raspberry_Pi.md
+        - Raspberry Pi Introduction: Raspberry_Pi.md
         - Raspberry Pi Breakout Board v1.0: Raspberry_Pi_Breakout_Board_v1.0.md
         - Raspberry Pi Motor Driver Board v1.0: Raspberry_Pi_Motor_Driver_Board_v1.0.md
         - Raspberry Pi RS232 Board v1.0: Raspberry_Pi_R232_Board_v1.0.md
         - Raspberry Pi Relay Board v1.0: Raspberry_Pi_Relay_Board_v1.0.md
 
     - LinkIt:
-        - Introduction of LinkIt Platform: LinkIt_Platform_Introduction.md
+        - LinkIt Introduction: LinkIt.md
         - Arduino Breakout for LinkIt Smart 7688 Duo: Arduino_Breakout_for_LinkIt_Smart_7688_Duo.md
         - Breakout for LinkIt Smart 7688 v2.0: Breakout_for_LinkIt_Smart_7688_v2.0.md
         - Grove - Starter Kit for LinkIt ONE: Grove-Starter_Kit_for_LinkIt_ONE.md
@@ -68,7 +64,7 @@ pages:
         - Linkit Connect 7681: Linkit_Connect_7681.md
 
     - mbed:
-        - Introduction if mbed Platform: mbed_platform_introduction.md
+        - mbed Introduction: mbed.md
         - Arch BLE: Arch_BLE.md
         - Arch GPRS V2: Arch_GPRS_V2.md
         - Arch Link: Arch_Link.md
@@ -77,7 +73,7 @@ pages:
         - Arch V1.1: Arch_V1.1.md
 
     - RePhone:
-        - Introduction of RePhone Platform: RePhone_Platform_Introduction.md
+        - RePhone Introduction: RePhone.md
         - Arduino IDE for RePhone Kit: Arduino_IDE_for_RePhone_Kit.md
         - RePhone: Rephone.md
         - Xadow - LED 5x7: Xadow_LED_5x7.md
@@ -91,7 +87,7 @@ pages:
         - Xadow NFC: Xadow_NFC.md
 
     - Wio:
-        - Introduction of Wio Platform: Wio_Platform_Introduction.md
+        - Wio Introduction: Wio.md
         - Wio Link: Wio_Link.md
         - Wio Link Bootcamp Kit: Wio_Link_Bootcamp_Kit.md
         - Wio Link Deluxe Kit: Wio_Link_Deluxe_Kit.md
@@ -102,7 +98,7 @@ pages:
         - Wio Node: Wio_Node.md
         - Xadow Pebble Time Adapter: Xadow_Pebble_Time_Adapter.md
 
-
+    
 - Grove:
     - Grove System: Grove_System.md
     - Sensor:
@@ -268,7 +264,7 @@ pages:
 - About:
     - Survey: survey_end.md
     - 404: 404.md
-
+        
 theme_dir: mkdocs/themes/readthedocs
 
 markdown_extensions:

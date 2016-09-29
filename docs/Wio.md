@@ -1,11 +1,6 @@
 ---
-title: Introduction of Wio Platform
-category: Wio
-bzurl:
-oldwikiname:
-prodimagename:
-surveyurl:
-sku:
+title: Wio Introduction
+nointro:
 ---
 
 ---

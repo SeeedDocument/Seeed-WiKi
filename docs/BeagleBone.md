@@ -1,13 +1,7 @@
 ---
-title: Introduction of Beaglebone Platform
-category: BeagleBone
-bzurl:
-oldwikiname:
-prodimagename:
-surveyurl:
-sku:
+title: BeagleBone Introduction
+nointro:
 ---
-
 
 ---
 BeagleBones are relatively a late comer in the microcontroller world, but the high performance and lower power consumption make it become one of the three popular platforms in the open-hardware world. Beagles mean big functionality in small packages because these little PCs can be used for all kinds of applications you've been tinkering with... and can handle many of the same tasks as your desktop PC. Similar to Arduino and Raspberry Pi, Beaglebone boards are used by artists, designers and hobbyists to realize their projects.

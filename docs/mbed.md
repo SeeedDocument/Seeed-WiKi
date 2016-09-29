@@ -1,11 +1,6 @@
 ---
-title: Introduction if mbed Platform
-category: mbed
-bzurl:
-oldwikiname:
-prodimagename:
-surveyurl:
-sku:
+title: mbed Introduction
+nointro:
 ---
 
 ---

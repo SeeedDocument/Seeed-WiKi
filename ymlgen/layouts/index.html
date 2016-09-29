@@ -5,18 +5,25 @@ pages:
 
 - Platform:
     - Arduino:
+        - Arduino Introduction: Arduino.md
 {{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Arduino") (eq $cat2 "Arduino") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
     - BeagleBone:
+        - BeagleBone Introduction: BeagleBone.md
 {{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "BeagleBone") (eq $cat2 "BeagleBone") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
     - Raspberry Pi:
+        - Raspberry Pi Introduction: Raspberry_Pi.md
 {{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Raspberry Pi") (eq $cat2 "Raspberry Pi") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
     - LinkIt:
+        - LinkIt Introduction: LinkIt.md
 {{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "LinkIt") (eq $cat2 "LinkIt") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
     - mbed:
+        - mbed Introduction: mbed.md
 {{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "mbed") (eq $cat2 "mbed") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
     - RePhone:
+        - RePhone Introduction: RePhone.md
 {{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "RePhone") (eq $cat2 "RePhone") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
     - Wio:
+        - Wio Introduction: Wio.md
 {{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Wio") (eq $cat2 "Wio") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
     
 - Grove:

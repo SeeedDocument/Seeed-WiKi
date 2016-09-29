@@ -1,11 +1,6 @@
 ---
-title: Introduction of RePhone Platform
-category: RePhone
-bzurl:
-oldwikiname:
-prodimagename:
-surveyurl:
-sku:
+title: RePhone Introduction
+nointro:
 ---
 
 ---
@@ -34,3 +29,4 @@ Here is the list of the Wio Board you can find in the Seeed WiKi.
 -	[Xadow GSM Breakout](http://wiki.seeed.cc/Xadow_GSM_Breakout/)
 -	[Xadow GSM+BLE](http://wiki.seeed.cc/Xadow_GSMPlusBLE/)
 -	[Xadow NFC](http://wiki.seeed.cc/Xadow_NFC/)
+
