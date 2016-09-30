@@ -75,7 +75,6 @@ pages:
     - RePhone:
         - RePhone Introduction: RePhone.md
         - Arduino IDE for RePhone Kit: Arduino_IDE_for_RePhone_Kit.md
-        - RePhone: Rephone.md
         - Xadow - LED 5x7: Xadow_LED_5x7.md
         - Xadow 1.54&#39;&#39; Touchscreen: Xadow_1.54_inch_Touchscreen.md
         - Xadow Audio: Xadow_Audio.md

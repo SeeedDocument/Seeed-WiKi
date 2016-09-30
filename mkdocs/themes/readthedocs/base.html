@@ -132,7 +132,21 @@ $("#platforms-supported-table")
 {% endif %}{% endif %}
 
 
-                {% if meta.surveyurl %}<h2 id="help-us-to-make-it-better">Help us make it better<a class="headerlink" href="#help-us-make-it-better" title="Permanent link"></a></h2>{% endif  %}
+                {% if meta.surveyurl %}<h2 id="help-us-make-it-better">Help us make it better<a class="headerlink" href="#help-us-make-it-better" title="Permanent link"></a></h2>
+<p>Thank you for choosing <a href="http://www.seeed.cc">Seeed</a>. As one of the World's leading Open Hardware suppliers, <a href="https://www.seeedstudio.com">Seeedstudio</a> has been continuously creating good quality and diversified modules for our customers, makers and developers. As a young company, it is inevitable that few things were not handled adequately, for example, our document system. It is a little shame however true that we have been continuously receiving complaints about how hard it is to use our document system —— ugly interface, confusing content, and the URL that can never be opened etc. Here, we sincerely apologize for all the inconvenience you’ve experienced during using the old system.</p>
+
+<p>It is time to say good bye to the user-unfriendly old document system now. In order to bring better experience to our users, we have launched a project to optimize the document system from the middle of 2016. The work includes:</p>
+
+<ul>
+<li>Replace the old WiKi system with a new one that was developed from Mkdocs, a more widely used and cooler project documentation tool.</li>
+<li>Review and rewrite documents for hundreds of products to make them more understandable.</li>
+<li>Inspect and repair all the URLs to make sure it can be linked to the right page.</li>
+</ul>
+
+<p>Although we have tried our level best to optimize, it is still possible that few issues exist. If you find anything that needs to be corrected, You are most welcome to submit the amended version as our contributor or give us suggestions in the survey below. Do not forget to leave your email address so that we can reply.</p>
+
+<p>By the way, we will feel very happy and encouraged if we receive 5 stars from you. With the help and encouragement from you, we believe that we can make this document better and better!</p>
+{% endif  %}
                 {% if meta.surveyurl %}<iframe style="height: 600px; width: 700px; margin: 10px 0 10px;" allowTransparency="true" src="{{ meta.surveyurl[0]}}" frameborder="0"></iframe></iframe>{% endif %}
               {% endblock %}
             </div>
