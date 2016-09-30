@@ -1,20 +1,22 @@
 ---
 title: Grove - Speech Recognizer
 category: Sensor
-bzurl: 
-oldwikiname: 
+bzurl: https://www.seeedstudio.com/Grove-Speech-Recognizer-p-2708.html
+oldwikiname:
 prodimagename: cover.png
 surveyurl: https://www.surveymonkey.com/r/Grove_Voice_Recognizer
-sku: 
+sku: 101020232
 ---
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Speech_Recognizer/master/img/cover.jpg)
 
 Use voice to interact with things around you can always be one of the most interesting things of IoT application, we want to make something more different and cooler. Recently we just launched the voice control solution “Respeaker” on Kickstarter and it becomes the blockbuster. However not everybody needs a Respeaker to build voice control project, sometimes people only need a simple solution, here we would like to introduce the first generation of grove speech recognizer to realize your dream of smart home easily and fast.
+
 Grove speech recognizer is a designed for voice control application such as smart home, smart toy, voice control robot, anything you would like to control through voice, it worth a try. The board includes a Nuvoton ISD9160, a microphone, 1 SPI flash, 1 grove connector,1 speaker connector and 1 led to reflect to your voice.
+
 Nuvoton ISD9160 is (SoC) Chipcorder that based on Cortex™-M0, it provides strong and economic solution for voice control applications. ISD9160 is not the only amazing thing in this grove. Let’s look at the microphone. Remember the uncomfortable moment when you have to speak directly and closely to the voice recognizer device to make sure it can hear you? It won’t happen this time! The microphone on grove-speech recognizer is Omni-directional, which means that whether a user speaks into the microphone from the front, back, left or right side, the microphone will record the signals all with equal gain.
 
-This speech recognizer can recognize 22 pieces of commands including 'start', 'stop', 'Play music' and so on. Every time it recognizes a command, it will return a value and then the loudspeaker that connected to it will repeat the command. This value can be used to control other devices like motor, music player. We have tested it for hours to make sure it possesses a high recognition rate and a very low false trigger. 
+This speech recognizer can recognize 22 pieces of commands including 'start', 'stop', 'Play music' and so on. Every time it recognizes a command, it will return a value and then the loudspeaker that connected to it will repeat the command. This value can be used to control other devices like motor, music player. We have tested it for hours to make sure it possesses a high recognition rate and a very low false trigger.
 
 Here are some notes that you must know before using it:
 Awaken Word: Hicell (Please pronounce it as one word)
@@ -24,7 +26,7 @@ When it recognizes the awaken word, LED turn red, then you can say the command w
 !!!Note
     The firmware of the module was wrote by the third party vendor, it's not open source.
 
-##Application Ideas
+## Application Ideas
 
 * Internet of Things
 * Smart House
@@ -33,7 +35,7 @@ When it recognizes the awaken word, LED turn red, then you can say the command w
 * Sensor Hub
 * Robot
 
-##Features
+## Features
 
 * Local Voice Recognition
 * Very low rate of false triggering
@@ -43,13 +45,13 @@ When it recognizes the awaken word, LED turn red, then you can say the command w
 * 22 recognition entry
 * Default Baudrate: 9600
 
-###Platform Support
+**Platform Support**
 
 |Arduino|Wio|BeagleBone|Raspberry Pi|LinkIt|
 |---------|-----|-----|------|------|
 |![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/arduino_logo.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/wio_logo.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/bbg_logo.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/raspberry_pi_logo.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/linkit_logo.jpg)|
 
-##Specification
+## Specification
 
 | Item  |	Min	|Typ	| Max	| Condition |
 |---|-------|-----|--------|-----------|
@@ -68,18 +70,18 @@ When it recognizes the awaken word, LED turn red, then you can say the command w
 |Processor Frequency | |32.768MHz|50MHz|VCC = 5V 25℃|
 
 
-##Hardware Overview
+## Hardware Overview
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Speech_Recognizer/master/img/hw.png)
 
-1. Speaker Connector - You can connect a speaker to get the voice return
-2. Microphone
-3. Grove Connector
-4. Red Led - lights when "HIcell" is recognized
-5. Blue Led - lights when a command is recognized
+1. Grove Connector
+2. Red Led - lights when "HIcell" is recognized
+3. Blue Led - lights when a command is recognized
+4. Speaker Connector - You can connect a speaker to get the voice return
+5. Microphone
 6. ISD9160CFI - controller
 
-##Command Return
+## Command Return
 
 | Command | Value |
 |-------------|--------|
@@ -106,7 +108,7 @@ When it recognizes the awaken word, LED turn red, then you can say the command w
 |Mode 2	|21|
 |Go	|22|
 
-##Getting Started
+## Getting Started
 
 Here we will show you how this Grove - Speech Recognizer works via a simple demo. First of all, you need to prepare the below stuffs:
 
@@ -116,13 +118,13 @@ Here we will show you how this Grove - Speech Recognizer works via a simple demo
 |[Get ONE Now](http://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html)|[Get ONE Now](http://www.seeedstudio.com/Grove-Light-Sensor%28P%29-p-1253.html)|[Get ONE Now](http://www.seeedstudio.com/Grove-Universal-4-Pin-20cm-Unbuckled-Cable-%285-PCs-Pack%29-p-749.html)|
 
 
-###Hardware Connection
+**Hardware Connection**
 Thanks to the benefit of Grove series module, you don't need to make soldering or bread board, what you need to do is connect the modules to the right port of Base Shield. For this demo, we connect Grove - Speech Recognizer to D2.
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Speech_Recognizer/master/img/connect.jpeg)
 
 
-###Software
+**Software**
 
 Copy the below code and paste to your Arduino IDE, and upload to your Seeeduino V4. After upload the code to an Arduino, let open the Serial monitor.
 
@@ -134,7 +136,7 @@ Copy the below code and paste to your Arduino IDE, and upload to your Seeeduino 
 
 SoftwareSerial softSerial(SOFTSERIAL_RX_PIN,SOFTSERIAL_TX_PIN);
 
-const char *voiceBuffer[] = 
+const char *voiceBuffer[] =
 {
     "Turn on the light",
     "Turn off the light",
@@ -161,7 +163,7 @@ const char *voiceBuffer[] =
 };
 
 void setup()
-{ 
+{
     Serial.begin(9600);
     softSerial.begin(9600);
     softSerial.listen();
@@ -170,7 +172,7 @@ void setup()
 void loop()
 {
     char cmd;
-    
+
     if(softSerial.available())
     {
         cmd = softSerial.read();
@@ -180,14 +182,14 @@ void loop()
 
 ```
 
-###Awake the module
+**Awake the module**
 
 The module will wake up when there's command **Hicell**, then the red led will on. Try again when the red led is not on.
 
 !!!Note
     The red led will last 5 seconds. If the red led turn off before the command was recognized, you should **Hicell** again.
 
-###Command
+**Command**
 
 After the module is awake, you can speak out the command. Such as
 
@@ -197,7 +199,7 @@ If the blue led is light(last about 1s), that means the command was recognized c
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Speech_Recognizer/master/img/monitor.png)
 
 
-##Resources
+## Resources
 
 * [Schematics in Eagle](https://github.com/SeeedDocument/Grove_Speech_Recognizer/raw/master/res/eagle.zip)
 * [Schematics in PDF](https://github.com/SeeedDocument/Grove_Speech_Recognizer/raw/master/res/Grove%20-%20Speech%20Recognizer%20v1.0.pdf)
