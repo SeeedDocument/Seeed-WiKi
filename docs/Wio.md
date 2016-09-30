@@ -14,5 +14,12 @@ We have arranged many interesting projects tutorial for you to get started, by u
 
 Here is the list of the Wio Board you can find in the Seeed WiKi. The list will be constantly updated.
 
-- [Wio Link](http://wiki.seeed.cc/Wio_Link/)
-- [Wio Node](http://wiki.seeed.cc/Wio_Node/)
+- [Wio Link](/Wio_Link/)
+- [Wio Node](/Wio_Node/)
+- [Wio Link Bootcamp Kit](/Wio_Link_Bootcamp_Kit/)
+- [Wio Link Deluxe Kit](/Wio_Link_Deluxe_Kit/)
+- [Wio Link Deluxe Plus Kit](/Wio_Link_Deluxe_Plus_Kit/)
+- [Wio Link Environment Kit](/Wio_Link_Environment_Kit/)
+- [Wio Link Event Kit](/Wio_Link_Event_Kit/)
+- [Wio Link Starter Kit](/Wio_Link_Starter_Kit/)
+- [Xadow Pebble Time Adapter](/Xadow_Pebble_Time_Adapter/)

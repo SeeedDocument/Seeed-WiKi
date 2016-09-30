@@ -119,6 +119,7 @@ Here we will show you how this Grove - Speech Recognizer works via a simple demo
 
 
 **Hardware Connection**
+
 Thanks to the benefit of Grove series module, you don't need to make soldering or bread board, what you need to do is connect the modules to the right port of Base Shield. For this demo, we connect Grove - Speech Recognizer to D2.
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Speech_Recognizer/master/img/connect.jpeg)
