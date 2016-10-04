@@ -49,7 +49,7 @@ We have created a library to help you start playing quickly with the Seeeduino/A
 
 #### Setup
 
-1.  Download the [library code as a zip file] (https://github.com/Seeed-Studio/IRSendRev) from the IRSendRev github page.
+1.  Download the [library code as a zip file](https://github.com/Seeed-Studio/IRSendRev) from the IRSendRev github page.
 2.  Unzip the downloaded file into your …/arduino/libraries.
 3.  Rename the unzipped folder "IRSendRev"
 4.  Start the Arduino IDE (or restart if it is open).
