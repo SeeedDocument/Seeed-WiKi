@@ -171,7 +171,7 @@ pages:
         - Grove - Switch(P): Grove-Switch-P.md
         - Grove - Temp&amp;Humi Sensor(SHT31): Grove-TempAndHumi_Sensor-SHT31.md
         - Grove - Temperature Sensor V1.2: Grove-Temperature_Sensor_V1.2.md
-        - Grove - Temperature and Humidity Sensor: Grove_Temperature_and_Humidity_Sensor.md
+        - Grove - Temperature and Humidity Sensor: Grove-Temperature_and_Humidity_Sensor.md
         - Grove - Temperature and Humidity Sensor Pro: Grove-Temperature_and_Humidity_Sensor_Pro.md
         - Grove - Temperature&amp;Humidity Sensor (HDC1000): Grove-TemperatureAndHumidity_Sensor-HDC1000.md
         - Grove - Temperature&amp;Humidity Sensor (High-Accuracy &amp;Mini) v1.0: Grove-TemptureAndHumidity_Sensor-High-Accuracy_AndMini-v1.0.md
@@ -186,7 +186,7 @@ pages:
         - Actuator: Actuator.md
         - Grove - 2-Coil Latching Relay: Grove-2-Coil_Latching_Relay.md
         - Grove - Button: Grove-Button.md
-        - Grove - Buzzer: Grove_Buzzer.md
+        - Grove - Buzzer: Grove-Buzzer.md
         - Grove - Chainable RGB LED: Grove-Chainable_RGB_LED.md
         - Grove - Dry-Reed Relay: Grove-Dry-Reed_Relay.md
         - Grove - EL Driver: Grove-EL_Driver.md
