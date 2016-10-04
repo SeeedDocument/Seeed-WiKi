@@ -34,7 +34,7 @@ Connect Serial LCD to D4/D5 pins of Grove - Base Shield and connect Ultrasonic R
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove_Ultrasonic_Ranger/master/image/600px-UltrasonicRanger.png)
 
-Download the  [ UltrasonicRanger Library](https://github.com/Seeed-Studio/Grove_Ultrasonic_Ranger) and  [  SerialLCD Library](https://github.com/Seeed-Studio/Serial_LCD) from Github. Since the are not in origin library of Arduino library files, You need to install them to Arduino Library. If you don't know how to install library for Arduino, please refer to the toturial [How to install library](http://wiki.seeed.cc/How_to_Install_an_Arduino_Library/)
+Download the  [ UltrasonicRanger Library](https://github.com/Seeed-Studio/Grove_Ultrasonic_Ranger) and  [  SerialLCD Library](https://github.com/Seeed-Studio/Serial_LCD) from Github. Since the are not in origin library of Arduino library files, You need to install them to Arduino Library. If you don't know how to install library for Arduino, please refer to the toturial [How to install library](/How_to_Install_an_Arduino_Library/)
 
 ```c
 /***************************************************************************/        

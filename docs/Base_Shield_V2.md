@@ -12,7 +12,7 @@ sku: 103030000
 As an expansion board, Base Shield v2 has many Grove connectors, making it convenient for you to use Grove products together. And It is compatible with a series of Arduino products.
 
 !!!Note
-    Click to get more info about [Grove System](http://wiki.seeed.cc/Grove_System/).
+    Click to get more info about [Grove System](/Grove_System/).
 
 [![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now.png)](https://www.seeedstudio.com/base-shield-v13-p-1378.html)  
 

@@ -37,7 +37,7 @@ Here below we show you how to read the raw data and obtain data in the unit of g
 ![](https://github.com/SeeedDocument/Grove_3_Axis_Digital_Accelerometer_Plus_Minus_16g/raw/master/images/Grove_-_3-Axis_Digital_Accelerometer_ADXL345_connect_photo.JPG)
 
 - **Step1:** Plug it onto the I2C port of your Grove - Base Shield.
-- **Step2:** Download the [Digital Accelerometer(±16g) Library]() .zip and unpack it into arduino-1.0\libraries in your Arduino installation folder. If you don't know how to install library for Arduino, please follow the toturial [How to install an Arduino library](http://wiki.seeed.cc/Tutorial/How_to_Install_an_Arduino_Library/)
+- **Step2:** Download the [Digital Accelerometer(±16g) Library]() .zip and unpack it into arduino-1.0\libraries in your Arduino installation folder. If you don't know how to install library for Arduino, please follow the toturial [How to install an Arduino library](/Tutorial/How_to_Install_an_Arduino_Library/)
 - **Step3：** If you  have the library installed, Open the demo code directly by the path:
 **File -> Example ->DigitalAccelerometer_ADXL345->ADXL345_demo_code.**
 - **Step4：** Upload the code and open the serial monitor(usually it is on the right up corner). Please refer to the toturial [Upload code](http://wiki.seeedstudio.com/wiki/Upload_Code) if you do not know how to upload.

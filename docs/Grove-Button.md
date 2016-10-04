@@ -26,7 +26,7 @@ sku: 101020003
 **Standalone**
 
 Follow these steps to build a sample circuit using this module but without using any microcontroller:
-- Connect the button module to the input side of your circuit (to the left of the power module). On the output side of the circuit, you may use a range of User [Interface modules](http://wiki.seeed.cc/Grove/Grove_System/) (Grove - Red LED, Grove - LED String Light, Grove - Mini Fan, Grove - Buzzer, Grove - Recorder etc.)
+- Connect the button module to the input side of your circuit (to the left of the power module). On the output side of the circuit, you may use a range of User [Interface modules](/Grove/Grove_System/) (Grove - Red LED, Grove - LED String Light, Grove - Mini Fan, Grove - Buzzer, Grove - Recorder etc.)
 - Power up the circuit when complete.
 - The button module can now be used to trigger an output. For example:
   - When used in conjunction with a Grove - Red LED output module, observe that the LED turns ON when you press the button and turns OFF when you stop pressing it.

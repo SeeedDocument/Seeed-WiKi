@@ -19,14 +19,14 @@ In addition to the RePhone GSM+BLE, we have created 8 add on modules to expand f
 
 Here is the list of the Wio Board you can find in the Seeed WiKi.
 
--	[RePhone](http://wiki.seeed.cc/Rephone/)
--	[Xadow – LED 5 x 7](http://wiki.seeed.cc/Xadow_LED_5x7/)
--	[Xadow 1.54’’ Touchscreen](http://wiki.seeed.cc/Xadow_1.54_inch_Touchscreen/)
--	[Xadow Audio](http://wiki.seeed.cc/Xadow_Audio/)
--	[Xadow Basic Sensors](http://wiki.seeed.cc/Xadow_Basic_Sensors/)
--	[Xadow Duino](http://wiki.seeed.cc/Xadow_Duino/)
--	[Xadow GPS V2](http://wiki.seeed.cc/Xadow_GPS_V2/)
--	[Xadow GSM Breakout](http://wiki.seeed.cc/Xadow_GSM_Breakout/)
--	[Xadow GSM+BLE](http://wiki.seeed.cc/Xadow_GSMPlusBLE/)
--	[Xadow NFC](http://wiki.seeed.cc/Xadow_NFC/)
+-	[RePhone](/Rephone/)
+-	[Xadow – LED 5 x 7](/Xadow_LED_5x7/)
+-	[Xadow 1.54’’ Touchscreen](/Xadow_1.54_inch_Touchscreen/)
+-	[Xadow Audio](/Xadow_Audio/)
+-	[Xadow Basic Sensors](/Xadow_Basic_Sensors/)
+-	[Xadow Duino](/Xadow_Duino/)
+-	[Xadow GPS V2](/Xadow_GPS_V2/)
+-	[Xadow GSM Breakout](/Xadow_GSM_Breakout/)
+-	[Xadow GSM+BLE](/Xadow_GSMPlusBLE/)
+-	[Xadow NFC](/Xadow_NFC/)
 

@@ -17,7 +17,7 @@ The Grove - Buzzer module has a [piezo buzzer](https://en.wikipedia.org/wiki/Buz
 ## Features
 ---
 - Easy to use piezoelectric buzzer
-- Uses Standard 4-pin Grove Cables to connect to other Grove modules such as - [Grove Power Modules](http://wiki.seeed.cc/Grove/Grove_System/) and Grove - Base Shield
+- Uses Standard 4-pin Grove Cables to connect to other Grove modules such as - [Grove Power Modules](/Grove/Grove_System/) and Grove - Base Shield
 
 ## Specifications
 ---

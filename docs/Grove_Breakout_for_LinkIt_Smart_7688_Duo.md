@@ -45,7 +45,7 @@ Grove Breakout for LinkItTM Smart 7688 Duo is a Grove port integrated and a feat
 
 **Grove interface**
 
-Connect rich [Grove](http://wiki.seeed.cc/Grove_System/) interfaced functional modules. With this kind of ports, you never need jumper wire or soldering work, and you can make more powerful applications with those functional modules.
+Connect rich [Grove](/Grove_System/) interfaced functional modules. With this kind of ports, you never need jumper wire or soldering work, and you can make more powerful applications with those functional modules.
 
 Getting started
 
@@ -58,7 +58,7 @@ Grove - Buzzer × 1
 
 **Make some sound with a Grove Buzzer**
 
-1.Refer [wiki of LinkIt Smart 7688 Duo](http://wiki.seeed.cc/LinkIt_Smart_7688_Duo/) to connect your LinkIt Smart 7688 Duo to internet.
+1.Refer [wiki of LinkIt Smart 7688 Duo](/LinkIt_Smart_7688_Duo/) to connect your LinkIt Smart 7688 Duo to internet.
 
 !!!Note
     1. You can find Pin 8, Pin 9 and Pin GND close to the port to be connected LinkIt Smart 7688.
@@ -73,9 +73,9 @@ Grove - Buzzer × 1
 !!!Note
     Plug Grove - Buzzer into port D4.
 
-4.Refer to [wiki of LinkIt Smart 7688 Duo](http://wiki.seeed.cc/LinkIt_Smart_7688_Duo/)to build the Arduino environment for LinkIt Smart 7688 Duo platform on host computer.
+4.Refer to [wiki of LinkIt Smart 7688 Duo](/LinkIt_Smart_7688_Duo/)to build the Arduino environment for LinkIt Smart 7688 Duo platform on host computer.
 
-5.Download [firmata](https://github.com/SeeedDocument/Grove-Breakout_for_LinkIt_Smart_7688_Duo/raw/master/res/Firmata_to_build_Arduino_IDE_for.zip). Refer to [wiki of LinkIt Smart 7688 Duo](http://wiki.seeed.cc/LinkIt_Smart_7688_Duo/) to install Arduino IDE for LinkIt Smart 7688 platform, and flash the file firmata to developent board.
+5.Download [firmata](https://github.com/SeeedDocument/Grove-Breakout_for_LinkIt_Smart_7688_Duo/raw/master/res/Firmata_to_build_Arduino_IDE_for.zip). Refer to [wiki of LinkIt Smart 7688 Duo](/LinkIt_Smart_7688_Duo/) to install Arduino IDE for LinkIt Smart 7688 platform, and flash the file firmata to developent board.
 
 !!!!Note
     Following steps are carried out on embedded OS(OpenWRT).

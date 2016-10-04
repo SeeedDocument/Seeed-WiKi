@@ -26,7 +26,7 @@ Here is some funny project for your reference.
 |Car Controlled by Track Ball|FM Receiver|HCHO Detector|
 |-------|-------|-------|
 |![](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/img/example_1.png?raw=true)|![](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/img/Fm%20demo.jpg?raw=true)|![](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/img/example_3.png?raw=true)|
-|[Make it Now](http://www.seeed.cc/A-Car-Controlled-by-Track-Ball-p-1132.html)|[Make it Now](http://wiki.seeed.cc/FM_Receiver/)|[Make it Now](http://www.seeed.cc/A-Handheld-Formaldehyde(HCHO)-Detector-p-380.html)|
+|[Make it Now](http://www.seeed.cc/A-Car-Controlled-by-Track-Ball-p-1132.html)|[Make it Now](/FM_Receiver/)|[Make it Now](http://www.seeed.cc/A-Handheld-Formaldehyde(HCHO)-Detector-p-380.html)|
 
 
 ##Feature 
