@@ -57,7 +57,7 @@ pages:
         - Arduino Breakout for LinkIt Smart 7688 Duo: Arduino_Breakout_for_LinkIt_Smart_7688_Duo.md
         - Breakout for LinkIt Smart 7688 v2.0: Breakout_for_LinkIt_Smart_7688_v2.0.md
         - Grove - Starter Kit for LinkIt ONE: Grove-Starter_Kit_for_LinkIt_ONE.md
-        - Grove Breakout for LinkIt Smart 7688 Duo: Grove-Breakout_for_LinkIt_Smart_7688_Duo.md
+        - Grove Breakout for LinkIt Smart 7688 Duo: Grove_Breakout_for_LinkIt_Smart_7688_Duo.md
         - Grove Starter kit for LinkIt Smart7688 Duo: Grove_Starter_kit_for_LinkIt_Smart7688_Duo.md
         - LinkIt ONE: LinkIt_ONE.md
         - LinkIt Smart 7688 Duo: LinkIt_Smart_7688_Duo.md
@@ -101,7 +101,7 @@ pages:
 - Grove:
     - Grove System: Grove_System.md
     - Sensor:
-        - Grove - 3 Axis Digital Accelerometer(±16g): Grove_3_Axis_Digital_Accelerometer_Plus_Minus_16g.md
+        - Grove - 3 Axis Digital Accelerometer(±16g): Grove-3-Axis_Digital_Accelerometer-16g.md
         - Grove - 3-Axis Analog Accelerometer: Grove-3-Axis_Analog_Accelerometer.md
         - Grove - 3-Axis Compass V1.0: Grove-3-Axis_Compass_V1.0.md
         - Grove - 3-Axis Digital Accelerometer(±1.5g): Grove-3-Axis_Digital_Accelerometer-1.5g.md
@@ -122,7 +122,7 @@ pages:
         - Grove - Collision Sensor: Grove-Collision_Sensor.md
         - Grove - Digital Infrared Temperature Sensor: Grove-Digital_Infrared_Temperature_Sensor.md
         - Grove - Digital Light Sensor: Grove-Digital_Light_Sensor.md
-        - Grove - Dust Sensor: Grove-Dust Sensor.md
+        - Grove - Dust Sensor: Grove-Dust_Sensor.md
         - Grove - EMG Detector: Grove-EMG_Detector.md
         - Grove - Ear-clip Heart Rate Sensor: Grove-Ear-clip_Heart_Rate_Sensor.md
         - Grove - Electricity Sensor: Grove-Electricity_Sensor.md
@@ -138,7 +138,7 @@ pages:
         - Grove - Gas Sensor(MQ5): Grove-Gas_Sensor-MQ5.md
         - Grove - Gas Sensor(MQ9): Grove-Gas_Sensor-MQ9.md
         - Grove - Gas Sensor(O₂): Grove-Gas_Sensor-O2.md
-        - Grove - Gesture V1.0: Grove_gesture_v1.md
+        - Grove - Gesture V1.0: Grove-Gesture_v1.0.md
         - Grove - HCHO Sensor: Grove-HCHO_Sensor.md
         - Grove - Hall Sensor: Grove-Hall_Sensor.md
         - Grove - High Temperature Sensor: Grove-High_Temperature_Sensor.md
@@ -151,15 +151,15 @@ pages:
         - Grove - Infrared Reflective Sensor: Grove-Infrared_Reflective_Sensor.md
         - Grove - Infrared Temperature Sensor: Grove-Infrared_Temperature_Sensor.md
         - Grove - Light Sensor: Grove-Light_Sensor.md
-        - Grove - Line Finder: Grove_Line_Finder.md
+        - Grove - Line Finder: Grove-Line_Finder.md
         - Grove - Loudness Sensor: Grove-Loudness_Sensor.md
         - Grove - Luminance Sensor: Grove-Luminance_Sensor.md
         - Grove - Magnetic Switch: Grove-Magnetic_Switch.md
         - Grove - Mini Track Ball: Grove-Mini_Track_Ball.md
-        - Grove - Moisture Sensor: Grove_Moisture_Sensor.md
+        - Grove - Moisture Sensor: Grove-Moisture_Sensor.md
         - Grove - Mouse Encoder: Grove-Mouse_Encoder.md
         - Grove - Multichannel Gas Sensor: Grove-Multichannel_Gas_Sensor.md
-        - Grove - PIR Motion Sensor: Grove_PIR_Motion_Sensor.md
+        - Grove - PIR Motion Sensor: Grove-PIR_Motion_Sensor.md
         - Grove - Piezo Vibration Sensor: Grove-Piezo_Vibration_Sensor.md
         - Grove - Q Touch Sensor: Grove-Q_Touch_Sensor.md
         - Grove - RTC: Grove-RTC.md
@@ -167,10 +167,10 @@ pages:
         - Grove - Slide Potentiometer: Grove-Slide_Potentiometer.md
         - Grove - Sound Recorder: Grove-Sound_Recorder.md
         - Grove - Sound Sensor: Grove-Sound_Sensor.md
-        - Grove - Speech Recognizer: Grove_Speech_Recognizer.md
+        - Grove - Speech Recognizer: Grove-Speech_Recognizer.md
         - Grove - Switch(P): Grove-Switch-P.md
         - Grove - Temp&amp;Humi Sensor(SHT31): Grove-TempAndHumi_Sensor-SHT31.md
-        - Grove - Temperature Sensor V1.2: Grove - Temperature Sensor V1.2.md
+        - Grove - Temperature Sensor V1.2: Grove-Temperature_Sensor_V1.2.md
         - Grove - Temperature and Humidity Sensor: Grove_Temperature_and_Humidity_Sensor.md
         - Grove - Temperature and Humidity Sensor Pro: Grove-Temperature_and_Humidity_Sensor_Pro.md
         - Grove - Temperature&amp;Humidity Sensor (HDC1000): Grove-TemperatureAndHumidity_Sensor-HDC1000.md
@@ -179,13 +179,13 @@ pages:
         - Grove - Tilt Switch: Grove-Tilt_Switch.md
         - Grove - Touch Sensor: Grove-Touch_Sensor.md
         - Grove - UV Sensor: Grove-UV_Sensor.md
-        - Grove - Ultrasonic Ranger: Grove_Ultrasonic_Ranger.md
+        - Grove - Ultrasonic Ranger: Grove-Ultrasonic_Ranger.md
         - Grove - Water Sensor: Grove-Water_Sensor.md
 
     - Actuator:
         - Actuator: Actuator.md
         - Grove - 2-Coil Latching Relay: Grove-2-Coil_Latching_Relay.md
-        - Grove - Button: Grove_Button.md
+        - Grove - Button: Grove-Button.md
         - Grove - Buzzer: Grove_Buzzer.md
         - Grove - Chainable RGB LED: Grove-Chainable_RGB_LED.md
         - Grove - Dry-Reed Relay: Grove-Dry-Reed_Relay.md
@@ -197,7 +197,7 @@ pages:
         - Grove - LED Matrix Driver v1.0: Grove-LED_Matrix_Driver_v1.0.md
         - Grove - MP3 v2.0: Grove-MP3_v2.0.md
         - Grove - Mini I2C Motor Driver v1.0: Grove-Mini_I2C_Motor_Driver_v1.0.md
-        - Grove - Recorder V3: Grove_Recorder_V3.md
+        - Grove - Recorder V3: Grove-Recorder_v3.0.md
         - Grove - Relay: Grove-Relay.md
         - Grove - Serial MP3 Player: Grove-Serial_MP3_Player.md
         - Grove - Speaker: Grove-Speaker.md
@@ -209,7 +209,7 @@ pages:
         - Grove - 4-Digit Display: Grove-4-Digit_Display.md
         - Grove - LCD RGB Backlight: Grove-LCD_RGB_Backlight.md
         - Grove - LED Bar: Grove-LED_Bar.md
-        - Grove - OLED Display 0.96 inch: Grove_OLED_Display_0.96.md
+        - Grove - OLED Display 0.96 inch: Grove-OLED_Display_0.96inch.md
         - Grove - OLED Display 1.12&#34;: Grove-OLED_Display_1.12inch.md
         - I2C LCD: I2C_LCD.md
 
@@ -239,8 +239,8 @@ pages:
 
 
 - IoT:
-        - BLE Carbon: BLE-Carbon.md
-        - BLE Nitrogen: BLE-Nitrogen.md
+        - BLE Carbon: BLE_Carbon.md
+        - BLE Nitrogen: BLE_Nitrogen.md
         - BeagleBone Green: BeagleBone_Green.md
         - BeagleBone Green Wireless: BeagleBone_Green_Wireless.md
         - Microsoft IoT Grove Kit (Azure Certified): Microsoft_IoT_Grove_Kit.md
@@ -250,7 +250,7 @@ pages:
 
 - Tutorial:
         - FM Receiver: FM_Receiver.md
-        - How to install an Arduino library: How_to_Install_an_Arduino_Library.md
+        - How to install an Arduino library: How_to_install_Arduino_Library.md
         - JavaScript for RePhone: JavaScript_for_RePhone.md
         - Lua for RePhone: Lua_for_RePhone.md
         - RePhone APIs - Audio: RePhone_APIs-Audio.md
