@@ -154,13 +154,13 @@ The module is mainly used to detect the infrared light. It outputs digital signa
 
 Let's use it to control. When the output value is 0, the led will light up.
 
-1.Connect the module to the D3 of [Grove - Base Shield](/Grove-Base_Shield "Grove - Base Shield") using the 4-pin grove cable.
+1.Connect the module to the D3 of [Grove - Base Shield](/Base_Shield_V2 "Grove - Base Shield") using the 4-pin grove cable.
 
 2.Plug the Grove - Base Shield into Arduino.
 
 3.Connect Arduino to PC by using a USB cable.
 
-4.Copy and paste code below to a new Arduino sketch. Please click [here](/Upload_Code) if you do not know how to upload.
+4.Copy and paste code below to a new Arduino sketch.
 
 ```
     /******************************************************************************/

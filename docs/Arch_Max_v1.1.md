@@ -21,7 +21,7 @@ Version Tracker
 
 | Name                       | Version | Note                                                                            |
 |----------------------------|---------|---------------------------------------------------------------------------------|
-| [Arch Max v1.0](/Arch_Max) | v1.0    | 5V cannot be powered by USB, user should connect to ext-power |
+| Arch Max v1.0              | v1.0    | 5V cannot be powered by USB, user should connect to ext-power |
 | Arch Max v1.1              | v1.1    | 5V cannot be powered by USB                                   |
 
 

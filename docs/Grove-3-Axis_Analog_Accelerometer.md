@@ -54,7 +54,7 @@ The sensor's outline is breakout board, you can welding wire in the board or use
 
 The sensor is analog device, you should regulate the sensor before combining it with your system.
 
-**Step 1:** Open the Demo: Calibration and upload it to Arduino.Please click [here](/Upload_Code) if you do not know how to upload.
+**Step 1:** Open the Demo: Calibration and upload it to Arduino.
 
 **Step 2:** Open your serial monitor, make sure the sensor is connected. Follow the axis institutions printed on sensor's board. First, make sure that Z-axis direction is straight up, please type any character if you are ready. Change the sensor position, repeat the above operation to obtain X-axis and Y-axis direction are straight up .
 

@@ -150,11 +150,11 @@ The transmitter and receiver modules both rely on a single wire for communicatio
 
 Both the transmitter and receiver modules require three wires: Vcc, Ground, and signal. Pin 2 of both parts of the kit are not connected.
 
--   Connect the Transmitter module to Digital I/O 2 of the [Grove\_-\_Base\_Shield](/Grove-Base_Shield "Grove - Base Shield") on the Arduino being used for transmission.
+-   Connect the Transmitter module to Digital I/O 2 of the [Grove-Base Shield V2](/Base_Shield_V2 "Grove - Base Shield") on the Arduino being used for transmission.
 
 Error creating thumbnail: Invalid thumbnail parameters
 
--   Connect the Receiver module to Digital I/O 2 of the [Grove\_-\_Base\_Shield](/Grove-Base_Shield "Grove - Base Shield") on the receiving Arduino.
+-   Connect the Receiver module to Digital I/O 2 of the [Grove-Base Shield V2](/Base_Shield_V2 "Grove - Base Shield") on the receiving Arduino.
 
 Error creating thumbnail: Invalid thumbnail parameters
 

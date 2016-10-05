@@ -123,7 +123,7 @@ Let us start to make it:
     }
 ```
 
--   Upload the code. Please click [here](/Upload_Code) if you do not know how to upload.
+-   Upload the code.
 -   Now there should be a video in the SD card because we call the function once during Setup(). To play the video, you can either directly connect the camera to PC via USB cable or use a reader to read it. And if somebody approaches when it's working, you should also find some pictures in the SD cards also.
 
 Reference

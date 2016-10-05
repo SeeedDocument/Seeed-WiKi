@@ -236,7 +236,7 @@ The following sketch demonstrates a simple application of using the Chest Strap 
     }
 ```
 
--   Upload the code, Please click [here](/Upload_Code) if you do not know how to upload.
+-   Upload the code.
 -   This is the signal when we are measuring the heart rate:
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Chest_Strap_Heart_Rate_Sensor/master/img/GROVE_heart_rate_chest_belt.bmp) 

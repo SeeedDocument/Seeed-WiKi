@@ -92,11 +92,11 @@ Open the serial monitor to check the result.
 The outputs of this sensor consist of two parts: raw data and 3-axis acceleration info converted into the unit of gravity, "g".
 
 
-### With [Raspberry Pi](/GrovePiPlus "GrovePi+")
+### With Raspberry Pi
 
 1.You should have got a raspberry pi and a grovepi or grovepi+.
 
-2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus#Introducing_the_GrovePi.2B).
+2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus).
 
 3.Connection
 
@@ -150,7 +150,6 @@ Resources
 
 -   [Datasheet of MMA7660FC](https://raw.githubusercontent.com/SeeedDocument/Grove-3-Axis_Digital_Accelerometer-1.5g/master/res/MMA7660FC.pdf)
 -   [Grove - 3-Axis Digital Accelerometer Eagle File](https://raw.githubusercontent.com/SeeedDocument/Grove-3-Axis_Digital_Accelerometer-1.5g/master/res/Grove-3-Axis_Digital_Accelerometer-1.5g-Eagle_File.zip)
--   [DigitalAccelerometer\_MMA7660FC Library](https://github.com/Seeed-Studio/DigitalAccelerometer_MMA7660FC)
 -   [github repository for 3-Axis Digital Accelerometer(±1.5g)](https://github.com/Seeed-Studio/Accelerometer_MMA7660)
 
 

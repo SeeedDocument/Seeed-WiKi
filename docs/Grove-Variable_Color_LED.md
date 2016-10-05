@@ -52,7 +52,7 @@ Usage
 
 The three resistances RED, GREEN and BLUE of the module control the R, G and B channels respectively. By adjusting the three adjustable resistances, it can turn out variable color. The thing to notice, however, is that be gentle when turning the adjustable resistances.
 
-The following sketch demonstrates a simple application of controlling its brightness. As the picture on the below indicates, the Variable Color LED is connected to digital port 9 of the [Grove - Base Shield](/Grove-Base_Shield). The hardware installation is as follows:
+The following sketch demonstrates a simple application of controlling its brightness. As the picture on the below indicates, the Variable Color LED is connected to digital port 9 of the [Grove - Base Shield](/Base_Shield_V2). The hardware installation is as follows:
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Variable_Color_LED/master/img/Grove-Variable_Color_LED.jpg)
 
@@ -84,8 +84,7 @@ Demo code like:
       } 
     }
 
--   Upload the code, Please click [here](/Upload_Code) if you do not know how to upload.
-    Adjust the three adjustable resistances, I am sure you will like it. Have a try!
+-   Upload the code.Adjust the three adjustable resistances, I am sure you will like it. Have a try!
 
 
 Resources

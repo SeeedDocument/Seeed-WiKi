@@ -66,7 +66,7 @@ The Bluetooth provides a serial port with standard Grove socket, most USB-UART c
 
 ### Connecting Bluetooth to Arduino
 
-Since Arduino Uno have no Grove socket, we use [Seeeduino Lotus](/Seeeduino_Lotus_v1.0) instead. You could use Arduino with **Grove Base Shield V2** as well.
+Since Arduino Uno have no Grove socket, we use [Seeeduino Lotus](/Seeeduino_Lotus) instead. You could use Arduino with **Grove Base Shield V2** as well.
 As an example, D2 and D3 are used as software UART. So, plug the Grove cable into "D2" socket
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-BLE-dual_model-v1.0/master/img/Grove-BLE-dual_model-v1.0_ConnectToArduino.jpg)
 

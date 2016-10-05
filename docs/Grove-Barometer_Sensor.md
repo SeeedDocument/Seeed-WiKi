@@ -217,11 +217,11 @@ Barometric condition is one of the criteria used to predict coming change in wea
 The following is a reference graph plotting out the relationship between altitude above sea level and barometric pressure.
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Barometer_Sensor/master/img/Pressure_and_Altitude.jpg)
 
-### With [Raspberry Pi](/GrovePiPlus "GrovePi+")
+### With Raspberry Pi
 
 1.You should have got a raspberry pi and a grovepi or grovepi+.
 
-2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus#Introducing_the_GrovePi.2B).
+2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus).
 
 3.Connection
 

@@ -187,7 +187,7 @@ void loop()
 
 1.You should have a Raspberry Pi and a GrovePi or GrovePi+. In this demo, we use GrovePi.
 
-2.We assume you have built the development environment successfully. If not, follow [this tutorial](/GrovePiPlus#Introducing_the_GrovePi.2B).
+2.We assume you have built the development environment successfully. If not, follow [this tutorial](/GrovePiPlus).
 
 3.Connection: Plug Grove - Infrared Reflective Sensor into port D4 on GrovePi with [Grove cable](http://www.seeedstudio.com/depot/Grove-Universal-4-Pin-Buckled-5cm-Cable-5-PCs-Pack-p-925.html?cPath=98_106_57).
 

@@ -53,7 +53,7 @@ Application Ideas
 Hardware Overview
 -----------------
 
-This is an Analog output sensor. This needs to be connected to any one Analog socket in [Base Shield](/Base_shield_v2). The examples used in this tutorial makes uses of A0 analog pin. Connect this module to the A0 port of Base Shield.
+This is an Analog output sensor. This needs to be connected to any one Analog socket in [Grove Base Shield](/Base_Shield_V2). The examples used in this tutorial makes uses of A0 analog pin. Connect this module to the A0 port of Base Shield.
 
 It is possible to connect the Grove module to Arduino directly by using jumper wires by using the connection as shown in the table below:
 
@@ -183,8 +183,6 @@ Resources
 
 **Suggest Reading / References**
 
--   [Download Arduino and install Arduino driver](/Download_Arduino_and_install_Arduino_driver)
--   [Getting Started with Seeeduino](/Getting_Started_with_Seeeduino)
 -   [How to choose a Gas Sensor](/How_to_choose_A_Gas_Sensor)
 -   [What's LEL](http://en.wikipedia.org/wiki/Flammability_limit)
 

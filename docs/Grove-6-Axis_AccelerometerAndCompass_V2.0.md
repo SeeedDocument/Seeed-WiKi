@@ -12,7 +12,7 @@ tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_bbg
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-6-Axis_AccelerometerAndCompass_V2.0/master/img/Accelerometer_And_Compass_v2.JPG)
 
-The Grove –6-Axis Accelerometer&Compass V2.0 is a 3-axis accelerometer combined with a 3-axis magnetic sensor. It is an upgraded version of [Grove - 6-Axis Accelerometer&Compass V1.0](/Grove-6-Axis_AccelerometerAndCompass_V1.0 "Grove - 6-Axis Accelerometer&Compass V1.0") and based on the sensor module LSM303D which has a selectable linear acceleration full scale range of ±2g / ±4g / ±8g / ±16g and a selectable magnetic field full scale range of ±2 /±4 / ±8 / ±12 gauss. Both the magnetic parts and the accelerometer parts can be powered down separately to reduce the power consumption. The Arduino can get these data via the I2C interface with the given library for this module.
+The Grove –6-Axis Accelerometer&Compass V2.0 is a 3-axis accelerometer combined with a 3-axis magnetic sensor. It is an upgraded version of Grove - 6-Axis Accelerometer&Compass V1.0 and based on the sensor module LSM303D which has a selectable linear acceleration full scale range of ±2g / ±4g / ±8g / ±16g and a selectable magnetic field full scale range of ±2 /±4 / ±8 / ±12 gauss. Both the magnetic parts and the accelerometer parts can be powered down separately to reduce the power consumption. The Arduino can get these data via the I2C interface with the given library for this module.
 
 [![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](http://www.seeedstudio.com/Grove-6-Axis-Accelerometer%26Compass-v2.0-p-2476.html)
 
@@ -57,7 +57,7 @@ The MCU can collect 6D sensor data directly through the I2C interface.OK, let's 
 ### Download Code and Upload
 
 1.  Download [demo\_code](https://github.com/Seeed-Studio/6Axis_Accelerometer_And_Compass_v2) which shows how to calculate level and 6-Axis Accelerometer&Compass heading using the LSM303D.
-2.  Upload the Code. Please click [here](/Upload_Code) if you do not know how to upload.
+2.  Upload the Code.
 3.  Open the serial monitor, you will see the output result of Color Sensor as shown below:
 
     ![](https://raw.githubusercontent.com/SeeedDocument/Grove-6-Axis_AccelerometerAndCompass_V2.0/master/img/6-Axis_AccelerometerAndCompass_V2.0_demo.jpg)

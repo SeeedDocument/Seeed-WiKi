@@ -38,9 +38,9 @@ Usage
 
 Below is a simple example showing how to use a switch to turn on/off an LED.The working principle and use just the same as the [Grove-Button](/Grove-Button).
 
-1. Connect the Grove-LED to the Digital 13 of Grove - Basic Shield and connect the Grove -Switch(P) to the Digital 2 of [Grove-Base Shield](/Grove-Base_Shield) with two Grove cables.
+1. Connect the Grove-LED to the Digital 13 of Grove - Basic Shield and connect the Grove -Switch(P) to the Digital 2 of [Grove-Base Shield](/Base_Shield_V2) with two Grove cables.
 2. Plug the Grove - Base Shield into Arduino and connect Arduino to PC by using a USB cable.
-3. Copy and paste code below to a new Arduino sketch. Please click [here](/Upload_Code) if you do not know how to upload.
+3. Copy and paste code below to a new Arduino sketch.
 
 ```
 

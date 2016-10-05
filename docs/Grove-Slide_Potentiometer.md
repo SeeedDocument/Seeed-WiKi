@@ -162,7 +162,7 @@ In terms of choosing a power module, you can use either the Grove - USB Power mo
 
 Follow these simple steps to make the slide potentiometer module function as a voltage divider:
 
-1.When using the module in conjunction with an [Arduino](/Arduino "Arduino") or a [Seeeduino](/Seeeduino "Seeeduino"), use the Grove - Base Shield and connect the Grove - Slide Potentiometer module to the shield using a designated Grove Interface (e.g. Analog Port 0 as shown below).
+1.When using the module in conjunction with an [Arduino](/Arduino "Arduino") or a [Seeeduino](/Seeeduino_v4.2 "Seeeduino"), use the Grove - Base Shield and connect the Grove - Slide Potentiometer module to the shield using a designated Grove Interface (e.g. Analog Port 0 as shown below).
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Slide_Potentiometer/master/img/Sliding2.JPG)
 
@@ -203,11 +203,11 @@ Slide Potentiometer can be an effective Human Interface Device (HID) and can be 
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Slide_Potentiometer/master/img/Car.JPG)
 
-### With [Raspberry Pi](/GrovePiPlus "GrovePi+")
+### With Raspberry Pi
 
 1.You should have got a raspberry pi and a grovepi or grovepi+.
 
-2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus#Introducing_the_GrovePi.2B).
+2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus).
 
 3.Connection
 

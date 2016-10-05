@@ -49,7 +49,7 @@ Hardware Overview
 Demonstration
 -------------
 
-This demonstration will show you how to use Grove - LCD RGB Backlight, we need a [Seeeduino V3.0](http://www.seeedstudio.com/depot/seeeduino-v30-atmega-328p-p-669.html), a [Grove - LED Bar](/Grove-LED_Bar) and [Grove - Base Shield](/Grove-Base_Shield_V1.2).
+This demonstration will show you how to use Grove - LCD RGB Backlight, we need a [Seeeduino V3.0](http://www.seeedstudio.com/depot/seeeduino-v30-atmega-328p-p-669.html), a [Grove - LED Bar](/Grove-LED_Bar) and [Grove - Base Shield](/Base_Shield_V2).
 
 ### Hardware Installation
 

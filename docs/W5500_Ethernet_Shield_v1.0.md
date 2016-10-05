@@ -108,7 +108,7 @@ We will show a example.This example can upload your sensor data to [Xively](http
 6. Open the example "Ethernet_Temp_SD" via the path: File --> Examples --> Ethernet --> Ethernet_Temp_SD. you need to modify some parameters.
 ![](https://raw.githubusercontent.com/SeeedDocument/W5500_Ethernet_Shield_v1.0/master/img/W5500_Data.jpg)
 
-7. Upload the program to Arduino. If you do not know how to upload code, please click [here](/Download_Arduino_and_install_Arduino_driver).
+7. Upload the program to Arduino. 
 
 ### Results
 

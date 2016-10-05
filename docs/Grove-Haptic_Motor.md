@@ -107,7 +107,7 @@ In this case we use <a href="/Seeeduino_v4.2">Seeeduino 4.2</a> as experiment bo
 
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-You can use <a href="/Grove-Base_shield_v2">Base shield v2</a> as expansion board which will make your connection of modules simple.
+You can use <a href="/Base_Shield_V2">Base shield v2</a> as expansion board which will make your connection of modules simple.
 </div>
 
 

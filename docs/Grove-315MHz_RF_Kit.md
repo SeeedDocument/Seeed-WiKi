@@ -50,9 +50,9 @@ Both the transmitter and receiver modules require three wires: Vcc, Ground, and 
 
 ### Hardware Installation
 
-Connect the Transmitter module to Digital I/O 2 of the [Stem\_-\_Base\_Shield](/Stem-Base_Shield "Stem - Base Shield") on the arduino being used for transmission.
+Connect the Transmitter module to Digital I/O 2 of the [Grove-Base Shield V2](/Base_Shield_V2 "Grove-Base Shield") on the arduino being used for transmission.
 
-Connect the Transmitter module to Digital I/O 2 of the [Stem\_-\_Base\_Shield](/Stem-Base_Shield "Stem - Base Shield") on the receiving arduino.
+Connect the Transmitter module to Digital I/O 2 of the [Grove-Base Shield V2](/Base_Shield_V2 "Grove-Base Shield") on the receiving arduino.
 
 ### Programming
 
@@ -117,7 +117,7 @@ Resources
 ---------
 
 -   Demo code: [433MHz demo.zip](https://raw.githubusercontent.com/SeeedDocument/Grove-315MHz_RF_Kit/master/res/433MHz_demo.zip "File:433MHz demo.zip")
--   [VirtualWire 1.20](http://www.open.com.au/mikem/arduino/VirtualWire-1.20.zip)
+-   [VirtualWire 1.27](http://www.airspayce.com/mikem/arduino/VirtualWire/VirtualWire-1.27.zip)
 -   [VirtualWire Documentation](http://www.open.com.au/mikem/arduino/VirtualWire.pdf)
 -   [TI:LM358PSR](https://raw.githubusercontent.com/SeeedDocument/Grove-315MHz_RF_Kit/master/res/1110010P1.pdf)
 

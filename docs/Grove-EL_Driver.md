@@ -50,8 +50,7 @@ Here we show how to use Arduino to control the state of the LED.
 
 2. Plug it onto the Arduino/Seeeduino. Connect the board to PC using USB cable.
 
-3. Copy the demo code to your sketch, then upload to Arudino or Seeeduino board. Please click [here](/Upload_Code) if you do not know how to upload.
-You will see the EL Wire blink every second.
+3. Copy the demo code to your sketch, then upload to Arudino or Seeeduino board. You will see the EL Wire blink every second.
 
 ```
 /*************************   2014 Seeedstudio   **************************

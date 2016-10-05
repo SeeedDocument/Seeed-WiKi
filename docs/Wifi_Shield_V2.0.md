@@ -1221,7 +1221,7 @@ For example, to toggle pin 13 enter "2" and press "Send ASCII", then when prompt
 
 Now that you know how to send and receive information to and from the WiFi shield you can see how easy it would be to control any kind of device via the web.
 
-If you wish to control high power devices such as your desk lamp, a motor, or a water pump via a webpage or phone application we recommend our [Relay Shield V2.0](/Relay_Shield_V2.0).
+If you wish to control high power devices such as your desk lamp, a motor, or a water pump via a webpage or phone application we recommend our [Relay Shield V2.0](/Relay_Shield_v3).
 
 The Relay Shield V2.0 uses pins 4, 5, 6, and 7 so it is fully compatible with the code in the examples in this page.
 
@@ -1249,7 +1249,7 @@ Resources
 -   [RN-171 Datasheet](https://raw.githubusercontent.com/SeeedDocument/Wifi_Shield_V2.0/master/res/WiFly-RN-171.pdf)
 -   [Wifi Shield Library](https://github.com/Seeed-Studio/WiFi_Shield)
 -   [WiFi Module User Manual](https://raw.githubusercontent.com/SeeedDocument/Wifi_Shield_V2.0/master/res/WiFly-RN-UM.pdf) *-- This is where you'll find all the commands for the RN-171 module in the shield.*
--   [What is a Seeeduino](/Seeeduino_v3.0)
+-   [What is a Seeeduino](/Seeeduino_v4.2)
 -   [w3schools](http://www.w3schools.com/) Great website to learn HTML, Javascript, and JQuery
 
 

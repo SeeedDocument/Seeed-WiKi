@@ -198,16 +198,16 @@ The module uses an LED drive chip - TM1637 to control the contents and change th
 
     ![](https://raw.githubusercontent.com/SeeedDocument/Grove-4-Digit_Display/master/img/Open_ClockDisplay.ino.jpg)
 
-6. Upload the demo code and the clock will be ticking in a few seconds. Please click [here](/Upload_Code) if you do not know how to upload.
+6. Upload the demo code and the clock will be ticking in a few seconds.
 
     You can see this:
     ![](https://raw.githubusercontent.com/SeeedDocument/Grove-4-Digit_Display/master/img/Display_the_clock.jpg)
 
-### With [Raspberry Pi](/GrovePiPlus "GrovePi+")
+### With Raspberry Pi
 
 1.You should have got a raspberry pi and a grovepi or grovepi+.
 
-2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus#Introducing_the_GrovePi.2B).
+2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus).
 
 3.Connection
 

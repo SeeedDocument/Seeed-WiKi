@@ -147,7 +147,7 @@ The latching relay only draws power during the changing of state. A rising/falli
 
 Let's begin to use it.
 
--   Connect the module to D3 port of [Grove - Base Shield](/Grove-Base_Shield "Grove - Base Shield").
+-   Connect the module to D3 port of [Grove - Base Shield](/Base_Shield_V2 "Grove - Base Shield").
 -   The relay hold in "set" status(Comm and NO connected) in default, when there is a rising edge on the SIG pin. It turns the "reset" state(Comm and NC connected). The reference code is shown below:
 
 ```
@@ -204,11 +204,11 @@ Relay is on the "reset" status when being released from stock.
 </div>
 
 
-### With [Raspberry Pi](/GrovePiPlus "GrovePi+")
+### With Raspberry Pi
 
 1.You should have got a raspberry pi and a grovepi or grovepi+.
 
-2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus#Introducing_the_GrovePi.2B).
+2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus).
 
 3.Connection
 

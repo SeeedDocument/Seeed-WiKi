@@ -11,7 +11,7 @@ sku: 110060039
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Starter_Kit_for_LinkIt_ONE/master/img/Grove_Starter_Kit_for_LinkIt_ONE_530x397.jpg)
 
-Grove - Starter Kit for LinkIt ONE is a toolkit for building your applications quicker and easier with LinkIt ONE development platform. With this kit, you can concentrate just on design process for your projects which will save you lots for time or expenses. It consist of the most popular modules for build IoT (Internet of Things) applications such as [Base Shield](/Grove-Base_shield_v2).
+Grove - Starter Kit for LinkIt ONE is a toolkit for building your applications quicker and easier with LinkIt ONE development platform. With this kit, you can concentrate just on design process for your projects which will save you lots for time or expenses. It consist of the most popular modules for build IoT (Internet of Things) applications such as [Base Shield](/Base_Shield_V2).
 
 [![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](http://www.seeedstudio.com/depot/Grove-Starter-Kit-for-LinkIt-ONE-p-2028.html)
 
@@ -32,12 +32,12 @@ Please refer to each module's specifications:
 -   [Grove - Sound Sensor](/Grove-Sound_Sensor#Specifications)
 -   [Grove - UV Sensor](/Grove-UV_Sensor#specifications)
 -   [Grove - Barometer Sensor (BMP280)](/Grove-Barometer_Sensor-BMP280#specifications)
--   [Grove - Light Sensor v1.2](/Grove-Light_Sensor_v1.2#Specifications)
+-   [Grove - Light Sensor v1.2](/Grove-Light_Sensor)
 -   [Grove - 3-Axis Digital Accelerometer(±16g)](/Grove-3-Axis_Digital_Accelerometer-16g)
 -   [Grove - LED Bar](/Grove-LED_Bar)
 -   [Grove - Servo](/Grove-Servo#Specification)
 -   [Grove - Touch Sensor](/Grove-Touch_Sensor#specifications)
--   [Grove - Base shield v2](/Base_shield_v2)
+-   [Grove - Base shield v2](/Base_Shield_V2)
 
 Application ideas
 -----------------

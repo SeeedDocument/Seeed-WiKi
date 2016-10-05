@@ -51,7 +51,7 @@ Getting Started
 Following documents help in getting the user started with Grove.
 
 -   [Preface - Getting Started](http://www.seeedstudio.com/document/pdf/Preface.pdf)
--   [to Grove](http://www.seeedstudio.com/document/pdf/%20to%20Grove.pdf)
+-   [to Grove](http://www.seeedstudio.com/document/pdf/Introduction%20to%20Grove.pdf)
 
 <div class="admonition note">
 <p class="admonition-title">Note</p>

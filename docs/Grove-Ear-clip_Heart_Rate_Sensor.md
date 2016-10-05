@@ -212,7 +212,7 @@ The following sketch demonstrates a simple application of using the Ear-clip Hea
     }
 ```
 
--   Upload the code, please click [here](/Upload_Code) if you do not know how to upload.
+-   Upload the code.
 -   Make sure the sensor contacts your ear skin. This is the signal when we are measuring the heart rate:
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Ear-clip_Heart_Rate_Sensor/master/img/GROVE_heart_rate_chest_belt.bmp)

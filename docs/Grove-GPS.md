@@ -51,9 +51,9 @@ Demos
 
 *This sample simply reads from the GPS using software serial and sends it back out on the serial port.*
 
-1. Connect the Grove-GPS to Digital I/O 2 on the [Grove - Base Shield](/Grove-Base_Shield "Grove - Base Shield") using a Grove Universal 4 pin cable.
+1. Connect the Grove-GPS to Digital I/O 2 on the [Grove - Base Shield](/Base_Shield_V2 "Grove - Base Shield") using a Grove Universal 4 pin cable.
 
-2. Upload the code below. Please click [here](/Upload_Code) if you do not know how to upload.
+2. Upload the code below. 
 
 ```
 // link between the computer and the SoftSerial Shield
@@ -116,11 +116,11 @@ void clearBufferArray()                     // function to clear buffer array
     4. When you have captured enough data, click the black square to stop recording.
     5. You can then convert the .ubx file generated to KML by using uploading the ubx file to [GPSVisualizer](http://www.gpsvisualizer.com/).
 
-### With [Raspberry Pi](/GrovePiPlus "GrovePi+")
+### With Raspberry Pi
 
 1.You need a Raspberry Pi and a GrovePi or GrovePi+.
 
-2.You should have completed configuring the development environment, otherwise follow [here](/GrovePiPlus#Introducing_the_GrovePi.2B).
+2.You should have completed configuring the development environment, otherwise follow [here](/GrovePiPlus).
 
 3.Connection
 

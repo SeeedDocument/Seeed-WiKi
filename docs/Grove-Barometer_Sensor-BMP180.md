@@ -212,11 +212,11 @@ The following is a reference graph plotting out the relationship between altitud
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Barometer_Sensor-BMP180/master/img/Pressure_and_Altitude.jpg)
 
-### With [Raspberry Pi](/GrovePiPlus "GrovePi+")
+### With Raspberry Pi
 
 1.You should have got a raspberry pi and a grovepi or grovepi+.
 
-2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus#Introducing_the_GrovePi.2B).
+2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus).
 
 3.Connection
 

@@ -75,7 +75,6 @@ pages:
 
     - RePhone:
         - RePhone Introduction: RePhone.md
-        - Arduino IDE for RePhone Kit: Arduino_IDE_for_RePhone_Kit.md
         - Xadow - LED 5x7: Xadow_LED_5x7.md
         - Xadow 1.54&#39;&#39; Touchscreen: Xadow_1.54_inch_Touchscreen.md
         - Xadow Audio: Xadow_Audio.md
@@ -85,6 +84,7 @@ pages:
         - Xadow GSM Breakout: Xadow_GSM_Breakout.md
         - Xadow GSM&#43;BLE: Xadow_GSMPlusBLE.md
         - Xadow NFC: Xadow_NFC.md
+        - Xadow Pebble Time Adapter: Xadow_Pebble_Time_Adapter.md
 
     - Wio:
         - Wio Introduction: Wio.md
@@ -96,7 +96,6 @@ pages:
         - Wio Link Event Kit: Wio_Link_Event_Kit.md
         - Wio Link Starter Kit: Wio_Link_Starter_Kit.md
         - Wio Node: Wio_Node.md
-        - Xadow Pebble Time Adapter: Xadow_Pebble_Time_Adapter.md
 
     
 - Grove:
@@ -174,8 +173,8 @@ pages:
         - Grove - Switch(P): Grove-Switch-P.md
         - Grove - Temp&amp;Humi Sensor(SHT31): Grove-TempAndHumi_Sensor-SHT31.md
         - Grove - Temperature Sensor V1.2: Grove-Temperature_Sensor_V1.2.md
-        - Grove - Temperature and Humidity Sensor: Grove-Temperature_and_Humidity_Sensor.md
         - Grove - Temperature and Humidity Sensor Pro: Grove-Temperature_and_Humidity_Sensor_Pro.md
+        - Grove - Temperature&amp;Humidity Sensor: Grove-TemperatureAndHumidity_Sensor.md
         - Grove - Temperature&amp;Humidity Sensor (HDC1000): Grove-TemperatureAndHumidity_Sensor-HDC1000.md
         - Grove - Temperature&amp;Humidity Sensor (High-Accuracy &amp;Mini) v1.0: Grove-TemptureAndHumidity_Sensor-High-Accuracy_AndMini-v1.0.md
         - Grove - Thumb Joystick: Grove-Thumb_Joystick.md
@@ -255,6 +254,7 @@ pages:
 
 - Tutorial:
         - Tutorial Introduction: Tutorial.md
+        - Arduino IDE for RePhone Kit: Arduino_IDE_for_RePhone_Kit.md
         - FM Receiver: FM_Receiver.md
         - How to install an Arduino library: How_to_install_Arduino_Library.md
         - JavaScript for RePhone: JavaScript_for_RePhone.md

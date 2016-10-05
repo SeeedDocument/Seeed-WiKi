@@ -1,283 +1,432 @@
 ---
-title: Grove - Temperature and Humidity Sensor
+title: Grove - Temperature&Humidity Sensor
 category: Sensor
-bzurl: https://www.seeedstudio.com/Grove-Temp%26Humi-Sensor-p-745.html
-oldwikiname: Grove - Temperature and Humidity Sensor
-prodimagename: 101020011%201.jpg
-surveyurl: https://www.research.net/r/Grove_Temperature_and_Humidity_Sensor
+bzurl: https://www.seeedstudio.com/Grove-Temp&Humi-Sensor-p-745.html
+oldwikiname: Grove_-_Temperature&Humidity_Sensor
+prodimagename: Grove-TempAndHumiSensor.jpg
+bzprodimageurl: https://statics3.seeedstudio.com/images/101020011 1.jpg
+surveyurl: https://www.research.net/r/Grove-TemperatureAndHumidity_Sensor
 sku: 101020011
 ---
 
----
-![](https://github.com/SeeedDocument/Grove_Temperature_and_Humidity_Sensor/raw/master/images/101020011%201.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Grove-TemperatureAndHumidity_Sensor/master/img/Grove-TempAndHumiSensor.jpg)
 
-This is a multifunctional sensor that gives you temperature and relative humidity information at the same time. It utilizes a DHT11 sensor that can meet measurement needs of general purposes. It provides reliable readings when environment humidity condition in between 20% RH and 90% RH, and temperature condition in between 0°C and 50°C, covering needs in most home and daily applications that don't contain extreme conditions.
+This temperature & humidity sensor provides a pre-calibrated digital output. A unique capacitive sensor element measures relative humidity and the temperature is measured by a negative temperature coefficient (NTC) thermistor. It has excellent reliability and long term stability. Please note that this sensor will not work for temperatures below 0 degree.
 
-[![](https://github.com/SeeedDocument/Grove_Temperature_and_Humidity_Sensor/raw/master/images/300px-Get_One_Now_Banner.png)](http://www.seeedstudio.com/Grove-Temp%26Humi-Sensor-p-745.html)
+[![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](https://www.seeedstudio.com/Grove-Temp%26Humi-Sensor-p-745.html)
 
-## Specification
----
 
-<html>
-<head>
-<meta charset="utf-8">
-<title>Specification(runoob.com)</title>
-</head>
-<body>
+
+Features
+--------
+
+-   Relative Humidity and temperature measurement
+-   Full range temperature compensation Calibrated
+-   Digital signal
+-   Long term stability
+-   Long transmission distance(>20m)
+-   Low power consumption
+
+Applications Ideas
+------------------
+
+-   Consumption product
+-   Weather station
+-   Humidity regulator
+-   Air conditioner
+
+Hardware Overview
+-----------------
+
+![](https://raw.githubusercontent.com/SeeedDocument/Grove-TemperatureAndHumidity_Sensor/master/img/Temp_Humi_sch.jpg)
+
+Specifications
+--------------
+
+### Key Specifications
+
+| Items        |   Min                  |
+|--------------|------------------------|
+| PCB Size     | 2.0cm*4.0cm            |
+| Interface    | 2.0mm pitch pin header |
+| IO Structure | SIG,VCC,GND,NC         |
+| ROHS         | YES                    |
+
+### Electronic Characterstics
 
 <table border="1">
 <tr>
-  <th>Working Voltage:</th>
-  <td>3.3v~5v</td>
+<th>
+Items
+</th>
+<th>
+Conditions
+</th>
+<th>
+Min
+</th>
+<th>
+Norm
+</th>
+<th>
+Max
+</th>
+<th>
+Unit
+</th>
 </tr>
-<tr>
-  <th rowspan="2"> Meaturing Range:</th>
-  <td>Humidity: 20% - 90% RH</td>
+<tr align="center">
+<td>
+VCC
+</td>
+<td>
+-
+</td>
+<td>
+3.3
+</td>
+<td>
+-
+</td>
+<td>
+5
+</td>
+<td>
+Volts
+</td>
 </tr>
-<tr>
-  <td>Temperature:±2° C</td>
+<tr align="center">
+<td>
+Measuring Current Supply
+</td>
+<td>
+-
+</td>
+<td>
+1.3 
+</td>
+<td>
+- 
+</td>
+<td>
+2.1
+</td>
+<td>
+mA
+</td>
 </tr>
-<tr>
-  <th rowspan="2"> Accuracy:</th>
-  <td>Humidity:±5% RH </td>
+<tr align="center">
+<td>
+Average Current Supply
+</td>
+<td>
+-
+</td>
+<td>
+0.5
+</td>
+<td>
+-
+</td>
+<td>
+1.1
+</td>
+<td>
+mA
+</td>
 </tr>
-<tr>
-  <td>Temperature:0 ~ 50 °C</td>
+<tr align="center">
+<td rowspan="2">
+Measuring Range
+</td>
+<td>
+Humidity
+</td>
+<td>
+20%
+</td>
+<td>
+-
+</td>
+<td>
+90%
+</td>
+<td>
+RH
+</td>
 </tr>
-<tr>
-  <th rowspan="2"> Sensitivity:</th>
-  <td>Humidity: ±1% RH</td>
+<tr align="center">
+<td>
+Temperature
+</td>
+<td>
+0
+</td>
+<td>
+-
+</td>
+<td>
+50
+</td>
+<td>
+°C
+</td>
 </tr>
-<tr>
-  <td>Temperature:1° CC</td>
+<tr align="center">
+<td rowspan="2">
+Accuracy
+</td>
+<td>
+Humidity
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+±5%
+</td>
+<td>
+RH
+</td>
 </tr>
-<tr>
-  <th>Signal Collecting Period:</th>
-  <td>2S</td>
+<tr align="center">
+<td>
+Temperature
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+±2
+</td>
+<td>
+°C
+</td>
 </tr>
-
-
+<tr align="center">
+<td rowspan="2">
+ Sensitivity
+</td>
+<td>
+Humidity
+</td>
+<td>
+</td>
+<td>
+-
+</td>
+<td>
+1%
+</td>
+<td>
+RH
+</td>
+</tr>
+<tr align="center">
+<td>
+Temperature
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+1
+</td>
+<td>
+°C
+</td>
+</tr>
+<tr align="center">
+<td rowspan="2">
+Repeatability
+</td>
+<td>
+Humidity
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+±1%
+</td>
+<td>
+RH
+</td>
+</tr>
+<tr align="center">
+<td>
+Temperature
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+±1
+</td>
+<td>
+°C
+</td>
+</tr>
+<tr align="center">
+<td>
+Long-term Stability
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+±1%
+</td>
+<td>
+RH/year
+</td>
+</tr>
+<tr align="center">
+<td>
+Signal Collecting Period
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+2
+</td>
+<td>
+</td>
+<td>
+S
+</td>
+</tr>
 </table>
 
-</body>
-</html>
+Usage
+-----
 
-## Usage
----
-**With Arduino**
+When MCU sends a trigger signal, sensor will change from low power consumption mode to active mode. After the trigger signal sensor will send a response signal back to MCU, then 40 bit collected data is sent out and a new signal collecting is trigged.(Note that the 40 bit collected data which is sent from sensor to MCU is already collected before the trigger signal comes.) One trigger signal receives one time 40 bit response data from sensor. Single-bus data is used for communication between MCU and sensor.
+The communication process is shown below:
 
-This demo is going to show you how to read temperature and humidity information from this Grove
-- Temperature and Humidity Sensor
+![](https://raw.githubusercontent.com/SeeedDocument/Grove-TemperatureAndHumidity_Sensor/master/img/Twig-Temperature_Humidity.jpg)
 
-![](https://github.com/SeeedDocument/Grove_Temperature_and_Humidity_Sensor/raw/master/images/Temperature_Sensor-xin.jpg)
+It costs 5ms for single time communication.The high-order bit of data sends out first. Signal Data is 40 bit, comprised of 16 bit humidity data, 16 bit temperature data and 8 bit checksum.The data format is:
 
-The Temperature and Humidity sensor is connecting to analog port A0 of Grove - Base Shield.
-- Download [Humidity_Temperature_Sensor library](https://github.com/Seeed-Studio/Grove_Temperature_And_Humidity_Sensor) for Arduino boards with 16MHz XTAL; Unzip
-and put it in the libraries file of Arduino IDE by the path:
-..\arduino-1.0\libraries; Another library-DHTlib is also available instead of Humidity_Temperature_Sensor library. This library supports
-both 16MHz and 8MHz Arduino(eg. Seeeduino Stalker)
-- Open “ DHTtester” example via the path: File --> Examples -->
-Humidity_Temperature_Sensor --> DHTtester.
+    8bits integer part of humidity+8bits decimal part of humidity
+    +8bits integer part of temperature+8bits decimal part of temperature
+    +8bits checksum.
 
-```c
-// Example testing sketch for various DHT humidity/temperature sensors
-// Written by ladyada, public domain
-#include "DHT.h"
-#define DHTPIN A0 // what pin we're connected to
-// Uncomment whatever type you're using!
-#define DHTTYPE DHT11 // DHT 11
-//#define DHTTYPE DHT22 // DHT 22 (AM2302)5
-//#define DHTTYPE DHT21 // DHT 21 (AM2301)
-// Connect pin 1 (on the left) of the sensor to +5V
-// Connect pin 2 of the sensor to whatever your DHTPIN is
-// Connect pin 4 (on the right) of the sensor to GROUND
-// Connect a 10K resistor from pin 2 (data) to pin 1 (power) of the
-sensor
-DHT dht(DHTPIN, DHTTYPE);
+Programming
+-----------
+
+Connect the Temperature and Humidity sensor to analog port A0.Then you can use the following programme to gain the temperature and humidity of the environment.(The code is for seeeduino only,if you use seeeduino mega you should change the code a little. See below, if you use seeeduino mega, you should change PINC to PINF, change DDRC to DDRF and change PORTC to PORTF)
+
+![](https://raw.githubusercontent.com/SeeedDocument/Grove-TemperatureAndHumidity_Sensor/master/img/Temperature_Sensor.jpg)
+
+```
+#define DHT11_PIN 0      // ADC0
+ 
+byte read_dht11_dat()
+{
+  byte i = 0;
+  byte result=0;
+  for(i=0; i< 8; i++){
+ 
+ 
+    while(!(PINC & _BV(DHT11_PIN)));  // wait for 50us
+    delayMicroseconds(30);
+ 
+    if(PINC & _BV(DHT11_PIN)) 
+      result |=(1<<(7-i));
+    while((PINC & _BV(DHT11_PIN)));  // wait '1' finish
+ 
+ 
+  }
+  return result;
+}
+ 
+ 
 void setup()
 {
-Serial.begin(9600);
-Serial.println("DHTxx test!");
-dht.begin();
+  DDRC |= _BV(DHT11_PIN);
+  PORTC |= _BV(DHT11_PIN);
+ 
+  Serial.begin(9600);
+ 
+  Serial.println("Ready");
 }
+ 
 void loop()
 {
-// Reading temperature or humidity takes about 250 milliseconds!
-// Sensor readings may also be up to A0 seconds 'old' (its a very
-slow sensor)
-float h = dht.readHumidity();
-float t = dht.readTemperature();
-// check if returns are valid, if they are NaN (not a number) then
-something went wrong!
-if (isnan(t) || isnan(h))
-{
-Serial.println("Failed to read from DHT");
-}
-else
-{
-Serial.print("Humidity: ");
-Serial.print(h);
-Serial.print(" %\t");
-Serial.print("Temperature: ");
-Serial.print(t);
-Serial.println(" *C");
-}
-}
-```
-
-!!!Note
-This Grove - Temperature and Humidity Sensor and our another product [Grove -
-Temperature and Humidity Sensor Pro](http://www.seeedstudio.com/Grove-Temperature%26Humidity-Sensor-Pro-p-838.html) are sharing this library. No matter which product you are
-using, make sure that you have made the definition line of the sensor of your board into effect and
-commented out the definition lines of other specs. For example, the sensor used on Grove -
-Temperature and Humidity Sensor is DHT 11. So the definition part of the sensor spec should be:
-
-```
-#define DHTTYPE DHT11 // DHT 11
-//#define DHTTYPE DHT22 // DHT 22 (AM2302)
-//#define DHTTYPE DHT21 // DHT 21 (AM2301)
-```
-
-- Upload it into your Arduino board and open the serial monitor to observe the temperature and
-relative humidity information of the environment
-
-![](https://github.com/SeeedDocument/Grove_Temperature_and_Humidity_Sensor/raw/master/images/COM5%20data.png)
-
-**With TL LaunchPad**
-
-Feeling the Environments (Temperature and humidity)
-This example allows you to read the value from grove-temperature-humidity sensor. The
-temperature & humidity values are displayed on the Grove 4 digital display
-
-![](https://github.com/SeeedDocument/Grove_Temperature_and_Humidity_Sensor/raw/master/images/Temperature.jpg)
-
-```c
-/*
-Grove-Temperature-Humidity Sensor
-Read value from grove-temperature-humidity sensor then display on grove-
-4-digital-display
-The circuit:
-* 4-digital-display attached to pin38 & pin39 (J14 plug on Grove Base
-BoosterPack)
-* sig pin of the Grove-Temperature-Humidity Sensor to the analog pin 24
-(Grove connector J6)
-* one side pin (either one) to ground
-* the other side pin to +VCC
-* LED anode (long leg) attached to RED_LED
-* LED cathode (short leg) attached to ground
-* Note: Put your hands on Grove-Temperature-Humidity Sensor, both of the
-value
-will rise.
-4-digital-display:
-|--------------------------|
-| temperature : humidity |
-|--------------------------|
-This example code is in the public domain.
-http://www.seeedstudio.com/wiki/Grove_-
-_Temperature_and_Humidity_Sensor_Pro
-*/8
-#include "TM1637.h"
-#include "DHT.h"
-/* Macro Define */
-#define CLK 39 /* 4-digital display clock pin
-*/
-#define DIO 38 /* 4-digital display data pin */
-#define BLINK_LED RED_LED /* blink led */
-#define TEMP_HUMI_PIN 24 /* pin of temperature&humidity
-sensor */
-/* Global Varibles */
-TM1637 tm1637(CLK, DIO); /* 4-digital display object */
-DHT dht(TEMP_HUMI_PIN, DHT22); /* temperature&humidity sensor
-object */
-int8_t t_bits[2] = {0}; /* array to store the single bits
-of the temperature */
-int8_t h_bits[2] = {0}; /* array to store the single bits
-of the humidity */
-/* the setup() method runs once, when the sketch starts */
-void setup() {
-tm1637.init(); /* initialize 4-digital display */
-tm1637.set(BRIGHT_TYPICAL); /* set the brightness */
-tm1637.point(POINT_ON); /* light the clock point ":" */
-dht.begin(); /* initialize temperature humidity
-sensor */
-pinMode(RED_LED, OUTPUT); /* declare the red_led pin as an
-OUTPUT */
-}
-/* the loop() method runs over and over again */
-void loop() {
-int _temperature = dht.readTemperature(); /* read the
-temperature value from the sensor */
-int _humidity = dht.readHumidity(); /* read the
-humidity value from the sensor */
-memset(t_bits, 0, 2); /* reset array when
-we use it */
-memset(h_bits, 0, 2);
-/* 4-digital-display [0,1] is used to display temperature */
-t_bits[0] = _temperature % 10;
-_temperature /= 10;
-t_bits[1] = _temperature % 10;
-/* 4-digital-display [2,3] is used to display humidity */
-h_bits[0] = _humidity % 10;
-_humidity /= 10;
-h_bits[1] = _humidity % 10;
-/* show it */
-tm1637.display(1, t_bits[0]);
-tm1637.display(0, t_bits[1]);
-tm1637.display(3, h_bits[0]);
-tm1637.display(2, h_bits[1]);
+  byte dht11_dat[5];
+  byte dht11_in;
+  byte i;
+  // start condition
+  // 1. pull-down i/o pin from 18ms
+  PORTC &= ~_BV(DHT11_PIN);
+  delay(18);
+  PORTC |= _BV(DHT11_PIN);
+  delayMicroseconds(40);
+ 
+  DDRC &= ~_BV(DHT11_PIN);
+  delayMicroseconds(40);
+ 
+  dht11_in = PINC & _BV(DHT11_PIN);
+ 
+  if(dht11_in){
+    Serial.println("dht11 start condition 1 not met");
+    return;
+  }
+  delayMicroseconds(80);
+ 
+  dht11_in = PINC & _BV(DHT11_PIN);
+ 
+  if(!dht11_in){
+    Serial.println("dht11 start condition 2 not met");
+    return;
+  }
+  delayMicroseconds(80);
+  // now ready for data reception
+  for (i=0; i<5; i++)
+    dht11_dat[i] = read_dht11_dat();
+ 
+  DDRC |= _BV(DHT11_PIN);
+  PORTC |= _BV(DHT11_PIN);
+ 
+  byte dht11_check_sum = dht11_dat[0]+dht11_dat[1]+dht11_dat[2]+dht11_dat[3];
+  // check check_sum
+  if(dht11_dat[4]!= dht11_check_sum)
+  {
+    Serial.println("DHT11 checksum error");
+  }
+ 
+  Serial.print("Current humdity = ");
+  Serial.print(dht11_dat[0], DEC);
+  Serial.print(".");
+  Serial.print(dht11_dat[1], DEC);
+  Serial.print("%  ");
+  Serial.print("temperature = ");
+  Serial.print(dht11_dat[2], DEC);
+  Serial.print(".");
+  Serial.print(dht11_dat[3], DEC);
+  Serial.println("C  ");
+ 
+  delay(2000);
 }
 ```
 
-**With Raspberry Pi**
+Resources
+---------
 
-This example can Return temperature and humidity value,And show them on [Grove - LCD RGB
-Backlight](http://www.seeedstudio.com/Grove-LCD-RGB-Backlight-p-1643.html).Also print them on PC terminal.
+-   [Temperature Humidity.zip](https://raw.githubusercontent.com/SeeedDocument/Grove-TemperatureAndHumidity_Sensor/master/res/Temperature_Humidity.zip)
 
-![](https://github.com/SeeedDocument/Grove_Temperature_and_Humidity_Sensor/raw/master/images/GrovePi%2B_Tem%26Humi_sensor2.jpg)
 
-Notice: To use the method dht(pin,module_type) you need to chang parameter module_type to 1
-when using DHT pro and to 0 when using DHT.
-
-```python
-# grovepi_lcd_dht.py
-# dht(pin,module_type), change module_type number to use other kind of
-dht
-# module_type:
-# DHT11 0
-# DHT22 1
-# DHT21 2
-# DHT2301 3
-from grovepi import *
-from grove_rgb_lcd import *
-dht_sensor_port = 7 # Connect the DHt sensor to port 7
-while True:
-try:
-[ temp,hum ] = dht(dht_sensor_port,1) #Get the temperature
-and Humidity from the DHT sensor
-print "temp =", temp, "C\thumadity =", hum,"%"
-t = str(temp)
-h = str(hum)
-setRGB(0,128,64)
-setRGB(0,255,0)
-setText("Temp:" + t + "C " + "Humidity :" + h + "%")11
-except (IOError,TypeError) as e:
-print "Error"
-```
-**Run the program**
-
--  Find the path to the file(According to your own path)
-
-```
-cd Desktop/Applications/GrovePi/GrovePi LCD DHT/
-```
-- Run Program
-
-```
-sudo python grovepi_lcd_dht.py
-```
-
-## Resources
----
-- [Temperature Humidity Eagle File](https://github.com/SeeedDocument/Grove_Temperature_and_Humidity_Sensor/raw/master/resources/Temperature_Humidity.zip)
-- [Library](https://github.com/Seeed-Studio/Grove_Temperature_And_Humidity_Sensor)
-- [DHT11 datasheet](https://github.com/SeeedDocument/Grove_Temperature_and_Humidity_Sensor/raw/master/resources/DHT11.pdf)
+<!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_Temperature&Humidity_Sensor -->

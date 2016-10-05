@@ -28,7 +28,7 @@ Parts list
 
 | Parts name                                                                                               | Quantity |
 |----------------------------------------------------------------------------------------------------------|----------|
-| [Grove - IR Distance Interrupt](/Grove-IR_Distance_Interrupt)                                            | 1PC     |
+| [Grove - IR Distance Interrupt](/Grove-IR_Distance_Interrupter_v1.2)                                     | 1PC     |
 | [Grove - Button](/Grove-Button)                                                                          | 1PC     |
 | [Grove - Magnetic Switch](/Grove-Magnetic_Switch)                                                        | 1PC     |
 | [Grove - 3-Axis Digital Accelerometer(±1.5g)](/Grove-3-Axis_Digital_Accelerometer-1.5g)                  | 1PC     |

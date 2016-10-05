@@ -119,7 +119,7 @@ Platforms Supported
 Getting Started
 ---------------
 
-This Grove-Encoder is very easy to use with the [Encoder Lib](https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/res/Encoder.zip) designed by seeedstudio. Simply connect this module to the D2 connector of Base Shield and you can start using. The following is a introduction of how to make a [Circular LED bar](http://www.seeedstudio.com/wish/circular-led-bar-p1572) (the idea came from [seeedstudio wish](http://www.seeedstudio.com/wish/)）.
+This Grove-Encoder is very easy to use with the [Encoder Lib](https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/res/Encoder.zip) designed by seeedstudio. Simply connect this module to the D2 connector of Base Shield and you can start using. The following is a introduction of how to make a Circular LED bar.
 
 -   This Circular LED bar consists of an Encoder and a [Grove-CircularLED](/Grove-Circular_LED) module. Connect the two modules to Base shield as the following picture:
 
@@ -176,7 +176,7 @@ void SenttocircularBar(int index)
 }
 ```
 
--   Upload it to your Arduino/Seeeduino, please refer to [here](/Upload_Code) to learn how to upload sketches. You can see:
+-   Upload it to your Arduino/Seeeduino. You can see:
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/img/EncoderAndCircular_LED.gif)
 

@@ -19,7 +19,7 @@ Use getStatus() to check the current status and act correspondingly. The audio s
 If you try to play another audio file before the previous playback is finished, the previous playback will be stopped automatically, and the new audio will be played.
 </div>
 
-[![](https://raw.githubusercontent.com/SeeedDocument/RePhone_APIs-Audio/master/img/Viewallapiofrephone.png)](/RePhone_APIs)
+[![](https://raw.githubusercontent.com/SeeedDocument/RePhone_APIs-Audio/master/img/Viewallapiofrephone.png)](/RePhone)
 
 Function List
 -------------
@@ -482,7 +482,7 @@ Resources
 
 -   [Main wiki for RePhone](/Rephone)
 -   [Xadow - Audio](/Xadow_Audio)
--   [RePhone APIs main page](/RePhone_APIs)
+-   [RePhone APIs main page](/RePhone)
 
 
 <!-- This Markdown file was created from http://www.seeedstudio.com/wiki/RePhone_APIs_-_Audio -->

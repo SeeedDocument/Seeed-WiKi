@@ -76,11 +76,11 @@ Speaking to the sensor：
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Loudness_Sensor/master/img/Loudness_Sensor_Test_3.bmp)
 
-### With [Raspberry Pi](/GrovePiPlus "GrovePi+")
+### With Raspberry Pi
 
 1.You should have a raspberry pi and a grovepi or grovepi+.
 
-2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus#Introducing_the_GrovePi.2B).
+2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus).
 
 3.Connection
 

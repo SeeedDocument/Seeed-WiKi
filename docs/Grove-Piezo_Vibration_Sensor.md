@@ -57,8 +57,7 @@ It may output low level even though originally output high level when you increa
 
 3.Connect Arduino to PC by using a USB cable.
 
-4.Copy and paste code below to a new Arduino sketch. Please click [here](/Upload_Code) if you do not know how to upload.
-
+4.Copy and paste code below to a new Arduino sketch.
 ```
     const int ledPin=12;
     void setup() {
@@ -109,11 +108,11 @@ You can directly use a digital pin, take D5 of base shield as an example, and co
     }
 ```
 
-### With [Raspberry Pi](/GrovePiPlus "GrovePi+")
+### With Raspberry Pi
 
 1.You should have a raspberry pi and a grovepi or grovepi+.
 
-2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus#Introducing_the_GrovePi.2B).
+2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus).
 
 3.Connection
 

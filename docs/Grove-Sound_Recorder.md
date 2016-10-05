@@ -175,7 +175,7 @@ When controlled by MCU, Section_1 can not be selected.
 </div>
 
 *Not interested in such a table, it is confusing! Just want the code?* 
-Download the following code to your Arduino/Seeeduino,please click [here](/Upload_Code) if you do not know how to upload.
+Download the following code to your Arduino/Seeeduino.
 
 
 ```

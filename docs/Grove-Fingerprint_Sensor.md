@@ -47,7 +47,7 @@ Demonstration
 
 The Finger Print Sensor module is typically used in safes - there's a high powered DSP chip that does the image rendering, calculation, feature-finding and searching. Connect to any microcontroller or system with TTL serial, and send packets of data to take photos, detect prints, hash and search. You can also enroll new fingers directly - up to 162 finger prints that can be stored in the onboard FLASH memory. There's a red LED in the lens which will light up during taking photos so that you know its working condition.
 
--   Connect the Sensor to the Digital Port 2 of the [Grove - Base Shield](/Grove-Base_Shield "Grove - Base Shield").
+-   Connect the Sensor to the Digital Port 2 of the [Grove - Base Shield](/Base_Shield_V2 "Grove - Base Shield").
 -   Plug the Grove - Base Shield into Arduino and connect Arduino to PC by using a USB cable.
 
 When you plug in the power, you can see the red LED blink which indicates the sensor is working.
@@ -59,7 +59,7 @@ When you plug in the power, you can see the red LED blink which indicates the se
 The library can enroll and search so its perfect for any project. It can help you get running in under 10 minutes. There are basically two requirements for using the optical fingerprint sensor. First one, you'll need to enroll fingerprints - that means assigning ID \#'s to each print so you can query them later. Once you've enrolled all your prints, you can easily 'search' the sensor, asking it to identify which ID (if any) has currently been photographed.
 
 -   Open the enroll code directly by the path: File->Example->FingerPrint->Enroll.
--   Upload the code into Arduino. Please click [here](/Upload_Code) if you do not know how to upload.
+-   Upload the code into Arduino.
 -   Start up Serial Tool and Select the ComNum and BaudRate used by the Arduino.
 -   Select the "SendNew" option. Send the ID \# you want to use. You can use up to 162 ID numbers. And it will ask you to press the finger to the sensor. At the moment, you should see the red LED blink.
 

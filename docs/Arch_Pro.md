@@ -3,13 +3,13 @@ title: Arch Pro
 category: mbed
 bzurl: https://seeedstudio.com/Arch-Pro-p-1677.html
 oldwikiname: Arch_Pro
-prodimagename: 3D_Arch_pro_v1.png
+prodimagename: Arch_pro.jpg
 bzprodimageurl: http://statics3.seeedstudio.com/images/product/arch pro.jpg
 surveyurl: https://www.research.net/r/Arch_Pro
 sku: 102080002
 ---
 
-![](https://raw.githubusercontent.com/SeeedDocument/Arch_Pro/master/img/3D_Arch_pro_v1.png)
+![](https://raw.githubusercontent.com/SeeedDocument/Arch_Pro/master/img/Arch_pro.jpg)
 
 Arch Pro is an mbed enabled development board for rapid prototyping. It is a variant of mbed LPC1768 with built-in Ethernet, USB Host/Device, Grove connectors and Arduino form factor. With a variety of Shield and Grove modules and lots of software libraries for Arch Pro, you can implement Ethernet, USB Host/Device and NFC applications rapidly and easily.
 
@@ -156,14 +156,16 @@ To update:
 
 <div class="admonition note">
 <p class="admonition-title">Notes</p>
-<p> 1. LocalFileSystem does not work:
-As the Arch Pro does not have external flash to store files, the LocalFileSystem is not available for this board.</p>
+<ul>
+<li>LocalFileSystem does not work:
+As the Arch Pro does not have external flash to store files, the LocalFileSystem is not available for this board.</li>
 
-<p> 2. P0\_27 & P0\_28 do not work with DigitalOut:
-P0\_28 & P0\_27 are open-drain digital I/O for compatible with I2C. External pull-up resistors are needed to provide output functionality.</p>
+<li>P0_27 & P0_28 do not work with DigitalOut:
+P0_28 & P0_27 are open-drain digital I/O for compatible with I2C. External pull-up resistors are needed to provide output functionality.</li>
 
-<p> 3. USB Serial Communication:
-In Windows, install the mbed Windows serial port driver to use USB Serial Communication. Have a look at [Windows Serial Configuration](https://developer.mbed.org/handbook/Windows-serial-configuration)</p>
+<li>USB Serial Communication:
+In Windows, install the mbed Windows serial port driver to use USB Serial Communication. Have a look at <a href="https://developer.mbed.org/handbook/Windows-serial-configuration">Windows Serial Configuration</a></li>
+</ul>
 </div>
 
 Resources

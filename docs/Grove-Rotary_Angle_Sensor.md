@@ -178,7 +178,7 @@ The following sketch demonstrates a simple application of using the rotary angle
     }
 ```
 
--   Upload the code, please click [here](/Upload_Code) if you do not know how to upload.
+-   Upload the code.
 -   Then you can control the LED by rotating the sensor. Have a try!
 
 ### With TI LaunchPad

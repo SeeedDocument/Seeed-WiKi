@@ -51,7 +51,7 @@ Here below we show you how to read the raw data from this accelerometer.
 
 3. Open the demo code directly by the path:File -> Example ->Grove_3Axis_Digital_Accelerometer_H3LIS331DL->H3LIS331DL_AdjVal. It is a sketch to adjust the raw data of H3LIS331DL to make it more precise.
 
-4. Upload the code and open the serial monitor. Please click [here](/Upload_Code) if you do not know how to upload.
+4. Upload the code and open the serial monitor.
 
 5. Open the serial monitor to get the adjust value of reference as the steps described in serial output.
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-3-Axis_Digital_Accelerometer-400g/master/img/Adjust_value_of_Accelerometer.jpg)

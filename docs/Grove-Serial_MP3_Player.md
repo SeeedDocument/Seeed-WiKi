@@ -50,7 +50,7 @@ The Grove - Serial MP3 Play can be controlled by Arduino/Seeeduino. And there is
 -   Connect Grove - Serial MP3 Play to the Digital 2 port of Arduino/Seeeduino, Notice that you can change the pin number as you like, just make sure corresponding changes the code. Then connect your Arduino/Seeeduino to PC with a USB cable.
 -   Plug a earphone into Grove - Serial MP3 Play. Now the hardware part has been completed.
 -   After uploading it, open serial tool to send commands.
--   Upload the code below, please click [here](/Upload_Code) if you do not know how to upload.
+-   Upload the code below.
 
 The following code includes play mode parameter. You only need to change the parameter to switch the play mode.
 

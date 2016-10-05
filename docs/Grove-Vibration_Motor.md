@@ -98,7 +98,7 @@ To make it vibrate is just as easy as to turn on an LED. Here is an example show
 2. Plug the Grove - Base Shield onto Arduino.
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Vibration_Motor/master/img/IMG_0506.jpg)
 3. Connect Arduino to PC by using a USB cable.
-4. Copy and paste code below to a new Arduino sketch, and upload it to your Arduino. Please click [here](/Upload_Code) if you do not know how to upload.
+4. Copy and paste code below to a new Arduino sketch, and upload it to your Arduino. 
 
 Use the demo code shown below:
 
@@ -123,11 +123,11 @@ Use the demo code shown below:
 
 Now, feel the vibration of your motor!
 
-### With [Raspberry Pi](/GrovePiPlus "GrovePi+")
+### With Raspberry Pi
 
 1.You should have a Raspberry Pi and a grovepi or grovepi+.
 
-2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus#Introducing_the_GrovePi.2B).
+2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus).
 
 3.Connection
 

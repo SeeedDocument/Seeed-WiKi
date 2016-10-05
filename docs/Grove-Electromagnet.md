@@ -10,9 +10,12 @@ sku: 101020073
 tags: grove_digital, io_5v, plat_duino, plat_wio
 ---
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove-Electromagnet/master/img/Grove_Electromagnet_02.jpg)
-
-![](https://raw.githubusercontent.com/SeeedDocument/Grove-Electromagnet/master/img/Grove_Electromagnet-1.png)
+<table>
+    <tr>
+        <td><img src="https://raw.githubusercontent.com/SeeedDocument/Grove-Electromagnet/master/img/Grove_Electromagnet_02.jpg"></td>
+        <td><img src="https://raw.githubusercontent.com/SeeedDocument/Grove-Electromagnet/master/img/Grove_Electromagnet-1.png"></td>
+    </tr>
+</table>
 
 An electromagnet is a type of magnet in which the magnetic field is produced by electric current. An electric current flowing in a wire creates a magnetic field around the wire, due to Ampere's law(see drawing below). To concentrate the magnetic field, in an electromagnet the wire is wound into a coil with many turns of wire lying side by side. The magnetic field of all the turns of wire passes through the center of the coil, creating a strong magnetic field there. Grove - Electromagnet can suck 1KG weight and hold on. It is easy to use, to learn electromagnet principle.
 
@@ -75,11 +78,11 @@ CODE:
     }
 ```
 
-### With [Raspberry Pi](/GrovePiPlus "GrovePi+")
+### With Raspberry Pi
 
 1.You should have got a raspberry pi and a grovepi or grovepi+.
 
-2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus#Introducing_the_GrovePi.2B).
+2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus).
 
 3.Connection
 

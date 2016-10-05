@@ -67,10 +67,10 @@ digitalWrite(ledPin,LOW);
 }
 ```
 
-### With [Raspberry Pi](/GrovePiPlus "GrovePi+")
+### With Raspberry Pi
 
 1.  You should have a raspberry pi and a grovepi or grovepi+.
-2.  You should have completed configuring the development environment, otherwise follow [here](/GrovePiPlus#Introducing_the_GrovePi.2B).
+2.  You should have completed configuring the development environment, otherwise follow [here](/GrovePiPlus).
 3.  Connection
 
     -   Plug the sensor to grovepi socket D4 by using a grove cable.
@@ -117,6 +117,5 @@ Resources
 
 -   [Eagle Files](https://raw.githubusercontent.com/SeeedDocument/Grove-Touch_Sensor/master/res/Touch_sensor_Eagle_File.zip)
 -   [TTP223pdf](https://raw.githubusercontent.com/SeeedDocument/Grove-Touch_Sensor/master/res/TTP223.pdf)
--   [how to upload code](/Upload_Code)
 
 <!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_Touch_Sensor -->

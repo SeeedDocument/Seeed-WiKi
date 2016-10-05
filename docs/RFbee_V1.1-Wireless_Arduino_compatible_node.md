@@ -186,7 +186,7 @@ You can update the RFbee firmware using the Arduino IDE using the procedure belo
 Resources
 ---------
 
--   [RFBee User Manual](http://www.seeedstudio.com/depot/datasheet/RFBee%20User%20Manual%20v1.1.pdf)
+-   [RFBee User Manual](https://raw.githubusercontent.com/SeeedDocument/RFbee_V1.1-Wireless_Arduino_compatible_node/master/res/rfbee-manual.pdf)
 -   [RFbee firmware for Arduino 1.0](https://raw.githubusercontent.com/SeeedDocument/RFbee_V1.1-Wireless_Arduino_compatible_node/master/res/RFbee_for_arduino1.0.zip)
 -   [RFbee firmware 1.1 (latest)](https://github.com/Seeed-Studio/RFBee)
 -   [Schematic and layout in EAGLE file](http://www.seeedstudio.com/depot/datasheet/RFBee%20hardware%20v1.1.zip)

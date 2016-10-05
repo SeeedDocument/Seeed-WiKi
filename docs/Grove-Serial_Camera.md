@@ -103,7 +103,7 @@ Usage
 
 **Step 1**:Download dedicated serial port debugging tool [VC0703COMTOOL.rar](https://raw.githubusercontent.com/SeeedDocument/Grove-Serial_Camera/master/res/VC0703COMTOOL.rar) and install it.
 
-**Step 2**: Connect Serial camera to PC with USB to use serial converter tool [UartSBee](/UartSBee "UartSBee")
+**Step 2**: Connect Serial camera to PC with USB to use serial converter tool [UartSBee](/UartSBee_v5 "UartSBee")
 
 | Serial camera | Uart\_SB v3.1 |
 |---------------|---------------|

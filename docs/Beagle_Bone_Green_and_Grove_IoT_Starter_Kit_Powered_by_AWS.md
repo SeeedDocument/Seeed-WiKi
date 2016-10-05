@@ -10,7 +10,7 @@ surveyurl: https://www.research.net/r/Beagle_Bone_Green_and_Grove_IoT_Starter_Ki
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Beagle_Bone_Green_and_Grove_IoT_Starter_Kit_Powered_by_AWS/master/img/Aws_kit_bbg_cover.JPG)
 
-*Main articles: Start here [Grove IoT Starter Kits Powered by AWS](/Grove_IoT_Starter_Kits_Powered_by_AWS "Grove IoT Starter Kits Powered by AWS") , [Beaglebone Green](/Beaglebone_green "Beaglebone green")*
+*Main articles: Start here [Grove IoT Starter Kits Powered by AWS](/Grove_IoT_Starter_Kits_Powered_by_AWS "Grove IoT Starter Kits Powered by AWS") , [Beaglebone Green](/BeagleBone_Green "Beaglebone green")*
 
 [BeagleBone Green](http://www.seeedstudio.com/depot/BeagleBone-Green-p-2504.html?cPath=122_113) (BBG) is a joint effort by BeagleBoard.org and Seeed Studio. It is based on the open-source hardware design of [BeagleBone Black](http://beagleboard.org/BLACK) and has added two Grove connectors. The kit contains the new BBG, 10 Grove modules as well as step-by-step tutorials to hook them up quickly. The Grove IoT Starter Kit includes most frequently used sensors and actuators to turn your ideas into tangible applications with AWS Cloud computing.
 
@@ -30,7 +30,7 @@ Included in the Box
 
 | Board/Part                                                                                                                                   | Qty | Documentation                                                                                     |
 |----------------------------------------------------------------------------------------------------------------------------------------------|-----|---------------------------------------------------------------------------------------------------|
-| [BeagleBone Green](http://www.seeedstudio.com/depot/BeagleBone-Green-p-2504.html?cPath=122_113)                                              | 1   | [Read Here](/Beaglebone_green "Beaglebone green")                                                 |
+| [BeagleBone Green](http://www.seeedstudio.com/depot/BeagleBone-Green-p-2504.html?cPath=122_113)                                              | 1   | [Read Here](/BeagleBone_Green "Beaglebone green")                                                 |
 | [Grove - I2C ADC](http://www.seeedstudio.com/depot/Grove-I2C-ADC-p-1580.html?cPath=98_16)                                                    | 1   | [Read Here](/Grove-I2C_ADC "Grove - I2C ADC")                                                     |
 | [Grove - I2C Hub](http://www.seeedstudio.com/depot/Grove-I2C-Hub-p-851.html?cPath=98_16)                                                     | 1   | [Read Here](/Grove-I2C_Hub "Grove - I2C Hub")                                                     |
 | [Grove - Relay](http://www.seeedstudio.com/depot/Grove-Relay-p-769.html?cPath=39_42)                                                         | 1   | [Read Here](/Grove-Relay "Grove - Relay")                                                         |
@@ -110,7 +110,7 @@ Now, this step is done. Let's move to the next step.
 
 ### Setup your BeagleBone Green
 
-Connect BBG to your PC via micro USB cable, and let BBG access the Internet. If this is your first time to use BBG/BBB, maybe you can follow [here](/Beaglebone_green) to get started.
+Connect BBG to your PC via micro USB cable, and let BBG access the Internet. If this is your first time to use BBG/BBB, maybe you can follow [here](/BeagleBone_Green) to get started.
 
 Connect Grove modules to BBG as the picture below shows.
 
@@ -661,13 +661,13 @@ Resources
 -   [Main Page for Grove IoT Starter Kits Powered by AWS](/Grove_IoT_Starter_Kits_Powered_by_AWS)
 -   [【Github】AWS SDK for BeagleBone Green kit](https://github.com/Seeed-Studio/AWS_SDK_for_BBG)
 -   [【Github】Libraries for BeagleBone Green kit](https://github.com/Seeed-Studio/Grove_Starter_Kit_for_BBG)
--   [BeagleBone Green](/Beaglebone_green)
+-   [BeagleBone Green](/BeagleBone_Green)
 -   [Main page of Beagleboard](http://beagleboard.org/getting-started)
 -   [Grove - I2C ADC](/Grove-I2C_ADC)
 -   [Grove - I2C Hub](/Grove-I2C_Hub)
 -   [Grove - Relay](/Grove-Relay)
 -   [Grove - Buzzer](/Grove-Buzzer)
--   [Grove - OLED Display 96\*96](/Grove-OLED_Display_96x96)
+-   [Grove - OLED Display 96\*96](/Grove-OLED_Display_0.96inch)
 -   [Grove - Button](/Grove-Button)
 -   [Grove - Temperature sensor v1.2](/Grove-Temperature_Sensor_V1.2)
 -   [Grove - Sound sensor](/Grove-Sound_Sensor)

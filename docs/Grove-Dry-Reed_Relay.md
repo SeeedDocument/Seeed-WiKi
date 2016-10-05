@@ -190,9 +190,9 @@ The Dry-Reed Relay can support up to 60VDC 1A load. You can use it to control re
 The usage of this Dry-reed relay is quite alike that of common relays.
 
 -   Connect electric light to Grove - Dry-Reed Relay and power for electric light.
--   Connect Grove - Dry-Reed Relay to port D2 of [Grove - Base Shield](/Grove-Base_Shield "Grove - Base Shield") and plug it into Arduino/Seeeduino.
+-   Connect Grove - Dry-Reed Relay to port D2 of [Grove - Base Shield](/Base_Shield_V2 "Grove - Base Shield") and plug it into Arduino/Seeeduino.
 
--   Upload the below code. Please click [here](/Upload_Code) if you do not know how to upload.
+-   Upload the below code.
 
 ```
     int Relay = 2;
@@ -214,11 +214,11 @@ The usage of this Dry-reed relay is quite alike that of common relays.
 
 -   The electric light will light up for seconds ,then off for seconds, repeatedly.For the special applications, you may need to write the code by yourself.
 
-### With [Raspberry Pi](/GrovePiPlus "GrovePi+")
+### With Raspberry Pi
 
 1.You should have got a raspberry pi and a grovepi or grovepi+.
 
-2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus#Introducing_the_GrovePi.2B).
+2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus).
 
 3.Connection
 

@@ -38,7 +38,7 @@ Parts list
 | [Grove - Protoshield](http://www.seeedstudio.com/depot/Grove-Protoshield-p-772.html?cPath=44_46)                             | 1PC     |
 | [Grove - Magnetic Switch](http://www.seeedstudio.com/depot/Grove-Magnetic-Switch-p-744.html?cPath=25_33)                     | 1PC     |
 | [Grove - 3-Axis Digital Accelerometer(±1.5g)](/Grove-3-Axis_Digital_Accelerometer-1.5g)                                      | 1PC     |
-| [Grove - IR Distance Interrupt](/Grove-IR_Distance_Interrupt)                                                                | 1PC     |
+| [Grove - IR Distance Interrupt](/Grove-IR_Distance_Interrupter_v1.2)                                                         | 1PC     |
 | [Grove - Barometer Sensor (BMP180)](http://www.seeedstudio.com/depot/Grove-Barometer-Sensor-BMP180-p-1840.html?cPath=25_124) | 1PC     |
 | [Grove - Air quality sensor v1.3](http://www.seeedstudio.com/depot/Grove-Air-quality-sensor-v13-p-2439.html?cPath=25_127)    | 1PC     |
 | [Grove - Gesture](http://www.seeedstudio.com/depot/Grove-Gesture-p-2463.html?cPath=25_33)                                    | 1PC     |

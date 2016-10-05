@@ -109,7 +109,7 @@ Supported
 Not supported
 </td>
 <td>
-Supported(only with [Grove Base Cape for Beaglebone](/Grove_Base_Cape_for_BeagleBone_v2))
+Supported(only with Grove Base Cape for Beaglebone v2)
 </td>
 <td>
 Not supported

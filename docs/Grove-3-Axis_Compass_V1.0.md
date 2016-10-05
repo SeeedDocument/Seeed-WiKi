@@ -56,17 +56,17 @@ Now let's start to run your compass.
 
 4. Replace the value of variable "declinitionAngle" with the one you've figured out already.
 
-5. Upload the Code. Please click [here](/Upload_Code) if you do not know how to upload.
+5. Upload the Code.
 
 6. Check the output result by opening the serial monitor.
 
     ![](https://raw.githubusercontent.com/SeeedDocument/Grove-3-Axis_Compass_V1.0/master/img/Digital_Compass2.jpg)
 
-### With [Raspberry Pi](/GrovePiPlus "GrovePi+")
+### With Raspberry Pi
 
 1.You should have got a raspberry pi and a grovepi or grovepi+.
 
-2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus#Introducing_the_GrovePi.2B).
+2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus).
 
 3.Connection
 

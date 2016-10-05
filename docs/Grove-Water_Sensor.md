@@ -182,15 +182,15 @@ The following sketch demonstrates a simple application of using the Water sensor
     }
 ```
 
--   Upload the code, Please click [here](/Upload_Code) if you do not know how to upload.
+-   Upload the code.
 
 -   The buzzer sounds when the sensor is damp or completely immersed in water. Have a try!
 
-### With [Raspberry Pi](/GrovePiPlus "GrovePi+")
+### With Raspberry Pi
 
 1.You should have a raspberry pi and a grovepi or grovepi+.
 
-2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus#Introducing_the_GrovePi.2B).
+2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus).
 
 3.Connection
 

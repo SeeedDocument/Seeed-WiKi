@@ -130,7 +130,7 @@ Usage
 
 We will provide an example here to show you how to use this sensor to measure the temperature of the target which is in front of the sensor,and print the result on the serial monitor.
 
--   Connect this module to seeeduino using [Grove - Base Shield](/Grove-Base_Shield "Grove - Base Shield") port D2.
+-   Connect this module to seeeduino using [Grove - Base Shield](/Base_Shield_V2 "Grove - Base Shield") port D2.
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Digital_Infrared_Temperature_Sensor/master/img/Digital_Infrared_Temperature_Sensor4.JPG)
 
@@ -146,7 +146,7 @@ We will provide an example here to show you how to use this sensor to measure th
 
     Since the sensor is factory calibrated with the digital SMBus compatible interface enabled,but the library is based on a soft i2c library,so you can use any digital pins on any AVR chip to drive the SDA and SCL lines.We use D2 as the SCL pin and D3 as the SDA pin in this demo code.
 
-4. Upload the code into Arduino. Please click [here](/Upload_Code "Upload Code") if you do not know how to upload. Note that you should select the correct board type and COM port.
+4. Upload the code into Arduino.
 5. Start up the Serial Monitor.
 
     You can see :

@@ -190,7 +190,7 @@ When you complete the hardware installation, it should look like this
 
     Finally, get the files information such as name, date and size in bytes that found on the card.
 
-2. Upload the code. If you do not know how to upload code, please click [here](/Upload_Code).
+2. Upload the code. 
 
 3. View Results. You can see the follow image after Click the serial monitor.
 

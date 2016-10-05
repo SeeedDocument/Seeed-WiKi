@@ -245,14 +245,14 @@ As the picture on the below indicates, the Magnetic switch is connected to digit
     }
 ```
 
--   Upload the code, Please click [here](/Upload_Code) if you do not know how to upload.
+-   Upload the code.
 -   Then the LED light when there is Magnetic approaches the switch. Have a try!
 
-### With [Raspberry Pi](/GrovePiPlus "GrovePi+")
+### With Raspberry Pi
 
 1.You should have a raspberry pi and a grovepi or grovepi+.
 
-2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus#Introducing_the_GrovePi.2B).
+2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus).
 
 3.Connection
 

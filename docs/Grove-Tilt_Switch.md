@@ -142,7 +142,7 @@ The following sketch demonstrates a simple application of using the Tilt Switch 
     }
 ```
 
--   Upload the code, please click [here](/Upload_Code) if you do not know how to upload.
+-   Upload the code.
 -   Then the LED will light when you press the button or activate the tilt-switch. Have a try!
 
 Reference
@@ -157,11 +157,11 @@ The operating angle of Grove-Tilt Switch as shown below:
 The mark J1 on the Grove is the reference terminal.
 </div>
 
-### With [Raspberry Pi](/GrovePiPlus "GrovePi+")
+### With Raspberry Pi
 
 1.You should have a Raspberry Pi and a Grovepi or Grovepi+. 
 
-2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus#Introducing_the_GrovePi.2B).
+2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus).
 
 3.Connection
 

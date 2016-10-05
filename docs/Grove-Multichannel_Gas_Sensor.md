@@ -42,7 +42,7 @@ We suggest you to read those knowledge before using the Gas sensor, it'll help y
 
 -   [Getting Started with Arduino](/Getting_Started_with_Seeeduino)
 -   [What is Grove system](/Grove_System)
--   [Why i need a Base shield?](/Base_shield_v2)
+-   [Why i need a Base shield?](/Base_Shield_V2)
 
 After reading that you will know how to use Base shield with Grove products to work well with Arduino. Let's start it !
 

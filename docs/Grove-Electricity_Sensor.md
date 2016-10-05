@@ -129,7 +129,7 @@ The following sketch demonstrates a simple application of measuring the amplitud
     }
 ```
 
--   Upload the code, please click [here](/Upload_Code) if you do not know how to upload.
+-   Upload the code.
 
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -140,11 +140,11 @@ The minimum effective current that can be sensed by the code can be calculated u
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Electricity_Sensor/master/img/Elecricity_Sensor.jpg)
 
-### With [Raspberry Pi](/GrovePiPlus "GrovePi+")
+### With Raspberry Pi
 
 1.You should have got a raspberry pi and a grovepi or grovepi+.
 
-2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus#Introducing_the_GrovePi.2B).
+2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus).
 
 3.Connection
 

@@ -56,14 +56,14 @@ Getting Started
 
 The Hall Sensor is used by utilizing the external interrupts available on the arduino/seeeduino. In this example we are using interrupt 0, found on digital pin 2. For other interrupts, see the [attachInterrupt()](http://www.arduino.cc/en/Reference/AttachInterrupt).
 
--   Connect the Hall Sensor to Digital port 2 of the [Grove - Base Shield](/Grove-Base_Shield) using a 4 pin cable and connect Grove-LED to Digital Port 4.
+-   Connect the Hall Sensor to Digital port 2 of the [Grove - Base Shield](/Base_Shield_V2) using a 4 pin cable and connect Grove-LED to Digital Port 4.
 -   Then connect Arduino to PC by using a USB cable.
 -   Download the [Hall Sensor Code](https://raw.githubusercontent.com/SeeedDocument/Grove-Hall_Sensor/master/res/Grove-Hall_Sensor_Demo_Code.zip)
 -   Open one of two code. For example Demo **MagnetControlLED**
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Hall_Sensor/master/img/Hall_Sensor_Demo_Code.jpg)
 
--   Upload the code, Please click [here](/Upload_Code) if you do not know how to upload.
+-   Upload the code.
 -   When a magnet whose south pole is facing up is approaching to the onboard sensor, the LED will be turned on. Otherwise, the LED will be turned off.
 
 Resources

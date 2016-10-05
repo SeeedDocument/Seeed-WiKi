@@ -45,11 +45,11 @@ Getting Started
 Following documents help in getting the user started with Grove.
 
 -   [Preface - Getting Started](http://www.seeedstudio.com/document/pdf/Preface.pdf)
--   [to Grove](http://www.seeedstudio.com/document/pdf/%20to%20Grove.pdf)
+-   [to Grove](http://www.seeedstudio.com/document/pdf/Introduction%20to%20Grove.pdf)
 
 ### Hardware Connections
 
-Grove products have an eco system and all have the same connector which can plug onto the [Base Shield](/Base_shield_v2). Connect this module to the I2C port of Base Shield. However, you can also connect Grove - I2C Color Sensor to Arduino without Base Shield by jumper wires.
+Grove products have an eco system and all have the same connector which can plug onto the [Grove Base Shield](/Base_Shield_V2). Connect this module to the I2C port of Base Shield. However, you can also connect Grove - I2C Color Sensor to Arduino without Base Shield by jumper wires.
 
 | Arduino UNO | Grove - I2C Color Sensor |
 |-------------|--------------------------|

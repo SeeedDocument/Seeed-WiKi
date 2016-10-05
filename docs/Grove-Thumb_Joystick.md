@@ -55,7 +55,7 @@ The Grove - Thumb Joystick is an analog device that outputs analog signal rangin
 3.Connect Arduino to PC by using a USB cable.
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Thumb_Joystick/master/img/Grove-Thumb_Joystick.jpg)
 
-4.Copy and paste code below to a new Arduino sketch. Please click [here](/Upload_Code) if you do not know how to upload.
+4.Copy and paste code below to a new Arduino sketch. 
 
 ```
     /*
@@ -86,11 +86,11 @@ The Grove - Thumb Joystick is an analog device that outputs analog signal rangin
 
 The output value from the analog port of Arduino can be converted to the corresponding resistance using the formula:R=(float)(1023-sensorValue)\*10/sensorValue.
 
-### With [Raspberry Pi](/GrovePiPlus "GrovePi+")
+### With Raspberry Pi
 
 1.You should have got a raspberry pi and a grovepi or grovepi+.
 
-2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus#Introducing_the_GrovePi.2B).
+2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus).
 
 3.Connection
 

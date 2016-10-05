@@ -20,7 +20,6 @@ In addition to the RePhone GSM+BLE, we have created 8 add on modules to expand f
 
 Here is the list of the RePhone Boards you can find in the Seeed WiKi. The list will be constantly updated.
 
-- [Arduino IDE for RePhone Kit](/Arduino_IDE_for_RePhone_Kit/)
 - [Xadow - LED 5x7](/Xadow_LED_5x7/)
 - [Xadow 1.54&#39;&#39; Touchscreen](/Xadow_1.54_inch_Touchscreen/)
 - [Xadow Audio](/Xadow_Audio/)
@@ -30,5 +29,6 @@ Here is the list of the RePhone Boards you can find in the Seeed WiKi. The list 
 - [Xadow GSM Breakout](/Xadow_GSM_Breakout/)
 - [Xadow GSM&#43;BLE](/Xadow_GSMPlusBLE/)
 - [Xadow NFC](/Xadow_NFC/)
+- [Xadow Pebble Time Adapter](/Xadow_Pebble_Time_Adapter/)
 
 

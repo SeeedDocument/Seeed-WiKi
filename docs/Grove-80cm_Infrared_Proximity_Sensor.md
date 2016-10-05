@@ -159,7 +159,7 @@ This sensor is quite small and use a tiny connector called the Japan Solderless 
     } 
 ```
 
--   Upload the code, please click [here](/Upload_Code) if you do not know how to upload.
+-   Upload the code.
 -   Open the Serial Monitor, you can get the voltage. you can calculate or find the distance to the reflective object according to the below figures.
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-80cm_Infrared_Proximity_Sensor/master/img/Infrared_Proximity.jpg)
@@ -173,7 +173,7 @@ Because of some basic trigonometry within the triangle from the emitter to refle
 
 1.You should have got a raspberry pi and a grovepi or grovepi+.
 
-2.You should have completed configuring the development environment, otherwise follow [here](/GrovePiPlus#Introducing_the_GrovePi.2B).
+2.You should have completed configuring the development environment, otherwise follow [here](/GrovePiPlus).
 
 3.Connection
 

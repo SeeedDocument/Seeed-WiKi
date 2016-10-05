@@ -35,7 +35,7 @@ Version Tracker
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="/Seeeduino_Arch" title="Seeeduino Arch">Seeeduino Arch V1.0</a></td>
+<td>Seeeduino Arch V1.0</td>
 <td><ul>
 <li>Initial public release</li>
 </ul></td>

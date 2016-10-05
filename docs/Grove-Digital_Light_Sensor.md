@@ -122,7 +122,7 @@ Usage
     }
 ```
 
-5.Upload the code. Please click [here](/Upload_Code) if you do not know how to upload.
+5.Upload the code.
 
 6.Open the serial monitor to see the result.
 
@@ -130,11 +130,11 @@ Usage
 
 In the case of completely light matte, The output result is 0.
 
-### With [Raspberry Pi](/GrovePiPlus "GrovePi+")
+### With Raspberry Pi
 
 1.You should have got a raspberry pi and a grovepi or grovepi+.
 
-2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus#Introducing_the_GrovePi.2B).
+2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus).
 
 3.Connection
 
