@@ -10,16 +10,19 @@ The most attractive thing about Wio must be the virtualizing plug-n-play modules
 
 We have arranged many interesting projects tutorial for you to get started, by using Wio, you are able to water your plant remotely or feed your dog when you aren’t home, wanna dig out what other things you can make with Wio? Check out soon the docs of Wio link and Wio node, have fun!
 
-## Product  List
 
-Here is the list of the Wio Board you can find in the Seeed WiKi. The list will be constantly updated.
+## Product List
+---
+
+Here is the list of the Wio Boards you can find in the Seeed WiKi. The list will be constantly updated.
 
 - [Wio Link](/Wio_Link/)
-- [Wio Node](/Wio_Node/)
 - [Wio Link Bootcamp Kit](/Wio_Link_Bootcamp_Kit/)
 - [Wio Link Deluxe Kit](/Wio_Link_Deluxe_Kit/)
 - [Wio Link Deluxe Plus Kit](/Wio_Link_Deluxe_Plus_Kit/)
 - [Wio Link Environment Kit](/Wio_Link_Environment_Kit/)
 - [Wio Link Event Kit](/Wio_Link_Event_Kit/)
 - [Wio Link Starter Kit](/Wio_Link_Starter_Kit/)
-- [Xadow Pebble Time Adapter](/Xadow_Pebble_Time_Adapter/)
+- [Wio Node](/Wio_Node/)
+
+

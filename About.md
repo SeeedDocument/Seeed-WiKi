@@ -1,6 +1,0 @@
----
-title: About Introduction
-nointro:
----
-
-

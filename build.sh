@@ -8,7 +8,12 @@ do
 	echo "------------------------"
 	cp mkdocs-templates/$fn layouts/index.html
 	hugo --contentDir=../docs/
-	cp public/index.html ../$fn
+        if [[ $fn == *.md ]]
+        then
+ 	   cp public/index.html ../docs/$fn
+        else
+           cp public/index.html ../$fn   
+        fi
 	rm layouts/index.html
         echo ""
 done

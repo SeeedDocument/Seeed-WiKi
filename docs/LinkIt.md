@@ -9,14 +9,16 @@ The first product you need to know about the LinkIt family is LinkIt One, becaus
 After LinkIt ONE, we released LinkIt Smart 7688 and LinkIt Smart 7688 Duo, both are designed especially for the prototyping of Rich Application IoT devices for Smart-Home and offices. In order to make the prototyping even more convenient, you may find that we also released some breakouts for LinkIt Smart 7688 and LinkIt Smart 7688 Duo such as Arduino Breakout for LinkIt Smart 7688 Duo and Breakout for LinkIt Smart 7688 V2.0. More and more boards are joining in the LinkIt family, and you can find all the tutorial of how to get started with these boards in the New Seeed Wiki. Happy hacking!
 
 ## Product  List
+--
 
-Here is the list of the Wio Board you can find in the Seeed WiKi. The list will be constantly updated.
+Here is the list of the LinkIt Boards you can find in the Seeed WiKi. The list will be constantly updated.
 
--	[LinkIt One](/LinkIt_ONE/)
--	[LinkIt Smart 7688 Duo](/LinkIt_Smart_7688_Duo/)
--	[Arduino Breakout for LinkIt Smart 7688 Duo](/Arduino_Breakout_for_LinkIt_Smart_7688_Duo/)
--	[Breakout for LinkIt Smart 7688 v2.0](/Breakout_for_LinkIt_Smart_7688_v2.0/)
--	[Grove Breakout for LinkIt Smart 7688 Duo](/Grove-Breakout_for_LinkIt_Smart_7688_Duo/)
+- [Arduino Breakout for LinkIt Smart 7688 Duo](/Arduino_Breakout_for_LinkIt_Smart_7688_Duo/)
+- [Breakout for LinkIt Smart 7688 v2.0](/Breakout_for_LinkIt_Smart_7688_v2.0/)
 - [Grove - Starter Kit for LinkIt ONE](/Grove-Starter_Kit_for_LinkIt_ONE/)
+- [Grove Breakout for LinkIt Smart 7688 Duo](/Grove_Breakout_for_LinkIt_Smart_7688_Duo/)
 - [Grove Starter kit for LinkIt Smart7688 Duo](/Grove_Starter_kit_for_LinkIt_Smart7688_Duo/)
+- [LinkIt ONE](/LinkIt_ONE/)
+- [LinkIt Smart 7688 Duo](/LinkIt_Smart_7688_Duo/)
 - [Linkit Connect 7681](/Linkit_Connect_7681/)
+

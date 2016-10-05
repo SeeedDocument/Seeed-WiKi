@@ -13,7 +13,8 @@ Seeed Studio is one of the members that producing mbed boards. Up to now, there 
 
 ## Product  List
 ---
-Here is the list of the Wio Board you can find in the Seeed WiKi. The list will be constently updated.
+
+Here is the list of the mbed Boards you can find in the Seeed WiKi. The list will be constantly updated.
 
 - [Arch BLE](/Arch_BLE/)
 - [Arch GPRS V2](/Arch_GPRS_V2/)
@@ -21,3 +22,4 @@ Here is the list of the Wio Board you can find in the Seeed WiKi. The list will 
 - [Arch Max v1.1](/Arch_Max_v1.1/)
 - [Arch Pro](/Arch_Pro/)
 - [Arch V1.1](/Arch_V1.1/)
+

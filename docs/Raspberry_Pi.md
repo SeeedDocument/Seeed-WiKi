@@ -13,9 +13,12 @@ At Seeed Studio, we provide not only different raspberry pi boards that mentione
 
 ## Product List
 ---
-Here is the list of the BeagleBone Board you can find in the Seeed WiKi. The list will be constantly updated.
+
+Here is the list of the Raspberry Pi Boards you can find in the Seeed WiKi. The list will be constantly updated.
 
 - [Raspberry Pi Breakout Board v1.0](/Raspberry_Pi_Breakout_Board_v1.0/)
 - [Raspberry Pi Motor Driver Board v1.0](/Raspberry_Pi_Motor_Driver_Board_v1.0/)
 - [Raspberry Pi RS232 Board v1.0](/Raspberry_Pi_R232_Board_v1.0/)
 - [Raspberry Pi Relay Board v1.0](/Raspberry_Pi_Relay_Board_v1.0/)
+
+
