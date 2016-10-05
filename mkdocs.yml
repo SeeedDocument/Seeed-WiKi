@@ -4,6 +4,7 @@ pages:
 - Home: index.md
 
 - Platform:
+    - Platform Introduction: Platform.md
     - Arduino:
         - Arduino Introduction: Arduino.md
         - 2.8&#39;&#39; TFT Touch Shield v2.0: 2.8inch_TFT_Touch_Shield_v2.0.md
@@ -99,8 +100,10 @@ pages:
 
     
 - Grove:
+    - Grove Introduction: Grove.md
     - Grove System: Grove_System.md
     - Sensor:
+        - Sensor Introduction: Sensor.md
         - Grove - 3 Axis Digital Accelerometer(±16g): Grove-3-Axis_Digital_Accelerometer-16g.md
         - Grove - 3-Axis Analog Accelerometer: Grove-3-Axis_Analog_Accelerometer.md
         - Grove - 3-Axis Compass V1.0: Grove-3-Axis_Compass_V1.0.md
@@ -183,7 +186,7 @@ pages:
         - Grove - Water Sensor: Grove-Water_Sensor.md
 
     - Actuator:
-        - Actuator: Actuator.md
+        - Actuator Introduction: Actuator.md
         - Grove - 2-Coil Latching Relay: Grove-2-Coil_Latching_Relay.md
         - Grove - Button: Grove-Button.md
         - Grove - Buzzer: Grove-Buzzer.md
@@ -206,6 +209,7 @@ pages:
         - Grove - Water Atomization: Grove-Water_Atomization.md
 
     - Display:
+        - Display Introduction: Display.md
         - Grove - 4-Digit Display: Grove-4-Digit_Display.md
         - Grove - LCD RGB Backlight: Grove-LCD_RGB_Backlight.md
         - Grove - LED Bar: Grove-LED_Bar.md
@@ -214,7 +218,7 @@ pages:
         - I2C LCD: I2C_LCD.md
 
     - Communication:
-        - Communication: Communication.md
+        - Communication Introduction: Communication.md
         - Grove - 125KHz RFID Reader: Grove-125KHz_RFID_Reader.md
         - Grove - 315MHz RF Kit: Grove-315MHz_RF_Kit.md
         - Grove - 433MHz Simple RF Link Kit: Grove-433MHz_Simple_RF_Link_Kit.md
@@ -229,6 +233,7 @@ pages:
         - Grove BLE v1: Grove-BLE_v1.md
 
     - Others:
+        - Others Introduction: Others.md
         - Grove - Differential Amplifier v1.2: Grove-Differential_Amplifier_v1.2.md
         - Grove - I2C Hub: Grove-I2C_Hub.md
         - Grove - MOSFET: Grove-MOSFET.md
@@ -239,6 +244,7 @@ pages:
 
 
 - IoT:
+        - IoT Introduction: IoT.md
         - BLE Carbon: BLE_Carbon.md
         - BLE Nitrogen: BLE_Nitrogen.md
         - BeagleBone Green: BeagleBone_Green.md
@@ -249,6 +255,7 @@ pages:
 
 
 - Tutorial:
+        - Tutorial Introduction: Tutorial.md
         - FM Receiver: FM_Receiver.md
         - How to install an Arduino library: How_to_install_Arduino_Library.md
         - JavaScript for RePhone: JavaScript_for_RePhone.md
@@ -257,10 +264,11 @@ pages:
 
 
 - MakerPro:
-        - Maker Pro: MakerPro.md
+    - MakerPro Introduction: MakerPro.md
 
 
 - About:
+    - About Introduction: About.md
     - License: License.md
     - Survey: survey_end.md
     - 404: 404.md

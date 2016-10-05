@@ -1,6 +1,6 @@
 ---
-title: Communication
-category: Communication
+title: Communication Introduction
+nointro:
 ---
-// to be continued
+
 

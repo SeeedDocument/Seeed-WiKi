@@ -1,6 +1,5 @@
 ---
-title: Maker Pro
-category: MakerPro
+title: MakerPro Introduction
+nointro:
 ---
 
-// to be continued

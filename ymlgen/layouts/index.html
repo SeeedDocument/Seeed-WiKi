@@ -4,6 +4,7 @@ pages:
 - Home: index.md
 
 - Platform:
+    - Platform Introduction: Platform.md
     - Arduino:
         - Arduino Introduction: Arduino.md
 {{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Arduino") (eq $cat2 "Arduino") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
@@ -27,28 +28,38 @@ pages:
 {{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Wio") (eq $cat2 "Wio") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
     
 - Grove:
+    - Grove Introduction: Grove.md
     - Grove System: Grove_System.md
     - Sensor:
+        - Sensor Introduction: Sensor.md
 {{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Sensor") (eq $cat2 "Sensor") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
     - Actuator:
+        - Actuator Introduction: Actuator.md
 {{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Actuator") (eq $cat2 "Actuator") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
     - Display:
+        - Display Introduction: Display.md
 {{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Display") (eq $cat2 "Display") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
     - Communication:
+        - Communication Introduction: Communication.md
 {{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Communication") (eq $cat2 "Communication") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
     - Others:
+        - Others Introduction: Others.md
 {{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Others") (eq $cat2 "Others") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
 
 - IoT:
+        - IoT Introduction: IoT.md
 {{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "IoT") (eq $cat2 "IoT") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
 
 - Tutorial:
+        - Tutorial Introduction: Tutorial.md
 {{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Tutorial") (eq $cat2 "Tutorial") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
 
 - MakerPro:
+    - MakerPro Introduction: MakerPro.md
 {{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "MakerPro") (eq $cat2 "MakerPro") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
 
 - About:
+    - About Introduction: About.md
     - License: License.md
     - Survey: survey_end.md
     - 404: 404.md
