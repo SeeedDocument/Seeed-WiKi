@@ -671,7 +671,7 @@ Resources
 -   [Grove - Button](/Grove-Button)
 -   [Grove - Temperature sensor v1.2](/Grove-Temperature_Sensor_V1.2)
 -   [Grove - Sound sensor](/Grove-Sound_Sensor)
--   [Grove - 3-Axis Digital Accelerometer ADXL345](/Grove-3-Axis_Digital_Accelerometer_ADXL345)
+-   [Grove - 3-Axis Digital Accelerometer ADXL345](/Grove-3-Axis_Digital_Accelerometer-16g)
 -   [Grove - Chainable RGB LED](/Grove-Chainable_RGB_LED)
 
 <!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Beagle_Bone_Green_and_Grove_IoT_Starter_Kit_Powered_by_AWS -->

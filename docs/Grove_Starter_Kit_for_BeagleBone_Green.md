@@ -98,7 +98,7 @@ It's base on an advanced 3-axis IC ADXL345. Have no worry to implement it into y
 
 Meanwhile, it's agile enough to detect single and double taps. It's ideal for motion detection, Gesture detection as well as robotics.
 
-If you want to know more info about this module please click [**here**](/Grove-3-Axis_Digital_Accelerometer_ADXL345).
+If you want to know more info about this module please click [**here**](/Grove-3-Axis_Digital_Accelerometer-16g).
 
 ### Grove - Relay
 
