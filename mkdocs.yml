@@ -261,6 +261,7 @@ pages:
 
 
 - About:
+    - License: License.md
     - Survey: survey_end.md
     - 404: 404.md
         

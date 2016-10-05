@@ -145,6 +145,14 @@ img{
   margin: auto;
 }
 
+img.img-left{
+  vertical-align:inherit;
+  max-width:100%;
+  max-height: 600px;
+  display: inline;
+  margin: none;
+}
+
 table{
   width: 100%;
 }
