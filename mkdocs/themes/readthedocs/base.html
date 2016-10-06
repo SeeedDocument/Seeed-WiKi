@@ -9,7 +9,7 @@
   <meta name="twitter:site" content="@seeedstudio">
   <meta property="og:title" content="{% if page_title %}{{ page_title }} - {% endif %}{{ site_name }}">
   <meta property="og:type" content="article">
-  <meta property="og:url" content="{{ canonical_url }}">
+  <meta property="og:url" content="http://wiki.seeed.cc{% if current_page %}{{ current_page.abs_url }}{% endif %}">
   {% if current_page %}{% if meta.bzprodimageurl %}<meta property="og:image" content="{{ meta.bzprodimageurl[0] }}">{% endif %}{% endif %}
   {% if page_description %}<meta name="description" content="{{ page_description }}">{% endif %}
   {% if site_author %}<meta name="author" content="{{ site_author }}">{% endif %}

@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Temperature&Humidity-Sensor-(HDC1000)-p-2535.html
 oldwikiname: Grove_-_Temperature&Humidity_Sensor_(HDC1000)
 prodimagename: Grove-TemperatureAndHumidity_Sensor-HDC1000-p1.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/seeed/master/img/2016-09/MAVhqWeEjBMyo5O1o2MfVA4S.jpg
+bzprodimageurl: http://statics3.seeedstudio.com/seeed/img/2016-09/MAVhqWeEjBMyo5O1o2MfVA4S.jpg
 surveyurl: https://www.research.net/r/Grove-TemperatureAndHumidity_Sensor-HDC1000
 sku: 101020087
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit

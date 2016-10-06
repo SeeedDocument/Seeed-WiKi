@@ -4,7 +4,7 @@ category: LinkIt
 bzurl: https://seeedstudio.com/LinkIt-Connect-7681-Wi-Fi-HDK-for-IoT-p-2262.html
 oldwikiname: Linkit_Connect_7681
 prodimagename: Linkit_Connect_7681.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/seeed/master/img/2016-08/lsGYRgJ7TRIO1BtAgf43AVd0.jpg
+bzprodimageurl: http://statics3.seeedstudio.com/seeed/img/2016-08/lsGYRgJ7TRIO1BtAgf43AVd0.jpg
 surveyurl: https://www.research.net/r/Linkit_Connect_7681
 sku: 113990100
 ---

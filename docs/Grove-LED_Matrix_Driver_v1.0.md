@@ -4,7 +4,7 @@ category: Actuator
 bzurl: https://seeedstudio.com/Grove-LED-Matrix-Driver-v1.0-p-2645.html
 oldwikiname: Grove_-_LED_Matrix_Driver_v1.0
 prodimagename: Grove-LED_Matrix_Driver_v1.0_product_view_700_s.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/seeed/master/img/2016-07/POVQFNSv9hKluouORsqs2H5s.jpg
+bzprodimageurl: http://statics3.seeedstudio.com/seeed/img/2016-07/POVQFNSv9hKluouORsqs2H5s.jpg
 surveyurl: https://www.research.net/r/Grove-LED_Matrix_Driver_v1_0
 sku: 105020013
 tags: plat_duino, plat_pi, plat_bbg, plat_linkit

@@ -4,7 +4,7 @@ category: Raspberry Pi
 bzurl: https://seeedstudio.com/Raspberry-Pi-RS232-Board-v1.0-p-2408.html
 oldwikiname: Raspberry_Pi_R232_Board_v1.0
 prodimagename: Raspberry_Pi-R232-Board-v1.0.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/seeed/master/img/2016-08/SpUze3JXjsgK1XzFCoMPaSfr.jpg
+bzprodimageurl: http://statics3.seeedstudio.com/seeed/img/2016-08/SpUze3JXjsgK1XzFCoMPaSfr.jpg
 surveyurl: https://www.research.net/r/Raspberry_Pi_R232_Board_v1_0
 sku: 103030028
 ---

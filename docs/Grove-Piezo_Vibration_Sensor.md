@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Piezo-Vibration-Sensor-p-1411.html
 oldwikiname: Grove_-_Piezo_Vibration_Sensor
 prodimagename: Grove-Piezo_Vibration_Sensor-1.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/seeed/master/img/2016-06/VGKGp4ZlaglN4DMgnVAhUzUz.jpg
+bzprodimageurl: http://statics3.seeedstudio.com/seeed/img/2016-06/VGKGp4ZlaglN4DMgnVAhUzUz.jpg
 surveyurl: https://www.research.net/r/Grove-Piezo_Vibration_Sensor
 sku: 101020031
 tags: grove_analog, io_3v3, io_5v, plat_duino

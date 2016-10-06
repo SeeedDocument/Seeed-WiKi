@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Barometer-Sensor-(BMP280)-p-2652.html
 oldwikiname: Grove_-_Barometer_Sensor_(BMP280)
 prodimagename: Grove-Barometer_Sensor-BMP280-700_s.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/seeed/master/img/2016-06/oVNA7LQwPYYFnB674KEPM9w7.jpg
+bzprodimageurl: http://statics3.seeedstudio.com/seeed/img/2016-06/oVNA7LQwPYYFnB674KEPM9w7.jpg
 surveyurl: https://www.research.net/r/Grove-Barometer_Sensor-BMP280
 sku: 101020192
 ---
