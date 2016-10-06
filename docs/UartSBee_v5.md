@@ -36,6 +36,6 @@ Resources
 ---------
 
 -   [Eagle file for UartSBee v5](https://raw.githubusercontent.com/SeeedDocument/UartSBee_v5/master/res/UartSBee_v5_eagle_file.zip)
--   [How to program Mesh Bee](/Mesh_Bee#5.2_How_to_update_firmware "Mesh Bee")
+-   [How to program Mesh Bee](/Mesh_Bee "Mesh Bee")
 
 <!-- This Markdown file was created from http://www.seeedstudio.com/wiki/UartSBee_v5 -->

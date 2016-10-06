@@ -235,11 +235,11 @@ Playing with some example code would be a good start if you are heading into som
 RePhone Community
 -----------------
 
-[![](https://raw.githubusercontent.com/SeeedDocument/Arduino_IDE_for_RePhone_Kit/master/img/RePhone_Community-2.png)](http://www.seeedstudio.com/forum/viewforum.php?f=71&sid=b70f8138c89becf7701260bb41faf9f4)
+[![](https://raw.githubusercontent.com/SeeedDocument/Arduino_IDE_for_RePhone_Kit/master/img/RePhone_Community-2.png)](http://www.seeed.cc/discover.html?t=RePhone)
 
 We have been looking for a better place where our backers (RePhone Users) can sit together, warmly and comfortably, have conversations about RePhone, discuss technical problems, share ideas/projects, and give feedback on the modules’ development in the future. And then here we go, the RePhone Community.
 
-Now join us in the [RePhone Community](http://www.seeedstudio.com/forum/viewforum.php?f=71&sid=b70f8138c89becf7701260bb41faf9f4)!
+Now join us in the [RePhone Community](http://www.seeed.cc/discover.html?t=RePhone)!
 
 Together we seek answers, make interesting stuff, care about each other, and share our experiences.
 

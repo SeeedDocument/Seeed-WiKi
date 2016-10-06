@@ -139,7 +139,7 @@ This section shows you how to build a simple project with Arduino platform. Even
 
 -   Grove - Barometer Sensor (BMP280) × 1
 -   [Seeeduino 4.2](http://www.seeedstudio.com/depot/Seeeduino-V42-p-2517.html) (fully compatible with Arduino) or Arduino UNO (other models are also fine) × 1
--   [Grove - Base Shield](/Grove-Base_shield_v2) × 1 (it is optional if you are using Seeeduino which has two I2C sockets on Seeeduino v4.2)
+-   [Grove - Base Shield](/Base_Shield_V2) × 1 (it is optional if you are using Seeeduino which has two I2C sockets on Seeeduino v4.2)
 -   USB cable (type A to type B, for Arduino) × 1 or USB cable (Type-A to micro Type-B, for Seeeduino) × 1
 -   [Grove cable](http://www.seeedstudio.com/depot/Grove-Universal-4-Pin-Buckled-5cm-Cable-5-PCs-Pack-p-925.html?cPath=98_106_57) × 1
 
