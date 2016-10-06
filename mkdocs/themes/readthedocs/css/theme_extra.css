@@ -140,7 +140,7 @@ code.cs, code.c {
 img{
   vertical-align:middle;
   max-width:100%;
-  max-height: 600px;
+  max-height: 500px;
   display: block;
   margin: auto;
 }
@@ -148,7 +148,7 @@ img{
 img.img-left{
   vertical-align:inherit;
   max-width:100%;
-  max-height: 600px;
+  max-height: 500px;
   display: inline;
   margin: none;
 }

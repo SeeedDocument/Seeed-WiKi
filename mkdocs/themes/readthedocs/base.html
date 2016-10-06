@@ -5,27 +5,28 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@seeedstudio">
+  <meta property="og:title" content="{% if page_title %}{{ page_title }} - {% endif %}{{ site_name }}">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="{{ canonical_url }}">
+  {% if current_page %}{% if meta.bzprodimageurl %}<meta property="og:image" content="{{ meta.bzprodimageurl[0] }}">{% endif %}{% endif %}
   {% if page_description %}<meta name="description" content="{{ page_description }}">{% endif %}
   {% if site_author %}<meta name="author" content="{{ site_author }}">{% endif %}
   {% block htmltitle %}
   <title>{% if page_title %}{{ page_title }} - {% endif %}{{ site_name }}</title>
   {% endblock %}
-
   {% if favicon %}<link rel="shortcut icon" href="{{ favicon }}">
   {% else %}<link rel="shortcut icon" href="{{ base_url }}/img/favicon.ico">{% endif %}
-
   {# CSS #}
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
-
   <link rel="stylesheet" href="{{ base_url }}/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="{{ base_url }}/css/theme_extra.css" type="text/css" />
   <link rel="stylesheet" href="{{ base_url }}/css/highlight-fix.css" type="text/css" />
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/tomorrow-night-eighties.min.css">
-
   {%- for path in extra_css %}
   <link href="{{ path }}" rel="stylesheet">
   {%- endfor %}
-
   {% if current_page %}
   <script>
     // Current page data
@@ -38,13 +39,10 @@
   <script src="{{ base_url }}/js/modernizr-2.8.3.min.js"></script>
   <script type="text/javascript" src="{{ base_url }}/js/highlight.pack.js"></script>
   <script src="{{ base_url }}/js/theme.js"></script>
-
   {%- block extrahead %} {% endblock %}
-
   {%- for path in extra_javascript %}
   <script src="{{ path }}"></script>
   {%- endfor %}
-
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -54,20 +52,16 @@
   ga('create', 'UA-84917600-1', 'auto');
   ga('send', 'pageview');
   </script>
-  
 </head>
 
 <body class="wy-body-for-nav" role="document">
-
   <div class="wy-grid-for-nav">
-
     {# SIDE NAV, TOGGLES ON MOBILE #}
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
       <div class="wy-side-nav-search">
         <a href="{{ homepage_url }}" class="icon icon-home"> {{ site_name }}</a>
         {% include "searchbox.html" %}
       </div>
-
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
         <ul class="current">
           {% for nav_item in nav %}
@@ -77,15 +71,12 @@
       </div>
       &nbsp;
     </nav>
-
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-
       {# MOBILE NAV, TRIGGLES SIDE NAV ON TOGGLE #}
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
         <a href="{{ homepage_url }}">{{ site_name }}</a>
       </nav>
-
       {# PAGE CONTENT #}
       <div class="wy-nav-content">
         <div class="rst-content">
@@ -106,7 +97,6 @@
                 </div>
 {% endif %}
                 {{ content }}
-
 {% if meta.tags %}{% set tags=[] %}{% set la = meta.tags[0].split(',') %}{% for item in la %}{{ tags.append(item.strip()) or '' }}{% endfor %}{% if 'plat_pi' in tags or 'plat_duino' in tags or 'plat_bbg' in tags or 'plat_wio' in tags or 'plat_linkit' in tags %}
 <div id="platforms-supported-table">
 </br>
@@ -130,8 +120,6 @@ $("#platforms-supported-table")
     .appendTo("#platforms-supported");
 </script>
 {% endif %}{% endif %}
-
-
                 {% if meta.surveyurl %}<h2 id="help-us-make-it-better">Help us make it better<a class="headerlink" href="#help-us-make-it-better" title="Permanent link"></a></h2>
 <p>Thank you for choosing <a href="http://www.seeed.cc">Seeed</a>. As one of the World's leading Open Hardware suppliers, <a href="https://www.seeedstudio.com">Seeedstudio</a> has been continuously creating good quality and diversified modules for our customers, makers and developers. As a young company, it is inevitable that few things were not handled adequately, for example, our document system. It is a little shame however true that we have been continuously receiving complaints about how hard it is to use our document system —— ugly interface, confusing content, and the URL that can never be opened etc. Here, we sincerely apologize for all the inconvenience you’ve experienced during using the old system.</p>
 
@@ -156,13 +144,9 @@ $("#platforms-supported-table")
 	  {% endblock %}
         </div>
       </div>
-
     </section>
-
   </div>
-
 {% include "versions.html" %}
-
 </body>
 </html>
 {% if current_page and current_page.is_homepage %}
