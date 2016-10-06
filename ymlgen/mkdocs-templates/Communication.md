@@ -1,7 +1,9 @@
 ---
-title: Communication Introduction
+title: Grove - Communication
 nointro:
 ---
+
+Grove modules related to wired or wireless communication are listed here.
 
 ## Product  List
 ---

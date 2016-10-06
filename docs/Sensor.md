@@ -6,7 +6,7 @@ nointro:
 ## Product List
 ---
 
-Here is the list of the Sensor Boards you can find in the Seeed WiKi. The list will be constantly updated.
+Here is the list of the Grove - Sensor Boards you can find in the Seeed WiKi. The list will be constantly updated.
 
 - [Grove - 3 Axis Digital Accelerometer(±16g)](/Grove-3-Axis_Digital_Accelerometer-16g/)
 - [Grove - 3-Axis Analog Accelerometer](/Grove-3-Axis_Analog_Accelerometer/)

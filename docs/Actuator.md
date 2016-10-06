@@ -1,7 +1,9 @@
 ---
-title: Actuator Introduction
+title: Grove - Actuator
 nointro:
 ---
+
+Grove - Actuators includes motor drivers, LED displays, Relay, Speakers, Buzzers and other modules.
 
 ## Product List
 ---

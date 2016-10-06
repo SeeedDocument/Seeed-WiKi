@@ -15,6 +15,6 @@ Here at  Seeed, you can find not only Arduino boardssuch such as Arduino Nano an
 ## Product  List
 ---
 
-Here is the list of the Seeeduino Board you can find in the Seeed WiKi. The list will constantly updated.
+Here is the list of the Seeeduino Boards you can find in the Seeed WiKi. The list will constantly updated.
 
 {{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Arduino") (eq $cat2 "Arduino") }}- [{{.Title}}](/{{.File.BaseFileName}}/){{"\n"}}{{ end }}{{ end }}

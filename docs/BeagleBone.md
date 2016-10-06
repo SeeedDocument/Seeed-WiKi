@@ -15,7 +15,7 @@ Not lone afte that, we released another BeagleBone named BeagleBone Green Wirele
 
 ## Product  List
 ---
-Here is the list of the BeagleBone Board you can find in the Seeed WiKi. The list will be constantly updated.
+Here is the list of the BeagleBone Boards you can find in the Seeed WiKi. The list will be constantly updated.
 
 - [Beagle Bone Green and Grove IoT Starter Kit Powered by AWS](/Beagle_Bone_Green_and_Grove_IoT_Starter_Kit_Powered_by_AWS/)
 - [BeagleBone Green](/BeagleBone_Green/)

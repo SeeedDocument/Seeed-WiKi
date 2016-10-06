@@ -1,7 +1,9 @@
 ---
-title: Display Introduction
+title: Grove - Display
 nointro:
 ---
+
+Grove modules that are related to LCD or LED displays are listed here.
 
 ## Product  List
 ---
