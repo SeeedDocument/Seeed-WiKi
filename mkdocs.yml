@@ -1,4 +1,9 @@
 site_name: Seeed Wiki
+site_url: http://wiki.seeed.cc
+site_description: Seeedstudio product documentation 
+site_author: Seeedstudio Team
+
+repo_url: https://github.com/SeeedDocument/Seeed-Wiki/
 
 pages:
 - Home: index.md
