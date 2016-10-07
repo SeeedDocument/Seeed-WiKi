@@ -1,0 +1,4 @@
+{{ range .Data.Pages.ByTitle }}{{.Title | safeHTML}},http://wiki.seeed.cc/{{.File.BaseFileName}}/,{{ if .Params.oldwikiname}}http://wiki.seeedstudio.com/wiki/{{ .Params.oldwikiname | safeHTML}}{{ end }}{{"\n"}}{{ end }}
+
+
+
