@@ -16,7 +16,7 @@ This Dust Sensor gives a good indication of the air quality in an environment by
     - This sensor uses counting method to measure dust concentration, not weighing method, and the unit is pcs/L or pcs/0.01cf.
     - Please pay attention to the warnings listed [here](#jump).
 
-[![](https://raw.githubusercontent.com/SeeedDocument/Grove_Dust_Sensor/master/image/150px-Get_One_Now_Banner.png)](https://www.seeedstudio.com/item_detail.html?p_id=1050)
+[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/item_detail.html?p_id=1050)
 ## Features
 ---
 - Stable and sensitive detection of not only cigarette smoke but house dust which are indoor asthma triggers.
@@ -42,6 +42,7 @@ In the latest version, output Hi Voltage is changed from 4.0V to 4.5V.
 |Humidity Range|	95% rh or less|-|
 
 ### Platform Supported
+
 |Arduino|
 |:---:|
 |![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/arduino_logo.jpg)|

@@ -11,7 +11,8 @@ sku: 103030009
 ---
 ![](https://github.com/SeeedDocument/Relay_Shield_v3.0/raw/master/img/Relay_Shield_L_v3.0.jpg)
 
-The Relay Shield provides a solution for controlling high current devices that cannot be controlled by the Arduino’s Digital I/O pins due to their current and voltage limits.
+The Relay Shield provides a solution for controlling high current devices that cannot be controlled by Arduino’s Digital I/O pins due to current and voltage limits.
+
 The Relay Shield features four high quality relays and provides NO/NC interfaces, four dynamic LED indicators to show the on/off state of each relay, and the standardized shield form factor to provide a smooth connection to the Arduino/Seeeduino board or other Arduino compatible boards.
 
 [![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/Relay-Shield-v3.0-p-2440.html)
@@ -33,19 +34,20 @@ The Relay Shield features four high quality relays and provides NO/NC interfaces
 |Item|	Min	|Typical	|Max	|Unit|
 |---|:---:|:---:|:---:|:---:|
 |Supply Voltage	|4.75	|5|	5.25	|VDC|
-|Working Current	|8|	/|	250|	mA|
-|Switching Voltage|	/|	/|	35|	VDC|
-|Switching Current|	/|	/|	8|A|
-|Frequency|	/|	1|	/|	HZ|
-|Switching Power|	/|	/|	70|	W|
-|Relay Life|	100,000|	/|	/|	Cycle|
+|Working Current	|8|	-|	250|	mA|
+|Switching Voltage|	-|	-|	35|	VDC|
+|Switching Current|	-|	-|	8|A|
+|Frequency|	-|	1|	-|	HZ|
+|Switching Power|	-|	-|	70|	W|
+|Relay Life|	100,000|	-|	-|	Cycle|
 |ESD contact discharge|-	|±4	|-|KV|
 |ESD air discharge|-|	±8|-|	KV|
 |Dimension|-|	68.7X53.5X30.8|-|	mm|
 |Net Weight|-|	55±2|-|	g|
 
 !!!Cautions
-    Place 2 layers of electrical tape on the top of the Arduino's usb connector. This will prevent the relay shield from making contact. Do not operate voltage more than 35V DC.
+    1. Please place 2 layers of electrical tape on the top of the Arduino's usb connector. This will prevent the relay shield from making contact.
+    2. Do not operate voltage more than 35V DC.
 
 ## Shield Interface Description
 ---
@@ -58,8 +60,11 @@ The Relay Shield features four high quality relays and provides NO/NC interfaces
 - Digital 7 – controls RELAY1’s COM1 pin (located in J1)
 
 **J1 Interface/Terminal Pin Description:**
+
 - **COM1 (Common Pin)** : The relay pin controlled from the digital pin.
+
 - **NC1 (Normally Closed)**: This terminal will be connected to COM1 when the RELAY1 control pin (Digital 7 I/O pin) is set low and disconnected when the RELAY1 control pin is set high.
+
 - **NO1 (Normally Open)**: This terminal will be connected to COM1 when the RELAY1 control pin (Digital 7 I/O pin) is set high and disconnected when the RELAY1 control pin is set low.
 
 **Terminals J2-4 are similar to J1 except that they control RELAY2-RELAY4 respectively. **
@@ -88,7 +93,7 @@ Now that you know how a relay works internally, let us show you how to use the R
 
 1.Stack the Relay Shield onto the Arduino development board.
 
-2.Connect the Arduino to the PC using a USB cable.
+2.Connect Arduino to your PC using a USB cable.
 
 3.We will use RELAY3 to control the DC motor. Connect the DC motor and Relay Shield as shown in the schematic and figure below:
 
@@ -130,7 +135,7 @@ Because the Relay Shield uses digital pins on the Arduino to control each the re
 
 ![](https://github.com/SeeedDocument/Relay_Shield_v3.0/raw/master/img/Two-relay-shields-one-arduino.png)
 
-- Relay Shield #1 GND pins are connected to Relay Shield #2 GND pins
+- Relay Shield #1 GND pin is connected to Relay Shield #2 GND pin
 - Relay Shield #1 5V pin is connected to Relay Shield #2 5V pin
 - Relay Shield #1 Digital Pins 8, 9, 10, and 11, are connected to Relay Shield #2 Digital Pins 7, 6, 5, and 4 respectively.
 

@@ -49,12 +49,12 @@ Application: You can use Gesture as an input device to control another grove, or
 ## With Arduino/Seeeduino
 
 Suggest Reading for Starter
-- Download Arduino and install Arduino driver
-- Getting Started with Seeeduino/Arduino
+- [Download Arduino and install Arduino driver](http://wiki.seeedstudio.com/wiki/Download_Arduino_and_install_Arduino_driver)
+- [Getting Started with Seeeduino/Arduino](http://wiki.seeedstudio.com/wiki/Getting_Started_with_Seeeduino)
 
 **Hardware Installation**
 
-Grove products have a eco system and all have a same connector which can plug onto the Base Shield. Connect this module to the I2C port of Base Shield, however, you can also connect Grove - Gesture to Arduino without Base Shield by jumper wires.
+Grove products have a eco system and all have a same connector which can plug onto the [Base Shield](https://www.seeedstudio.com/Base-Shield-V2-p-1378.html). Connect this module to the I2C port of Base Shield, however, without Base Shield, you can also connect Grove - Gesture to Arduino directly by jumper wires.
 
 |Arduino UNO|	Base Shield	|Grove - Gesture|
 |---|---|---|
@@ -66,7 +66,7 @@ Grove products have a eco system and all have a same connector which can plug on
 
 INT：Gesture detection interrupt flag mask. You can connect INT pad to digit 2 of Arduino by using jumper wire.
 
-Plug Grove - Gesture onto the I2C port of Base shield
+Below image shows how to plug Grove - Gesture onto the I2C port of Base shield
 
 ![](https://github.com/SeeedDocument/Grove_Gesture_V_1.0/raw/master/img/700px-Gesture_install_1.png)
 
@@ -81,7 +81,7 @@ We have created a library to help you start playing quickly with the Seeeduino/A
 
 Setup
 
-- Download the library code as a zip file from the Gesture_PAJ7620 github page.
+- [Download the library code as a zip file from the Gesture_PAJ7620 github page](https://github.com/Seeed-Studio/Gesture_PAJ7620).
 - Unzip the downloaded file into your …/arduino/libraries.
 - Rename the unzipped folder "Gesture"(or:"Gesture_PAJ7620")
 - Start the Arduino IDE (or restart if it is open).
@@ -117,7 +117,7 @@ void loop()
 
 These are the most important/useful function in the library, we invite you to look at the .h and .cpp files yourself to see all the functions available.
 
-1.  Initialize the gesture sensor chip PAJ7620
+**1.Initialize the gesture sensor chip PAJ7620**
 
 ```c
 void setup()
@@ -128,7 +128,7 @@ void setup()
 
 This initialization code should be added to each demo.
 
-2. Read data from PAJ7620 register via I2C
+**2.Read data from PAJ7620 register via I2C**
 - paj7620ReadReg(uint8_t addr, uint8_t qty, uint8_t data[])
  - addr: Register address
  - qty: Number of data to read, addr continuously increase.
@@ -166,11 +166,11 @@ This initialization code should be added to each demo.
 
 These examples are going to show you how to recognize gestures from this Grove - Gesture.]
 
-Open File->Examples->Gesture(or:Gesture_PAJ7620)->example->paj7620_9gestures sketch for a complete example.
+- Open File->Examples->Gesture(or:Gesture_PAJ7620)->example->paj7620_9gestures sketch for a complete example.
 
 **Description**: This example can recognize 9 gestures and output the result, including move up, move down, move left, move right, move forward, move backward, circle-clockwise, circle-counter clockwise, and wave. You also can use Gesture as an input device to control another grove, or a computer, mobile phone, smart car, robot, and more with a simple swipe of your hand.
 
-!!!Notice
+!!!Note
     When you want to recognize the Forward/Backward gestures, your gestures' reaction time must less than GES_ENTRY_TIME(0.8s). You also can adjust the reaction time according to the actual circumstance.
 
 ```

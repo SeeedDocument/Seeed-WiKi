@@ -41,7 +41,7 @@ This Moisture Senor can be used for detecting the moisture of soil or judge if t
 
 This is a summary of the moisture sensor which can be used to detect the moisture of the soil. When the soil moisture deflicits, the sensor output value will decrease. You can know whether a plant needs water or not by observing the result that the sensor output. The following sketch demostrates a simple application of sensoring the moisture of the soil.
 
-- Connect this module to one of analog port of A0 of Grove - Base Shield with 4 pin Grove cable, and then insert the sensor into the soil or plase it in anywhere you want
+- Connect this module to one of analog port of A0 of [Grove - Base Shield](https://www.seeedstudio.com/Grove-Base-Shield-p-754.html) with 4 pin Grove cable, and then insert the sensor into the soil or plase it in anywhere you want.
 
 - Plug Grove - Base Shield into the Arduino Seeeduino and connect Arduino to PC via an USB cable.
 
@@ -70,7 +70,7 @@ Serial.println(sensorValue);
 }
 ```
 
-- Upload the code, please click here if you don't know how to upload.
+- Upload the code, please click [here](https://seeeddoc.github.io/Upload_Code/) if you don't know how to upload.
 - The result in different condition after open the serial monitor
 
 ![](https://github.com/SeeedDocument/Grove_Moisture_Sensor/raw/master/images/in%20differen%20conditions.jpg)

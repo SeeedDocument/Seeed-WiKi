@@ -12,11 +12,11 @@ sku: 101020015
 
 The Grove - Temperature Sensor uses a [Thermistor](https://github.com/SeeedDocument/Grove-Temperature_Sensor_V1.2/raw/master/res/NCP18WF104F03RC.pdf) to detect the ambient temperature. The resistance of a thermistor will increase when the ambient temperature decreases. It's this characteristic that we use to calculate the ambient temperature. The detectable range of this sensor is -40 - 125ºC, and the accuracy is ±1.5ºC
 
-Note: This wiki works with Grove - Temperature sensor V1.1 as well, for V1.0 please refer to Grove - Temperature Sensor
+Note: This wiki works with Grove - Temperature sensor V1.1 as well, for V1.0 please refer to [Grove - Temperature Sensor](http://wiki.seeedstudio.com/wiki/Grove_-_Temperature_Sensor)
 
 [![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/Grove-Temperature-Sensor-p-774.html)
 
-##Specifications
+## Specifications
 ---
 - Voltage: 3.3 ~ 5V
 - Zero power resistance: 100 KΩ
@@ -34,14 +34,12 @@ Now we are making a simple demo to get data from Grove - Temperature Sensor V1.1
 
 - Seeeduino v4.2
 
-Seeeduino V4.2 is fully compatible with Arduino.
+Seeeduino V4.2 is fully compatible with Arduino.If this is your first time using Arduino, Please refer to [here](http://wiki.seeedstudio.com/wiki/Getting_Started_with_Seeeduino) to start your Arduino journey.
 
-If this is your first time using Arduino, Please put hand on here to start your Arduino journey.
-
-**Connecting hardware**
+**Hardware Connection**
 
 Just connect Grove - Temperature Sensor into A5 connector of Seeeduino v4.2
-As shown below:
+as shown below:
 
 ![](https://github.com/SeeedDocument/Grove-Temperature_Sensor_V1.2/raw/master/img/Grove_Temperature_Sensor_Hw_connect.jpg)
 

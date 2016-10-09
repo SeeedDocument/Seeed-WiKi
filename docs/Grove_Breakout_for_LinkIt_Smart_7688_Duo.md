@@ -11,7 +11,8 @@ sku: 103030032
 ---
 ![](https://github.com/SeeedDocument/Grove-Breakout_for_LinkIt_Smart_7688_Duo/raw/master/img/Breakout_for_LinkIt_Smart_7688_product_view_1200_s.jpg)
 
-Grove Breakout for LinkItTM Smart 7688 Duo is a Grove port integrated and a feature expansion board for LinkItTM Smart 7688 Duo development board[1]. This breakout board will save a lot of work for quicker prototyping, especially for novices through simplified wiring procedure. So it will help a beginner get a quick start. It supports serial buses like I2C, UART and provides access to reserved original pins of LinkItTM Smart 7688 Duo.
+Grove Breakout for LinkIt Smart 7688 Duo is a grove port integrated and a feature expansion board for LinkIt Smart 7688 Duo[1] development board. This breakout board will save a lot of work for quicker prototyping, by the simplified wiring procedure, even a beginner who has little electronic knowledge can start a project quickly. It supports serial buses like I2C, UART and provides access to reserved original pins of LinkItTM Smart 7688 Duo.
+
 [1] LinkItTM Smart 7688 Duo is an open development board based on the OpenWrt Linux distribution, MT7688 and ATmega32u4. The board is designed especially to enable the prototyping of Rich Application IoT devices for Smart-Home.
 
 [![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/Grove-Breakout-for-LinkIt-Smart-7688-Duo-p-2575.html)
@@ -47,14 +48,15 @@ Grove Breakout for LinkItTM Smart 7688 Duo is a Grove port integrated and a feat
 
 Connect rich [Grove](/Grove_System/) interfaced functional modules. With this kind of ports, you never need jumper wire or soldering work, and you can make more powerful applications with those functional modules.
 
-Getting started
+## Getting started
 
-Materials required
-LinkIt Smart 7688 × 1
-USB cable (type A to micro type-B) × 1
-USB to Serial adapter × 1
-Jumper wires × 3
-Grove - Buzzer × 1
+**Materials required**
+
+- LinkIt Smart 7688 Duo × 1
+- USB cable (type A to micro type-B) × 1
+- USB to Serial adapter × 1
+- Jumper wires × 3
+- Grove - Buzzer × 1
 
 **Make some sound with a Grove Buzzer**
 
@@ -80,7 +82,7 @@ Grove - Buzzer × 1
 !!!!Note
     Following steps are carried out on embedded OS(OpenWRT).
 
-6.Type pip install pyfirmata into console and press Enter to install python library pyfirmata.
+6.Type **pip install pyfirmata** into console and press Enter to install python library pyfirmata.
 
 7.Create a file named buzzer.py with typing vi buzzer.py in console, copy the code below into it.
 

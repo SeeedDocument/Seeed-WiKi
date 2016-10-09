@@ -11,7 +11,7 @@ sku: 101020009
 ---
 ![](https://github.com/SeeedDocument/Grove_Line_Finder/raw/master/images/Grovelinefinder1.jpg)
 
-Line finder Grove is designed for line following robot. It has an IR emitting LED and an IR sensitive phototransistor. It can output digital signal to a microcontroller so the robot can reliably follow a black line on a white background, or vice versa.
+Grove-Line finder is designed for line-following robot. It has an IR emitting LED and an IR sensitive phototransistor. It can output digital signal to a microcontroller so that the robot can reliably follow a black line on white background, or vice versa.
 
 [![](https://github.com/SeeedDocument/Grove_Line_Finder/raw/master/images/300px-Get_One_Now_Banner.png)](https://www.seeedstudio.com/Grove-Line-Finder-p-825.html)
 
@@ -64,7 +64,7 @@ void loop()
 **With Raspberry Pi**
 
 1. You need a raspberry pi and a grovepi or grovepi+.
-2. You need to complete configuring the development enviroment, otherwise follow here.
+2. You need to complete configuring the development enviroment, otherwise follow [here](http://wiki.seeedstudio.com/wiki/GrovePi+#Introducing_the_GrovePi.2B).
 3. Connection
   - Plug the sensor to grovepi socket D7 by using a grove cable.
 
