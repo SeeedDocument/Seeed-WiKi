@@ -10,7 +10,7 @@ sku: 101020078
 
 ---
 ![](https://github.com/SeeedDocument/Grove_Air_Quality_Sensor_v1.3/raw/master/img/Grove%20Air%20Quality%20Sensor.jpg)
-This sensor is designed for comprehensive monitor over indoor air condition. It's responsive to a wide scope of harmful gases, as carbon monixide, alcohol, acetone, thinner, formaldehyde and so on. Due to the measuring mechanism, this sensor can not output specific data to describe target gases' concentrations quantitatively. But it's still competent enough to be used in applications that require only qualitative results, like auto refresher sprayers and auto air cycling systems.``
+This sensor is designed for comprehensive monitor over indoor air condition. It's responsive to a wide scope of harmful gases, as carbon monoxide, alcohol, acetone, thinner, formaldehyde and so on. Due to the measuring mechanism, this sensor can't output specific data to describe target gases' concentrations quantitatively. But it's still competent enough to be used in applications that require only qualitative results, like auto refresher sprayers and auto air cycling systems.``
 
 [![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/Grove-Air-quality-sensor-v1.3-p-2439.html)
 
@@ -21,25 +21,24 @@ This sensor is designed for comprehensive monitor over indoor air condition. It'
 - Durable
 - Compatible with 5V and 3.3V
 
-## Cautions
----
-- Requires relatively clean air as an initial condition.
-- Long time exposure to highly polluted air can significantly weaken its sensitivity.
-- Coffre-fort et armoire forte:
+!!!Cautions
+    1. Requires relatively clean air as an initial condition.
+    2. Long time exposure to highly polluted air can significantly weaken its sensitivity.
+    3. Coffre-fort et armoire forte:
 
 
 ## Usage
 ---
 **With Arduino**
 
-As described in Introduction, this sensor does better in providing qualitative results over a wide scope of target gases. In this demo, we define 4 statuses for reference in the .cpp file. They are:
+As described in Introduction, this sensor performs better in providing qualitative results over a wide scope of target gases. In this demo, we will define 4 statuses for reference in the '.cpp' file. They are:
 
 - a. air fresh -- indicating a good air condition
 - b. low pollution -- indicating a rather low concentration of target gases exist.
 - c. high pollution(without "Force signal active" message printed on serial monitor) -- you should be aware of the pollution level and consider if some measures could be taken.
 - d. high pollution(with "Force signal active" message printed on serial monitor) -- instant measures should be taken to improve the air quality.
 
-We encapsulated the decision structure in a .cpp file. You can find info in there on how to modify the thresholds.
+We encapsulated the decision structure in a '.cpp' file. You can find information there on how to modify the thresholds.
 
 Let's try it out!
 
@@ -155,9 +154,9 @@ return -1;
 
 **With Raspberry Pi**
 
-1.You should have got a raspberry pi and a grovepi or grovepi+.
+1.You need to prepare a raspberry pi and a grovepi or grovepi+.
 
-2.You should have completed configuring the development enviroment, otherwise follow here.
+2.You need to completed configuring the development enviroment, otherwise follow [here](https://seeeddoc.github.io/GrovePiPlus/#Introducing_the_GrovePi.2B).
 
 3.Connection
 - Plug the sensor to grovepi socket A0 by using a grove cable.

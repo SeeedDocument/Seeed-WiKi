@@ -12,7 +12,7 @@ sku: 101020003
 
 ![](https://github.com/SeeedDocument/Grove_Button/raw/master/image/Button.jpg)
 
-**Grove - Button** is a momentary push button. It contains one independent "momentary on/off" button. “Momentary” means that the button rebounds on its own after it is released. The button outputs a HIGH signal when pressed, and LOW when released. The button signals the SIG Pin of the Grove Interface while NC is not used at all. There are two versions of this button available as shown in the pictures. The only difference between them is the direction of the Grove socket.
+**Grove - Button** is a momentary push button. It contains one independent "momentary on/off" button. “Momentary” means that the button rebounds on its own after it is released. The button outputs a HIGH signal when pressed, and LOW when released. The button signals the SIG Pin of the Grove Interface while NC is not used at all. There are two versions of this button available as showed in the pictures. The only difference between them is the direction of the Grove socket.
 
 [![](https://github.com/SeeedDocument/Grove_Button/raw/master/image/300px-Get_One_Now_Banner.png)](https://www.seeedstudio.com/Grove-Button-p-766.html)
 
@@ -39,7 +39,7 @@ In terms of power modules, use either the Grove - USB Power module or the Grove 
 
 Follow these simple steps to build a Grove circuit using the momentary ON/OFF button:
 
-When using the module in conjunction with an Arduino or a Seeeduino, use the Grove - Base Shield and connect the Grove - Button module to the shield using a designated Grove Interface. Also attach an output module such as a Grove - Red LED which will get triggered based on input received from the button.
+When using the module in conjunction with an Arduino or a Seeeduino, use the Grove - Base Shield and connect the Grove - Button module to the shield using a designated Grove interface. Also attach an output module such as a Grove - Red LED which will get triggered based on input received from the button.
 Upload the following sample sketch to make the LED turn ON and OFF based on input from Grove - Button:
 
 ```c
@@ -93,7 +93,7 @@ void loop(){
 ```
 **With Raspberry Pi**
 
-This is a simple example of Raspberry Pi.Run Program and press button,it will print 1 on the terminal ,else print 0. Such as the picture below.
+This is a simple example of Raspberry Pi. Run Program and press button, it will print 1 on the terminal, else print 0. Such as the picture below.
 
 ![](https://github.com/SeeedDocument/Grove_Button/raw/master/image/GrovePi%2B_grove_button.jpg)
 
