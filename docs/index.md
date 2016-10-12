@@ -17,6 +17,7 @@ The product documents are organized as:
 	- [Raspberry Pi](/Raspberry_Pi/)
 	- [LinkIt](/LinkIt/)
 	- [mbed](/mbed/)
+	- [RePhone](/RePhone/)
 	- [Wio](/Wio/)
 - [**Grove**](/Grove/)
 	- [Sensor](/Sensor/)
