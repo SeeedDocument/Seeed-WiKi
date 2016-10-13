@@ -15,7 +15,7 @@ Seeeduino Mega is a powerful micro-controller derived from Arduino Mega. It feat
 [![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/img/get_one_now.png?raw=true)](https://www.seeedstudio.com/Seeeduino-Mega-p-717.html)
 
 
-##Application Ideas
+## Application Ideas
 
 * Internet of Things  
 * DIY
@@ -31,7 +31,7 @@ Here are some funny projects for your reference.
 |![](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/img/example_1.jpg?raw=true)|![](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/img/example_2.jpg?raw=true)|![](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/img/example_3.jpg?raw=true)|
 |[Make it Now](http://www.instructables.com/id/Arduino-Mega-8x8x8-RGB-LED-Cube/)|[Make it Now](http://www.instructables.com/id/Arduino-Mega-Hexapod/)|[Make it Now](http://www.instructables.com/id/Arduino-Controlled-CNC-3D-Printer/)|
 
-##Features
+## Features
 
 * Compatible with most Arduino Duemilanove and Diecimila Shields
 * ATmega 2560 @ 16MHz
@@ -45,7 +45,7 @@ Here are some funny projects for your reference.
 * ICSP Header
 * Can be powered through a battery or through a AC to DC adaptor
 
-##Specification
+## Specification
 
 |Item|Value|
 |------------|-----------|
@@ -62,7 +62,7 @@ Here are some funny projects for your reference.
 |Clock Speed|16 MHz|
 
 
-##Hardware Overview
+## Hardware Overview
 
 The image below shows an overview of Seeeduino Mega hardware features. The pin-out and alternate functions of various pins of Seeeduino Mega are shown in the pin-out diagram. This could be used as a quick reference.
 
@@ -96,7 +96,7 @@ In addition, some pins have specialized functions:
 	* Reset: Bring this line LOW to reset the microcontroller. Typically used to add a reset button to shields which block the one on the board.
 	* The no marked pins: Use them with operating the Register.
 
-##Install the Driver
+## Install the Driver
 
 First of all, you need to:
 
@@ -108,7 +108,7 @@ If you can't find one, you can buy one [here](http://www.seeedstudio.com/depot/M
 Connect the Arduino board to your computer using the USB cable. The green power LED (labelled **PWR**) should go on.
 
 
-###For Windows
+**For Windows**
 
 !!!Note
     This drive is available for Windows XP, Windows Vista, Windows 7, Windows 8/8.1 and Windows 10.
@@ -124,12 +124,12 @@ Connect the Arduino board to your computer using the USB cable. The green power 
 - Finally, navigate to and select the driver file named "Seeeduino Mega.inf"
 - Windows will finish up the driver installation from there.
 
-###For Mac OSX
+**For Mac OSX**
 
 You don't need to install any drivers.
 
 
-##Getting Started
+## Getting Started
 
 !!!Note
     This part is based on Arduino 1.6.9 under Windows 10.
@@ -139,20 +139,21 @@ First of all, you need to Install an Arduino Software.
 [![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Stalker_V3_1/master/images/Download_IDE.png)](https://www.arduino.cc/en/Main/Software)
 
 
-###Launch the Arduino application
+**Launch the Arduino application**
+
 Double-click the Arduino application (arduino.exe) you have previously downloaded.
 
 !!!Note
     If the Arduino Software loads in a different language, you can change it in the preferences dialog. See the [Arduino Software (IDE) page](https://www.arduino.cc/en/Guide/Environment#languages) for details.
 
 
-###Open the Blink example
+**Open the Blink example**
 
 Open the LED blink example sketch: **File > Examples >01.Basics > Blink**.
 
 ![enter image description here](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/img/select_blink.png?raw=true)
 
-###Add Seeeduino to your Arduino IDE
+**Add Seeeduino to your Arduino IDE**
 
 Click on **File > Preference**, and fill Additional Boards Manager URLs with below url:
     *https://raw.githubusercontent.com/Seeed-Studio/Seeeduino-Boards/master/package_seeeduino_index.json*
@@ -161,13 +162,15 @@ Click OK to finish the setting. Then Click on **Tools > Board > Boards Manager**
 
 ![enter image description here](https://github.com/SeeedDocument/SeeeduinoV4/blob/master/images/add_board.png?raw=true)
 
-###Select your board
+**Select your board**
+
 You'll need to select the entry in the **Tools > Board** menu that corresponds to your Arduino.
 Selecting a **Seeeduino Mega 2560**.
 
 ![enter image description here](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/img/mega_arduino_ide.png?raw=true)
 
-###Select your serial port
+**Select your serial port**
+
 Select the serial device of the Arduino board from the Tools | Serial Port menu. This is likely to be COM3 or higher (**COM1** and **COM2** are usually reserved for hardware serial ports). To find out, you can disconnect your Arduino board and re-open the menu; the entry that disappears should be the Arduino board. Reconnect the board and select that serial port.
 
 ![enter image description here](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/img/select_com_seeeduino_mega.png?raw=true)
@@ -175,20 +178,21 @@ Select the serial device of the Arduino board from the Tools | Serial Port menu.
 !!!Note
     On the Mac, this should be something with **/dev/tty.USBmodem**.
 
-###Upload the program
+**Upload the program**
+
 Now, simply click the "Upload" button in the environment. Wait a few seconds and if the upload is successful, the message "Done uploading." will appear in the status bar.
 
 ![enter image description here](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/img/upload_image.png?raw=true)
 
 A few seconds after the upload finishes, you should see the pin 13 (L) LED on the board start to blink (in orange). If it does, congratulations! You've gotten Arduino up-and-running. If you have problems, please see the troubleshooting suggestions.
 
-##Getting Started on Linux
+## Getting Started on Linux
 
 For using on Linux, please go to [Installing Arduino on Linux](http://playground.arduino.cc/Learning/Linux)
 
 
 
-##Resources
+## Resources
 
 * **Schematic**
 
@@ -214,9 +218,9 @@ For using on Linux, please go to [Installing Arduino on Linux](http://playground
 
     [Arduino Mega](https://www.arduino.cc/en/Main/ArduinoBoardMega2560?setlang=en)
 
-##FAQ
+## FAQ
 
-###What is the different between Arduino Mega with Seeeduino Mega?
+**What is the different between Arduino Mega with Seeeduino Mega?**
 
 Seeeduino Mega is a powerful microcontroller derived from Arduino Mega. And there are the mainly difference list:
 

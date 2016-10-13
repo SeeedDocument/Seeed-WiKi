@@ -12,7 +12,7 @@ sku: 1020100021
 
 Seeeduino Cloud is a microcontroller board based on [Dragino WiFi IoT module HE](http://www.dragino.com/products/linux-module/item/87-he.html) and ATmega32u4. HE is a high performance, low cost 150M, 2.4G WiFi module which means “core” in Chinese and with an Open Source OpenWrt system inside. Seeeduino Cloud is also an Arduino compatible board, 100% compatible to Grove, shield and IDEs(Arduino IDE 1.5.3 and later). Except for the normal interface of Arduino, Seeeduino Cloud has built-in Ethernet and WiFi support, a USB-A port which makes it very suitable for those prototype design that need network connection and mass storage. It is also a good idea to make Seeeduino Cloud to be an IoT gateway.
 
-##Application Ideas
+## Application Ideas
 
 * Internet of Things  
 * Smart House
@@ -26,7 +26,7 @@ Here are some funny projects for your reference.
 |[Make it Now](http://www.instructables.com/id/Arduino-Yun-Messager/)|[Make it Now](http://www.instructables.com/id/Google-Docs-and-the-Arduino-Y%C3%BAn/)|[Make it Now](http://www.instructables.com/id/Arduino-Yun-Solar-Panel-Monitoring-System/)|
 
 
-##Features
+## Features
 
 * Compatible with Arduino Yun
 * Based on Dragino WiFi IoT module HE
@@ -36,11 +36,12 @@ Here are some funny projects for your reference.
 * Support USB 2.0
 * On-board Grove connectors
 
-##Specification
+## Specification
 
 Because Seeeduino Cloud has two processors, this section shows the characteristics of each one in two separate tables.
 
-###Dragino HE Module
+**Dragino HE Module**
+
 |Parameter|Value|
 |------------|------------|
 |CPU|ATHEROS AR9331|
@@ -52,7 +53,7 @@ Because Seeeduino Cloud has two processors, this section shows the characteristi
 |Power|3.3V Power Input|
 |WiFi|Support 150M 2.4Ghz WiFi, 802.11 b/g/n|
 
-###AVR Arduino Microcontroller
+**AVR Arduino Microcontroller**
 
 |Parameter|Value|
 |------------|-------------|
@@ -66,7 +67,7 @@ Because Seeeduino Cloud has two processors, this section shows the characteristi
 |PWM Channels|7|
 |Analog Input Channels|12|
 
-##Hardware Overview
+## Hardware Overview
 
 The images below show an overview of Seeeduino Cloud hardware features. The pin-out and alternate functions of various pins of Seeeduino Cloud are shown in the pin-out diagram. This could be used as a quick reference.
 
@@ -103,16 +104,16 @@ In addition, some pins have specialized functions:
 	* Analog Inputs: A0 - A5, A6 - A11 (on digital pins 4, 6, 8, 9, 10, and 12). The Seeeduino Cloud has 12 analog inputs, labeled A0 through A11, all of which can also be used as digital i/o. Pins A0-A5 appear in the same locations as on the Uno; inputs A6-A11 are on digital i/o pins 4, 6, 8, 9, 10, and 12 respectively. Each analog input provide 10 bits of resolution (i.e. 1024 different values). By default the analog inputs measure from ground to 5 volts, though is it possible to change the upper end of their range using the AREF pin and the analogReference() function.
 	* AREF. Reference voltage for the analog inputs. Used with analogReference().
 
-##Getting Started
+## Getting Started
 
 Seeeduino Cloud has two processors on board. One is an ATmega32U4 like on the Leonardo. The other is an Atheros 9331, running Linux and the OpenWRT wireless stack, which enables the board to connect to WiFi and Ethernet networks. With [Yun Bridge Library](https://www.arduino.cc/en/Reference/YunBridgeLibrary), it is possible to call programs or custom scripts on the Linux system through the Arduino to connect with various internet services.
 
 
-###Program on ATmega32U4 side
+**Program on ATmega32U4 side**
 
 The ATmega32U4 is programmed using the [Arduino Software (IDE)](https://www.arduino.cc/en/Main/Software?setlang=en), if you haven't install, please click [here](https://www.arduino.cc/en/Guide/HomePage) for installation instructions.
 
-####Install the Driver
+**Install the Driver**
 
 First of all, you need to:
 
@@ -126,22 +127,25 @@ If you can't find one, you can buy one [here](http://www.seeedstudio.com/depot/M
 * **Connect the board**
     * The Seeeduino Cloud automatically draw power from either the USB connection to the computer or an external power supply. Connect the Arduino board to your computer using the USB cable. The green power LED (labelled **PWR**) should go on.
 
-#####For Windows
+**For Windows**
+
 Windows version of Arduino Software (IDE) already contains the proper drivers. When you installed it you let the operating system install them. Connect your Seeeduino Cloud and the drivers will be installed automatically.
 
-#####For MAC
+**For MAC**
+
 The first time you plug a Seeeduino Cloud into a Mac, the "Keyboard Setup Assistant" will launch. There's nothing to configure with the Seeeduino Cloud; you can close this dialogue by clicking the red button in the top left of the window.
 
-#####For Linux
+**For Linux**
+
 There is no need to install drivers for Ubuntu 10.0.4 and later, but make sure port 5353 is not being blocked by a firewall.
 
-####Open your first sketch
+**Open your first sketch**
 
 Open the LED blink example sketch: File > Examples >01.Basics > Blink.
 
 ![](https://github.com/SeeedDocument/Seeeduino_Cloud/blob/master/img/UNO_Load_Blink.jpg?raw=true)
 
-####Select your board type and port
+**Select your board type and port**
 
 You'll need to select the entry in the Tools > Board menu that corresponds to your Arduino or Genuino board.
 
@@ -151,7 +155,7 @@ Select the serial device of the board from the Tools | Serial Port menu. This is
 
 ![](https://github.com/SeeedDocument/Seeeduino_Cloud/blob/master/img/YUN_SelPort.jpg?raw=true)
 
-####Upload the program
+**Upload the program**
 
 Now, simply click the "Upload" button in the environment. Wait a few seconds - you should see the RX and TX leds on the board flashing. If the upload is successful, the message "Done uploading." will appear in the status bar.
 
@@ -159,17 +163,19 @@ Now, simply click the "Upload" button in the environment. Wait a few seconds - y
 
 A few seconds after the upload finishes, you should see the LED(D13) on the board start to blink (in green). If it does, congratulations! You’ve gotten Arduino up-and-running. If you have problems, please see the troubleshooting suggestions.
 
-###Program on ATHEROS AR9331 side
+**Program on ATHEROS AR9331 side**
 
-####Configure Network
+**Configure Network**
 
 The Seeeduino Cloud has a WiFi interface and a LAN port. Either of them has IP address that can be used for internet connection and device management.
 
-#####1. Wi-Fi AP Mode
+**1. Wi-Fi AP Mode**
+
 When you power ON the Seeeduino Cloud for the first time, there will be an unsecure WiFi network called SeeeduinoCloud-AXXXX shown in wifi connections.
 You can connect your computer to this network as shown below. Your computer will get an ip of this network **192.168.240.xxx**. The Seeeduino Cloud has a default ip address of **192.168.240.1**.
 
-#####2. Wi-Fi STA Mode
+**2. Wi-Fi STA Mode**
+
 After connect SeeeduinoCloud-AXXXX, type 172.31.255.254 or 192.168.240.1 in browser search box and you will connect to Seeeduino Cloud with web UI. The default password is "seeeduino", then click LOG IN.
 
 ![](https://github.com/SeeedDocument/Seeeduino_Cloud/blob/master/img/seeeduino_cloud_login.png?raw=true)
@@ -178,11 +184,12 @@ Click "SYSTEM", select your Wi-Fi network, enter the password and click "CONFIGU
 
 ![](https://github.com/SeeedDocument/Seeeduino_Cloud/blob/master/img/seeeduino_cloud_sta.png?raw=true)
 
-#####3. Onboard Ethernet
+**3. Onboard Ethernet**
+
 When you connect Seeeduino Cloud to a wired network with an ethernet cable, it will try to connect automatically via DHCP. The board will show up on the ports menu just as it would over WiFi.
 
 
-####Terminal
+**Terminal**
 
 You could access the terminal of Seeeduino Cloud via SSH to Program or configure on ATHEROS AR9331 side.
 
@@ -197,7 +204,7 @@ password: seeeduino
 ![](https://github.com/SeeedDocument/Seeeduino_Cloud/blob/master/img/seeeduino_cloud_terminal.png?raw=true)
 
 
-###Yun Bridge Library
+**Yun Bridge Library**
 
 The Bridge Library simplifies the communication between the Arduino Board and Dragino HE. Bridge commands from the AVR (Arduino Board) are interpreted by Python on the HE.
 Its role is to
@@ -206,7 +213,7 @@ Its role is to
 * receive commands from the Internet and pass them directly to the Arduino.
 There are detailed explanations and lots of examples to show how to use Bridge on the [Arduino Official Website](https://www.arduino.cc/en/Reference/YunBridgeLibrary). Following are some examples that use Bridge Library.
 
-####Example 1: Say hello to Linux
+**Example 1: Say hello to Linux**
 
 This example is a hello test between the Arduino and Seeeduino Cloud. The example can be found on the Arduino IDE--> File --> Examples --> Bridge --> ConsoleRead. A tutorial of this example can be found [here](https://www.arduino.cc/en/Tutorial/ConsoleRead). You can see the code below with some additional details to understand it with the Seeeduino Cloud:
 
@@ -248,7 +255,7 @@ void loop() {
 
 ```
 
-####Example 2: Upload data to IoT Server
+**Example 2: Upload data to IoT Server**
 
 This example shows how to log data to the public IoT server “Xively”. The example is a modified version (change Serial to Console to fit for different Arduino Board and debug over WiFi) from Arduino IDE--> File --> Examples --> Bridge --> XivelyClient. Tutorial of this example can be referred [here](https://www.arduino.cc/en/Tutorial/YunXivelyClient).
 Before uploading the sketch, make sure:
@@ -367,7 +374,7 @@ void sendData() {
 ![](https://github.com/SeeedDocument/Seeeduino_Cloud/blob/master/img/500px-SeeeduinoCloud_Sketch_xively.png?raw=true)
 
 
-####Example 3: Log Data to USB flash
+**Example 3: Log Data to USB flash**
 
 This example shows how to log data to a USB flash. The sketch used in this example is same as [here](http://wiki.dragino.com/index.php?title=Arduino_Yun_examples#Log_sensor_data_to_USB_flash). And the source code can be found there.
 The Seeeduino Cloud will auto mount the USB flash to directory /mnt/sda1. And the sketch will append the sensor data to the file /mnt/sda1/data/datalog.csv. So make sure there is such a file in the USB flash before running the sketch.
@@ -438,7 +445,8 @@ String getTimeStamp() {
 ![](https://github.com/SeeedDocument/Seeeduino_Cloud/blob/master/img/500px-SeeeduinoCloud_Sketch_USB.png?raw=true)
 
 
-###IoT Server Configuration
+**IoT Server Configuration**
+
 The IoT Server page allows you to upload data to IoT websites such as Xively while you only need to write sensor data to serial port.
 
 ![](https://github.com/SeeedDocument/Seeeduino_Cloud/blob/master/img/500px-SeeeduinoCloud_IoTServer.png?raw=true)
@@ -478,7 +486,7 @@ void loop() {
 }
 ```
 
-##Resources
+## Resources
 
 * **Schematic**
     * [Seeeduino Cloud Eagle file](https://github.com/SeeedDocument/Seeeduino_Cloud/blob/master/res/Seeeduino_Cloud_v1.0.zip)
@@ -499,7 +507,7 @@ void loop() {
     * [Yun Bridge Library](https://www.arduino.cc/en/Reference/YunBridgeLibrary)
 
 
-##FAQ
+## FAQ
 
 * What is Yun Bridge Library?
 

@@ -66,7 +66,8 @@ SeeedStudio BeagleBone Green Wireless (BBGW) is a joint effort by [BeagleBoard.o
 - Sensor Hub
 - Robot
 
-###BBGW Starter Tutorial #1-#6
+**BBGW Starter Tutorial #1-#6**
+
 Here are some tutorials for the starters to use some Grove modules to realize their interesting ideas with BeagleBone Green Wireless(BBGW). The tutorials are based on Python and mraa/upm library.  
 
 |#1 The Breath LED|#2 Storm on your table|#3 Speak Louuuuuudly|
@@ -79,7 +80,7 @@ Here are some tutorials for the starters to use some Grove modules to realize th
 |![](http://statics3.seeedstudio.com/seeed/img/2016-06/THIPlcFCtqtxnSWBkiJPf59M.jpg)|![](http://statics3.seeedstudio.com/seeed/img/2016-06/tOZJ1MeVXARwuqxTkfYD2aUx.jpg)|![](http://statics3.seeedstudio.com/seeed/img/2016-06/tuZhqFgoabZkjJFpHBUzeKrO.jpg)|
 |[MAKE IT NOW!](http://www.seeed.cc/BBGW-starter-tutorial%234%3AHow-hot-is-it-today%3F-Ask-BBGW!-p-1645.html)|[MAKE IT NOW!](http://www.seeed.cc/BBGW-starter-tutorial%235-Where-are-you%3F-p-1648.html)|[MAKE IT NOW!](http://www.seeed.cc/BBGW-starter-tutorial%236-My-little-alarm-clock-p-1646.html)|
 
-###Funny Projects
+**Funny Projects**
 
 |Bluetooth Device Detection|Home Control Center|SAP HCP IoT Service|
 |---------------|-----|--------------|
@@ -90,25 +91,25 @@ Here are some tutorials for the starters to use some Grove modules to realize th
 
 ![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/green_wireless_hardware_details.png?raw=true)
 
-###Pin map
+**Pin map**
 
 Each digital I/O pin has 8 different modes that can be selected, including GPIO.
 
-####65 Possible Digital I/Os
+- **65 Possible Digital I/Os**
 
 !!!Note
     In GPIO mode, each digital I/O can produce interrupts.
 
 ![enter image description here](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/BeagleBoneGreenWirelessPins.jpg?raw=true)
 
-####PWMs and Timers
+- **PWMs and Timers**
 
 !!!Note
     Up to 8 digital I/O pins can be configured with pulse-width modulators (PWM) to produce signals to control motors or create pseudo analog voltage levels, without taking up any extra CPU cycles.
 
 ![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/cape-headers-pwm.png?raw=true)
 
-####Analog Inputs
+- **Analog Inputs**
 
 !!!Note
     Make sure you don't input more than 1.8V to the analog input pins. This is a single 12-bit analog-to-digital converter with 8 channels, 7 of which are made available on the headers.
@@ -116,7 +117,7 @@ Each digital I/O pin has 8 different modes that can be selected, including GPIO.
 ![enter image description here](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/cape-headers-analog.png?raw=true)
 
 
-####UART
+- **UART**
 
 !!!Note
     There is a dedicated header for getting to the UART0 pins and connecting a debug cable. Five additional serial ports are brought to the expansion headers, but one of them only has a single direction brought to the headers.
@@ -124,14 +125,14 @@ Each digital I/O pin has 8 different modes that can be selected, including GPIO.
 ![enter image description here](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/cape-headers-serial.png?raw=true)
 
 
-####I2C
+- **I2C**
 
 !!!Note
     The first I2C bus is utilized for reading EEPROMS on cape add-on boards and can't be used for other digital I/O operations without interfering with that function, but you can still use it to add other I2C devices at available addresses. The second I2C bus is available for you to configure and use.
 
 ![enter image description here](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/cape-headers-i2c.png?raw=true)
 
-####SPI
+- **SPI**
 
 !!!Note
     For shifting out data fast, you might consider using one of the SPI ports.
@@ -145,7 +146,8 @@ Each digital I/O pin has 8 different modes that can be selected, including GPIO.
 !!!Note
     This chapter is writing under Win10. The steps are familiar for the other operate systems.
 
-###STEP1. Plug in your BBGW via USB
+**STEP1. Plug in your BBGW via USB**
+
 Use the provided micro USB cable to plug your BBGW into your computer. This will both power the board and provide a development interface. BBGW will boot Linux from the **on-board 2GB** or 4GB eMMC.
 
 BBGW will operate as a flash drive providing you with a local copy of the documentation and drivers. Note that this interface may not be used to re-configure the microSD card with a new image, but may be used to update the boot parameters using the uEnv.txt file.
@@ -157,7 +159,7 @@ You’ll see the PWR LED lit steadily. Within 10 seconds, you should see the oth
 - D4 is configured at boot to light during CPU activity
 - D5 is configured at boot to light during eMMC accesses
 
-###STEP2. Install Drivers
+**STEP2. Install Drivers**
 
 Install the drivers for your operating system to give you network-over-USB access to your Beagle. Additional drivers give you serial access to your board.
 
@@ -178,7 +180,7 @@ Install the drivers for your operating system to give you network-over-USB acces
     * These drivers have been tested to work up to Windows 10
 
 
-###STEP3. Browse to your Beagle
+**STEP3. Browse to your Beagle**
 
 Using either Chrome or Firefox (Internet Explorer will NOT work), browse to the web server running on your board. It will load a presentation showing you the capabilities of the board. Use the arrow keys on your keyboard to navigate the presentation.
 
@@ -187,13 +189,13 @@ Older software images require you to EJECT the BEAGLE_BONE drive to start the ne
 
 [![Click to view larger image](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/launch.png)](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/launch.png)
 
-###STEP4. Cloud9 IDE
+**STEP4. Cloud9 IDE**
 
 To begin editing programs that live on your board, you can use the Cloud9 IDE by click
 
 [![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/cloud9.png)](http://192.168.7.2:3000/ide.html)
 
-###STEP5. Connect your BBGW to Wi-Fi
+**STEP5. Connect your BBGW to Wi-Fi**
 
 Using your smart phone or computer to scan local Wi-Fi network and connect to the AP named "BeagleBone XXX"
 
@@ -207,7 +209,7 @@ Now your BBGW is connected to Wi-Fi.
 
 ![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/wifi3.png?raw=true)
 
-###STEP6. Connect your BBGW to your Bluetooth Device
+**STEP6. Connect your BBGW to your Bluetooth Device**
 
 Connect to Cloud9 IDE and start a new terminal.
 Start the bluetooth config with the command:
@@ -241,7 +243,7 @@ Play music on BBGW, then you will hear music on your bluetooth speaker device.
 
 You need to update the board to latest software to keep a better performance, here we will show you how to make it step by step.
 
-###STEP1. Download the latest software image
+**STEP1. Download the latest software image**
 
 First of all, you have to download the suitable image here.
 
@@ -252,7 +254,7 @@ First of all, you have to download the suitable image here.
 
 The file you download will have an **.img.xz** extension. This is a compressed sector-by-sector image of the SD card.
 
-###STEP2. Install compression utility and decompress the image
+**STEP2. Install compression utility and decompress the image**
 
 Download and install [7-zip.](http://www.7-zip.org/download.html)
 
@@ -261,11 +263,11 @@ Download and install [7-zip.](http://www.7-zip.org/download.html)
 
 Use 7-zip to decompress the SD card **.img file**
 
-###STEP3. Install SD card programming utility
+**STEP3. Install SD card programming utility**
 
 Download and install [Image Writer for Windows](https://sourceforge.net/projects/win32diskimager/files/latest/download). Be sure to download the binary distribution.
 
-###STEP4. Write the image to your SD card
+**STEP4. Write the image to your SD card**
 
 You need a SD adapter to connect your microSD card to your computer at the first. Then use the software Image Write for Windows to write the decompressed image to your SD card.
 
@@ -281,7 +283,7 @@ Click on **Write** button, then the process is started.
     * This process may need up to 10 minutes.
 
 
-###STEP5. Boot your board off of the SD card
+**STEP5. Boot your board off of the SD card**
 
 Insert SD card into your (powered-down first) board. Then the board will boot from the SD card.
 
@@ -312,14 +314,17 @@ When the flashing is complete, all 4 USRx LEDs will be **off**. The latest Debia
 ## Program Grove Module with Mraa and UPM
 
 We have provided Mraa library and UPM library to make it easy for developers and sensor manufacturers to map their sensors & actuators on top of supported hardware and to allow control of low level communication protocol by high level languages & constructs.
-###What are Mraa and UPM?
+
+**What are Mraa and UPM?**
+
 Mraa is a C/C++ library with bindings to Python, Javascript and Java to interface with the I/O on BBG, BBGW and other platforms, with a structured and sane API where port names/numbering matches the board that you are on. Use of Mraa does not tie you to specific hardware with board detection done at runtime you can create portable code that will work across the supported platforms.
 UPM is a high level repository for sensors that use MRAA. Each sensor links to MRAA and are not meant to be interlinked although some groups of sensors may be. Each sensor contains a header which allows to interface with it. Typically a sensor is represented as a class and instantiated.The constructor is expected to initialise the sensor and parameters may be used to provide identification/pin location on the board.
 
-###Install and update
+**Install and update**
+
 Mraa and UPM are already installed in the system image of BBGW, so **you don't need to install it.** However if you want to update the library, or want to upgrade the library, use ``apt-get update`` and ``apt-get upgrade`` please. Refer to [https://github.com/intel-iot-devkit/mraa](https://github.com/intel-iot-devkit/mraa) and [https://github.com/intel-iot-devkit/upm](https://github.com/intel-iot-devkit/upm) for more information.
 
-###Mraa Example
+**Mraa Example**
 
 - light a led
 
@@ -391,7 +396,7 @@ Grove - RTC v2.0
 ](http://www.seeed.cc/BBGW-starter-tutorial%235-Where-are-you%3F-p-1648.html)
 
 
-###Mraa Map for BBGW
+**Mraa Map for BBGW**
 
 ![GPIO](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/BBGW_Mraa_Gpio.png?raw=true)
 
@@ -405,8 +410,8 @@ Grove - RTC v2.0
 
 
 
-## References and Resources
-###References
+## References
+
 ----
 There're many references to help you to get more information about the board.
 
