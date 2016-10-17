@@ -21,3 +21,4 @@ Here is the list of the LinkIt Boards you can find in the Seeed WiKi. The list w
 - [LinkIt ONE](/LinkIt_ONE/)
 - [LinkIt Smart 7688 Duo](/LinkIt_Smart_7688_Duo/)
 - [Linkit Connect 7681](/Linkit_Connect_7681/)
+

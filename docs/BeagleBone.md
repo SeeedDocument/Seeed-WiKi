@@ -8,9 +8,9 @@ BeagleBones are relatively a late comer in the microcontroller world, but the hi
 
 BeagleBone boards are wonderful boards, but people on planet Seeed are not satisfied with the current Beaglebone and want to make some differences. Just as what we have done with Seeeduino, we spoke to Beaglebone.org about our thoughts and finally got the chance to create a whole new board together with them, this is how we created Seeed Studio's own Beaglebone, the Beaglebone Green(Short as BBG).
 
-BeagleBone Green is derived from Beaglebone Black(Short as BBB), if you ever know about BBB , you would know that BBB is like the star board in the Beagleboard family, it inherits the tiny size of Beaglebone and adds many good features while the price is much lower. When we were designing BBG, we decided to keep almost all the good features of BBB such as the tiny size, abundant interface and strong expansibility, while at the same time replaced the HDMI interface with 2 Seeed grove connector, to make it compatible with the large family of grove sensers.
+BeagleBone Green is dirived from Beaglebone Black(Short as BBB), if you ever know about BBB , you would know that BBB is like the star board in the beagleboard family, it inherits the tiny size of Beaglebone and adds many good features while the price is much lower. When we were designing BBG, we decided to keep almost all the good features of BBB such as the tiny size, abundant interface and strong expansibility, while at the same time replaced the HDMI interface with 2 Seeed grove connector, to make it compatible with the large family of grove sensers.
 
-Not lone after that, we released another BeagleBone named BeagleBone Green Wireless(Short as BBGW), In addition to grove connectors, BBGW has included a high-performance flexible WiFi/Bluetooth interface, makes it become the first WiFi/Bluetooth board of the BeagleBone family.
+Not lone afte that, we released another BeagleBone named BeagleBone Green Wireless(Short as BBGW), In addition to grove connectors, BBGW has included a high-performance flexible WiFi/Bluetooth interface, makes it become the first WiFi/Bluetooth board of the BeagleBone family.
 
 
 ## Product  List
@@ -23,3 +23,4 @@ Here is the list of the BeagleBone Boards you can find in the Seeed WiKi. The li
 - [BeagleBone Green Wireless](/BeagleBone_Green_Wireless/)
 - [Grove Starter Kit for BeagleBone Green](/Grove_Starter_Kit_for_BeagleBone_Green/)
 - [Motor Bridge Cape v1.0](/Motor_Bridge_Cape_v1.0/)
+

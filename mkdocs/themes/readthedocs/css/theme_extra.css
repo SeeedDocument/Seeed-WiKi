@@ -18,26 +18,23 @@ h3, h4, h5, h6 {
  */
 .wy-menu-vertical span {
     line-height: 18px;
-    padding: 0.4045em 1.618em;
+    padding: 0.4045em 2.427em;
     display: block;
     position: relative;
     font-size: 90%;
     color: #838383;
+    background: #F7F7F7;
 }
 
 .wy-menu-vertical .subnav a {
     padding: 0.4045em 2.427em;
+    font-size: 12px;
+    color: #4A4A4A;
+    line-height: 30px;
 }
 
-/*
- * Long navigations run off the bottom of the screen as the nav
- * area doesn't scroll.
- *
- * https://github.com/mkdocs/mkdocs/pull/202
- */
-.wy-nav-side {
-    height: 100%;
-    overflow-y: auto;
+.wy-menu-vertical .subnav a:hover{
+  color: #00936d;
 }
 
 /*
@@ -119,11 +116,9 @@ code.cs, code.c {
 
 .wy-menu-vertical li ul {
     display: inherit;
+    border-bottom: 1px solid #E7E7E7;
 }
 
-.wy-menu-vertical li ul.subnav ul.subnav{
-    padding-left: 1em;
-}
 
 
 /*
@@ -138,14 +133,14 @@ code.cs, code.c {
 }
 
 img{
-  vertical-align:middle;
-  max-width:100%;
-  max-height: 500px;
-  display: block;
-  margin: auto;
+    vertical-align:middle;
+    max-width:100%;
+    max-height: 500px;
+    display: block;
+    margin: auto;
 }
 
-img.img-left{
++img.img-left{
   vertical-align:inherit;
   max-width:100%;
   max-height: 500px;
@@ -223,5 +218,4 @@ width: 20%;
 font-size: 50%;
 font-weight: normal;
 }
-
 

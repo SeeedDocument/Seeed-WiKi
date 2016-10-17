@@ -1,9 +1,13 @@
 <div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="{{ homepage_url }}">Docs</a> &raquo;</li>
+    <li><a href="{{ homepage_url }}">Docs</a> /</li>
     {% if current_page %}
       {% for doc in current_page.ancestors %}
-          <li><a href="../{{ doc.title | replace(' ', '_') }}/">{{ doc.title }}</a> &raquo;</li>
+        {% if doc.link %}
+          <li><a href="{{ doc.link|e }}">{{ doc.title }}</a> / </li>
+        {% else %}
+        <li><a href="/{{ doc.title }}" >{{ doc.title }}</a> /  </li>
+        {% endif %}
       {% endfor %}
     {% endif %}
     {% if current_page %}<li>{{ current_page.title }}</li>{% endif %}

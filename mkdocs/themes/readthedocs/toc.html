@@ -1,20 +1,28 @@
+
 {% if nav_item.children %}
-    <ul class="subnav">
-    <li><span>{{ nav_item.title }}</span></li>
+    <ul class="subnav A"  >
+        <li><a href="/{{ nav_item.title }}" style="padding : 0px;" > 
+               <span class="main-title" style="background: #F7F7F7;
+    line-height: 40px;
+    padding: 0px;
+    padding-left: 17px;
+    font-size: 16px;
+    color: #000000;" >{{ nav_item.title }}</span>
+              </a></li>
         {% for nav_item in nav_item.children %}
-            {% include 'toc.html' %}
+            {% include 'toc_left.html' %}
         {% endfor %}
     </ul>
 {% else %}
-    <li class="toctree-l1 {% if nav_item.active%}current{%endif%}">
+    <li class="m-title toctree-l1 {% if nav_item.active%}current{%endif%}" >
         <a class="{% if nav_item.active%}current{%endif%}" href="{{ nav_item.url }}">{{ nav_item.title }}</a>
         {% if nav_item == current_page %}
             <ul>
             {% if meta.nointro %}{% else %}<li class="toctree-l3"><a href="#introduction">Introduction</a></li>{%endif%}
             {% for toc_item in toc %}
-                <li class="toctree-l3"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
+                <li class="toctree-l3"><a href="{{ toc_item.url }}" class="sub-title">{{ toc_item.title }}</a></li>
                 <!-- {% for toc_item in toc_item.children %}
-                    <li><a class="toctree-l4" href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
+                    <li class="toctree-l4"><a  href="{{ toc_item.url }}" class="sub-title" >{{ toc_item.title }}</a></li>
                 {% endfor %} -->
             {% endfor %}
             {% if meta.surveyurl%}<li class="toctree-l3"><a href="#help-us-make-it-better">Help us make it better</a></li>{% endif %}
