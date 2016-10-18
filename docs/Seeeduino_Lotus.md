@@ -8,10 +8,11 @@ surveyurl: https://www.surveymonkey.com/r/Seeeduino_Lotus
 sku: 102020001
 ---
 
-![](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/img/Seeeduino_Lotus_Cover.jpg?raw=true)
+![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/Seeeduino_Lotus_Cover.jpg)
 
 Seeeduino Lotus is an ATMEGA328 Microcontroller development board. It is a combination of Seeeduino and Base Shield. It uses an Atmel ATMEGA328P-MU and CH340. ATMEGA328P-MU is a high performance, low power AVR 8-Bit Microcontroller. CH340 is a USB bus converter chip that can realize a USB to serial interface. Seeeduino Lotus has 14 digital input/outputs (6 of which can output PWM) and 7 analog input/outputs, a micro USB connection, an ICSP header, 12 Grove connections, a reset button.
 
+[![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now.png)](https://www.seeedstudio.com/Seeeduino-Lotus-ATMega328-Board-with-Grove-Interface-p-1942.html)
 
 ## Application Ideas
 
@@ -25,7 +26,7 @@ Here is some funny project for your reference.
 
 |Car Controlled by Track Ball|FM Receiver|HCHO Detector|
 |-------|-------|-------|
-|![](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/img/example_1.png?raw=true)|![](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/img/Fm%20demo.jpg?raw=true)|![](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/img/example_3.png?raw=true)|
+|![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/example_1.png)|![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/Fm%20demo.jpg)|![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/example_3.png)|
 |[Make it Now](http://www.seeed.cc/A-Car-Controlled-by-Track-Ball-p-1132.html)|[Make it Now](/FM_Receiver/)|[Make it Now](http://www.seeed.cc/A-Handheld-Formaldehyde(HCHO)-Detector-p-380.html)|
 
 
@@ -62,7 +63,7 @@ Here is some funny project for your reference.
 
 The images below show an overview of Seeeduino Lotus hardware features. The pin-out and alternate functions of various pins of Seeeduino Lotus are shown in the pin-out diagram. This could be used as a quick reference.
 
-![](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/img/seeeduino_lotus_hardware_overview.jpg?raw=true)
+![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/seeeduino_lotus_hardware_overview.jpg)
 
 
 - **LED-D13**
@@ -102,7 +103,7 @@ Connect the Arduino board to your computer using the USB cable. The green power 
 !!!Note
     This drive is available for Windows XP, Windows Vista, Windows 7, Windows 8/8.1 and Windows 10.
 
-[![enter image description here](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/img/download_driver_for_seeeduino_lotus.png?raw=true)](https://github.com/Seeed-Studio/Signed_USB_Serial_Driver/archive/master.zip)
+[![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/download_driver_for_seeeduino_lotus.png)](https://github.com/Seeed-Studio/Signed_USB_Serial_Driver/archive/master.zip)
 
 - Plug in your board and wait for Windows to begin its driver installation process. After a few moments, the process will fail, despite best efforts.
 - Click on the Start Menu, and open up the Control Panel.
@@ -125,7 +126,7 @@ You don't need to install any drivers.
 
 First of all, you need to Install an Arduino Software.
 
-[![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Stalker_V3_1/master/img/Download_IDE.png)](https://www.arduino.cc/en/Main/Software)
+[![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Stalker_V3_1/master/images/Download_IDE.png)](https://www.arduino.cc/en/Main/Software)
 
 
 **Launch the Arduino application**
@@ -140,7 +141,7 @@ Double-click the Arduino application (arduino.exe) you have previously downloade
 
 Open the LED blink example sketch: **File > Examples >01.Basics > Blink**.
 
-![enter image description here](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/img/select_blink.png?raw=true)
+![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_GPRS/master/img/select_blink.png)
 
 **Add Seeeduino to your Arduino IDE**
 
@@ -149,18 +150,18 @@ Click on **File > Preference**, and fill Additional Boards Manager URLs with bel
 
 Click OK to finish the setting. Then Click on **Tools > Board > Boards Manager**, find **Seeeduino by Seeed Studio**, and Install it.
 
-![enter image description here](https://github.com/SeeedDocument/SeeeduinoV4/blob/master/images/add_board.png?raw=true)
+![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_GPRS/master/img/add_board.png)
 
 **Select your board**
 You'll need to select the entry in the **Tools > Board** menu that corresponds to your Arduino.
 Selecting a **Seeeduino Lotus**.
 
-![enter image description here](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/img/select_seeeduino_lotus.jpg?raw=true)
+![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/select_seeeduino_lotus.jpg)
 
 **Select your serial port**
 Select the serial device of the Arduino board from the Tools | Serial Port menu. This is likely to be COM3 or higher (**COM1** and **COM2** are usually reserved for hardware serial ports). To find out, you can disconnect your Arduino board and re-open the menu; the entry that disappears should be the Arduino board. Reconnect the board and select that serial port.
 
-![enter image description here](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/img/select_com.jpg?raw=true)
+![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/select_com.jpg)
 
 !!!Note
     On the Mac, this should be something with **/dev/tty.USBmodem**.
@@ -168,7 +169,7 @@ Select the serial device of the Arduino board from the Tools | Serial Port menu.
 **Upload the program**
 Now, simply click the "Upload" button in the environment. Wait a few seconds and if the upload is successful, the message "Done uploading." will appear in the status bar.
 
-![enter image description here](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/img/upload_image.png?raw=true)
+![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_GPRS/master/img/upload_image.png)
 
 A few seconds after the upload finishes, you should see the pin 13 (L) LED on the board start to blink (in orange). If it does, congratulations! You've gotten Arduino up-and-running. If you have problems, please see the troubleshooting suggestions.
 
