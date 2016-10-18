@@ -8,9 +8,9 @@ surveyurl: https://www.surveymonkey.com/r/wio_node
 sku: 102110057
 ---
 
-Building IoT projects is exciting, as you can connect almost everything around you and control them. However sometime it is not easy to build IoT applications since it requires a lot of hard works, such as hardware,  programming, jump wires and soldering etc. Even a well-trained user would spend hours to handle all the work, let alone beginners. In order to simplify the development of IoT project, Seeed launched **[Wio Link](http://www.seeedstudio.com/wiki/Wio_Link)** on **[kickstarter](https://www.kickstarter.com/projects/seeed/wio-link-3-steps-5-minutes-build-your-iot-applicat?ref=nav_search)** and it turn out a big success. The slogan on Kickstarter well defined the main feature of Wio link: 
+Building IoT projects is exciting, as you can connect almost everything around you and control them. However sometime it is not easy to build IoT applications since it requires a lot of hard works, such as hardware,  programming, jump wires and soldering etc. Even a well-trained user would spend hours to handle all the work, let alone beginners. In order to simplify the development of IoT project, Seeed launched **[Wio Link](http://www.seeedstudio.com/wiki/Wio_Link)** on **[kickstarter](https://www.kickstarter.com/projects/seeed/wio-link-3-steps-5-minutes-build-your-iot-applicat?ref=nav_search)** and it turn out a big success. The slogan on Kickstarter well defined the main feature of Wio link:
 
-**3 steps. 5 minutes. Build your own IoT applications!** 
+**3 steps. 5 minutes. Build your own IoT applications!**
 
 It is so simple, it is fast building, however it is not ideal for all conditions.
 What if we only need 2 grove connectors? What if there is limited space in the application but Wio Link is over sized? What if we want to cost down? So right after we released Wio Link, a micro and economic solution was put on schedule, for months Seeeder has redesigned and optimized the Wi-Fi board and here it is, the new member of Wio family---**Wio Node**.
@@ -158,7 +158,7 @@ Download the Android or iOS App and install. Or you can go to app store of Apple
 [![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/Wio%20App/Connect%20to%20Wio%20node%201.png)](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/Wio%20App/Connect%20to%20Wio%20node%201.png)
 
 - If you have successfully made the blue LED turn into breathing mode, you will find the Wio Node in the Wi-Fi list, connect to it!(Usually it is not called Wio Node in the Wi-Fi list, in the example, mine is Wio_091016, you may find one named wio_xxxxxx in your list.)
-- Once connected, you will receive a notice, then you can go back to the app 
+- Once connected, you will receive a notice, then you can go back to the app
 - Next step is connecting to the Wi-Fi of your home or company
 
 [![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/Wio%20App/Connect%20to%20Wio%20node2.png)](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/Wio%20App/Connect%20to%20Wio%20node2.png)
@@ -211,7 +211,7 @@ What is DoButton? DoButton is one of IFTTT's application that empowers you to cr
 
 ## Advanced Guide
 ----
-Feel those examples too simple? Wanna make more complicated proejects? Here are the best guides for advanced users to hack things with Wio nude. By these guides, advanced users are able to know more detail information about Wio Node, deploy private server, even write module driver for Wio Node. 
+Feel those examples too simple? Wanna make more complicated proejects? Here are the best guides for advanced users to hack things with Wio nude. By these guides, advanced users are able to know more detail information about Wio Node, deploy private server, even write module driver for Wio Node.
 
 [![](https://raw.githubusercontent.com/SeeedDocument/Wio_Node/master/pictures/GOTO_ADVANCED_GUIDE.png)](https://github.com/Seeed-Studio/Wio_Link/wiki)
 
@@ -264,7 +264,6 @@ The guide covers:
 |103020005 |	Grove - Relay							|Generic Digital Output	| [link](http://www.seeedstudio.com/Grove-Relay-p-769.html) |
 |103020008 |	Grove - MOSFET							|Generic Digital Output	| [link](http://www.seeedstudio.com/Grove-MOSFET-p-1594.html) |
 |103020010 |	Grove - 2-Coil Latching Relay			|Generic Digital Output	| [link](http://www.seeedstudio.com/Grove-2-Coil-Latching-Relay-p-1446.html) |
-|103020012 |	Grove - SPDT Relay(30A)					|Generic Digital Output	| [link](http://www.seeedstudio.com/Grove-SPDT-Relay(30A)-p-1473.html) |
 |103020014 |	Grove - Dry-Reed Relay					|Generic Digital Output	| [link](http://www.seeedstudio.com/Grove-Dry-Reed-Relay-p-1412.html) |
 |104020001 |	Grove - Variable Color LED				|Generic Digital Output	| [link](http://www.seeedstudio.com/Grove-Variable-Color-LED-p-852.html) |
 |104020002 |	Grove - Purple LED (3mm)					|Generic Digital Output	| [link](http://www.seeedstudio.com/Grove-Purple-LED-(3mm)-p-1143.html) |
@@ -306,10 +305,10 @@ The guide covers:
 |101020067 |	Grove - CO2 Sensor						|UART	| [link](http://www.seeedstudio.com/Grove-CO2-Sensor-p-1863.html) |
 
 
- 
+
 ## FAQ
 ----
-Here are some questions that we usually received from new users. If you have any other issues when you are using Wio Node or other Wio products, welcome to the [Community of Wio](http://www.seeed.cc/topics.html?t=Wio) where there are many professional users waiting to give you advices and also many advanced users providing plenty of ideas on how to use Wio products! 
+Here are some questions that we usually received from new users. If you have any other issues when you are using Wio Node or other Wio products, welcome to the [Community of Wio](http://www.seeed.cc/topics.html?t=Wio) where there are many professional users waiting to give you advices and also many advanced users providing plenty of ideas on how to use Wio products!
 
 **Q1. What's the difference between Wio Node and Wio Link?**
 
@@ -344,4 +343,3 @@ Here are some questions that we usually received from new users. If you have any
     - [Schematic File in **Eagle**](https://github.com/SeeedDocument/Wio_Node/raw/master/Recources/Wio_Node_Schematics.zip)
 - **Certificate**
     - [CE/FCC/TELEC Certified(only) for core module ESP-WROOM-02](https://github.com/SeeedDocument/Wio_Node/raw/master/Recources/CE-FCC-TELEC_Certified(only)_for_core_module_ESP-WROOM-02.zip)
-

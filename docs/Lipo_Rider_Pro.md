@@ -21,7 +21,7 @@ The LiPo Rider Pro can be purchased as a separate board or as a kit (LiPo Rider 
 
 [![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](https://www.seeedstudio.com/LiPo-Rider-Pro-p-992.html)
 
-Features
+## Features
 --------
 
 -   Maximum 1A load output
@@ -35,7 +35,7 @@ Features
 -   Scalable to multiple lithium batteries and large/multiple solar panels through simple end-user modifications
 -   4 green LED instruct quantity of electricity of lithium battery
 
-Application Ideas
+## Application Ideas
 -----------------
 
 -   Green Power and backup supply for distributed outdoor sensor network
@@ -51,7 +51,7 @@ Application Ideas
 <li>Potential short circuit or electric shock, especially if device gets wet when placed outdoors for solar power collection.</li></ol>
 </div>
 
-Dimensions
+## Dimensions
 ----------
 
 The dimensions of LiPo Rider Pro is like the [6A Lithium Polymer Battery](http://www.seeedstudio.com/depot/lithium-ion-polymer-battery-pack-6a-p-602.html?cPath=178_183).
@@ -146,7 +146,7 @@ V<sub>destination USB</sub>
 Pin definition and Rating
 -------------------------
 
-### Pin Instruction and LED Statement
+**Pin Instruction and LED Statement**
 
 <table>
 <colgroup>
@@ -189,7 +189,7 @@ Pin definition and Rating
 </tbody>
 </table>
 
-### LED Battery Indicator
+**LED Battery Indicator**
 
 The LiPo Rider Pro has four LED battery indicators like the cell phone,and you can see the battery power by just pressing the button K2 like below:
 ![](https://raw.githubusercontent.com/SeeedDocument/Lipo_Rider_Pro/master/img/Lipo3.jpg)
@@ -207,9 +207,9 @@ The LiPo Rider Pro has four LED battery indicators like the cell phone,and you c
 Usage
 -----
 
-### Example
+**Example**
 
-#### Outdoor Sensor Device Power Supply
+**Outdoor Sensor Device Power Supply**
 
 One important application of the Lipo Rider Pro board is as an affordable power supply for outdoor sensors. The outdoor sensor device will be powered by the lithium battery supplemented by the solar panel. Please note that it is not recommended to run the outdoor sensor ONLY on solar power, as this may vary during the day and may cause the sensor to reset / power down unexpectedly. In this case, the device is running in “USB Mode”.
 
@@ -219,18 +219,15 @@ Larger/multiple batteries and/or solar panels can be used, but only with end-use
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Lipo_Rider_Pro/master/img/Lipo-Rider-pro.JPG)
 
-#### Charge Lithium Polymer Battery through solar power
+**Charge Lithium Polymer Battery through solar power**
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Lipo_Rider_Pro/master/img/LiPo_Rider_Pro1.jpg)
 
-Resources
----------
+## Resources
+---
 
 -   [CN3065 Datasheet in PDF](https://raw.githubusercontent.com/SeeedDocument/Lipo_Rider_Pro/master/res/DSE-CN3065.pdf)
 -   [Schematic and Layout in Eagle format](https://raw.githubusercontent.com/SeeedDocument/Lipo_Rider_Pro/master/res/Lipo_Rider_Pro_v0.9b.rar)
 -   [Schematic in pdf format](https://raw.githubusercontent.com/SeeedDocument/Lipo_Rider_Pro/master/res/LiPo_Rider_Pro_v0.9b.pdf)
 -   [Get Lipo rider pro to charge Ipod or Iphone](http://www.seeedstudio.com/forum/viewtopic.php?f=4&t=3575)
 -   [Lithium Ion polymer Battery pack - 6A](https://www.seeedstudio.com/Lithium-Ion-polymer-Battery-pack-6A-p-602.html)
-
-
-<!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Lipo_Rider_Pro -->
