@@ -17,7 +17,7 @@ Boot Linux in under 10 seconds and get started on development in less than 5 min
 [![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now.png)](http://www.seeedstudio.com/SeeedStudio-BeagleBone-Green-p-2504.html)
 
 
-##Features
+## Features
 ------
 
 * **Fully Compatible with BeagleBone Black**
@@ -40,7 +40,7 @@ Boot Linux in under 10 seconds and get started on development in less than 5 min
     * Cloud9 IDE on Node.js w/ BoneScript library
     * plus much more
 
-##Specification
+## Specification
 ------
 
 |Item|Value|
@@ -56,8 +56,8 @@ Boot Linux in under 10 seconds and get started on development in less than 5 min
 |Ethernet	|1|
 |Operating Temperature	|0 ~ 75 |
 
-##Application Ideas
-
+## Application Ideas
+---
 * Internet of Things
 * Smart House
 * Industrial
@@ -79,8 +79,8 @@ Here are some funny projects for your reference.
 |[MAKE IT NOW!](http://www.instructables.com/id/5-Design-of-Laser-Cut-Cases-for-5-Popular-Platform/)|[MAKE IT NOW!](http://www.seeed.cc/How-to-use-the-Grove-UART-port-as-a-GPIO-on-BBG-p-365.html)|[MAKE IT NOW!](http://www.seeed.cc/Smart-Light-Demo-with-BBG-%26amp%3B-BBG-Start-Kit(HA)-p-366.html)|
 
 
-##Hardware Overview
-
+## Hardware Overview
+---
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/10201002703.jpg)
 
 
@@ -92,31 +92,31 @@ Here are some funny projects for your reference.
     * **D4** is configured at boot to light during CPU activity
     * **D5** is configured at boot to light during eMMC accesses
 * **Boot button**
-    * When there's a SD card insert, the system will boot from SD card first, if you want to boot from eMMC, press this button and then power on. 
+    * When there's a SD card insert, the system will boot from SD card first, if you want to boot from eMMC, press this button and then power on.
     * Use as a normal button after boot, connect to **GPIO_72**
 * **I2C Grove Interface** - Connected to **I2C2**
 * **Uart Grove Interface** - Connected to **UART2**
 * **Serial Debug** - Connect to **UART0**, PIN1~PIN6: GND, NC, NC, RX, TX, NC, note that pin1 is near to the USB.
 
-###Pin map
+**Pin map**
 
 Each digital I/O pin has 8 different modes that can be selected, including GPIO.
 
-####65 Possible Digital I/Os
+**65 Possible Digital I/Os**
 
 !!!Note
     In GPIO mode, each digital I/O can produce interrupts.
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/PINMAP_IO.png)
 
-####PWMs and Timers
+**PWMs and Timers**
 
 !!!Note
     Up to 8 digital I/O pins can be configured with pulse-width modulators (PWM) to produce signals to control motors or create pseudo analog voltage levels, without taking up any extra CPU cycles.
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/PINMAP_TIMER.png)
 
-####Analog Inputs
+**Analog Inputs**
 
 !!!Note
     Make sure you don't input more than 1.8V to the analog input pins. This is a single 12-bit analog-to-digital converter with 8 channels, 7 of which are made available on the headers.
@@ -124,7 +124,7 @@ Each digital I/O pin has 8 different modes that can be selected, including GPIO.
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/PINMAP_ANALOG.png)
 
 
-####UART
+**UART**
 
 !!!Note
     There is a dedicated header for getting to the UART0 pins and connecting a debug cable. Five additional serial ports are brought to the expansion headers, but one of them only has a single direction brought to the headers.
@@ -132,29 +132,29 @@ Each digital I/O pin has 8 different modes that can be selected, including GPIO.
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/PINMAP_UART.png)
 
 
-####I2C
+**I2C**
 
 !!!Note
     The first I2C bus is utilized for reading EEPROMS on cape add-on boards and can't be used for other digital I/O operations without interfering with that function, but you can still use it to add other I2C devices at available addresses. The second I2C bus is available for you to configure and use.
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/PINMAP_I2C.png)
 
-####SPI
+**SPI**
 
 !!!Note
     For shifting out data fast, you might consider using one of the SPI ports.
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/PINMAP_SPI.png)
 
-##Getting Started
+## Getting Started
 ------
 
 !!!Note
     This chapter is writing under Win10. The steps are familiar for the other operate systems.
 
-###STEP1. Plug in your BBG via USB
+**STEP1. Plug in your BBG via USB**
 
-Use the provided micro USB cable to plug your BBG into your computer. This will both power the board and provide a development interface. BBG will boot Linux from the on-board 2GB or 4GB eMMC. 
+Use the provided micro USB cable to plug your BBG into your computer. This will both power the board and provide a development interface. BBG will boot Linux from the on-board 2GB or 4GB eMMC.
 
 BBG will operate as a flash drive providing you with a local copy of the documentation and drivers. Note that this interface may not be used to re-configure the microSD card with a new image, but may be used to update the boot parameters using the uEnv.txt file.
 
@@ -165,7 +165,7 @@ You'll see the PWR LED lit steadily. Within 10 seconds, you should see the other
 * D4 is configured at boot to light during CPU activity
 * D5 is configured at boot to light during eMMC accesses
 
-###STEP2. Install Drivers
+**STEP2. Install Drivers**
 
 Install the drivers for your operating system to give you network-over-USB access to your Beagle. Additional drivers give you serial access to your board.
 
@@ -178,10 +178,10 @@ Install the drivers for your operating system to give you network-over-USB acces
 
 !!!Note
     For window system, please note that:
-    
+
     * Windows Driver Certification warning may pop up two or three times. Click "Ignore", "Install" or "Run"
     * To check if you're running 32 or 64-bit Windows see [this](https://support.microsoft.com/kb/827218).
-    *  On systems without the latest service release, you may get an error (0xc000007b). In that case, please [install](https://www.microsoft.com/en-us/download/confirmation.aspx?id=13523) and retry: 
+    *  On systems without the latest service release, you may get an error (0xc000007b). In that case, please [install](https://www.microsoft.com/en-us/download/confirmation.aspx?id=13523) and retry:
     * You may need to reboot Windows.
     * These drivers have been tested to work up to Windows 10
 
@@ -192,7 +192,7 @@ Install the drivers for your operating system to give you network-over-USB acces
     Additional USB to virtual Ethernet information and drivers are available from [https://www.linux-usb.org/gadget/](https://www.linux-usb.org/gadget/) and [https://joshuawise.com/horndis](https://joshuawise.com/horndis).
 
 
-###STEP3. Browse to your Beagle
+**STEP3. Browse to your Beagle**
 
 Using either Chrome or Firefox (Internet Explorer will NOT work), browse to the web server running on your board. It will load a presentation showing you the capabilities of the board. Use the arrow keys on your keyboard to navigate the presentation.
 
@@ -201,7 +201,7 @@ Older software images require you to EJECT the BEAGLE_BONE drive to start the ne
 
 [![Click to view larger image](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/launch.png)](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/launch.png)
 
-###STEP4. Cloud9 IDE
+**STEP4. Cloud9 IDE**
 
 To begin editing programs that live on your board, you can use the Cloud9 IDE by click
 
@@ -209,42 +209,42 @@ To begin editing programs that live on your board, you can use the Cloud9 IDE by
 
 
 
-##Update to latest software
+## Update to latest software
 -----
 
-You need to update the board to latest software to keep a better performance, here we will show you how to make it step by step. 
+You need to update the board to latest software to keep a better performance, here we will show you how to make it step by step.
 
-###STEP1. Download the latest software image
+**STEP1. Download the latest software image**
 
-First of all, you have to download the suitable image here. 
+First of all, you have to download the suitable image here.
 
 [![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/down_latest_image.png)](http://beagleboard.org/latest-images)
 
 !!!Note
-    Due to sizing necessities, this download may take about 30 minutes or more. 
+    Due to sizing necessities, this download may take about 30 minutes or more.
 
-The file you download will have an **.img.xz** extension. This is a compressed sector-by-sector image of the SD card. 
+The file you download will have an **.img.xz** extension. This is a compressed sector-by-sector image of the SD card.
 
-###STEP2. Install compression utility and decompress the image
+**STEP2. Install compression utility and decompress the image**
 
-Download and install [7-zip.](http://www.7-zip.org/download.html) 
+Download and install [7-zip.](http://www.7-zip.org/download.html)
 
 !!!Note
     Choose a version that suitable for your system.
 
 Use 7-zip to decompress the SD card **.img file**
 
-###STEP3. Install SD card programming utility
+**STEP3. Install SD card programming utility**
 
 Download and install [Image Writer for Windows](https://sourceforge.net/projects/win32diskimager/files/latest/download). Be sure to download the binary distribution.
 
-###STEP4. Write the image to your SD card
+**STEP4. Write the image to your SD card**
 
 You need a SD adapter to connect your microSD card to your computer at the first. Then use the software Image Write for Windows to write the decompressed image to your SD card.
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/win32_disk_image.png)
 
-Click on **Write** button, then the process is started. 
+Click on **Write** button, then the process is started.
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/win32_disk_image_process.png)
 
@@ -254,14 +254,14 @@ Click on **Write** button, then the process is started.
     * This process may need up to 10 minutes.
 
 
-###STEP5. Boot your board off of the SD card
+**STEP5. Boot your board off of the SD card**
 
 Insert SD card into your (powered-down first) board. Then the board will boot from the SD card.
 
 !!!Note
     If you don't need to write the image to your on-board eMMC, you don't need to read the last of this chapter.  Otherwise pleas go ahead.
 
-If you desire to write the image to your on-board eMMC, you need to launch to the board, and modify a file. 
+If you desire to write the image to your on-board eMMC, you need to launch to the board, and modify a file.
 
 In **/boot/uEnv.txt**:
 
@@ -277,11 +277,11 @@ Then you will find the 4 user led light as below
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/flashing.gif)
 
 !!!Note
-    If you don't find the upper tracing light, please press the RESET button to reset the board. 
-    
+    If you don't find the upper tracing light, please press the RESET button to reset the board.
+
 When the flashing is complete, all 4 USRx LEDs will be **off**. The latest Debian flasher images automatically power down the board upon completion. This can take up to **10 minutes**. Power-down your board, remove the SD card and apply power again to be complete.
 
-##Grove for BBG
+## Grove for BBG
 ------
 
 Grove is a modular, standardized connecter prototyping system. Grove takes a building block approach to assembling electronics. Compared to the jumper or solder based system, it is easier to connect, experiment and build and simplifies the learning system, but not to the point where it becomes dumbed down.  Some of the other prototype systems out there takes the level down to building blocks.   Good stuff to be learned that way, but the Grove system allows you to build real systems.   It requires some learning and expertise to hook things up.
@@ -322,7 +322,7 @@ Below listed the Grove modules that work well with BBG.
 |101020015	|Grove - Temperature Sensor	|Analog| [link](http://www.seeedstudio.com/Grove-Temperature-Sensor-p-774.html)|
 |101020019	|Grove - Temperature&Humidity Sensor Pro	|Analog| [link](http://www.seeedstudio.com/Grove-Temperature&Humidity-Sensor-Pro-p-838.html)|
 
-##Cape for BBG
+## Cape for BBG
 -------
 
 You will need some expansion board when you start a project. There're many cape for BBG already, they include LCD display, motor driver as well as HDMI expansion etc. Below is some of them recommend.
@@ -337,10 +337,10 @@ You will need some expansion board when you start a project. There're many cape 
 |![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/product4.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/product5.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/product6.jpg)|
 |[GET ONE NOW!](http://www.seeedstudio.com/Grove-Base-Cape-for-Beaglebone-v2.0-p-2644.html)|[GET ONE NOW!](http://www.seeedstudio.com/5-Inch-BeagleBone-Green-LCD-Cape-with-Resistive-Touch-p-2642.html)|[GET ONE NOW!](http://www.seeedstudio.com/7-Inch-BeagleBone-Green-LCD-Cape-with-Resistive-Touch-p-2643.html)|
 
-##References and Resources
 
-###References
-There're many references to help you to get more information about the board. 
+## References
+---
+There're many references to help you to get more information about the board.
 
 * [BeagleBoard Main Page](http://beagleboard.org/)
 * [BeagleBone Green info at BeagleBoard page](http://beagleboard.org/green)
@@ -349,11 +349,10 @@ There're many references to help you to get more information about the board.
 * [Hardware documentation](http://beagleboard.org/getting-started#hardware)
 * [Projects of BeagleBoard](http://beagleboard.org/project)
 
-###Resources
------
+## Resources
+---
 
 * [BEAGLEBONE_GREEN SRM(v1a)(pdf)](https://github.com/SeeedDocument/BeagleBone_Green/raw/master/resources/BBG_SRM_V1a_20151009.pdf)
 * [BEAGLEBONE_GREEN Schematic(pdf)](https://github.com/SeeedDocument/BeagleBone_Green/raw/master/resources/BEAGLEBONE_GREEN_V1.pdf)
 * [BEAGLEBONE_GREEN Schematic(OrCAD)](https://github.com/SeeedDocument/BeagleBone_Green/raw/master/resources/BEAGLEBONE_GREEN_V1_166%28sch%29.rar)
 * [BEAGLEBONE_GREEN PCB(OrCAD)](https://github.com/SeeedDocument/BeagleBone_Green/blob/master/resources/BeagleBone_Green_v1.166%28board%29.rar)
-

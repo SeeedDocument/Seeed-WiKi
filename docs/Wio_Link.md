@@ -383,7 +383,6 @@ Here's the list of supported Groves so far:
 |103020005 |	Grove - Relay							|Generic Digital Output	| [link](http://www.seeedstudio.com/Grove-Relay-p-769.html) |
 |103020008 |	Grove - MOSFET							|Generic Digital Output	| [link](http://www.seeedstudio.com/Grove-MOSFET-p-1594.html) |
 |103020010 |	Grove - 2-Coil Latching Relay			|Generic Digital Output	| [link](http://www.seeedstudio.com/Grove-2-Coil-Latching-Relay-p-1446.html) |
-|103020012 |	Grove - SPDT Relay(30A)					|Generic Digital Output	| [link](http://www.seeedstudio.com/Grove-SPDT-Relay(30A)-p-1473.html) |
 |103020014 |	Grove - Dry-Reed Relay					|Generic Digital Output	| [link](http://www.seeedstudio.com/Grove-Dry-Reed-Relay-p-1412.html) |
 |104020001 |	Grove - Variable Color LED				|Generic Digital Output	| [link](http://www.seeedstudio.com/Grove-Variable-Color-LED-p-852.html) |
 |104020002 |	Grove - Purple LED (3mm)					|Generic Digital Output	| [link](http://www.seeedstudio.com/Grove-Purple-LED-(3mm)-p-1143.html) |
@@ -423,4 +422,3 @@ Here's the list of supported Groves so far:
 |104030003 |	Grove - 4-Digit Display					|Others	| [link](http://www.seeedstudio.com/Grove-4-Digit-Display-p-1198.html) |
 |316010005 |	Grove - Servo							|Others	| [link](http://www.seeedstudio.com/Grove-Servo-p-1241.html) |
 |101020067 |	Grove - CO2 Sensor						|UART	| [link](http://www.seeedstudio.com/Grove-CO2-Sensor-p-1863.html) |
-
