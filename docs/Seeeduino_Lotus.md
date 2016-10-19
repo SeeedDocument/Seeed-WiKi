@@ -97,26 +97,26 @@ If you can't find one, you can buy one [here](http://www.seeedstudio.com/depot/M
 * **Connect the board**
 Connect the Arduino board to your computer using the USB cable. The green power LED (labelled **PWR**) should go on.
 
-
 **For Windows**
 
 !!!Note
     This drive is available for Windows XP, Windows Vista, Windows 7, Windows 8/8.1 and Windows 10.
 
-[![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/download_driver_for_seeeduino_lotus.png)](https://github.com/Seeed-Studio/Signed_USB_Serial_Driver/archive/master.zip)
+[![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/download_driver_for_seeeduino_lotus.png)](https://github.com/SeeedDocument/Seeeduino_Lotus/raw/master/res/CH341SER.EXE)
 
 - Plug in your board and wait for Windows to begin its driver installation process. After a few moments, the process will fail, despite best efforts.
 - Click on the Start Menu, and open up the Control Panel.
 - While in the Control Panel, navigate to System and Security. Next, click on System. Once the System window is up, open the **Device Manager**.
-- Look under Ports (COM & LPT). You should find an open port named "Seeeduino Lotus". If there is no COM & LPT section, look under "Other Devices" for "Unknown Device".
+- Look under Ports (COM & LPT). You should find an open port named "CH340 xxx". If there is no COM & LPT section, look under "Other Devices" for "Unknown Device".
 - Right click on the "Seeeduino Lotus" port and choose the "Update Driver Software" option.
 - Next, choose the "Browse my computer for Driver software" option.
-- Finally, navigate to and select the driver file named "Seeeduino Lotus.inf"
 - Windows will finish up the driver installation from there.
 
 **For Mac OSX**
 
-You don't need to install any drivers.
+Please download the driver here.
+
+[![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/download_driver_for_seeeduino_lotus.png)](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/res/CH341SER_MAC.zip)
 
 
 ## Getting Started
