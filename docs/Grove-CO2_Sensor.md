@@ -141,8 +141,7 @@ Reference
 -   350~450ppm: General outdoor environment
 -   350~1000ppm：The air is fresh and breathing smooth
 -   1000~2000ppm：The air was stagnant and feel asleep
--   2000~5000ppm：headache, asleep, dull, unable To Focus, heart beat rock and even mild nausea
--   &gt;5000ppm：severe depletion of oxygen, permanent brain damage and even death
+-   5000ppm：Permissible exposure limit for an 8h work day
 
 Resources
 ---------
