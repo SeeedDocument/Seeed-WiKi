@@ -77,9 +77,11 @@ pages:
         - Arch Max v1.1: Arch_Max_v1.1.md
         - Arch Pro: Arch_Pro.md
         - Arch V1.1: Arch_V1.1.md
+        - Grove - Starter Kit for mbed: Grove-Starter_Kit_for_mbed.md
 
     - RePhone:
         - RePhone Introduction: RePhone.md
+        - Xadow - 3-Axis Digital Accelerometer(±400g): Xadow_3_Aixs_Digital_Accelerometer_plusandminus_400g.md
         - Xadow - LED 5x7: Xadow_LED_5x7.md
         - Xadow 1.54&#39;&#39; Touchscreen: Xadow_1.54_inch_Touchscreen.md
         - Xadow Audio: Xadow_Audio.md
@@ -175,6 +177,7 @@ pages:
         - Grove - Sound Recorder: Grove-Sound_Recorder.md
         - Grove - Sound Sensor: Grove-Sound_Sensor.md
         - Grove - Speech Recognizer: Grove-Speech_Recognizer.md
+        - Grove - Sunlight Sensor: Grove-Sunlight_Sensor.md
         - Grove - Switch(P): Grove-Switch-P.md
         - Grove - Temp&amp;Humi Sensor(SHT31): Grove-TempAndHumi_Sensor-SHT31.md
         - Grove - Temperature Sensor V1.2: Grove-Temperature_Sensor_V1.2.md
@@ -187,6 +190,7 @@ pages:
         - Grove - Touch Sensor: Grove-Touch_Sensor.md
         - Grove - UV Sensor: Grove-UV_Sensor.md
         - Grove - Ultrasonic Ranger: Grove-Ultrasonic_Ranger.md
+        - Grove - Voltage Divider: Grove-Voltage_Divider.md
         - Grove - Water Sensor: Grove-Water_Sensor.md
 
     - Actuator:
@@ -207,6 +211,7 @@ pages:
         - Grove - Recorder V3: Grove-Recorder_v3.0.md
         - Grove - Relay: Grove-Relay.md
         - Grove - Serial MP3 Player: Grove-Serial_MP3_Player.md
+        - Grove - Solid State Relay: Grove-Solid_State_Relay.md
         - Grove - Speaker: Grove-Speaker.md
         - Grove - Variable Color LED: Grove-Variable_Color_LED.md
         - Grove - Vibration Motor: Grove-Vibration_Motor.md
@@ -269,6 +274,9 @@ pages:
 
 - MakerPro:
     - MakerPro Introduction: MakerPro.md
+        - 433Mhz RF Link Kit: 433Mhz_RF_Link_Kit.md
+        - G1&amp;2&#34; Water Flow Sensor: G1_and_2_inch_Water_Flow_Sensor.md
+        - WiFi Serial Transceiver Module: WiFi_Serial_Transceiver_Module.md
 
 
 - About:

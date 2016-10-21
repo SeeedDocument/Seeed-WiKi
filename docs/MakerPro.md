@@ -12,4 +12,7 @@ The following MakerPro product are available here:
 
 Here is the list of the MakerPro Boards you can find in the Seeed WiKi. The list will be constantly updated.
 
+- [433Mhz RF Link Kit](/433Mhz_RF_Link_Kit/)
+- [G1&amp;2&#34; Water Flow Sensor](/G1_and_2_inch_Water_Flow_Sensor/)
+- [WiFi Serial Transceiver Module](/WiFi_Serial_Transceiver_Module/)
 

@@ -75,6 +75,7 @@ Here is the list of the Grove - Sensor Boards you can find in the Seeed WiKi. Th
 - [Grove - Sound Recorder](/Grove-Sound_Recorder/)
 - [Grove - Sound Sensor](/Grove-Sound_Sensor/)
 - [Grove - Speech Recognizer](/Grove-Speech_Recognizer/)
+- [Grove - Sunlight Sensor](/Grove-Sunlight_Sensor/)
 - [Grove - Switch(P)](/Grove-Switch-P/)
 - [Grove - Temp&amp;Humi Sensor(SHT31)](/Grove-TempAndHumi_Sensor-SHT31/)
 - [Grove - Temperature Sensor V1.2](/Grove-Temperature_Sensor_V1.2/)
@@ -87,6 +88,7 @@ Here is the list of the Grove - Sensor Boards you can find in the Seeed WiKi. Th
 - [Grove - Touch Sensor](/Grove-Touch_Sensor/)
 - [Grove - UV Sensor](/Grove-UV_Sensor/)
 - [Grove - Ultrasonic Ranger](/Grove-Ultrasonic_Ranger/)
+- [Grove - Voltage Divider](/Grove-Voltage_Divider/)
 - [Grove - Water Sensor](/Grove-Water_Sensor/)
 
 

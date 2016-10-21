@@ -24,6 +24,7 @@ Grove - Actuators includes motor drivers, LED displays, Relay, Speakers, Buzzers
 - [Grove - Recorder V3](/Grove-Recorder_v3.0/)
 - [Grove - Relay](/Grove-Relay/)
 - [Grove - Serial MP3 Player](/Grove-Serial_MP3_Player/)
+- [Grove - Solid State Relay](/Grove-Solid_State_Relay/)
 - [Grove - Speaker](/Grove-Speaker/)
 - [Grove - Variable Color LED](/Grove-Variable_Color_LED/)
 - [Grove - Vibration Motor](/Grove-Vibration_Motor/)
