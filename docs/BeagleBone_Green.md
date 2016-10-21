@@ -177,7 +177,7 @@ Install the drivers for your operating system to give you network-over-USB acces
 |Linux|[mkudevrule.sh](http://beagleboard.org/static/Drivers/Linux/FTDI/mkudevrule.sh)|Driver installation isn't required, but you might find a few udev rules helpful.|
 
 !!!Note
-    For window system, please note that:
+    For Windows system, please note that:
 
     * Windows Driver Certification warning may pop up two or three times. Click "Ignore", "Install" or "Run"
     * To check if you're running 32 or 64-bit Windows see [this](https://support.microsoft.com/kb/827218).
