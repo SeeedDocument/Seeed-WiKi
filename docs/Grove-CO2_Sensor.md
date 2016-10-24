@@ -154,5 +154,6 @@ Resources
 
 -   [MH-Z16\_CO2 datasheet\_ZH\_CN.pdf](https://raw.githubusercontent.com/SeeedDocument/Grove-CO2_Sensor/master/res/MH-Z16_CO2.pdf)
 -   [MH-Z16\_CO2 datasheet\_EN.pdf](https://raw.githubusercontent.com/SeeedDocument/Grove-CO2_Sensor/master/res/MH-Z16_CO2_datasheet_EN.pdf)
+-   [Health Risk Evaluation for Carbon Dioxide](http://www.blm.gov/style/medialib/blm/wy/information/NEPA/cfodocs/howell.Par.2800.File.dat/25apxC.pdf)
 
 <!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_CO2_Sensor -->
