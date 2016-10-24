@@ -7,7 +7,7 @@ prodimagename: Grove_CO2_Sensor.jpg
 bzprodimageurl: http://statics3.seeedstudio.com/images/product/Grove CO2 Sensor.jpg
 surveyurl: https://www.research.net/r/Grove-CO2_Sensor
 sku: 101020067
-tags: grove_uart, io_5v, plat_duino, plat_linkit
+tags: grove_uart, io_3v3, io_5v, plat_duino, plat_linkit
 ---
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-CO2_Sensor/master/img/Grove_CO2_Sensor.jpg)
@@ -49,24 +49,32 @@ Please note that the best preheat time of the sensor is about 180s. For the deta
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-CO2_Sensor/master/img/5.jpg)
 
 ```
+/*
+  This test code is write for Arduino AVR Series(UNO, Leonardo, Mega)
+  If you want to use with LinkIt ONE, please connect the module to D0/1 and modify:
+
+  // #include <SoftwareSerial.h>
+  // SoftwareSerial s_serial(2, 3);      // TX, RX
+
+  #define sensor Serial1
+*/
+
+
 #include <SoftwareSerial.h>
- 
-#define DEBUG 0
- 
-const int pinRx = 8;
-const int pinTx = 7;
- 
-SoftwareSerial sensor(pinTx,pinRx);
- 
+SoftwareSerial s_serial(2, 3);      // TX, RX
+
+#define sensor s_serial
+
 const unsigned char cmd_get_sensor[] =
 {
     0xff, 0x01, 0x86, 0x00, 0x00,
     0x00, 0x00, 0x00, 0x79
 };
+
 unsigned char dataRevice[9];
 int temperature;
 int CO2PPM;
- 
+ 
 void setup()
 {
     sensor.begin(9600);
@@ -75,7 +83,7 @@ void setup()
     Serial.println("********************************************************");
     Serial.println();
 }
- 
+ 
 void loop()
 {
     if(dataRecieve())
@@ -88,12 +96,12 @@ void loop()
     }
     delay(1000);
 }
- 
+ 
 bool dataRecieve(void)
 {
     byte data[9];
     int i = 0;
- 
+ 
     //transmit command data
     for(i=0; i<sizeof(cmd_get_sensor); i++)
     {
@@ -111,24 +119,22 @@ bool dataRecieve(void)
             }
         }
     }
- 
-#if DEBUG
+ 
     for(int j=0; j<9; j++)
     {
         Serial.print(data[j]);
         Serial.print(" ");
     }
     Serial.println("");
-#endif
- 
-    if((i != 9) || (1 + (0xFF ^ (byte)(data[1] + data[2] + data[3]
-    + data[4] + data[5] + data[6] + data[7]))) != data[8])
+ 
+    if((i != 9) || (1 + (0xFF ^ (byte)(data[1] + data[2] + data[3] + data[4] + data[5] + data[6] + data[7]))) != data[8])
     {
         return false;
     }
+    
     CO2PPM = (int)data[2] * 256 + (int)data[3];
     temperature = (int)data[4] - 40;
- 
+ 
     return true;
 }
 ```
