@@ -13,7 +13,7 @@ sku: 113040009
 
 Based on the GPS L70 module from Quectel®, the Xadow GPS v2 combines the advanced AGPS technology EASYTM (Embedded Assist System) and the AlwaysLocateTM technology to achieve high performance, ultra-low power consumption and fast positioning even at indoor signal levels. With an excellent high-sensibility receiver (-163dBm tracking) and a built-in chip antenna, the module can track up to 22 satellites on 66 channels, making it a perfect choice for navigation projects. The board also adopts the new 11 PIN Xadow connector to improve the flexibility of module connections.
 
-![](https://github.com/SeeedDocument/Xadow_GPS_V2/raw/master/images/300px-Get_One_Now_Banner.png)
+[![](https://github.com/SeeedDocument/Xadow_GPS_V2/raw/master/images/300px-Get_One_Now_Banner.png)](https://www.seeedstudio.com/Xadow-GPS-v2-p-2557.html)
 
 ## Features
 ---

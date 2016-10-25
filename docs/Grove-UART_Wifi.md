@@ -2,7 +2,7 @@
 title: Grove - UART Wi-Fi
 category: Communication
 bzurl: https://www.seeedstudio.com/Grove-Uart-Wifi-p-2495.html
-oldwikiname: 
+oldwikiname:
 prodimagename: Grove-uart-wifi-01.jpg
 surveyurl: https://www.surveymonkey.com/r/grove_uart_wifi
 sku: 113020010
@@ -11,6 +11,8 @@ sku: 113020010
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove-Uart_Wifi/master/img/Grove-uart-wifi-01.jpg)
 
 Grove - UART WiFi is a serial transceiver module featuring the ubiquitous ESP8266 IoT SoC. With integrated TCP/IP protocol stack, this module lets your micro-controller interact with WiFi networks with only a few lines of code. Each ESP8266 module comes pre-programmed with an AT command set firmware, meaning you can send simple text commands to control the device. The SoC features integrated WEP, WPA/WPA2, TKIP, AES, and WAPI engines, can act as an access point with DHCP, can join existing WiFi networks and has configurable MAC and IP addresses.
+
+[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/Grove-Uart-Wifi-p-2495.html)
 
 ## Features
 
@@ -123,7 +125,7 @@ They are:
 
 * Grove - OLED Display 1.12 - connection to I2C socket
 * Grove - UART Wifi - connection to Serial socket
-* 
+*
 As shown below:
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove-Uart_Wifi/master/img/Grove_uart_wifi_connect.jpg)
@@ -301,4 +303,3 @@ Using Espressif Systems ESP8266 AT Instruction Set Version 0.24 with SeeedStudio
 * [ESP-06](http://www.esp8266.com/wiki/doku.php?id=esp8266-module-family#esp-06)
 * [ESP8266 on Hackaday](http://hackaday.com/tag/esp8266/)
 * [https://nurdspace.nl/ESP8266](https://nurdspace.nl/ESP8266)
-

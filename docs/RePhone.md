@@ -20,6 +20,7 @@ In addition to the RePhone GSM+BLE, we have created 8 add on modules to expand f
 
 Here is the list of the RePhone Boards you can find in the Seeed WiKi. The list will be constantly updated.
 
+- [RePhone Introduction](/RePhone/)
 - [Xadow - 3-Axis Digital Accelerometer(±400g)](/Xadow_3_Aixs_Digital_Accelerometer_plusandminus_400g/)
 - [Xadow - LED 5x7](/Xadow_LED_5x7/)
 - [Xadow 1.54&#39;&#39; Touchscreen](/Xadow_1.54_inch_Touchscreen/)

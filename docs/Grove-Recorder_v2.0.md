@@ -16,8 +16,6 @@ Grove - CRecorder v2.0 is a upgraded recorder with enriched features. It can rec
 
 <sup>\[1\]</sup> Recording time could be customized(if you require) by replacing different resistor the solution to do this will be described in later sections.
 
-![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)
-
 Version Tracker
 ---------------
 

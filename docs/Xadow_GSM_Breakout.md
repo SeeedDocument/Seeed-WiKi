@@ -8,12 +8,13 @@ surveyurl: https://www.surveymonkey.com/r/xadow-gsm-breakout
 sku: 104040003
 ---
 
----
 ![](https://github.com/SeeedDocument/Xadow_GSM_Breakout/raw/master/img/Xadow_GSM_Breakout.JPG)
 The Xadow GSM Breakout draws out 30 pins from the 35 pin Xadow connector to five rows of 0.1 spaced holes with 0.1 spacing between adjacent rows. If you solder wires or through-hole pin headers directly to the breakout pads, you can easily access:
 - Up to 16 General Purpose Inputs/outputs (GPIOs)
 - Interfaces like SPI, I2C, UART, etc.
 - Pinout related to peripheral devices like speaker, audio headphone and microphones
+
+[![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/300px-Get_One_Now_Banner.png)](https://www.seeedstudio.com/Xadow-GSM-Breakout-p-2559.html)
 
 ## Hardware Overview
 ---

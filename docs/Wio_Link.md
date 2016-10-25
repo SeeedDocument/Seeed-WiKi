@@ -14,7 +14,8 @@ What's the toughest part of building IoT applications? Someone says the jump wir
 
 In order to simplify all these steps, at the end of 2015, Seeed Studio initiated Wio Link on [KickStarter](https://www.kickstarter.com/projects/seeed/wio-link-3-steps-5-minutes-build-your-iot-applicat?ref=nav_search), defined a new way of developing IoT applications. Wio Link is an ESP8266 SoC based open-source Wi-Fi development board, the best part of it is the associated platform that allows users to create IoT applications by virtualizing plug-n-play modules to RESTful APIs with mobile Apps. It means that there will be no hardware programming, no breadboard, no jumper wires, and no soldering, just by installing an App on your mobile phone, you are able to build a simple IoT project in 5 minutes.
 
-![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/300px-Get_One_Now_Banner.png)
+[![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/300px-Get_One_Now_Banner.png)](https://www.seeedstudio.com/Wio-Link-p-2604.html)
+
 ## Features
 
 - No hardware programming, No breadboard, No jumper wires, No soldering required.

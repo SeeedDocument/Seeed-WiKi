@@ -17,6 +17,7 @@ This Dust Sensor gives a good indication of the air quality in an environment by
     - Please pay attention to the warnings listed [here](#jump).
 
 [![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/item_detail.html?p_id=1050)
+
 ## Features
 ---
 - Stable and sensitive detection of not only cigarette smoke but house dust which are indoor asthma triggers.

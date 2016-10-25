@@ -1,6 +1,6 @@
 site_name: Seeed Wiki
 site_url: http://wiki.seeed.cc
-site_description: Seeedstudio product documentation 
+site_description: Seeedstudio product documentation
 site_author: Seeedstudio Team
 
 repo_url: https://github.com/SeeedDocument/Seeed-Wiki/
@@ -104,7 +104,7 @@ pages:
         - Wio Link Starter Kit: Wio_Link_Starter_Kit.md
         - Wio Node: Wio_Node.md
 
-    
+
 - Grove:
     - Grove Introduction: Grove.md
     - Grove System: Grove_System.md
@@ -284,7 +284,7 @@ pages:
     - License: License.md
     - Survey: survey_end.md
     - 404: 404.md
-        
+
 theme_dir: mkdocs/themes/readthedocs
 
 markdown_extensions:

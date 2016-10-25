@@ -11,7 +11,7 @@ sku: 101020019
 
 Gopro in temperature and relative humidity measurement applications with this Grove gadget. This is a powerful sister version of our Grove - Temperature and Humidity Sensor. It has more complete and accurate performance than the basic version. The detecting range of this sensor is 5% RH - 99% RH, and -40°C - 80°C. And its accuracy satisfyingly reaches up to 2% RH and 0.5°C. A professional choice for applications that have relatively strict requirements.
 
-![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)
+[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/Grove-Temperature%26Humidity-Sensor-Pro-p-838.html)
 
 ## Specification
 
