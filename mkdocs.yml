@@ -273,7 +273,7 @@ pages:
 
 
 - MakerPro:
-    - MakerPro Introduction: MakerPro.md
+        - MakerPro Introduction: MakerPro.md
         - 433Mhz RF Link Kit: 433Mhz_RF_Link_Kit.md
         - G1&amp;2&#34; Water Flow Sensor: G1_and_2_inch_Water_Flow_Sensor.md
         - WiFi Serial Transceiver Module: WiFi_Serial_Transceiver_Module.md
