@@ -1,11 +1,6 @@
 ---
 title: RePhone Introduction
-category: RePhone
-bzurl: https://www.seeedstudio.com/RePhone-Kit-Create-p-2552.html
-oldwikiname: Rephone
-prodimagename: 375px-IMG_2999.JPG
-surveyurl: https://www.surveymonkey.com/r/RePhone
-sku: 110040002
+nointro:
 ---
 
 RePhone Kit is an open source modular phone kit that changes the way we put our phone into use. It provides a new form of phone customization, and the easiest solution to wearable/IoT development.
