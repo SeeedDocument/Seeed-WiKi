@@ -54,7 +54,7 @@ SeeedStudio BeagleBone Green Wireless (BBGW) is a joint effort by [BeagleBoard.o
 |Grove Connectors	|2 (One I2C and One UART) |
 |GPIO	|2 x 46 pin headers|
 |Ethernet	|Wi-Fi 802.11b/g/n 2.4GHz and Bluetooth 4.1 LE|
-|Operating Temperature	|0 ~ 75 |
+|Operating Temperature	|0 ~ 75℃ |
 
 
 ## Application Ideas
@@ -419,9 +419,12 @@ There're many references to help you to get more information about the board.
 * [BeagleBone Green Wireless info at BeagleBoard page](http://beagleboard.org/green-wireless)
 * [BeagleBoard Getting Started](http://beagleboard.org/getting-started)
 * [Troubleshooting](http://beagleboard.org/getting-started#troubleshooting)
-* [Hardware documentation](http://beagleboard.org/getting-started#hardware)
+* [Hardware documentation of BeagleBone board](http://beagleboard.org/getting-started#hardware)
 * [Projects of BeagleBoard](http://beagleboard.org/project)
 
 ## Resources
 -----
 - [BeagleBone_Green_Wireless Schematic(pdf)](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/tree/master/resources/BeagleBone_Green Wireless_V1.0_SCH_20160314.pdf)
+- [SCH&PCB IN Allegro](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/raw/master/resources/SCH%26PCB%20in%20Allegro.zip)
+- [FCC certification](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/raw/master/resources/BeagleBone%20Green%20Wireless%20V1.0_FCC.zip)
+- [CE certification](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/raw/master/resources/BeagleBone%20Green%20Wireless%20V1.0_CE.zip)
