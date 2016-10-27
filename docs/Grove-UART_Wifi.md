@@ -31,6 +31,8 @@ Grove - UART WiFi is a serial transceiver module featuring the ubiquitous ESP826
 * On-board ceramic antenna
 * Reset switch
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
 
 ##Hardware Overview
 

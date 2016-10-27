@@ -31,6 +31,10 @@ Features
 -   Support dual-color LED-pixel. Three colors totally (the third color is a mix of two primary color)
 -   Interface: UART(SoftSerial in Arduino)
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+  
+  
 Specifications
 --------------
 

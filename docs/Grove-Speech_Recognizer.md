@@ -45,6 +45,10 @@ When it recognizes the awaken word, LED turn red, then you can say the command w
 * 22 recognition entry
 * Default Baudrate: 9600
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
+
 **Platform Support**
 
 |Arduino|Wio|BeagleBone|Raspberry Pi|LinkIt|

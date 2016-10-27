@@ -29,6 +29,9 @@ Specifications
 -   TTL Output: 9600 baudrate, 8 data bits, 1 stop bit, and no verify bit
 -   Wiegand Output: 26 bits Wiegand format, 1 even verify bit, 24 data bits, and 1 odd verify bit
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 Platforms Supported
 -------------------
 

@@ -27,6 +27,9 @@ Specifications
 -   Cold junction compensation (environment temperature measurement)
 -   Thermocouple temperature measurement accuracy of + / - 2.0% (+ 2 ℃)
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
 Platforms Supported
 -------------------
 

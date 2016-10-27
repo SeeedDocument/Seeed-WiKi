@@ -25,6 +25,9 @@ Features
 -   Easy to use
 -   Sensitivity is adjustable
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 Specifications
 -------------
 
@@ -164,41 +167,41 @@ Let's use it to control. When the output value is 0, the led will light up.
 
 ```
     /******************************************************************************/
-     
+
     #define SENSOR 3 //connect SENSOR to digital pin3
     #define LED 2//connect Grove - LED to pin2
 
-    void setup() 
-    {                
-        pinsInit();
-    }
-    void loop() 
-    {
-      if(isFlameDetected())
-        turnOnLED();
-      else turnOffLED();
-    }
+void setup()
+{
+    pinsInit();
+}
+void loop()
+{
+    if(isFlameDetected())
+    turnOnLED();
+    else turnOffLED();
+}
     /********************************/
-    void pinsInit()
-    {
-        pinMode(FLAME_SENSOR, INPUT);
-        pinMode(LED,OUTPUT);
-        digitalWrite(LED,LOW);
-    }
-    void turnOnLED()
-    {
-        digitalWrite(LED,HIGH);
-    }
-    void turnOffLED()
-    {
-        digitalWrite(LED,LOW);
-    }
-    boolean isFlameDetected()
-    {
-        if(digitalRead(FLAME_SENSOR))
-            return false;
-        else return true;
-    }
+void pinsInit()
+{
+    pinMode(FLAME_SENSOR, INPUT);
+    pinMode(LED,OUTPUT);
+    digitalWrite(LED,LOW);
+}
+void turnOnLED()
+{
+    digitalWrite(LED,HIGH);
+}
+void turnOffLED()
+{
+    digitalWrite(LED,LOW);
+}
+boolean isFlameDetected()
+{
+    if(digitalRead(FLAME_SENSOR))
+    return false;
+    else return true;
+}
 ```
 
 5.The LED will light up when there is infrared light. Please use it to designed your products.

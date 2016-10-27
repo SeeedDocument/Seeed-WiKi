@@ -36,6 +36,9 @@ Features
 -   Easy to Use
 -   Grove Base Module
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 Specifications
 --------------
 

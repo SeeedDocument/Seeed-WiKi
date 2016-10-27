@@ -14,7 +14,6 @@ tags: grove_analog, io_3v3, io_5v, plat_duino, plat_linkit
 
 The Grove – UV Sensor is used for detecting the intensity of incident ultraviolet(UV) radiation. This form of electromagnetic radiation has shorter wavelengths than visible radiation. The Grove - UV Sensor is based on the sensor GUVA-S12D which has a wide spectral range of 200nm-400nm. The module outputs electrical signal which varies with the UV intensity, which gives your suggestion if it is a good idea to beach today.
 
-
 [![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](https://www.seeedstudio.com/Grove-UV-Sensor-p-1540.html)
 
 Features
@@ -27,6 +26,9 @@ Features
 -   Wide response range
 -   Grove Interface
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 Specifications
 --------------
 
@@ -73,29 +75,29 @@ UV Index = illumination intensity / 200
 -   The demo code is shown below.
 
 ```
- // modified by Victor 
- // to calculate UV index directly
+// modified by Victor
+// to calculate UV index directly
 void setup(){
- 
-  Serial.begin(9600);
+
+    Serial.begin(9600);
 }
- 
+
 void loop()
-{  
-  int sensorValue;
-  long  sum=0;
-  for(int i=0;i<1024;i++)// accumulate readings for 1024 times
-   {  
-      sensorValue=analogRead(A0);
-      sum=sensorValue+sum;
-      delay(2);
-   }   
- long meanVal = sum/1024;  // get mean value
- Serial.print("The current UV index is:");
- Serial.print((meanVal*1000/4.3-83)/21);// get a detailed calculating expression for UV index in schematic files. 
- Serial.print("\n");
- delay(20); 
- 
+{
+    int sensorValue;
+    long  sum=0;
+    for(int i=0;i<1024;i++)// accumulate readings for 1024 times
+    {
+        sensorValue=analogRead(A0);
+        sum=sensorValue+sum;
+        delay(2);
+    }
+    long meanVal = sum/1024;  // get mean value
+    Serial.print("The current UV index is:");
+    Serial.print((meanVal*1000/4.3-83)/21);// get a detailed calculating expression for UV index in schematic files.
+    Serial.print("\n");
+    delay(20);
+
 }
 ```
 

@@ -23,6 +23,9 @@ Features
 -   Grove compatible interface (3.3V/5V)
 -   8 adjustable luminance levels
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
 Application Ideas
 -----------------
 

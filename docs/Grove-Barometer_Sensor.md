@@ -26,6 +26,9 @@ Features
 -   Fully calibrated
 -   Temperature measurement included
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
 Application Ideas
 -----------------
 
@@ -162,52 +165,53 @@ Barometric condition is one of the criteria used to predict coming change in wea
 3.Create a new Arduino sketch and paste the codes below to it or open the code directly by the path:File -> Example ->Barometer_Sensor->Barometer_Sensor.
 
 ```
-    /* Barometer demo V1.0
-    * Based largely on code by  Jim Lindblom
-    * Get pressure, altitude, and temperature from the BMP085.
-    * Serial.print it out at 9600 baud to serial monitor.
-    *
-    * By:http://www.seeedstudio.com
-    */
-    #include "Barometer.h"
-    #include <Wire.h>
-    float temperature;
-    float pressure;
-    float atm;
-    float altitude;
-    Barometer myBarometer;
-    void setup(){
-      Serial.begin(9600);
-      myBarometer.init();
-      
-    }
+/* Barometer demo V1.0
+*  Based largely on code by  Jim Lindblom
+*  Get pressure, altitude, and temperature from the BMP085.
+*  Serial.print it out at 9600 baud to serial monitor.
+*
+*  By:http://www.seeedstudio.com
+*/
+#include "Barometer.h"
+#include <Wire.h>
 
-    void loop()
-    {
-       temperature = myBarometer.bmp085GetTemperature(myBarometer.bmp085ReadUT()); //Get the temperature, bmp085ReadUT MUST be called first
-       pressure = myBarometer.bmp085GetPressure(myBarometer.bmp085ReadUP());//Get the temperature
-       altitude = myBarometer.calcAltitude(pressure); //Uncompensated calculation - in Meters 
-       atm = pressure / 101325; 
-      
-      Serial.print("Temperature: ");
-      Serial.print(temperature, 2); //display 2 decimal places
-      Serial.println("deg C");
+float temperature;
+float pressure;
+float atm;
+float altitude;
+Barometer myBarometer;
 
-      Serial.print("Pressure: ");
-      Serial.print(pressure, 0); //whole number only.
-      Serial.println(" Pa");
+void setup(){
+    Serial.begin(9600);
+    myBarometer.init();
+}
 
-      Serial.print("Ralated Atmosphere: ");
-      Serial.println(atm, 4); //display 4 decimal places
+void loop()
+{
+    temperature = myBarometer.bmp085GetTemperature(myBarometer.bmp085ReadUT()); //Get the temperature, bmp085ReadUT MUST be called first
+    pressure = myBarometer.bmp085GetPressure(myBarometer.bmp085ReadUP());//Get the temperature
+    altitude = myBarometer.calcAltitude(pressure); //Uncompensated calculation - in Meters
+    atm = pressure / 101325;
 
-      Serial.print("Altitude: ");
-      Serial.print(altitude, 2); //display 2 decimal places
-      Serial.println(" m");
+    Serial.print("Temperature: ");
+    Serial.print(temperature, 2); //display 2 decimal places
+    Serial.println("deg C");
 
-      Serial.println();
+    Serial.print("Pressure: ");
+    Serial.print(pressure, 0); //whole number only.
+    Serial.println(" Pa");
 
-      delay(1000); //wait a second and get values again.
-    }
+    Serial.print("Ralated Atmosphere: ");
+    Serial.println(atm, 4); //display 4 decimal places
+
+    Serial.print("Altitude: ");
+    Serial.print(altitude, 2); //display 2 decimal places
+    Serial.println(" m");
+
+    Serial.println();
+
+    delay(1000); //wait a second and get values again.
+}
 ```
 
 4.Open the serial monitor to receive the sensor's data including temperature, barometric pressure value, relative atmosphere pressure and altitude.
@@ -229,65 +233,64 @@ The following is a reference graph plotting out the relationship between altitud
 
 4.Navigate to the demos' directory:
 ```
-    cd yourpath/GrovePi/Software/Python/grove_barometer/adafruit/
+cd yourpath/GrovePi/Software/Python/grove_barometer/adafruit/
 ```
 
 -   To see the code
 
 ```
-    nano grove_i2c_barometic_sensor_example.py   # "Ctrl+x" to exit #
+nano grove_i2c_barometic_sensor_example.py   # "Ctrl+x" to exit #
 ```
 
 ```
-    #!/usr/bin/python
+#!/usr/bin/python
 
-    import smbus
-    import RPi.GPIO as GPIO
-    #import grovepi
-    from grove_i2c_barometic_sensor import BMP085
+import smbus
+import RPi.GPIO as GPIO
+#import grovepi from grove_i2c_barometic_sensor import BMP085
 
-    # ===========================================================================
-    # Example Code
-    # ===========================================================================
+# ===========================================================================
+# Example Code
+# ===========================================================================
 
-    # Initialise the BMP085 and use STANDARD mode (default value)
-    # bmp = BMP085(0x77, debug=True)
-    bmp = BMP085(0x77, 1)
+# Initialise the BMP085 and use STANDARD mode (default value)
+# bmp = BMP085(0x77, debug=True)
+bmp = BMP085(0x77, 1)
 
-    # To specify a different operating mode, uncomment one of the following:
-    # bmp = BMP085(0x77, 0)  # ULTRALOWPOWER Mode
-    # bmp = BMP085(0x77, 1)  # STANDARD Mode
-    # bmp = BMP085(0x77, 2)  # HIRES Mode
-    # bmp = BMP085(0x77, 3)  # ULTRAHIRES Mode
+# To specify a different operating mode, uncomment one of the following:
+# bmp = BMP085(0x77, 0)  # ULTRALOWPOWER Mode
+# bmp = BMP085(0x77, 1)  # STANDARD Mode
+# bmp = BMP085(0x77, 2)  # HIRES Mode
+# bmp = BMP085(0x77, 3)  # ULTRAHIRES Mode
 
-    rev = GPIO.RPI_REVISION
-    if rev == 2 or rev == 3:
-        bus = smbus.SMBus(1)
-    else:
-        bus = smbus.SMBus(0)
+rev = GPIO.RPI_REVISION
+if rev == 2 or rev == 3:
+    bus = smbus.SMBus(1)
+else:
+    bus = smbus.SMBus(0)
 
-    temp = bmp.readTemperature()
+temp = bmp.readTemperature()
 
-    # Read the current barometric pressure level
-    pressure = bmp.readPressure()
+# Read the current barometric pressure level
+pressure = bmp.readPressure()
 
-    # To calculate altitude based on an estimated mean sea level pressure
-    # (1013.25 hPa) call the function as follows, but this won't be very accurate
-    # altitude = bmp.readAltitude()
+# To calculate altitude based on an estimated mean sea level pressure
+# (1013.25 hPa) call the function as follows, but this won't be very accurate
+# altitude = bmp.readAltitude()
 
-    # To specify a more accurate altitude, enter the correct mean sea level
-    # pressure level.  For example, if the current pressure level is 1023.50 hPa
-    # enter 102350 since we include two decimal places in the integer value
-    altitude = bmp.readAltitude(101560)
+# To specify a more accurate altitude, enter the correct mean sea level
+# pressure level.  For example, if the current pressure level is 1023.50 hPa
+# enter 102350 since we include two decimal places in the integer value
+altitude = bmp.readAltitude(101560)
 
-    print "Temperature: %.2f C" % temp
-    print "Pressure:    %.2f hPa" % (pressure / 100.0)
-    print "Altitude:    %.2f m" % altitude
+print "Temperature: %.2f C" % temp
+print "Pressure:    %.2f hPa" % (pressure / 100.0)
+print "Altitude:    %.2f m" % altitude
 ```
 
 5.Run the demo.
 ```
-       sudo python grove_i2c_barometic_sensor_example.py
+sudo python grove_i2c_barometic_sensor_example.py
 ```
 
 6.Result

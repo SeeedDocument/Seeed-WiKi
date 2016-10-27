@@ -28,6 +28,9 @@ Specifications
 -   Digital-output 3-Axis accelerometer with a programmable full scale range of ±2g, ±4g, ±8g and ±16g
 -   Digital-output 3-Axis accelerometer with a full scale measurement range is ±4800μT
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 Platforms Supported
 -------------------
 

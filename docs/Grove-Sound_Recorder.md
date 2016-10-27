@@ -26,6 +26,10 @@ Features
 -   Low Power consumption
 -   Sample rate and duration changeable by replacing a single resistor.
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
+    
 Application Ideas
 -----------------
 
@@ -124,18 +128,18 @@ If you connect it to the Base Shield via 4 pin wire, you should make sure the SE
 I connected the "Control" connector to Digital port D1. And set the D1 and D2 to low by:
 
 ```
-      const int D1 =  1;     
-      const int D2 =  2;
-      int State = LOW;             
-      void setup() {
-      pinMode(D1, OUTPUT); 
-      pinMode(D2, OUTPUT); 
-      digitalWrite(D1, State );
-      digitalWrite(D2, State );
-     }
-     void loop()
-     {   
-     }
+const int D1 =  1;
+const int D2 =  2;
+int State = LOW;
+void setup() {
+    pinMode(D1, OUTPUT);
+    pinMode(D2, OUTPUT);
+    digitalWrite(D1, State );
+    digitalWrite(D2, State );
+}
+void loop()
+{
+}
 ```
 
 Step 2: Push the SW1 to "rec".
@@ -179,74 +183,75 @@ Download the following code to your Arduino/Seeeduino.
 
 
 ```
-    /****************************************************************************/
+/****************************************************************************/
 
-    #include "APR9600.h"
+#include "APR9600.h"
 
-    /*macro definition of the Grove interface on the Sounder Recorder*/
-    #define SEL1 2
-    #define SEL2 3
-    ARP9600 recorder(SEL1,SEL2);
-    /*Store the command from the serial monitor you type.*/
-    char index;//can be '2','3','4',that is the index of section 2,section 3,section 4
-    char control;//control byte, can be 'r' for record, 's' for stop recording,
-                 //'p' for play
+/*macro definition of the Grove interface on the Sounder Recorder*/
+#define SEL1 2
+#define SEL2 3
+ARP9600 recorder(SEL1,SEL2);
 
-    void setup()
+/*Store the command from the serial monitor you type.*/
+char index;//can be '2','3','4',that is the index of section 2,section 3,section 4
+char control;//control byte, can be 'r' for record, 's' for stop recording,
+//'p' for play
+
+void setup()
+{
+    Serial.begin(9600);
+    recorder.begin();
+}
+void loop()
+{
+    getCommand();
+    delay(50);
+}
+void getCommand()
+{
+    if (Serial.available()>0)
     {
-        Serial.begin(9600);
-        recorder.begin();
-    }
-    void loop()
-    {
-        getCommand();
-        delay(50);
-    }
-    void getCommand()
-    {
-        if (Serial.available()>0)
-        {   
         /*Get the command from the serial monitor*/
-            index = Serial.read();
-            control = Serial.read();
-        }
-        while(Serial.available()>0)Serial.read();//clear the receive buffer
-        if((index > '1')&&(index < '5'))// index should be 2~4
-        {
-            if(control == 'r')//if it is record command?
-            {
-                recorder.record(index - 0x30);
-                Serial.print("get the ");
-                Serial.write(index);
-                Serial.write(control);
-                Serial.print(" command, ");
-                Serial.print("begin to record section_");
-                Serial.println(index - 0x30);
-            }
-            else if(control == 'p')//if it is play command
-            {
-                recorder.play(index - 0x30);
-                Serial.print("get the ");
-                Serial.write(index);
-                Serial.write(control);
-                Serial.print(" command, ");
-                Serial.print("begin to play section_");
-                Serial.println(index - 0x30);
-            }
-            else if(control == 's')//if it is stop command
-            {
-                recorder.stop();//stop recording
-                Serial.print("get the ");
-                Serial.write(index);
-                Serial.write(control);
-                Serial.print(" command, ");
-                Serial.print("stop recording");
-            }
-            /*Clear the command*/
-            index = 0;
-            control = 0;
-        }
+        index = Serial.read();
+        control = Serial.read();
     }
+    while(Serial.available()>0)Serial.read();//clear the receive buffer
+    if((index > '1')&&(index < '5'))// index should be 2~4
+    {
+        if(control == 'r')//if it is record command?
+        {
+            recorder.record(index - 0x30);
+            Serial.print("get the ");
+            Serial.write(index);
+            Serial.write(control);
+            Serial.print(" command, ");
+            Serial.print("begin to record section_");
+            Serial.println(index - 0x30);
+        }
+        else if(control == 'p')//if it is play command
+        {
+            recorder.play(index - 0x30);
+            Serial.print("get the ");
+            Serial.write(index);
+            Serial.write(control);
+            Serial.print(" command, ");
+            Serial.print("begin to play section_");
+            Serial.println(index - 0x30);
+        }
+        else if(control == 's')//if it is stop command
+        {
+            recorder.stop();//stop recording
+            Serial.print("get the ");
+            Serial.write(index);
+            Serial.write(control);
+            Serial.print(" command, ");
+            Serial.print("stop recording");
+        }
+            /*Clear the command*/
+        index = 0;
+        control = 0;
+    }
+}
 ```
 
 Now, you can begin to control the recorder, with the following command (Baud Rate:9600):

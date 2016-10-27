@@ -23,6 +23,9 @@ Specifications
 -   Voltage: 3.3-5V
 -   Distance:10m
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 Platforms Supported
 -------------------
 

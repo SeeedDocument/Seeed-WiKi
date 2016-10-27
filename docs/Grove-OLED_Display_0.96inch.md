@@ -26,6 +26,8 @@ sku: 104030008
 !!!warning
 	Please notice: heavy impact or stress on the OLED will cause the breakdown of screen.
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
 
 ##Specifications
 |Items	                             |Min	 |Norm	   |Max	   |Unit          |

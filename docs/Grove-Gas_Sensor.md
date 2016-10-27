@@ -27,7 +27,10 @@ Specification
 -   Sensing Resistance: 3-30kΩ
 -   Working Temperature: -25~70 ℃
 
-Demonstration
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
+Getting Started
 -------------
 
 Connect the module with Grove Shield using A0 like following picture and use the program below to gain the voltage. The higher the concentration of the gas is, the bigger the output voltage of the SIG pin gets. Sensitivity can be regulated by rotating the potentiometer. Please note that the best preheat time of the sensor is about 24 hours. For the detailed information about the sensor, please refer to the datasheet.

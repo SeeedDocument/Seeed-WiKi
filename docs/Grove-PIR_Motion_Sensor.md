@@ -21,6 +21,9 @@ This is a simple to use PIR motion sensor with Grove compatible interface. This 
 - Adjustable detecting distance
 - Adjustable holding time
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 ## Specification
 
 |||
@@ -72,31 +75,19 @@ Base Shield	Grove module
 
 void setup()
 {
-	pinsInit();
+	pinMode(PIR_MOTION_SENSOR, INPUT);
+	pinMode(LED,OUTPUT);
 }
 
 void loop()
 {
 	if(isPeopleDetected())//if it detects the moving people?
-		turnOnLED();
+		digitalWrite(LED, HIGH);
 	else
-		turnOffLED();
+		digitalWrite(LED, LOW);
 }
 
 
-void pinsInit()
-{
-	pinMode(PIR_MOTION_SENSOR, INPUT);
-	pinMode(LED,OUTPUT);
-}
-void turnOnLED()
-{
-	digitalWrite(LED,HIGH);
-}
-void turnOffLED()
-{
-	digitalWrite(LED,LOW);
-}
 /***************************************************************/
 /*Function: Detect whether anyone moves in it's detecting range*/
 /*Return:-boolean, true is someone detected.*/

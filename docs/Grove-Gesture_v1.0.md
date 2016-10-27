@@ -31,6 +31,10 @@ Application: You can use Gesture as an input device to control another grove, or
  - Clockwise
  - Count Clockwise
  - Wave
+ 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
 
 ## Specification
 ---
@@ -105,10 +109,10 @@ void loop()
 
 	paj7620ReadReg(0x43, 1, &data);  // When different gestures be detected, the variable 'data' will be set to different values by paj7620ReadReg(0x43, 1, &data).
 
-	if (data == GES_UP_FLAG) 							// When up gesture be detected,the variable 'data' will be set to GES_UP_FLAG.
-		digitalWrite(4, HIGH);   				        // turn the LED on (HIGH is the voltage level)
-	if (data == GES_DOWN_FLAG) 						// When down gesture be detected,the variable 'data' will be set to GES_DOWN_FLAG.
-        digitalWrite(4, LOW);   					    // turn the LED off by making the voltage LOW
+	if (data == GES_UP_FLAG) 	    // When up gesture be detected,the variable 'data' will be set to GES_UP_FLAG.
+		digitalWrite(4, HIGH);      // turn the LED on (HIGH is the voltage level)
+	if (data == GES_DOWN_FLAG) 	    // When down gesture be detected,the variable 'data' will be set to GES_DOWN_FLAG.
+        digitalWrite(4, LOW);       // turn the LED off by making the voltage LOW
 ```
 
 ![](https://github.com/SeeedDocument/Grove_Gesture_V_1.0/raw/master/img/IMG_0029.gif)

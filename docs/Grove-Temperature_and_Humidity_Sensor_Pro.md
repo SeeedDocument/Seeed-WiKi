@@ -32,6 +32,10 @@ Gopro in temperature and relative humidity measurement applications with this Gr
 |Signal Collecting Period	|-|	2|	-|	S|
 |Respond Time	1/e(63%)|	6|	-	|20|	S|
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
+    
 **Platforms Supported**
 
 |Arduino|Raspberry Pi|

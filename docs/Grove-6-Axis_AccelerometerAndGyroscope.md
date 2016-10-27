@@ -34,7 +34,9 @@ Features
 -   Programmed interrupts for different event.
 -   8 kB data buffering.
 
-
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 Application ideas
 -----------------
 

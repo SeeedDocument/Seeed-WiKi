@@ -24,6 +24,10 @@ Features
 -   Baud rates configurable
 -   Grove compatible interface
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
+
 Specifications
 -------------
 
@@ -95,16 +99,18 @@ void loop()
 void clearBufferArray()                     // function to clear buffer array
 {
     for (int i=0; i<count;i++)
-    { buffer[i]=NULL;}                      // clear all index of array with command NULL
+    { 
+        buffer[i]=NULL;
+    }                      // clear all index of array with command NULL
 }
 ```
 
 -   Install [u-center](http://www.u-blox.com/images/Support/Support_Products/EvaluationSoftware/u-centersetup-6.2.0.0.zip). Upload the code below to your Arduino/Seeeduino and then open u-center.
 
-     1. Click Receiver -> Port and select the COM port that the Arduino is using.
-     2. Click Receiver -> Baudrate and make sure 9600 is selected.
-     3. Click View -> Text Console and you should get a window that will stream NMEA data.
-     4. Open the serial monitor,You can see as show below:
+    1. Click Receiver -> Port and select the COM port that the Arduino is using.
+    2. Click Receiver -> Baudrate and make sure 9600 is selected.
+    3. Click View -> Text Console and you should get a window that will stream NMEA data.
+    4. Open the serial monitor,You can see as show below:
 
      ![](https://raw.githubusercontent.com/SeeedDocument/Grove-GPS/master/img/GPS_result.jpg)
 

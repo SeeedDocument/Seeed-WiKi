@@ -39,6 +39,9 @@ It does not conflict if you use the same I2C Socket simultaneously because every
 
 Here we do not list a specific example.
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
 Resources
 ---------
 

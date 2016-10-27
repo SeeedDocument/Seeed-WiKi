@@ -29,6 +29,10 @@ Secondly, if you have ever used previous version, you would know that if you wan
 * Built-in led indicator
 * Stand alone or control by MCU
 * Built-in Microphone
+
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 ###Platform Support
 
 |Arduino|Wio|BeagleBone|Raspberry Pi|LinkIt|

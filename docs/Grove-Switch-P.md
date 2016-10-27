@@ -30,6 +30,9 @@ Features
 -   Easy to use
 -   Basic Grove element
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
 Platforms Supported
 -------------------
 
@@ -43,38 +46,36 @@ Below is a simple example showing how to use a switch to turn on/off an LED.The 
 3. Copy and paste code below to a new Arduino sketch.
 
 ```
+// constants won't change. They're used here to
+// set pin numbers:
+const int switchPin = 2;     // the number of the pushbutton pin
+const int ledPin =  13;      // the number of the LED pin
 
-    // constants won't change. They're used here to 
-    // set pin numbers:
-    const int switchPin = 2;     // the number of the pushbutton pin
-    const int ledPin =  13;      // the number of the LED pin
+// variables will change:
+int switchState = 0;         // variable for reading the pushbutton status
 
-    // variables will change:
-    int switchState = 0;         // variable for reading the pushbutton status
+void setup() {
+    // initialize the LED pin as an output:
+    //pinMode(ledPin, OUTPUT);
+    // initialize the switch pin as an input:
+    Serial.begin(9600);
+    pinMode(switchPin, INPUT);
+}
+void loop(){
+    // read the state of the switch value:
+    switchState = digitalRead(switchPin);
 
-    void setup() {
-      // initialize the LED pin as an output:
-      //pinMode(ledPin, OUTPUT);      
-      // initialize the switch pin as an input:
-      Serial.begin(9600);
-      pinMode(switchPin, INPUT);     
+    if (switchState == HIGH) {
+        // turn LED on:
+        // digitalWrite(ledPin, HIGH);
+        Serial.println("switch high!");
     }
-    void loop(){
-      // read the state of the switch value:
-      switchState = digitalRead(switchPin);
-
-      
-      if (switchState == HIGH) {     
-        // turn LED on:    
-       // digitalWrite(ledPin, HIGH);  
-       Serial.println("switch high!");
-      } 
-      else {
+    else {
         // turn LED off:
-       // digitalWrite(ledPin, LOW); 
-       Serial.println("switch low");
-      }
+        // digitalWrite(ledPin, LOW);
+        Serial.println("switch low");
     }
+}
 
 ```
 

@@ -27,6 +27,9 @@ Grove - Sunlight Sensor include an on-bard Grove connector, which help you to co
 - Grove compatible
 - I2C Interface(7-bit)
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
 ## Specification
 ---
 |||

@@ -27,6 +27,9 @@ Specifications
 | Communicating Protocol | I2C                                 |
 | I2C Address            | 0x5A - 0x5D                         |
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 Platforms Supported
 -------------------
 

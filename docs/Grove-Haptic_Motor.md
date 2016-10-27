@@ -24,6 +24,10 @@ Features
 -   Easy-to-use library with 123 kinds of vibrating modes.
 -   Powerful driver to implanting more advanced functions.
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
+
 Specifications
 -------------
 

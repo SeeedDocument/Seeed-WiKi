@@ -43,6 +43,9 @@ Parameters
 The supply power of HM-11 is 3.3v, but the Grove - BLE is 3.3V to 5V.
 </div>
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 Platforms Supported
 -------------------
 

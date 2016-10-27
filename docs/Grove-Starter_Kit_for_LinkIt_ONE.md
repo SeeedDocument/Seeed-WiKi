@@ -22,6 +22,10 @@ Features
 -   Make building process of your projects easier.
 -   Cut down your expense by including typical and popular modules.
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
+
 Specifications
 -------------
 

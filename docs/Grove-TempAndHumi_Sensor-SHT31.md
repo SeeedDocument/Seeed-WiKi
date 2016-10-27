@@ -28,6 +28,9 @@ Features
 -   Well calibrated, linearized, compensated for digital output
 -   Highly abstracted development library
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
 Specifications
 --------------
 

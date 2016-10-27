@@ -24,6 +24,9 @@ Features
 -   Selectable scale factor
 -   Can be conveniently read by Arduino
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 Applications
 -----------
 

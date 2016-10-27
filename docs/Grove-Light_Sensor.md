@@ -37,6 +37,9 @@ This document applies to the following version of products:
 * Small footprint
 * Recognize wider spectrum
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+  
 ### Platform Support
 
 |Arduino|Wio|BeagleBone|Raspberry Pi|LinkIt|

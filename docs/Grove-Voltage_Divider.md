@@ -20,6 +20,9 @@ The Grove – Voltage Divider provides an interface for measuring external volta
 - Easy to use
 - Can adjust the gain
 
+!!!Tip
+    More details about Grove modules please refer [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 ## Specification
 ---
 
@@ -48,28 +51,30 @@ And When voltage divider output voltage is higher than VCC (The Grove Operating 
 - Using the serial monitor of Arduino, you can measure the input voltage value. Demo code as show below:
 
 ```
-void setup(){
-  Serial.begin(9600);
+void setup()
+{
+    Serial.begin(9600);
 }
 
-void loop(){
-   long  sensorValue=analogRead(A0);
-   long  sum=0;
-   for(int i=0;i<1000;i++)
-   {
-      sum=sensorValue+sum;
-      sensorValue=analogRead(A0);
-      delay(2);
-   }   
-   sum=sum/1000;
+void loop()
+{
+    long  sensorValue=analogRead(A0);
+    long  sum=0;
+    for(int i=0;i<1000;i++)
+    {
+        sum=sensorValue+sum;
+        sensorValue=analogRead(A0);
+        delay(2);
+    }
+    sum=sum/1000;
 
-   Serial.print("if you set the Gain to 10,the input voltage:");
-   Serial.println(10*sum*4980/1023.00);
+    Serial.print("if you set the Gain to 10,the input voltage:");
+    Serial.println(10*sum*4980/1023.00);
 
-   Serial.print("if you set the Gain to 3,the input voltage:");
-   Serial.println(3*sum*4980/1023.00);
+    Serial.print("if you set the Gain to 3,the input voltage:");
+    Serial.println(3*sum*4980/1023.00);
 
-   delay(1000);
+    delay(1000);
 }
 ```
 

@@ -31,6 +31,9 @@ Features
 -   Grove compatible and easy to use
 -   Highly abstracted library for building projects quicker
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 Specifications
 --------------
 

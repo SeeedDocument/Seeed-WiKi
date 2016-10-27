@@ -35,6 +35,10 @@ Features
 - Long range: SPP 30 meters, BLE 60 meters
 - Power: SPP 13.5mA, BLE 9.5mA
 - Working temperature: –5 ~ +65 Centigrade
+
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 Platforms Supported
 -------------------
 

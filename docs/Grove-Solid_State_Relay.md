@@ -23,6 +23,10 @@ Grove – Solid State Relay is a non-contact electronic switch module that has r
 - Acrylic base and insulation paper increase safety performance
 - Grove compatible
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
+
 ## Application Ideas
 ---
 - Operations that require low-latency switching, e.g. stage light control
@@ -78,15 +82,15 @@ You need upload the below code. Please click [here](http://wiki.seeedstudio.com/
 
 int ssrControlPin = 13;
 void setup() {
-  // initialize the digital pin as an output.
-  pinMode(ssrControlPin, OUTPUT);
+    // initialize the digital pin as an output.
+    pinMode(ssrControlPin, OUTPUT);
 }
 
 void loop() {
-  digitalWrite(ssrControlPin, HIGH);      // set the SSR on
-  delay(5000);                            // wait for 5 second
-  digitalWrite(ssrControlPin, LOW);       // set the SSR off
-  delay(5000);                            // wait for 5 second
+    digitalWrite(ssrControlPin, HIGH);      // set the SSR on
+    delay(5000);                            // wait for 5 second
+    digitalWrite(ssrControlPin, LOW);       // set the SSR off
+    delay(5000);                            // wait for 5 second
 }
 ```
 

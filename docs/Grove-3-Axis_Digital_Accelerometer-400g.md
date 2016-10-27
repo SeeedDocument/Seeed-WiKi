@@ -29,6 +29,9 @@ Features
 -   10000 g high shock survivability
 -   ECOPACK®RoHS and “Green” compliant
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
 Application Ideas
 -----------------
 

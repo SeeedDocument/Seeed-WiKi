@@ -22,6 +22,10 @@ Features
 -   Volume Adjustable
 -   Grove Interface
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
+
 Specifications
 -------------
 
@@ -43,40 +47,41 @@ You can supply different frequency signal to this module with Arduino. Arduino g
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Speaker/master/img/Tone.jpg)
 
-    /*macro definition of Speaker pin*/
-    #define SPEAKER 3
+```
+/*macro definition of Speaker pin*/
+#define SPEAKER 3
 
-    int BassTab[]={1911,1702,1516,1431,1275,1136,1012};//bass 1~7
+int BassTab[]={1911,1702,1516,1431,1275,1136,1012};//bass 1~7
 
-    void setup() 
-    {
-        pinInit();
-    }
-    void loop()
-    {
+void setup()
+{
+    pinInit();
+}
+void loop()
+{
         /*sound bass 1~7*/
-        for(int note_index=0;note_index<7;note_index++)
-        {
-            sound(note_index);
-            delay(500);
-        }
-    }
-    void pinInit()
+    for(int note_index=0;note_index<7;note_index++)
     {
-        pinMode(SPEAKER,OUTPUT);
+        sound(note_index);
+        delay(500);
+    }
+}
+void pinInit()
+{
+    pinMode(SPEAKER,OUTPUT);
+    digitalWrite(SPEAKER,LOW);
+}
+void sound(uint8_t note_index)
+{
+    for(int i=0;i<100;i++)
+    {
+        digitalWrite(SPEAKER,HIGH);
+        delayMicroseconds(BassTab[note_index]);
         digitalWrite(SPEAKER,LOW);
+        delayMicroseconds(BassTab[note_index]);
     }
-    void sound(uint8_t note_index)
-    {
-        for(int i=0;i<100;i++)   
-        {
-            digitalWrite(SPEAKER,HIGH);
-            delayMicroseconds(BassTab[note_index]);
-            digitalWrite(SPEAKER,LOW);
-            delayMicroseconds(BassTab[note_index]);
-        }
-    }
-
+}
+```
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 Due to the influence of the capacitance, the module can only output the bass signal, and the treble is unable to emit.

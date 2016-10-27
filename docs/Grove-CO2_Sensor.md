@@ -36,6 +36,9 @@ Specifications
 -   The Current maximum Current of less than 100 ma, the average Current of less than 50 ma
 -   Output mode UART
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
 Platforms Supported
 -------------------
 

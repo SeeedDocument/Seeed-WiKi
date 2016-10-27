@@ -40,6 +40,9 @@ Specifications
 -   Support P2P communication.
 -   Dimensions: 25.43mm x 20.35mm
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 Platforms Supported
 -------------------
 

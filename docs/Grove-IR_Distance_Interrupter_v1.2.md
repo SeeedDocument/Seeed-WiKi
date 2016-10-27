@@ -50,6 +50,9 @@ Features
 -   Adjustable sensitivity for various occasions
 -   More durable
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 Specifications
 --------------
 
@@ -125,19 +128,19 @@ Use a proper screw-driver to adjust the tiny potentiometer. Applying heavy press
 
 ```
 void setup()  {
-  Serial.begin(9600);
-  pinMode(6,INPUT);
+    Serial.begin(9600);
+    pinMode(6,INPUT);
 }
 void loop()  {
-  while(1)  {
-    delay(500);
-    if(digitalRead(6)==LOW)  {
-      Serial.println("Somebody is here.");
+    while(1)  {
+        delay(500);
+        if(digitalRead(6)==LOW)  {
+            Serial.println("Somebody is here.");
+        }
+        else  {
+            Serial.println("Nobody.");
+        }
     }
-    else  {
-      Serial.println("Nobody.");
-    }
-  }
 }
 ```
 

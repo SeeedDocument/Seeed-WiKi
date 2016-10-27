@@ -26,6 +26,9 @@ Features
 -   Standard Micro SD card Interface
 -   Support FAT16 and FAT32 file system
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
 Platforms Supported
 -------------------
 

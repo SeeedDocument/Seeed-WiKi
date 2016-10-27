@@ -25,6 +25,10 @@ Features
 -   Wide operating voltage range
 -   I2C Serial Bus Address Configuration
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
+
 Specifications
 --------------
 

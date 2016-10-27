@@ -33,6 +33,9 @@ Features
 -   Low power consumption
 -   High reliability
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
 Specifications
 --------------
 
@@ -103,22 +106,21 @@ To make it vibrate is just as easy as to turn on an LED. Here is an example show
 Use the demo code shown below:
 
 ```
-    int MoPin = 9;    // vibrator Grove connected to digital pin 9
+int MoPin = 9;    // vibrator Grove connected to digital pin 9
 
-    void setup()  { 
-      pinMode( MoPin, OUTPUT );
-    } 
+void setup()  {
+    pinMode( MoPin, OUTPUT );
+}
 
-    void loop()  { 
+void loop()  {
 
-        digitalWrite(MoPin, HIGH);         
-        delay(1000);       
-                         
-        digitalWrite(MoPin, LOW);         
-        delay(1000); 
-     }
+    digitalWrite(MoPin, HIGH);
+    delay(1000);
 
-    }
+    digitalWrite(MoPin, LOW);
+    delay(1000);
+}
+
 ```
 
 Now, feel the vibration of your motor!

@@ -27,6 +27,9 @@ Features
 -   Wide operating temperature range: -40°C to 85°C
 -   Programmable interrupt function with User-Defined Upper and lower threshold settings
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 Specifications
 --------------
 

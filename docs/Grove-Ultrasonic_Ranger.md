@@ -16,7 +16,6 @@ This Grove - Ultrasonic sensor is a non-contact distance measurement module whic
 [![Get one now](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/image/300px-Get_One_Now_Banner.png)](https://www.seeedstudio.com/item_detail.html?p_id=960)
 
 
-
 ## Specification
 ---
 |Parameter|	Value/Range|
@@ -28,6 +27,9 @@ This Grove - Ultrasonic sensor is a non-contact distance measurement module whic
 |Resolution|	1cm|
 |Output|	PWM|
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 ## Get Started
 ---
 Connect Serial LCD to D4/D5 pins of Grove - Base Shield and connect Ultrasonic Ranger to D7.
@@ -37,20 +39,18 @@ Connect Serial LCD to D4/D5 pins of Grove - Base Shield and connect Ultrasonic R
 Download the  [ UltrasonicRanger Library](https://github.com/Seeed-Studio/Grove_Ultrasonic_Ranger) and  [  SerialLCD Library](https://github.com/Seeed-Studio/Serial_LCD) from Github. Since the are not in origin library of Arduino library files, You need to install them to Arduino Library. If you don't know how to install library for Arduino, please refer to the toturial [How to install library](/How_to_Install_an_Arduino_Library/)
 
 ```c
-/***************************************************************************/        
+/***************************************************************************/
 // Function: Measure the distance to obstacles in front and display the
 //                         result on seeedstudio serialLcd. Make sure you installed the
-//                         serialLCD, SoftwareSerial and Ultrasonic library.        
+//                         serialLCD, SoftwareSerial and Ultrasonic library.
 //        Hardware: Grove - Ultrasonic Ranger, Grove - Serial LCD
 //        Arduino IDE: Arduino-1.0
-//        Author:         LG                
+//        Author:         LG
 //        Date:          Jan 17,2013
 //        Version: v1.0 modified by FrankieChu
 //        by www.seeedstudio.com
 
 /*****************************************************************************/
-
-
 #include <SoftwareSerial.h>
 #include <SerialLCD.h>
 #include "Ultrasonic.h"
@@ -59,20 +59,21 @@ SerialLCD slcd(11,12);
 Ultrasonic ultrasonic(7);
 void setup()
 {
-   slcd.begin();
+    slcd.begin();
 }
+
 void loop()
 {
-        long RangeInCentimeters;
-        RangeInCentimeters = ultrasonic.MeasureInCentimeters();
-        delay(150);
-        slcd.clear();
-        slcd.setCursor(0,0);
-        slcd.print("The distance:");
-        slcd.setCursor(0,1) ;
-        slcd.print(RangeInCentimeters,DEC);
-        slcd.setCursor(5,1) ;
-        slcd.print("cm");
+    long RangeInCentimeters;
+    RangeInCentimeters = ultrasonic.MeasureInCentimeters();
+    delay(150);
+    slcd.clear();
+    slcd.setCursor(0,0);
+    slcd.print("The distance:");
+    slcd.setCursor(0,1) ;
+    slcd.print(RangeInCentimeters,DEC);
+    slcd.setCursor(5,1) ;
+    slcd.print("cm");
 }
 ```
 Also we have shot a video about it. which is more straightforward to understand You may find it in the Resources!

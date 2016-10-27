@@ -25,6 +25,9 @@ Features
 -   2.0cm x 2.0cm Grove module
 -   High sensitivity
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
 Applications Ideas
 ------------------
 
@@ -140,46 +143,50 @@ The following sketch demonstrates a simple application of using the Water sensor
 -   Copy and paste code below to a new Arduino sketch.
 
 ```
-    /*macro definition of water sensor and the buzzer*/
-    #define WATER_SENSOR 8
-    #define BUZZER 12
-    void setup()
+/*macro definition of water sensor and the buzzer*/
+#define WATER_SENSOR 8
+#define BUZZER 12
+
+void setup()
+{
+    pins_init();
+}
+void loop()
+{
+    if(isExposedToWater())
+    soundAlarm();
+}
+
+void pins_init()
+{
+    pinMode(WATER_SENSOR, INPUT);
+    pinMode(BUZZER, OUTPUT);
+}
+
+/************************************************************************/
+/*Function: When the sensor is exposed to the water, the buzzer sounds  */
+/*          for 2 seconds.                                              */
+void soundAlarm()
+{
+    for(uint8_t i = 0;i < 20;i ++)
     {
-        pins_init();
+        digitalWrite(BUZZER, HIGH);
+        delay(50);
+        digitalWrite(BUZZER, LOW);
+        delay(50);
     }
-    void loop()
-    {
-        if(isExposedToWater())
-            soundAlarm();
-    }
-    void pins_init()
-    {
-        pinMode(WATER_SENSOR, INPUT);
-        pinMode(BUZZER, OUTPUT);
-    }
-    /************************************************************************/
-    /*Function: When the sensor is exposed to the water, the buzzer sounds  */
-    /*          for 2 seconds.                                              */
-    void soundAlarm()
-    {
-        for(uint8_t i = 0;i < 20;i ++)
-        {
-            digitalWrite(BUZZER, HIGH);
-            delay(50);
-            digitalWrite(BUZZER, LOW);
-            delay(50);
-        }
-    }
-    /************************************************************************/
-    /*Function: Determine whether the sensor is exposed to the water        */
-    /*Parameter:-void                                                       */
-    /*Return:   -boolean,if it is exposed to the water,it will return true. */
-    boolean isExposedToWater()
-    {
-        if(digitalRead(WATER_SENSOR) == LOW)
-            return true;
-        else return false;
-    }
+}
+
+/************************************************************************/
+/*Function: Determine whether the sensor is exposed to the water        */
+/*Parameter:-void                                                       */
+/*Return:   -boolean,if it is exposed to the water,it will return true. */
+boolean isExposedToWater()
+{
+    if(digitalRead(WATER_SENSOR) == LOW)
+    return true;
+    else return false;
+}
 ```
 
 -   Upload the code.

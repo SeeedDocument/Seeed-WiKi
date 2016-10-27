@@ -18,6 +18,10 @@ The SPDT Relay(30A) is a high quality Single Pole Double Throw Relay(SPDT).The R
 - SPDT Relay
 - Normally closed relay
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
+
 ## Specification
 ---
 |Item|	Min|	Typical	|Max	|Unit|

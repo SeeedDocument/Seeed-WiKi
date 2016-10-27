@@ -25,6 +25,9 @@ Specifications
 - Output Response Time: 60 - 220mS
 - Used Chipset: TTP223-BA6
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 Platforms Supported
 -------------------
 
@@ -49,21 +52,22 @@ This demo is going to show you how to turn on/off an LED.
 ```
 const int TouchPin=9;
 const int ledPin=12;
+
 void setup() {
-pinMode(TouchPin, INPUT);
-pinMode(ledPin,OUTPUT);
-} 
- 
+    pinMode(TouchPin, INPUT);
+    pinMode(ledPin,OUTPUT);
+}
+
 void loop() {
-int sensorValue = digitalRead(TouchPin);
-if(sensorValue==1)
-{
-digitalWrite(ledPin,HIGH);
-}
-else
-{
-digitalWrite(ledPin,LOW);
-}
+    int sensorValue = digitalRead(TouchPin);
+    if(sensorValue==1)
+    {
+        digitalWrite(ledPin,HIGH);
+    }
+    else
+    {
+        digitalWrite(ledPin,LOW);
+    }
 }
 ```
 

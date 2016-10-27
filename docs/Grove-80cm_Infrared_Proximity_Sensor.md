@@ -24,6 +24,9 @@ Features
 -   Wide supply voltage range: 2.5V–7V
 -   Grove Interface
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
 Application Ideas
 -----------------
 

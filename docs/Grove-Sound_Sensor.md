@@ -37,6 +37,9 @@ Grove - Sound Sensor can detect the sound strength of the environment. The main 
 |Microphone Frequency|16-20 kHz|
 |Microphone S/N Radio|54 dB|
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
 ## Platform Support
 
 |Arduino|Wio|BeagleBone|Raspberry Pi|LinkIt|

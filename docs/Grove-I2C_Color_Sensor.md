@@ -26,6 +26,9 @@ Features
 -   Programmable interrupt function with User-Defined Upper and lower threshold settings
 -   RoHS Compliant
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
 Specifications
 -------------
 

@@ -25,6 +25,9 @@ Features
 -   10W rating
 -   Rugged encapsulation
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
 Application Ideas
 -----------------
 

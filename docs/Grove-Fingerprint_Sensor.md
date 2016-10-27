@@ -42,7 +42,7 @@ Specifications
 Platforms Supported
 -------------------
 
-Demonstration
+Getting Started
 -------------
 
 The Finger Print Sensor module is typically used in safes - there's a high powered DSP chip that does the image rendering, calculation, feature-finding and searching. Connect to any microcontroller or system with TTL serial, and send packets of data to take photos, detect prints, hash and search. You can also enroll new fingers directly - up to 162 finger prints that can be stored in the onboard FLASH memory. There's a red LED in the lens which will light up during taking photos so that you know its working condition.
@@ -84,6 +84,9 @@ Once you have the finger enrolled, it's a good idea to do a quick test to make s
 
 -   If it is not a finger in the database, This serial port will output nothing.
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 Resources
 --------
 

@@ -33,6 +33,9 @@ Features
 -   1000mm Cable Leads
 -   No additional power supply
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 Platforms Supported
 -------------------
 

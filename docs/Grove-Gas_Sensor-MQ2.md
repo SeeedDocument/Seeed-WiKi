@@ -28,6 +28,9 @@ Features
 -   Stable and long life
 -   Fast response and High sensitivity
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 Specification
 -------------
 
@@ -77,20 +80,20 @@ In this example, the sensor is connected to A0 pin. The voltage read from the se
 
 ```
 void setup() {
-  Serial.begin(9600);
+    Serial.begin(9600);
 }
- 
+
 void loop() {
-  float sensor_volt; 
-  float sensorValue;
- 
-  sensorValue = analogRead(A0);
-  sensor_volt = sensorValue/1024*5.0;
- 
-  Serial.print("sensor_volt = ");
-  Serial.print(sensor_volt);
-  Serial.println("V");
-  delay(1000);
+    float sensor_volt;
+    float sensorValue;
+
+    sensorValue = analogRead(A0);
+    sensor_volt = sensorValue/1024*5.0;
+
+    Serial.print("sensor_volt = ");
+    Serial.print(sensor_volt);
+    Serial.println("V");
+    delay(1000);
 }
 ```
 
@@ -100,81 +103,81 @@ These examples demonstrate ways to know the approximate concentration of Gas. As
 
 1. Keep the Gas Sensor in clean air environment. Upload the program below.
 
+```
+void setup() {
+    Serial.begin(9600);
+}
 
-        void setup() {
-          Serial.begin(9600);
-        }
+void loop() {
+    float sensor_volt;
+    float RS_air; //  Get the value of RS via in a clear air
+    float R0;  // Get the value of R0 via in H2
+    float sensorValue;
 
-        void loop() {
-          float sensor_volt; 
-          float RS_air; //  Get the value of RS via in a clear air
-          float R0;  // Get the value of R0 via in H2
-          float sensorValue;
+    /*--- Get a average data by testing 100 times ---*/
+    for(int x = 0 ; x < 100 ; x++)
+    {
+        sensorValue = sensorValue + analogRead(A0);
+    }
+    sensorValue = sensorValue/100.0;
+    /*-----------------------------------------------*/
 
-        /*--- Get a average data by testing 100 times ---*/   
-            for(int x = 0 ; x < 100 ; x++)
-          {
-            sensorValue = sensorValue + analogRead(A0);
-          }
-          sensorValue = sensorValue/100.0;
-        /*-----------------------------------------------*/
+    sensor_volt = sensorValue/1024*5.0;
+    RS_air = (5.0-sensor_volt)/sensor_volt; // omit *RL
+    R0 = RS_air/9.8; // The ratio of RS/R0 is 9.8 in a clear air from Graph (Found using WebPlotDigitizer)
 
-          sensor_volt = sensorValue/1024*5.0;
-          RS_air = (5.0-sensor_volt)/sensor_volt; // omit *RL
-          R0 = RS_air/9.8; // The ratio of RS/R0 is 9.8 in a clear air from Graph (Found using WebPlotDigitizer)
+    Serial.print("sensor_volt = ");
+    Serial.print(sensor_volt);
+    Serial.println("V");
 
-          Serial.print("sensor_volt = ");
-          Serial.print(sensor_volt);
-          Serial.println("V");
+    Serial.print("R0 = ");
+    Serial.println(R0);
+    delay(1000);
 
-          Serial.print("R0 = ");
-          Serial.println(R0);
-          delay(1000);
-
-        }
-
+}
+```
 
 2. Then, open the serial monitor of Arduino IDE. Write down the value of R0 and this needs to be used in the next program. Please node down the R0 after the reading stabilizes.
 
     <font color="Red">Replace the R0 below with value of R0 tested above </font>. Expose the sensor to any one of the gas listed above.
 
+```
+void setup() {
+    Serial.begin(9600);
+}
 
-        void setup() {
-          Serial.begin(9600);
-        }
-        
-        void loop() {
-        
-          float sensor_volt;
-          float RS_gas; // Get value of RS in a GAS
-          float ratio; // Get ratio RS_GAS/RS_air
-          int sensorValue = analogRead(A0);
-          sensor_volt=(float)sensorValue/1024*5.0;
-          RS_gas = (5.0-sensor_volt)/sensor_volt; // omit *RL
-        
+void loop() {
+
+    float sensor_volt;
+    float RS_gas; // Get value of RS in a GAS
+    float ratio; // Get ratio RS_GAS/RS_air
+    int sensorValue = analogRead(A0);
+    sensor_volt=(float)sensorValue/1024*5.0;
+    RS_gas = (5.0-sensor_volt)/sensor_volt; // omit *RL
+
           /*-Replace the name "R0" with the value of R0 in the demo of First Test -*/
-          ratio = RS_gas/R0;  // ratio = RS/R0 
+    ratio = RS_gas/R0;  // ratio = RS/R0
           /*-----------------------------------------------------------------------*/
 
-          Serial.print("sensor_volt = ");
-          Serial.println(sensor_volt);
-          Serial.print("RS_ratio = ");
-          Serial.println(RS_gas);
-          Serial.print("Rs/R0 = ");
-          Serial.println(ratio);
+    Serial.print("sensor_volt = ");
+    Serial.println(sensor_volt);
+    Serial.print("RS_ratio = ");
+    Serial.println(RS_gas);
+    Serial.print("Rs/R0 = ");
+    Serial.println(ratio);
 
-          Serial.print("\n\n");
+    Serial.print("\n\n");
 
-          delay(1000);
+    delay(1000);
 
-        }
+}
+```
 
+Now, we can get the concentration of gas from the figure below.
 
-    Now, we can get the concentration of gas from the figure below.
+![](https://raw.githubusercontent.com/SeeedDocument/Grove-Gas_Sensor-MQ2/master/img/Gas_sensor_1.png)
 
-    ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Gas_Sensor-MQ2/master/img/Gas_sensor_1.png)
-
-    According to the graph, we can see that the minimum concentration we can test is 100ppm and the maximum is 10000ppm, in a other word, we can get a concentration of gas between 0.01% and 1%. However, we can't provide a formula because the relation between ratio and concentration is nonlinear.
+According to the graph, we can see that the minimum concentration we can test is 100ppm and the maximum is 10000ppm, in a other word, we can get a concentration of gas between 0.01% and 1%. However, we can't provide a formula because the relation between ratio and concentration is nonlinear.
 
 
 Resources

@@ -33,6 +33,9 @@ Specifications
 -   Logic Low Level Input ：-0.3~+0.8 V
 -   Battery Voltage：2.0~3.5 V
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 Platforms Supported
 -------------------
 
@@ -54,72 +57,72 @@ The following sketch demonstrates a simple application of setting the time and r
     #include <Wire.h>
     #include "DS1307.h"
 
-    DS1307 clock;//define a object of DS1307 class
-    void setup()
-    {
-        Serial.begin(9600);
-        clock.begin();
-        clock.fillByYMD(2013,1,19);//Jan 19,2013
-        clock.fillByHMS(15,28,30);//15:28 30"
-        clock.fillDayOfWeek(SAT);//Saturday
-        clock.setTime();//write time to the RTC chip
-    }
-    void loop()
-    {
-        printTime();
-    }
+DS1307 clock;//define a object of DS1307 class
+void setup()
+{
+    Serial.begin(9600);
+    clock.begin();
+    clock.fillByYMD(2013,1,19);//Jan 19,2013
+    clock.fillByHMS(15,28,30);//15:28 30"
+    clock.fillDayOfWeek(SAT);//Saturday
+    clock.setTime();//write time to the RTC chip
+}
+void loop()
+{
+    printTime();
+}
     /*Function: Display time on the serial monitor*/
-    void printTime()
+void printTime()
+{
+    clock.getTime();
+    Serial.print(clock.hour, DEC);
+    Serial.print(":");
+    Serial.print(clock.minute, DEC);
+    Serial.print(":");
+    Serial.print(clock.second, DEC);
+    Serial.print("  ");
+    Serial.print(clock.month, DEC);
+    Serial.print("/");
+    Serial.print(clock.dayOfMonth, DEC);
+    Serial.print("/");
+    Serial.print(clock.year+2000, DEC);
+    Serial.print(" ");
+    Serial.print(clock.dayOfMonth);
+    Serial.print("*");
+    switch (clock.dayOfWeek)// Friendly printout the weekday
     {
-        clock.getTime();
-        Serial.print(clock.hour, DEC);
-        Serial.print(":");
-        Serial.print(clock.minute, DEC);
-        Serial.print(":");
-        Serial.print(clock.second, DEC);
-        Serial.print("  ");
-        Serial.print(clock.month, DEC);
-        Serial.print("/");
-        Serial.print(clock.dayOfMonth, DEC);
-        Serial.print("/");
-        Serial.print(clock.year+2000, DEC);
-        Serial.print(" ");
-        Serial.print(clock.dayOfMonth);
-        Serial.print("*");
-        switch (clock.dayOfWeek)// Friendly printout the weekday
-        {
-            case MON:
-              Serial.print("MON");
-              break;
-            case TUE:
-              Serial.print("TUE");
-              break;
-            case WED:
-              Serial.print("WED");
-              break;
-            case THU:
-              Serial.print("THU");
-              break;
-            case FRI:
-              Serial.print("FRI");
-              break;
-            case SAT:
-              Serial.print("SAT");
-              break;
-            case SUN:
-              Serial.print("SUN");
-              break;
-        }
-        Serial.println(" ");
+        case MON:
+        Serial.print("MON");
+        break;
+        case TUE:
+        Serial.print("TUE");
+        break;
+        case WED:
+        Serial.print("WED");
+        break;
+        case THU:
+        Serial.print("THU");
+        break;
+        case FRI:
+        Serial.print("FRI");
+        break;
+        case SAT:
+        Serial.print("SAT");
+        break;
+        case SUN:
+        Serial.print("SUN");
+        break;
     }
+    Serial.println(" ");
+}
 ```
 
 -   Set the time. Put function arguments change to current date/time. The attention should be paid to the arguments format.
 
 ```
-        clock.fillByYMD(2013,1,19);//Jan 19,2013
-        clock.fillByHMS(15,28,30);//15:28 30"
-        clock.fillDayOfWeek(SAT);//Saturday
+clock.fillByYMD(2013,1,19);//Jan 19,2013
+clock.fillByHMS(15,28,30);//15:28 30"
+clock.fillDayOfWeek(SAT);//Saturday
 ```
 
 -   Upload the code.

@@ -26,6 +26,9 @@ Specifications
 -   Selectable baud rate
 -   Auto-reconnect in 30 min when disconnected as a result of beyond the range of connection
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 Demonstration
 -------------
 

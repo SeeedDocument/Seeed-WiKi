@@ -27,6 +27,10 @@ Specifications
 -   Signal-to-noise Ratio : &gt;58 dB
 -   Output Signal range : Analog Signal (0-1023)
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+  
+  
 Platforms Supported
 -------------------
 
@@ -45,20 +49,20 @@ This module uses the chip LM2904 to amplify the electronic signal produced by th
 -   Copy and paste code below to a new Arduino sketch.
 
 ```
-    int val;
-    void setup()
-    {
-        Serial.begin(9600);
-    }
+int val;
+void setup()
+{
+    Serial.begin(9600);
+}
 
-    void loop()
-    {
-        analogRead(0);
-        delay(10);
-        val = analogRead(0);
-        Serial.println(val);
-        delay(200);
-    }
+void loop()
+{
+    analogRead(0);
+    delay(10);
+    val = analogRead(0);
+    Serial.println(val);
+    delay(200);
+}
 ```
 
 -   Upload the code.

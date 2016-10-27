@@ -33,6 +33,10 @@ Features
 -   Continuous-time hall effect sensor
 -   Reverse battery protection
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
+    
 Specifications
 -------------
 

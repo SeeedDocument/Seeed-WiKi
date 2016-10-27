@@ -23,6 +23,9 @@ Grove Breakout for LinkIt Smart 7688 Duo is a grove port integrated and a featur
 - More Grove ports, more expandable to rich Grove modules.
 - Cost-effective.
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
 ## Application ideas
 ---
 - IoT/Gateway Device.

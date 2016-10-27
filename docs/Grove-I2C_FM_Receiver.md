@@ -36,6 +36,9 @@ Features
 -   Digital auto gain control
 -   Input voltage: 3.3V - 5V
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
 Platforms Supported
 -------------------
 

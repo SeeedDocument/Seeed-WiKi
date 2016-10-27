@@ -24,6 +24,9 @@ Features
 -   Uses ASK (Amplitude Shift Keying) Modulation.
 -   One way communication.
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
 Application Ideas
 -----------------
 

@@ -25,6 +25,9 @@ Grove-Gas Sensor (O2) is a kind of sensor to test the oxygen concentration in ai
 * Strong anti-interference ability
 * Extraordinary reliability
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
 ##Specification
 
 |Items	| Parameter |

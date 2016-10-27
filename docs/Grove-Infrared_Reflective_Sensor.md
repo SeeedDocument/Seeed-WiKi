@@ -43,6 +43,9 @@ Features
 -   Small footprint
 -   Adjustable sensitivity for different occasions
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 Specifications
 --------------
 
@@ -145,27 +148,27 @@ Let us implement simple optical encoder to detect the speed of a motor
 unsigned int counter=0;
 void blink()
 {
-  counter++;
-} 
+    counter++;
+}
 void timerIsr()
 {
-  Timer1.detachInterrupt();  //disable the timer1
-  Serial.print("The speed of the motor: "); 
-  Serial.print(counter,DEC);  
-  Serial.println("round/s"); 
-  counter=0;  
-  Timer1.attachInterrupt( timerIsr );  //enable the timer1
+    Timer1.detachInterrupt();  //disable the timer1
+    Serial.print("The speed of the motor: ");
+    Serial.print(counter,DEC);
+    Serial.println("round/s");
+    counter=0;
+    Timer1.attachInterrupt( timerIsr );  //enable the timer1
 }
-void setup() 
+void setup()
 {
-  Serial.begin(9600);
-  Timer1.initialize(1000000); // set a timer of length 1sec
-  attachInterrupt(0, blink, RISING);  //INT0
-  Timer1.attachInterrupt( timerIsr ); // attach the service routine here
-} 
+    Serial.begin(9600);
+    Timer1.initialize(1000000); // set a timer of length 1sec
+    attachInterrupt(0, blink, RISING);  //INT0
+    Timer1.attachInterrupt( timerIsr ); // attach the service routine here
+}
 void loop()
 {
-  ;  //do nothing
+
 }
 ```
 

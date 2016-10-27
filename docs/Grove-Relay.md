@@ -25,6 +25,9 @@ The Grove-Relay module is a digital normally-open switch. Through it, you can co
 * Max Switching Voltage	250VAC/30VDC	250VAC/30VDC
 * Max Switching Current	5A	5A
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 ##Platform Support
 
 |Arduino|Wio|BeagleBone|Raspberry Pi|LinkIt|

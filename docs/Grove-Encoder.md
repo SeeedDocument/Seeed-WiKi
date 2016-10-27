@@ -34,6 +34,9 @@ Features
 -   Grove Interface.
 -   360 degree rotary.
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 Specifications
 -------------
 

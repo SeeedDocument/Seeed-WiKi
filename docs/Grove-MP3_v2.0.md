@@ -33,6 +33,9 @@ Features
 -   MP3, WMV and WAV audio format and FAT16, FAT32 files system supported
 -   Embed 10 levels of equalization in total
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 Application ideas
 -----------------
 

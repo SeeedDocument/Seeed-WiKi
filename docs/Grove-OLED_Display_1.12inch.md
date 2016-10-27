@@ -38,6 +38,9 @@ range, and low power consumption.
 | Dot Pitch | 0.75(W)mm x 0.175(H)mm|
 | Operating Temperature | -40~70 oC|
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 
 ###Platform Support
 

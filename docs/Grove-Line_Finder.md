@@ -25,6 +25,9 @@ Grove-Line finder is designed for line-following robot. It has an IR emitting LE
 - Comparator: MV358
 - Photo reflective diode: RS-06WD
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+  
 ## Demonstration
 ---
 **With Arduino**

@@ -23,6 +23,9 @@ Specifications
 -   Operating Current: 20mA
 -   Communication Protocol: Serial
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
 Platforms Supported
 -------------------
 

@@ -29,6 +29,9 @@ Specifications
 -   Read Block & Write (32-bit blocks)
 -   Grove I2C Interface
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 Platforms Supported
 -------------------
 

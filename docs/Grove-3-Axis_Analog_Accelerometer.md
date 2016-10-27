@@ -30,6 +30,9 @@ Features
 -   BW adjustment with a single capacitor per axis
 -   RoHS/WEEE lead-free compliant
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
 Application Ideas
 -----------------
 

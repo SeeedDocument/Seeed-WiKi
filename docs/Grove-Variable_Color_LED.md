@@ -24,6 +24,9 @@ Features
 -   Grove compatible
 -   Color adjustable
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 Application Ideas
 -----------------
 
@@ -60,30 +63,31 @@ The following sketch demonstrates a simple application of controlling its bright
 
 Demo code like:
 
-    int ledPin = 9;    // LED connected to digital pin 9
+```
+int ledPin = 9;    // LED connected to digital pin 9
 
-    void setup()  { 
-      // nothing happens in setup 
-    } 
+void setup()  {
+    // nothing happens in setup
+}
 
-    void loop()  { 
-      // fade in from min to max in increments of 5 points:
-      for(int fadeValue = 0 ; fadeValue <= 255; fadeValue +=5) { 
+void loop()  {
+    // fade in from min to max in increments of 5 points:
+    for(int fadeValue = 0?; fadeValue <= 255; fadeValue +=5) {
         // sets the value (range from 0 to 255):
-        analogWrite(ledPin, fadeValue);         
-        // wait for 30 milliseconds to see the dimming effect    
-        delay(30);                            
-      } 
-
-      // fade out from max to min in increments of 5 points:
-      for(int fadeValue = 255 ; fadeValue >= 0; fadeValue -=5) { 
-        // sets the value (range from 0 to 255):
-        analogWrite(ledPin, fadeValue);         
-        // wait for 30 milliseconds to see the dimming effect    
-        delay(30);                            
-      } 
+        analogWrite(ledPin, fadeValue);
+        // wait for 30 milliseconds to see the dimming effect
+        delay(30);
     }
 
+    // fade out from max to min in increments of 5 points:
+    for(int fadeValue = 255?; fadeValue >= 0; fadeValue -=5) {
+        // sets the value (range from 0 to 255):
+        analogWrite(ledPin, fadeValue);
+        // wait for 30 milliseconds to see the dimming effect
+        delay(30);
+    }
+}
+```
 -   Upload the code.Adjust the three adjustable resistances, I am sure you will like it. Have a try!
 
 

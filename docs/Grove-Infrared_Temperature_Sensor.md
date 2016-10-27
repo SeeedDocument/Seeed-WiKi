@@ -28,6 +28,9 @@ Specifications
 -   Operating Temperature: -10~80 °C
 -   Storage Temperature: -35-80 °C
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 Platforms Supported
 -------------------
 

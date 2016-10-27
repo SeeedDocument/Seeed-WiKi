@@ -33,6 +33,9 @@ Features
 -   Hermetically sealed for temp and humidity resistance
 -   RoHS and Green compliant
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
 Platforms Supported
 -------------------
 

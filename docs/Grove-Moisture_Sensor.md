@@ -20,6 +20,9 @@ This Moisture Senor can be used for detecting the moisture of soil or judge if t
 - Easy to use
 - 2.0 cm X 6.0 cm grove module
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
 ## Specification
 ---
 |Item|Condition|Min|Typical|Max|Unit|

@@ -28,6 +28,9 @@ This Dust Sensor gives a good indication of the air quality in an environment by
 !!!note
 In the latest version, output Hi Voltage is changed from 4.0V to 4.5V.
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 ## Specification
 ---
 

@@ -24,6 +24,9 @@ Specifications
 -   Sensitivity adjustable via a potentiometer
 -   External measuring finger cots
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
 Platforms Supported
 -------------------
 

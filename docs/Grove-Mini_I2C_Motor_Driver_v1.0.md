@@ -28,6 +28,9 @@ Features
 -   Number of channels: 2
 -   Easy to use
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
 Application Ideas
 -----------------
 

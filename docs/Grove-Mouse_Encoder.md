@@ -29,6 +29,9 @@ Features
 -   Standard Grove interface for easier programming and wiring.
 -   Accurate and reliable.
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
 Applications
 ------------
 

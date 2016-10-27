@@ -26,6 +26,9 @@ Features
 -   Adjustable sensitivity
 -   High receptivity for strong impact
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 Platforms Supported
 -------------------
 
@@ -58,26 +61,27 @@ It may output low level even though originally output high level when you increa
 3.Connect Arduino to PC by using a USB cable.
 
 4.Copy and paste code below to a new Arduino sketch.
+
 ```
-    const int ledPin=12;
-    void setup() {
-      Serial.begin(9600);
+const int ledPin=12;
+void setup() {
+    Serial.begin(9600);
     pinMode(ledPin,OUTPUT);
-    } 
-     
-    void loop() {
+}
+
+void loop() {
     int sensorValue = analogRead(A0);
-     Serial.println(sensorValue);
-     delay(1000);
-     if(sensorValue==1023)
-      {
+    Serial.println(sensorValue);
+    delay(1000);
+    if(sensorValue==1023)
+    {
         digitalWrite(ledPin,HIGH);
-      }
-     else
-     {
-      digitalWrite(ledPin,LOW);
-      }
     }
+    else
+    {
+        digitalWrite(ledPin,LOW);
+    }
+}
 ```
 
 5.Touch the piezo sensor to make it vibrate, of course, any way to make it vibrate would be OK too. The LED would be on when vibration detected. You can also Open the serial monitor to see the sensor outputs.
@@ -87,25 +91,25 @@ It may output low level even though originally output high level when you increa
 You can directly use a digital pin, take D5 of base shield as an example, and connect LED to Pin 12.
 
 ```
-    const int ledPin=12;
-    void setup() {
-      Serial.begin(9600);
-      pinMode(ledPin,OUTPUT);
-    } 
-     
-    void loop() {
+const int ledPin=12;
+void setup() {
+    Serial.begin(9600);
+    pinMode(ledPin,OUTPUT);
+}
+
+void loop() {
     int sensorState = digitalRead(5);
-     Serial.println(sensorState);
-     delay(1000);
-     if(sensorState == HIGH)
-      {
+    Serial.println(sensorState);
+    delay(1000);
+    if(sensorState == HIGH)
+    {
         digitalWrite(ledPin,HIGH);
-      }
-     else
-     {
-      digitalWrite(ledPin,LOW);
-      }
     }
+    else
+    {
+        digitalWrite(ledPin,LOW);
+    }
+}
 ```
 
 ### With Raspberry Pi

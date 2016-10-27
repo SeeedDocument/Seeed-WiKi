@@ -21,6 +21,9 @@ sku: 101020003
 - Easy to use momentary ON/OFF button
 - Uses Standard 4-pin Grove Cables to connect to other Grove modules such as Grove Power Modules and Grove - Base Shield
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
 ## Usage
 ---
 **Standalone**

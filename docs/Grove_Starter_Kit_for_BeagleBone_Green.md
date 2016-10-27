@@ -155,6 +155,9 @@ Comparing to LCD, OLED screens are more competitive, which has a number of advan
 
 If you want to know more info about this module please click [**here**](/Grove-OLED_Display_0.96inch).
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 Examples
 --------
 

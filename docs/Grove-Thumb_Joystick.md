@@ -23,6 +23,10 @@ Features
 -   5V/3.3V Compatible
 -   Analog Output
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
+
 Application Ideas
 -----------------
 
@@ -58,26 +62,29 @@ The Grove - Thumb Joystick is an analog device that outputs analog signal rangin
 4.Copy and paste code below to a new Arduino sketch. 
 
 ```
-    /*
-      Thumb Joystick demo v1.0
-    by:http://www.seeedstudio.com
-     connect the module to A0&A1 for using;
-     */
+/*
+  Thumb Joystick demo v1.0
+  by:http://www.seeedstudio.com
+  connect the module to A0&A1 for using;
+*/
 
-    void setup() {
-      Serial.begin(9600);
-    }
+void setup() 
+{
+    Serial.begin(9600);
+}
 
-    void loop() {
-      int sensorValue1 = analogRead(A0);
-      int sensorValue2 = analogRead(A1);
-      Serial.print("The X and Y coordinate is:");
-      Serial.print(sensorValue1, DEC);
-      Serial.print(",");
-      Serial.println(sensorValue2, DEC);
-      Serial.println(" ");
-      delay(200);
-    }
+void loop() 
+{
+    int sensorValue1 = analogRead(A0);
+    int sensorValue2 = analogRead(A1);
+    
+    Serial.print("The X and Y coordinate is:");
+    Serial.print(sensorValue1, DEC);
+    Serial.print(",");
+    Serial.println(sensorValue2, DEC);
+    Serial.println(" ");
+    delay(200);
+}
 ```
 
 5.You can check the values of the output analog signals by opening the Serial Monitor.

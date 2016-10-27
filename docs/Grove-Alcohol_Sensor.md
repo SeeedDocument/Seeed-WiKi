@@ -33,6 +33,9 @@ Features
 -   Long life.
 -   Compact form factor.
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 Platforms Supported
 -------------------
 
@@ -62,35 +65,34 @@ First, connect the module with Grove Shield using A0 like the picture above. And
 
 ```
 #define heaterSelPin 15
- 
+
 void setup() {
-  Serial.begin(9600);
-  pinMode(heaterSelPin,OUTPUT);   // set the heaterSelPin as digital output.
-  digitalWrite(heaterSelPin,LOW); // Start to heat the sensor
+    Serial.begin(9600);
+    pinMode(heaterSelPin,OUTPUT);   // set the heaterSelPin as digital output.
+    digitalWrite(heaterSelPin,LOW); // Start to heat the sensor
 }
- 
+
 void loop() {
-  float sensor_volt; 
-  float RS_air; //  Get the value of RS via in a clear air
-  float sensorValue;
- 
-/*--- Get a average data by testing 100 times ---*/   
+    float sensor_volt;
+    float RS_air; //  Get the value of RS via in a clear air
+    float sensorValue;
+
+/*--- Get a average data by testing 100 times ---*/
     for(int x = 0 ; x < 100 ; x++)
-  {
-    sensorValue = sensorValue + analogRead(A0);
-  }
-  sensorValue = sensorValue/100.0;
+    {
+        sensorValue = sensorValue + analogRead(A0);
+    }
+    sensorValue = sensorValue/100.0;
 /*-----------------------------------------------*/
- 
-  sensor_volt = sensorValue/1024*5.0;
-  RS_air = sensor_volt/(5.0-sensor_volt); // omit *R16
-  Serial.print("sensor_volt = ");
-  Serial.print(sensor_volt);
-  Serial.println("V");
-  Serial.print("RS_air = ");
-  Serial.println(RS_air);
-  delay(1000);
- 
+
+    sensor_volt = sensorValue/1024*5.0;
+    RS_air = sensor_volt/(5.0-sensor_volt); // omit *R16
+    Serial.print("sensor_volt = ");
+    Serial.print(sensor_volt);
+    Serial.println("V");
+    Serial.print("RS_air = ");
+    Serial.println(RS_air);
+    delay(1000);
 }
 ```
 
@@ -98,37 +100,35 @@ Then, open the monitor of Arduino IDE, you can see some data are printed, write 
 
 ```
 #define heaterSelPin 15
- 
+
 void setup() {
-  Serial.begin(9600);
-  pinMode(heaterSelPin,OUTPUT);   // set the heaterSelPin as digital output.
-  digitalWrite(heaterSelPin,LOW); // Start to heat the sensor  
+    Serial.begin(9600);
+    pinMode(heaterSelPin,OUTPUT);   // set the heaterSelPin as digital output.
+    digitalWrite(heaterSelPin,LOW); // Start to heat the sensor
 }
- 
+
 void loop() {
- 
-  float sensor_volt;
-  float RS_gas; // Get value of RS in a GAS
-  float ratio; // Get ratio RS_GAS/RS_air
-  int sensorValue = analogRead(A0);
-  sensor_volt=(float)sensorValue/1024*5.0;
-  RS_gas = sensor_volt/5.0-sensor_volt; // omit *R16
- 
+
+    float sensor_volt;
+    float RS_gas; // Get value of RS in a GAS
+    float ratio; // Get ratio RS_GAS/RS_air
+    int sensorValue = analogRead(A0);
+    sensor_volt=(float)sensorValue/1024*5.0;
+    RS_gas = sensor_volt/5.0-sensor_volt; // omit *R16
+
   /*-Replace the name "R0" with the value of R0 in the demo of First Test -*/
-  ratio = RS_gas/RS_air;  // ratio = RS/R0 
+    ratio = RS_gas/RS_air;  // ratio = RS/R0
   /*-----------------------------------------------------------------------*/
- 
-  Serial.print("sensor_volt = ");
-  Serial.println(sensor_volt);
-  Serial.print("RS_ratio = ");
-  Serial.println(RS_gas);
-  Serial.print("Rs/R0 = ");
-  Serial.println(ratio);
- 
-  Serial.print("\n\n");
- 
-  delay(1000);
- 
+
+    Serial.print("sensor_volt = ");
+    Serial.println(sensor_volt);
+    Serial.print("RS_ratio = ");
+    Serial.println(RS_gas);
+    Serial.print("Rs/R0 = ");
+    Serial.println(ratio);
+
+    Serial.print("\n\n");
+    delay(1000);
 }
 ```
 

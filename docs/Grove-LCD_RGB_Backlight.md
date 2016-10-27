@@ -30,6 +30,9 @@ have green yellow backlight version and blue backlight version on sale also.
 * Built-in English fonts
 * 16x2 LCD
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
 ##Specification
 
 |Intem|Value|

@@ -30,6 +30,9 @@ Specifications
 -   Sensor Resistance Value(Rs): 10KΩ-100KΩ(in 10ppm HCHO)
 -   Sensitivity: Rs(in air)/Rs(10ppm HCHO)≥5
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
 Platforms Supported
 -------------------
 

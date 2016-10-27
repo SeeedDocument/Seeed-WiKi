@@ -28,6 +28,9 @@ Specifications
 -   Max 116Hz output rate
 -   High heading accuracy
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
 Platforms Supported
 -------------------
 

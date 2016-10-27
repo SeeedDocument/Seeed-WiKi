@@ -28,6 +28,9 @@ Features
 -   -40 to +85°C operational range, ±2°C temperature accuracy
 -   I2C address: 0x77
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 Application Ideas
 -----------------
 

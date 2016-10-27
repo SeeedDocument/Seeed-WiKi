@@ -27,6 +27,9 @@ This is a high precision digital accelerometer providing you at max 3.9mg/LSB re
 - RoHS/WEEE lead-free compliant
 - Suli-compatible Library
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
 ## Demonstration
 ---
 **With Arduino**

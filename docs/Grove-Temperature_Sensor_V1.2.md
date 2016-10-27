@@ -24,6 +24,9 @@ Note: This wiki works with Grove - Temperature sensor V1.1 as well, for V1.0 ple
 - Operating temperature range: -40 ~ +125 ℃
 - Nominal B-Constant： 4250 ~ 4299K
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
 ## Getting Started
 ---
 After this section, you can make Grove - Temperature Sensor V1.1/1.2 run with only few steps.

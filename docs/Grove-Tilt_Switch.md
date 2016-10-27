@@ -23,6 +23,9 @@ Features
 -   Easy to use
 -   Simple Grove module
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 Specifications
 --------------
 
@@ -115,31 +118,31 @@ The following sketch demonstrates a simple application of using the Tilt Switch 
 -   Copy and paste code below to a new Arduino sketch.
 
 ```
-    void setup()
-    {
-      pinMode(1, OUTPUT);
-      pinMode(5, INPUT);
-      pinMode(7, INPUT);
-    }
+void setup()
+{
+    pinMode(1, OUTPUT);
+    pinMode(5, INPUT);
+    pinMode(7, INPUT);
+}
 
-    void loop()
-    {
-      
+void loop()
+{
+
     if (digitalRead(5)==HIGH)
-      {
+    {
         digitalWrite(1, HIGH);
         delay(100);
         digitalWrite(1, LOW);
-      }
-      
-      if (digitalRead(7)==HIGH)
-      {
+    }
+
+    if (digitalRead(7)==HIGH)
+    {
         digitalWrite(1, HIGH);
         delay(200);
         digitalWrite(1, LOW);
-      } 
-
     }
+
+}
 ```
 
 -   Upload the code.

@@ -36,6 +36,9 @@ Features
 -   Adjustable motor speed and rotation direction
 -   Changeable slave address by hardware
 
+!!!Tip
+    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    
 Specifications
 --------------
 
