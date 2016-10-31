@@ -12,7 +12,7 @@ Intenet of Things(IoT) products are listed here:
 - [BLE Nitrogen](/BLE_Nitrogen/)
 - [BeagleBone Green](/BeagleBone_Green/)
 - [BeagleBone Green Wireless](/BeagleBone_Green_Wireless/)
-- [Microsoft IoT Grove Kit (Azure Certified)](/Microsoft_IoT_Grove_Kit/)
+- [Grove Starter Kit for IoT based on Raspberry Pi](/Grove_Starter_Kit_for_IoT_based_on_Raspberry_Pi/)
 - [Seeeduino Cloud](/Seeeduino_Cloud/)
 - [Seeeduino GPRS](/Seeeduino_GPRS/)
 

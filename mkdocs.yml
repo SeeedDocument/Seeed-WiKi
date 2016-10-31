@@ -81,11 +81,21 @@ pages:
 
     - RePhone:
         - RePhone Introduction: RePhone.md
-        - RePhone Introduction: RePhone.md
         - Xadow - 3-Axis Digital Accelerometer(±400g): Xadow_3_Aixs_Digital_Accelerometer_plusandminus_400g.md
+        - Xadow - BLE (Dual Model) v1.0: Xadow_BLE_Dual_Model_V1.0.md
+        - Xadow - BLE Slave: Xadow_BLE_Slave.md
+        - Xadow - Breakout: Xadow_Breakout.md
+        - Xadow - Buzzer: Xadow_Buzzer.md
+        - Xadow - Compass: Xadow_Compass.md
+        - Xadow - Edison Kit: Xadow_Edison_Kit.md
+        - Xadow - GPS: Xadow_GPS.md
+        - Xadow - Gesture v1.0: Xadow_Gesture_v1.0.md
         - Xadow - LED 5x7: Xadow_LED_5x7.md
         - Xadow 1.54&#39;&#39; Touchscreen: Xadow_1.54_inch_Touchscreen.md
         - Xadow Audio: Xadow_Audio.md
+        - Xadow BLE: Xadow_BLE.md
+        - Xadow Barometer: Xadow_Barometer.md
+        - Xadow Barometer BMP180: Xadow_Barometer_BMP180.md
         - Xadow Basic Sensors: Xadow_Basic_Sensors.md
         - Xadow Duino: Xadow_Duino.md
         - Xadow GPS V2: Xadow_GPS_V2.md
@@ -258,7 +268,7 @@ pages:
         - BLE Nitrogen: BLE_Nitrogen.md
         - BeagleBone Green: BeagleBone_Green.md
         - BeagleBone Green Wireless: BeagleBone_Green_Wireless.md
-        - Microsoft IoT Grove Kit (Azure Certified): Microsoft_IoT_Grove_Kit.md
+        - Grove Starter Kit for IoT based on Raspberry Pi: Grove_Starter_Kit_for_IoT_based_on_Raspberry_Pi.md
         - Seeeduino Cloud: Seeeduino_Cloud.md
         - Seeeduino GPRS: Seeeduino_GPRS.md
 

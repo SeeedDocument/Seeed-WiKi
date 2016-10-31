@@ -163,6 +163,7 @@ Grove BLE v1,http://wiki.seeed.cc/Grove-BLE_v1/,http://wiki.seeedstudio.com/wiki
 Grove Breakout for LinkIt Smart 7688 Duo,http://wiki.seeed.cc/Grove_Breakout_for_LinkIt_Smart_7688_Duo/,http://wiki.seeedstudio.com/wiki/Grove Breakout for LinkIt Smart 7688 Duo
 Grove Introduction,http://wiki.seeed.cc/Grove/,
 Grove Starter Kit for BeagleBone Green,http://wiki.seeed.cc/Grove_Starter_Kit_for_BeagleBone_Green/,http://wiki.seeedstudio.com/wiki/Grove_Starter_Kit_for_BeagleBone_Green
+Grove Starter Kit for IoT based on Raspberry Pi,http://wiki.seeed.cc/Grove_Starter_Kit_for_IoT_based_on_Raspberry_Pi/,
 Grove Starter kit for LinkIt Smart7688 Duo,http://wiki.seeed.cc/Grove_Starter_kit_for_LinkIt_Smart7688_Duo/,http://wiki.seeedstudio.com/wiki/Grove_Starter_kit_for_LinkIt_Smart7688_Duo
 Grove System,http://wiki.seeed.cc/Grove_System/,http://wiki.seeedstudio.com/wiki/Grove_System
 Hercules Dual 15A 6-20V Motor Controller,http://wiki.seeed.cc/Hercules_Dual_15A_6-20V_Motor_Controller/,http://wiki.seeedstudio.com/wiki/Hercules_Dual_15A_6-20V_Motor_Controller
@@ -180,7 +181,6 @@ Lipo Rider Pro,http://wiki.seeed.cc/Lipo_Rider_Pro/,http://wiki.seeedstudio.com/
 Lipo Rider V1.3,http://wiki.seeed.cc/Lipo_Rider_V1.3/,http://wiki.seeedstudio.com/wiki/Lipo_Rider_V1.3
 Lua for RePhone,http://wiki.seeed.cc/Lua_for_RePhone/,http://wiki.seeedstudio.com/wiki/Lua_for_RePhone
 MakerPro Introduction,http://wiki.seeed.cc/MakerPro/,
-Microsoft IoT Grove Kit (Azure Certified),http://wiki.seeed.cc/Microsoft_IoT_Grove_Kit/,
 Motor Bridge Cape v1.0,http://wiki.seeed.cc/Motor_Bridge_Cape_v1.0/,http://wiki.seeedstudio.com/wiki/Motor_Bridge_Cape_v1.0
 Motor Shield V2.0,http://wiki.seeed.cc/Motor_Shield_V2.0/,http://wiki.seeedstudio.com/wiki/Motor_Shield_V2.0
 Music Shield V2.2,http://wiki.seeed.cc/Music_Shield_V2.2/,http://wiki.seeedstudio.com/wiki/Music_Shield_V2.2
@@ -223,9 +223,20 @@ Wio Link Event Kit,http://wiki.seeed.cc/Wio_Link_Event_Kit/,http://wiki.seeedstu
 Wio Link Starter Kit,http://wiki.seeed.cc/Wio_Link_Starter_Kit/,http://wiki.seeedstudio.com/wiki/Wio_Link_Starter_Kit
 Wio Node,http://wiki.seeed.cc/Wio_Node/,http://wiki.seeedstudio.com/wiki/Wio_Node
 Xadow - 3-Axis Digital Accelerometer(±400g),http://wiki.seeed.cc/Xadow_3_Aixs_Digital_Accelerometer_plusandminus_400g/,http://wiki.seeedstudio.com/wiki/Xadow - 3-Axis Digital Accelerometer(±400g)
+Xadow - BLE (Dual Model) v1.0,http://wiki.seeed.cc/Xadow_BLE_Dual_Model_V1.0/,http://wiki.seeedstudio.com/wiki/Xadow - BLE (dual model) v1.0
+Xadow - BLE Slave,http://wiki.seeed.cc/Xadow_BLE_Slave/,http://wiki.seeedstudio.com/wiki/Xadow - BLE  Slave
+Xadow - Breakout,http://wiki.seeed.cc/Xadow_Breakout/,http://wiki.seeedstudio.com/wiki/Xadow - Breakout
+Xadow - Buzzer,http://wiki.seeed.cc/Xadow_Buzzer/,http://wiki.seeedstudio.com/wiki/Xadow - Buzzer
+Xadow - Compass,http://wiki.seeed.cc/Xadow_Compass/,http://wiki.seeedstudio.com/wiki/Xadow - Compass
+Xadow - Edison Kit,http://wiki.seeed.cc/Xadow_Edison_Kit/,http://wiki.seeedstudio.com/wiki/Xadow - Edison Kit
+Xadow - GPS,http://wiki.seeed.cc/Xadow_GPS/,http://wiki.seeedstudio.com/wiki/Xadow - GPS
+Xadow - Gesture v1.0,http://wiki.seeed.cc/Xadow_Gesture_v1.0/,http://wiki.seeedstudio.com/wiki/Xadow - Gesture v1.0
 Xadow - LED 5x7,http://wiki.seeed.cc/Xadow_LED_5x7/,http://wiki.seeedstudio.com/wiki/Xadow - LED 5x7
 Xadow 1.54'' Touchscreen,http://wiki.seeed.cc/Xadow_1.54_inch_Touchscreen/,http://wiki.seeedstudio.com/wiki/Xadow 1.54'' Touchscreen
 Xadow Audio,http://wiki.seeed.cc/Xadow_Audio/,http://wiki.seeedstudio.com/wiki/Xadow Audio
+Xadow BLE,http://wiki.seeed.cc/Xadow_BLE/,http://wiki.seeedstudio.com/wiki/Xadow - BLE
+Xadow Barometer,http://wiki.seeed.cc/Xadow_Barometer/,http://wiki.seeedstudio.com/wiki/Xadow Barometer
+Xadow Barometer BMP180,http://wiki.seeed.cc/Xadow_Barometer_BMP180/,http://wiki.seeedstudio.com/wiki/Xadow - Barometer BMP180
 Xadow Basic Sensors,http://wiki.seeed.cc/Xadow_Basic_Sensors/,http://wiki.seeedstudio.com/wiki/Xadow - Basic Sensors
 Xadow Duino,http://wiki.seeed.cc/Xadow_Duino/,http://wiki.seeedstudio.com/wiki/Xadow Duino
 Xadow GPS V2,http://wiki.seeed.cc/Xadow_GPS_V2/,http://wiki.seeedstudio.com/wiki/Xadow GPS V2
