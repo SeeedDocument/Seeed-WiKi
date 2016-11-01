@@ -90,7 +90,14 @@ pages:
         - Xadow - Edison Kit: Xadow_Edison_Kit.md
         - Xadow - GPS: Xadow_GPS.md
         - Xadow - Gesture v1.0: Xadow_Gesture_v1.0.md
+        - Xadow - IMU 10DOF: Xadow_IMU_10DOF.md
+        - Xadow - IMU 6DOF: Xadow_IMU_6DOF.md
+        - Xadow - IMU 9DOF: Xadow_IMU_9DOF.md
         - Xadow - LED 5x7: Xadow_LED_5x7.md
+        - Xadow - M0: Xadow_M0.md
+        - Xadow - Main Board: Xadow_Main_Board.md
+        - Xadow - Motor Driver: Xadow_Motor_Driver.md
+        - Xadow - Multichannel Gas Sensor: Xadow_Multichannel_Gas_Sensor.md
         - Xadow 1.54&#39;&#39; Touchscreen: Xadow_1.54_inch_Touchscreen.md
         - Xadow Audio: Xadow_Audio.md
         - Xadow BLE: Xadow_BLE.md
