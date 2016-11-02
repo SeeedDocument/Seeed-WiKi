@@ -117,9 +117,9 @@ return false;
 -   Plug the sensor to grovepi socket D2 by using a grove cable.
 
 4.Navigate to the demos' directory:
-
-       cd yourpath/GrovePi/Software/Python/
-
+```
+cd yourpath/GrovePi/Software/Python/
+```
 -   To see the code
 
 ```

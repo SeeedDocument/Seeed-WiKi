@@ -128,7 +128,7 @@ Working Humidity (without condensation)
 Platforms Supported
 -------------------
 
-Usage
+Getting Started
 -----
 
 ### With [Arduino](/Arduino "Arduino")
@@ -142,7 +142,7 @@ The following sketch demonstrates a simple application of using the Water sensor
 -   Then connect Arduino to PC by using a USB cable.
 -   Copy and paste code below to a new Arduino sketch.
 
-```
+```c
 /*macro definition of water sensor and the buzzer*/
 #define WATER_SENSOR 8
 #define BUZZER 12
@@ -166,6 +166,7 @@ void pins_init()
 /************************************************************************/
 /*Function: When the sensor is exposed to the water, the buzzer sounds  */
 /*          for 2 seconds.                                              */
+/************************************************************************/
 void soundAlarm()
 {
     for(uint8_t i = 0;i < 20;i ++)
@@ -181,6 +182,7 @@ void soundAlarm()
 /*Function: Determine whether the sensor is exposed to the water        */
 /*Parameter:-void                                                       */
 /*Return:   -boolean,if it is exposed to the water,it will return true. */
+/************************************************************************/
 boolean isExposedToWater()
 {
     if(digitalRead(WATER_SENSOR) == LOW)
@@ -205,35 +207,35 @@ boolean isExposedToWater()
 
 4.Navigate to the demos' directory:
 ```
-    cd yourpath/GrovePi/Software/Python/
+cd yourpath/GrovePi/Software/Python/
 ```
 
 -   To see the code
 ```
-    nano grove_water_sensor.py   # "Ctrl+x" to exit #
+nano grove_water_sensor.py   # "Ctrl+x" to exit #
 ```
 ```
-    import time
-    import grovepi
+import time
+import grovepi
 
-    # Connect the Grove Water Sensor to digital port D2
-    # SIG,NC,VCC,GND
-    water_sensor = 2
+# Connect the Grove Water Sensor to digital port D2
+# SIG,NC,VCC,GND
+water_sensor = 2
 
-    grovepi.pinMode(water_sensor,"INPUT")
+grovepi.pinMode(water_sensor,"INPUT")
 
-    while True:
-        try:
-            print grovepi.digitalRead(water_sensor)
-            time.sleep(.5)
+while True:
+    try:
+        print grovepi.digitalRead(water_sensor)
+        time.sleep(.5)
 
-        except IOError:
-            print "Error"
+    except IOError:
+        print "Error"
 ```
 
 5.Run the demo.
 ```
-    sudo python grove_water_sensor.py
+sudo python grove_water_sensor.py
 ```
 
 Resources
