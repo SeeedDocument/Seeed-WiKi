@@ -247,7 +247,7 @@ You need to update the board to latest software to keep a better performance, he
 
 First of all, you have to download the suitable image here.
 
-[![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/down_latest_image.png)](http://beagleboard.org/latest-images)
+[![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green_Wireless/master/images/download_the_lastest_image_of_bbgw.png)](https://www.dropbox.com/s/9qsa75cazhjgb1x/BBGW-blank-debian-8.4-seeed-iot-armhf-2016-06-27-4gb1.zip?dl=0)
 
 !!!Note
     Due to sizing necessities, this download may take about 30 minutes or more.

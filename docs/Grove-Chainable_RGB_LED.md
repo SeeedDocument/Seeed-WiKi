@@ -35,8 +35,6 @@ Usage
 ### With [Arduino](/Arduino "Arduino")
 
 When you get Grove - Chainble RGB LED, you may think how I can light up it. Now we will show you this demo: all colors of RGB cycles in an uniform way.
-The hardware installation like this:
-[Picture]
 
 To complete this demo, you can use one or more Grove - Chainable RGB LED. Note that the IN interface of one Grove - Chainable RGB LED should be connect to D7/D8 of [Grove - Base Shield](/Base_Shield_V2 "Grove - Base Shield") and its OUT interface connect to IN interface of another Grove - Chainable RGB LED, chainable more LED in this way.
 
