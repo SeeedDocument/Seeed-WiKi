@@ -46,81 +46,65 @@ The procedure is as follows:
 
 4.Copy and paste code below to a new Arduino sketch. And upload it to your Arduino.
 
-```
-    /****************************************************************************/  
-    //  Function: Monitor if there is any collision
-    //  Hardware: Grove - Collision Sensor
-    //  Arduino IDE: Arduino-1.0
-    //  by www.seeedstudio.com
-    //
-    //  This library is free software; you can redistribute it and/or
-    //  modify it under the terms of the GNU Lesser General Public
-    //  License as published by the Free Software Foundation; either
-    //  version 2.1 of the License, or (at your option) any later version.
-    //
-    //  This library is distributed in the hope that it will be useful,
-    //  but WITHOUT ANY WARRANTY; without even the implied warranty of
-    //  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-    //  Lesser General Public License for more details.
-    //
-    //  You should have received a copy of the GNU Lesser General Public
-    //  License along with this library; if not, write to the Free Software
-    //  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
-    //
-    /*******************************************************************************/ 
+```c
+// Test Grove - Collision Sensor
+#define LED 13 //the onboard LED of Arduino or Seeeduino
+#define COLLISION_SENSOR 2//collision sensor is connected with D2 of Arduino
 
-    #define LED 13 //the onboard LED of Arduino or Seeeduino
-    #define COLLISION_SENSOR 2//collision sensor is connected with D2 of Arduino
-    void setup()
-    {
-        pins_init();
-    }
+void setup()
+{
+    pins_init();
+}
 
-    void loop()
+void loop()
+{
+    if(isTriggered())
     {
-        if(isTriggered())
-        {
-           turnOnLED();
-           delay(2000);
-        }
-        else turnOffLED();
-     }
-    void pins_init()
-    {
-        pinMode(LED,OUTPUT);
-        turnOffLED();
-        pinMode(COLLISION_SENSOR,INPUT);
+        turnOnLED();
+        delay(2000);
     }
-    boolean isTriggered()
+    else turnOffLED();
+}
+
+void pins_init()
+{
+    pinMode(LED,OUTPUT);
+    turnOffLED();
+    pinMode(COLLISION_SENSOR,INPUT);
+}
+
+boolean isTriggered()
+{
+    if(!digitalRead(COLLISION_SENSOR))
     {
+        delay(50);
         if(!digitalRead(COLLISION_SENSOR))
-        {
-             delay(50);  
-            if(!digitalRead(COLLISION_SENSOR))
         return true;//the collision sensor triggers
-         }
-        return false;
     }
-    void turnOnLED()
-    {
-        digitalWrite(LED,HIGH);//the LED is on
-    }
-    void turnOffLED()
-    {
-        digitalWrite(LED,LOW);//the LED is off
-    }
+    return false;
+}
+
+void turnOnLED()
+{
+    digitalWrite(LED,HIGH);//the LED is on
+}
+
+void turnOffLED()
+{
+    digitalWrite(LED,LOW);//the LED is off
+}
 ```
 
 5.Now you can check the status of LED. The LED should light up every time you drum fingers on the table.
 
 You can adjust the sensor sensitivity by changing the function delay(50) in code.
 
-```
-    if(!digitalRead(COLLISION_SENSOR))
-    {
-        return true;//the collision sensor triggers
-    }
-    return false;
+```c
+if(!digitalRead(COLLISION_SENSOR))
+{
+    return true;//the collision sensor triggers
+}
+return false;
 ```
 ### With Raspberry Pi
 
@@ -139,30 +123,30 @@ You can adjust the sensor sensitivity by changing the function delay(50) in code
 -   To see the code
 
 ```
-    nano grove_collision_sensor.py   # "Ctrl+x" to exit #
+nano grove_collision_sensor.py   # "Ctrl+x" to exit #
 ```
 ```
-    import time
-    import grovepi
+import time
+import grovepi
 
-    # Connect the Grove Collision Sensor to digital port D2
-    # SIG,NC,VCC,GND
-    collision_sensor = 2
+# Connect the Grove Collision Sensor to digital port D2
+# SIG,NC,VCC,GND
+collision_sensor = 2
 
-    grovepi.pinMode(collision_sensor,"INPUT")
+grovepi.pinMode(collision_sensor,"INPUT")
 
-    while True:
-        try:
-            print grovepi.digitalRead(collision_sensor)
-            time.sleep(.5)
+while True:
+    try:
+        print grovepi.digitalRead(collision_sensor)
+        time.sleep(.5)
 
-        except IOError:
-            print "Error"
+    except IOError:
+        print "Error"
 ```
 
 5.Run the demo.
 ```
-    sudo python grove_collision_sensor.py
+sudo python grove_collision_sensor.py
 ```
 
 Resources
