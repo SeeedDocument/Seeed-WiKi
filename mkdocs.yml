@@ -81,6 +81,7 @@ pages:
 
     - RePhone:
         - RePhone Introduction: RePhone.md
+        - Xadow - 3-Axis Accelerometer: Xadow_3_Aixs_Accelerometer.md
         - Xadow - 3-Axis Digital Accelerometer(±400g): Xadow_3_Aixs_Digital_Accelerometer_plusandminus_400g.md
         - Xadow - BLE (Dual Model) v1.0: Xadow_BLE_Dual_Model_V1.0.md
         - Xadow - BLE Slave: Xadow_BLE_Slave.md
@@ -266,6 +267,7 @@ pages:
         - Grove - MOSFET: Grove-MOSFET.md
         - Grove - Mini Camera: Grove-Mini_Camera.md
         - Grove - Recorder v2.0: Grove-Recorder_v2.0.md
+        - Grove - SPDT Relay(30A): Grove-SPDT_Relay_30A.md
         - Grove - Serial Camera: Grove-Serial_Camera.md
 
 
