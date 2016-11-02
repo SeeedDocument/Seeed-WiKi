@@ -102,8 +102,8 @@ We will keep updating the RePhone SDK on our Github page:
 
 To reset your RePhone to **DEFAULTS:**
 
-1. Follow the instructions in "Update/Flash the Firmware" section to flash the firmware
-2. Download the RePhone_Create_Kit_VXP file
+1. Follow the instructions in "[Update/Flash the Firmware](http://wiki.seeed.cc/Arduino_IDE_for_RePhone_Kit/#updateflash-the-firmware)" section to flash the firmware
+2. Download the [RePhone_Create_Kit_VXP](https://github.com/WayenWeng/RePhone_Create_Kit_VXP/) file
 3. Enter the [RePhone Mass Storage Mode](http://www.seeedstudio.com/wiki/Xadow_GSM%2BBLE#Mass_Storage_Mode)
 4. Copy everything under the file named "RePhone Create Kit VXP" into the RePhone 5MB mass storage.
 5. Restart your RePhone then its done. As reset have deleted all the files, you would have to put an mp3 file in the mass storage as well for the use of ringtone.

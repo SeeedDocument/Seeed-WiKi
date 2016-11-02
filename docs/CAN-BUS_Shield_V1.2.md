@@ -79,12 +79,23 @@ This document applies to the following version of products:
 
 **CS pin**
 
-SPI_CS pin of V1.2 is default to **D9**. If you want to change it to **D10**. Take a look at the back of the PCBA, you will find a pad named CS. You can cut the wire that at the left of the pad with a box cutter, and the solder the right 2 pads.
+SPI_CS pin of V1.2 is default to **D9**. If you want to change it to **D10**.
 
-!!!warning
-    Be careful when you are going to change CS pin, it's easy to hear yourself or the PCBA.
+- Step1: Take a look at the back of the PCBA, you will find a pad named CS.
 
 ![](https://github.com/SeeedDocument/CAN_BUS_Shield/blob/master/image/hardware_overview_pins_setting.png?raw=true)
+
+ - Step2: Cut the wire that connect pad9 and the middle pad
+
+![](https://github.com/SeeedDocument/CAN_BUS_Shield/raw/master/image/cut%20this%20wire%20with%20box%20cutter.png)
+
+ - Step3:Solder the middle pad and pad 10.
+
+![](https://github.com/SeeedDocument/CAN_BUS_Shield/raw/master/image/sodder%20the%20middle%20pad%20and%20pad%2010.png)
+
+
+!!!warning
+    Be careful with the box cutter, it's easy to hurt yourself or the PCBA.
 
 **SPI pins**
 

@@ -1,5 +1,3 @@
-# Xadow - 3-Axis Accelerometer
-
 ---
 title: Xadow - 3-Axis Accelerometer
 category: RePhone
