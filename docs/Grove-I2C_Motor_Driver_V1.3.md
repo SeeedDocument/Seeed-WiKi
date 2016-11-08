@@ -38,7 +38,7 @@ Features
 
 !!!Tip
     More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
-    
+
 Specifications
 --------------
 
@@ -201,8 +201,8 @@ void loop()  {
   while(1)  {
     MotorSpeedSetAB(100,20);
     delay(10); //this delay needed
-    MotorDirectionSet(0b1010);  //0b1010  Rotating in the positive direction 
-    delay(1000); 
+    MotorDirectionSet(0b1010);  //0b1010  Rotating in the positive direction
+    delay(1000);
     MotorDirectionSet(0b0101);  //0b0101  Rotating in the opposite direction
     delay(500);
   }
@@ -278,17 +278,17 @@ Download the [Grove-I2C motor driver V1.3 demo code](/Grove-I2C_Motor_Driver_V1.
 #define MotorSetB                 0xa5
 #define Nothing                   0x01
 #define EnableStepper             0x1a
-#define UnenableStepper           0x1b
+#define DisableStepper           0x1b
 #define Stepernu                  0x1c
 #define I2CMotorDriverAdd         0x0f   // Set the address of the I2CMotorDriver
 // set the steps you want, if 255, the stepper will rotate continuously;
 void SteperStepset(unsigned char stepnu)
 {
   Wire.beginTransmission(I2CMotorDriverAdd); // transmit to device I2CMotorDriverAdd
-  Wire.write(Stepernu);          // Send the stepernu command 
+  Wire.write(Stepernu);          // Send the stepernu command
   Wire.write(stepnu);            // send the steps
   Wire.write(Nothing);           // send nothing   
-  Wire.endTransmission();        // stop transmitting 
+  Wire.endTransmission();        // stop transmitting
 }
      .......
      .......
@@ -298,14 +298,14 @@ void stepperrun()
 {
  Serial.println("sent command to + direction, very fast");
  SteperStepset(255);
- StepperMotorEnable(1, 1);// ennable the i2c motor driver a stepper. 
+ StepperMotorEnable(1, 1);// ennable the i2c motor driver a stepper.
   delay(5000);
   Serial.println("sent command to - direction, slow");
   SteperStepset(255);
   StepperMotorEnable(0, 20);
   delay(5000);
    Serial.println("sent command to - direction, fast");
-  StepperMotorEnable(0, 2);// ennable the i2c motor driver a stepper. 
+  StepperMotorEnable(0, 2);// ennable the i2c motor driver a stepper.
   delay(5000);
  Serial.println("sent command to + direction,100 steps, fast");
  SteperStepset(100);
@@ -313,7 +313,7 @@ void stepperrun()
  delay(3000);
  
  Serial.println("sent command to shut down the stepper");
- StepperMotorUnenable();
+ StepperMotorDisable();
  delay(1000);
  
   Serial.println("sent command to - direction, slow, and 10 steps then stop");
@@ -321,7 +321,7 @@ void stepperrun()
  StepperMotorEnable(0,40);
  delay(5000);
  Serial.println("sent command to shut down the stepper");
- StepperMotorUnenable();
+ StepperMotorDisable();
  delay(5000);
 }
 void setup()  {
@@ -338,7 +338,7 @@ void loop()  {
 
 In this demo code, Arduino sends stepper-control command to I2C motor driver via I2C bus, with SteperStepset() to set the step number, and StepperMotorEnable() to set the direction and speed. Please refer to the [Function Reference](/Grove-I2C_Motor_Driver_V1.3#function-reference) for the details.
 
-Note that if you have I2C motor driver V1.2 and want to use the off-line Stepper control methods, you will need to upgrade your firmware in your V1.2 motor driver with a [AVRISP](http://www.seeedstudio.com/depot/atmel-avrisp-stk500-usb-isp-programmer-p-207.html?cPath=132_135) and upload the .hex file to your I2C motor driver. Please download the .hex file and source code and related tips in the [Resources](/Grove-I2C_Motor_Driver_V1.3#resources). 
+Note that if you have I2C motor driver V1.2 and want to use the off-line Stepper control methods, you will need to upgrade your firmware in your V1.2 motor driver with a [AVRISP](http://www.seeedstudio.com/depot/atmel-avrisp-stk500-usb-isp-programmer-p-207.html?cPath=132_135) and upload the .hex file to your I2C motor driver. Please download the .hex file and source code and related tips in the [Resources](/Grove-I2C_Motor_Driver_V1.3#resources).
 
 Function Reference
 ------------------
@@ -366,13 +366,13 @@ Usage:
 
     StepperMotorEnable(1, 1);// enable the i2c motor driver a stepper.
 
-**3. void StepperMotorUnenable()**
+**3. void StepperMotorDisable()**
 
 *Description: Uneanble IIC motor drive to drive the stepper.*
 
 Usage:
 
-    StepperMotorUnenable();
+    StepperMotorDisable();
 
 **4. void MotorSpeedSetAB(unsigned char MotorSpeedA , unsigned char MotorSpeedB)**
 
@@ -385,10 +385,10 @@ Usage:
 
 Usage:
 
-     
+
     Serial.println("sent DC speed 100");
     MotorSpeedSetAB(100,100);//defines the speed of motor 1 and motor 2;
-    delay(10); //this delay needed 
+    delay(10); //this delay needed
 
 **5. void MotorPWMFrequenceSet(unsigned char Frequence)**
 
@@ -406,7 +406,7 @@ Usage:
 
     MotorDirectionSet(0b1010);  //"0b1010" defines the output polarity, "10" means the M+ is "positive" while the M- is "negative"
                              // make sure M+ and M- is different polarity when driving DC motors.
-    delay(1000); 
+    delay(1000);
     MotorDirectionSet(0b0101);  //0b0101  Rotating in the opposite direction
     delay(500);
 

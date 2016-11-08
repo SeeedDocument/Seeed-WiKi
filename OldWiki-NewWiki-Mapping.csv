@@ -152,6 +152,7 @@ Grove - Temperature&Humidity Sensor (High-Accuracy &Mini) v1.0,http://wiki.seeed
 Grove - Thumb Joystick,http://wiki.seeed.cc/Grove-Thumb_Joystick/,http://wiki.seeedstudio.com/wiki/Grove_-_Thumb_Joystick
 Grove - Tilt Switch,http://wiki.seeed.cc/Grove-Tilt_Switch/,http://wiki.seeedstudio.com/wiki/Grove_-_Tilt_Switch
 Grove - Touch Sensor,http://wiki.seeed.cc/Grove-Touch_Sensor/,http://wiki.seeedstudio.com/wiki/Grove_-_Touch_Sensor
+Grove - Toy Kit,http://wiki.seeed.cc/Grove-Toy_Kit/,http://wiki.seeedstudio.com/wiki/Grove - Toy Kit
 Grove - UART Wi-Fi,http://wiki.seeed.cc/Grove-UART_Wifi/,
 Grove - UV Sensor,http://wiki.seeed.cc/Grove-UV_Sensor/,http://wiki.seeedstudio.com/wiki/Grove_-_UV_Sensor
 Grove - Ultrasonic Ranger,http://wiki.seeed.cc/Grove-Ultrasonic_Ranger/,http://wiki.seeedstudio.com/wiki/Grove - Ultrasonic Ranger
@@ -160,6 +161,7 @@ Grove - Vibration Motor,http://wiki.seeed.cc/Grove-Vibration_Motor/,http://wiki.
 Grove - Voltage Divider,http://wiki.seeed.cc/Grove-Voltage_Divider/,http://wiki.seeedstudio.com/wiki/Grove - Sunlight Sensor
 Grove - Water Atomization,http://wiki.seeed.cc/Grove-Water_Atomization/,http://wiki.seeedstudio.com/wiki/Grove_-_Water_Atomization
 Grove - Water Sensor,http://wiki.seeed.cc/Grove-Water_Sensor/,http://wiki.seeedstudio.com/wiki/Grove_-_Water_Sensor
+Grove - Wrapper,http://wiki.seeed.cc/Grove-Wrapper/,http://wiki.seeedstudio.com/wiki/Grove - Wrapper
 Grove BLE v1,http://wiki.seeed.cc/Grove-BLE_v1/,http://wiki.seeedstudio.com/wiki/Grove_BLE_v1
 Grove Breakout for LinkIt Smart 7688 Duo,http://wiki.seeed.cc/Grove_Breakout_for_LinkIt_Smart_7688_Duo/,http://wiki.seeedstudio.com/wiki/Grove Breakout for LinkIt Smart 7688 Duo
 Grove Introduction,http://wiki.seeed.cc/Grove/,
@@ -243,8 +245,13 @@ Xadow - M0,http://wiki.seeed.cc/Xadow_M0/,http://wiki.seeedstudio.com/wiki/Xadow
 Xadow - Main Board,http://wiki.seeed.cc/Xadow_Main_Board/,http://wiki.seeedstudio.com/wiki/Xadow - Main Board
 Xadow - Motor Driver,http://wiki.seeed.cc/Xadow_Motor_Driver/,http://wiki.seeedstudio.com/wiki/Xadow - Motor Driver
 Xadow - Multichannel Gas Sensor,http://wiki.seeed.cc/Xadow_Multichannel_Gas_Sensor/,http://wiki.seeedstudio.com/wiki/Xadow - Multichannel Gas Sensor
+Xadow - NFC Tag,http://wiki.seeed.cc/Xadow_NFC_tag/,http://wiki.seeedstudio.com/wiki/Xadow - NFC Tag
 Xadow - OLED 128*64,http://wiki.seeed.cc/Xado_OLED_128multiply64/,http://wiki.seeedstudio.com/wiki/Xadow - OLED 128*64
 Xadow - RGB OLED 96*64,http://wiki.seeed.cc/Xadow_RGB_OLED_96multiply64/,http://wiki.seeedstudio.com/wiki/Xadow - RGB OLED 96*64
+Xadow - RTC,http://wiki.seeed.cc/Xadow_RTC/,http://wiki.seeedstudio.com/wiki/Xadow - RTC
+Xadow - Storage,http://wiki.seeed.cc/Xadow_Storage/,http://wiki.seeedstudio.com/wiki/Xadow - Storage
+Xadow - UV Sensor,http://wiki.seeed.cc/Xadow_UV_Sensor/,http://wiki.seeedstudio.com/wiki/Xadow - UV Sensor
+Xadow - Vibrator Motor,http://wiki.seeed.cc/Xadow_Vibrator_Motor/,http://wiki.seeedstudio.com/wiki/Xadow - Vibrator Motor
 Xadow 1.54'' Touchscreen,http://wiki.seeed.cc/Xadow_1.54_inch_Touchscreen/,http://wiki.seeedstudio.com/wiki/Xadow 1.54'' Touchscreen
 Xadow Audio,http://wiki.seeed.cc/Xadow_Audio/,http://wiki.seeedstudio.com/wiki/Xadow Audio
 Xadow BLE,http://wiki.seeed.cc/Xadow_BLE/,http://wiki.seeedstudio.com/wiki/Xadow - BLE
@@ -255,9 +262,14 @@ Xadow Duino,http://wiki.seeed.cc/Xadow_Duino/,http://wiki.seeedstudio.com/wiki/X
 Xadow GPS V2,http://wiki.seeed.cc/Xadow_GPS_V2/,http://wiki.seeedstudio.com/wiki/Xadow GPS V2
 Xadow GSM Breakout,http://wiki.seeed.cc/Xadow_GSM_Breakout/,http://wiki.seeedstudio.com/wiki/Xadow GSM Breakout
 Xadow GSM+BLE,http://wiki.seeed.cc/Xadow_GSMPlusBLE/,http://wiki.seeedstudio.com/wiki/Xadow_GSM+BLE
+Xadow Metal Frame,http://wiki.seeed.cc/Xadow_Metal_Frame/,http://wiki.seeedstudio.com/wiki/Xadow Metal Frame
 Xadow NFC,http://wiki.seeed.cc/Xadow_NFC/,http://wiki.seeedstudio.com/wiki/Xadow - NFC
 Xadow Pebble Time Adapter,http://wiki.seeed.cc/Xadow_Pebble_Time_Adapter/,http://wiki.seeedstudio.com/wiki/Xadow_Pebble_Time_Adapter
+Xadow Tutorial - Acceleration Detector,http://wiki.seeed.cc/Xadow_Tutorial_Acceleration_Detector/,http://wiki.seeedstudio.com/wiki/Xadow tutorial-Acceleration detector
+Xadow Tutorial - Communicate via BLE,http://wiki.seeed.cc/Xadow_Tutorial_Communicate_via_BLE/,http://wiki.seeedstudio.com/wiki/Xadow tutorial-Communicate via BLE
+Xadow Wearable Kit For Edison,http://wiki.seeed.cc/Xadow_Wearable_Kit_For_Edison/,http://wiki.seeedstudio.com/wiki/Xadow Wearable Kit For Edison
 Xadow-Q Touch Sensor,http://wiki.seeed.cc/Xadow_Q_Touch_Sensor/,http://wiki.seeedstudio.com/wiki/Xadow-Q Touch Sensor
+XadowTtutorial-Shaking Shaking,http://wiki.seeed.cc/Xadow_Tutorial_Shaking_Shaking/,http://wiki.seeedstudio.com/wiki/Xadow tutorial-shaking shaking
 mbed Introduction,http://wiki.seeed.cc/mbed/,
 survey_end,http://wiki.seeed.cc/survey_end/,
 
