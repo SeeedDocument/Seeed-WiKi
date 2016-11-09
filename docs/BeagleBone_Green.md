@@ -348,6 +348,8 @@ There're many references to help you to get more information about the board.
 * [Troubleshooting](http://beagleboard.org/getting-started#troubleshooting)
 * [Hardware documentation](http://beagleboard.org/getting-started#hardware)
 * [Projects of BeagleBoard](http://beagleboard.org/project)
+* [CE certification of BBG](https://github.com/SeeedDocument/BeagleBone_Green/raw/master/resources/CE.zip)
+* [FCC certification of BBG](https://github.com/SeeedDocument/BeagleBone_Green/raw/master/resources/FCC.zip)
 
 ## Resources
 ---

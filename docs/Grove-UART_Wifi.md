@@ -137,7 +137,7 @@ As shown below:
 Click [here](https://raw.githubusercontent.com/SeeedDocument/Grove-Uart_Wifi/master/res/Grove_uart_wifi_test.zip) to download testing code and decompress it to any folders(e.g. Drive D or desktop)
 
 
-Now you need simple [configurations for Arduino](https://seeeddoc.github.io/Sketchbook%E7%9A%84%E4%BD%BF%E7%94%A8) sketchbook.
+Now you need simple [configurations for Arduino](https://seeeddoc.github.io/How_To_Use_Sketchbook/) sketchbook.
 
 Launch Arduino IDE and click File>Preferences and add absolute location for downloaded testing code at Sketchbook location .
 
