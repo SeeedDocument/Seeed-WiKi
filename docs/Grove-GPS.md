@@ -7,7 +7,7 @@ prodimagename: Grove-GPS.jpg
 bzprodimageurl: http://statics3.seeedstudio.com/images/113020003 1.jpg
 surveyurl: https://www.research.net/r/Grove-GPS
 sku: 113020003
-tags: grove_uart, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg，plat_pi
+tags: grove_uart, io_3v3, io_5v, plat_duino, plat_bbg, plat_pi, plat_linkit, 
 ---
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-GPS/master/img/Grove-GPS.jpg)
