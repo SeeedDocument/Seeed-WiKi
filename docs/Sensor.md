@@ -66,6 +66,7 @@ Here is the list of the Grove - Sensor Boards you can find in the Seeed WiKi. Th
 - [Grove - Moisture Sensor](/Grove-Moisture_Sensor/)
 - [Grove - Mouse Encoder](/Grove-Mouse_Encoder/)
 - [Grove - Multichannel Gas Sensor](/Grove-Multichannel_Gas_Sensor/)
+- [Grove - PH Sensor](/Grove-PH_Sensor/)
 - [Grove - PIR Motion Sensor](/Grove-PIR_Motion_Sensor/)
 - [Grove - Piezo Vibration Sensor](/Grove-Piezo_Vibration_Sensor/)
 - [Grove - Q Touch Sensor](/Grove-Q_Touch_Sensor/)

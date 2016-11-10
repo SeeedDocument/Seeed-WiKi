@@ -7,7 +7,7 @@ prodimagename: Grove-GPS.jpg
 bzprodimageurl: http://statics3.seeedstudio.com/images/113020003 1.jpg
 surveyurl: https://www.research.net/r/Grove-GPS
 sku: 113020003
-tags: grove_uart, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg
+tags: grove_uart, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg，plat_pi
 ---
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-GPS/master/img/Grove-GPS.jpg)
@@ -16,7 +16,7 @@ This Grove - GPS module is a cost-efficient and field-programmable gadget armed 
 
 [![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](http://www.seeedstudio.com/depot/grove-gps-p-959.html)
 
-Features
+## Features
 --------
 
 -   Supports NMEA and u-blox 6 protocols. ( Till Jan,10 2014, after that SIM28 instead)
@@ -28,7 +28,7 @@ Features
     More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
 
 
-Specifications
+## Specifications
 -------------
 
 | **Parameter**    | **Range/Value**              |
@@ -38,10 +38,10 @@ Specifications
 | BaudRate         | 9600 - 115200(SIM28 version) |
 | Default BaudRate | 9600                         |
 
-Platforms Supported
+## Platforms Supported
 -------------------
 
-Getting Started
+## Getting Started
 ---------------
 
 Following documents help in getting the user started with Grove.
@@ -57,7 +57,7 @@ Demos
 
 1. Connect the Grove-GPS to Digital I/O 2 on the [Grove - Base Shield](/Base_Shield_V2 "Grove - Base Shield") using a Grove Universal 4 pin cable.
 
-2. Upload the code below. 
+2. Upload the code below.
 
 ```
 // link between the computer and the SoftSerial Shield
@@ -99,7 +99,7 @@ void loop()
 void clearBufferArray()                     // function to clear buffer array
 {
     for (int i=0; i<count;i++)
-    { 
+    {
         buffer[i]=NULL;
     }                      // clear all index of array with command NULL
 }
@@ -158,7 +158,7 @@ class GPS:
     GGA=[]
  
     #Read data from the GPS
-    def read(self): 
+    def read(self):
         while True:
             GPS.inp=ser.readline()
             if GPS.inp[:6] =='$GPGGA': # GGA data , packet 1, has all the data we need

@@ -21,6 +21,7 @@ Here is the list of the BeagleBone Boards you can find in the Seeed WiKi. The li
 - [BeagleBone Green](/BeagleBone_Green/)
 - [BeagleBone Green HDMI Cape](/BeagleBone_Green_HDMI_Cape/)
 - [BeagleBone Green Wireless](/BeagleBone_Green_Wireless/)
+- [Grove Base Cape for BeagleBone v2](/Grove_Base_Cape_for_BeagleBone_v2/)
 - [Grove Starter Kit for BeagleBone Green](/Grove_Starter_Kit_for_BeagleBone_Green/)
 - [Motor Bridge Cape v1.0](/Motor_Bridge_Cape_v1.0/)
 

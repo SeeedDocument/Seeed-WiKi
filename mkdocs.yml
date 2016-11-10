@@ -19,6 +19,7 @@ pages:
         - CAN-BUS Shield V1.2: CAN-BUS_Shield_V1.2.md
         - EL Shield: EL_Shield.md
         - Energy Shield: Energy_Shield.md
+        - Galileo Case: Galileo_Case.md
         - Grove - Starter Kit Plus: Grove_Starter_Kit_Plus.md
         - Grove - Starter Kit v3: Grove_Starter_Kit_v3.md
         - Hercules Dual 15A 6-20V Motor Controller: Hercules_Dual_15A_6-20V_Motor_Controller.md
@@ -50,6 +51,7 @@ pages:
         - BeagleBone Green: BeagleBone_Green.md
         - BeagleBone Green HDMI Cape: BeagleBone_Green_HDMI_Cape.md
         - BeagleBone Green Wireless: BeagleBone_Green_Wireless.md
+        - Grove Base Cape for BeagleBone v2: Grove_Base_Cape_for_BeagleBone_v2.md
         - Grove Starter Kit for BeagleBone Green: Grove_Starter_Kit_for_BeagleBone_Green.md
         - Motor Bridge Cape v1.0: Motor_Bridge_Cape_v1.0.md
 
@@ -204,6 +206,7 @@ pages:
         - Grove - Moisture Sensor: Grove-Moisture_Sensor.md
         - Grove - Mouse Encoder: Grove-Mouse_Encoder.md
         - Grove - Multichannel Gas Sensor: Grove-Multichannel_Gas_Sensor.md
+        - Grove - PH Sensor: Grove-PH_Sensor.md
         - Grove - PIR Motion Sensor: Grove-PIR_Motion_Sensor.md
         - Grove - Piezo Vibration Sensor: Grove-Piezo_Vibration_Sensor.md
         - Grove - Q Touch Sensor: Grove-Q_Touch_Sensor.md
@@ -231,6 +234,7 @@ pages:
 
     - Actuator:
         - Actuator Introduction: Actuator.md
+        - Atom Node: Atom_Node.md
         - Grove - 2-Coil Latching Relay: Grove-2-Coil_Latching_Relay.md
         - Grove - Button: Grove-Button.md
         - Grove - Buzzer: Grove-Buzzer.md
@@ -243,6 +247,7 @@ pages:
         - Grove - Infrared Emitter: Grove-Infrared_Emitter.md
         - Grove - LED Matrix Driver v1.0: Grove-LED_Matrix_Driver_v1.0.md
         - Grove - MP3 v2.0: Grove-MP3_v2.0.md
+        - Grove - Mini Fan: Grove-Mini_Fan.md
         - Grove - Mini I2C Motor Driver v1.0: Grove-Mini_I2C_Motor_Driver_v1.0.md
         - Grove - Recorder V3: Grove-Recorder_v3.0.md
         - Grove - Relay: Grove-Relay.md
@@ -258,6 +263,9 @@ pages:
         - Grove - 4-Digit Display: Grove-4-Digit_Display.md
         - Grove - LCD RGB Backlight: Grove-LCD_RGB_Backlight.md
         - Grove - LED Bar: Grove-LED_Bar.md
+        - Grove - LED Socket Kit: Grove-LED_Socket_Kit.md
+        - Grove - LED String Light: Grove-LED_String_Light.md
+        - Grove - LED Strip Driver: Grove-LED_Strip_Driver.md
         - Grove - OLED Display 0.96 inch: Grove-OLED_Display_0.96inch.md
         - Grove - OLED Display 1.12&#34;: Grove-OLED_Display_1.12inch.md
         - I2C LCD: I2C_LCD.md
@@ -283,6 +291,7 @@ pages:
         - Grove - I2C Hub: Grove-I2C_Hub.md
         - Grove - MOSFET: Grove-MOSFET.md
         - Grove - Mini Camera: Grove-Mini_Camera.md
+        - Grove - Mixer Pack V2: Grove-Mixer_Pack_V2.md
         - Grove - Recorder v2.0: Grove-Recorder_v2.0.md
         - Grove - SPDT Relay(30A): Grove-SPDT_Relay_30A.md
         - Grove - Serial Camera: Grove-Serial_Camera.md
@@ -314,6 +323,7 @@ pages:
 - MakerPro:
         - MakerPro Introduction: MakerPro.md
         - 433Mhz RF Link Kit: 433Mhz_RF_Link_Kit.md
+        - Bluetooth Multimeter: Bluetooth_Multimeter.md
         - G1&amp;2&#34; Water Flow Sensor: G1_and_2_inch_Water_Flow_Sensor.md
         - WiFi Serial Transceiver Module: WiFi_Serial_Transceiver_Module.md
 

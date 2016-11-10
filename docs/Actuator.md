@@ -8,6 +8,7 @@ Grove - Actuators includes motor drivers, LED displays, Relay, Speakers, Buzzers
 ## Product List
 ---
 
+- [Atom Node](/Atom_Node/)
 - [Grove - 2-Coil Latching Relay](/Grove-2-Coil_Latching_Relay/)
 - [Grove - Button](/Grove-Button/)
 - [Grove - Buzzer](/Grove-Buzzer/)
@@ -20,6 +21,7 @@ Grove - Actuators includes motor drivers, LED displays, Relay, Speakers, Buzzers
 - [Grove - Infrared Emitter](/Grove-Infrared_Emitter/)
 - [Grove - LED Matrix Driver v1.0](/Grove-LED_Matrix_Driver_v1.0/)
 - [Grove - MP3 v2.0](/Grove-MP3_v2.0/)
+- [Grove - Mini Fan](/Grove-Mini_Fan/)
 - [Grove - Mini I2C Motor Driver v1.0](/Grove-Mini_I2C_Motor_Driver_v1.0/)
 - [Grove - Recorder V3](/Grove-Recorder_v3.0/)
 - [Grove - Relay](/Grove-Relay/)
