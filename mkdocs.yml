@@ -212,6 +212,7 @@ pages:
         - Grove - Q Touch Sensor: Grove-Q_Touch_Sensor.md
         - Grove - RTC: Grove-RTC.md
         - Grove - Rotary Angle Sensor: Grove-Rotary_Angle_Sensor.md
+        - Grove - Serial Camera Kit: Grove-Serial_Camera_Kit.md
         - Grove - Slide Potentiometer: Grove-Slide_Potentiometer.md
         - Grove - Sound Recorder: Grove-Sound_Recorder.md
         - Grove - Sound Sensor: Grove-Sound_Sensor.md
@@ -252,6 +253,7 @@ pages:
         - Grove - Recorder V3: Grove-Recorder_v3.0.md
         - Grove - Relay: Grove-Relay.md
         - Grove - Serial MP3 Player: Grove-Serial_MP3_Player.md
+        - Grove - Servo: Grove-Servo.md
         - Grove - Solid State Relay: Grove-Solid_State_Relay.md
         - Grove - Speaker: Grove-Speaker.md
         - Grove - Variable Color LED: Grove-Variable_Color_LED.md
@@ -268,6 +270,7 @@ pages:
         - Grove - LED Strip Driver: Grove-LED_Strip_Driver.md
         - Grove - OLED Display 0.96 inch: Grove-OLED_Display_0.96inch.md
         - Grove - OLED Display 1.12&#34;: Grove-OLED_Display_1.12inch.md
+        - Grove - Red LED: Grove-Red_LED.md
         - I2C LCD: I2C_LCD.md
 
     - Communication:
@@ -281,7 +284,11 @@ pages:
         - Grove - I2C FM Receiver: Grove-I2C_FM_Receiver.md
         - Grove - NFC: Grove-NFC.md
         - Grove - NFC Tag: Grove-NFC_Tag.md
+        - Grove - Protoshield: Grove-Protoshield.md
+        - Grove - RJ45 Adapter: Grove-RJ45_Adapter.md
+        - Grove - Screw Terminal: Grove-Screw_Terminal.md
         - Grove - Serial Bluetooth v3.0: Grove-Serial_Bluetooth_v3.0.md
+        - Grove - Serial RF Pro: Grove-Serial_RF_Pro.md
         - Grove - UART Wi-Fi: Grove-UART_Wifi.md
         - Grove BLE v1: Grove-BLE_v1.md
 
@@ -292,6 +299,7 @@ pages:
         - Grove - MOSFET: Grove-MOSFET.md
         - Grove - Mini Camera: Grove-Mini_Camera.md
         - Grove - Mixer Pack V2: Grove-Mixer_Pack_V2.md
+        - Grove - PS/2 Adapter: Grove-PS_2_Adapter.md
         - Grove - Recorder v2.0: Grove-Recorder_v2.0.md
         - Grove - SPDT Relay(30A): Grove-SPDT_Relay_30A.md
         - Grove - Serial Camera: Grove-Serial_Camera.md

@@ -72,6 +72,7 @@ Here is the list of the Grove - Sensor Boards you can find in the Seeed WiKi. Th
 - [Grove - Q Touch Sensor](/Grove-Q_Touch_Sensor/)
 - [Grove - RTC](/Grove-RTC/)
 - [Grove - Rotary Angle Sensor](/Grove-Rotary_Angle_Sensor/)
+- [Grove - Serial Camera Kit](/Grove-Serial_Camera_Kit/)
 - [Grove - Slide Potentiometer](/Grove-Slide_Potentiometer/)
 - [Grove - Sound Recorder](/Grove-Sound_Recorder/)
 - [Grove - Sound Sensor](/Grove-Sound_Sensor/)

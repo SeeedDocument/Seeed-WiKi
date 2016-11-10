@@ -18,5 +18,6 @@ Here is the list of the Display Board you can find in the Seeed WiKi. The list w
 - [Grove - LED Strip Driver](/Grove-LED_Strip_Driver/)
 - [Grove - OLED Display 0.96 inch](/Grove-OLED_Display_0.96inch/)
 - [Grove - OLED Display 1.12&#34;](/Grove-OLED_Display_1.12inch/)
+- [Grove - Red LED](/Grove-Red_LED/)
 - [I2C LCD](/I2C_LCD/)
 
