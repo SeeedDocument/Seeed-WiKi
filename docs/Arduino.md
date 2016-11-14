@@ -24,6 +24,7 @@ Here is the list of the Seeeduino Boards you can find in the Seeed WiKi. The lis
 - [CAN-BUS Shield V1.2](/CAN-BUS_Shield_V1.2/)
 - [EL Shield](/EL_Shield/)
 - [Energy Shield](/Energy_Shield/)
+- [Galileo Case](/Galileo_Case/)
 - [Grove - Starter Kit Plus](/Grove_Starter_Kit_Plus/)
 - [Grove - Starter Kit v3](/Grove_Starter_Kit_v3/)
 - [Hercules Dual 15A 6-20V Motor Controller](/Hercules_Dual_15A_6-20V_Motor_Controller/)
