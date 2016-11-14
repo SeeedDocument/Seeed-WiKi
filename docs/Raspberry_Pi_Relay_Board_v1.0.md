@@ -225,7 +225,7 @@ We can select the fixed I2C-bus address by **SW1**.
         self.DEVICE_REG_MODE1 = 0x06
         self.DEVICE_REG_DATA = 0xff
         bus.write_byte_data(self.DEVICE_ADDRESS, self.DEVICE_REG_MODE1, self.DEVICE_REG_DATA)
-                 
+
         def ON_1(self):
             print 'ON_1...'
             self.DEVICE_REG_DATA &= ~(0x1<<0)  
@@ -242,12 +242,12 @@ We can select the fixed I2C-bus address by **SW1**.
             print 'ON_4...'
             self.DEVICE_REG_DATA &= ~(0x1<<3)
             bus.write_byte_data(self.DEVICE_ADDRESS, self.DEVICE_REG_MODE1, self.DEVICE_REG_DATA)
-        
+
         def OFF_1(self):
             print 'OFF_1...'
             self.DEVICE_REG_DATA |= (0x1<<0)
             bus.write_byte_data(self.DEVICE_ADDRESS, self.DEVICE_REG_MODE1, self.DEVICE_REG_DATA)
-        
+
         def OFF_2(self):
             print 'OFF_2...'
             self.DEVICE_REG_DATA |= (0x1<<1)
@@ -257,17 +257,17 @@ We can select the fixed I2C-bus address by **SW1**.
             print 'OFF_3...'
             self.DEVICE_REG_DATA |= (0x1<<2)
             bus.write_byte_data(self.DEVICE_ADDRESS, self.DEVICE_REG_MODE1, self.DEVICE_REG_DATA)
-        
+
         def OFF_4(self):
             print 'OFF_4...'
             self.DEVICE_REG_DATA |= (0x1<<3)
             bus.write_byte_data(self.DEVICE_ADDRESS, self.DEVICE_REG_MODE1, self.DEVICE_REG_DATA)
-        
+
         def ALLON(self):
             print 'ALLON...'
             self.DEVICE_REG_DATA &= ~(0xf<<0)
             bus.write_byte_data(self.DEVICE_ADDRESS, self.DEVICE_REG_MODE1, self.DEVICE_REG_DATA)
-        
+
         def ALLOFF(self):
             print 'ALLOFF...'
             self.DEVICE_REG_DATA |= (0xf<<0)
@@ -277,7 +277,7 @@ We can select the fixed I2C-bus address by **SW1**.
     if __name__=="__main__":
         relay = Relay()
         # Called on process interruption. Set all pins to "Input" default mode.
-        def endProcess(signalnum = None, handler = None): 
+        def endProcess(signalnum = None, handler = None):
             relay.ALLOFF()
             sys.exit()
 
@@ -328,8 +328,8 @@ Whichever relay is turned on, the corresponding LED will turn on.
 
 Resources
 ---------
-
 - [Raspberry_Pi_Relay_Board_v1.0_sch_pcb](https://raw.githubusercontent.com/SeeedDocument/Raspberry_Pi_Relay_Board_v1.0/master/res/Raspberry_Pi_Relay_Board_v1.0_sch_pcb.zip)
+- [Raspberry_Pi_Relay_Board_v1.0_PDF](https://github.com/SeeedDocument/Raspberry_Pi_Relay_Board_v1.0/raw/master/res/Raspberry%20Pi%20Relay%20Board%20v1.0.pdf)
 - [HLS8L Datasheet](https://raw.githubusercontent.com/SeeedDocument/Raspberry_Pi_Relay_Board_v1.0/master/res/HLS8L.pdf)
 - [PCAL9535A Datasheet](https://raw.githubusercontent.com/SeeedDocument/Raspberry_Pi_Relay_Board_v1.0/master/res/PCAL9535A.pdf)
 
