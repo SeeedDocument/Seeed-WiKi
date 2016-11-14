@@ -141,7 +141,29 @@ ms
 Platforms Supported
 -------------------
 
-Usage
+Before usage
+------------
+
+### Related Reading
+
+We suggest you to read those knowledge before using the Gas sensor, it'll help you to learn more about Arduino and our products, and also it'll let you to use open souse hardware more easier.
+
+-   [Getting Started with Arduino](/Getting_Started_with_Seeeduino)
+-   [What is Grove system](/Grove_System)
+-   [Why i need a Base shield?](/Base_Shield_V2)
+
+After reading that you will know how to use Base shield with Grove products to work well with Arduino. Let's start it !
+
+### To be prepared
+
+This tutorial will include some necessary products:
+
+-   [Arduino UNO R3](http://www.seeedstudio.com/depot/Arduino-Uno-Rev3-p-694.html) or [Seeeduino v4](http://www.seeedstudio.com/depot/Seeeduino-V4-p-669.html)
+-   [Base Shield](http://www.seeedstudio.com/depot/Base-Shield-V2-p-1378.html)
+-   Grove - 2-Coil Latching Relay
+
+
+Getting Started
 -----
 
 ### With Arduino
@@ -153,41 +175,40 @@ Let's begin to use it.
 -   Connect the module to D3 port of [Grove - Base Shield](/Base_Shield_V2 "Grove - Base Shield").
 -   The relay hold in "set" status(Comm and NO connected) in default, when there is a rising edge on the SIG pin. It turns the "reset" state(Comm and NC connected). The reference code is shown below:
 
-```
-    #define LatchingRelay 3
-    void setup()
-    {
+```c
+#define LatchingRelay 3
+void setup()
+{
     pinMode(LatchingRelay,OUTPUT);
 
     digitalWrite(LatchingRelay,LOW);
     delay(1000);
     digitalWrite(LatchingRelay,HIGH);
     delay(1000);
+}
+void loop()
+{
 
-    }
-    void loop()
-    {
-
-    }
+}
 ```
 
 -   The relay hold in "reset" status(Comm and NC Connected), when there is a falling edge on the SIG pin. It turns the "set" state(Comm and NO connected). The reference code is shown below:
 
-```
-    #define LatchingRelay 3
-    void setup()
-    {
+```c
+#define LatchingRelay 3
+void setup()
+{
     pinMode(LatchingRelay,OUTPUT);
 
     digitalWrite(3,HIGH);
     delay(1000);
     digitalWrite(3,LOW);
     delay(1000);
-    }
-    void loop()
-    {
+}
+void loop()
+{
 
-    }
+}
 ```
 
 -   This module consumes little power when working state doesn't change. After setting the relay state, you do not need to supply power for the Latching Relay any more, which makes it especially low power consumption.
@@ -220,47 +241,46 @@ Relay is on the "reset" status when being released from stock.
 4.Navigate to the demos' directory:
 
 ```
-    cd yourpath/GrovePi/Software/Python/
+cd yourpath/GrovePi/Software/Python/
 ```
 -   To see the code
 
 ```
-    nano grove_2_coil_latching_relay.py   # "Ctrl+x" to exit #
+nano grove_2_coil_latching_relay.py   # "Ctrl+x" to exit #
 ```
 
 ```
-    import time
-    import grovepi
+import time
+import grovepi
 
-    # Connect the Grove 2-Coil Latching Relay to digital port D4
-    # SIG,NC,VCC,GND
-    relay = 4
+# Connect the Grove 2-Coil Latching Relay to digital port D4
+# SIG,NC,VCC,GND
+relay = 4
 
-    grovepi.pinMode(relay,"OUTPUT")
+grovepi.pinMode(relay,"OUTPUT")
 
-    while True:
-        try:
-            # switch on for 5 seconds
-            grovepi.digitalWrite(relay,1)
-            print "on"
-            time.sleep(5)
+while True:
+    try:
+        # switch on for 5 seconds
+        grovepi.digitalWrite(relay,1)
+        print "on"
+        time.sleep(5)
 
-            # switch off for 5 seconds
-            grovepi.digitalWrite(relay,0)
-            print "off"
-            time.sleep(5)
+        # switch off for 5 seconds
+        grovepi.digitalWrite(relay,0)
+        print "off"
+        time.sleep(5)
 
-        except KeyboardInterrupt:
-            grovepi.digitalWrite(relay,0)
-            break
-        except IOError:
-            print "Error"
-
+    except KeyboardInterrupt:
+        grovepi.digitalWrite(relay,0)
+        break
+    except IOError:
+        print "Error"
 ```
 
 5.Run the demo.
 ```
-    sudo python grove_2_coil_latching_relay.py
+sudo python grove_2_coil_latching_relay.py
 ```
 
 Resources
