@@ -33,6 +33,13 @@ Application Ideas
 -   Game Controller
 -   Robot remote
 
+###Project - 2048 Game
+
+This is a Pi game project which is consists of Gorve - Thumb Joystick. Click on the images below to get more information about this project. 
+
+[![](https://raw.githubusercontent.com/SeeedDocument/Grove-Thumb_Joystick/master/img/pi_game.jpg)](http://www.instructables.com/id/DIY-a-Raspberry-Game-2048/)
+
+
 Specifications
 --------------
 
