@@ -33,6 +33,7 @@ The sensor value only reflects the approximated trend of gas concentration in a 
 
 [![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](http://www.seeedstudio.com/Grove-Multichannel-Gas-Sensor-p-2502.html)
 
+
 Before usage
 ------------
 
@@ -141,36 +142,12 @@ Electrical Characteristics
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Multichannel_Gas_Sensor/master/img/NH3_sensor.jpg)
 
-Firmware and library
---------------------
 
-### Firmware
-
-This grove module has an ATmega168 MCU which is flashed with a factory firmware. The firmware does the following:
-
-1.  Controls the power on and off for heating circuit and indicator LED
-2.  Listens to the command that make the module do the calibration - the calibration will sample the resistance of the MEMS core of this sensor which will be used as the reference, so please perform calibration in a fresh air condition
-3.  Listens to commands that get resistance value of one of the three sensor core which will be used to calculate the concentration of a specific gas
-4.  Listens to the command that changing the I2C address of this module - at most time, you do not need to do this except that the I2C address of this module (0x04) conflicts with another slave module.
-
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-The calibration has been done before the modules leave the factory. If you want to recalibrate, please do make sure that the air condition is fresh.
-</div>
-
-### Library
-
-The library reads resistance values from the module and calculate the concentration of gas. One thing must be noticed is, the readings of this sensor are not supposed to be used to distinguish the type of gases, but to measure the concentration of a specific gas which is known to be that kind of gas.
-
-The cores of this sensor are more sensitive to CO, NO2 and NH3, the precision of measurement for other gases would be worse.
-
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-The doCalibrate() function will take 8 seconds before it returns, as said above, at most time you don't need to recalibrate the sensor.
-</div>
-
-Demonstration
+Getting Started
 -------------
+
+!!!Warning
+    Then sensor need to preheat at least 10 minutes before getting a stable data.
 
 **Hardware Installation:**
 
@@ -180,76 +157,80 @@ Demonstration
 
 **Upload Code:**
 
-2.Download [Arduino Library & Grove/Xadow firmware](https://github.com/Seeed-Studio/Mutichannel_Gas_Sensor) and install it to Arduino Library.
+2.Download [Arduino Library & Grove/Xadow firmware](https://github.com/Seeed-Studio/Mutichannel_Gas_Sensor/archive/master.zip) and [install](http://wiki.seeed.cc/How_to_install_Arduino_Library/) it to Arduino Library.
 
 3.Open the code directly by the path:File -> Example -> Mutichannel_Gas_Sensor-> ReadSensorValue_Grove.
 
 The code of ReadSensorValue_Grove is given below.
 
-```
-    /*
-        This is a demo to test MutichannelGasSensor library
-        This code is running on Xadow-mainboard, and the I2C slave is Xadow-MutichannelGasSensor
-        There is a ATmega168PA on Xadow-MutichannelGasSensor, it get sensors output and feed back to master.
-        the data is raw ADC value, algorithm should be realized on master.
-
-        please feel free to write email to me if there is any question
-
-        Jacky Zhang, Embedded Software Engineer
-        qi.zhang@seeed.cc
-        17,mar,2015
-    */
-
-
-    #include <Wire.h>
-    #include "MutichannelGasSensor.h"
+```c
+// Read Data from Grove - Multichannel Gas Sensor
+#include <Wire.h>
+#include "MutichannelGasSensor.h"
 
 void setup()
 {
-    Serial.begin(9600);  // start serial for output
+    Serial.begin(115200);  // start serial for output
     Serial.println("power on!");
-
-    mutichannelGasSensor.begin(0x04);//the default I2C address of the slave is 0x04
-    //mutichannelGasSensor.changeI2cAddr(0x10);
-    //mutichannelGasSensor.doCalibrate();
-    //delay(8000);
-    while(mutichannelGasSensor.readR0() < 0)
-    {
-        Serial.println("sensors init error!!");
-        delay(1000);
-    }
-    Serial.print("Res0[0]: ");
-    Serial.println(mutichannelGasSensor.res0[0]);
-    Serial.print("Res0[1]: ");
-    Serial.println(mutichannelGasSensor.res0[1]);
-    Serial.print("Res0[2]: ");
-    Serial.println(mutichannelGasSensor.res0[2]);
-    mutichannelGasSensor.powerOn();
+    gas.begin(0x04);//the default I2C address of the slave is 0x04
+    gas.powerOn();
+    Serial.print("Firmware Version = ");
+    Serial.println(gas.getVersion());
 }
 
 void loop()
 {
-    mutichannelGasSensor.readR();
-    Serial.print("Res[0]: ");
-    Serial.println(mutichannelGasSensor.res[0]);
-    Serial.print("Res[1]: ");
-    Serial.println(mutichannelGasSensor.res[1]);
-    Serial.print("Res[2]: ");
-    Serial.println(mutichannelGasSensor.res[2]);
+    float c;
 
-    mutichannelGasSensor.calcGas();
-    Serial.print("NH3: ");
-    Serial.print(mutichannelGasSensor.density_nh3);
-    Serial.println("ppm");
-    Serial.print("CO: ");
-    Serial.print(mutichannelGasSensor.density_co);
-    Serial.println("ppm");
-    Serial.print("NO2: ");
-    Serial.print(mutichannelGasSensor.density_no2);
-    Serial.println("ppm");
+    c = gas.measure_NH3();
+    Serial.print("The concentration of NH3 is ");
+    if(c>=0) Serial.print(c);
+    else Serial.print("invalid");
+    Serial.println(" ppm");
+
+    c = gas.measure_CO();
+    Serial.print("The concentration of CO is ");
+    if(c>=0) Serial.print(c);
+    else Serial.print("invalid");
+    Serial.println(" ppm");
+
+    c = gas.measure_NO2();
+    Serial.print("The concentration of NO2 is ");
+    if(c>=0) Serial.print(c);
+    else Serial.print("invalid");
+    Serial.println(" ppm");
+
+    c = gas.measure_C3H8();
+    Serial.print("The concentration of C3H8 is ");
+    if(c>=0) Serial.print(c);
+    else Serial.print("invalid");
+    Serial.println(" ppm");
+
+    c = gas.measure_C4H10();
+    Serial.print("The concentration of C4H10 is ");
+    if(c>=0) Serial.print(c);
+    else Serial.print("invalid");
+    Serial.println(" ppm");
+
+    c = gas.measure_CH4();
+    Serial.print("The concentration of CH4 is ");
+    if(c>=0) Serial.print(c);
+    else Serial.print("invalid");
+    Serial.println(" ppm");
+
+    c = gas.measure_H2();
+    Serial.print("The concentration of H2 is ");
+    if(c>=0) Serial.print(c);
+    else Serial.print("invalid");
+    Serial.println(" ppm");
+
+    c = gas.measure_C2H5OH();
+    Serial.print("The concentration of C2H5OH is ");
+    if(c>=0) Serial.print(c);
+    else Serial.print("invalid");
+    Serial.println(" ppm");
 
     delay(1000);
-    Serial.println("...");
 }
 ```
 
@@ -261,7 +242,72 @@ By opening the serial monitor, you can see the raw data read from sensor.
 
 !!!Tip
     More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+
+Update Firmware
+-----------------
+
+This grove module has an ATmega168 MCU which is flashed with a factory firmware. The version had been updated to V2 at Nov11/2016.
+Upload below code to detect the versin of your sensor.
+
+```c
+// Get firmware version of Grove Multichannel Gas Sensor
+#include <Wire.h>
+#include "MutichannelGasSensor.h"
+
+#define SENSOR_ADDR     0X04        // default to 0x04
+
+void setup()
+{
+    Serial.begin(115200);
+    gas.begin(SENSOR_ADDR);
     
+    unsigned char version = gas.getVersion();
+    Serial.print("Version = ");
+    Serial.println(version);    
+}
+
+void loop()
+{
+    // nothing to do
+}
+```
+
+If the version of your sensor is V1, we advise you to upgrade it to V2 to get a better performance.
+
+To update the firmware, you need,
+
+* An Arduino UNO/Seeeduino V3/
+* 6 dupont wire 
+* Soldering Iron
+
+There's a ICSP pad on the back of the board, you need connect those pads to an Arduino board.
+
+| Sensor | Arduino |
+|--------|---------|
+| MISO   | D12     |
+| SCK    | D13     |
+| NRST   | D10     |
+| GND    | GND     |
+| MOSI   | D11     |
+| VCC    | 5V      |
+
+![](https://raw.githubusercontent.com/SeeedDocument/Grove-Multichannel_Gas_Sensor/master/img/firmware_connect.jpeg)
+
+Then open the example **UpdateFrimware** to your Arduino, open Serial monitor and you will get some info printed.
+Input a 'g' to start.
+
+![](https://raw.githubusercontent.com/SeeedDocument/Grove-Multichannel_Gas_Sensor/master/img/firmware_done.png)
+
+
+calibration
+--------------
+
+If you always get an unauthentic value, please try to calibrate the sensor. 
+Open the example **calibration** and upload to your Arduino, open Serial monitor to get info when it's calibrating. 
+
+!!!Note
+    The calibration has been done before the modules leave the factory. If you want to recalibrate, please do make sure that the air condition is fresh. And the calibration may need munutes to half an hour. 
+
 Resources
 ---------
 
@@ -271,3 +317,17 @@ Resources
 -   [MiCS-6814 Datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-Multichannel_Gas_Sensor/master/res/MiCS-6814_Datasheet.pdf)
 
 <!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_Multichannel_Gas_Sensor -->
+
+FAQ
+---------
+* **Q1. How to change I2C address of the module**
+
+    * *A1. Open the I2C_Address example and run it.*
+
+* **Q2. I change the I2C address and unlucky that I forget what is it.**
+
+    * *A2. Don't worry about it, run factory_setting example to make it default. Please note that the calibration data will factory setting as well.*
+
+
+!!!Tip
+    If you need futhur support, please feel free to contact [techsupport@seeed.cc]([techsupport@seeed.cc])
