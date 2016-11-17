@@ -144,6 +144,45 @@ bool dataRecieve(void)
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-CO2_Sensor/master/img/Uart_co2.jpg)
 
+Calibration
+------------
+If you need to calibrate the sensor, please upload below code to your Arduino. 
+
+```
+// Grove - Co2 Sensor calibration
+
+#include <SoftwareSerial.h>
+SoftwareSerial sensor(A5, A4);      // TX, RX
+
+
+const unsigned char cmd_calibrate[] = 
+{
+    0xff, 0x87, 0x87, 0x00, 0x00, 0x00, 0x00, 0x00, 0xf2
+};
+
+void setup()
+{
+    sensor.begin(9600);
+    Serial.begin(115200);
+    Serial.println("begin to calibrate");
+    
+    for(int i=0; i<sizeof(cmd_calibrate); i++)
+    {
+        sensor.write(cmd_calibrate[i]);
+    }
+    
+    Serial.println("calibrate done");
+}
+
+void loop()
+{
+    // nothing to do
+}
+```
+
+!!!Warning
+    Please preheat the sensor for at least 5 minutes before calibrating and make sure the sensor in fresh air. 
+
 Reference
 ---------
 

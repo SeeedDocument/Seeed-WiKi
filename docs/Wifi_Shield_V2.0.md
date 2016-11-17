@@ -178,31 +178,43 @@ These are the most important/useful function in the library, we invite you to lo
     -   **boolean:** true if the connection to the access point was successful, false otherwise.
 -   **Example:**
 
-```
-    #include <SoftwareSerial.h>
-    #include "WiFly.h"
-     
-    SoftwareSerial uart(2, 3); // create a serial connection to the WiFi shield TX and RX pins.
-    WiFly wifly(&uart); // create a WiFly library object using the serial connection to the WiFi shield we created above.
-     
-    void setup()
+```c
+#include <SoftwareSerial.h>
+#include "WiFly.h"
+
+SoftwareSerial uart(2, 3); // create a serial connection to the WiFi shield TX and RX pins.
+WiFly wifly(&uart); // create a WiFly library object using the serial connection to the WiFi shield we created above.
+
+void setup()
+{
+    uart.begin(9600); // start the serial connection to the shield
+    Serial.begin(9600); // start the Arduino serial monitor window connection
+    wifly.reset(); // reset the shield
+    while(wifly.join("mySSID","mySSIDpassword",WIFLY_AUTH_WPA2_PSK) == false)
     {
-      uart.begin(9600); // start the serial connection to the shield
-      Serial.begin(9600); // start the Arduino serial monitor window connection
-      wifly.reset(); // reset the shield 
-      while(wifly.join("mySSID","mySSIDpassword",WIFLY_AUTH_WPA2_PSK) == false)
-      {
         Serial.println("Failed to connect to accesspoint. Will try again.");
-      }
-      Serial.println("Connected to access point!");
     }
-     
-    void loop()
-    {
-     
-    }
+    Serial.println("Connected to access point!");
+}
+
+void loop()
+{
+
+}
 ```
 
+!!!Tip
+    The examples is based on Arduino UNO and we take D2/D3 as the SoftwareSerial pins. If you are using an Arduino Mega, D2 is not available anymore. More details please refer to [Arduino Software Serial](https://www.arduino.cc/en/Tutorial/SoftwareSerialExample)
+    Here's an example.
+    
+![](https://raw.githubusercontent.com/SeeedDocument/common/master/connect_mega.jpg)
+
+As for the code, you need to do some change as well: 
+
+````c
+SoftwareSerial uart(10, 3); // create a serial connection to the WiFi shield TX and RX pins.
+````
+    
 #### receive()
 
 -   **Description:**
@@ -217,11 +229,11 @@ These are the most important/useful function in the library, we invite you to lo
     -   **int:** The number of bytes read from the shield.
 -   **Example:**
 
-```
-    char c;
-    while (wifly.receive((uint8_t *)&c, 1, 300) > 0) {
-      Serial.print((char)c);
-    }
+```c
+char c;
+while (wifly.receive((uint8_t *)&c, 1, 300) > 0) {
+    Serial.print((char)c);
+}
 ```
 
 See File->Examples->WiFi_Shield->wifly_test sketch for a complete example.
@@ -240,15 +252,15 @@ See File->Examples->WiFi_Shield->wifly_test sketch for a complete example.
     -   **boolean:** true if the WiFi shield responded with the ack string, false otherwise.
 
 -   **Example:**
-```
-    // our join() function is wrapper for the join command, as seen below. 
-    //The string "Associated" is what the user manual says the RN171 will return on success.
-    if(sendCommand("join\r", "Associated",DEFAULT_WAIT_RESPONSE_TIME*10))
-    {
+```c
+// our join() function is wrapper for the join command, as seen below.
+//The string "Associated" is what the user manual says the RN171 will return on success.
+if(sendCommand("join\r", "Associated",DEFAULT_WAIT_RESPONSE_TIME*10))
+{
     // joined
-    }else{
+}else{
     // not able to join
-    }
+}
 ```
 
 See File->Examples->WiFi_Shield->wifly_test sketch for a complete example.
@@ -278,35 +290,33 @@ In the sketch below we have created a UART object to allow us to send and receiv
 
 Upload the following code to your Arduino board:
 
-```
-  #include <Arduino.h>
-  #include <SoftwareSerial.h>
-  #include "WiFly.h"
- 
-  // set up a new serial port.
-  SoftwareSerial uart(2, 3); // create a serial connection to the WiFi shield TX and RX pins.
-  WiFly wifly(&uart); // create a WiFly library object using the serial connection to the WiFi shield we created above.
- 
-  void setup() 
-  {
-  uart.begin(9600); // start the serial connection to the shield
-  Serial.begin(9600); // start the Arduino serial monitor window connection
-  delay(3000); // wait 3 second to allow the serial/uart object to start
-  }
- 
-  void loop() 
-  {
- 
-  while (wifly.available())  // if there is data available from the shield
+```c
+#include <Arduino.h>
+#include <SoftwareSerial.h>
+#include "WiFly.h"
+
+// set up a new serial port.
+SoftwareSerial uart(2, 3); // create a serial connection to the WiFi shield TX and RX pins.
+WiFly wifly(&uart); // create a WiFly library object using the serial connection to the WiFi shield we created above.
+
+void setup()
+{
+    uart.begin(9600); // start the serial connection to the shield
+    Serial.begin(9600); // start the Arduino serial monitor window connection
+    delay(3000); // wait 3 second to allow the serial/uart object to start
+}
+
+void loop()
+{
+    while (wifly.available())  // if there is data available from the shield
     {
-    Serial.write(wifly.read()); // display the data in the Serial monitor window.
+        Serial.write(wifly.read()); // display the data in the Serial monitor window.
     }
- 
-  while (Serial.available()) // if we typed a command
+    while (Serial.available()) // if we typed a command
     {
-    wifly.write(Serial.read()); // send the command to the WiFi shield.
+        wifly.write(Serial.read()); // send the command to the WiFi shield.
     }
-  }
+}
 ```
 
 **Step 3: Entering Command Mode**
@@ -404,8 +414,8 @@ Now that you know how to connect to an access point by typing each command it's 
 
 To see code required to connect to an access point go to “File -> Examples -> Wifi_Shield -> wifi_test”. Change the code to use your own SSID (access point name), and KEY (your access point's password), then upload the sketch to your Arduino IDE.
 
-      #define SSID      " SEEED-MKT "
-      #define KEY       " seeed-mkt "
+    #define SSID      " SEEED-MKT "
+    #define KEY       " seeed-mkt "
 
 With the sketch uploaded to your Arduino board, open the serial monitor window. If the shield was successful in joining the access point an "OK" message will be displayed along with the connection information resulting from the "get everything" command. If the shield failed to join the access point a "Failed" message will be displayed.
 
@@ -454,13 +464,13 @@ Follow these steps:
 7.  Your Arduino's serial monitor window will display an HTTP response similar to the one below. This is the information that your browser sent to the shield to request data.
 
 ```
-    *OPEN*GET / HTTP/1.1
-    Host: 192.168.0.10
-    Connection: keep-alive
-    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-    User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
-    Accept-Encoding: gzip, deflate, sdch
-    Accept-Language: en-US,en;q=0.8
+*OPEN*GET / HTTP/1.1
+Host: 192.168.0.10
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: en-US,en;q=0.8
 ```
 
 The browser is now waiting for data, the Wifi module can send sensor values, serve web pages, or any other data straight back to the browser! In this case, the browser is waiting for a web page. If the Wifi module responds with an HTML-formatted page, the browser will display it. The next examples will teach you how to do all this fun stuff.
@@ -473,101 +483,96 @@ As you saw in Example 3, an internet/web browser is able to connect to the WiFi 
 
 Upload the following code to your Arduino board replacing "myssid" and "mypassword" with your accesspoint's values respectively:
 
-```
+```c
 #include <SoftwareSerial.h>
 #include "WiFly.h"
- 
+
 #define SSID      "myssid"
 #define KEY       "mypassword"
 // check your access point's security mode, mine was WPA20-PSK
 // if yours is different you'll need to change the AUTH constant, see the file WiFly.h for avalable security codes
 #define AUTH      WIFLY_AUTH_WPA2_PSK
- 
+
 int flag = 0;
- 
+
 // Pins' connection
 // Arduino       WiFly
 //  2    <---->    TX
 //  3    <---->    RX
- 
+
 SoftwareSerial wiflyUart(2, 3); // create a WiFi shield serial object
 WiFly wifly(&wiflyUart); // pass the wifi siheld serial object to the WiFly class
- 
-void setup() 
+
+void setup()
 {
-  wiflyUart.begin(9600); // start wifi shield uart port
- 
-  Serial.begin(9600); // start the arduino serial port
-  Serial.println("--------- WIFLY Webserver --------");
- 
-  // wait for initilization of wifly
-  delay(1000);
- 
-  wifly.reset(); // reset the shield 
-  delay(1000);
-  //set WiFly params
- 
-  wifly.sendCommand("set ip local 80\r"); // set the local comm port to 80
-  delay(100);
- 
-  wifly.sendCommand("set comm remote 0\r"); // do not send a default string when a connection opens
-  delay(100);
- 
-  wifly.sendCommand("set comm open *OPEN*\r"); // set the string that the wifi shield will output when a connection is opened
-  delay(100);
- 
-  Serial.println("Join " SSID );
-  if (wifly.join(SSID, KEY, AUTH)) {
-    Serial.println("OK");
-  } else {
-    Serial.println("Failed");
-  }
- 
-  wifly.sendCommand("get ip\r");
-  char c;
- 
-  while (wifly.receive((uint8_t *)&c, 1, 300) > 0) { // print the response from the get ip command
-    Serial.print((char)c);
-  }
- 
-  Serial.println("Web server ready");
- 
-}
- 
-void loop() 
-{
- 
-  if(wifly.available()) 
-  { // the wifi shield has data available
- 
-    if(wiflyUart.find("*OPEN*")) // see if the data available is from an open connection by looking for the *OPEN* string
-    {
-      Serial.println("New Browser Request!");
-      delay(1000); // delay enough time for the browser to complete sending its HTTP request string
- 
-      // send HTTP header
-      wiflyUart.println("HTTP/1.1 200 OK");
-      wiflyUart.println("Content-Type: text/html; charset=UTF-8");
-      wiflyUart.println("Content-Length: 244"); // length of HTML code
-      wiflyUart.println("Connection: close");
-      wiflyUart.println();
- 
-      // send webpage's HTML code
-      wiflyUart.print("<html>");
-      wiflyUart.print("<head>");
-      wiflyUart.print("<title>My WiFI Shield Webpage</title>");
-      wiflyUart.print("</head>");
-      wiflyUart.print("<body>");
-      wiflyUart.print("<h1>Hello World!</h1>");
-      wiflyUart.print("<h3>This website is served from my WiFi module</h3>");
-      wiflyUart.print("<a href=\"http://yahoo.com\">Yahoo!</a> <a href=\"http://google.com\">Google</a>");
-      wiflyUart.print("<br/><button>My Button</button>");
-      wiflyUart.print("</body>");
-      wiflyUart.print("</html>");
- 
+    wiflyUart.begin(9600); // start wifi shield uart port
+    Serial.begin(9600); // start the arduino serial port
+    Serial.println("--------- WIFLY Webserver --------");
+
+    // wait for initilization of wifly
+    delay(1000);
+
+    wifly.reset(); // reset the shield
+    delay(1000);
+    //set WiFly params
+
+    wifly.sendCommand("set ip local 80\r"); // set the local comm port to 80
+    delay(100);
+
+    wifly.sendCommand("set comm remote 0\r"); // do not send a default string when a connection opens
+    delay(100);
+
+    wifly.sendCommand("set comm open *OPEN*\r"); // set the string that the wifi shield will output when a connection is opened
+    delay(100);
+
+    Serial.println("Join " SSID );
+    if (wifly.join(SSID, KEY, AUTH)) {
+        Serial.println("OK");
+    } else {
+        Serial.println("Failed");
     }
-  }
- 
+
+    wifly.sendCommand("get ip\r");
+    char c;
+
+    while (wifly.receive((uint8_t *)&c, 1, 300) > 0) { // print the response from the get ip command
+        Serial.print((char)c);
+    }
+
+    Serial.println("Web server ready");
+
+}
+
+void loop()
+{
+
+    if(wifly.available())
+    { // the wifi shield has data available
+        if(wiflyUart.find("*OPEN*")) // see if the data available is from an open connection by looking for the *OPEN* string
+        {
+            Serial.println("New Browser Request!");
+            delay(1000); // delay enough time for the browser to complete sending its HTTP request string
+            // send HTTP header
+            wiflyUart.println("HTTP/1.1 200 OK");
+            wiflyUart.println("Content-Type: text/html; charset=UTF-8");
+            wiflyUart.println("Content-Length: 244"); // length of HTML code
+            wiflyUart.println("Connection: close");
+            wiflyUart.println();
+
+            // send webpage's HTML code
+            wiflyUart.print("<html>");
+            wiflyUart.print("<head>");
+            wiflyUart.print("<title>My WiFI Shield Webpage</title>");
+            wiflyUart.print("</head>");
+            wiflyUart.print("<body>");
+            wiflyUart.print("<h1>Hello World!</h1>");
+            wiflyUart.print("<h3>This website is served from my WiFi module</h3>");
+            wiflyUart.print("<a href=\"http://yahoo.com\">Yahoo!</a> <a href=\"http://google.com\">Google</a>");
+            wiflyUart.print("<br/><button>My Button</button>");
+            wiflyUart.print("</body>");
+            wiflyUart.print("</html>");
+        }
+    }
 }
 ```
 
@@ -619,189 +624,180 @@ Connect three LEDs and resistor to digital pins 11, 12, and 13 as shown in the s
 
 Upload the following code to your Arduino board but replace "mySSID" and "myPassword" with your access point's SSID name and password:
 
-```
+```c
 #include <SoftwareSerial.h>
 #include "WiFly.h"
- 
+
 #define SSID      "mySSID"
 #define KEY       "myPassword"
 // check your access point's security mode, mine was WPA20-PSK
 // if yours is different you'll need to change the AUTH constant, see the file WiFly.h for avalable security codes
 #define AUTH      WIFLY_AUTH_WPA2_PSK
- 
+
 int flag = 0;
- 
+
 // Pins' connection
 // Arduino       WiFly
 //  2    <---->    TX
 //  3    <---->    RX
- 
+
 SoftwareSerial wiflyUart(2, 3); // create a WiFi shield serial object
 WiFly wifly(&wiflyUart); // pass the wifi siheld serial object to the WiFly class
 char ip[16];
- 
-void setup() 
+
+void setup()
 {
-  pinMode(11,OUTPUT);
-  digitalWrite(11,LOW);
- 
-  pinMode(12,OUTPUT);
-  digitalWrite(12,LOW);
- 
-  pinMode(13,OUTPUT);
-  digitalWrite(13,LOW);
- 
-  wiflyUart.begin(9600); // start wifi shield uart port
- 
-  Serial.begin(9600); // start the arduino serial port
-  Serial.println("--------- WIFLY Webserver --------");
- 
-  // wait for initilization of wifly
-  delay(1000);
- 
-  wifly.reset(); // reset the shield 
-  delay(1000);
-  //set WiFly params
- 
-  wifly.sendCommand("set ip local 80\r"); // set the local comm port to 80
-  delay(100);
- 
-  wifly.sendCommand("set comm remote 0\r"); // do not send a default string when a connection opens
-  delay(100);
- 
-  wifly.sendCommand("set comm open *OPEN*\r"); // set the string that the wifi shield will output when a connection is opened
-  delay(100);
- 
-  Serial.println("Join " SSID );
-  if (wifly.join(SSID, KEY, AUTH)) {
-    Serial.println("OK");
-  } else {
-    Serial.println("Failed");
-  }
- 
-  wifly.sendCommand("get ip\r");
- 
- 
-  wiflyUart.setTimeout(500);
-  if(!wiflyUart.find("IP="))
-  {
-    Serial.println("can not get ip");
-    while(1);;
-  }else
-  {
-    Serial.print("IP:");
-  }
- 
-  char c;
-  int index = 0;
-  while (wifly.receive((uint8_t *)&c, 1, 300) > 0) { // print the response from the get ip command
-    if(c == ':')
-    {
-      ip[index] = 0; 
-      break;
+    pinMode(11,OUTPUT);
+    digitalWrite(11,LOW);
+
+    pinMode(12,OUTPUT);
+    digitalWrite(12,LOW);
+
+    pinMode(13,OUTPUT);
+    digitalWrite(13,LOW);
+
+    wiflyUart.begin(9600); // start wifi shield uart port
+
+    Serial.begin(9600); // start the arduino serial port
+    Serial.println("--------- WIFLY Webserver --------");
+
+    // wait for initilization of wifly
+    delay(1000);
+
+    wifly.reset(); // reset the shield
+    delay(1000);
+    //set WiFly params
+
+    wifly.sendCommand("set ip local 80\r"); // set the local comm port to 80
+    delay(100);
+
+    wifly.sendCommand("set comm remote 0\r"); // do not send a default string when a connection opens
+    delay(100);
+
+    wifly.sendCommand("set comm open *OPEN*\r"); // set the string that the wifi shield will output when a connection is opened
+    delay(100);
+
+    Serial.println("Join " SSID );
+    if (wifly.join(SSID, KEY, AUTH)) {
+        Serial.println("OK");
+    } else {
+        Serial.println("Failed");
     }
-    ip[index++] = c;
-    Serial.print((char)c);
- 
-  }
-  Serial.println();
-  while (wifly.receive((uint8_t *)&c, 1, 300) > 0);;
- 
-  Serial.println("Web server ready");
- 
+
+    wifly.sendCommand("get ip\r");
+
+    wiflyUart.setTimeout(500);
+    if(!wiflyUart.find("IP="))
+    {
+        Serial.println("can not get ip");
+        while(1);;
+    }else
+    {
+        Serial.print("IP:");
+    }
+
+    char c;
+    int index = 0;
+    while (wifly.receive((uint8_t *)&c, 1, 300) > 0) { // print the response from the get ip command
+        if(c == ':')
+        {
+            ip[index] = 0;
+            break;
+        }
+        ip[index++] = c;
+        Serial.print((char)c);
+        ?
+    }
+    Serial.println();
+    while (wifly.receive((uint8_t *)&c, 1, 300) > 0);;
+    Serial.println("Web server ready");
 }
- 
-void loop() 
+
+void loop()
 {
- 
-  if(wifly.available()) 
-  { // the wifi shield has data available
- 
-    if(wiflyUart.find("*OPEN*")) // see if the data available is from an open connection by looking for the *OPEN* string
-    {
-      Serial.println("New Browser Request!");
-      delay(1000); // delay enough time for the browser to complete sending its HTTP request string
- 
-      if(wiflyUart.find("pin=")) // look for the string "pin=" in the http request, if it's there then we want to control the LED
-      {
-        Serial.println("LED Control");
- 
-        // the user wants to toggle the LEDs
-        int pinNumber = (wiflyUart.read()-48); // get first number i.e. if the pin 13 then the 1st number is 1
-        int secondNumber = (wiflyUart.read()-48);
-        if(secondNumber>=0 && secondNumber<=9)
+    if(wifly.available())       // the wifi shield has data available
+    { 
+
+        if(wiflyUart.find("*OPEN*")) // see if the data available is from an open connection by looking for the *OPEN* string
         {
-          pinNumber*=10;
-          pinNumber +=secondNumber; // get second number, i.e. if the pin number is 13 then the 2nd number is 3, then add to the first number
+            Serial.println("New Browser Request!");
+            delay(1000); // delay enough time for the browser to complete sending its HTTP request string
+
+            if(wiflyUart.find("pin=")) // look for the string "pin=" in the http request, if it's there then we want to control the LED
+            {
+                Serial.println("LED Control");
+                // the user wants to toggle the LEDs
+                int pinNumber = (wiflyUart.read()-48); // get first number i.e. if the pin 13 then the 1st number is 1
+                int secondNumber = (wiflyUart.read()-48);
+                if(secondNumber>=0 && secondNumber<=9)
+                {
+                    pinNumber*=10;
+                    pinNumber +=secondNumber; // get second number, i.e. if the pin number is 13 then the 2nd number is 3, then add to the first number
+                }
+                digitalWrite(pinNumber, !digitalRead(pinNumber)); // toggle pin
+                // Build pinstate string. The Arduino replies to the browser with this string.
+                String pinState = "Pin ";
+                pinState+=pinNumber;
+                pinState+=" is ";
+                if(digitalRead(pinNumber)) // check if the pin is ON or OFF
+                {
+                    pinState+="ON"; // the pin is on
+                }
+                else
+                {
+                    pinState+="OFF";  // the pin is off
+                }
+                // build HTTP header Content-Length string.
+                String contentLength="Content-Length: ";
+                contentLength+=pinState.length(); // the value of the length is the lenght of the string the Arduino is replying to the browser with.
+                // send HTTP header
+                wiflyUart.println("HTTP/1.1 200 OK");
+                wiflyUart.println("Content-Type: text/html; charset=UTF-8");
+                wiflyUart.println(contentLength); // length of HTML code
+                wiflyUart.println("Connection: close");
+                wiflyUart.println();
+                // send response
+                wiflyUart.print(pinState);
+            }
+            else
+            {
+                // send HTTP header
+                wiflyUart.println("HTTP/1.1 200 OK");
+                wiflyUart.println("Content-Type: text/html; charset=UTF-8");
+                wiflyUart.println("Content-Length: 540"); // length of HTML code
+                wiflyUart.println("Connection: close");
+                wiflyUart.println();
+
+                // send webpage's HTML code
+                wiflyUart.print("<html>");
+                wiflyUart.print("<head>");
+                wiflyUart.print("<title>WiFi Shield Webpage</title>");
+                wiflyUart.print("</head>");
+                wiflyUart.print("<body>");
+                wiflyUart.print("<h1>LED Toggle Webpage</h1>");
+                // In the <button> tags, the ID attribute is the value sent to the arduino via the "pin" GET parameter
+                wiflyUart.print("<button id=\"11\" class=\"led\">Toggle Pin 11</button> "); // button for pin 11
+                wiflyUart.print("<button id=\"12\" class=\"led\">Toggle Pin 12</button> "); // button for pin 12
+                wiflyUart.print("<button id=\"13\" class=\"led\">Toggle Pin 13</button> "); // button for pin 13
+                wiflyUart.print("<script src=\"http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js\"></script>");
+                wiflyUart.print("<script type=\"text/javascript\">");
+                wiflyUart.print("$(document).ready(function(){");
+                wiflyUart.print("$(\".led\").click(function(){");
+                wiflyUart.print("var p = $(this).attr('id');"); // get id value (i.e. pin13, pin12, or pin11)
+                // send HTTP GET request to the IP address with the parameter "pin" and value "p", then execute the function
+                // IMPORTANT: dont' forget to replace the IP address and port with YOUR shield's IP address and port
+                wiflyUart.print("$.get(\"http://");
+                wiflyUart.print(ip);
+                wiflyUart.print(":80/a\", {pin:p},function(data){alert(data)});");// execute get request. Upon return execute the "function" (display an alert with the "data" send back to the browser.
+                wiflyUart.print("});");
+                wiflyUart.print("});");
+                wiflyUart.print("</script>");
+                wiflyUart.print("</body>");
+                wiflyUart.print("</html>");
+            }
+            Serial.println("Data sent to browser");
         }
- 
-        digitalWrite(pinNumber, !digitalRead(pinNumber)); // toggle pin 
- 
-        // Build pinstate string. The Arduino replies to the browser with this string.
-        String pinState = "Pin ";
-        pinState+=pinNumber;
-        pinState+=" is ";
-        if(digitalRead(pinNumber)) // check if the pin is ON or OFF
-        {
-          pinState+="ON"; // the pin is on
-        }
-        else
-        {
-         pinState+="OFF";  // the pin is off
-        }
-        // build HTTP header Content-Length string.
-        String contentLength="Content-Length: ";
-        contentLength+=pinState.length(); // the value of the length is the lenght of the string the Arduino is replying to the browser with.
- 
-        // send HTTP header
-        wiflyUart.println("HTTP/1.1 200 OK");
-        wiflyUart.println("Content-Type: text/html; charset=UTF-8");
-        wiflyUart.println(contentLength); // length of HTML code
-        wiflyUart.println("Connection: close");
-        wiflyUart.println();
-        // send response
-        wiflyUart.print(pinState);
-      }
-      else
-      {
-        // send HTTP header
-        wiflyUart.println("HTTP/1.1 200 OK");
-        wiflyUart.println("Content-Type: text/html; charset=UTF-8");
-        wiflyUart.println("Content-Length: 540"); // length of HTML code
-        wiflyUart.println("Connection: close");
-        wiflyUart.println();
- 
-        // send webpage's HTML code
-        wiflyUart.print("<html>");
-        wiflyUart.print("<head>");
-        wiflyUart.print("<title>WiFi Shield Webpage</title>");
-        wiflyUart.print("</head>");
-        wiflyUart.print("<body>");
-        wiflyUart.print("<h1>LED Toggle Webpage</h1>");
-      // In the <button> tags, the ID attribute is the value sent to the arduino via the "pin" GET parameter
-        wiflyUart.print("<button id=\"11\" class=\"led\">Toggle Pin 11</button> "); // button for pin 11
-        wiflyUart.print("<button id=\"12\" class=\"led\">Toggle Pin 12</button> "); // button for pin 12
-        wiflyUart.print("<button id=\"13\" class=\"led\">Toggle Pin 13</button> "); // button for pin 13
-        wiflyUart.print("<script src=\"http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js\"></script>");
-        wiflyUart.print("<script type=\"text/javascript\">");
-        wiflyUart.print("$(document).ready(function(){");
-        wiflyUart.print("$(\".led\").click(function(){");
-        wiflyUart.print("var p = $(this).attr('id');"); // get id value (i.e. pin13, pin12, or pin11)
-        // send HTTP GET request to the IP address with the parameter "pin" and value "p", then execute the function
-    // IMPORTANT: dont' forget to replace the IP address and port with YOUR shield's IP address and port
-        wiflyUart.print("$.get(\"http://");
-        wiflyUart.print(ip);
-        wiflyUart.print(":80/a\", {pin:p},function(data){alert(data)});");// execute get request. Upon return execute the "function" (display an alert with the "data" send back to the browser.
-        wiflyUart.print("});");
-        wiflyUart.print("});");
-        wiflyUart.print("</script>");
-        wiflyUart.print("</body>");
-        wiflyUart.print("</html>");
-      }
-      Serial.println("Data sent to browser");
     }
-  }
- 
 }
 ```
 
@@ -855,20 +851,20 @@ The RN-171 module in the WiFi shield has the ability to act as an HTML client (a
 
 The name of the API we'll use is [OpenWeatherMap](http://openweathermap.org/api), when you send the name of a city and country to this website it returns a JSON string with weather information.  If you want to display the weather for London UK for example, please refer to the toturial in this link http://openweathermap.org/appid .Starting from 9 Oct 2015, the website requires users to sign up for a API key before visiting the API. Once you have got the API key, you will be able to visit the following URL http://api.openweathermap.org/data/2.5/weather?q=London,uk which would return a JSON string like the following, where the weather data and other information is embedded.
 ```
-    {
+{
     "coord":{"lon":-0.13,"lat":51.51},
     "sys":{"type":3,"id":60992,"message":0.0079,"country":"GB","sunrise":1421395087,"sunset":1421425352},
     "weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03n"}],
     "base":"cmc stations",
     "main":{
-      "temp":277.25,"humidity":79,"pressure":998.4,
-      "temp_min":277.25,"temp_max":277.25
+        "temp":277.25,"humidity":79,"pressure":998.4,
+        "temp_min":277.25,"temp_max":277.25
     },
     "wind":{
     "speed":2,"gust":5,"deg":180},
     "rain":{"3h":0},"clouds":{"all":32},
     "dt":1421372140,"id":2643743,"name":"London","cod":200
-    }
+}
 ```
 
 **Step 1: The URL**
@@ -894,77 +890,70 @@ The commands we need to send to the WiFi shield to receive the JSON string from 
 
 This is the arduino code that will send the commands:
 
-```
+```c
 #include <SoftwareSerial.h>
 #include "WiFly.h"
- 
+
 #define SSID      "mySSID"
 #define KEY       "myPassword"
 // check your access point's security mode, mine was WPA20-PSK
 // if yours is different you'll need to change the AUTH constant, see the file WiFly.h for avalable security codes
 #define AUTH      WIFLY_AUTH_WPA2_PSK
- 
+
 // Pins' connection
 // Arduino       WiFly
 //  2    <---->    TX
 //  3    <---->    RX
- 
+
 SoftwareSerial wiflyUart(2, 3); // create a WiFi shield serial object
 WiFly wifly(&wiflyUart); // pass the wifi siheld serial object to the WiFly class
- 
-void setup() 
+
+void setup()
 {
- 
- 
- 
-  wiflyUart.begin(9600); // start wifi shield uart port
- 
-  Serial.begin(9600); // start the arduino serial port
-  Serial.println("--------- OpenWeatherMap API --------");
- 
-  // wait for initilization of wifly
-  delay(3000);
- 
-  wifly.reset(); // reset the shield 
- 
-  Serial.println("Join " SSID );
-  if (wifly.join(SSID, KEY, AUTH)) {
-    Serial.println("OK");
-  } else {
-    Serial.println("Failed");
-  }
- 
- 
-  wifly.sendCommand("set ip proto 18\r"); //enable html client
-  delay(100);
- 
-  wifly.sendCommand("set dns name api.openweathermap.org\r"); // name of the webserver we want to connect to
-  delay(100);
- 
-  wifly.sendCommand("set ip address 0\r"); // so WiFly will use DNS
-  delay(100);
- 
-  wifly.sendCommand("set ip remote 80\r"); /// standard webserver port
-  delay(100);
- 
-  wifly.sendCommand("set com remote 0\r"); // turn off the REMOTE string so it does not interfere with the post 
-  delay(100);  
- 
-  wifly.sendCommand("open\r"); // open connection
-  delay(100);  
- 
-  wiflyUart.print("GET /data/2.5/weather?q=San%20Francisco,US \n\n");
-  delay(1000);
- 
+    wiflyUart.begin(9600); // start wifi shield uart port
+    Serial.begin(9600); // start the arduino serial port
+    Serial.println("--------- OpenWeatherMap API --------");
+
+    // wait for initilization of wifly
+    delay(3000);
+    wifly.reset(); // reset the shield
+    Serial.println("Join " SSID );
+    if (wifly.join(SSID, KEY, AUTH)) {
+        Serial.println("OK");
+    } else {
+        Serial.println("Failed");
+    }
+
+    wifly.sendCommand("set ip proto 18\r"); //enable html client
+    delay(100);
+
+    wifly.sendCommand("set dns name api.openweathermap.org\r"); // name of the webserver we want to connect to
+    delay(100);
+
+    wifly.sendCommand("set ip address 0\r"); // so WiFly will use DNS
+    delay(100);
+
+    wifly.sendCommand("set ip remote 80\r"); /// standard webserver port
+    delay(100);
+
+    wifly.sendCommand("set com remote 0\r"); // turn off the REMOTE string so it does not interfere with the post
+    delay(100);
+
+    wifly.sendCommand("open\r"); // open connection
+    delay(100);
+
+    wiflyUart.print("GET /data/2.5/weather?q=San%20Francisco,US \n\n");
+    delay(1000);
+
 }
- 
-void loop() 
+
+void loop()
 {
- //As soon as the data  received from the Internet ,output the data through the UART Port .
- while (wifly.available()) 
-   {
-   Serial.write(wifly.read());
-   }
+    //As soon as the data  received from the Internet ,output the data through the UART Port .
+    while (wifly.available())
+    {
+        Serial.write(wifly.read());
+    }
 }
 ```
 
@@ -988,198 +977,192 @@ In this example we'll show you how to send information from the WiFi shield to a
 
 Upload the code below to your Arduino board replacing "mySSID", "myPassword", and authentication code with your own access point's information:
 
-```
+```c
 #include <SoftwareSerial.h>
 #include "WiFly.h"
- 
+
 #define SSID      "mySSID"
 #define KEY       "myPassword"
 // check your access point's security mode, mine was WPA20-PSK
 // if yours is different you'll need to change the AUTH constant, see the file WiFly.h for avalable security codes
 #define AUTH      WIFLY_AUTH_WPA2_PSK
- 
+
 #define FLAG_MAIN_MENU 1
 #define FLAG_SUB_MENU_2 2
- 
- 
+
 int flag = FLAG_MAIN_MENU;
- 
+
 // Pins' connection
 // Arduino       WiFly
 //  2    <---->    TX
 //  3    <---->    RX
- 
+
 SoftwareSerial wiflyUart(2, 3); // create a WiFi shield serial object
 WiFly wifly(&wiflyUart); // pass the wifi siheld serial object to the WiFly class
- 
-void setup() 
+
+void setup()
 {
- 
-  // define the pins we can control
-  pinMode(11,OUTPUT);
-  digitalWrite(11,LOW);
- 
-  pinMode(12,OUTPUT);
-  digitalWrite(12,LOW);
- 
-  pinMode(13,OUTPUT);
-  digitalWrite(13,LOW);
- 
-  pinMode(7,OUTPUT);
-  digitalWrite(7,LOW);
- 
- 
-  wiflyUart.begin(9600); // start wifi shield uart port
- 
-  Serial.begin(9600); // start the arduino serial port
-  Serial.println("--------- TCP Communication --------");
- 
-  // wait for initilization of wifly
-  delay(1000);
- 
-  wifly.reset(); // reset the shield 
-  delay(1000);
- 
-  wifly.sendCommand("set ip local 80\r"); // set the local comm port to 80
-  delay(100);
- 
-  wifly.sendCommand("set comm remote 0\r"); // do not send a default string when a connection opens
-  delay(100);
- 
-  wifly.sendCommand("set comm open *\r"); // set the string or character that the wifi shield will output when a connection is opened "*"
-  delay(100);
- 
-  wifly.sendCommand("set ip protocol 2\r"); // set TCP protocol
-  delay(100);
- 
-  Serial.println("Join " SSID );
-  if (wifly.join(SSID, KEY, AUTH)) {
-    Serial.println("OK");
-  } else {
-    Serial.println("Failed");
-  }
- 
-  wifly.sendCommand("get ip\r");
-  char c;
- 
-  while (wifly.receive((uint8_t *)&c, 1, 300) > 0) { // print the response from the get ip command
-    Serial.print((char)c);
-  }
- 
-  Serial.println("TCP Ready");
- 
- 
- 
-}
- 
-void loop() 
-{
- 
-  if(wifly.available()) 
-  { 
-    delay(1000); // wait for all the characters to be sent to the WiFi shield
-    char val = wiflyUart.read(); // read the first character
- 
-    if(flag == FLAG_MAIN_MENU)
-    {
-          switch(val)
-          {
-            case '*': // search for the new connection string
-              printMainMenu();
-            break;
-            case '1': // the user typed 1, display the pin states
-             printPinStates();
-             printMainMenu();
-            break;
-            case '2': // the user typed 2, display the sub menu (option to select a particular pin)
-             printSubMenu2();
-            flag = FLAG_SUB_MENU_2; // flag to enter the sub menu
-            break;
-            default:
-            wiflyUart.print("INVALID SUBMENU\r\n");
-            break;
-          }
+
+    // define the pins we can control
+    pinMode(11,OUTPUT);
+    digitalWrite(11,LOW);
+
+    pinMode(12,OUTPUT);
+    digitalWrite(12,LOW);
+
+    pinMode(13,OUTPUT);
+    digitalWrite(13,LOW);
+
+    pinMode(7,OUTPUT);
+    digitalWrite(7,LOW);
+
+    wiflyUart.begin(9600); // start wifi shield uart port
+
+    Serial.begin(9600); // start the arduino serial port
+    Serial.println("--------- TCP Communication --------");
+
+    // wait for initilization of wifly
+    delay(1000);
+
+    wifly.reset(); // reset the shield
+    delay(1000);
+
+    wifly.sendCommand("set ip local 80\r"); // set the local comm port to 80
+    delay(100);
+
+    wifly.sendCommand("set comm remote 0\r"); // do not send a default string when a connection opens
+    delay(100);
+
+    wifly.sendCommand("set comm open *\r"); // set the string or character that the wifi shield will output when a connection is opened "*"
+    delay(100);
+
+    wifly.sendCommand("set ip protocol 2\r"); // set TCP protocol
+    delay(100);
+
+    Serial.println("Join " SSID );
+    if (wifly.join(SSID, KEY, AUTH)) {
+        Serial.println("OK");
+    } else {
+        Serial.println("Failed");
     }
-    else if(flag == FLAG_SUB_MENU_2)
+
+    wifly.sendCommand("get ip\r");
+    char c;
+
+    while (wifly.receive((uint8_t *)&c, 1, 300) > 0) { // print the response from the get ip command
+        Serial.print((char)c);
+    }
+
+    Serial.println("TCP Ready");
+}
+
+void loop()
+{
+
+    if(wifly.available())
     {
-        int pinNumber = val-48; // get first number i.e. if the pin 13 then the 1st number is 1
-        int secondNumber = (wiflyUart.read()-48);
-        if(secondNumber>=0 && secondNumber<=9)
+        delay(1000); // wait for all the characters to be sent to the WiFi shield
+        char val = wiflyUart.read(); // read the first character
+
+        if(flag == FLAG_MAIN_MENU)
         {
-          pinNumber*=10;
-          pinNumber +=secondNumber; // get second number, i.e. if the pin number is 13 then the 2nd number is 3, then add to the first number
+            switch(val)
+            {
+                case '*': // search for the new connection string
+                printMainMenu();
+                break;
+                case '1': // the user typed 1, display the pin states
+                printPinStates();
+                printMainMenu();
+                break;
+                case '2': // the user typed 2, display the sub menu (option to select a particular pin)
+                printSubMenu2();
+                flag = FLAG_SUB_MENU_2; // flag to enter the sub menu
+                break;
+                default:
+                wiflyUart.print("INVALID SUBMENU\r\n");
+                break;
+            }
         }
- 
-        // Create the "You want to toggle pin x ? OK..." string.
-        String response = "\r\nYou want to toggle pin ";
-        response+=pinNumber;
-        response+="? OK...\r\n";
- 
-        wiflyUart.print(response);
- 
-        digitalWrite(pinNumber, !digitalRead(pinNumber)); // toggle pin 
- 
-        wiflyUart.print("Pin Toggled!\r\n"); // let user know the pin was toggled.
-        printMainMenu();
-        flag = FLAG_MAIN_MENU;
+        else if(flag == FLAG_SUB_MENU_2)
+        {
+            int pinNumber = val-48; // get first number i.e. if the pin 13 then the 1st number is 1
+            int secondNumber = (wiflyUart.read()-48);
+            if(secondNumber>=0 && secondNumber<=9)
+            {
+                pinNumber*=10;
+                pinNumber +=secondNumber; // get second number, i.e. if the pin number is 13 then the 2nd number is 3, then add to the first number
+            }
+
+            // Create the "You want to toggle pin x?? OK..." string.
+            String response = "\r\nYou want to toggle pin ";
+            response+=pinNumber;
+            response+="? OK...\r\n";
+
+            wiflyUart.print(response);
+
+            digitalWrite(pinNumber, !digitalRead(pinNumber)); // toggle pin
+
+            wiflyUart.print("Pin Toggled!\r\n"); // let user know the pin was toggled.
+            printMainMenu();
+            flag = FLAG_MAIN_MENU;
+        }
     }
- 
-  }
- 
+
 }
- 
-/**
+
+/*
 * Prints the main menu options
 */
 void printMainMenu()
 {
-  wiflyUart.print("\r\n\r\n");
-  wiflyUart.print("Arduino Console Menu: \r\n");
-  wiflyUart.print("1. Show digital pin states\r\n");
-  wiflyUart.print("2. Toggle a digital pin's state\r\n");
-  wiflyUart.print("\r\n\r\n");
+    wiflyUart.print("\r\n\r\n");
+    wiflyUart.print("Arduino Console Menu: \r\n");
+    wiflyUart.print("1. Show digital pin states\r\n");
+    wiflyUart.print("2. Toggle a digital pin's state\r\n");
+    wiflyUart.print("\r\n\r\n");
 }
- 
+
 // displays the pin states
 void printPinStates()
 {
- 
+
     String pinState = "Pin 7 is ";
     pinState+=getPinState(7);
     pinState+="\r\n";
- 
+
     pinState += "Pin 11 is ";
     pinState+=getPinState(11);
     pinState+="\r\n";
- 
+
     pinState += "Pin 12 is ";
     pinState+=getPinState(12);
     pinState+="\r\n";
- 
+
     pinState += "Pin 13 is ";
     pinState+=getPinState(13);
     pinState+="\r\n";
- 
+
     wiflyUart.print(pinState);
 }
- 
+
 // prints the option to enter a pin number
 void printSubMenu2()
 {
-  wiflyUart.print("\r\nEnter the pin number you wish to toggle: ");
+    wiflyUart.print("\r\nEnter the pin number you wish to toggle: ");
 }
- 
+?
 // get a pin state as a string.
 String getPinState(int pinNumber)
 {
-  if(digitalRead(pinNumber)) // check if the pin is ON or OFF
-  {
-    return "ON"; // the pin is on
-  }
-  else
-  {
-    return "OFF";  // the pin is off
-  } 
+    if(digitalRead(pinNumber)) // check if the pin is ON or OFF
+    {
+        return "ON"; // the pin is on
+    }
+    else
+    {
+        return "OFF";  // the pin is off
+    }
 }
 ```
 
