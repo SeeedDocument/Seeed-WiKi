@@ -35,7 +35,7 @@ Features
 
 !!!Tip
     More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
-    
+
 Platforms Supported
 -------------------
 
@@ -159,7 +159,7 @@ Resources
 
 - [Grove-Alcohol Sensor Eagle File](https://raw.githubusercontent.com/SeeedDocument/Grove-Alcohol_Sensor/master/res/Twig_-_Alcohol_Sensor_Eagle_Files.zip)
 - [Grove-Alcohol Sensor v1.2 Eagle File](https://raw.githubusercontent.com/SeeedDocument/Grove-Alcohol_Sensor/master/res/Grove-Alcohol_Sensor_sch_pcbv1.2.zip)
-- [Schematics in PDF Format](https://raw.githubusercontent.com/SeeedDocument/Grove-Alcohol_Sensor/master/res/Twig_Alcohol_Sensor_v0.9b_scehmatic.pdf)
+- [Schematics in PDF Format](https://github.com/SeeedDocument/Grove-Alcohol_Sensor/raw/master/res/Grove%20-%20Alcohol%20Sensor%20v1.2.pdf)
 - [How to Choose A Gas Sensor](/How_to_choose_A_Gas_Sensor)
 - [MQ303A](https://raw.githubusercontent.com/SeeedDocument/Grove-Alcohol_Sensor/master/res/MQ303A.pdf)
 

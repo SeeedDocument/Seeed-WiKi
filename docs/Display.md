@@ -11,6 +11,7 @@ Grove modules that are related to LCD or LED displays are listed here.
 Here is the list of the Display Board you can find in the Seeed WiKi. The list will be constantly updated.
 
 - [Grove - 4-Digit Display](/Grove-4-Digit_Display/)
+- [Grove - Circular LED](/Grove-Circular_LED/)
 - [Grove - LCD RGB Backlight](/Grove-LCD_RGB_Backlight/)
 - [Grove - LED Bar](/Grove-LED_Bar/)
 - [Grove - LED Socket Kit](/Grove-LED_Socket_Kit/)

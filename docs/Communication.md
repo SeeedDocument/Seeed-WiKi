@@ -14,6 +14,8 @@ Here is the list of the Communication Board you can find in the Seeed WiKi. The 
 - [Grove - 315MHz RF Kit](/Grove-315MHz_RF_Kit/)
 - [Grove - 433MHz Simple RF Link Kit](/Grove-433MHz_Simple_RF_Link_Kit/)
 - [Grove - BLE (dual model) v1.0](/Grove-BLE-dual_model-v1.0/)
+- [Grove - Bee Socket](/Grove-Bee_Socket/)
+- [Grove - DMX512](/Grove-DMX512/)
 - [Grove - GPS](/Grove-GPS/)
 - [Grove - I2C ADC](/Grove-I2C_ADC/)
 - [Grove - I2C FM Receiver](/Grove-I2C_FM_Receiver/)
