@@ -13,15 +13,22 @@ pages:
     - Arduino:
         - Arduino Introduction: Arduino.md
         - 2.8&#39;&#39; TFT Touch Shield v2.0: 2.8inch_TFT_Touch_Shield_v2.0.md
+        - 4WD Driver Platform V1.0: 4WD_Driver_Platform_V1.0.md
+        - BLE (dual) Bee v1.0: BLE_dual_Bee_v1.0.md
         - Base Shield V2: Base_Shield_V2.md
         - Battery Detector with Polymer Lithium Ion 1050mAh 3.7V: Battery_Detector_with_Polymer_Lithium_Ion_1050mAh_3.7V.md
         - Battery Detector with Polymer Lithium Ion 5100mAh 3.8V: Battery_Detector_with_Polymer_Lithium_Ion_5100mAh_3.8V.md
+        - Bluetooth Bee v2.0: Bluetooth_Bee_v2.0.md
+        - Bluetooth Shield V2.0: Bluetooth_Shield_V2.md
         - CAN-BUS Shield V1.2: CAN-BUS_Shield_V1.2.md
+        - Camera Shield: Camera_Shield.md
         - EL Shield: EL_Shield.md
         - Energy Shield: Energy_Shield.md
+        - GPRS Shield V1.0: GPRS_Shield_v1.0.md
         - Galileo Case: Galileo_Case.md
         - Grove - Starter Kit Plus: Grove_Starter_Kit_Plus.md
         - Grove - Starter Kit v3: Grove_Starter_Kit_v3.md
+        - Grove Speech Recognizer Kit for Arduino: Grove_Speech_Recognizer_Kit_for_Arduino.md
         - Hercules Dual 15A 6-20V Motor Controller: Hercules_Dual_15A_6-20V_Motor_Controller.md
         - Lipo Rider Pro: Lipo_Rider_Pro.md
         - Lipo Rider V1.3: Lipo_Rider_V1.3.md
@@ -162,7 +169,6 @@ pages:
         - Grove - Barometer (High-Accuracy): Grove-Barometer-High-Accuracy.md
         - Grove - Barometer Sensor: Grove-Barometer_Sensor.md
         - Grove - Barometer Sensor (BMP180): Grove-Barometer_Sensor-BMP180.md
-        - Grove - Barometer Sensor (BMP280): Grove-Barometer_Sensor-BMP280.md
         - Grove - Barometer Sensor(BME280): Grove-Barometer_Sensor-BME280.md
         - Grove - CO2 Sensor: Grove-CO2_Sensor.md
         - Grove - Chest Strap Heart Rate Sensor: Grove-Chest_Strap_Heart_Rate_Sensor.md
@@ -220,6 +226,7 @@ pages:
         - Grove - Sunlight Sensor: Grove-Sunlight_Sensor.md
         - Grove - Switch(P): Grove-Switch-P.md
         - Grove - Temp&amp;Humi Sensor(SHT31): Grove-TempAndHumi_Sensor-SHT31.md
+        - Grove - Temperature Sensor: Grove-Temperature_Sensor.md
         - Grove - Temperature Sensor V1.2: Grove-Temperature_Sensor_V1.2.md
         - Grove - Temperature and Humidity Sensor Pro: Grove-Temperature_and_Humidity_Sensor_Pro.md
         - Grove - Temperature&amp;Humidity Sensor: Grove-TemperatureAndHumidity_Sensor.md
@@ -263,6 +270,7 @@ pages:
     - Display:
         - Display Introduction: Display.md
         - Grove - 4-Digit Display: Grove-4-Digit_Display.md
+        - Grove - Circular LED: Grove-Circular_LED.md
         - Grove - LCD RGB Backlight: Grove-LCD_RGB_Backlight.md
         - Grove - LED Bar: Grove-LED_Bar.md
         - Grove - LED Socket Kit: Grove-LED_Socket_Kit.md
@@ -279,6 +287,8 @@ pages:
         - Grove - 315MHz RF Kit: Grove-315MHz_RF_Kit.md
         - Grove - 433MHz Simple RF Link Kit: Grove-433MHz_Simple_RF_Link_Kit.md
         - Grove - BLE (dual model) v1.0: Grove-BLE-dual_model-v1.0.md
+        - Grove - Bee Socket: Grove-Bee_Socket.md
+        - Grove - DMX512: Grove-DMX512.md
         - Grove - GPS: Grove-GPS.md
         - Grove - I2C ADC: Grove-I2C_ADC.md
         - Grove - I2C FM Receiver: Grove-I2C_FM_Receiver.md
@@ -309,10 +319,14 @@ pages:
 
 - IoT:
         - IoT Introduction: IoT.md
+        - Adjustable DC - DC Power Converter(1V - 12V1.5A): Adjustable_DC_DC_Power_Converter_1V-12V-1.5A.md
         - BLE Carbon: BLE_Carbon.md
+        - BLE Micro: BLE_Micro.md
         - BLE Nitrogen: BLE_Nitrogen.md
+        - Basic Fastener Kit: Basic_Fastener_Kit.md
         - BeagleBone Green: BeagleBone_Green.md
         - BeagleBone Green Wireless: BeagleBone_Green_Wireless.md
+        - Bluetooth Bee-Standalone: Bluetooth_Bee_Standalone.md
         - Grove Starter Kit for IoT based on Raspberry Pi: Grove_Starter_Kit_for_IoT_based_on_Raspberry_Pi.md
         - Seeeduino Cloud: Seeeduino_Cloud.md
         - Seeeduino GPRS: Seeeduino_GPRS.md
@@ -321,6 +335,7 @@ pages:
 - Tutorial:
         - Tutorial Introduction: Tutorial.md
         - Arduino IDE for RePhone Kit: Arduino_IDE_for_RePhone_Kit.md
+        - Eclipse IDE for RePhone Kit: Eclipse_IDE_for_RePhone_Kit.md
         - FM Receiver: FM_Receiver.md
         - How to install an Arduino library: How_to_install_Arduino_Library.md
         - JavaScript for RePhone: JavaScript_for_RePhone.md
