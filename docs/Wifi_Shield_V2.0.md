@@ -207,7 +207,7 @@ void loop()
     The examples is based on Arduino UNO and we take D2/D3 as the SoftwareSerial pins. If you are using an Arduino Mega, D2 is not available anymore. More details please refer to [Arduino Software Serial](https://www.arduino.cc/en/Tutorial/SoftwareSerialExample)
     Here's an example.
     
-![](https://raw.githubusercontent.com/SeeedDocument/common/master/connect_mega.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Wifi_Shield_V2.0/master/img/connect_mega.jpg)
 
 As for the code, you need to do some change as well: 
 
