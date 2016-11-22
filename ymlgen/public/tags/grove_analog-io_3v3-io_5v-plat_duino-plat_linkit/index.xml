@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
+    <link>http://wiki.seeed.cc/tags/grove_analog-io_3v3-io_5v-plat_duino-plat_linkit/index.xml</link>
+    <description>Recent content on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://wiki.seeed.cc/tags/grove_analog-io_3v3-io_5v-plat_duino-plat_linkit/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Grove - EMG Detector</title>
+      <link>http://wiki.seeed.cc/Grove-EMG_Detector/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/Grove-EMG_Detector/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-EMG_Detector/master/img/Emg_product.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;EMG detector is a bridge connects human body and electrical, the sensor gathers small muscle signal then process with 2th amplify and filter, the output signal can be recognized by Arduino. You can add this signal into your control system.&lt;/p&gt;
+
+&lt;div class=&#34;admonition danger&#34;&gt;
+&lt;p class=&#34;admonition-title&#34;&gt;Note&lt;/p&gt;
+The sensor cannot be used for medical purposes.
+&lt;/div&gt;
+
+&lt;p&gt;In standby mode, the output voltage is 1.5V. When detect muscle active, the output signal rise up, the maximum voltage is 3.3V. You can use this sensor in 3.3V or 5V system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/Grove-EMG-Detector-p-1737.html&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Grove Compatible&lt;/li&gt;
+&lt;li&gt;3.5mm Connector&lt;/li&gt;
+&lt;li&gt;6 Disposable Surface Electrodes&lt;/li&gt;
+&lt;li&gt;Power supply voltage: 3.3V-5V&lt;/li&gt;
+&lt;li&gt;1000mm Cable Leads&lt;/li&gt;
+&lt;li&gt;No additional power supply&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;!!!Tip
+    More details about Grove modules please refer to &lt;a href=&#34;http://wiki.seeed.cc/Grove_System/&#34;&gt;Grove System&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;platforms-supported&#34;&gt;Platforms Supported&lt;/h2&gt;
+
+&lt;h2 id=&#34;hardware-overview&#34;&gt;Hardware Overview&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-EMG_Detector/master/img/Grove_EMG_detector.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;J2: grove interface, connect to analog I/O;&lt;/li&gt;
+&lt;li&gt;J1: EMG Disposable Surface Electrodes connector.&lt;/li&gt;
+&lt;li&gt;U1: INA331IDGKT, difference amplifier.&lt;/li&gt;
+&lt;li&gt;U2, U3: OPA333, Zero drift amplifier.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;demonstration&#34;&gt;Demonstration&lt;/h2&gt;
+
+&lt;p&gt;This demonstration will show you how to use Grove - LCD RGB Backlight, we need a &lt;a href=&#34;http://www.seeedstudio.com/depot/seeeduino-v30-atmega-328p-p-669.html&#34;&gt;Seeeduino V3.0&lt;/a&gt;, a &lt;a href=&#34;http://wiki.seeed.cc/Grove-LED_Bar&#34;&gt;Grove - LED Bar&lt;/a&gt; and &lt;a href=&#34;http://wiki.seeed.cc/Base_Shield_V2&#34;&gt;Grove - Base Shield&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;hardware-installation&#34;&gt;Hardware Installation&lt;/h3&gt;
+
+&lt;p&gt;Plug Grove - Base Shield to Seeeduino, then connect Grove - LED Bar to D8, connect Grove - EMG Sensor to A0.&lt;/p&gt;
+
+&lt;p&gt;Finally, tack the three electrodes to your muscle, and keep a distance between each electrodes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-EMG_Detector/master/img/Emg_connect.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;download-code-and-upload&#34;&gt;Download Code and Upload&lt;/h3&gt;
+
+&lt;p&gt;You can download the demo code in github, click &lt;a href=&#34;https://github.com/Seeed-Studio/Grove_EMG_detector_demo_code/&#34;&gt;here&lt;/a&gt;, then extract it to anywhere.&lt;/p&gt;
+
+&lt;p&gt;Then upload the code to Seeeduino, if you have any problem about code uploading, please refer to &lt;a href=&#34;http://wiki.seeed.cc/Getting_Started_with_Seeeduino&#34;&gt;Getting Started With Seeeduino&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-EMG_Detector/master/img/Emg_ide.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;move&#34;&gt;Move&lt;/h3&gt;
+
+&lt;p&gt;When finish downloading demo code, it&amp;rsquo;ll take about 5s to initialize, you should keep static when initializing.&lt;/p&gt;
+
+&lt;p&gt;You can see that when initializing, the Led Bar will go form level 10 to level 0. When Led Bar All off, you can move now.&lt;/p&gt;
+
+&lt;p&gt;When you are moving, you can find that the level of Led Bar will change.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-EMG_Detector/master/img/Grove_emg_demo_2.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-EMG_Detector/master/res/Grove-EMG_Sensor_v1.0.zip&#34;&gt;Grove-EMG Sensor v1.0 Eagle File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-EMG_Detector/master/res/Grove-EMG_Sensor_v1.1_Eagle.zip&#34;&gt;Grove-EMG Sensor v1.1 Eagle File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-EMG_Detector/master/res/Grove-EMG_Sensor_v1.1_SCH.pdf&#34;&gt;Grove-EMG Sensor v1.1 schematic PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Seeed-Studio/Grove_EMG_detector_demo_code&#34;&gt;Demo Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_EMG_Detector --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Grove - High Temperature Sensor</title>
+      <link>http://wiki.seeed.cc/Grove-High_Temperature_Sensor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/Grove-High_Temperature_Sensor/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-High_Temperature_Sensor/master/img/High_Temperature_Sensor_01.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thermocouples are very sensitive devices. It requires a good amplifier with cold-junction compensation. The Grove - High Temperatire Sensor uses a K-Type themocouple and a thermocouple amplifier that measures ambient temperature using thermistor for cold-junction compensation. The detectable range of this Sensor is -50-600°C , and the accuracy is ±(2.0% + 2°C)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/depot/Grove-High-Temperature-Sensor-p-1810.html&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;specifications&#34;&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Voltage：3.3 ~ 5V&lt;/li&gt;
+&lt;li&gt;Max power rating at 25℃ ：300mW&lt;/li&gt;
+&lt;li&gt;Operating temperature range：-40 ~ +125 ℃&lt;/li&gt;
+&lt;li&gt;The temperature measurement range is (-50 ~ +600℃)&lt;/li&gt;
+&lt;li&gt;Amplifier output voltage range (0 ~ 3.3 V) mv&lt;/li&gt;
+&lt;li&gt;Cold junction compensation (environment temperature measurement)&lt;/li&gt;
+&lt;li&gt;Thermocouple temperature measurement accuracy of + / - 2.0% (+ 2 ℃)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;!!!Tip
+    More details about Grove modules please refer to &lt;a href=&#34;http://wiki.seeed.cc/Grove_System/&#34;&gt;Grove System&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;platforms-supported&#34;&gt;Platforms Supported&lt;/h2&gt;
+
+&lt;h2 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h2&gt;
+
+&lt;p&gt;Here is an example to show you how to read temperature information from the sensor.&lt;/p&gt;
+
+&lt;p&gt;We need a Seeeduino V3.0 and a Grove - High Temperature Sensor.&lt;/p&gt;
+
+&lt;h3 id=&#34;hardware-installation&#34;&gt;Hardware Installation&lt;/h3&gt;
+
+&lt;p&gt;A4 and A5 are the I2C lines of Seeduino. Plug the sensor to the I2C port of Seeeduino to read data.&lt;/p&gt;
+
+&lt;h3 id=&#34;download-code-and-upload&#34;&gt;Download Code and Upload&lt;/h3&gt;
+
+&lt;p&gt;You can download the library from &lt;a href=&#34;https://github.com/Seeed-Studio/Grove_HighTemp_Sensor/archive/master.zip&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Then extract the library to the Library folder of Arduino, open the demo in examples folder.&lt;/p&gt;
+
+&lt;p&gt;Then upload it to your Seeeduino.&lt;/p&gt;
+
+&lt;h3 id=&#34;open-serial-monitor-and-get-data&#34;&gt;Open Serial Monitor and Get Data&lt;/h3&gt;
+
+&lt;p&gt;Then, open your Serial Monitor, you can find the temperature in Celsius here.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-High_Temperature_Sensor/master/img/Htsdata.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;k-type-thermocouple-indexing-table&#34;&gt;K type thermocouple indexing table&lt;/h3&gt;
+
+&lt;p&gt;As a reference, the following is K type thermocouple indexing table.
+&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-High_Temperature_Sensor/master/img/Ktype.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-High_Temperature_Sensor/master/res/Grove-High_Temperature_Sensor_v1.0.pdf&#34;&gt;Grove - High Temperature Sensor PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-High_Temperature_Sensor/master/res/Grove-High_Temperature_Sensor_v1.0_20140225.zip&#34;&gt;Grove - High Temperature Sensor Eagle File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Seeed-Studio/Grove_HighTemp_Sensor&#34;&gt;High Temperature Sensor Library&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ti.com/lit/ds/symlink/opa333.pdf&#34;&gt;Datasheet OPA333 PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-High_Temperature_Sensor/master/res/Lmv358.pdf&#34;&gt;Datasheet LMV358 PDF&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_High_Temperature_Sensor --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Grove - Luminance Sensor</title>
+      <link>http://wiki.seeed.cc/Grove-Luminance_Sensor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/Grove-Luminance_Sensor/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Luminance_Sensor/master/img/Luminance.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Grove - Luminance Sensor detects the intensity of the ambient light on a surface area. It uses &lt;strong&gt;APDS-9002&lt;/strong&gt; analog output ambient light photo sensor. This has responsivity closer to human eye.&lt;/p&gt;
+
+&lt;p&gt;This Luminance Sensor can be used in application which requires automatic light adjustment in residential or commercial lighting.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/Grove-Luminance-Sensor-p-1941.html&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;specifications&#34;&gt;Specifications&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Parameter&lt;/th&gt;
+&lt;th&gt;Value&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Vcc&lt;/td&gt;
+&lt;td&gt;2.4V ~ 5.5V&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Linear output range&lt;/td&gt;
+&lt;td&gt;0.0 ~ 2.3V&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Luminance measurement range&lt;/td&gt;
+&lt;td&gt;0 ~ 1000 Lux&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;!!!Tip
+    More details about Grove modules please refer to &lt;a href=&#34;http://wiki.seeed.cc/Grove_System/&#34;&gt;Grove System&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;platforms-supported&#34;&gt;Platforms Supported&lt;/h2&gt;
+
+&lt;h2 id=&#34;demonstration&#34;&gt;Demonstration&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Hookup Grove Luminance sensor with Seeduino Lotus&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;1.Plug the Grove-Luminance sensor to the A0 port of Seeeduino Lotus with a Grove connector.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Luminance_Sensor/master/img/Interface_Grove-Luminance.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;2.Copy the following code in an arduino sketch.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;float VoutArray[] =  { 0.0011498,  0.0033908,   0.011498, 0.041803,0.15199,     0.53367, 1.3689,   1.9068,  2.3};
+float  LuxArray[] =  { 1.0108,     3.1201,  9.8051,   27.43,   69.545,   232.67,  645.11,   73.52,  1000};
+
+void setup() {
+    // put your setup code here, to run once:
+    Serial.begin(9600);
+
+}
+
+void loop() {
+    // put your main code here, to run repeatedly:
+
+    Serial.print(&amp;quot;Vout =&amp;quot;);
+    Serial.print(readAPDS9002Vout(A0));
+    Serial.print(&amp;quot; V,Luminance =&amp;quot;);
+    Serial.print(readLuminance(A0));
+    Serial.println(&amp;quot;Lux&amp;quot;);
+    delay(500);
+}
+
+float readAPDS9002Vout(uint8_t analogpin)
+{
+    // MeasuredVout = ADC Value * (Vcc / 1023) * (3 / Vcc)
+    // Vout samples are with reference to 3V Vcc
+    // The above expression is simplified by cancelling out Vcc
+    float MeasuredVout = analogRead(A0) * (3.0 / 1023.0);
+    //Above 2.3V , the sensor value is saturated
+
+    return MeasuredVout;
+
+}
+
+float readLuminance(uint8_t analogpin)
+{
+
+    // MeasuredVout = ADC Value * (Vcc / 1023) * (3 / Vcc)
+    // Vout samples are with reference to 3V Vcc
+    // The above expression is simplified by cancelling out Vcc
+    float MeasuredVout = analogRead(A0) * (3.0 / 1023.0);
+    float Luminance = FmultiMap(MeasuredVout, VoutArray, LuxArray, 9);
+
+    /**************************************************************************
+
+    The Luminance in Lux is calculated based on APDS9002 datasheet -- &amp;gt; Graph 1
+    ( Output voltage vs. luminance at different load resistor)
+    The load resistor is 1k in this board. Vout is referenced to 3V Vcc.
+
+    The data from the graph is extracted using WebPlotDigitizer
+    http://arohatgi.info/WebPlotDigitizer/app/
+
+    VoutArray[] and LuxArray[] are these extracted data. Using MultiMap, the data
+    is interpolated to get the Luminance in Lux.
+
+    This implementation uses floating point arithmetic and hence will consume
+    more flash, RAM and time.
+
+    The Luminance in Lux is an approximation and depends on the accuracy of
+    Graph 1 used.
+
+    ***************************************************************************/
+
+    return Luminance;
+}
+
+
+//This code uses MultiMap implementation from http://playground.arduino.cc/Main/MultiMap
+
+float FmultiMap(float val, float * _in, float * _out, uint8_t size)
+{
+    // take care the value is within range
+    // val = constrain(val, _in[0], _in[size-1]);
+    if (val &amp;lt;= _in[0]) return _out[0];
+    if (val &amp;gt;= _in[size-1]) return _out[size-1];
+
+    // search right interval
+    uint8_t pos = 1;  // _in[0] allready tested
+    while(val &amp;gt; _in[pos]) pos++;
+
+    // this will handle all exact &amp;quot;points&amp;quot; in the _in array
+    if (val == _in[pos]) return _out[pos];
+
+    // interpolate in the right segment for the rest
+    return (val - _in[pos-1]) * (_out[pos] - _out[pos-1]) / (_in[pos] - _in[pos-1]) + _out[pos-1];
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;3.Upload the code to seeeduino lotus.&lt;/p&gt;
+
+&lt;p&gt;4.Hold the Grove Luminance sensor under a light source or in a place where lux has to be detected.&lt;/p&gt;
+
+&lt;p&gt;5.Open the serial monitor.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Luminance_Sensor/master/img/LuminanceOutput.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;6.The Vout and Lux are displayed in the serial monitor.&lt;/p&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Luminance_Sensor/master/res/Grove-Luminance.zip&#34;&gt;Grove-Luminance Sensor Demo code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Luminance_Sensor/master/res/Grove-Luminance_Sensor.zip&#34;&gt;Grove-Luminance Sensor eagle file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Luminance_Sensor/master/res/Grove-Luminance_Sensor_v1.0.pdf&#34;&gt;Grove-Luminance Sensor Schematic (PDF)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Luminance_Sensor/master/res/APDS-9002-.pdf&#34;&gt;APDS-900 Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_Luminance_Sensor --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Grove - UV Sensor</title>
+      <link>http://wiki.seeed.cc/Grove-UV_Sensor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/Grove-UV_Sensor/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-UV_Sensor/master/img/UV_Sensor_01.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Grove – UV Sensor is used for detecting the intensity of incident ultraviolet(UV) radiation. This form of electromagnetic radiation has shorter wavelengths than visible radiation. The Grove - UV Sensor is based on the sensor GUVA-S12D which has a wide spectral range of 200nm-400nm. The module outputs electrical signal which varies with the UV intensity, which gives your suggestion if it is a good idea to beach today.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.seeedstudio.com/Grove-UV-Sensor-p-1540.html&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;High stability&lt;/li&gt;
+&lt;li&gt;Good Sensitivity&lt;/li&gt;
+&lt;li&gt;Low power consumption&lt;/li&gt;
+&lt;li&gt;Schottky type photodiode sensor&lt;/li&gt;
+&lt;li&gt;Wide response range&lt;/li&gt;
+&lt;li&gt;Grove Interface&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;!!!Tip
+    More details about Grove modules please refer to &lt;a href=&#34;http://wiki.seeed.cc/Grove_System/&#34;&gt;Grove System&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;specifications&#34;&gt;Specifications&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Item&lt;/th&gt;
+&lt;th&gt;Min&lt;/th&gt;
+&lt;th&gt;Typical&lt;/th&gt;
+&lt;th&gt;Max&lt;/th&gt;
+&lt;th&gt;Unit&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Operating Voltage&lt;/td&gt;
+&lt;td&gt;3.0&lt;/td&gt;
+&lt;td&gt;5.0&lt;/td&gt;
+&lt;td&gt;5.1&lt;/td&gt;
+&lt;td&gt;VDC&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Current&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;0.31&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;mA&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Output Voltage&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;mV&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Response wavelength&lt;/td&gt;
+&lt;td&gt;240&lt;/td&gt;
+&lt;td&gt;~&lt;/td&gt;
+&lt;td&gt;370&lt;/td&gt;
+&lt;td&gt;nm&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Working Temperature&lt;/td&gt;
+&lt;td&gt;-30&lt;/td&gt;
+&lt;td&gt;~&lt;/td&gt;
+&lt;td&gt;85&lt;/td&gt;
+&lt;td&gt;℃&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;platforms-supported&#34;&gt;Platforms Supported&lt;/h2&gt;
+
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+
+&lt;p&gt;UV sensors are used in many different applications. Examples include pharmaceuticals, automobiles, and robotics. UV sensors are also used in the printing industry for solvent handling and dyeing processes. In addition, UV sensors are also used in the chemical industry for the production, storage, and transportation of chemicals.&lt;/p&gt;
+
+&lt;p&gt;The fact of the UV sensor work is: In sunlight, the UV index and Photocurrent are a linear relationship.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-UV_Sensor/master/img/Reference1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;About our Grove - UV Sensor, we have converted Photocurrent to corresponding voltage value collected by Arduino/Seeeduino. The output voltage and the UV index is linear:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;illumination intensity = 307 * Vsig&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;where:
+Vsig is the value of voltage measured from the SIG pin of the Grove interface, unit V.
+illumination intensity unit: mW/m&lt;sup&gt;2&lt;/sup&gt; for the combination strength of UV light with wavelength range: 240nm~370nm&lt;/p&gt;
+
+&lt;div class=&#34;admonition note&#34;&gt;
+&lt;p class=&#34;admonition-title&#34;&gt;Note&lt;/p&gt;
+To calculate the UV index value, please refer to &lt;a href=&#34;http://www2.epa.gov/sunwise/uv-index&#34;&gt;US EPA&lt;/a&gt;. It is hard to say that the measurement from this sensor can be converted to the EPA standard UV index, but can be estimated roughly.
+&lt;/div&gt;
+
+&lt;p&gt;UV Index = illumination intensity / 200&lt;/p&gt;
+
+&lt;h3 id=&#34;example&#34;&gt;Example&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Connect it to A0 port of Grove - Base Shield.&lt;/li&gt;
+&lt;li&gt;Plug the Grove - Base Shield into Arduino/Seeeduino and connect them to PC using a USB cable.&lt;/li&gt;
+&lt;li&gt;The demo code is shown below.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;// modified by Victor
+// to calculate UV index directly
+void setup(){
+
+    Serial.begin(9600);
+}
+
+void loop()
+{
+    int sensorValue;
+    long  sum=0;
+    for(int i=0;i&amp;lt;1024;i++)// accumulate readings for 1024 times
+    {
+        sensorValue=analogRead(A0);
+        sum=sensorValue+sum;
+        delay(2);
+    }
+    long meanVal = sum/1024;  // get mean value
+    Serial.print(&amp;quot;The current UV index is:&amp;quot;);
+    Serial.print((meanVal*1000/4.3-83)/21);// get a detailed calculating expression for UV index in schematic files.
+    Serial.print(&amp;quot;\n&amp;quot;);
+    delay(20);
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-UV_Sensor/master/res/Grove-UV_Sensor_v1.1_Schematics.zip&#34;&gt;Grove - UV Sensor v1.1 schematics(current version)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-UV_Sensor/master/res/Grove-UV_Sensor_v1.1_Datasheets.zip&#34;&gt;Grove - UV Sensor v1.1 Sensor Datasheets(current version)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.epa.gov/sunsafety/uv-index-scale-1&#34;&gt;US EPA Suggestions About UV Radiation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-UV_Sensor/master/res/Grove-UV_Sensor_v1.0_Datasheets.zip&#34;&gt;Grove - UV Sensor v1.0 schematics and datasheets(older version)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_UV_Sensor --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

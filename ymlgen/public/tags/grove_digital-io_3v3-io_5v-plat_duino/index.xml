@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
+    <link>http://wiki.seeed.cc/tags/grove_digital-io_3v3-io_5v-plat_duino/index.xml</link>
+    <description>Recent content on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://wiki.seeed.cc/tags/grove_digital-io_3v3-io_5v-plat_duino/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Grove - Infrared Receiver</title>
+      <link>http://wiki.seeed.cc/Grove-Infrared_Receiver/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/Grove-Infrared_Receiver/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Infrared_Receiver/master/img/Grove-Infrared_Receiver.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Infrared Receiver is used to receive infrared signals and also used for remote control detection. There is an IR detector on the Infrared Receiver which is used to get the infrared light emitted by the Infrared Emitter. The IR detector have a demodulator inside that looks for modulated IR at 38 KHz. The Infrared Receiver can receive signals well within 10 meters. If more than 10 meters , the receiver may not get the signals. We often use the two Groves-the Infrared Receiver and the &lt;a href=&#34;http://wiki.seeed.cc/Grove-Infrared_Emitter&#34; title=&#34;Grove - Infrared Emitter&#34;&gt;Grove - Infrared Emitter&lt;/a&gt; to work together.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/Grove-Infrared-Receiver-p-994.html&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;specifications&#34;&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Voltage: 3.3-5V&lt;/li&gt;
+&lt;li&gt;Distance: 10m&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;!!!Tip
+    More details about Grove modules please refer to &lt;a href=&#34;http://wiki.seeed.cc/Grove_System/&#34;&gt;Grove System&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;platforms-supported&#34;&gt;Platforms Supported&lt;/h2&gt;
+
+&lt;h2 id=&#34;demonstration&#34;&gt;Demonstration&lt;/h2&gt;
+
+&lt;p&gt;We will use Grove-Infrared Receiver and Grove - Infrared Emitter in this demonstration. The Infrared Receiver will receive the data that the Grove - Infrared Emitter sends.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Connect the Grove - Infrared Emitter to D3.&lt;/li&gt;
+&lt;li&gt;Connect the Grove - Infrared Receiver to D2.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;with-arduino-seeeduino&#34;&gt;With Arduino/Seeeduino&lt;/h2&gt;
+
+&lt;h3 id=&#34;suggest-reading-for-starter&#34;&gt;Suggest Reading for Starter&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://wiki.seeed.cc/Download_Arduino_and_install_Arduino_driver&#34;&gt;Download Arduino and install Arduino driver&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://wiki.seeed.cc/Getting_Started_with_Seeeduino&#34;&gt;Getting Started with Seeeduino/Arduino&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;irsendrev-library&#34;&gt;IRSendRev Library&lt;/h3&gt;
+
+&lt;p&gt;We have created a library to help you start playing quickly with the Seeeduino/Arduino, in this section we&amp;rsquo;ll show you how to set up the library.&lt;/p&gt;
+
+&lt;h4 id=&#34;setup&#34;&gt;Setup&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Download the &lt;a href=&#34;https://github.com/Seeed-Studio/IRSendRev&#34;&gt;library code as a zip file&lt;/a&gt; from the IRSendRev github page.&lt;/li&gt;
+&lt;li&gt;Unzip the downloaded file into your …/arduino/libraries.&lt;/li&gt;
+&lt;li&gt;Rename the unzipped folder &amp;ldquo;IRSendRev&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Start the Arduino IDE (or restart if it is open).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;infrared-receiver-examples-applications&#34;&gt;Infrared Receiver Examples/Applications&lt;/h3&gt;
+
+&lt;p&gt;These examples are going to show you how to use features of Grove - Infrared Receiver. You can use Infrared Receiver in combination with Grove - Infrared Emitter. Connect the IR receiver pins to D2 for this demo.&lt;/p&gt;
+
+&lt;h4 id=&#34;receiver&#34;&gt;Receiver&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Open File-&amp;gt;Examples-&amp;gt;IRSendRev-&amp;gt;example-&amp;gt;recv sketch for a complete example, or copy and paste code below to a new Arduino sketch.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt;:
+This example connect the IR receiver pins to D2 for this demo. You can see the remote control&amp;rsquo;s infrared data that received through a serial port terminal, then write the received infrared data into send.ino and upload to the board with Infrared Emitter Grove, so you can send the same data with remote control&amp;rsquo;s button.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Application&lt;/strong&gt;:
+You can note the remote control&amp;rsquo;s infrared data down through Infrared Receiver, then send the same data through Infrared Emitter in some cases, such as open the fan switch when indoor temperature is greater than 26 degrees.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#include &amp;lt;IRSendRev.h&amp;gt;
+ 
+#define BIT_LEN         0
+#define BIT_START_H     1
+#define BIT_START_L     2
+#define BIT_DATA_H      3
+#define BIT_DATA_L      4
+#define BIT_DATA_LEN    5
+#define BIT_DATA        6
+ 
+const int pinRecv = 2;              // ir receiver connect to D2
+ 
+void setup()
+{
+    Serial.begin(115200);
+    IR.Init(pinRecv);
+    Serial.println(&amp;quot;init over&amp;quot;);
+}
+ 
+unsigned char dta[20];
+ 
+void loop()
+{
+    if(IR.IsDta())                  // get IR data
+    {
+        IR.Recv(dta);               // receive data to dta
+ 
+        Serial.println(&amp;quot;+------------------------------------------------------+&amp;quot;);
+        Serial.print(&amp;quot;LEN = &amp;quot;);
+        Serial.println(dta[BIT_LEN]);
+        Serial.print(&amp;quot;START_H: &amp;quot;);
+        Serial.print(dta[BIT_START_H]);
+        Serial.print(&amp;quot;\tSTART_L: &amp;quot;);
+        Serial.println(dta[BIT_START_L]);
+ 
+        Serial.print(&amp;quot;DATA_H: &amp;quot;);
+        Serial.print(dta[BIT_DATA_H]);
+        Serial.print(&amp;quot;\tDATA_L: &amp;quot;);
+        Serial.println(dta[BIT_DATA_L]);
+ 
+        Serial.print(&amp;quot;\r\nDATA_LEN = &amp;quot;);
+        Serial.println(dta[BIT_DATA_LEN]);
+ 
+        Serial.print(&amp;quot;DATA: &amp;quot;);
+        for(int i=0; i&amp;lt;dta[BIT_DATA_LEN]; i++)
+        {
+            Serial.print(&amp;quot;0x&amp;quot;);
+            Serial.print(dta[i+BIT_DATA], HEX);
+            Serial.print(&amp;quot;\t&amp;quot;);
+        }
+        Serial.println();
+ 
+        Serial.print(&amp;quot;DATA: &amp;quot;);
+        for(int i=0; i&amp;lt;dta[BIT_DATA_LEN]; i++)
+        {
+            Serial.print(dta[i+BIT_DATA], DEC);
+            Serial.print(&amp;quot;\t&amp;quot;);
+        }
+        Serial.println();
+        Serial.println(&amp;quot;+------------------------------------------------------+\r\n\r\n&amp;quot;);
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Upload the code to the development board.&lt;/li&gt;
+&lt;li&gt;Open the serial monitor window and wait for the input.&lt;/li&gt;
+&lt;li&gt;Using IR remote control sending data&lt;font color=&#34;Blue&#34;&gt;(This example uses MIDEA Company&amp;rsquo;s IR remote control of fans, and press the open/close key.)&lt;/font&gt;.&lt;/li&gt;
+&lt;li&gt;You can see the information below.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Infrared_Receiver/master/img/Data：IR_remote_control_of_fans.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;emitter&#34;&gt;Emitter&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Open File-&amp;gt;Examples-&amp;gt;IRSendRev-&amp;gt;example-&amp;gt;send sketch for a complete example, or copy and paste code below to a new Arduino sketch.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt;:
+Connect the IR send pins to D3 for this demo. You can see the remote control&amp;rsquo;s infrared data that received through Infrared Receiver, such as the example above. Then write the received infrared data into this example and upload to the board with Infrared Emitter Grove, so you can send the same data with remote control&amp;rsquo;s button.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Application&lt;/strong&gt;:
+You can note the remote control&amp;rsquo;s infrared data down through Infrared Receiver, then send the same data through Infrared Emitter in some cases, such as open the fan switch when indoor temperature is greater than 26 degrees.&lt;/p&gt;
+
+&lt;div class=&#34;admonition note&#34;&gt;
+&lt;p class=&#34;admonition-title&#34;&gt;Note&lt;/p&gt;
+You must connect the IR send pins to D3 for this demo.
+&lt;/div&gt;
+
+&lt;pre&gt;&lt;code&gt;#include &amp;lt;IRSendRev.h&amp;gt;
+ 
+#define BIT_LEN         0
+#define BIT_START_H     1
+#define BIT_START_L     2
+#define BIT_DATA_H      3
+#define BIT_DATA_L      4
+#define BIT_DATA_LEN    5
+#define BIT_DATA        6
+ 
+const int ir_freq = 38;                 // 38k
+ 
+unsigned char dtaSend[20];
+ 
+void dtaInit()
+{
+    dtaSend[BIT_LEN]        = 11;          // all data that needs to be sent
+    dtaSend[BIT_START_H]    = 180;         // the logic high duration of &amp;quot;Start&amp;quot;
+    dtaSend[BIT_START_L]    = 91;          // the logic low duration of &amp;quot;Start&amp;quot;
+    dtaSend[BIT_DATA_H]     = 11;          // the logic &amp;quot;long&amp;quot; duration in the communication
+    dtaSend[BIT_DATA_L]     = 33;          // the logic &amp;quot;short&amp;quot; duration in the communication
+ 
+    dtaSend[BIT_DATA_LEN]   = 6;           // Number of data which will sent. If the number is other, you should increase or reduce dtaSend[BIT_DATA+x].
+ 
+    dtaSend[BIT_DATA+0]     = 128;           // data that will sent
+    dtaSend[BIT_DATA+1]     = 127;
+    dtaSend[BIT_DATA+2]     = 192;
+    dtaSend[BIT_DATA+3]     = 63;
+    dtaSend[BIT_DATA+4]     = 192;
+    dtaSend[BIT_DATA+5]     = 63;
+}
+ 
+void setup()
+{
+    dtaInit();
+}
+ 
+void loop()
+{
+    IR.Send(dtaSend, 38);
+ 
+    delay(2000);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Infrared_Receiver/master/res/Grove-Infrared_Receiver_eagle_files.zip&#34;&gt;Grove - Infrared Receiver eagle files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Seeed-Studio/IRSendRev&#34;&gt;IR Send and Receiver Library&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Seeed-Studio/IR_Recv_LinkIt_ONE&#34;&gt;IR Receive Library for LinkIt ONE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.vishay.com/docs/82491/tsop382.pdf&#34;&gt;TSOP282 Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_Infrared_Receiver --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Grove - Recorder v2.0</title>
+      <link>http://wiki.seeed.cc/Grove-Recorder_v2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/Grove-Recorder_v2/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Recorder_v2.0/master/img/Grove-Recorder_V2.0.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Grove - CRecorder v2.0 is a upgraded recorder with enriched features. It can record 8-20 seconds&lt;sup&gt;[1]&lt;/sup&gt; audio with high-quality and natural voice. In addition, it also gets sound volume control and playback functions. With MCU such as &lt;a href=&#34;http://wiki.seeed.cc/Seeeduino_v4.2&#34;&gt;Seeeduino&lt;/a&gt; or Arduino board, you can prototype various applications quickly with user-friendly interfaces.&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;[1]&lt;/sup&gt; Recording time could be customized(if you require) by replacing different resistor the solution to do this will be described in later sections.&lt;/p&gt;
+
+&lt;h2 id=&#34;version-tracker&#34;&gt;Version Tracker&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Product revision&lt;/th&gt;
+&lt;th&gt;Release date&lt;/th&gt;
+&lt;th&gt;Support status&lt;/th&gt;
+&lt;th&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;V1.0&lt;/td&gt;
+&lt;td&gt;Apr 2014&lt;/td&gt;
+&lt;td&gt;Supported&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;V2.0&lt;/td&gt;
+&lt;td&gt;Oct 2015&lt;/td&gt;
+&lt;td&gt;Mainstream support&lt;/td&gt;
+&lt;td&gt;&lt;ol&gt;&lt;li&gt;Add speaker volume controller.&lt;/li&gt;&lt;li&gt;Add NS8002 amplifier to enhance power.&lt;/li&gt;&lt;li&gt; Add Rec pin Switch for switch Rec pin.&lt;/li&gt;&lt;/ol&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Easy-to-use with sound volume control, record, playback functions and grove interfaces.&lt;/li&gt;
+&lt;li&gt;Easy to be programmed for plenty of applications with MCU.&lt;/li&gt;
+&lt;li&gt;Automatic power down mode, variable recording and playback duration, non-volatile storage.&lt;/li&gt;
+&lt;li&gt;Low power consumption.&lt;/li&gt;
+&lt;li&gt;Shipped with a speaker (8Ω/2W).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;!!!Tip
+    More details about Grove modules please refer to &lt;a href=&#34;http://wiki.seeed.cc/Grove_System/&#34;&gt;Grove System&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;application-ideas&#34;&gt;Application ideas&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Toys.&lt;/li&gt;
+&lt;li&gt;Alarm.&lt;/li&gt;
+&lt;li&gt;Short-duration-echo required applications.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;specifications&#34;&gt;Specifications&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Parameter&lt;/th&gt;
+&lt;th&gt;Value&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Operating voltage&lt;/td&gt;
+&lt;td&gt;3.3~5.0V(DC)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Ripple(at Max power)&lt;/td&gt;
+&lt;td&gt;≤ 50mV&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Recording duration(default)&lt;/td&gt;
+&lt;td&gt;12 seconds(MAX value)&lt;sup&gt;[2]&lt;/sup&gt;.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Playback duration(default)&lt;/td&gt;
+&lt;td&gt;12 seconds(MAX value).&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Sample rate&lt;/td&gt;
+&lt;td&gt;53 kHz&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Chip&lt;/td&gt;
+&lt;td&gt;ISD1820PY(&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Recorder_v2.0/master/res/ISD_1800_Specifications.pdf&#34;&gt;Datasheet&lt;/a&gt;), NS8002(Volume Amplifier)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;platforms-supported&#34;&gt;Platforms Supported&lt;/h2&gt;
+
+&lt;p&gt;&lt;sup&gt;[2]&lt;/sup&gt;You can replace the resistor shows as following to change recording duration.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Recorder_v2.0/master/img/Grove-Recorder_V2.0_back_view_600.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Red rectangle marked area&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&#34;admonition note&#34;&gt;
+&lt;p class=&#34;admonition-title&#34;&gt;Note&lt;/p&gt;
+Playback duration will be same with Recording duration as it changes. Different kinds of resistor will lead different Recording duration as the following table shows.
+&lt;/div&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;ROSC&lt;/th&gt;
+&lt;th&gt;Duration&lt;/th&gt;
+&lt;th&gt;Sampling Frequency&lt;/th&gt;
+&lt;th&gt;Input Bandwidth&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;80 KΩ&lt;/td&gt;
+&lt;td&gt;8 secs&lt;/td&gt;
+&lt;td&gt;8.0 KHz&lt;/td&gt;
+&lt;td&gt;3.4 KHz&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;100 KΩ (default)&lt;/td&gt;
+&lt;td&gt;10 secs&lt;/td&gt;
+&lt;td&gt;6.4 KHz&lt;/td&gt;
+&lt;td&gt;2.6 KHz&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;120 KΩ&lt;/td&gt;
+&lt;td&gt;12 secs&lt;/td&gt;
+&lt;td&gt;5.3 KHz&lt;/td&gt;
+&lt;td&gt;2.3 KHz&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;160 KΩ&lt;/td&gt;
+&lt;td&gt;16 secs&lt;/td&gt;
+&lt;td&gt;4.0 KHz&lt;/td&gt;
+&lt;td&gt;1.7 KHz&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;200 KΩ&lt;/td&gt;
+&lt;td&gt;20 secs&lt;/td&gt;
+&lt;td&gt;3.2 KHz&lt;/td&gt;
+&lt;td&gt;1.3 KHz&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;hardware-overview&#34;&gt;Hardware Overview&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Recorder_v2.0/master/img/Grove-Recorder_Hardware_View_wiki_s.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Grove interface&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Connect main control board such as &lt;a href=&#34;http://wiki.seeed.cc/Seeeduino_v4.2&#34;&gt;Seeeduino&lt;/a&gt; board with Grove - Recorder.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker interface&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Connect Grove - Recorder with speaker.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Rec shaft&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Start recording.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Volume control interface&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Control volume for speaker.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MIC&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Microphone for recording.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;IDS 1820PY&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Microcontroller.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Running indicator&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Light on while you are recording. Light out as you stop recording or recording time exceeds record duration.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Rec pin Switch&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You can switch Rec pin ON/OFF, so you can disable or enable MCU controlled recording.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Grove wire&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Connect main control board with driver board.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;parts-list&#34;&gt;&lt;strong&gt;Parts list&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Parts name&lt;/th&gt;
+&lt;th&gt;Quantity&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Grove - Recorder v2.0&lt;/td&gt;
+&lt;td&gt;1 PC&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Grove wire&lt;/td&gt;
+&lt;td&gt;1 PC&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Speaker&lt;/td&gt;
+&lt;td&gt;1 PC&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;get-started&#34;&gt;Get started&lt;/h2&gt;
+
+&lt;h3 id=&#34;materials-required&#34;&gt;&lt;strong&gt;Materials required&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://wiki.seeed.cc/Seeeduino_v4.2&#34;&gt;Seeeduino&lt;/a&gt; x 1&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://wiki.seeed.cc/Grove-Button&#34;&gt;Grove - Button&lt;/a&gt; x 1&lt;/li&gt;
+&lt;li&gt;Grove wire x 1&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;preparations&#34;&gt;&lt;strong&gt;Preparations&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Refer to the following guides to build a appropriate IDE:&lt;/p&gt;
+
+&lt;div class=&#34;admonition note&#34;&gt;
+&lt;p class=&#34;admonition-title&#34;&gt;Note&lt;/p&gt;
+We have used Seeeduino in this case.
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://wiki.seeed.cc/Seeeduino_v4.2#Getting_Started_on_Windows&#34;&gt;Getting Started on Windows&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://wiki.seeed.cc/Seeeduino_v4.2#Getting_Started_on_Mac_OS_X&#34;&gt;Getting Started on Mac OS X&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;hardware-connections&#34;&gt;&lt;strong&gt;Hardware connections&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Recorder_v2.0/master/img/Grove-Recorder_Hardware_connection_s.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Connect all modules as above figure shows.
+
+&lt;ul&gt;
+&lt;li&gt;Grove - Button &amp;gt; &lt;strong&gt;D2&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Grove - Recorder &amp;gt; &lt;strong&gt;D7&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;software-work&#34;&gt;&lt;strong&gt;Software Work&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Test code as below, copy to your Arduino IDE, then click Upload(CTRL+U) to upload code to your Arduino.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// demo for Grove - Recorder
+ 
+const int pinButton = 2;
+const int pinRec    = 7;
+ 
+ 
+void setup()
+{
+    pinMode(pinButton, INPUT);
+    pinMode(pinRec, OUTPUT);
+}
+ 
+void loop()
+{
+    if(digitalRead(pinButton))      // button pressed
+    {
+        digitalWrite(pinRec, HIGH);
+        delay(200);
+        digitalWrite(pinRec, LOW);
+        while(digitalRead(pinButton));  // until button release
+    }
+ 
+    delay(10);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;test-it&#34;&gt;Test it&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;After connection works and software works finished, press shaft Rec to start recording.&lt;/li&gt;
+&lt;li&gt;Then press button on Grove - Button to playback.&lt;/li&gt;
+&lt;li&gt;You can also adjust volume with Philip screw driver.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Schematic file in &lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Recorder_v2.0/master/res/Grove-Recorder_v2.0_Schematic_Eagle_file.zip&#34;&gt;Eagle&lt;/a&gt; format&lt;/li&gt;
+&lt;li&gt;Schematic file in &lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Recorder_v2.0/master/res/Grove-Recorder_v2.0_Schematic_PDF_file.zip&#34;&gt;PDF&lt;/a&gt; format&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_Recorder_v2.0 --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

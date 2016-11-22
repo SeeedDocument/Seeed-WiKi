@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
+    <link>http://wiki.seeed.cc/tags/plat_duino-grove_analog-io_3v3-io_5v/index.xml</link>
+    <description>Recent content on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://wiki.seeed.cc/tags/plat_duino-grove_analog-io_3v3-io_5v/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Grove - Gas Sensor(O₂)</title>
+      <link>http://wiki.seeed.cc/Grove-Gas_Sensor-O2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/Grove-Gas_Sensor-O2/</guid>
+      <description>
+
+&lt;!-- tags: io_3v3, io_5v, grove_i2c, grove_analog, grove_digital, grove_uart, plat_duino, plat_bbg, plat_pi, plat_wio, plat_linkit --&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove_Gas_Sensor_O2/master/images/cover.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Grove-Gas Sensor (O2) is a kind of sensor to test the oxygen concentration in air, which is based on the principle of the electrochemical cell to the original work. You can know clearly the current oxygen concentration when you output voltage values proportional to the concentration of oxygen and refer to the oxygen concentration linear characteristic graph. It&amp;rsquo;s very suitable for detecting oxygen concentration in the environment protection. Grove - Gas Sensor(O2) is an organic reaction module, it can provide a little current while putting it in the air, we don&amp;rsquo;t need to provide an external power to it, and output voltage will change as time current changes.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/grove-gas-sensoro2-p-1541.html&#34;&gt;&lt;img src=&#34;https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/get_one_now.png?raw=true&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;##Feature&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;High-precision&lt;/li&gt;
+&lt;li&gt;High sensitivity&lt;/li&gt;
+&lt;li&gt;Wide linearity range&lt;/li&gt;
+&lt;li&gt;Strong anti-interference ability&lt;/li&gt;
+&lt;li&gt;Extraordinary reliability&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;!!!Tip
+    More details about Grove modules please refer to &lt;a href=&#34;http://wiki.seeed.cc/Grove_System/&#34;&gt;Grove System&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;##Specification&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Items&lt;/th&gt;
+&lt;th&gt;Parameter&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Measurement Range&lt;/td&gt;
+&lt;td&gt;0-25%&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Detect Life&lt;/td&gt;
+&lt;td&gt;two years&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Sensitivity&lt;/td&gt;
+&lt;td&gt;0.05~0.15 mA(in air)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Temperature Range&lt;/td&gt;
+&lt;td&gt;-20 oC~50 oC&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Preheat Time&lt;/td&gt;
+&lt;td&gt;20 minutes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;platforms-supported&#34;&gt;Platforms Supported&lt;/h2&gt;
+
+&lt;p&gt;##Getting Started&lt;/p&gt;
+
+&lt;p&gt;!!!Note
+    This chapter is based on Win10 and Arduino IDE 1.6.9&lt;/p&gt;
+
+&lt;p&gt;This an easy-to-use module, what you need to do is connect the signal pin (the YELLOW pin of Grove cable) to the ADC input of your controller. If there&amp;rsquo;s no internal ADC in your controller, &lt;a href=&#34;http://www.seeedstudio.com/Grove-I2C-ADC-p-1580.html&#34;&gt;Grove - I2C ADC&lt;/a&gt; is recommend.&lt;/p&gt;
+
+&lt;p&gt;Here we will show you how this Grove - Gas Sensor(O2) works via a simple demo. First of all, you need to prepare the below stuffs:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Seeeduino V4&lt;/th&gt;
+&lt;th&gt;Grove - Gas Sensor(O2)&lt;/th&gt;
+&lt;th&gt;Base Shield&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_1.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove_Gas_Sensor_O2/master/images/gas_sensor_210.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_4.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html&#34;&gt;Get ONE Now&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.seeedstudio.com/grove-gas-sensoro2-p-1541.html&#34;&gt;Get ONE Now&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.seeedstudio.com/Grove-Universal-4-Pin-20cm-Unbuckled-Cable-%285-PCs-Pack%29-p-749.html&#34;&gt;Get ONE Now&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;###Connection&lt;/p&gt;
+
+&lt;p&gt;Thanks to the benefit of Grove series modules, you don&amp;rsquo;t need to make soldering or bread board, what you need to do is connect the modules to the right port of Base Shield. For this demo, we have only one Grove module.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Grove - Sound Sensor is an analog output module, we connect it to &lt;strong&gt;A0&lt;/strong&gt; at this demo&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove_Gas_Sensor_O2/master/images/connection.jpeg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;###Upload the code to Arduino&lt;/p&gt;
+
+&lt;p&gt;Copy the below code to Arduino IDE.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// Grove - Gas Sensor(O2) test code
+// Note:
+// 1. It need about about 5-10 minutes to preheat the sensor
+// 2. modify VRefer if needed
+
+const float VRefer = 3.3;       // voltage of adc reference
+
+const int pinAdc   = A5;
+
+void setup() 
+{
+    // put your setup code here, to run once:
+    Serial.begin(9600);
+    Serial.println(&amp;quot;Grove - Gas Sensor Test Code...&amp;quot;);
+}
+
+void loop() 
+{
+    // put your main code here, to run repeatedly:
+    float Vout =0;
+    Serial.print(&amp;quot;Vout =&amp;quot;);
+
+    Vout = readO2Vout();
+    Serial.print(Vout);
+    Serial.print(&amp;quot; V, Concentration of O2 is &amp;quot;);
+    Serial.println(readConcentration());
+    delay(500);
+}
+
+float readO2Vout()
+{
+    long sum = 0;
+    for(int i=0; i&amp;lt;32; i++)
+    {
+        sum += analogRead(pinAdc);
+    }
+    
+    sum &amp;gt;&amp;gt;= 5;
+    
+    float MeasuredVout = sum * (VRefer / 1023.0);
+    return MeasuredVout;
+}
+
+float readConcentration()
+{
+    // Vout samples are with reference to 3.3V
+    float MeasuredVout = readO2Vout();
+    
+    //float Concentration = FmultiMap(MeasuredVout, VoutArray,O2ConArray, 6);
+    //when its output voltage is 2.0V,
+    float Concentration = MeasuredVout * 0.21 / 2.0;
+    float Concentration_Percentage=Concentration*100;
+    return Concentration_Percentage;
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then choose the right Board and COM port, and then click on the Upload button, this process take few seconds.&lt;/p&gt;
+
+&lt;p&gt;###Get data&lt;/p&gt;
+
+&lt;p&gt;Open serial monitor of your Arduino IDE, and you will get the data now.&lt;/p&gt;
+
+&lt;p&gt;!!!Warning
+    It need about 20~30 minutes to preheat the sensor, or you will get a larger value.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove_Gas_Sensor_O2/master/images/data.png&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Resources&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/SeeedDocument/Grove_Gas_Sensor_O2/raw/master/resources/ME2-O2-D20%200-25%25%20Manual%20%28ver1.2%29.pdf&#34;&gt;ME2-O2 Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/SeeedDocument/Grove_Gas_Sensor_O2/raw/master/resources/Schematics_O2.zip&#34;&gt;Schematic in Eagle File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/SeeedDocument/Grove_Gas_Sensor_O2&#34;&gt;Github Repository of this Document&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

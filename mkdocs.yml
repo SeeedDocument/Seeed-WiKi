@@ -55,6 +55,7 @@ pages:
     - BeagleBone:
         - BeagleBone Introduction: BeagleBone.md
         - Beagle Bone Green and Grove IoT Starter Kit Powered by AWS: Beagle_Bone_Green_and_Grove_IoT_Starter_Kit_Powered_by_AWS.md
+        - BeagleBone Case: Beaglebone_Case.md
         - BeagleBone Green: BeagleBone_Green.md
         - BeagleBone Green HDMI Cape: BeagleBone_Green_HDMI_Cape.md
         - BeagleBone Green Wireless: BeagleBone_Green_Wireless.md
@@ -337,6 +338,7 @@ pages:
         - Arduino IDE for RePhone Kit: Arduino_IDE_for_RePhone_Kit.md
         - Eclipse IDE for RePhone Kit: Eclipse_IDE_for_RePhone_Kit.md
         - FM Receiver: FM_Receiver.md
+        - How to edit a document: How_to_edit_a_document.md
         - How to install an Arduino library: How_to_install_Arduino_Library.md
         - JavaScript for RePhone: JavaScript_for_RePhone.md
         - Lua for RePhone: Lua_for_RePhone.md
