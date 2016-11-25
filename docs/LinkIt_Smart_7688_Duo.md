@@ -54,10 +54,10 @@ Only one controller can be the main controller of the board at a time.
     * Core: Atmel AVR
     * Clock Speed: 8MHz
     * Working Voltage: 3.3V
-*Memory
+* Memory
     * Flash: 32MB
     * RAM: 128MB DDR2
-*GPIO
+* GPIO
     * Pin Count: 3(MT7688AN), 24(ATmega32U4)
     * Voltage: 3.3V
 * PWM
