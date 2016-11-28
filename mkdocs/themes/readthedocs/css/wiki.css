@@ -52,7 +52,7 @@ nav.stickynav {
 }
 .home-index .wrapper .main {
   margin-top: 30px;
-  height: 1660px;
+  height: 1890px;
 }
 .home-index .wrapper .main .left-sideBar {
   width: 230px;
@@ -168,4 +168,20 @@ nav.stickynav {
 
 .wy-nav-content  a{
   color: #2980b9;
+}
+
+
+
+/**
+ * 移动端
+ */
+@media only screen and (max-width: 568px) {
+   .home-index .wrapper .main .left-sideBar {
+      display: none;
+   }
+   .home-index .wrapper .main .sidebar_right {
+      margin: 0px;
+      width: 100%;
+   }
+
 }

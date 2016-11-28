@@ -169,6 +169,7 @@ pages:
         - Grove - Barometer (High-Accuracy): Grove-Barometer-High-Accuracy.md
         - Grove - Barometer Sensor: Grove-Barometer_Sensor.md
         - Grove - Barometer Sensor (BMP180): Grove-Barometer_Sensor-BMP180.md
+        - Grove - Barometer Sensor (BMP280): Grove-Barometer_Sensor-BMP280.md
         - Grove - Barometer Sensor(BME280): Grove-Barometer_Sensor-BME280.md
         - Grove - CO2 Sensor: Grove-CO2_Sensor.md
         - Grove - Chest Strap Heart Rate Sensor: Grove-Chest_Strap_Heart_Rate_Sensor.md

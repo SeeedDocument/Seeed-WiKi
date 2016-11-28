@@ -135,7 +135,6 @@ code.cs, code.c {
 img{
     vertical-align:middle;
     max-width:100%;
-    max-height: 500px;
     display: block;
     margin: auto;
 }
@@ -218,4 +217,3 @@ width: 20%;
 font-size: 50%;
 font-weight: normal;
 }
-

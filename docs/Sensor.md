@@ -22,6 +22,7 @@ Here is the list of the Grove - Sensor Boards you can find in the Seeed WiKi. Th
 - [Grove - Barometer (High-Accuracy)](/Grove-Barometer-High-Accuracy/)
 - [Grove - Barometer Sensor](/Grove-Barometer_Sensor/)
 - [Grove - Barometer Sensor (BMP180)](/Grove-Barometer_Sensor-BMP180/)
+- [Grove - Barometer Sensor (BMP280)](/Grove-Barometer_Sensor-BMP280/)
 - [Grove - Barometer Sensor(BME280)](/Grove-Barometer_Sensor-BME280/)
 - [Grove - CO2 Sensor](/Grove-CO2_Sensor/)
 - [Grove - Chest Strap Heart Rate Sensor](/Grove-Chest_Strap_Heart_Rate_Sensor/)
