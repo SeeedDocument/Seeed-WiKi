@@ -218,12 +218,12 @@ The module uses an LED drive chip - TM1637 to control the contents and change th
 
 4.Navigate to the demos' directory:
 ```
-    cd yourpath/GrovePi/Software/Python/
+cd yourpath/GrovePi/Software/Python/
 ```
 
 -   To see the code
 ```
-    nano grove_4_digit_display.py   # "Ctrl+x" to exit #
+nano grove_4_digit_display.py   # "Ctrl+x" to exit #
 ```
 ```
     import time
@@ -350,15 +350,15 @@ The module uses an LED drive chip - TM1637 to control the contents and change th
 ```
 
 5.Run the demo.
-
-       sudo python grove_4_digit_display.py
-
+```
+sudo python grove_4_digit_display.py
+```
 6.This demo may not work if your grovepi doesn't have the newest firmware, update the firmware.
-
-    cd yourpath/GrovePi/Firmware
-    sudo ./firmware_update.sh
-
-##Projects
+```
+cd yourpath/GrovePi/Firmware
+sudo ./firmware_update.sh
+```
+##Project
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/gun.jpg)
 
@@ -378,18 +378,5 @@ Resources
 -   [Four-Digit Display Suli Library](https://github.com/Seeed-Studio/Four_Digit_Display_Suli)
 -   [TM1637 datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-4-Digit_Display/master/res/TM1637_datasheet.pdf)
 
-
-**Related Projects**
-
-
-If you want to make some awesome projects by 4-Digit Display, here's one project for reference.
-
-- Air Quality Box
-
-[![](https://raw.githubusercontent.com/SeeedDocument/Grove-4-Digit_Display/master/img/556bcbf436c49.jpg)](http://www.seeedstudio.com/recipe/index.php?controller=recipe&action=show&recipe_id=266&ref=product)
-
-With this demo, we can see the air quality data on 4-Digit Display.
-
-[![](https://raw.githubusercontent.com/SeeedDocument/Grove-4-Digit_Display/master/img/Wiki_makeitnow_logo.png)](http://www.seeedstudio.com/recipe/index.php?controller=recipe&action=show&recipe_id=266&ref=product)
 
 <!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_4-Digit_Display -->
