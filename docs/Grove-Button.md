@@ -145,7 +145,7 @@ The standard Grove - Button module is available as part of the following Grove K
 Alternatively, it can be bought stand-alone [here](https://www.seeedstudio.com/Grove-Button-p-766.html)at the Seeed Studio [Bazaar](https://www.seeedstudio.com/). To buy the Panel Mount version of the module, go to [here](http://www.seeedstudio.com/depot/Grove-ButtonP-p-1243.html)
 
 
-##Projects
+##Project
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/gun.jpg)
 
@@ -153,7 +153,7 @@ Inspired by OVERWATCH, we have made a very cool Wooden Laser Gun toy for fun the
 
 The Wooden Laser Gun and the Gun Target are all based on an Arduino board called Seeeduino Lotus. The laser emitter on the Laser Gun is controlled to fire laser pulse to "activate" the Gun Target. And there are 3 light sensors on the Gun Target to detect the laser pulse. It seems very simple right? If you are interested in our project, please make one for yourself or your child! It's worth to spend one day DIY it as a Xmas present.    
 
-[![](https://raw.githubusercontent.com/SeeedDocument/common/master/make.png)](http://www.instructables.com/id/DIY-a-Wooden-Laser-Gun-As-a-Xmas-Present-for-Your-/)
+[![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/make.png)](http://www.instructables.com/id/DIY-a-Wooden-Laser-Gun-As-a-Xmas-Present-for-Your-/)
 
 ## Resources
 ---
