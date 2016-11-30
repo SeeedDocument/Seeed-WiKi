@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
+    <link>http://wiki.seeed.cc/tags/plat_duino-plat_pi-plat_bbg-plat_linkit/index.xml</link>
+    <description>Recent content on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://wiki.seeed.cc/tags/plat_duino-plat_pi-plat_bbg-plat_linkit/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Grove - LED Matrix Driver v1.0</title>
+      <link>http://wiki.seeed.cc/Grove-LED_Matrix_Driver_v1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/Grove-LED_Matrix_Driver_v1/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-LED_Matrix_Driver_v1.0/master/img/Grove-LED_Matrix_Driver_v1.0_product_view_700_s.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Grove - LED Matrix Driver v1.0 is UART (Serial) to dot matrix LED driver that incorporates various graphics functions.It can only support 32×64 LED matrix. This product is a &lt;strong&gt;Grove&lt;/strong&gt; compatible UART interface. It provides easy and rich APIs that abstract the complexity of the underlying LED driving hardware. All you need to is just call these APIs in code to implement different functionalities for your project.&lt;/p&gt;
+
+&lt;p&gt;Each dot(i.e pixel) support dual color LEDs. It can produce three colors totally: red (primary color), green(primary color) and yellow (mixed color). The input current for all LEDs can be set at a time.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/Grove-LED-Matrix-Driver-v1.0-p-2645.html&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&#34;admonition note&#34;&gt;
+&lt;p class=&#34;admonition-title&#34;&gt;Note&lt;/p&gt;
+This Grove module does not support changing the input current of each LED separately.
+&lt;/div&gt; 
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Grove compatible and easy to use&lt;/li&gt;
+&lt;li&gt;Highly abstracted and complete API&lt;/li&gt;
+&lt;li&gt;Support dual-color LED-pixel. Three colors totally (the third color is a mix of two primary color)&lt;/li&gt;
+&lt;li&gt;Interface: UART(SoftSerial in Arduino)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;!!!Tip
+    More details about Grove modules please refer to &lt;a href=&#34;http://wiki.seeed.cc/Grove_System/&#34;&gt;Grove System&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;specifications&#34;&gt;Specifications&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Parameter&lt;/th&gt;
+&lt;th&gt;Value&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Operating voltage(V)&lt;/td&gt;
+&lt;td&gt;3.3–5 Volts&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Operating current(mA)&lt;/td&gt;
+&lt;td&gt;Maximum: 28–50 mA&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Output voltage (from matrix driver)&lt;/td&gt;
+&lt;td&gt;3.3 Volts&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Symbols/Graphics functions supported&lt;/td&gt;
+&lt;td&gt;Dot, straight line, circle, char, string, number, emoji, image (you can display these symbols by calling API directly in code)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Supported LED matrix size&lt;/td&gt;
+&lt;td&gt;32(row)×64(column)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Supported color in each LED matrix dot&lt;/td&gt;
+&lt;td&gt;Dual LEDs (green and red) and a mixed color(yellow), and you can use only one LED in each LED matrix dot&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Connector for LED matrix&lt;/td&gt;
+&lt;td&gt;DBSTAR_HUB 08A&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Protocol for Grove port&lt;/td&gt;
+&lt;td&gt;UART&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Working temperature&lt;/td&gt;
+&lt;td&gt;-40–80 ℃&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Dimensions&lt;/td&gt;
+&lt;td&gt;46.5×44 mm&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Weight&lt;/td&gt;
+&lt;td&gt;9 g(for the module), 12.5(for all single package)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;platforms-supported&#34;&gt;Platforms Supported&lt;/h2&gt;
+
+&lt;h2 id=&#34;hardware-overview&#34;&gt;Hardware Overview&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-LED_Matrix_Driver_v1.0/master/img/Grove-LED_Matrix_Driver_v1.0_product_components_described_1200_s.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Grove socket&lt;/strong&gt;, to connect this product to main control board.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LED matrix port(DBSTAR_HUB 08A )&lt;/strong&gt;, to connect LED matrix. If you can not find a connector like this, you can user jumper wires as an alternative.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;package-includes-main-parts&#34;&gt;&lt;strong&gt;Package includes&lt;/strong&gt;(main parts)&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Parts name&lt;/th&gt;
+&lt;th&gt;Quantity&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Grove - LED Matrix Driver v1.0&lt;/td&gt;
+&lt;td&gt;1 piece&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.seeedstudio.com/depot/Grove-Universal-4-Pin-Buckled-5cm-Cable-5-PCs-Pack-p-925.html?cPath=98_106_57&#34;&gt;Grove cable&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;1 piece&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h2&gt;
+
+&lt;p&gt;Now let us run some basic examples with this module.&lt;/p&gt;
+
+&lt;h3 id=&#34;with-arduino&#34;&gt;With Arduino&lt;/h3&gt;
+
+&lt;h4 id=&#34;material-required&#34;&gt;Material required&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Grove - LED Matrix Driver v1.0 × 1&lt;/li&gt;
+&lt;li&gt;32×64 LED matrix with one red and one green LEDs in matrix dots (single color LED matrix will also be fine) × 1&lt;/li&gt;
+&lt;li&gt;Power line (ribbon shape) for × 1&lt;/li&gt;
+&lt;li&gt;5 Volts(output) Adapter to regulate input voltage for LED matrix × 1&lt;/li&gt;
+&lt;li&gt;8-pin(female) ribbon cable × 1&lt;/li&gt;
+&lt;li&gt;Arduino UNO (other Arduino models will also be fine) × 1&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.seeedstudio.com/depot/Grove-Universal-4-Pin-Buckled-5cm-Cable-5-PCs-Pack-p-925.html?cPath=98_106_57&#34;&gt;Grove cable&lt;/a&gt; × 1&lt;/li&gt;
+&lt;li&gt;Grove - Base Shield × 1&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;connections&#34;&gt;Connections&lt;/h4&gt;
+
+&lt;p&gt;Connect all parts as following:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-LED_Matrix_Driver_v1.0/master/img/Grove-LED_Matrix_Driver_v1.0_wiki_demo_connections_front_3600.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-LED_Matrix_Driver_v1.0/master/img/Grove-LED_Matrix_Driver_v1.0_wiki_demo_connections_back_3600.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;coding-work&#34;&gt;Coding Work&lt;/h4&gt;
+
+&lt;p&gt;You can find more demo sketch at &lt;a href=&#34;https://github.com/Seeed-Studio/Grove_LED_Matrix_Driver&#34;&gt;https://github.com/Seeed-Studio/Grove_LED_Matrix_Driver&lt;/a&gt; and development library at &lt;a href=&#34;https://github.com/Seeed-Studio/Grove_LED_Matrix_Driver/tree/master/Arduino/LEDMatrix&#34;&gt;https://github.com/Seeed-Studio/Grove_LED_Matrix_Driver/tree/master/Arduino/LEDMatrix&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;A typical demo code. You can upload code to main control board with &lt;a href=&#34;https://codebender.cc&#34;&gt;Codebender&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe frameborder=&#34;0&#34; height=&#34;500&#34; src=&#34;https://codebender.cc/embed/sketch:300168&#34; width=&#34;50%&#34;&gt;
+&lt;/iframe&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Download and upload the code. If you do not know how to upload an Arduino sketch, please visit &lt;a href=&#34;https://www.arduino.cc/en/Guide/Windows&#34;&gt;https://www.arduino.cc/en/Guide/Windows&lt;/a&gt; for Windows user or &lt;a href=&#34;https://www.arduino.cc/en/Guide/MacOSX&#34;&gt;https://www.arduino.cc/en/Guide/MacOSX&lt;/a&gt; for Mac user. You can see the result as below.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-LED_Matrix_Driver_v1.0/master/img/Grove-LED_Matrix_Driver_v1.0_wiki_demo_result_view_s.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-LED_Matrix_Driver_v1.0/master/res/Grove_LED_Matrix_Driver_v1.0_Schematics.zip&#34;&gt;Schematic file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-LED_Matrix_Driver_v1.0/master/res/STM32F03C8T6.pdf&#34;&gt;STM32F103C8T6 Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Seeed-Studio/Grove_LED_Matrix_Driver&#34;&gt;Library on Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Seeed-Studio/Grove_LED_Matrix_Driver/tree/master/Firmware&#34;&gt;Firmware for this product&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_LED_Matrix_Driver_v1.0 --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Grove - MP3 v2.0</title>
+      <link>http://wiki.seeed.cc/Grove-MP3_v2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/Grove-MP3_v2/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-MP3_v2.0/master/img/Grove-MP3_v2.0_Product_View_700_S.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Grove - MP3 v2.0 is a tiny-sized and compact audio module. It supports various audio file operations for an audio file of MP3, WAV and WMV format, such as random music playing, play music in specific files, and so on. With serial communication, you can use all predefined command or command combinations to do all operations on music files. This module also supports general file systems such as FAT16 and FAT32. It gets a Grove UART interface, a 3.5 mm audio jack and a micro-SD slot. With this module, you can add some noise to your silent applications.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/depot/Grove-MP3-v20-p-2597.html?cPath=98_106_57&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;version-tracker&#34;&gt;Version Tracker&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Product revision&lt;/th&gt;
+&lt;th&gt;Release date&lt;/th&gt;
+&lt;th&gt;Support status&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Version 1.0&lt;/td&gt;
+&lt;td&gt;April 28 2013‎&lt;/td&gt;
+&lt;td&gt;Supported&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Version 2.0&lt;/td&gt;
+&lt;td&gt;Dec 15 2015&lt;/td&gt;
+&lt;td&gt;Supported&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;General operations on audio files&lt;/li&gt;
+&lt;li&gt;On-board micro-SD slot and 3.5 mm audio jack&lt;/li&gt;
+&lt;li&gt;Support sample rate of 8 / 11.025 / 12 / 16 / 22.05 / 24 / 32 / 44.1 / 48(KHz)&lt;/li&gt;
+&lt;li&gt;24-bit DAC output, 90 dB (at Max.) dynamic output range, signal-noise ratio at 85 dB&lt;/li&gt;
+&lt;li&gt;MP3, WMV and WAV audio format and FAT16, FAT32 files system supported&lt;/li&gt;
+&lt;li&gt;Embed 10 levels of equalization in total&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;!!!Tip
+    More details about Grove modules please refer to &lt;a href=&#34;http://wiki.seeed.cc/Grove_System/&#34;&gt;Grove System&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;application-ideas&#34;&gt;Application ideas&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Middle-level audio module for any applications.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;specifications&#34;&gt;Specifications&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Parameter&lt;/th&gt;
+&lt;th&gt;Value&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Input&lt;/td&gt;
+&lt;td&gt;5 V (DC)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Operating current (no signal output state)&lt;/td&gt;
+&lt;td&gt;less than 15 mA&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Operating current&lt;/td&gt;
+&lt;td&gt;less than 40 mA&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Chip&lt;/td&gt;
+&lt;td&gt;KT403A &lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-MP3_v2.0/master/res/Grove-MP3_v2.0_KT403A_datasheet_V1.3_EN-Recompiled_by_Seeed-.pdf&#34;&gt;(datasheet)&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Chip LDO output voltage&lt;/td&gt;
+&lt;td&gt;3.3 V&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Chip output current&lt;/td&gt;
+&lt;td&gt;100mA(at Max.)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;File formats supported&lt;/td&gt;
+&lt;td&gt;MP3, WAV, WMA&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Maximum memory supported for SD card&lt;/td&gt;
+&lt;td&gt;32 GB&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Sampling rate&lt;/td&gt;
+&lt;td&gt;8 / 11.025 / 12 / 16 / 22.05 / 24 / 32 / 44.1 / 48(KHz)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;platforms-supported&#34;&gt;Platforms Supported&lt;/h2&gt;
+
+&lt;h2 id=&#34;hardware-overview&#34;&gt;Hardware Overview&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-MP3_v2.0/master/img/Grove-MP3_v2.0_Component_view-front-1200_S.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-MP3_v2.0/master/img/Grove-MP3_v2.0_Component_View-Back-1200_S.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;parts-list&#34;&gt;&lt;strong&gt;Parts list&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Parts name&lt;/th&gt;
+&lt;th&gt;Quantity&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Grove - MP3 v2.0&lt;/td&gt;
+&lt;td&gt;1PC&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Grove - Universal Cable&lt;/td&gt;
+&lt;td&gt;1PC&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;get-started&#34;&gt;Get started&lt;/h2&gt;
+
+&lt;h3 id=&#34;material-required&#34;&gt;&lt;strong&gt;Material required&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Seeeduino × 1&lt;/li&gt;
+&lt;li&gt;Grove - Base Shield v2 × 1&lt;/li&gt;
+&lt;li&gt;Grove - MP3 v2.0 × 1&lt;/li&gt;
+&lt;li&gt;SD card with music inside × 1&lt;/li&gt;
+&lt;li&gt;USB cable (type A to micro type-B) × 1&lt;/li&gt;
+&lt;li&gt;Headset, earphone or stereo with 3.5 mm audio jack × 1&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;preparations&#34;&gt;Preparations&lt;/h3&gt;
+
+&lt;p&gt;Refer to following guides to building an appropriate IDE:.&lt;/p&gt;
+
+&lt;div class=&#34;admonition note&#34;&gt;
+&lt;p class=&#34;admonition-title&#34;&gt;Note&lt;/p&gt;
+We have chosen Seeeduino and it is compatible with Arduino in this case. So you can also use Arduino board instead.
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://wiki.seeed.cc/Seeeduino_v4.2#Getting_Started_on_Windows&#34;&gt;Getting Started on Windows&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://wiki.seeed.cc/Seeeduino_v4.2#Getting_Started_on_Mac_OS_X&#34;&gt;Getting Started on Mac OS X&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;hardware-connections&#34;&gt;Hardware connections&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-MP3_v2.0/master/img/Grove-MP3_v2.0_Demo_connection_1200_S.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;a-example-to-run&#34;&gt;A example to run&lt;/h3&gt;
+
+&lt;h4 id=&#34;download-example&#34;&gt;Download example&lt;/h4&gt;
+
+&lt;p&gt;1.Github &lt;a href=&#34;https://github.com/Seeed-Studio/Grove_Serial_MP3_Player_V2.0&#34;&gt;address&lt;/a&gt; which also contain sufficient API to download codes.&lt;/p&gt;
+
+&lt;p&gt;2.Refer to &lt;a href=&#34;http://wiki.seeed.cc/Guide_to_use_demos_downloaded_from_Seeed&#39;s_Github&#34;&gt;here&lt;/a&gt; to learn how to do some preliminary work before running code.&lt;/p&gt;
+
+&lt;p&gt;3.Load file &lt;em&gt;MP3_Play_Test.ino&lt;/em&gt; into Arduino and upload to the main controller board.&lt;/p&gt;
+
+&lt;p&gt;4.Open Serial Monitor (Ctrl + Shift + M) to send a command to play music.&lt;/p&gt;
+
+&lt;div class=&#34;admonition note&#34;&gt;
+&lt;p class=&#34;admonition-title&#34;&gt;Note&lt;/p&gt;
+We need to choose &lt;span style=&#34;font-style:italic&#34;&gt;No line ending&lt;/span&gt; beside baud rate droplist at bottom-right of Serial Monitor window.
+&lt;/div&gt;
+
+&lt;p&gt;5.In this case, we type &lt;em&gt;1&lt;/em&gt; which is a command to play music. You can find more command comments in demo source code.&lt;/p&gt;
+
+&lt;p&gt;6.Now enjoy the music.&lt;/p&gt;
+
+&lt;h3 id=&#34;advanced-programming&#34;&gt;Advanced programming&lt;/h3&gt;
+
+&lt;p&gt;For advanced programming, you can &lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-MP3_v2.0/master/res/Grove-MP3_v2.0_KT403A_datasheet_V1.3_EN-Recompiled_by_Seeed-.pdf&#34;&gt;download&lt;/a&gt; datasheet of chip KT403A.&lt;/p&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Hardware &lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-MP3_v2.0/master/res/Grove-MP3_v2.0_Schematic_files.zip&#34;&gt;Schematic files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Seeed-Studio/Grove_Serial_MP3_Player_V2.0&#34;&gt;Libraries&lt;/a&gt; on Github.&lt;/li&gt;
+&lt;li&gt;KT403A &lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-MP3_v2.0/master/res/Grove-MP3_v2.0_KT403A_datasheet_V1.3_EN-Recompiled_by_Seeed-.pdf&#34;&gt;Datasheet&lt;/a&gt; (part)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_MP3_v2.0 --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

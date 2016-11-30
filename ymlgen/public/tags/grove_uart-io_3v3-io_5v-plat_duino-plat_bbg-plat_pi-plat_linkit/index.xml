@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
+    <link>http://wiki.seeed.cc/tags/grove_uart-io_3v3-io_5v-plat_duino-plat_bbg-plat_pi-plat_linkit/index.xml</link>
+    <description>Recent content on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://wiki.seeed.cc/tags/grove_uart-io_3v3-io_5v-plat_duino-plat_bbg-plat_pi-plat_linkit/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Grove - GPS</title>
+      <link>http://wiki.seeed.cc/Grove-GPS/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/Grove-GPS/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-GPS/master/img/Grove-GPS.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This Grove - GPS module is a cost-efficient and field-programmable gadget armed with a SIM28 (u-blox 6 is the old version) and serial communication configuration. It features 22 tracking / 66 acquisition channel GPS receiver. The sensitivity of tracking and acquisition both reach up to -160dBm, making it a great choice for personal navigation projects and location services, as well as an outstanding one among products of the same price class.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/depot/grove-gps-p-959.html&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Supports NMEA and u-blox 6 protocols. ( Till Jan,10 2014, after that SIM28 instead)&lt;/li&gt;
+&lt;li&gt;Low power consumption&lt;/li&gt;
+&lt;li&gt;Baud rates configurable&lt;/li&gt;
+&lt;li&gt;Grove compatible interface&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;!!!Tip
+    More details about Grove modules please refer to &lt;a href=&#34;http://wiki.seeed.cc/Grove_System/&#34;&gt;Grove System&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;specifications&#34;&gt;Specifications&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;Parameter&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Range/Value&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Input Voltage&lt;/td&gt;
+&lt;td&gt;3.3/5V&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;BaudRate&lt;/td&gt;
+&lt;td&gt;4800 - 57600(u-blox version)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;BaudRate&lt;/td&gt;
+&lt;td&gt;9600 - 115200(SIM28 version)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Default BaudRate&lt;/td&gt;
+&lt;td&gt;9600&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;platforms-supported&#34;&gt;Platforms Supported&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Following documents help in getting the user started with Grove.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://wiki.seeed.cc/Grove_System&#34;&gt;to Grove system&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;demos&#34;&gt;Demos&lt;/h2&gt;
+
+&lt;h3 id=&#34;with-arduino-arduino-arduino&#34;&gt;With &lt;a href=&#34;http://wiki.seeed.cc/Arduino&#34; title=&#34;Arduino&#34;&gt;Arduino&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;This sample simply reads from the GPS using software serial and sends it back out on the serial port.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Connect the Grove-GPS to Digital I/O 2 on the &lt;a href=&#34;http://wiki.seeed.cc/Base_Shield_V2&#34; title=&#34;Grove - Base Shield&#34;&gt;Grove - Base Shield&lt;/a&gt; using a Grove Universal 4 pin cable.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Upload the code below.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code&gt;// link between the computer and the SoftSerial Shield
+//at 9600 bps 8-N-1
+//Computer is connected to Hardware UART
+//SoftSerial Shield is connected to the Software UART:D2&amp;amp;D3
+ 
+#include &amp;lt;SoftwareSerial.h&amp;gt;
+ 
+SoftwareSerial SoftSerial(2, 3);
+unsigned char buffer[64];                   // buffer array for data receive over serial port
+int count=0;                                // counter for buffer array
+ 
+void setup()
+{
+    SoftSerial.begin(9600);                 // the SoftSerial baud rate
+    Serial.begin(9600);                     // the Serial port of Arduino baud rate.
+}
+ 
+void loop()
+{
+    if (SoftSerial.available())                     // if date is coming from software serial port ==&amp;gt; data is coming from SoftSerial shield
+    {
+        while(SoftSerial.available())               // reading data into char array
+        {
+            buffer[count++]=SoftSerial.read();      // writing data into array
+            if(count == 64)break;
+        }
+        Serial.write(buffer,count);                 // if no data transmission ends, write buffer to hardware serial port
+        clearBufferArray();                         // call clearBufferArray function to clear the stored data from the array
+        count = 0;                                  // set counter of while loop to zero
+ 
+ 
+    }
+    if (Serial.available())                 // if data is available on hardware serial port ==&amp;gt; data is coming from PC or notebook
+    SoftSerial.write(Serial.read());        // write it to the SoftSerial shield
+}
+ 
+void clearBufferArray()                     // function to clear buffer array
+{
+    for (int i=0; i&amp;lt;count;i++)
+    {
+        buffer[i]=NULL;
+    }                      // clear all index of array with command NULL
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Install &lt;a href=&#34;http://www.u-blox.com/images/Support/Support_Products/EvaluationSoftware/u-centersetup-6.2.0.0.zip&#34;&gt;u-center&lt;/a&gt;. Upload the code below to your Arduino/Seeeduino and then open u-center.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Click Receiver -&amp;gt; Port and select the COM port that the Arduino is using.&lt;/li&gt;
+&lt;li&gt;Click Receiver -&amp;gt; Baudrate and make sure 9600 is selected.&lt;/li&gt;
+&lt;li&gt;Click View -&amp;gt; Text Console and you should get a window that will stream NMEA data.&lt;/li&gt;
+&lt;li&gt;Open the serial monitor,You can see as show below:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-GPS/master/img/GPS_result.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;To View data in Google Earth:&lt;/em&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Click File -&amp;gt; Database Export -&amp;gt; Google Earth KML&lt;/li&gt;
+&lt;li&gt;This should launch Google Earth with the history that was captured by u-center.&lt;/li&gt;
+&lt;li&gt;Alternatively, data can be recorded by pressing the red circle on the toolbar which will then ask you where you want to save the record.&lt;/li&gt;
+&lt;li&gt;When you have captured enough data, click the black square to stop recording.&lt;/li&gt;
+&lt;li&gt;You can then convert the .ubx file generated to KML by using uploading the ubx file to &lt;a href=&#34;http://www.gpsvisualizer.com/&#34;&gt;GPSVisualizer&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;with-raspberry-pi&#34;&gt;With Raspberry Pi&lt;/h3&gt;
+
+&lt;p&gt;1.You need a Raspberry Pi and a GrovePi or GrovePi+.&lt;/p&gt;
+
+&lt;p&gt;2.You should have completed configuring the development environment, otherwise follow &lt;a href=&#34;http://wiki.seeed.cc/GrovePiPlus&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;3.Connection&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Plug Grove GPS into grovepi socket RPISER.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;4.Navigate to the demos&amp;rsquo; directory:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    cd yourpath/GrovePi/Software/Python/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;To see the code&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;nano grove_gps.py   # &amp;quot;Ctrl+x&amp;quot; to exit #
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;import serial, time
+import smbus
+import math
+import RPi.GPIO as GPIO
+import struct
+import sys
+ 
+ser = serial.Serial(&#39;/dev/ttyAMA0&#39;,  9600, timeout = 0)   #Open the serial port at 9600 baud
+ser.flush()
+ 
+class GPS:
+#The GPS module used is a Grove GPS module http://www.seeedstudio.com/depot/Grove-GPS-p-959.html
+inp=[]
+# Refer to SIM28 NMEA spec file http://www.seeedstudio.com/wiki/images/a/a0/SIM28_DATA_File.zip
+GGA=[]
+ 
+#Read data from the GPS
+def read(self):
+    while True:
+        GPS.inp=ser.readline()
+        if GPS.inp[:6] ==&#39;$GPGGA&#39;: # GGA data , packet 1, has all the data we need
+            break
+        time.sleep(0.1)
+    try:
+        ind=GPS.inp.index(&#39;$GPGGA&#39;,5,len(GPS.inp)) #Sometimes multiple GPS data packets come into the stream. Take the data only after the last &#39;$GPGGA&#39; is seen
+        GPS.inp=GPS.inp[ind:]
+    except ValueError:
+        print &amp;quot;&amp;quot;
+    GPS.GGA=GPS.inp.split(&amp;quot;,&amp;quot;)   #Split the stream into individual parts
+    return [GPS.GGA]
+ 
+#Split the data into individual elements
+def vals(self):
+    time=GPS.GGA[1]
+    lat=GPS.GGA[2]
+    lat_ns=GPS.GGA[3]
+    long=GPS.GGA[4]
+    long_ew=GPS.GGA[5]
+    fix=GPS.GGA[6]
+    sats=GPS.GGA[7]
+    alt=GPS.GGA[9]
+    return [time,fix,sats,alt,lat,lat_ns,long,long_ew]
+ 
+g=GPS()
+f=open(&amp;quot;gps_data.csv&amp;quot;,&#39;w&#39;)   #Open file to log the data
+f.write(&amp;quot;name,latitude,longitude\n&amp;quot;)   #Write the header to the top of the file
+ind=0
+while True:
+try:
+    x=g.read()  #Read from GPS
+    [t,fix,sats,alt,lat,lat_ns,long,long_ew]=g.vals() #Get the individial values
+    print &amp;quot;Time:&amp;quot;,t,&amp;quot;Fix status:&amp;quot;,fix,&amp;quot;Sats in view:&amp;quot;,sats,&amp;quot;Altitude&amp;quot;,alt,&amp;quot;Lat:&amp;quot;,lat,lat_ns,&amp;quot;Long:&amp;quot;,long,long_ew
+    s=str(t)+&amp;quot;,&amp;quot;+str(float(lat)/100)+&amp;quot;,&amp;quot;+str(float(long)/100)+&amp;quot;\n&amp;quot;   
+    f.write(s)   #Save to file
+    time.sleep(2)
+except IndexError:
+    print &amp;quot;Unable to read&amp;quot;
+except KeyboardInterrupt:
+    f.close()
+    print &amp;quot;Exiting&amp;quot;
+    sys.exit(0)
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;5.Run the demo.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    sudo python grove_gps.py
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;6.Result&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-GPS/master/img/Grovepi_gps_00.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;div class=&#34;admonition note&#34;&gt;
+&lt;p class=&#34;admonition-title&#34;&gt;Note&lt;/p&gt;
+GPS is better used outdoors. It is recommended to put your raspberry pi outside the window or any place outdoors.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;sim28-module-note&#34;&gt;SIM28 module Note:&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;GPS Bee has change the module as SIM28 which the same footprint as origin version.&lt;/li&gt;
+&lt;li&gt;You should use &lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-GPS/master/res/SIMCom_GPS_DEMO_V1.07.zip&#34;&gt;&amp;ldquo;SIMCom GPS DEMO&amp;rdquo;&lt;/a&gt; tools to receive SIM28 module data.&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Open SIMCom_GPS_DEMO tools, go to Module-&amp;gt;properties-&amp;gt;module-&amp;gt;select SIM28.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-GPS/master/img/SIM28_module_select.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Open SIMCom_GPS_DEMO tools, go to Module-&amp;gt;connect. Select the serial port which the GPS module used.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-GPS/master/img/SIM28_module_tools_pannel.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-GPS/master/res/GPS.zip&#34;&gt;GPS Eagle File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-GPS/master/res/GPS.pdf&#34;&gt;GPS Schematic(PDF)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-GPS/master/res/E-1612-UB_Datasheets_Sheet.pdf&#34;&gt;E-1612-UB Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-GPS/master/res/U-blox-6-Receiver-Description-Including-Protocol-Specification.zip&#34;&gt;U-Blox6 Receiver Description Protocol Spec&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.u-blox.com/en/product/u-center-windows&#34;&gt;U-Blox u-center GPS evaluation software&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-GPS/master/res/SIM28_DATA_File.zip&#34;&gt;SIM28_DATA_File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-GPS/master/res/SIMCom_GPS_DEMO_V1.07.zip&#34;&gt;SIMCom_GPS_DEMO_V1.07&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_GPS --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
+    <link>http://wiki.seeed.cc/tags/grove_analog-io_5v-plat_duino-plat_linkit/index.xml</link>
+    <description>Recent content on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://wiki.seeed.cc/tags/grove_analog-io_5v-plat_duino-plat_linkit/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Grove - HCHO Sensor</title>
+      <link>http://wiki.seeed.cc/Grove-HCHO_Sensor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/Grove-HCHO_Sensor/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-HCHO_Sensor/master/img/HCHO_Sensor_01.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Grove - HCHO Sensor is a semiconductor VOC gas sensor. Its design is based on WSP2110 whose conductivity changes with the concentration of VOC gas in air. Through the circuit, the conductivity can be converted to output signal that corresponding to the gas concentration. This sensor has a very high sensitivity and stability, it can detect the gas whose concentration is up to 1ppm. It’s suitable for detecting formaldehyde, benzene, toluene and other volatile components. This product can be used to detect harmful gas in the home environment. Therefore, it’s a good assistant for you to improve indoor environment quality of life.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/depot/grove-hcho-sensor-p-1593.html&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&#34;admonition warning&#34;&gt;
+&lt;p class=&#34;admonition-title&#34;&gt;Warning&lt;/p&gt;
+The sensor value only reflects the approximated trend of gas concentration in a permissible error range, it DOES NOT represent the exact gas concentration. The detection of certain components in the air usually requires a more precise and costly instrument, which cannot be done with a single gas sensor. If your project is aimed at obtaining the gas concentration at a very precise level, then we do not recommend this gas sensor.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;specifications&#34;&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Operating Voltage: 5.0V ± 0.3V&lt;/li&gt;
+&lt;li&gt;Target Gases: HCHO, Benzene,Toluene,Alcohol&lt;/li&gt;
+&lt;li&gt;Concentration Range: 1~50 ppm&lt;/li&gt;
+&lt;li&gt;Sensor Resistance Value(Rs): 10KΩ-100KΩ(in 10ppm HCHO)&lt;/li&gt;
+&lt;li&gt;Sensitivity: Rs(in air)/Rs(10ppm HCHO)≥5&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;!!!Tip
+    More details about Grove modules please refer to &lt;a href=&#34;http://wiki.seeed.cc/Grove_System/&#34;&gt;Grove System&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;platforms-supported&#34;&gt;Platforms Supported&lt;/h2&gt;
+
+&lt;h2 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h2&gt;
+
+&lt;h3 id=&#34;with-arduino-arduino-arduino&#34;&gt;With &lt;a href=&#34;http://wiki.seeed.cc/Arduino&#34; title=&#34;Arduino&#34;&gt;Arduino&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;The Grove - HCHO Sensor can be used to detect VOCs, such as HCHO,toluene, benzene, alcohol. Here we take alcohol for an example to demonstrate how to use this sensor.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-HCHO_Sensor/master/img/HCHO_Hardware_Connection.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// demo of Grove - HCHO Sensor
+ 
+void setup()
+{
+    Serial.begin(9600);
+}
+ 
+void loop()
+{
+    int sensorValue=analogRead(A0);
+    float Vol=sensorValue*4.95/1023;
+    Serial.print(&amp;quot;Vol = &amp;quot;);
+    Serial.println(Vol);
+    delay(500);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After uploading the code, open the serial monitor to get the voltage(Vol) under normal condition.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-HCHO_Sensor/master/img/Test_result1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now list out the formula describing the relationship of Vol and R0:&lt;/p&gt;
+
+&lt;p&gt;R0=(Vc/Vol-1)×R1 (Vc=4.95V) ①&lt;/p&gt;
+
+&lt;p&gt;Then put a bottle of alcohol near the sensor, and read again the sensor value:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-HCHO_Sensor/master/img/Test_result3.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And we get the Rs:&lt;/p&gt;
+
+&lt;p&gt;Rs = (Vc/Vol-1)×R1 (Vc=4.95V) ②&lt;/p&gt;
+
+&lt;p&gt;Now calculate Rs/R0. Here we get 0.285. Then refer to the sensitivity characteristic diagram below and find the alcohol concentration is about 5 ppm.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-HCHO_Sensor/master/img/Sensitivity_Characteristic.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;with-raspberry-pi&#34;&gt;With Raspberry Pi&lt;/h3&gt;
+
+&lt;p&gt;1.You should have got a raspberry pi and a grovepi or grovepi+.&lt;/p&gt;
+
+&lt;p&gt;2.You should have completed configuring the development enviroment, otherwise follow &lt;a href=&#34;http://wiki.seeed.cc/GrovePiPlus&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;3.Connection&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Plug the sensor to grovepi socket A0 by using a grove cable.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;4.Navigate to the demos&amp;rsquo; directory:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    cd yourpath/GrovePi/Software/Python/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;To see the code&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;nano grove_hcho_sensor.py   # &amp;quot;Ctrl+x&amp;quot; to exit #
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;import time
+import grovepi
+
+# The sensitivity can be adjusted by the onboard potentiometer
+
+# Connect the Grove HCHO Sensor to analog port A0
+# SIG,NC,VCC,GND
+hcho_sensor = 0
+
+grovepi.pinMode(hcho_sensor,&amp;quot;INPUT&amp;quot;)
+
+# Vcc of the grove interface is normally 5v
+grove_vcc = 5
+
+while True:
+    try:
+        # Get sensor value
+        sensor_value = grovepi.analogRead(hcho_sensor)
+
+        # Calculate voltage
+        voltage = (float)(sensor_value * grove_vcc / 1024)
+
+        print &amp;quot;sensor_value =&amp;quot;, sensor_value, &amp;quot; voltage =&amp;quot;, voltage
+        time.sleep(.5)
+
+    except IOError:
+        print &amp;quot;Error&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;5.Run the demo.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    sudo python grove_hcho_sensor.py
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-HCHO_Sensor/master/res/Grove-HCHO_Sensor_Eagle_File.zip&#34;&gt;Grove - HCHO Sensor Eagle File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-HCHO_Sensor/master/res/WSP2110.pdf&#34;&gt;WSP2110 Datasheet (Chinese)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-HCHO_Sensor/master/res/Wsp2110-1-.pdf&#34;&gt;WSP2110 Datasheet (English)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_HCHO_Sensor --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

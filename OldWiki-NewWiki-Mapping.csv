@@ -23,6 +23,7 @@ Basic Fastener Kit,http://wiki.seeed.cc/Basic_Fastener_Kit/,http://wiki.seeedstu
 Battery Detector with Polymer Lithium Ion 1050mAh 3.7V,http://wiki.seeed.cc/Battery_Detector_with_Polymer_Lithium_Ion_1050mAh_3.7V/,http://wiki.seeedstudio.com/wiki/Battery_Detector_with_Polymer_Lithium_Ion_1050mAh_3.7V
 Battery Detector with Polymer Lithium Ion 5100mAh 3.8V,http://wiki.seeed.cc/Battery_Detector_with_Polymer_Lithium_Ion_5100mAh_3.8V/,http://wiki.seeedstudio.com/wiki/Battery_Detector_with_Polymer_Lithium_Ion_5100mAh_3.8V
 Beagle Bone Green and Grove IoT Starter Kit Powered by AWS,http://wiki.seeed.cc/Beagle_Bone_Green_and_Grove_IoT_Starter_Kit_Powered_by_AWS/,http://wiki.seeedstudio.com/wiki/Beagle_Bone_Green_and_Grove_IoT_Starter_Kit_Powered_by_AWS
+BeagleBone Case,http://wiki.seeed.cc/Beaglebone_Case/,http://wiki.seeedstudio.com/wiki/BeagleBone Case
 BeagleBone Green,http://wiki.seeed.cc/BeagleBone_Green/,http://wiki.seeedstudio.com/wiki/BeagleBone_Green
 BeagleBone Green HDMI Cape,http://wiki.seeed.cc/BeagleBone_Green_HDMI_Cape/,http://wiki.seeedstudio.com/wiki/BeagleBone_Green_HDMI_Cape
 BeagleBone Green Wireless,http://wiki.seeed.cc/BeagleBone_Green_Wireless/,http://wiki.seeedstudio.com/wiki/SeeedStudio_BeagleBone_Green_Wireless
@@ -62,7 +63,6 @@ Grove - BLE (dual model) v1.0,http://wiki.seeed.cc/Grove-BLE-dual_model-v1.0/,ht
 Grove - Barometer (High-Accuracy),http://wiki.seeed.cc/Grove-Barometer-High-Accuracy/,http://wiki.seeedstudio.com/wiki/Grove_-_Barometer_(High-Accuracy)
 Grove - Barometer Sensor,http://wiki.seeed.cc/Grove-Barometer_Sensor/,http://wiki.seeedstudio.com/wiki/Grove_-_Barometer_Sensor
 Grove - Barometer Sensor (BMP180),http://wiki.seeed.cc/Grove-Barometer_Sensor-BMP180/,http://wiki.seeedstudio.com/wiki/Grove_-_Barometer_Sensor_(BMP180)
-Grove - Barometer Sensor (BMP280),http://wiki.seeed.cc/Grove-Barometer_Sensor-BMP280/,http://wiki.seeedstudio.com/wiki/Grove_-_Barometer_Sensor_(BMP280)
 Grove - Barometer Sensor(BME280),http://wiki.seeed.cc/Grove-Barometer_Sensor-BME280/,http://wiki.seeedstudio.com/wiki/Grove_-_Barometer_Sensor(BME280)
 Grove - Bee Socket,http://wiki.seeed.cc/Grove-Bee_Socket/,http://wiki.seeedstudio.com/wiki/Grove - Bee Socket
 Grove - Button,http://wiki.seeed.cc/Grove-Button/,http://wiki.seeedstudio.com/wiki/Grove - Button
@@ -205,7 +205,7 @@ Grove Starter kit for LinkIt Smart7688 Duo,http://wiki.seeed.cc/Grove_Starter_ki
 Grove System,http://wiki.seeed.cc/Grove_System/,http://wiki.seeedstudio.com/wiki/Grove_System
 Hercules Dual 15A 6-20V Motor Controller,http://wiki.seeed.cc/Hercules_Dual_15A_6-20V_Motor_Controller/,http://wiki.seeedstudio.com/wiki/Hercules_Dual_15A_6-20V_Motor_Controller
 Home,http://wiki.seeed.cc/index/,
-How to edit a document,http://wiki.seeed.cc/How_To_Edit_A_Document/,
+How to edit a document,http://wiki.seeed.cc/How_to_edit_a_document/,
 How to install an Arduino library,http://wiki.seeed.cc/How_to_install_Arduino_Library/,
 I2C LCD,http://wiki.seeed.cc/I2C_LCD/,http://wiki.seeedstudio.com/wiki/I2C_LCD
 IoT Introduction,http://wiki.seeed.cc/IoT/,

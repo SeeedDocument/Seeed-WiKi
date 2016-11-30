@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
+    <link>http://wiki.seeed.cc/tags/grove_i2c-io_5v-plat_duino-plat_linkit/index.xml</link>
+    <description>Recent content on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://wiki.seeed.cc/tags/grove_i2c-io_5v-plat_duino-plat_linkit/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>I2C LCD</title>
+      <link>http://wiki.seeed.cc/I2C_LCD/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/I2C_LCD/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SparkingStudio/I2C_LCD/master/images/I2C_LCD_WIKI_1.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I2C_LCD is an easy-to-use display module, It can make display easier. Using it can reduce the difficulty of make, so that makers can focus on the core of the work.&lt;/p&gt;
+
+&lt;p&gt;We developed the Arduino library for I2C_LCD, user just need a few lines of the code can achieve complex graphics and text display features. It can replace the serial monitor of Arduino in some place, you can get running informations without a computer.&lt;/p&gt;
+
+&lt;p&gt;More than that, we also develop the dedicated picture data convert software (bitmap converter)now is available to support PC platform of windows, Linux, Mac OS. Through the bitmap convert software you can get your favorite picture displayed on I2C_LCD, without the need for complex programming.&lt;/p&gt;
+
+&lt;p&gt;I2C_LCD can provide you with a very convenient way of make. Enjoy yourself!&lt;/p&gt;
+
+&lt;p&gt;###Product Version&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Version&lt;/th&gt;
+&lt;th&gt;How to buy&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;I2C_LCD (With universal Grove cable)&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.seeedstudio.com/I2C_LCD-(With-universal-Grove-cable)-p-2601.html&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/300px-Get_One_Now_Banner.png&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;I2C_LCD (With conversion Grove cable)&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.seeedstudio.com/I2C_LCD-(With-universal-Grove-cable)-p-2601.html&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/300px-Get_One_Now_Banner.png&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;##Features&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Only 2 Arduino pins are occupied (Use I2C interface).&lt;/li&gt;
+&lt;li&gt;Supports standard I2C mode (100Kbit/s) and fast I2C mode (400Kbit/s).&lt;/li&gt;
+&lt;li&gt;Compatible with multiple communication logic levels: 2.8~5VDC.&lt;/li&gt;
+&lt;li&gt;Arduino library supported, use a line of code to complete the display.&lt;/li&gt;
+&lt;li&gt;Integrate 7 sizes of ASCll fonts, 5 graphics functions.&lt;/li&gt;
+&lt;li&gt;Provide dedicated picture data convert software (Bitmap Converter).&lt;/li&gt;
+&lt;li&gt;Most of the complex operation is processed by I2C_LCD independent controller, saving user controller resources.&lt;/li&gt;
+&lt;li&gt;Supports cursor function, can set up 16 cursor flicker frequency.&lt;/li&gt;
+&lt;li&gt;Supports 128 level backlight lightness adjustment.&lt;/li&gt;
+&lt;li&gt;Support 64 level screen contrast adjustment.&lt;/li&gt;
+&lt;li&gt;Support device address modification.&lt;/li&gt;
+&lt;li&gt;Supports 127 I2C_LCD work in parallel.&lt;/li&gt;
+&lt;li&gt;When debugging code, it can take the place of the serial monitor to monitor the program running state.&lt;/li&gt;
+&lt;li&gt;Two abnormal recovery methods are provided: reset and restore the factory settings.&lt;/li&gt;
+&lt;li&gt;Compatible with Grove interface and 4Pin-100mil interface (under the Grove socket).&lt;/li&gt;
+&lt;li&gt;4 symmetrical fixed hole design for easy user installation.&lt;/li&gt;
+&lt;li&gt;China style unique appearance.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;##Platforms Supported&lt;/p&gt;
+
+&lt;p&gt;##Interface Function&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SparkingStudio/I2C_LCD/master/images/I2C_LCD_Board.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Specification
+|Parameter|Value|
+|&amp;mdash;&amp;mdash;&amp;mdash;|&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-|
+|Screen Type|Dual colour LCD|
+|Screen Resolution|128*64 Pixels|
+|Screen Active Area (L*W)| 47.1*26.5mm|
+|Individual Pixel Size|0.33*0.33mm|
+|Communication Mode|I2C(100Kbit/s and 400Kbit/s)|
+|Controller|STM8S005KBT6|
+|Operating Frequency|16 MHz|
+|Weight|20g|&lt;/p&gt;
+
+&lt;p&gt;##Electrical Characteristics
+|Parameter|Min.|Typical|MNax.|Unit|
+|&amp;mdash;&amp;mdash;&amp;mdash;|&amp;mdash;&amp;mdash;|&amp;mdash;&amp;mdash;|&amp;mdash;&amp;mdash;|&amp;mdash;&amp;mdash;|
+|Supply voltage（5V to GND）|4.5|5|5.5|V
+|Logic Voltage（SCL/SDA）|2.8|5|5.5|V
+|HBM ESD|-|5000|-|V
+|Temperature|-20|25|70|℃&lt;/p&gt;
+
+&lt;p&gt;##Application Ideas&lt;/p&gt;
+
+&lt;p&gt;Here is some funny project for your reference.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Display Picture&lt;/th&gt;
+&lt;th&gt;Clock With Calendar&lt;/th&gt;
+&lt;th&gt;Used As Debuger&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SparkingStudio/I2C_LCD/master/images/BitmapDisplay_p1.png&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SparkingStudio/I2C_LCD/master/images/ClockWithCalendar_p1.png&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SparkingStudio/I2C_LCD/master/images/debugWithMe_p1.png&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.instructables.com/id/Display-Picture-Or-Icon-On-the-fancy-I2CLCD/&#34;&gt;Make it Now&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.instructables.com/id/Beautiful-and-practical-clock-with-calendar/&#34;&gt;Make it Now&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.instructables.com/id/Use-I2CLCD-to-Debug-Your-Project-1/&#34;&gt;Make it Now&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Automatic Humidifier&lt;/th&gt;
+&lt;th&gt;Snake Game&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SparkingStudio/I2C_LCD/master/images/AutomaticHumidifier.png&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SparkingStudio/I2C_LCD/master/images/DIY_SnakeGame.png&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.instructables.com/id/DIY-a-Simple-Automatic-Humidifier/&#34;&gt;Make it Now&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.seeed.cc/project_detail.html?id=1621&#34;&gt;Make it Now&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;##Getting Started&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 1:&lt;/strong&gt; Install the latest version of Arduino IDE to your computer.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.arduino.cc/en/Main/Software&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Stalker_V3_1/master/images/Download_IDE.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 2:&lt;/strong&gt; Download and install the I2C_LCD library to Arduino IDE:&lt;/p&gt;
+
+&lt;p&gt;Open Arduino IDE, &lt;strong&gt;click Sketch -&amp;gt; Include library -&amp;gt; Add .ZIP library&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SparkingStudio/I2C_LCD/master/images/I2C_LCD_InstalLib_1.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Find and select the &lt;strong&gt;I2C_LCD.zip&lt;/strong&gt; file you just downloaded.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SparkingStudio/I2C_LCD/master/images/I2C_LCD_InstalLib_2.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Restart the Arduino IDE.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 3:&lt;/strong&gt; Chose the example project which you like. (Take &amp;ldquo;HelloWorld&amp;rdquo; project for example here.)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Click File &amp;gt; Examples &amp;gt; I2C_LCD &amp;gt; HelloWorld&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SparkingStudio/I2C_LCD/master/images/I2C_LCD_InstalLib_3.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 4:&lt;/strong&gt; Connect I2C_LCD to your Seeeduino Vx board with Grove cable. Then connect Seeeduino Vx board to your computer.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SparkingStudio/I2C_LCD/master/images/I2C_LCD_InstalLib_4.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 5:&lt;/strong&gt; Select your board and serial port.&lt;/p&gt;
+
+&lt;p&gt;Select the board: &lt;strong&gt;Click Tools &amp;gt; Board &amp;gt; &amp;ldquo;Arduino Duemilanove or Diecimila&amp;rdquo;(Seeeduino V3.0 Or early version), &amp;ldquo;Arduino Uno&amp;rdquo;(Seeeduino Lotus or Seeeduino V4.0)&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SparkingStudio/I2C_LCD/master/images/I2C_LCD_InstalLib_5.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Select the COM: &lt;strong&gt;Click Tools -&amp;gt; Serial Port -&amp;gt; COMX(which connected with your board.)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SparkingStudio/I2C_LCD/master/images/I2C_LCD_InstalLib_6.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 6:&lt;/strong&gt; Upload the program and &lt;strong&gt;enjoy yourself!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SparkingStudio/I2C_LCD/master/images/I2C_LCD_InstalLib_7.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;PS:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;For more details about library install please refer to &lt;a href=&#34;http://www.arduino.cc/en/Guide/Liaries&#34;&gt;http://www.arduino.cc/en/Guide/Liaries&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;If you encounter other problems during the use, please refer to the User Manual for help. If you can&amp;rsquo;t solve it, please contact us.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Technical support:&lt;/strong&gt; Joney.s@foxmail.com&lt;/p&gt;
+
+&lt;p&gt;##Version Tracker
+&lt;strong&gt;I2C_LCD Hardware:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Revision&lt;/th&gt;
+&lt;th&gt;Release Note&lt;/th&gt;
+&lt;th&gt;Release Date&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;I2C_LCD_v1.2&lt;/td&gt;
+&lt;td&gt;1. Add production test point.&lt;/td&gt;
+&lt;td&gt;Sep 18, 2015&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;I2C_LCD_v1.1&lt;/td&gt;
+&lt;td&gt;1. Modify the logo position. 2. Modify the board shape. 3. Modify the button position.&lt;/td&gt;
+&lt;td&gt;May 8, 2014&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;I2C_LCD_v1.0&lt;/td&gt;
+&lt;td&gt;1. Modify the power circuit wiring.&lt;/td&gt;
+&lt;td&gt;Mar 1, 2014&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;I2C_LCD_v0.9b&lt;/td&gt;
+&lt;td&gt;1. Initial public release.&lt;/td&gt;
+&lt;td&gt;Feb 15, 2014&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;I2C_LCD Library:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Revision&lt;/th&gt;
+&lt;th&gt;Release Note&lt;/th&gt;
+&lt;th&gt;Release Date&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;I2C_LCD_v1.21&lt;/td&gt;
+&lt;td&gt;Support LinkIt boards.&lt;/td&gt;
+&lt;td&gt;Aug 21, 2016&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;I2C_LCD_v1.20&lt;/td&gt;
+&lt;td&gt;Reorganize I2C_LCD driver interface, make it easy to transplant to any other boards.&lt;/td&gt;
+&lt;td&gt;Apr 16, 2016&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;I2C_LCD_v1.12&lt;/td&gt;
+&lt;td&gt;Modify the bug that can&amp;rsquo;t display bitmap when y coordinate is more than 16.&lt;/td&gt;
+&lt;td&gt;Sep 4, 2015&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;I2C_LCD_v1.11&lt;/td&gt;
+&lt;td&gt;Modify the bug that &amp;lsquo;\t&amp;rsquo; can&amp;rsquo;t print.&lt;/td&gt;
+&lt;td&gt;Jun 27, 2015&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;I2C_LCD_v1.10&lt;/td&gt;
+&lt;td&gt;1.Add LCD print function. 2.Edit DeviceAddressConfig example.&lt;/td&gt;
+&lt;td&gt;Jun 25, 2015&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;I2C_LCD_v1.0&lt;/td&gt;
+&lt;td&gt;Initial public release.&lt;/td&gt;
+&lt;td&gt;July 6, 2014&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;##Resources&lt;/p&gt;
+
+&lt;p&gt;Keeping update the latest version.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://github.com/SparkingStudio/I2C_LCD_library&#34;&gt;repository of Arduino library hosted here&lt;/a&gt;, if you have any good idea of the code, you can pull to us.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/SparkingStudio/I2C_LCD/blob/master/resources/I2C_LCD_Library.zip&#34;&gt;I2C_LCD Library&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/SparkingStudio/I2C_LCD/blob/master/resources/I2C_LCD-UserManual_EN.zip&#34;&gt;I2C_LCD User Manual EN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/SparkingStudio/I2C_LCD/blob/master/resources/I2C_LCD-UserManual_CN.zip&#34;&gt;I2C_LCD User Manual 中文&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/SparkingStudio/I2C_LCD/blob/master/resources/Bitmap%20Converter.rar&#34;&gt;BitmapConverter(ForWindows)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/SparkingStudio/I2C_LCD/blob/master/resources/Bitmap%20Converter.dmg&#34;&gt;BitmapConverter(ForMacOS)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/SparkingStudio/I2C_LCD/blob/master/resources/Bitmap%20Converter.tar.gz&#34;&gt;BitmapConverter(ForLinux)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/SparkingStudio/I2C_LCD/blob/master/resources/I2C_LCD12864_SourceFile.zip&#34;&gt;I2C_LCD_SourceFile&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

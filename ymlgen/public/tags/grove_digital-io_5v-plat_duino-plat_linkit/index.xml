@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
+    <link>http://wiki.seeed.cc/tags/grove_digital-io_5v-plat_duino-plat_linkit/index.xml</link>
+    <description>Recent content on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://wiki.seeed.cc/tags/grove_digital-io_5v-plat_duino-plat_linkit/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Grove - Flame Sensor</title>
+      <link>http://wiki.seeed.cc/Grove-Flame_Sensor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/Grove-Flame_Sensor/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Flame_Sensor/master/img/Flame_Sensor_01.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Grove - Flame Sensor can be used to detect fire source or other light sources of the wavelength in the range of 760nm - 1100 nm. It is based on the YG1006 sensor which is a high speed and high sensitive NPN silicon phototransistor. Due to its black epoxy, the sensor is sensitive to infrared radiation. In fire fighting robot game, the sensor plays a very important role, it can be used as a robot eyes to find the fire source.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/Grove-Flame-Sensor-p-1450.html&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Grove Interface&lt;/li&gt;
+&lt;li&gt;High Photo Sensitivity&lt;/li&gt;
+&lt;li&gt;Fast Response Time&lt;/li&gt;
+&lt;li&gt;Easy to use&lt;/li&gt;
+&lt;li&gt;Sensitivity is adjustable&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;!!!Tip
+    More details about Grove modules please refer to &lt;a href=&#34;http://wiki.seeed.cc/Grove_System/&#34;&gt;Grove System&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;specifications&#34;&gt;Specifications&lt;/h2&gt;
+
+&lt;table border=&#34;1&#34; cellspacing=&#34;0&#34; width=&#34;80%&#34;&gt;
+&lt;tr&gt;
+&lt;th scope=&#34;col&#34;&gt;
+Item
+&lt;/th&gt;
+&lt;th scope=&#34;col&#34;&gt;
+Min
+&lt;/th&gt;
+&lt;th scope=&#34;col&#34;&gt;
+Typical
+&lt;/th&gt;
+&lt;th scope=&#34;col&#34;&gt;
+Max
+&lt;/th&gt;
+&lt;th scope=&#34;col&#34;&gt;
+Unit
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr align=&#34;center&#34;&gt;
+&lt;th scope=&#34;row&#34;&gt;
+Voltage
+&lt;/th&gt;
+&lt;td&gt;
+4.75
+&lt;/td&gt;
+&lt;td&gt;
+5.0
+&lt;/td&gt;
+&lt;td&gt;
+5.30
+&lt;/td&gt;
+&lt;td&gt;
+VDC
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align=&#34;center&#34;&gt;
+&lt;th scope=&#34;row&#34;&gt;
+Current
+&lt;/th&gt;
+&lt;td&gt;
+/
+&lt;/td&gt;
+&lt;td&gt;
+20
+&lt;/td&gt;
+&lt;td&gt;
+/
+&lt;/td&gt;
+&lt;td&gt;
+mA
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align=&#34;center&#34;&gt;
+&lt;th scope=&#34;row&#34;&gt;
+Range of Spectral Bandwidth
+&lt;/th&gt;
+&lt;td&gt;
+760
+&lt;/td&gt;
+&lt;td&gt;
+940
+&lt;/td&gt;
+&lt;td&gt;
+1100
+&lt;/td&gt;
+&lt;td&gt;
+nm
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align=&#34;center&#34;&gt;
+&lt;th scope=&#34;row&#34;&gt;
+Detection range
+&lt;/th&gt;
+&lt;td&gt;
+0
+&lt;/td&gt;
+&lt;td&gt;
+~
+&lt;/td&gt;
+&lt;td&gt;
+1
+&lt;/td&gt;
+&lt;td&gt;
+m
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align=&#34;center&#34;&gt;
+&lt;th scope=&#34;row&#34;&gt;
+Response Time
+&lt;/th&gt;
+&lt;td colspan=&#34;3&#34;&gt;
+15
+&lt;/td&gt;
+&lt;td&gt;
+μS
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align=&#34;center&#34;&gt;
+&lt;th scope=&#34;row&#34;&gt;
+Operating Temperature
+&lt;/th&gt;
+&lt;td&gt;
+-25
+&lt;/td&gt;
+&lt;td&gt;
+~
+&lt;/td&gt;
+&lt;td&gt;
+85
+&lt;/td&gt;
+&lt;td&gt;
+℃
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;platforms-supported&#34;&gt;Platforms Supported&lt;/h2&gt;
+
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+
+&lt;p&gt;The module is mainly used to detect the infrared light. It outputs digital signal 0 and 1 through a Comparator output. The output value will be 0​​ when infrared light is detected. And the sensitivity is adjustable by the precision potentiometer.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s use it to control. When the output value is 0, the led will light up.&lt;/p&gt;
+
+&lt;p&gt;1.Connect the module to the D3 of &lt;a href=&#34;http://wiki.seeed.cc/Base_Shield_V2&#34; title=&#34;Grove - Base Shield&#34;&gt;Grove - Base Shield&lt;/a&gt; using the 4-pin grove cable.&lt;/p&gt;
+
+&lt;p&gt;2.Plug the Grove - Base Shield into Arduino.&lt;/p&gt;
+
+&lt;p&gt;3.Connect Arduino to PC by using a USB cable.&lt;/p&gt;
+
+&lt;p&gt;4.Copy and paste code below to a new Arduino sketch.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    /******************************************************************************/
+
+    #define SENSOR 3 //connect SENSOR to digital pin3
+    #define LED 2//connect Grove - LED to pin2
+
+void setup()
+{
+    pinsInit();
+}
+void loop()
+{
+    if(isFlameDetected())
+    turnOnLED();
+    else turnOffLED();
+}
+    /********************************/
+void pinsInit()
+{
+    pinMode(FLAME_SENSOR, INPUT);
+    pinMode(LED,OUTPUT);
+    digitalWrite(LED,LOW);
+}
+void turnOnLED()
+{
+    digitalWrite(LED,HIGH);
+}
+void turnOffLED()
+{
+    digitalWrite(LED,LOW);
+}
+boolean isFlameDetected()
+{
+    if(digitalRead(FLAME_SENSOR))
+    return false;
+    else return true;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;5.The LED will light up when there is infrared light. Please use it to designed your products.&lt;/p&gt;
+
+&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
+
+&lt;p&gt;The sensor can detect the light source whose wavelength is in the range of 760nm - 1100 nm. The picture below shows the spectral sensitivity.
+&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Flame_Sensor/master/img/Spectral_Sensitive.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Flame_Sensor/master/res/Grove-Directional_Light_Sensor_Eagle_File.zip&#34;&gt;Grove - Flame Sensor Eagle File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Seeed-Studio/Grove_Flame_Sensor&#34;&gt;Github repository for Grove_Flame_Sensor Library&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Flame_Sensor/master/res/LM293D.pdf&#34;&gt;LM293D datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_Flame_Sensor --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Grove - Hall Sensor</title>
+      <link>http://wiki.seeed.cc/Grove-Hall_Sensor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/Grove-Hall_Sensor/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Hall_Sensor/master/img/Grove-Hall_Sensor_New.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Hall sensor is based on Hall Effect, which is the production of a voltage difference across an electrical conductor, transverse to an electric current in the conductor and a magnetic field perpendicular to the current. There is a continuous-time switch on this Grove. The output of these devices switches low (turns on) when a magnetic field (south polarity) perpendicular to the Hall sensor exceeds the operate point threshold BOP, and it switches high (turn off) when the magnetic field disappears. The twig can be used to measure RPM.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/depot/grove-hall-sensor-p-965.html&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;version-tracker&#34;&gt;Version Tracker&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Revision&lt;/th&gt;
+&lt;th&gt;Descriptions&lt;/th&gt;
+&lt;th&gt;Release&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;v0.9b&lt;/td&gt;
+&lt;td&gt;Initial public release&lt;/td&gt;
+&lt;td&gt;3,Oct,2011&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Grove Compatible Interface&lt;/li&gt;
+&lt;li&gt;400ns transition period for rise and fall.&lt;/li&gt;
+&lt;li&gt;Continuous-time hall effect sensor&lt;/li&gt;
+&lt;li&gt;Reverse battery protection&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;!!!Tip
+    More details about Grove modules please refer to &lt;a href=&#34;http://wiki.seeed.cc/Grove_System/&#34;&gt;Grove System&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;specifications&#34;&gt;Specifications&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Item&lt;/th&gt;
+&lt;th&gt;Min&lt;/th&gt;
+&lt;th&gt;Typical&lt;/th&gt;
+&lt;th&gt;Max&lt;/th&gt;
+&lt;th&gt;Unit&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Supply Voltage&lt;/td&gt;
+&lt;td&gt;3.8&lt;/td&gt;
+&lt;td&gt;5.0&lt;/td&gt;
+&lt;td&gt;24&lt;/td&gt;
+&lt;td&gt;V&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Supply Current&lt;/td&gt;
+&lt;td&gt;4.1&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;24&lt;/td&gt;
+&lt;td&gt;mA&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Operating Temperature&lt;/td&gt;
+&lt;td&gt;-40&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;85&lt;/td&gt;
+&lt;td&gt;ºC&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;platforms-supported&#34;&gt;Platforms Supported&lt;/h2&gt;
+
+&lt;h2 id=&#34;application-ideas&#34;&gt;Application Ideas&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;RPM meter.&lt;/li&gt;
+&lt;li&gt;Simple dc motor.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h2&gt;
+
+&lt;p&gt;The Hall Sensor is used by utilizing the external interrupts available on the arduino/seeeduino. In this example we are using interrupt 0, found on digital pin 2. For other interrupts, see the &lt;a href=&#34;http://www.arduino.cc/en/Reference/AttachInterrupt&#34;&gt;attachInterrupt()&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Connect the Hall Sensor to Digital port 2 of the &lt;a href=&#34;http://wiki.seeed.cc/Base_Shield_V2&#34;&gt;Grove - Base Shield&lt;/a&gt; using a 4 pin cable and connect Grove-LED to Digital Port 4.&lt;/li&gt;
+&lt;li&gt;Then connect Arduino to PC by using a USB cable.&lt;/li&gt;
+&lt;li&gt;Download the &lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Hall_Sensor/master/res/Grove-Hall_Sensor_Demo_Code.zip&#34;&gt;Hall Sensor Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Open one of two code. For example Demo &lt;strong&gt;MagnetControlLED&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Hall_Sensor/master/img/Hall_Sensor_Demo_Code.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Upload the code.&lt;/li&gt;
+&lt;li&gt;When a magnet whose south pole is facing up is approaching to the onboard sensor, the LED will be turned on. Otherwise, the LED will be turned off.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Hall_Sensor/master/res/Twig_Hall_Sensor_v0.9b.zip&#34;&gt;Grove-Hall Sensor Eagle File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Hall_Sensor/master/res/Grove-Hall_Sensor_Demo_Code.zip&#34;&gt;Hall Sensor Demo Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf&#34;&gt;A1101 datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_Hall_Sensor --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

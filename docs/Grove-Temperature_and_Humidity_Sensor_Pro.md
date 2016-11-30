@@ -21,7 +21,7 @@ Gopro in temperature and relative humidity measurement applications with this Gr
 |Measuring Current Supply	|	1|	-|	1.5|	mA|
 |Standby Current Supply	|	40|	-|	50|	uA|
 |Measuring range **(Humidity)**	|5%|	-|	99%|	RH|
-|Measuring range **(Temperature)**|	40|	-	|80|	°C|
+|Measuring range **(Temperature)**|	-40|	-	|80|	°C|
 |Accuracy	**(Humidity)**|-	|	-|	±2%|	RH|
 |Accuracy **(Temperature)**	|-|-|	±0.5|	°C|
 |Resolution	**(Humidity)**	|-|	-|	0.1%	|RH|
@@ -35,7 +35,7 @@ Gopro in temperature and relative humidity measurement applications with this Gr
 !!!Tip
     More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
 
-    
+
 **Platforms Supported**
 
 |Arduino|Raspberry Pi|
@@ -119,4 +119,5 @@ while True:
 
 - [Temp Humi Pro eagle files.zip](https://github.com/SeeedDocument/Grove-Temperature_and_Humidity_Sensor_Pro/raw/master/res/Temp_Humi_Pro_eagle_files.zip)
 - [Humidity Temperature Sensor pro.zip](https://github.com/SeeedDocument/Grove-Temperature_and_Humidity_Sensor_Pro/raw/master/res/Humidity_Temperature_Sensor_pro.zip)
-- [AM2302.pdf](https://github.com/SeeedDocument/Grove-Temperature_and_Humidity_Sensor_Pro/raw/master/res/AM2302.pdf)
+- [AM2302-CN.pdf](https://github.com/SeeedDocument/Grove-Temperature_and_Humidity_Sensor_Pro/raw/master/res/AM2302-CN.pdf)
+- [AM2302-EN.pdf](https://github.com/SeeedDocument/Grove-Temperature_and_Humidity_Sensor_Pro/raw/master/res/AM2302-EN.pdf)

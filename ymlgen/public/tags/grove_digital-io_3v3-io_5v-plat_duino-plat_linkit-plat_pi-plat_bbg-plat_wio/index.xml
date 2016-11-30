@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
+    <link>http://wiki.seeed.cc/tags/grove_digital-io_3v3-io_5v-plat_duino-plat_linkit-plat_pi-plat_bbg-plat_wio/index.xml</link>
+    <description>Recent content on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://wiki.seeed.cc/tags/grove_digital-io_3v3-io_5v-plat_duino-plat_linkit-plat_pi-plat_bbg-plat_wio/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Grove - Dry-Reed Relay</title>
+      <link>http://wiki.seeed.cc/Grove-Dry-Reed_Relay/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/Grove-Dry-Reed_Relay/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Dry-Reed_Relay/master/img/DryReed_Relay_01.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;Grove-Dry Reed Relay&lt;/strong&gt; is a relay module which works through magnetizing the vibration reed via the current in the coils. Compared to electromagnetic relays, the contacts completely sealed is the biggest feature of the Dry-Reed Relay. Besides, it features simplicity in construct, compactness, fast speed and long life, which make it widely applied in many fields such as microelectronic detection, Automatic Control etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/Grove-Dry-Reed-Relay-p-1412.html&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Grove Interface&lt;/li&gt;
+&lt;li&gt;High Speed&lt;/li&gt;
+&lt;li&gt;Good stability&lt;/li&gt;
+&lt;li&gt;Long contact life&lt;/li&gt;
+&lt;li&gt;Contact fully sealed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;!!!Tip
+    More details about Grove modules please refer to &lt;a href=&#34;http://wiki.seeed.cc/Grove_System/&#34;&gt;Grove System&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;specifications&#34;&gt;Specifications&lt;/h2&gt;
+
+&lt;table border=&#34;1&#34; cellspacing=&#34;0&#34; width=&#34;80%&#34;&gt;
+&lt;tr&gt;
+&lt;th scope=&#34;col&#34;&gt;
+Item
+&lt;/th&gt;
+&lt;th scope=&#34;col&#34;&gt;
+Min
+&lt;/th&gt;
+&lt;th scope=&#34;col&#34;&gt;
+Typical
+&lt;/th&gt;
+&lt;th scope=&#34;col&#34;&gt;
+Max
+&lt;/th&gt;
+&lt;th scope=&#34;col&#34;&gt;
+Unit
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr align=&#34;center&#34;&gt;
+&lt;th scope=&#34;row&#34;&gt;
+Voltage
+&lt;/th&gt;
+&lt;td&gt;
+4.8
+&lt;/td&gt;
+&lt;td&gt;
+5.0
+&lt;/td&gt;
+&lt;td&gt;
+5.2
+&lt;/td&gt;
+&lt;td&gt;
+VDC
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align=&#34;center&#34;&gt;
+&lt;th scope=&#34;row&#34;&gt;
+Coil Resistance
+&lt;/th&gt;
+&lt;td&gt;
+225
+&lt;/td&gt;
+&lt;td&gt;
+250
+&lt;/td&gt;
+&lt;td&gt;
+275
+&lt;/td&gt;
+&lt;td&gt;
+Ω
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align=&#34;center&#34;&gt;
+&lt;th scope=&#34;row&#34;&gt;
+Pick-Up Voltage
+&lt;/th&gt;
+&lt;td colspan=&#34;3&#34;&gt;
+3.75
+&lt;/td&gt;
+&lt;td&gt;
+VDC
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align=&#34;center&#34;&gt;
+&lt;th scope=&#34;row&#34;&gt;
+Switching Current(Max)
+&lt;/th&gt;
+&lt;td colspan=&#34;3&#34;&gt;
+0.5
+&lt;/td&gt;
+&lt;td&gt;
+A
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align=&#34;center&#34;&gt;
+&lt;th scope=&#34;row&#34;&gt;
+Switching Voltage(Max)
+&lt;/th&gt;
+&lt;td colspan=&#34;3&#34;&gt;
+120 VAC/60VDC
+&lt;/td&gt;
+&lt;td&gt;
+-
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align=&#34;center&#34;&gt;
+&lt;th scope=&#34;row&#34;&gt;
+Carrying Current(Max)
+&lt;/th&gt;
+&lt;td colspan=&#34;3&#34;&gt;
+1.0
+&lt;/td&gt;
+&lt;td&gt;
+A
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align=&#34;center&#34;&gt;
+&lt;th scope=&#34;row&#34;&gt;
+Operate Time(Max)
+&lt;/th&gt;
+&lt;td colspan=&#34;3&#34;&gt;
+1.0
+&lt;/td&gt;
+&lt;td&gt;
+mS
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align=&#34;center&#34;&gt;
+&lt;th scope=&#34;row&#34;&gt;
+Release Time(Max)
+&lt;/th&gt;
+&lt;td colspan=&#34;3&#34;&gt;
+0.5
+&lt;/td&gt;
+&lt;td&gt;
+mS
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align=&#34;center&#34;&gt;
+&lt;th scope=&#34;row&#34;&gt;
+Mechanical Life(at no load)
+&lt;/th&gt;
+&lt;td colspan=&#34;3&#34;&gt;
+1×108 operations
+&lt;/td&gt;
+&lt;td&gt;
+-
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align=&#34;center&#34;&gt;
+&lt;th scope=&#34;row&#34;&gt;
+Ambient Temperature
+&lt;/th&gt;
+&lt;td&gt;
+-30
+&lt;/td&gt;
+&lt;td&gt;
+/
+&lt;/td&gt;
+&lt;td&gt;
+70
+&lt;/td&gt;
+&lt;td&gt;
+˚C
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;platforms-supported&#34;&gt;Platforms Supported&lt;/h2&gt;
+
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+
+&lt;h3 id=&#34;with-arduino&#34;&gt;With Arduino&lt;/h3&gt;
+
+&lt;p&gt;The Dry-Reed Relay can support up to 60VDC 1A load. You can use it to control resistance load,&lt;font color=&#34;red&#34;&gt; &lt;strong&gt;but it is not applicable to inductive load(such as Motor)&lt;/strong&gt;&lt;/font&gt;.&lt;/p&gt;
+
+&lt;p&gt;The usage of this Dry-reed relay is quite alike that of common relays.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Connect electric light to Grove - Dry-Reed Relay and power for electric light.&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Connect Grove - Dry-Reed Relay to port D2 of &lt;a href=&#34;http://wiki.seeed.cc/Base_Shield_V2&#34; title=&#34;Grove - Base Shield&#34;&gt;Grove - Base Shield&lt;/a&gt; and plug it into Arduino/Seeeduino.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Upload the below code.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;    int Relay = 2;
+
+    // the setup routine runs once when you press reset:
+    void setup() {                
+      // initialize the digital pin as an output.
+      pinMode(Relay, OUTPUT);     
+    }
+
+    // the loop routine runs over and over again forever:
+    void loop() {
+      digitalWrite(Relay, HIGH);   //the Relay close(HIGH is the voltage level)
+      delay(5000);               // wait for five seconds
+      digitalWrite(Relay, LOW);    //the Relay normally open by making the voltage LOW
+      delay(5000);               // wait for five seconds
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The electric light will light up for seconds ,then off for seconds, repeatedly.For the special applications, you may need to write the code by yourself.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;with-raspberry-pi&#34;&gt;With Raspberry Pi&lt;/h3&gt;
+
+&lt;p&gt;1.You should have got a raspberry pi and a grovepi or grovepi+.&lt;/p&gt;
+
+&lt;p&gt;2.You should have completed configuring the development enviroment, otherwise follow &lt;a href=&#34;http://wiki.seeed.cc/GrovePiPlus&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;3.Connection&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Plug the sensor to grovepi socket D4 by using a grove cable.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;4.Navigate to the demos&amp;rsquo; directory:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    cd yourpath/GrovePi/Software/Python/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;To see the code&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;nano grove_relay.py   # &amp;quot;Ctrl+x&amp;quot; to exit #
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;import time
+import grovepi
+
+# Connect the Grove Relay to digital port D4
+# SIG,NC,VCC,GND
+relay = 4
+
+grovepi.pinMode(relay,&amp;quot;OUTPUT&amp;quot;)
+
+while True:
+    try:
+        # switch on for 5 seconds
+        grovepi.digitalWrite(relay,1)
+        print &amp;quot;on&amp;quot;
+        time.sleep(5)
+
+        # switch off for 5 seconds
+        grovepi.digitalWrite(relay,0)
+        print &amp;quot;off&amp;quot;
+        time.sleep(5)
+
+    except KeyboardInterrupt:
+        grovepi.digitalWrite(relay,0)
+        break
+    except IOError:
+        print &amp;quot;Error&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;5.Run the demo.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    sudo python grove_relay.py
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Dry-Reed_Relay/master/res/Grove-Dry-Reed_Relay_Eagle_File.zip&#34;&gt;Grove - Dry-Reed Relay Eagle File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Dry-Reed_Relay/master/res/Dry-Reed_Relay_Datasheet.pdf&#34;&gt;Dry-Reed Relay Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_Dry-Reed_Relay --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
