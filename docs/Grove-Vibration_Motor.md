@@ -137,44 +137,54 @@ Now, feel the vibration of your motor!
 
 4.Navigate to the demos' directory:
 ```
-    cd yourpath/GrovePi/Software/Python/
+cd yourpath/GrovePi/Software/Python/
 ```
 -   To see the code
 ```
-    nano grove_vibration_motor.py   # "Ctrl+x" to exit #
+nano grove_vibration_motor.py   # "Ctrl+x" to exit #
 ```
 ```
-    import time
-    import grovepi
+import time
+import grovepi
 
-    # Connect the Grove Vibration Motor to digital port D8
-    # SIG,NC,VCC,GND
-    vibration_motor = 8
+# Connect the Grove Vibration Motor to digital port D8
+# SIG,NC,VCC,GND
+vibration_motor = 8
 
-    grovepi.pinMode(vibration_motor,"OUTPUT")
+grovepi.pinMode(vibration_motor,"OUTPUT")
 
-    while True:
-        try:
-            # Start vibrating for 1 second
-            grovepi.digitalWrite(vibration_motor,1)
-            print 'start'
-            time.sleep(1)
+while True:
+    try:
+        # Start vibrating for 1 second
+        grovepi.digitalWrite(vibration_motor,1)
+        print 'start'
+        time.sleep(1)
 
-            # Stop vibrating for 1 second, then repeat
-            grovepi.digitalWrite(vibration_motor,0)
-            print 'stop'
-            time.sleep(1)
+        # Stop vibrating for 1 second, then repeat
+        grovepi.digitalWrite(vibration_motor,0)
+        print 'stop'
+        time.sleep(1)
 
-        except KeyboardInterrupt:
-            grovepi.digitalWrite(vibration_motor,0)
-            break
-        except IOError:
-            print "Error"
+    except KeyboardInterrupt:
+        grovepi.digitalWrite(vibration_motor,0)
+        break
+    except IOError:
+        print "Error"
 ```
 5.Run the demo.
 ```
-    sudo python grove_vibration_motor.py
+sudo python grove_vibration_motor.py
 ```
+
+##Projects
+
+![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/gun.jpg)
+
+Inspired by OVERWATCH, we have made a very cool Wooden Laser Gun toy for fun these day!
+
+The Wooden Laser Gun and the Gun Target are all based on an Arduino board called Seeeduino Lotus. The laser emitter on the Laser Gun is controlled to fire laser pulse to "activate" the Gun Target. And there are 3 light sensors on the Gun Target to detect the laser pulse. It seems very simple right? If you are interested in our project, please make one for yourself or your child! It's worth to spend one day DIY it as a Xmas present.    
+
+[![](https://raw.githubusercontent.com/SeeedDocument/common/master/make.png)](http://www.instructables.com/id/DIY-a-Wooden-Laser-Gun-As-a-Xmas-Present-for-Your-/)
 
 Resources
 ---------

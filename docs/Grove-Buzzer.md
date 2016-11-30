@@ -91,8 +91,6 @@ Playing Music (Buzzer)
  * LED cathode (short leg) attached to ground
 
  * Note:
-
-
  This example code is in the public domain.
 
  http://www.seeedstudio.com/wiki/index.php?title=GROVE_-_Starter_Kit_v1.1b#Grove_-_Buzzer
@@ -128,24 +126,24 @@ void loop()
 
 /* play tone */
 void playTone(int tone, int duration) {
-  for (long i = 0; i < duration * 1000L; i += tone * 2) {
-    digitalWrite(BUZZER_PIN, HIGH);
-    delayMicroseconds(tone);
-    digitalWrite(BUZZER_PIN, LOW);
-    delayMicroseconds(tone);
-  }
+    for (long i = 0; i < duration * 1000L; i += tone * 2) {
+        digitalWrite(BUZZER_PIN, HIGH);
+        delayMicroseconds(tone);
+        digitalWrite(BUZZER_PIN, LOW);
+        delayMicroseconds(tone);
+    }
 }
 
 void playNote(char note, int duration) {
-  char names[] = { 'c', 'd', 'e', 'f', 'g', 'a', 'b', 'C' };
-  int tones[] = { 1915, 1700, 1519, 1432, 1275, 1136, 1014, 956 };
+    char names[] = { 'c', 'd', 'e', 'f', 'g', 'a', 'b', 'C' };
+    int tones[] = { 1915, 1700, 1519, 1432, 1275, 1136, 1014, 956 };
 
-  // play the tone corresponding to the note name
-  for (int i = 0; i < 8; i++) {
-    if (names[i] == note) {
-      playTone(tones[i], duration);
+    // play the tone corresponding to the note name
+    for (int i = 0; i < 8; i++) {
+        if (names[i] == note) {
+            playTone(tones[i], duration);
+        }
     }
-  }
 }
 ```
 **With Raspberry Pi**
@@ -185,13 +183,22 @@ while True:
 **Run the program**
 
 Find the path to the file(According to your own path)
-```
-   cd GrovePi/Software/Python/
+```cd GrovePi/Software/Python/
 ```
 Run Program
+```sudo python grove_buzzer.py
 ```
-   sudo python grove_buzzer.py
-```
+
+##Projects
+
+![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/gun.jpg)
+
+Inspired by OVERWATCH, we have made a very cool Wooden Laser Gun toy for fun these day!
+
+The Wooden Laser Gun and the Gun Target are all based on an Arduino board called Seeeduino Lotus. The laser emitter on the Laser Gun is controlled to fire laser pulse to "activate" the Gun Target. And there are 3 light sensors on the Gun Target to detect the laser pulse. It seems very simple right? If you are interested in our project, please make one for yourself or your child! It's worth to spend one day DIY it as a Xmas present.    
+
+[![](https://raw.githubusercontent.com/SeeedDocument/common/master/make.png)](http://www.instructables.com/id/DIY-a-Wooden-Laser-Gun-As-a-Xmas-Present-for-Your-/)
+
 
 ## Resources
 ---

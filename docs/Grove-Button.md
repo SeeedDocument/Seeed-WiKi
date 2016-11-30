@@ -127,11 +127,11 @@ while True:
 
 - Find the path to the file(According to your own path)
 ```
-  cd GrovePi/Software/Python/
+cd GrovePi/Software/Python/
 ```
 - Run Progrom
 ```
-  sudo python grove_button.py
+sudo python grove_button.py
 ```
 
 **Related Grove Packer**
@@ -143,6 +143,17 @@ The standard Grove - Button module is available as part of the following Grove K
 |![](https://github.com/SeeedDocument/Grove_Button/raw/master/image/mixer%20pack%20v2.jpg)|![](https://github.com/SeeedDocument/Grove_Button/raw/master/image/mixer%20pack.jpg)|![](https://github.com/SeeedDocument/Grove_Button/raw/master/image/Newbundle1.jpg)|
 |<a href="https://www.seeedstudio.com/Mixer-Pack-V2(Electronic-blocks%2Cwithout-Arduino%2Cplug-and-play-system)-p-1867.html">Get One Now</a>|[Get One Now](https://www.seeedstudio.com/Grove-Mixer-Pack-p-1590.html)|[Get One Now](https://www.seeedstudio.com/Grove-Starter-Kit-for-Arduino-p-1855.html)|
 Alternatively, it can be bought stand-alone [here](https://www.seeedstudio.com/Grove-Button-p-766.html)at the Seeed Studio [Bazaar](https://www.seeedstudio.com/). To buy the Panel Mount version of the module, go to [here](http://www.seeedstudio.com/depot/Grove-ButtonP-p-1243.html)
+
+
+##Projects
+
+![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/gun.jpg)
+
+Inspired by OVERWATCH, we have made a very cool Wooden Laser Gun toy for fun these day!
+
+The Wooden Laser Gun and the Gun Target are all based on an Arduino board called Seeeduino Lotus. The laser emitter on the Laser Gun is controlled to fire laser pulse to "activate" the Gun Target. And there are 3 light sensors on the Gun Target to detect the laser pulse. It seems very simple right? If you are interested in our project, please make one for yourself or your child! It's worth to spend one day DIY it as a Xmas present.    
+
+[![](https://raw.githubusercontent.com/SeeedDocument/common/master/make.png)](http://www.instructables.com/id/DIY-a-Wooden-Laser-Gun-As-a-Xmas-Present-for-Your-/)
 
 ## Resources
 ---
