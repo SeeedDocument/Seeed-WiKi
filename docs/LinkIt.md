@@ -14,6 +14,7 @@ After LinkIt ONE, we released LinkIt Smart 7688 and LinkIt Smart 7688 Duo, both 
 Here is the list of the LinkIt Boards you can find in the Seeed WiKi. The list will be constantly updated.
 
 - [Arduino Breakout for LinkIt Smart 7688 Duo](/Arduino_Breakout_for_LinkIt_Smart_7688_Duo/)
+- [Breakout for LinkIt Smart 7688](/Breakout_for_LinkIt_Smart_7688/)
 - [Breakout for LinkIt Smart 7688 v2.0](/Breakout_for_LinkIt_Smart_7688_v2.0/)
 - [Grove - Starter Kit for LinkIt ONE](/Grove-Starter_Kit_for_LinkIt_ONE/)
 - [Grove Breakout for LinkIt Smart 7688 Duo](/Grove_Breakout_for_LinkIt_Smart_7688_Duo/)

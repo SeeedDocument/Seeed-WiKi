@@ -2,6 +2,7 @@
 404 - Page Not Found,http://wiki.seeed.cc/404/,
 433Mhz RF Link Kit,http://wiki.seeed.cc/433Mhz_RF_Link_Kit/,http://wiki.seeedstudio.com/wiki/433Mhz RF Link Kit
 4WD Driver Platform V1.0,http://wiki.seeed.cc/4WD_Driver_Platform_V1.0/,http://wiki.seeedstudio.com/wiki/4WD Driver Platform V1.0
+4WD Mecanum Wheel Robot Kit Series,http://wiki.seeed.cc/4WD_Mecanum_Wheel_Robot_Kit_Series/,http://wiki.seeedstudio.com/wiki/4WD Mecanum Wheel Robot Kit Series
 About Seeeed,http://wiki.seeed.cc/About/,
 Adjustable DC - DC Power Converter(1V - 12V1.5A),http://wiki.seeed.cc/Adjustable_DC_DC_Power_Converter_1V-12V-1.5A/,http://wiki.seeedstudio.com/wiki/Adjustable DC - DC Power Converter(1V - 12V1.5A)
 Arch BLE,http://wiki.seeed.cc/Arch_BLE/,http://wiki.seeedstudio.com/wiki/Arch_BLE
@@ -32,6 +33,7 @@ Bluetooth Bee v2.0,http://wiki.seeed.cc/Bluetooth_Bee_v2.0/,http://wiki.seeedstu
 Bluetooth Bee-Standalone,http://wiki.seeed.cc/Bluetooth_Bee_Standalone/,http://wiki.seeedstudio.com/wiki/Bluetooth Bee-Standalone
 Bluetooth Multimeter,http://wiki.seeed.cc/Bluetooth_Multimeter/,http://wiki.seeedstudio.com/wiki/Bluetooth Multimeter
 Bluetooth Shield V2.0,http://wiki.seeed.cc/Bluetooth_Shield_V2/,http://wiki.seeedstudio.com/wiki/Bluetooth Shield V2.0
+Breakout for LinkIt Smart 7688,http://wiki.seeed.cc/Breakout_for_LinkIt_Smart_7688/,http://wiki.seeedstudio.com/wiki/Breakout for LinkIt Smart 7688
 Breakout for LinkIt Smart 7688 v2.0,http://wiki.seeed.cc/Breakout_for_LinkIt_Smart_7688_v2.0/,http://wiki.seeedstudio.com/wiki/Breakout for LinkIt Smart 7688 v2.0
 CAN-BUS Shield V1.2,http://wiki.seeed.cc/CAN-BUS_Shield_V1.2/,http://wiki.seeedstudio.com/wiki/CAN-BUS_Shield_V1.2
 Camera Shield,http://wiki.seeed.cc/Camera_Shield/,http://wiki.seeedstudio.com/wiki/Camera Shield
@@ -63,7 +65,6 @@ Grove - BLE (dual model) v1.0,http://wiki.seeed.cc/Grove-BLE-dual_model-v1.0/,ht
 Grove - Barometer (High-Accuracy),http://wiki.seeed.cc/Grove-Barometer-High-Accuracy/,http://wiki.seeedstudio.com/wiki/Grove_-_Barometer_(High-Accuracy)
 Grove - Barometer Sensor,http://wiki.seeed.cc/Grove-Barometer_Sensor/,http://wiki.seeedstudio.com/wiki/Grove_-_Barometer_Sensor
 Grove - Barometer Sensor (BMP180),http://wiki.seeed.cc/Grove-Barometer_Sensor-BMP180/,http://wiki.seeedstudio.com/wiki/Grove_-_Barometer_Sensor_(BMP180)
-Grove - Barometer Sensor (BMP280),http://wiki.seeed.cc/Grove-Barometer_Sensor-BMP280/,http://wiki.seeedstudio.com/wiki/Grove_-_Barometer_Sensor_(BMP280)
 Grove - Barometer Sensor(BME280),http://wiki.seeed.cc/Grove-Barometer_Sensor-BME280/,http://wiki.seeedstudio.com/wiki/Grove_-_Barometer_Sensor(BME280)
 Grove - Bee Socket,http://wiki.seeed.cc/Grove-Bee_Socket/,http://wiki.seeedstudio.com/wiki/Grove - Bee Socket
 Grove - Button,http://wiki.seeed.cc/Grove-Button/,http://wiki.seeedstudio.com/wiki/Grove - Button
@@ -88,6 +89,8 @@ Grove - Electricity Sensor,http://wiki.seeed.cc/Grove-Electricity_Sensor/,http:/
 Grove - Electromagnet,http://wiki.seeed.cc/Grove-Electromagnet/,http://wiki.seeedstudio.com/wiki/Grove_-_Electromagnet
 Grove - Encoder,http://wiki.seeed.cc/Grove-Encoder/,http://wiki.seeedstudio.com/wiki/Grove_-_Encoder
 Grove - FM Receiver,http://wiki.seeed.cc/Grove-FM_Receiver/,http://wiki.seeedstudio.com/wiki/Grove_-_FM_Receiver
+Grove - Finger-clip Heart Rate Sensor,http://wiki.seeed.cc/Grove-Finger-clip_Heart_Rate_Sensor/,http://wiki.seeedstudio.com/wiki/Grove - Finger-clip Heart Rate Sensor
+Grove - Finger-clip Heart Rate Sensor with shell,http://wiki.seeed.cc/Grove-Finger-clip_Heart_Rate_Sensor_with_shell/,http://wiki.seeedstudio.com/wiki/Grove - Finger-clip Heart Rate Sensor with shell
 Grove - Fingerprint Sensor,http://wiki.seeed.cc/Grove-Fingerprint_Sensor/,http://wiki.seeedstudio.com/wiki/Grove_-_Fingerprint_Sensor
 Grove - Flame Sensor,http://wiki.seeed.cc/Grove-Flame_Sensor/,http://wiki.seeedstudio.com/wiki/Grove_-_Flame_Sensor
 Grove - GPS,http://wiki.seeed.cc/Grove-GPS/,http://wiki.seeedstudio.com/wiki/Grove_-_GPS
@@ -108,6 +111,7 @@ Grove - I2C Color Sensor,http://wiki.seeed.cc/Grove-I2C_Color_Sensor/,http://wik
 Grove - I2C FM Receiver,http://wiki.seeed.cc/Grove-I2C_FM_Receiver/,http://wiki.seeedstudio.com/wiki/Grove_-_I2C_FM_Receiver
 Grove - I2C Hub,http://wiki.seeed.cc/Grove-I2C_Hub/,http://wiki.seeedstudio.com/wiki/Grove_-_I2C_Hub
 Grove - I2C Motor Driver,http://wiki.seeed.cc/Grove-I2C_Motor_Driver/,http://wiki.seeedstudio.com/wiki/Grove_-_I2C_Motor_Driver
+Grove - I2C Motor Driver V1.2,http://wiki.seeed.cc/Grove-I2C_Motor_Driver_V1.2/,http://wiki.seeedstudio.com/wiki/Grove - I2C Motor Driver V1.2
 Grove - I2C Motor Driver V1.3,http://wiki.seeed.cc/Grove-I2C_Motor_Driver_V1.3/,http://wiki.seeedstudio.com/wiki/Grove_-_I2C_Motor_Driver_V1.3
 Grove - I2C Touch Sensor,http://wiki.seeed.cc/Grove-I2C_Touch_Sensor/,http://wiki.seeedstudio.com/wiki/Grove_-_I2C_Touch_Sensor
 Grove - IMU 10DOF,http://wiki.seeed.cc/Grove-IMU_10DOF/,http://wiki.seeedstudio.com/wiki/Grove_-_IMU_10DOF
@@ -130,6 +134,7 @@ Grove - Luminance Sensor,http://wiki.seeed.cc/Grove-Luminance_Sensor/,http://wik
 Grove - MOSFET,http://wiki.seeed.cc/Grove-MOSFET/,http://wiki.seeedstudio.com/wiki/Grove_-_MOSFET
 Grove - MP3 v2.0,http://wiki.seeed.cc/Grove-MP3_v2.0/,http://wiki.seeedstudio.com/wiki/Grove_-_MP3_v2.0
 Grove - Magnetic Switch,http://wiki.seeed.cc/Grove-Magnetic_Switch/,http://wiki.seeedstudio.com/wiki/Grove_-_Magnetic_Switch
+Grove - Mega Shield,http://wiki.seeed.cc/Grove-Mega_Shield/,http://wiki.seeedstudio.com/wiki/Grove - Mega Shield
 Grove - Mini Camera,http://wiki.seeed.cc/Grove-Mini_Camera/,http://wiki.seeedstudio.com/wiki/Grove_-_Mini_Camera
 Grove - Mini Fan,http://wiki.seeed.cc/Grove-Mini_Fan/,http://wiki.seeedstudio.com/wiki/Grove - Mini Fan
 Grove - Mini I2C Motor Driver v1.0,http://wiki.seeed.cc/Grove-Mini_I2C_Motor_Driver_v1.0/,http://wiki.seeedstudio.com/wiki/Grove_-_Mini_I2C_Motor_Driver_v1.0
@@ -150,6 +155,7 @@ Grove - Protoshield,http://wiki.seeed.cc/Grove-Protoshield/,http://wiki.seeedstu
 Grove - Q Touch Sensor,http://wiki.seeed.cc/Grove-Q_Touch_Sensor/,http://wiki.seeedstudio.com/wiki/Grove_-_Q_Touch_Sensor
 Grove - RJ45 Adapter,http://wiki.seeed.cc/Grove-RJ45_Adapter/,http://wiki.seeedstudio.com/wiki/Grove - RJ45 Adapter
 Grove - RTC,http://wiki.seeed.cc/Grove-RTC/,http://wiki.seeedstudio.com/wiki/Grove_-_RTC
+Grove - Recorder,http://wiki.seeed.cc/Grove_Recorder/,http://wiki.seeedstudio.com/wiki/Grove - Recorder
 Grove - Recorder V3,http://wiki.seeed.cc/Grove-Recorder_v3.0/,
 Grove - Recorder v2.0,http://wiki.seeed.cc/Grove-Recorder_v2.0/,http://wiki.seeedstudio.com/wiki/Grove_-_Recorder_v2.0
 Grove - Red LED,http://wiki.seeed.cc/Grove-Red_LED/,http://wiki.seeedstudio.com/wiki/Grove - Red LED
@@ -195,10 +201,17 @@ Grove - Voltage Divider,http://wiki.seeed.cc/Grove-Voltage_Divider/,http://wiki.
 Grove - Water Atomization,http://wiki.seeed.cc/Grove-Water_Atomization/,http://wiki.seeedstudio.com/wiki/Grove_-_Water_Atomization
 Grove - Water Sensor,http://wiki.seeed.cc/Grove-Water_Sensor/,http://wiki.seeedstudio.com/wiki/Grove_-_Water_Sensor
 Grove - Wrapper,http://wiki.seeed.cc/Grove-Wrapper/,http://wiki.seeedstudio.com/wiki/Grove - Wrapper
+Grove - XBee Carrier,http://wiki.seeed.cc/Grove-XBee_Carrier/,http://wiki.seeedstudio.com/wiki/Grove - XBee Carrier
 Grove BLE v1,http://wiki.seeed.cc/Grove-BLE_v1/,http://wiki.seeedstudio.com/wiki/Grove_BLE_v1
+Grove Base BoosterPack,http://wiki.seeed.cc/Grove_Base_BoosterPack/,http://wiki.seeedstudio.com/wiki/Grove Base BoosterPack
 Grove Base Cape for BeagleBone v2,http://wiki.seeed.cc/Grove_Base_Cape_for_BeagleBone_v2/,http://wiki.seeedstudio.com/wiki/Grove Base Cape for BeagleBone v2
+Grove Base Shield for NodeMCU V1.0,http://wiki.seeed.cc/Grove_Base_Shield_for_NodeMCU_V1.0/,http://wiki.seeedstudio.com/wiki/Grove Base Shield for NodeMCU V1.0
+Grove Base Shield for Photon,http://wiki.seeed.cc/Grove_Base_Shield_for_Photon/,http://wiki.seeedstudio.com/wiki/Grove Base Shield for Photon
 Grove Breakout for LinkIt Smart 7688 Duo,http://wiki.seeed.cc/Grove_Breakout_for_LinkIt_Smart_7688_Duo/,http://wiki.seeedstudio.com/wiki/Grove Breakout for LinkIt Smart 7688 Duo
+Grove Cape for BeagleBone Series,http://wiki.seeed.cc/Grove_Cape_for_BeagleBone_Series/,http://wiki.seeedstudio.com/wiki/Grove Cape for BeagleBone Series
+Grove Indoor Environment Kit for Edison,http://wiki.seeed.cc/Grove_Indoor_Environment_Kit_for_Edison/,http://wiki.seeedstudio.com/wiki/Grove Indoor Environment Kit for Edison
 Grove Introduction,http://wiki.seeed.cc/Grove/,
+Grove Smart Plant Care Kit,http://wiki.seeed.cc/Grove_Smart_Plant_Care_Kit/,http://wiki.seeedstudio.com/wiki/Grove Smart Plant Care Kit
 Grove Speech Recognizer Kit for Arduino,http://wiki.seeed.cc/Grove_Speech_Recognizer_Kit_for_Arduino/,http://wiki.seeedstudio.com/wiki/Grove Speech Recognizer Kit for Arduino
 Grove Starter Kit for BeagleBone Green,http://wiki.seeed.cc/Grove_Starter_Kit_for_BeagleBone_Green/,http://wiki.seeedstudio.com/wiki/Grove_Starter_Kit_for_BeagleBone_Green
 Grove Starter Kit for IoT based on Raspberry Pi,http://wiki.seeed.cc/Grove_Starter_Kit_for_IoT_based_on_Raspberry_Pi/,
@@ -207,7 +220,7 @@ Grove System,http://wiki.seeed.cc/Grove_System/,http://wiki.seeedstudio.com/wiki
 Hercules Dual 15A 6-20V Motor Controller,http://wiki.seeed.cc/Hercules_Dual_15A_6-20V_Motor_Controller/,http://wiki.seeedstudio.com/wiki/Hercules_Dual_15A_6-20V_Motor_Controller
 Home,http://wiki.seeed.cc/index/,
 How to Add Seeed boards to Arduino IDE,http://wiki.seeed.cc/Seeed_Arduino_Boards/,
-How to edit a document,http://wiki.seeed.cc/How_To_Edit_A_Document/,
+How to edit a document,http://wiki.seeed.cc/How_to_edit_a_document/,
 How to install an Arduino library,http://wiki.seeed.cc/How_to_install_Arduino_Library/,
 I2C LCD,http://wiki.seeed.cc/I2C_LCD/,http://wiki.seeedstudio.com/wiki/I2C_LCD
 IoT Introduction,http://wiki.seeed.cc/IoT/,
@@ -221,14 +234,21 @@ Lipo Rider Pro,http://wiki.seeed.cc/Lipo_Rider_Pro/,http://wiki.seeedstudio.com/
 Lipo Rider V1.3,http://wiki.seeed.cc/Lipo_Rider_V1.3/,http://wiki.seeedstudio.com/wiki/Lipo_Rider_V1.3
 Lua for RePhone,http://wiki.seeed.cc/Lua_for_RePhone/,http://wiki.seeedstudio.com/wiki/Lua_for_RePhone
 MakerPro Introduction,http://wiki.seeed.cc/MakerPro/,
+Mbed Shield,http://wiki.seeed.cc/mbed_Shield/,http://wiki.seeedstudio.com/wiki/Mbed Shield
+Mesh Bee,http://wiki.seeed.cc/Mesh_Bee/,http://wiki.seeedstudio.com/wiki/Mesh Bee
 Motor Bridge Cape v1.0,http://wiki.seeed.cc/Motor_Bridge_Cape_v1.0/,http://wiki.seeedstudio.com/wiki/Motor_Bridge_Cape_v1.0
 Motor Shield V2.0,http://wiki.seeed.cc/Motor_Shield_V2.0/,http://wiki.seeedstudio.com/wiki/Motor_Shield_V2.0
 Music Shield V2.2,http://wiki.seeed.cc/Music_Shield_V2.2/,http://wiki.seeedstudio.com/wiki/Music_Shield_V2.2
 NFC Shield V2.0,http://wiki.seeed.cc/NFC_Shield_V2.0/,http://wiki.seeedstudio.com/wiki/NFC_Shield_V2.0
 Others Introduction,http://wiki.seeed.cc/Others/,
 Platform Introduction,http://wiki.seeed.cc/Platform/,
+Protoshield Kit for Arduino,http://wiki.seeed.cc/Protoshield_Kit_for_Arduino/,http://wiki.seeedstudio.com/wiki/Protoshield Kit for Arduino
+Qi Wireless Charger Transmitter,http://wiki.seeed.cc/Qi_Wireless_Charger_Transmitter/,http://wiki.seeedstudio.com/wiki/Qi Wireless Charger Transmitter
 RFbee V1.1 - Wireless Arduino compatible node,http://wiki.seeed.cc/RFbee_V1.1-Wireless_Arduino_compatible_node/,http://wiki.seeedstudio.com/wiki/RFbee_V1.1_-_Wireless_Arduino_compatible_node
 RS232 Shield,http://wiki.seeed.cc/RS232_Shield/,http://wiki.seeedstudio.com/wiki/RS232_Shield
+Rainbow Cube kit - RGB 4*4*4 (Rainbowduino Compatible),http://wiki.seeed.cc/Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible/,http://wiki.seeedstudio.com/wiki/Rainbow Cube kit - RGB 4*4*4 (Rainbowduino Compatible)
+Rainbowduino,http://wiki.seeed.cc/Rainbowduino/,http://wiki.seeedstudio.com/wiki/Rainbowduino
+Rainbowduino LED driver platform - ATmega328,http://wiki.seeed.cc/Rainbowduino_LED_driver_platform-ATmega328/,http://wiki.seeedstudio.com/wiki/Rainbowduino LED driver platform - ATmega328
 Rainbowduino v3.0,http://wiki.seeed.cc/Rainbowduino_v3.0/,http://wiki.seeedstudio.com/wiki/Rainbowduino_v3.0
 Raspberry Pi Breakout Board v1.0,http://wiki.seeed.cc/Raspberry_Pi_Breakout_Board_v1.0/,http://wiki.seeedstudio.com/wiki/Raspberry_Pi_Breakout_Board_v1.0
 Raspberry Pi Introduction,http://wiki.seeed.cc/Raspberry_Pi/,
@@ -236,19 +256,30 @@ Raspberry Pi Motor Driver Board v1.0,http://wiki.seeed.cc/Raspberry_Pi_Motor_Dri
 Raspberry Pi RS232 Board v1.0,http://wiki.seeed.cc/Raspberry_Pi_R232_Board_v1.0/,http://wiki.seeedstudio.com/wiki/Raspberry_Pi_R232_Board_v1.0
 Raspberry Pi Relay Board v1.0,http://wiki.seeed.cc/Raspberry_Pi_Relay_Board_v1.0/,http://wiki.seeedstudio.com/wiki/Raspberry_Pi_Relay_Board_v1.0
 RePhone APIs - Audio,http://wiki.seeed.cc/RePhone_APIs-Audio/,http://wiki.seeedstudio.com/wiki/RePhone_APIs_-_Audio
+RePhone Geo Kit,http://wiki.seeed.cc/RePhone_Geo_Kit/,http://wiki.seeedstudio.com/wiki/RePhone Geo Kit
 RePhone Introduction,http://wiki.seeed.cc/RePhone/,
+RePhone Lumi Kit,http://wiki.seeed.cc/RePhone_Lumi_Kit/,http://wiki.seeedstudio.com/wiki/RePhone Lumi Kit
+RePhone Strap Kit for Pebble,http://wiki.seeed.cc/RePhone_Strap_Kit_for_Pebble/,http://wiki.seeedstudio.com/wiki/RePhone Strap Kit for Pebble
 Relay Shield v3.0,http://wiki.seeed.cc/Relay_Shield_v3/,http://wiki.seeedstudio.com/wiki/Relay Shield v3.0
 SD Card shield V4.0,http://wiki.seeed.cc/SD_Card_shield_V4.0/,http://wiki.seeedstudio.com/wiki/SD_Card_shield_V4.0
+Seeed BLE Shield v1,http://wiki.seeed.cc/Seeed_BLE_Shield/,http://wiki.seeedstudio.com/wiki/Seeed BLE Shield v1
 Seeeduino Cloud,http://wiki.seeed.cc/Seeeduino_Cloud/,http://wiki.seeedstudio.com/wiki/Seeeduino_Cloud
 Seeeduino Cloud and Grove IoT Starter Kit Powered by AWS,http://wiki.seeed.cc/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/,http://wiki.seeedstudio.com/wiki/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS
+Seeeduino Ethernet,http://wiki.seeed.cc/Seeeduino_Ethernet/,http://wiki.seeedstudio.com/wiki/Seeeduino Ethernet
 Seeeduino GPRS,http://wiki.seeed.cc/Seeeduino_GPRS/,http://wiki.seeedstudio.com/wiki/Seeeduino_GPRS
+Seeeduino Lite,http://wiki.seeed.cc/Seeeduino_Lite/,http://wiki.seeedstudio.com/wiki/Seeeduino Lite
 Seeeduino Lotus,http://wiki.seeed.cc/Seeeduino_Lotus/,http://wiki.seeedstudio.com/wiki/Seeeduino_Lotus_v1.0
 Seeeduino Mega,http://wiki.seeed.cc/Seeeduino_Mega/,http://wiki.seeedstudio.com/wiki/Seeeduino_Mega
+Seeeduino Mega Protoshield Kit,http://wiki.seeed.cc/Seeeduino_Mega_Protoshield_Kit/,http://wiki.seeedstudio.com/wiki/Seeeduino Mega Protoshield Kit
+Seeeduino Stalker V3 - Waterproof Solar Kit,http://wiki.seeed.cc/Seeeduino_Stalker_V3-Waterproof_Solar_Kit/,http://wiki.seeedstudio.com/wiki/Seeeduino Stalker V3 - Waterproof Solar Kit
 Seeeduino Stalker V3.1,http://wiki.seeed.cc/Seeeduino_Stalker_V3.1/,
+Seeeduino Stalker v3 enclosure,http://wiki.seeed.cc/Seeeduino_Stalker_v3_enclosure/,http://wiki.seeedstudio.com/wiki/Seeeduino Stalker v3 enclosure
 Seeeduino v4.2,http://wiki.seeed.cc/Seeeduino_v4.2/,http://wiki.seeedstudio.com/wiki/Seeeduino_v4.2
 Sensor Introduction,http://wiki.seeed.cc/Sensor/,
+Shield Bot V1.1,http://wiki.seeed.cc/Shield_Bot_V1.1/,http://wiki.seeedstudio.com/wiki/Shield Bot V1.1
 Shield Bot V1.2,http://wiki.seeed.cc/Shield_Bot_V1.2/,http://wiki.seeedstudio.com/wiki/Shield_Bot_V1.2
 Tutorial Introduction,http://wiki.seeed.cc/Tutorial/,
+UartSBee V4,http://wiki.seeed.cc/UartSBee_V4/,http://wiki.seeedstudio.com/wiki/UartSBee V4
 UartSBee v5,http://wiki.seeed.cc/UartSBee_v5/,http://wiki.seeedstudio.com/wiki/UartSBee_v5
 W5500 Ethernet Shield v1.0,http://wiki.seeed.cc/W5500_Ethernet_Shield_v1.0/,http://wiki.seeedstudio.com/wiki/W5500_Ethernet_Shield_v1.0
 WiFi Serial Transceiver Module,http://wiki.seeed.cc/WiFi_Serial_Transceiver_Module/,http://wiki.seeedstudio.com/wiki/WiFi Serial Transceiver Module
