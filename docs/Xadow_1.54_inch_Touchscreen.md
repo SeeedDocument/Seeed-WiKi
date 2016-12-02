@@ -61,6 +61,9 @@ This TFT Display contains 240 x 240 pixels that can be controlled individually t
 ---
 ![](https://github.com/SeeedDocument/Xadow_1.54_Inch_Touchscreen/raw/master/images/Xadow_1.54%E2%80%99%E2%80%99_Touchscreen.png)
 
+!!!Warning
+    Please insert controller, such as Xadow GSM+BLE to the **RIGHT** port, and insert the Audio module to the **LEFT** port.
+
 
 ## Notice
 ---

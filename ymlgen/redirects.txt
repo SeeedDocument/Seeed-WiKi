@@ -30,3 +30,4 @@ Grove_Button;http://wiki.seeed.cc/Grove-Button/
 Grove_3_Axis_Digital_Accelerometer_Plus_Minus_16g;http://wiki.seeed.cc/Grove-3-Axis_Digital_Accelerometer-16g/
 grove_system;http://wiki.seeed.cc/Grove_System/
 Grove_Line_Finder;http://wiki.seeed.cc/Grove-Line_Finder/
+grove-system;http://wiki.seeed.cc/Grove_System/
