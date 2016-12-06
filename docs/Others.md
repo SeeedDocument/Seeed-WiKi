@@ -21,4 +21,8 @@ Here is the list of Grove Others Boards you can find in the Seeed WiKi. The list
 - [Grove - Serial Camera](/Grove-Serial_Camera/)
 - [Grove - Toy Kit](/Grove-Toy_Kit/)
 - [Grove - Wrapper](/Grove-Wrapper/)
+- [Grove Base Shield for NodeMCU V1.0](/Grove_Base_Shield_for_NodeMCU_V1.0/)
+- [Grove Base Shield for Photon](/Grove_Base_Shield_for_Photon/)
+- [Grove Indoor Environment Kit for Edison](/Grove_Indoor_Environment_Kit_for_Edison/)
+- [Grove Smart Plant Care Kit](/Grove_Smart_Plant_Care_Kit/)
 

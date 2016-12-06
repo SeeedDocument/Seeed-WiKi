@@ -26,28 +26,43 @@ pages:
         - Energy Shield: Energy_Shield.md
         - GPRS Shield V1.0: GPRS_Shield_v1.0.md
         - Galileo Case: Galileo_Case.md
+        - Grove - Mega Shield: Grove-Mega_Shield.md
         - Grove - Starter Kit Plus: Grove_Starter_Kit_Plus.md
         - Grove - Starter Kit v3: Grove_Starter_Kit_v3.md
+        - Grove Base BoosterPack: Grove_Base_BoosterPack.md
         - Grove Speech Recognizer Kit for Arduino: Grove_Speech_Recognizer_Kit_for_Arduino.md
         - Hercules Dual 15A 6-20V Motor Controller: Hercules_Dual_15A_6-20V_Motor_Controller.md
         - Lipo Rider Pro: Lipo_Rider_Pro.md
         - Lipo Rider V1.3: Lipo_Rider_V1.3.md
+        - Mbed Shield: mbed_Shield.md
+        - Mesh Bee: Mesh_Bee.md
         - Motor Shield V2.0: Motor_Shield_V2.0.md
         - Music Shield V2.2: Music_Shield_V2.2.md
         - NFC Shield V2.0: NFC_Shield_V2.0.md
+        - Protoshield Kit for Arduino: Protoshield_Kit_for_Arduino.md
         - RFbee V1.1 - Wireless Arduino compatible node: RFbee_V1.1-Wireless_Arduino_compatible_node.md
         - RS232 Shield: RS232_Shield.md
+        - Rainbow Cube kit - RGB 4*4*4 (Rainbowduino Compatible): Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible.md
+        - Rainbowduino: Rainbowduino.md
+        - Rainbowduino LED driver platform - ATmega328: Rainbowduino_LED_driver_platform-ATmega328.md
         - Rainbowduino v3.0: Rainbowduino_v3.0.md
         - Relay Shield v3.0: Relay_Shield_v3.md
         - SD Card shield V4.0: SD_Card_shield_V4.0.md
+        - Seeed BLE Shield v1: Seeed_BLE_Shield.md
         - Seeeduino Cloud: Seeeduino_Cloud.md
         - Seeeduino Cloud and Grove IoT Starter Kit Powered by AWS: Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS.md
+        - Seeeduino Ethernet: Seeeduino_Ethernet.md
         - Seeeduino GPRS: Seeeduino_GPRS.md
+        - Seeeduino Lite: Seeeduino_Lite.md
         - Seeeduino Lotus: Seeeduino_Lotus.md
         - Seeeduino Mega: Seeeduino_Mega.md
+        - Seeeduino Mega Protoshield Kit: Seeeduino_Mega_Protoshield_Kit.md
+        - Seeeduino Stalker V3 - Waterproof Solar Kit: Seeeduino_Stalker_V3-Waterproof_Solar_Kit.md
         - Seeeduino Stalker V3.1: Seeeduino_Stalker_V3.1.md
+        - Seeeduino Stalker v3 enclosure: Seeeduino_Stalker_v3_enclosure.md
         - Seeeduino v4.2: Seeeduino_v4.2.md
         - Shield Bot V1.2: Shield_Bot_V1.2.md
+        - UartSBee V4: UartSBee_V4.md
         - UartSBee v5: UartSBee_v5.md
         - W5500 Ethernet Shield v1.0: W5500_Ethernet_Shield_v1.0.md
         - Wifi Shield V2.0: Wifi_Shield_V2.0.md
@@ -60,6 +75,7 @@ pages:
         - BeagleBone Green HDMI Cape: BeagleBone_Green_HDMI_Cape.md
         - BeagleBone Green Wireless: BeagleBone_Green_Wireless.md
         - Grove Base Cape for BeagleBone v2: Grove_Base_Cape_for_BeagleBone_v2.md
+        - Grove Cape for BeagleBone Series: Grove_Cape_for_BeagleBone_Series.md
         - Grove Starter Kit for BeagleBone Green: Grove_Starter_Kit_for_BeagleBone_Green.md
         - Motor Bridge Cape v1.0: Motor_Bridge_Cape_v1.0.md
 
@@ -73,6 +89,7 @@ pages:
     - LinkIt:
         - LinkIt Introduction: LinkIt.md
         - Arduino Breakout for LinkIt Smart 7688 Duo: Arduino_Breakout_for_LinkIt_Smart_7688_Duo.md
+        - Breakout for LinkIt Smart 7688: Breakout_for_LinkIt_Smart_7688.md
         - Breakout for LinkIt Smart 7688 v2.0: Breakout_for_LinkIt_Smart_7688_v2.0.md
         - Grove - Starter Kit for LinkIt ONE: Grove-Starter_Kit_for_LinkIt_ONE.md
         - Grove Breakout for LinkIt Smart 7688 Duo: Grove_Breakout_for_LinkIt_Smart_7688_Duo.md
@@ -93,6 +110,9 @@ pages:
 
     - RePhone:
         - RePhone Introduction: RePhone.md
+        - RePhone Geo Kit: RePhone_Geo_Kit.md
+        - RePhone Lumi Kit: RePhone_Lumi_Kit.md
+        - RePhone Strap Kit for Pebble: RePhone_Strap_Kit_for_Pebble.md
         - Xadow - 3-Axis Accelerometer: Xadow_3_Aixs_Accelerometer.md
         - Xadow - 3-Axis Digital Accelerometer(±400g): Xadow_3_Aixs_Digital_Accelerometer_plusandminus_400g.md
         - Xadow - BLE (Dual Model) v1.0: Xadow_BLE_Dual_Model_V1.0.md
@@ -170,7 +190,6 @@ pages:
         - Grove - Barometer (High-Accuracy): Grove-Barometer-High-Accuracy.md
         - Grove - Barometer Sensor: Grove-Barometer_Sensor.md
         - Grove - Barometer Sensor (BMP180): Grove-Barometer_Sensor-BMP180.md
-        - Grove - Barometer Sensor (BMP280): Grove-Barometer_Sensor-BMP280.md
         - Grove - Barometer Sensor(BME280): Grove-Barometer_Sensor-BME280.md
         - Grove - CO2 Sensor: Grove-CO2_Sensor.md
         - Grove - Chest Strap Heart Rate Sensor: Grove-Chest_Strap_Heart_Rate_Sensor.md
@@ -184,6 +203,8 @@ pages:
         - Grove - Electromagnet: Grove-Electromagnet.md
         - Grove - Encoder: Grove-Encoder.md
         - Grove - FM Receiver: Grove-FM_Receiver.md
+        - Grove - Finger-clip Heart Rate Sensor: Grove-Finger-clip_Heart_Rate_Sensor.md
+        - Grove - Finger-clip Heart Rate Sensor with shell: Grove-Finger-clip_Heart_Rate_Sensor_with_shell.md
         - Grove - Fingerprint Sensor: Grove-Fingerprint_Sensor.md
         - Grove - Flame Sensor: Grove-Flame_Sensor.md
         - Grove - GSR Sensor: Grove-GSR_Sensor.md
@@ -253,12 +274,14 @@ pages:
         - Grove - EL Driver: Grove-EL_Driver.md
         - Grove - Haptic Motor: Grove-Haptic_Motor.md
         - Grove - I2C Motor Driver: Grove-I2C_Motor_Driver.md
+        - Grove - I2C Motor Driver V1.2: Grove-I2C_Motor_Driver_V1.2.md
         - Grove - I2C Motor Driver V1.3: Grove-I2C_Motor_Driver_V1.3.md
         - Grove - Infrared Emitter: Grove-Infrared_Emitter.md
         - Grove - LED Matrix Driver v1.0: Grove-LED_Matrix_Driver_v1.0.md
         - Grove - MP3 v2.0: Grove-MP3_v2.0.md
         - Grove - Mini Fan: Grove-Mini_Fan.md
         - Grove - Mini I2C Motor Driver v1.0: Grove-Mini_I2C_Motor_Driver_v1.0.md
+        - Grove - Recorder: Grove_Recorder.md
         - Grove - Recorder V3: Grove-Recorder_v3.0.md
         - Grove - Relay: Grove-Relay.md
         - Grove - Serial MP3 Player: Grove-Serial_MP3_Player.md
@@ -317,10 +340,15 @@ pages:
         - Grove - Serial Camera: Grove-Serial_Camera.md
         - Grove - Toy Kit: Grove-Toy_Kit.md
         - Grove - Wrapper: Grove-Wrapper.md
+        - Grove Base Shield for NodeMCU V1.0: Grove_Base_Shield_for_NodeMCU_V1.0.md
+        - Grove Base Shield for Photon: Grove_Base_Shield_for_Photon.md
+        - Grove Indoor Environment Kit for Edison: Grove_Indoor_Environment_Kit_for_Edison.md
+        - Grove Smart Plant Care Kit: Grove_Smart_Plant_Care_Kit.md
 
 
 - IoT:
         - IoT Introduction: IoT.md
+        - 4WD Mecanum Wheel Robot Kit Series: 4WD_Mecanum_Wheel_Robot_Kit_Series.md
         - Adjustable DC - DC Power Converter(1V - 12V1.5A): Adjustable_DC_DC_Power_Converter_1V-12V-1.5A.md
         - BLE Carbon: BLE_Carbon.md
         - BLE Micro: BLE_Micro.md
@@ -329,9 +357,12 @@ pages:
         - BeagleBone Green: BeagleBone_Green.md
         - BeagleBone Green Wireless: BeagleBone_Green_Wireless.md
         - Bluetooth Bee-Standalone: Bluetooth_Bee_Standalone.md
+        - Grove - XBee Carrier: Grove-XBee_Carrier.md
         - Grove Starter Kit for IoT based on Raspberry Pi: Grove_Starter_Kit_for_IoT_based_on_Raspberry_Pi.md
+        - Qi Wireless Charger Transmitter: Qi_Wireless_Charger_Transmitter.md
         - Seeeduino Cloud: Seeeduino_Cloud.md
         - Seeeduino GPRS: Seeeduino_GPRS.md
+        - Shield Bot V1.1: Shield_Bot_V1.1.md
 
 
 - Tutorial:
@@ -340,7 +371,7 @@ pages:
         - Eclipse IDE for RePhone Kit: Eclipse_IDE_for_RePhone_Kit.md
         - FM Receiver: FM_Receiver.md
         - How to Add Seeed boards to Arduino IDE: Seeed_Arduino_Boards.md
-        - How to edit a document: How_To_Edit_A_Document.md
+        - How to edit a document: How_to_edit_a_document.md
         - How to install an Arduino library: How_to_install_Arduino_Library.md
         - JavaScript for RePhone: JavaScript_for_RePhone.md
         - Lua for RePhone: Lua_for_RePhone.md

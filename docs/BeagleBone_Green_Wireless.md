@@ -4,7 +4,7 @@ category: BeagleBone, IoT
 bzurl: https://www.seeedstudio.com/SeeedStudio-BeagleBone-Green-Wireless-p-2650.html
 oldwikiname: SeeedStudio_BeagleBone_Green_Wireless
 prodimagename: BBGW_cover.png
-surveyurl: https://www.surveymonkey.com/r/bbg_w
+surveyurl: https://www.research.net/r/seeed_bbgw
 sku: 102010048
 ---
 
@@ -144,7 +144,7 @@ Each digital I/O pin has 8 different modes that can be selected, including GPIO.
 ----
 
 !!!Note
-    This chapter is writing under Win10. The steps are familiar for the other operate systems.
+    This chapter is writing under Win10. The steps are similar to other operating systems.
 
 **STEP1. Plug in your BBGW via USB**
 
