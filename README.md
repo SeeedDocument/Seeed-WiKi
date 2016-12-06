@@ -2,7 +2,7 @@
 
 Here you can find all the Documentation for Seeedstudio, including Grove modules, Seeeduino series, LinkIt series as well as the others product. 
 
-To view the Documentation, visit [wiki.seeed.cc](wiki.seeed.cc), where the Documentation is hosted. The Documentation system is drive by [MkDocs](http://www.mkdocs.org/). 
+To view the Documentation, visit [wiki.seeed.cc](http://wiki.seeed.cc), where the Documentation is hosted. The Documentation system is drive by [MkDocs](http://www.mkdocs.org/). 
 
 
 #Contributions
