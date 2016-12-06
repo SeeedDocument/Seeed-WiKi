@@ -185,27 +185,25 @@ The first thing to notice however, is that you need an external power source for
 
 And then program your Arduino as below:
 
-```
+```c
 #include <Wire.h>
      .......
      .......
     < Driver functions >
      .......
      .......
-void setup()  {
+void setup(){
   Wire.begin(); // join i2c bus (address optional for master)
   delayMicroseconds(10000); //wait for motor driver to initialization
 }
  
-void loop()  {
-  while(1)  {
+void loop(){
     MotorSpeedSetAB(100,20);
-    delay(10); //this delay needed
-    MotorDirectionSet(0b1010);  //0b1010  Rotating in the positive direction
+    delay(10);                  // this delay needed
+    MotorDirectionSet(0b1010);  // 0b1010  Rotating in the positive direction
     delay(1000);
-    MotorDirectionSet(0b0101);  //0b0101  Rotating in the opposite direction
+    MotorDirectionSet(0b0101);  // 0b0101  Rotating in the opposite direction
     delay(500);
-  }
 }
 ```
 
@@ -218,39 +216,39 @@ As the upgraded version of [I2C motor DriverV1.2](/Grove-I2C_Motor_Driver_V1.2),
 **1. Control the stepper directly by Arduino**
 The I2C motor Driver can also be used to drive a 4-wire stepper. Connect your stepper to the output pins of I2C motor driver, and then connect motor driver to your Arduino/Seeeduino with I2C bus. Program your Arduino as below:
 
-```
+```c
 #include <Wire.h>
      .......
      .......
     < Driver functions >
      .......
      .......
-void setup()  {
+     
+void setup() {
   Wire.begin(); // join i2c bus (address optional for master)
   delayMicroseconds(10000); //wait for motor driver to initialization
 }
  
-void loop()  {
- while(1)  {
+void loop() {
+
     MotorSpeedSetAB(100,100);//when driving a stepper, the speed should be set to 100;
     delay(10);
     MotorDirectionSet(0b0001);
     delay(4);
-      MotorDirectionSet(0b0011);
+    MotorDirectionSet(0b0011);
     delay(4);  
     MotorDirectionSet(0b0010);
     delay(4);
-      MotorDirectionSet(0b0110);
+    MotorDirectionSet(0b0110);
     delay(4);  
     MotorDirectionSet(0b0100);
     delay(4);  
     MotorDirectionSet(0b1100);
     delay(4);
-      MotorDirectionSet(0b1000);
+    MotorDirectionSet(0b1000);
     delay(4);
-      MotorDirectionSet(0b1001);
-    delay(4);
-  }
+    MotorDirectionSet(0b1001);
+    delay(4); 
 }
 ```
 
@@ -269,26 +267,26 @@ The connection between 24BYJ48 Stepper Motor and I2C Motor Driver is as shown be
 
 Download the [Grove-I2C motor driver V1.3 demo code](/Grove-I2C_Motor_Driver_V1.3#resources), and open the *StepperControlMode2.ino*:
 
-``` de1
+```c
 #include <Wire.h>
-#define MotorSpeedSet             0x82
-#define PWMFrequenceSet           0x84
-#define DirectionSet              0xaa
-#define MotorSetA                 0xa1
-#define MotorSetB                 0xa5
-#define Nothing                   0x01
-#define EnableStepper             0x1a
-#define DisableStepper           0x1b
-#define Stepernu                  0x1c
-#define I2CMotorDriverAdd         0x0f   // Set the address of the I2CMotorDriver
+#define MotorSpeedSet           0x82
+#define PWMFrequenceSet         0x84
+#define DirectionSet            0xaa
+#define MotorSetA               0xa1
+#define MotorSetB               0xa5
+#define Nothing                 0x01
+#define EnableStepper           0x1a
+#define DisableStepper          0x1b
+#define Stepernu                0x1c
+#define I2CMotorDriverAdd       0x0f    // Set the address of the I2CMotorDriver
 // set the steps you want, if 255, the stepper will rotate continuously;
 void SteperStepset(unsigned char stepnu)
 {
-  Wire.beginTransmission(I2CMotorDriverAdd); // transmit to device I2CMotorDriverAdd
-  Wire.write(Stepernu);          // Send the stepernu command
-  Wire.write(stepnu);            // send the steps
-  Wire.write(Nothing);           // send nothing   
-  Wire.endTransmission();        // stop transmitting
+    Wire.beginTransmission(I2CMotorDriverAdd); // transmit to device I2CMotorDriverAdd
+    Wire.write(Stepernu);          // Send the stepernu command
+    Wire.write(stepnu);            // send the steps
+    Wire.write(Nothing);           // send nothing   
+    Wire.endTransmission();        // stop transmitting
 }
      .......
      .......
@@ -296,43 +294,44 @@ void SteperStepset(unsigned char stepnu)
      .......
 void stepperrun()
 {
- Serial.println("sent command to + direction, very fast");
- SteperStepset(255);
- StepperMotorEnable(1, 1);// ennable the i2c motor driver a stepper.
-  delay(5000);
-  Serial.println("sent command to - direction, slow");
-  SteperStepset(255);
-  StepperMotorEnable(0, 20);
-  delay(5000);
-   Serial.println("sent command to - direction, fast");
-  StepperMotorEnable(0, 2);// ennable the i2c motor driver a stepper.
-  delay(5000);
- Serial.println("sent command to + direction,100 steps, fast");
- SteperStepset(100);
-  StepperMotorEnable(1,5);
- delay(3000);
- 
- Serial.println("sent command to shut down the stepper");
- StepperMotorDisable();
- delay(1000);
- 
-  Serial.println("sent command to - direction, slow, and 10 steps then stop");
- SteperStepset(10);
- StepperMotorEnable(0,40);
- delay(5000);
- Serial.println("sent command to shut down the stepper");
- StepperMotorDisable();
- delay(5000);
+    Serial.println("sent command to + direction, very fast");
+    SteperStepset(255);
+    StepperMotorEnable(1, 1);// ennable the i2c motor driver a stepper.
+    delay(5000);
+    Serial.println("sent command to - direction, slow");
+    SteperStepset(255);
+    StepperMotorEnable(0, 20);
+    delay(5000);
+    Serial.println("sent command to - direction, fast");
+    StepperMotorEnable(0, 2);// ennable the i2c motor driver a stepper.
+    delay(5000);
+    Serial.println("sent command to + direction,100 steps, fast");
+    SteperStepset(100);
+    StepperMotorEnable(1,5);
+    delay(3000);
+
+    Serial.println("sent command to shut down the stepper");
+    StepperMotorDisable();
+    delay(1000);
+
+    Serial.println("sent command to - direction, slow, and 10 steps then stop");
+    SteperStepset(10);
+    StepperMotorEnable(0,40);
+    delay(5000);
+    Serial.println("sent command to shut down the stepper");
+    StepperMotorDisable();
+    delay(5000);
 }
-void setup()  {
-  Wire.begin(); // join i2c bus (address optional for master)
-  delayMicroseconds(10000);
-  Serial.begin(9600);
-  Serial.println("setup begin");
-  stepperrun();
+
+void setup() {
+    Wire.begin(); // join i2c bus (address optional for master)
+    delayMicroseconds(10000);
+    Serial.begin(9600);
+    Serial.println("setup begin");
+    stepperrun();
 }
-void loop()  {
- 
+void loop() {
+
 }
 ```
 
@@ -351,9 +350,10 @@ Function Reference
 
 Usage:
 
-    Serial.println("sent command to + direction,100 steps, fast");
-    SteperStepset(100);
-
+```c
+Serial.println("sent command to + direction,100 steps, fast");
+SteperStepset(100);
+```
 **2. void StepperMotorEnable(unsigned char Direction, unsigned char motorspeed)**
 
 *Description: Enable the IIC motor driver to drive a 4-wire stepper.*
@@ -364,7 +364,9 @@ Usage:
 
 Usage:
 
-    StepperMotorEnable(1, 1);// enable the i2c motor driver a stepper.
+```c
+StepperMotorEnable(1, 1);// enable the i2c motor driver a stepper.
+```
 
 **3. void StepperMotorDisable()**
 
@@ -372,7 +374,9 @@ Usage:
 
 Usage:
 
-    StepperMotorDisable();
+```c
+StepperMotorDisable();
+```
 
 **4. void MotorSpeedSetAB(unsigned char MotorSpeedA , unsigned char MotorSpeedB)**
 
@@ -385,10 +389,11 @@ Usage:
 
 Usage:
 
-
-    Serial.println("sent DC speed 100");
-    MotorSpeedSetAB(100,100);//defines the speed of motor 1 and motor 2;
-    delay(10); //this delay needed
+```c
+Serial.println("sent DC speed 100");
+MotorSpeedSetAB(100,100);//defines the speed of motor 1 and motor 2;
+delay(10); //this delay needed
+```
 
 **5. void MotorPWMFrequenceSet(unsigned char Frequence)**
 
@@ -404,11 +409,13 @@ Usage:
 
 Usage:
 
-    MotorDirectionSet(0b1010);  //"0b1010" defines the output polarity, "10" means the M+ is "positive" while the M- is "negative"
-                             // make sure M+ and M- is different polarity when driving DC motors.
-    delay(1000);
-    MotorDirectionSet(0b0101);  //0b0101  Rotating in the opposite direction
-    delay(500);
+```c
+MotorDirectionSet(0b1010);  //"0b1010" defines the output polarity, "10" means the M+ is "positive" while the M- is "negative"
+                            // make sure M+ and M- is different polarity when driving DC motors.
+delay(1000);
+MotorDirectionSet(0b0101);  //0b0101  Rotating in the opposite direction
+delay(500);
+```
 
 **7. void MotorDriectionAndSpeedSet(unsigned char Direction,unsigned char MotorSpeedA,unsigned char MotorSpeedB)**
 
