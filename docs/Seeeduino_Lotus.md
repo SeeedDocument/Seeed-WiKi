@@ -14,6 +14,9 @@ Seeeduino Lotus is an ATMEGA328 Microcontroller development board. It is a combi
 
 [![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now.png)](https://www.seeedstudio.com/Seeeduino-Lotus-ATMega328-Board-with-Grove-Interface-p-1942.html)
 
+!!!Warning
+    Seeeduino Lotus works at Windows Operating System ONLY. DO NOT buy it if you want to use it under MAC or Linux.
+
 ## Application Ideas
 
 * DIY
@@ -97,26 +100,15 @@ If you can't find one, you can buy one [here](http://www.seeedstudio.com/depot/M
 * **Connect the board**
 Connect the Arduino board to your computer using the USB cable. The green power LED (labelled **PWR**) should go on.
 
-**For Windows**
 
 !!!Note
     This drive is available for Windows XP, Windows Vista, Windows 7, Windows 8/8.1 and Windows 10.
 
 [![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/download_driver_for_seeeduino_lotus.png)](https://github.com/SeeedDocument/Seeeduino_Lotus/raw/master/res/CH341SER.EXE)
 
-- Plug in your board and wait for Windows to begin its driver installation process. After a few moments, the process will fail, despite best efforts.
-- Click on the Start Menu, and open up the Control Panel.
-- While in the Control Panel, navigate to System and Security. Next, click on System. Once the System window is up, open the **Device Manager**.
-- Look under Ports (COM & LPT). You should find an open port named "CH340 xxx". If there is no COM & LPT section, look under "Other Devices" for "Unknown Device".
-- Right click on the "Seeeduino Lotus" port and choose the "Update Driver Software" option.
-- Next, choose the "Browse my computer for Driver software" option.
-- Windows will finish up the driver installation from there.
+Double click on the driver and Install it. 
 
-**For Mac OSX**
-
-Please download the driver here.
-
-[![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/download_driver_for_seeeduino_lotus.png)](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/res/CH341SER_MAC.zip)
+![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/driver_install.png)
 
 
 ## Getting Started
@@ -143,14 +135,9 @@ Open the LED blink example sketch: **File > Examples >01.Basics > Blink**.
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_GPRS/master/img/select_blink.png)
 
-**Add Seeeduino to your Arduino IDE**
+**Add Seeeduino Lite to your Arduino IDE**
 
-Click on **File > Preference**, and fill Additional Boards Manager URLs with below url:
-    *https://raw.githubusercontent.com/Seeed-Studio/Seeeduino-Boards/master/package_seeeduino_index.json*
-
-Click OK to finish the setting. Then Click on **Tools > Board > Boards Manager**, find **Seeeduino by Seeed Studio**, and Install it.
-
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_GPRS/master/img/add_board.png)
+There is no *Seeeduino Lite* option in the boards of your Arduino IDE, click on [How to Add Seeed boards to Arduino IDE](http://wiki.seeed.cc/Seeed_Arduino_Boards/) for the instruction.
 
 **Select your board**
 You'll need to select the entry in the **Tools > Board** menu that corresponds to your Arduino.
@@ -163,8 +150,6 @@ Select the serial device of the Arduino board from the Tools | Serial Port menu.
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/select_com.jpg)
 
-!!!Note
-    On the Mac, this should be something with **/dev/tty.USBmodem**.
 
 **Upload the program**
 Now, simply click the "Upload" button in the environment. Wait a few seconds and if the upload is successful, the message "Done uploading." will appear in the status bar.
@@ -173,41 +158,27 @@ Now, simply click the "Upload" button in the environment. Wait a few seconds and
 
 A few seconds after the upload finishes, you should see the pin 13 (L) LED on the board start to blink (in orange). If it does, congratulations! You've gotten Arduino up-and-running. If you have problems, please see the troubleshooting suggestions.
 
-## Getting Started on Linux
-
-For using on Linux, please go to [Installing Arduino on Linux](http://playground.arduino.cc/Learning/Linux)
 
 ## Resources
 
 * **Schematic**
-
-    [Seeeduino Lotus Eagle file](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/res/Seeeduino_Lotus_v1.0_Sch.zip)
-
-    [Seeeduino Lotus PDF file](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/res/Seeeduino_lotus_bootloader.zip)
+    * [Seeeduino Lotus Eagle file](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/res/Seeeduino_Lotus_v1.0_Sch.zip)
+    * [Seeeduino Lotus PDF file](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/res/Seeeduino_lotus_bootloader.zip)
 
 * **Datasheet**
-
-    [ATmega328P](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/res/ATmega328.pdf)
-
-    [ATmega16U2](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/res/ATmega16u2.pdf)
+    * [ATmega328P](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/res/ATmega328.pdf)
+    * [ATmega16U2](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/res/ATmega16u2.pdf)
 
 * **Bootloader**    
-
-    [Seeeduino Lotus Bootloader](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/res/Seeeduino_Lotus_v1.0_pdf.pdf)
+    * [Seeeduino Lotus Bootloader](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/res/Seeeduino_Lotus_v1.0_pdf.pdf)
 
 * **References**
-
-    [Getting Started with Arduino](https://www.arduino.cc/en/Guide/HomePage)
-
-    [Arduino Language Reference](https://www.arduino.cc/en/Reference/HomePage)
-
-    [Download the Arduino Software(IDE)](https://www.arduino.cc/en/Main/Software)
-
-    [Arduino FAQ](https://www.arduino.cc/en/Main/FAQ)
-
-    [Arduino Introduction](https://www.arduino.cc/en/guide/introduction)
-
-    [Wikipedia page for Arduino](https://en.wikipedia.org/wiki/Arduino)
+    * [Getting Started with Arduino](https://www.arduino.cc/en/Guide/HomePage)
+    * [Arduino Language Reference](https://www.arduino.cc/en/Reference/HomePage)
+    * [Download the Arduino Software(IDE)](https://www.arduino.cc/en/Main/Software)
+    * [Arduino FAQ](https://www.arduino.cc/en/Main/FAQ)
+    * [Arduino Introduction](https://www.arduino.cc/en/guide/introduction)
+    * [Wikipedia page for Arduino](https://en.wikipedia.org/wiki/Arduino)
 
 ## FAQ
 
