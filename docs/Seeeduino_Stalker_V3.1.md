@@ -134,7 +134,7 @@ Firstly connect Staler to UartSBee via the 6pin jumper wire, then connect UartSB
 |    DTR              |    DTR          |
 |    TXD              |    RXD          |
 |    RXD              |    TXD          |
-|    5V              |    VCC          |
+|    5V               |    VCC          |
 |    GND              |    GND          |
 
 !!!Note
@@ -156,7 +156,12 @@ Seeeduino Stalker is an Arduino compatible board that with rich function. If you
 
 [![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Stalker_V3_1/master/images/Download_IDE.png)](https://www.arduino.cc/en/Main/Software)
 
-###STEP4: Blink
+###STEP4: Add Seeeduino Stalker to your Arduino IDE
+
+There is no *Seeeduino Stalker* option in the boards of your Arduino IDE, click on [How to Add Seeed boards to Arduino IDE](http://wiki.seeed.cc/Seeed_Arduino_Boards/) for the instruction.
+
+
+###STEP5: Blink
 
 Here we will update a simple code to Stalker. Open your Arduino IDE, open **File > Examples > Basics > Blink**
 
@@ -164,8 +169,8 @@ Here we will update a simple code to Stalker. Open your Arduino IDE, open **File
 
 Then click on the Upload button, seconds later after the uploading is done, check **L** on the board, it will blink at the frequency of 1s.
 
-###Sketchbook for Stalker V3.1
-There's a sketchbook for Seeeduino Stalker V3.1, which is consist of:
+###Examples for Stalker V3.1
+There are many examples for Seeeduino Stalker V3.1, which is consist of:
 
 * Example of reading the voltage of battery
 * Example of reading the status of charging
@@ -173,11 +178,6 @@ There's a sketchbook for Seeeduino Stalker V3.1, which is consist of:
 * RTC library and some examples
 * Sleep related function
 
-[![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Stalker_V3_1/master/images/download_sketch.png)](https://github.com/Seeed-Studio/Sketch_Stalker_V3_1)
-
-Download the sketch and put at anywhere, open Arduino IDE, **File > Reference**, and copy the location path to **Sketchbook location**, then click on OK. Reopen Arduino IDE, then the sketchbook is set.
-
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Stalker_V3_1/master/images/sketch_set.png)
 
 ## RTC
 
