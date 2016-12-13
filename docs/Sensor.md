@@ -27,6 +27,7 @@ Here is the list of the Grove - Sensor Boards you can find in the Seeed WiKi. Th
 - [Grove - CO2 Sensor](/Grove-CO2_Sensor/)
 - [Grove - Chest Strap Heart Rate Sensor](/Grove-Chest_Strap_Heart_Rate_Sensor/)
 - [Grove - Collision Sensor](/Grove-Collision_Sensor/)
+- [Grove - Differential Amplifier v1.0](/Grove-Differential_Amplifier_v1.0/)
 - [Grove - Digital Infrared Temperature Sensor](/Grove-Digital_Infrared_Temperature_Sensor/)
 - [Grove - Digital Light Sensor](/Grove-Digital_Light_Sensor/)
 - [Grove - Dust Sensor](/Grove-Dust_Sensor/)

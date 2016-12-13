@@ -37,7 +37,7 @@ Here are some project made with Grove for your reference, more projects please r
 |![enter image description here](https://raw.githubusercontent.com/SeeedDocument/GroveSystem/master/project_images/7.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/GroveSystem/master/project_images/8.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/GroveSystem/master/project_images/9.jpg)|
 |[MAKE IT NOW!](http://www.instructables.com/id/DIY-a-Wi-Fi-Speaker/)|[MAKE IT NOW!](http://www.instructables.com/id/Make-a-mini-toy-car-with-Arduino/)|[MAKE IT NOW!](http://www.instructables.com/id/DIY-a-Retro-Wooden-Lamp-with-BBG/)|
 
-| Pokemon Go SAFETY BADGE | 3WD OmniRover | Quality of Life Meter |
+| Pokemon Go SAFETY BADGE | Make a Wooden Gun | Quality of Life Meter |
 |------------------|--------------------------|-----------------------|
 |![enter image description here](https://raw.githubusercontent.com/SeeedDocument/GroveSystem/master/project_images/10.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/GroveSystem/master/project_images/11.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/GroveSystem/master/project_images/12.jpg)|
 |[MAKE IT NOW!](http://www.instructables.com/id/5-Minutes-to-DIY-Your-Own-Pokemon-Go-SAFETY-BADGE/)|[MAKE IT NOW!](http://www.instructables.com/id/DIY-a-Wooden-Laser-Gun-As-a-Xmas-Present-for-Your-/)|[MAKE IT NOW!](http://www.instructables.com/id/Quality-of-Life-Meter-Mk2-Smarter-and-Connected/)|

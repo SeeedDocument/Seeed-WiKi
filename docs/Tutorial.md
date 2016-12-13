@@ -14,5 +14,6 @@ Here is the list of the Tutorial you can find in the Seeed WiKi. The list will b
 - [JavaScript for RePhone](/JavaScript_for_RePhone/)
 - [Lua for RePhone](/Lua_for_RePhone/)
 - [RePhone APIs - Audio](/RePhone_APIs-Audio/)
+- [Service for Fusion PCB](/Service_for_Fusion_PCB/)
 
 
