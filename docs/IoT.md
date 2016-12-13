@@ -23,9 +23,5 @@ Intenet of Things(IoT) products are listed here:
 - [Seeeduino Cloud](/Seeeduino_Cloud/)
 - [Seeeduino GPRS](/Seeeduino_GPRS/)
 - [Shield Bot V1.1](/Shield_Bot_V1.1/)
-- [Skeleton Bot - 4WD hercules mobile robotic platform](/Skeleton_Bot-4WD_hercules_mobile_robotic_platform/)
-- [USB To Uart 5V](/USB_To_Uart_5V/)
-- [USB To Uart 5V/3V3](/USB_To_Uart_5V_3V3/)
-- [Unibody box for Galileo Gen2](/Unibody_box_for_Galileo_Gen2/)
 
 

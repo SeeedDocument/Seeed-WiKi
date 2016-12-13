@@ -23,6 +23,4 @@ Here is the list of the mbed Boards you can find in the Seeed WiKi. The list wil
 - [Arch Pro](/Arch_Pro/)
 - [Arch V1.1](/Arch_V1.1/)
 - [Grove - Starter Kit for mbed](/Grove-Starter_Kit_for_mbed/)
-- [Seeeduino Arch V1.0](/Seeeduino_Arch_V1.0/)
-- [Tiny BLE](/Tiny_BLE/)
 

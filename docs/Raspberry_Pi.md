@@ -20,7 +20,5 @@ Here is the list of the Raspberry Pi Boards you can find in the Seeed WiKi. The 
 - [Raspberry Pi Motor Driver Board v1.0](/Raspberry_Pi_Motor_Driver_Board_v1.0/)
 - [Raspberry Pi RS232 Board v1.0](/Raspberry_Pi_R232_Board_v1.0/)
 - [Raspberry Pi Relay Board v1.0](/Raspberry_Pi_Relay_Board_v1.0/)
-- [Skeleton Box for Raspberry Pi Compute Module Development Kit](/Skeleton_Box_for_Raspberry_Pi_Compute_Module_Development_Kit/)
-- [Skeleton box for Raspberry Pi](/Skeleton_box_for_Rasberry_Pi/)
 
 

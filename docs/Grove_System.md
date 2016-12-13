@@ -40,7 +40,7 @@ Here are some project made with Grove for your reference, more projects please r
 | Pokemon Go SAFETY BADGE | 3WD OmniRover | Quality of Life Meter |
 |------------------|--------------------------|-----------------------|
 |![enter image description here](https://raw.githubusercontent.com/SeeedDocument/GroveSystem/master/project_images/10.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/GroveSystem/master/project_images/11.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/GroveSystem/master/project_images/12.jpg)|
-|[MAKE IT NOW!](http://www.instructables.com/id/5-Minutes-to-DIY-Your-Own-Pokemon-Go-SAFETY-BADGE/)|[MAKE IT NOW!](http://www.instructables.com/id/Intel-EdisonSeeedNexus-3WD-OmniRover/)|[MAKE IT NOW!](http://www.instructables.com/id/Quality-of-Life-Meter-Mk2-Smarter-and-Connected/)|
+|[MAKE IT NOW!](http://www.instructables.com/id/5-Minutes-to-DIY-Your-Own-Pokemon-Go-SAFETY-BADGE/)|[MAKE IT NOW!](http://www.instructables.com/id/DIY-a-Wooden-Laser-Gun-As-a-Xmas-Present-for-Your-/)|[MAKE IT NOW!](http://www.instructables.com/id/Quality-of-Life-Meter-Mk2-Smarter-and-Connected/)|
 
 
 | Hackable RGB ornament | The Internet Of Led Wall | PI Game Box |
@@ -176,7 +176,7 @@ The four pin keyed connector of the Grove Branch Cable for Servos will usually b
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/GroveSystem/master/images/cable_servo.jpg)
 
-###Grove to 4pin Female/Mail Jumper
+###Grove to 4pin Female/Male Jumper
 
 You can use it for:
 

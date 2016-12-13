@@ -26,5 +26,4 @@ Here is the list of the BeagleBone Boards you can find in the Seeed WiKi. The li
 - [Grove Cape for BeagleBone Series](/Grove_Cape_for_BeagleBone_Series/)
 - [Grove Starter Kit for BeagleBone Green](/Grove_Starter_Kit_for_BeagleBone_Green/)
 - [Motor Bridge Cape v1.0](/Motor_Bridge_Cape_v1.0/)
-- [Skeleton box for Beaglebone](/Skeleton_box_for_Beaglebone/)
 

@@ -147,7 +147,7 @@ Alternatively, it can be bought stand-alone [here](https://www.seeedstudio.com/G
 
 ##Project
 
-![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/gun.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Grove_Button/master/img/gun.jpg)
 
 Inspired by OVERWATCH, we have made a very cool Wooden Laser Gun toy for fun these day!
 

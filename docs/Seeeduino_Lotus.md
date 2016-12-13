@@ -27,10 +27,10 @@ Seeeduino Lotus is an ATMEGA328 Microcontroller development board. It is a combi
 
 Here is some funny project for your reference.
 
-|Car Controlled by Track Ball|FM Receiver|HCHO Detector|
+|Car Controlled by Track Ball|FM Receiver|Make a Wooden Gun|
 |-------|-------|-------|
-|![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/example_1.png)|![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/Fm%20demo.jpg)|![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/example_3.png)|
-|[Make it Now](http://www.seeed.cc/A-Car-Controlled-by-Track-Ball-p-1132.html)|[Make it Now](/FM_Receiver/)|[Make it Now](http://www.seeed.cc/A-Handheld-Formaldehyde(HCHO)-Detector-p-380.html)|
+|![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/example_1.png)|![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/Fm%20demo.jpg)|![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/gun.jpg)|
+|[Make it Now](http://www.seeed.cc/A-Car-Controlled-by-Track-Ball-p-1132.html)|[Make it Now](/FM_Receiver/)|[Make it Now](http://www.instructables.com/id/DIY-a-Wooden-Laser-Gun-As-a-Xmas-Present-for-Your-/)|
 
 
 ## Feature
