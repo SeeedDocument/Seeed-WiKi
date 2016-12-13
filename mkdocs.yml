@@ -62,10 +62,17 @@ pages:
         - Seeeduino Stalker v3 enclosure: Seeeduino_Stalker_v3_enclosure.md
         - Seeeduino v4.2: Seeeduino_v4.2.md
         - Shield Bot V1.2: Shield_Bot_V1.2.md
+        - Skeleton Box: Skeleton_Box.md
+        - Skeleton Box (10x7,10x10,17x10): Skeleton_Box_10x7_10x10_17x10.md
+        - Small e-Paper Shield V2: Small_e-Paper_Shield_V2.md
+        - Solar Charger Shield V2.2: Solar_Charger_Shield_V2.2.md
         - UartSBee V4: UartSBee_V4.md
         - UartSBee v5: UartSBee_v5.md
         - W5500 Ethernet Shield v1.0: W5500_Ethernet_Shield_v1.0.md
+        - Wifi Bee v2.0: Wifi_Bee_v2.0.md
+        - Wifi Shield (Fi250) V1.1: Wifi_Shield_Fi250_V1.1.md
         - Wifi Shield V2.0: Wifi_Shield_V2.0.md
+        - XBee Shield V2.0: XBee_Shield_V2.0.md
 
     - BeagleBone:
         - BeagleBone Introduction: BeagleBone.md
@@ -78,6 +85,7 @@ pages:
         - Grove Cape for BeagleBone Series: Grove_Cape_for_BeagleBone_Series.md
         - Grove Starter Kit for BeagleBone Green: Grove_Starter_Kit_for_BeagleBone_Green.md
         - Motor Bridge Cape v1.0: Motor_Bridge_Cape_v1.0.md
+        - Skeleton box for Beaglebone: Skeleton_box_for_Beaglebone.md
 
     - Raspberry Pi:
         - Raspberry Pi Introduction: Raspberry_Pi.md
@@ -85,6 +93,8 @@ pages:
         - Raspberry Pi Motor Driver Board v1.0: Raspberry_Pi_Motor_Driver_Board_v1.0.md
         - Raspberry Pi RS232 Board v1.0: Raspberry_Pi_R232_Board_v1.0.md
         - Raspberry Pi Relay Board v1.0: Raspberry_Pi_Relay_Board_v1.0.md
+        - Skeleton Box for Raspberry Pi Compute Module Development Kit: Skeleton_Box_for_Raspberry_Pi_Compute_Module_Development_Kit.md
+        - Skeleton box for Raspberry Pi: Skeleton_box_for_Rasberry_Pi.md
 
     - LinkIt:
         - LinkIt Introduction: LinkIt.md
@@ -107,12 +117,15 @@ pages:
         - Arch Pro: Arch_Pro.md
         - Arch V1.1: Arch_V1.1.md
         - Grove - Starter Kit for mbed: Grove-Starter_Kit_for_mbed.md
+        - Seeeduino Arch V1.0: Seeeduino_Arch_V1.0.md
+        - Tiny BLE: Tiny_BLE.md
 
     - RePhone:
         - RePhone Introduction: RePhone.md
         - RePhone Geo Kit: RePhone_Geo_Kit.md
         - RePhone Lumi Kit: RePhone_Lumi_Kit.md
         - RePhone Strap Kit for Pebble: RePhone_Strap_Kit_for_Pebble.md
+        - Rephone Core 2G-AtmelSAMD21: Rephone_core_2G-AtmelSAMD21.md
         - Xadow - 3-Axis Accelerometer: Xadow_3_Aixs_Accelerometer.md
         - Xadow - 3-Axis Digital Accelerometer(±400g): Xadow_3_Aixs_Digital_Accelerometer_plusandminus_400g.md
         - Xadow - BLE (Dual Model) v1.0: Xadow_BLE_Dual_Model_V1.0.md
@@ -190,11 +203,11 @@ pages:
         - Grove - Barometer (High-Accuracy): Grove-Barometer-High-Accuracy.md
         - Grove - Barometer Sensor: Grove-Barometer_Sensor.md
         - Grove - Barometer Sensor (BMP180): Grove-Barometer_Sensor-BMP180.md
-        - Grove - Barometer Sensor (BMP280): Grove-Barometer_Sensor-BMP280.md
         - Grove - Barometer Sensor(BME280): Grove-Barometer_Sensor-BME280.md
         - Grove - CO2 Sensor: Grove-CO2_Sensor.md
         - Grove - Chest Strap Heart Rate Sensor: Grove-Chest_Strap_Heart_Rate_Sensor.md
         - Grove - Collision Sensor: Grove-Collision_Sensor.md
+        - Grove - Differential Amplifier v1.0: Grove-Differential_Amplifier_v1.0.md
         - Grove - Digital Infrared Temperature Sensor: Grove-Digital_Infrared_Temperature_Sensor.md
         - Grove - Digital Light Sensor: Grove-Digital_Light_Sensor.md
         - Grove - Dust Sensor: Grove-Dust_Sensor.md
@@ -345,6 +358,7 @@ pages:
         - Grove Base Shield for Photon: Grove_Base_Shield_for_Photon.md
         - Grove Indoor Environment Kit for Edison: Grove_Indoor_Environment_Kit_for_Edison.md
         - Grove Smart Plant Care Kit: Grove_Smart_Plant_Care_Kit.md
+        - Sidekick Basic Kit for Arduino V2: Sidekick_Basic_Kit_for_Arduino_V2.md
 
 
 - IoT:
@@ -364,6 +378,10 @@ pages:
         - Seeeduino Cloud: Seeeduino_Cloud.md
         - Seeeduino GPRS: Seeeduino_GPRS.md
         - Shield Bot V1.1: Shield_Bot_V1.1.md
+        - Skeleton Bot - 4WD hercules mobile robotic platform: Skeleton_Bot-4WD_hercules_mobile_robotic_platform.md
+        - USB To Uart 5V: USB_To_Uart_5V.md
+        - USB To Uart 5V/3V3: USB_To_Uart_5V_3V3.md
+        - Unibody box for Galileo Gen2: Unibody_box_for_Galileo_Gen2.md
 
 
 - Tutorial:
@@ -372,11 +390,12 @@ pages:
         - Eclipse IDE for RePhone Kit: Eclipse_IDE_for_RePhone_Kit.md
         - FM Receiver: FM_Receiver.md
         - How to Add Seeed boards to Arduino IDE: Seeed_Arduino_Boards.md
-        - How to edit a document: How_To_Edit_A_Document.md
+        - How to edit a document: How_to_edit_a_document.md
         - How to install an Arduino library: How_to_install_Arduino_Library.md
         - JavaScript for RePhone: JavaScript_for_RePhone.md
         - Lua for RePhone: Lua_for_RePhone.md
         - RePhone APIs - Audio: RePhone_APIs-Audio.md
+        - Service for Fusion PCB: Service_for_Fusion_PCB.md
 
 
 - MakerPro:

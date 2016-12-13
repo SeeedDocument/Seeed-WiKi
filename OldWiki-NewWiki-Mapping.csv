@@ -65,7 +65,6 @@ Grove - BLE (dual model) v1.0,http://wiki.seeed.cc/Grove-BLE-dual_model-v1.0/,ht
 Grove - Barometer (High-Accuracy),http://wiki.seeed.cc/Grove-Barometer-High-Accuracy/,http://wiki.seeedstudio.com/wiki/Grove_-_Barometer_(High-Accuracy)
 Grove - Barometer Sensor,http://wiki.seeed.cc/Grove-Barometer_Sensor/,http://wiki.seeedstudio.com/wiki/Grove_-_Barometer_Sensor
 Grove - Barometer Sensor (BMP180),http://wiki.seeed.cc/Grove-Barometer_Sensor-BMP180/,http://wiki.seeedstudio.com/wiki/Grove_-_Barometer_Sensor_(BMP180)
-Grove - Barometer Sensor (BMP280),http://wiki.seeed.cc/Grove-Barometer_Sensor-BMP280/,http://wiki.seeedstudio.com/wiki/Grove_-_Barometer_Sensor_(BMP280)
 Grove - Barometer Sensor(BME280),http://wiki.seeed.cc/Grove-Barometer_Sensor-BME280/,http://wiki.seeedstudio.com/wiki/Grove_-_Barometer_Sensor(BME280)
 Grove - Bee Socket,http://wiki.seeed.cc/Grove-Bee_Socket/,http://wiki.seeedstudio.com/wiki/Grove - Bee Socket
 Grove - Button,http://wiki.seeed.cc/Grove-Button/,http://wiki.seeedstudio.com/wiki/Grove - Button
@@ -77,6 +76,7 @@ Grove - Circular LED,http://wiki.seeed.cc/Grove-Circular_LED/,http://wiki.seeeds
 Grove - Collision Sensor,http://wiki.seeed.cc/Grove-Collision_Sensor/,http://wiki.seeedstudio.com/wiki/Grove_-_Collision_Sensor
 Grove - Communication,http://wiki.seeed.cc/Communication/,
 Grove - DMX512,http://wiki.seeed.cc/Grove-DMX512/,http://wiki.seeedstudio.com/wiki/Grove - DMX512
+Grove - Differential Amplifier v1.0,http://wiki.seeed.cc/Grove-Differential_Amplifier_v1.0/,http://wiki.seeedstudio.com/wiki/Grove - Differential Amplifier v1.0
 Grove - Differential Amplifier v1.2,http://wiki.seeed.cc/Grove-Differential_Amplifier_v1.2/,http://wiki.seeedstudio.com/wiki/Grove_-_Differential_Amplifier_v1.2
 Grove - Digital Infrared Temperature Sensor,http://wiki.seeed.cc/Grove-Digital_Infrared_Temperature_Sensor/,http://wiki.seeedstudio.com/wiki/Grove_-_Digital_Infrared_Temperature_Sensor
 Grove - Digital Light Sensor,http://wiki.seeed.cc/Grove-Digital_Light_Sensor/,http://wiki.seeedstudio.com/wiki/Grove_-_Digital_Light_Sensor
@@ -221,7 +221,7 @@ Grove System,http://wiki.seeed.cc/Grove_System/,http://wiki.seeedstudio.com/wiki
 Hercules Dual 15A 6-20V Motor Controller,http://wiki.seeed.cc/Hercules_Dual_15A_6-20V_Motor_Controller/,http://wiki.seeedstudio.com/wiki/Hercules_Dual_15A_6-20V_Motor_Controller
 Home,http://wiki.seeed.cc/index/,
 How to Add Seeed boards to Arduino IDE,http://wiki.seeed.cc/Seeed_Arduino_Boards/,
-How to edit a document,http://wiki.seeed.cc/How_To_Edit_A_Document/,
+How to edit a document,http://wiki.seeed.cc/How_to_edit_a_document/,
 How to install an Arduino library,http://wiki.seeed.cc/How_to_install_Arduino_Library/,
 I2C LCD,http://wiki.seeed.cc/I2C_LCD/,http://wiki.seeedstudio.com/wiki/I2C_LCD
 IoT Introduction,http://wiki.seeed.cc/IoT/,
@@ -262,8 +262,10 @@ RePhone Introduction,http://wiki.seeed.cc/RePhone/,
 RePhone Lumi Kit,http://wiki.seeed.cc/RePhone_Lumi_Kit/,http://wiki.seeedstudio.com/wiki/RePhone Lumi Kit
 RePhone Strap Kit for Pebble,http://wiki.seeed.cc/RePhone_Strap_Kit_for_Pebble/,http://wiki.seeedstudio.com/wiki/RePhone Strap Kit for Pebble
 Relay Shield v3.0,http://wiki.seeed.cc/Relay_Shield_v3/,http://wiki.seeedstudio.com/wiki/Relay Shield v3.0
+Rephone Core 2G-AtmelSAMD21,http://wiki.seeed.cc/Rephone_core_2G-AtmelSAMD21/,
 SD Card shield V4.0,http://wiki.seeed.cc/SD_Card_shield_V4.0/,http://wiki.seeedstudio.com/wiki/SD_Card_shield_V4.0
 Seeed BLE Shield v1,http://wiki.seeed.cc/Seeed_BLE_Shield/,http://wiki.seeedstudio.com/wiki/Seeed BLE Shield v1
+Seeeduino Arch V1.0,http://wiki.seeed.cc/Seeeduino_Arch_V1.0/,http://wiki.seeedstudio.com/wiki/Seeeduino Arch V1.0
 Seeeduino Cloud,http://wiki.seeed.cc/Seeeduino_Cloud/,http://wiki.seeedstudio.com/wiki/Seeeduino_Cloud
 Seeeduino Cloud and Grove IoT Starter Kit Powered by AWS,http://wiki.seeed.cc/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/,http://wiki.seeedstudio.com/wiki/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS
 Seeeduino Ethernet,http://wiki.seeed.cc/Seeeduino_Ethernet/,http://wiki.seeedstudio.com/wiki/Seeeduino Ethernet
@@ -277,13 +279,29 @@ Seeeduino Stalker V3.1,http://wiki.seeed.cc/Seeeduino_Stalker_V3.1/,
 Seeeduino Stalker v3 enclosure,http://wiki.seeed.cc/Seeeduino_Stalker_v3_enclosure/,http://wiki.seeedstudio.com/wiki/Seeeduino Stalker v3 enclosure
 Seeeduino v4.2,http://wiki.seeed.cc/Seeeduino_v4.2/,http://wiki.seeedstudio.com/wiki/Seeeduino_v4.2
 Sensor Introduction,http://wiki.seeed.cc/Sensor/,
+Service for Fusion PCB,http://wiki.seeed.cc/Service_for_Fusion_PCB/,http://wiki.seeedstudio.com/wiki/Service for Fusion PCB
 Shield Bot V1.1,http://wiki.seeed.cc/Shield_Bot_V1.1/,http://wiki.seeedstudio.com/wiki/Shield Bot V1.1
 Shield Bot V1.2,http://wiki.seeed.cc/Shield_Bot_V1.2/,http://wiki.seeedstudio.com/wiki/Shield_Bot_V1.2
+Sidekick Basic Kit for Arduino V2,http://wiki.seeed.cc/Sidekick_Basic_Kit_for_Arduino_V2/,http://wiki.seeedstudio.com/wiki/Sidekick Basic Kit for Arduino V2
+Skeleton Bot - 4WD hercules mobile robotic platform,http://wiki.seeed.cc/Skeleton_Bot-4WD_hercules_mobile_robotic_platform/,http://wiki.seeedstudio.com/wiki/Skeleton Bot - 4WD hercules mobile robotic platform
+Skeleton Box,http://wiki.seeed.cc/Skeleton_Box/,http://wiki.seeedstudio.com/wiki/Skeleton Box
+Skeleton Box (10x7,10x10,17x10),http://wiki.seeed.cc/Skeleton_Box_10x7_10x10_17x10/,http://wiki.seeedstudio.com/wiki/Skeleton Box (10x7,10x10,17x10)
+Skeleton Box for Raspberry Pi Compute Module Development Kit,http://wiki.seeed.cc/Skeleton_Box_for_Raspberry_Pi_Compute_Module_Development_Kit/,http://wiki.seeedstudio.com/wiki/Skeleton Box for Raspberry Pi Compute Module Development Kit
+Skeleton box for Beaglebone,http://wiki.seeed.cc/Skeleton_box_for_Beaglebone/,http://wiki.seeedstudio.com/wiki/Skeleton box for Beaglebone
+Skeleton box for Raspberry Pi,http://wiki.seeed.cc/Skeleton_box_for_Rasberry_Pi/,http://wiki.seeedstudio.com/wiki/Skeleton box for Raspberry Pi
+Small e-Paper Shield V2,http://wiki.seeed.cc/Small_e-Paper_Shield_V2/,http://wiki.seeedstudio.com/wiki/Small e-Paper Shield V2
+Solar Charger Shield V2.2,http://wiki.seeed.cc/Solar_Charger_Shield_V2.2/,http://wiki.seeedstudio.com/wiki/Solar Charger Shield V2.2
+Tiny BLE,http://wiki.seeed.cc/Tiny_BLE/,http://wiki.seeedstudio.com/wiki/Tiny BLE
 Tutorial Introduction,http://wiki.seeed.cc/Tutorial/,
+USB To Uart 5V,http://wiki.seeed.cc/USB_To_Uart_5V/,http://wiki.seeedstudio.com/wiki/USB To Uart 5V
+USB To Uart 5V/3V3,http://wiki.seeed.cc/USB_To_Uart_5V_3V3/,http://wiki.seeedstudio.com/wiki/USB To Uart 5V/3V3
 UartSBee V4,http://wiki.seeed.cc/UartSBee_V4/,http://wiki.seeedstudio.com/wiki/UartSBee V4
 UartSBee v5,http://wiki.seeed.cc/UartSBee_v5/,http://wiki.seeedstudio.com/wiki/UartSBee_v5
+Unibody box for Galileo Gen2,http://wiki.seeed.cc/Unibody_box_for_Galileo_Gen2/,http://wiki.seeedstudio.com/wiki/Unibody box for Galileo Gen2
 W5500 Ethernet Shield v1.0,http://wiki.seeed.cc/W5500_Ethernet_Shield_v1.0/,http://wiki.seeedstudio.com/wiki/W5500_Ethernet_Shield_v1.0
 WiFi Serial Transceiver Module,http://wiki.seeed.cc/WiFi_Serial_Transceiver_Module/,http://wiki.seeedstudio.com/wiki/WiFi Serial Transceiver Module
+Wifi Bee v2.0,http://wiki.seeed.cc/Wifi_Bee_v2.0/,http://wiki.seeedstudio.com/wiki/Wifi Bee v2.0
+Wifi Shield (Fi250) V1.1,http://wiki.seeed.cc/Wifi_Shield_Fi250_V1.1/,http://wiki.seeedstudio.com/wiki/Wifi Shield (Fi250) V1.1
 Wifi Shield V2.0,http://wiki.seeed.cc/Wifi_Shield_V2.0/,http://wiki.seeedstudio.com/wiki/Wifi_Shield_V2.0
 Wio Introduction,http://wiki.seeed.cc/Wio/,
 Wio Link,http://wiki.seeed.cc/Wio_Link/,http://wiki.seeedstudio.com/wiki/Wio_Link
@@ -294,6 +312,7 @@ Wio Link Environment Kit,http://wiki.seeed.cc/Wio_Link_Environment_Kit/,http://w
 Wio Link Event Kit,http://wiki.seeed.cc/Wio_Link_Event_Kit/,http://wiki.seeedstudio.com/wiki/Wio_Link_Event_Kit
 Wio Link Starter Kit,http://wiki.seeed.cc/Wio_Link_Starter_Kit/,http://wiki.seeedstudio.com/wiki/Wio_Link_Starter_Kit
 Wio Node,http://wiki.seeed.cc/Wio_Node/,http://wiki.seeedstudio.com/wiki/Wio_Node
+XBee Shield V2.0,http://wiki.seeed.cc/XBee_Shield_V2.0/,http://wiki.seeedstudio.com/wiki/XBee Shield V2.0
 Xadow - 3-Axis Accelerometer,http://wiki.seeed.cc/Xadow_3_Aixs_Accelerometer/,http://wiki.seeedstudio.com/wiki/Xadow - 3-Axis Accelerometer
 Xadow - 3-Axis Digital Accelerometer(±400g),http://wiki.seeed.cc/Xadow_3_Aixs_Digital_Accelerometer_plusandminus_400g/,http://wiki.seeedstudio.com/wiki/Xadow - 3-Axis Digital Accelerometer(±400g)
 Xadow - BLE (Dual Model) v1.0,http://wiki.seeed.cc/Xadow_BLE_Dual_Model_V1.0/,http://wiki.seeedstudio.com/wiki/Xadow - BLE (dual model) v1.0
