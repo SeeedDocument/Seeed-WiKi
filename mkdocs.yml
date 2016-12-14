@@ -332,6 +332,7 @@ pages:
         - Grove - GPS: Grove-GPS.md
         - Grove - I2C ADC: Grove-I2C_ADC.md
         - Grove - I2C FM Receiver: Grove-I2C_FM_Receiver.md
+        - Grove - LoRa Radio: Grove_LoRa_Radio.md
         - Grove - NFC: Grove-NFC.md
         - Grove - NFC Tag: Grove-NFC_Tag.md
         - Grove - Protoshield: Grove-Protoshield.md
@@ -360,6 +361,7 @@ pages:
         - Grove Indoor Environment Kit for Edison: Grove_Indoor_Environment_Kit_for_Edison.md
         - Grove Smart Plant Care Kit: Grove_Smart_Plant_Care_Kit.md
         - Sidekick Basic Kit for Arduino V2: Sidekick_Basic_Kit_for_Arduino_V2.md
+        - Tricycle Bot: Tricycle_Bot.md
 
 
 - IoT:

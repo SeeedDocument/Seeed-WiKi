@@ -19,6 +19,7 @@ Here is the list of the Communication Board you can find in the Seeed WiKi. The 
 - [Grove - GPS](/Grove-GPS/)
 - [Grove - I2C ADC](/Grove-I2C_ADC/)
 - [Grove - I2C FM Receiver](/Grove-I2C_FM_Receiver/)
+- [Grove - LoRa Radio](/Grove_LoRa_Radio/)
 - [Grove - NFC](/Grove-NFC/)
 - [Grove - NFC Tag](/Grove-NFC_Tag/)
 - [Grove - Protoshield](/Grove-Protoshield/)

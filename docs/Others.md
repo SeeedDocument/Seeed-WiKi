@@ -26,4 +26,5 @@ Here is the list of Grove Others Boards you can find in the Seeed WiKi. The list
 - [Grove Indoor Environment Kit for Edison](/Grove_Indoor_Environment_Kit_for_Edison/)
 - [Grove Smart Plant Care Kit](/Grove_Smart_Plant_Care_Kit/)
 - [Sidekick Basic Kit for Arduino V2](/Sidekick_Basic_Kit_for_Arduino_V2/)
+- [Tricycle Bot](/Tricycle_Bot/)
 
