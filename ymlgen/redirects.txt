@@ -8,14 +8,10 @@ Arduino_Common_Error;http://wiki.seeedstudio.com/wiki/Arduino_Common_Error
 Secret_Box;http://wiki.seeedstudio.com/wiki/Secret_Box
 How_to_detect_finger_touch;http://wiki.seeedstudio.com/wiki/How_to_detect_finger_touch%3F
 Suli;http://wiki.seeedstudio.com/wiki/Suli
-UartSBee_V4;http://wiki.seeedstudio.com/wiki/UartSBee_V4
-Mesh_Bee;http://wiki.seeedstudio.com/wiki/Mesh_Bee
 Grove-I2C_Motor_Driver_V1.0;http://wiki.seeedstudio.com/wiki/Grove_-_I2C_Motor_Driver_V1.0
-Grove-I2C_Motor_Driver_V1.2;http://wiki.seeedstudio.com/wiki/Grove_-_I2C_Motor_Driver_V1.2
 GPRS_Shield_V2.0;https://seeeddoc.github.io/GPRS_Shield_V2.0
 Weight_Sensor-Load_Cell-0-500g;http://wiki.seeedstudio.com/wiki/Weight_Sensor_(Load_Cell)0-500g
 Grove-LED;http://wiki.seeedstudio.com/wiki/Grove_-_LED
-Grove-Circular_LED;http://wiki.seeedstudio.com/wiki/Grove_-_Circular_LED
 Grove_Speech_Recognizer;http://wiki.seeed.cc/Grove-Speech_Recognizer/
 Grove_Temperature_and_Humidity_Sensor;http://wiki.seeed.cc/Grove-TemperatureAndHumidity_Sensor/
 Grove_Ultrasonic_Ranger;http://wiki.seeed.cc/Grove-Ultrasonic_Ranger/
