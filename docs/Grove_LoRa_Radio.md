@@ -13,9 +13,9 @@ tags: grove_uart, io_3v3, io_5v, plat_duino
 
 Grove is a very powerful platform developed by Seeed Studio to simplify your IoT projects.We have integrated the grove connector to most boards produced by Seeed to make them become a system. This time, we combined Grove with LoRa to provide an ultra-long-range wireless module for you.
 
-The main functional module in Grove - LoRa Radio 433MHz is RFM98, which is a transceiver features the LoRa long range modem that provides ultra-long range spread spectrum communication and high interference immunity whilst mini-missing current consumption. The heart of Grove - LoRa Radio 433MHz is ATmega168, a widely used chip with very high-performance and low power consumption, especially suitable for this grove module. 
+The main functional module in Grove - LoRa Radio 433MHz is RFM98, which is a transceiver features the LoRa long range modem that provides ultra-long range spread spectrum communication and high interference immunity whilst mini-missing current consumption. The heart of Grove - LoRa Radio 433MHz is ATmega168, a widely used chip with very high-performance and low power consumption, especially suitable for this grove module.
 
-There we already integrated a simple wire antenna to receive signal, if the signal is too weak to receive, don’t worry, the MHF connector next to the antenna is for adding a second antenna which has MHF interface to gain more signal. 
+There we already integrated a simple wire antenna to receive signal, if the signal is too weak to receive, don’t worry, the MHF connector next to the antenna is for adding a second antenna which has MHF interface to gain more signal.
 
 This is the 433MHz version, which can be used for 433MHz communication. You can also find the version for 868MHz at Grove - LoRa Radio 868MHz.
 
@@ -121,13 +121,13 @@ Open your Arduino IDE, click **File > Examples>Grove_LoRa_433MHz_and_915MHz_RF-m
 |Sender|rf95_client|Send "Hello World" every 1s|
 |Receiver|rf95_server|Receive data and print it|
 
-Click **Tools>Board** to choose "Seeeduino Lotus" and select respective serial port then click on Upload button to finish the steps. 
+Click **Tools>Board** to choose "Seeeduino Lotus" and select respective serial port then click on Upload button to finish the steps.
 
 
 !!!Tip
     If you're using Grove - LoRa Radio 868MHz module change the following code.
 
-```c 
+```c
 //rf95.setFrequency(434.0);
 rf95.setFrequency(868.0);
 ```
@@ -138,7 +138,7 @@ After upload completed, you can open the serial monitor to see the result.
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_LoRa_Radio/master/img/result.jpg)
 
-###Date Rate
+###Data Rate
 
 The below chart shows the relationships between the band rate signal band width spreding factor and sensitivity.
 

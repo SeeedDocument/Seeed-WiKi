@@ -232,6 +232,7 @@ For using on Linux, please go to [Installing Arduino on Linux](http://playground
     * [Arduino FAQ](https://www.arduino.cc/en/Main/FAQ)
     * [Arduino Introduction](https://www.arduino.cc/en/guide/introduction)
     * [Wikipedia page for Arduino](https://en.wikipedia.org/wiki/Arduino)
+    * [How to fit RF Explorer 3G+ IoT modules on Seeeduino](http://j3.rf-explorer.com/60-rfe/specifications/184-rf-explorer-3g-iot-for-seeeduino)
 
 ##FAQ
 
@@ -256,4 +257,3 @@ Please check,
 ####Q3. Where can I find technical support if I have some other issue.
 
 You can post a question to [Seeed Forum](http://www.seeed.cc/discover.html?t=Arduino) or send an email to **techsupport@seeed.cc**.
-
