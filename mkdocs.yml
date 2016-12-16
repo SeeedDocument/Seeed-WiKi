@@ -403,10 +403,30 @@ pages:
 
 - MakerPro:
         - MakerPro Introduction: MakerPro.md
+        - 0.5w Solar Panel 55*70: 0.5w_Solar_Panel_55x70.md
+        - 13.56Mhz RFID module - IOS/IEC 14443 type a: 13.56Mhz_RFID_module-IOS-IEC_14443_type_a.md
+        - 1w Solar Panel 80*100: 1w_Solar_Panel_80x100.md
+        - 2KM Long Range RF link kits w/ encoder and decoder: 2KM_Long_Range_RF_link_kits_w_encoder_and_decoder.md
+        - 3.6V Micro hydro generator: 3.6V_Micro_hydro_generator.md
+        - 315Mhz RF link kit: 315Mhz_RF_link_kit.md
+        - 3W Solar Panel 138*160: 3W_Solar_Panel_138x160.md
         - 433Mhz RF Link Kit: 433Mhz_RF_Link_Kit.md
         - Bluetooth Multimeter: Bluetooth_Multimeter.md
+        - Bluetooth V4.0 HM-11 BLE Module: Bluetooth_V4.0_HM_11_BLE_Module.md
+        - DSO Nano: DSO_Nano.md
+        - DSO Nano v3: DSO_Nano_v3.md
+        - DSO Quad: DSO_Quad.md
         - G1&amp;2&#34; Water Flow Sensor: G1_and_2_inch_Water_Flow_Sensor.md
+        - G3/4 Water Flow sensor: G3-4_Water_Flow_sensor.md
+        - GPS Bee kit: GPS_Bee_kit.md
+        - GrovePi&#43;: GrovePi_Plus.md
+        - LoNet 808 - Mini GSM/GPRS &#43; GPS Breakout: LoNet_808-Mini_GSM_GPRS_Plus_GPS_Breakout.md
+        - Mini Soldering Iron: Mini_Soldering_Iron.md
+        - PIR Motion sensor module: PIR_Motion_sensor_module.md
+        - Raspberry Pi 3 Model B: Raspberry_Pi_3_Model_B.md
+        - Ultra Sonic range measurement module: Ultra_Sonic_range_measurement_module.md
         - WiFi Serial Transceiver Module: WiFi_Serial_Transceiver_Module.md
+        - Wireless Sensor Node - Solar Kit: Wireless_Sensor_Node-Solar_Kit.md
 
 
 - About:
