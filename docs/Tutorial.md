@@ -5,6 +5,7 @@ nointro:
 
 Here is the list of the Tutorial you can find in the Seeed WiKi. The list will be constantly updated.
 
+- [A Comparison of Different Grove Temperature Sensors](/temperature_sensor/)
 - [Arduino IDE for RePhone Kit](/Arduino_IDE_for_RePhone_Kit/)
 - [Eclipse IDE for RePhone Kit](/Eclipse_IDE_for_RePhone_Kit/)
 - [FM Receiver](/FM_Receiver/)

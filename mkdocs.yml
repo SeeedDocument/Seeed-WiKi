@@ -389,6 +389,7 @@ pages:
 
 - Tutorial:
         - Tutorial Introduction: Tutorial.md
+        - A Comparison of Different Grove Temperature Sensors: temperature_sensor.md
         - Arduino IDE for RePhone Kit: Arduino_IDE_for_RePhone_Kit.md
         - Eclipse IDE for RePhone Kit: Eclipse_IDE_for_RePhone_Kit.md
         - FM Receiver: FM_Receiver.md

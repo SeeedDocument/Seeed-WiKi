@@ -147,9 +147,6 @@ GrovePi+ is a system that brings Grove Modules to the Raspberry Pi. It adds supp
 
 ###Recommendation Modules
 
-https://raw.githubusercontent.com/SeeedDocument/Tricycle_Bot/master/img/grove_pi/1.jpg
-
-
 |USB Webcam|OLED Dispaly|GPS Module|
 |----------------|-----------------|-----------|
 |![](https://raw.githubusercontent.com/SeeedDocument/Tricycle_Bot/master/img/grove_pi/1.jpg)|![](https://raw.githubusercontent.com/SeeedDocument/Tricycle_Bot/master/img/grove_pi/2.jpg)|![](https://raw.githubusercontent.com/SeeedDocument/Tricycle_Bot/master/img/grove_pi/3.jpg)|
