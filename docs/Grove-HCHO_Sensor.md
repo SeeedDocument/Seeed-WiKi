@@ -12,7 +12,7 @@ tags: grove_analog, io_5v, plat_duino, plat_linkit
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-HCHO_Sensor/master/img/HCHO_Sensor_01.jpg)
 
-The Grove - HCHO Sensor is a semiconductor VOC gas sensor. Its design is based on WSP2110 whose conductivity changes with the concentration of VOC gas in air. Through the circuit, the conductivity can be converted to output signal that corresponding to the gas concentration. This sensor has a very high sensitivity and stability, it can detect the gas whose concentration is up to 1ppm. It’s suitable for detecting formaldehyde, benzene, toluene and other volatile components. This product can be used to detect harmful gas in the home environment. Therefore, it’s a good assistant for you to improve indoor environment quality of life.
+The Grove - HCHO Sensor is a semiconductor VOC gas sensor. Its design is based on WSP2110 whose conductivity changes with the concentration of VOC gas in air. Through the circuit, the conductivity can be converted to output signal that corresponding to the gas concentration. This sensor can detect the gas whose concentration is up to 1ppm. It’s suitable for detecting formaldehyde, benzene, toluene and other volatile components. This product can be used to detect harmful gas in the home environment. Therefore, it’s a good assistant for you to improve indoor environment quality of life.
 
 [![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](http://www.seeedstudio.com/depot/grove-hcho-sensor-p-1593.html)
 
@@ -39,102 +39,91 @@ Platforms Supported
 Getting Started
 ---------------
 
-### With [Arduino](/Arduino "Arduino")
-
-The Grove - HCHO Sensor can be used to detect VOCs, such as HCHO,toluene, benzene, alcohol. Here we take alcohol for an example to demonstrate how to use this sensor.
+The Grove - HCHO Sensor can be used to detect VOCs, such as HCHO,toluene, benzene, alcohol. Here we take HCHO for an example to demonstrate how to use this sensor.
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-HCHO_Sensor/master/img/HCHO_Hardware_Connection.jpg)
 
 ```
 // demo of Grove - HCHO Sensor
- 
+
+#define Vc 4.95
+
 void setup()
 {
     Serial.begin(9600);
 }
- 
+
 void loop()
 {
     int sensorValue=analogRead(A0);
-    float Vol=sensorValue*4.95/1023;
-    Serial.print("Vol = ");
-    Serial.println(Vol);
+    float R0=(1023.0/sensorValue)-1;
+    Serial.print("R0 = ");
+    Serial.println(R0);
     delay(500);
 }
 ```
 
-After uploading the code, open the serial monitor to get the voltage(Vol) under normal condition.
+After uploading the code, open the serial monitor to get the R0 under normal condition(outdoor is the best).
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove-HCHO_Sensor/master/img/Test_result1.jpg)
+Adjust the resistance of R1(the blue potentiometer) with a small screwer to make the number of R0 in the range of 10-100 and record that number(my R0 number here is 34.28).
 
-Now list out the formula describing the relationship of Vol and R0:
+![](https://raw.githubusercontent.com/SeeedDocument/Grove-HCHO_Sensor/master/img/R0.png)
 
-R0=(Vc/Vol-1)×R1 (Vc=4.95V) ①
+Type your number of R0 in `#define R0 ***`, then uploading the code. Remember not to screw R1 anymore, unless you decide to detect R0 again.
 
-Then put a bottle of alcohol near the sensor, and read again the sensor value:
+```
+// demo of Grove - HCHO Sensor
+#include <math.h>
+#define Vc 4.95
+//the number of R0 you detected just now
+#define R0 34.28
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove-HCHO_Sensor/master/img/Test_result3.jpg)
+void setup()
+{
+    Serial.begin(9600);
+} 
 
-And we get the Rs:
+void loop()
+{
+    int sensorValue=analogRead(A0);
+    double Rs=(1023.0/sensorValue)-1;
+    Serial.print("Rs = ");
+    Serial.println(Rs);
+    double ppm=pow(10.0,((log10(Rs/R0)-0.0827)/(-0.4807)));
+    Serial.print("HCHO ppm = ");
+    Serial.println(ppm);
+    delay(1000);
+}
+```
 
-Rs = (Vc/Vol-1)×R1 (Vc=4.95V) ②
+Then move the sensor into the office, and read the HCHO ppm value:
 
-Now calculate Rs/R0. Here we get 0.285. Then refer to the sensitivity characteristic diagram below and find the alcohol concentration is about 5 ppm.
+![](https://raw.githubusercontent.com/SeeedDocument/Grove-HCHO_Sensor/master/img/Rs.png)
+
+From the Typical Sensitivity Curve we could know that the detection range is 1-50ppm.
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-HCHO_Sensor/master/img/Sensitivity_Characteristic.jpg)
 
-### With Raspberry Pi
+To detect other VOC gas, you could calculate Rs/R0, then refer to the sensitivity characteristic diagram and find the gas concentration. Or use the following python script to fit the typical sensitivity curve and calculate the value of a and b:
 
-1.You should have got a raspberry pi and a grovepi or grovepi+.
+`ppm = 10 ^ ((log10(Rs/R0) + a) / b)`
 
-2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus).
-
-3.Connection
-
--   Plug the sensor to grovepi socket A0 by using a grove cable.
-
-4.Navigate to the demos' directory:
 ```
-    cd yourpath/GrovePi/Software/Python/
-```
+# coding=utf-8
+# calculate a and b of HCHO
+import numpy as np
+import matplotlib.pyplot as plt
 
--   To see the code
-```
-    nano grove_hcho_sensor.py   # "Ctrl+x" to exit #
-```
-```
-    import time
-    import grovepi
+#get the measure data from the Typical Sensitivity Curve
+x = np.array([1, 5, 10, 20, 40])
+y = np.array([1.21, 0.56, 0.4, 0.3, 0.21])
 
-    # The sensitivity can be adjusted by the onboard potentiometer
-
-    # Connect the Grove HCHO Sensor to analog port A0
-    # SIG,NC,VCC,GND
-    hcho_sensor = 0
-
-    grovepi.pinMode(hcho_sensor,"INPUT")
-
-    # Vcc of the grove interface is normally 5v
-    grove_vcc = 5
-
-    while True:
-        try:
-            # Get sensor value
-            sensor_value = grovepi.analogRead(hcho_sensor)
-
-            # Calculate voltage
-            voltage = (float)(sensor_value * grove_vcc / 1024)
-
-            print "sensor_value =", sensor_value, " voltage =", voltage
-            time.sleep(.5)
-
-        except IOError:
-            print "Error"
-```
-
-5.Run the demo.
-```
-    sudo python grove_hcho_sensor.py
+plt.subplot(221)
+plt.loglog(x,y,lw=2)
+#plt.ylim(0,1.5)  
+plt.xlabel('log(x)')  
+plt.ylabel('log(y)')  
+plt.show()  
 ```
 
 Resources
