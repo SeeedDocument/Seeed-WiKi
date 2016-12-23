@@ -7,7 +7,7 @@ prodimagename: Image_of_PSD.jpg
 bzprodimageurl: http://statics3.seeedstudio.com/images/product/Proximity.jpg
 surveyurl: https://www.research.net/r/Grove-80cm_Infrared_Proximity_Sensor
 sku: 101020042
-tags: grove_analog, io_3v3, io_5v, plat_duino
+tags: grove_analog, io_3v3, io_5v, plat_duino，plat_pi
 ---
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-80cm_Infrared_Proximity_Sensor/master/img/Image_of_PSD.jpg)
@@ -127,19 +127,19 @@ This sensor is quite small and use a tiny connector called the Japan Solderless 
                     // to the reflective object according to the figures
                     //on page 4 or page 5 of the datasheet of the GP2Y0A21YK.
 
-    void setup() 
+    void setup()
     {
         // initialise serial communications at 9600 bps:
-        Serial.begin(9600); 
+        Serial.begin(9600);
     }
-     
-    void loop() 
+
+    void loop()
     {
         voltage = getVoltage();
         Serial.print("sensor voltage  = " );                       
-        Serial.print(voltage); 
+        Serial.print(voltage);
         // wait 500 milliseconds before the next loop
-        delay(500); 
+        delay(500);
     }
     /****************************************************************************/
     /*Function: Get voltage from the sensor pin that is connected with analog pin*/
@@ -152,14 +152,14 @@ This sensor is quite small and use a tiny connector called the Japan Solderless 
         // read the analog in value:
         for (int i = 0;i < 20;i ++)//Continuous sampling 20 times
         {
-            sensor_value = analogRead(IR_PROXIMITY_SENSOR); 
+            sensor_value = analogRead(IR_PROXIMITY_SENSOR);
             sum += sensor_value;
         }
         sensor_value = sum / 20;
         float voltage;
         voltage = (float)sensor_value*ADC_REF/1024;
         return voltage;
-    } 
+    }
 ```
 
 -   Upload the code.
