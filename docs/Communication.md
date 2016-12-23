@@ -17,6 +17,7 @@ Here is the list of the Communication Board you can find in the Seeed WiKi. The 
 - [Grove - Bee Socket](/Grove-Bee_Socket/)
 - [Grove - DMX512](/Grove-DMX512/)
 - [Grove - GPS](/Grove-GPS/)
+- [Grove - High Precision RTC](/Grove_High_Precision_RTC/)
 - [Grove - I2C ADC](/Grove-I2C_ADC/)
 - [Grove - I2C FM Receiver](/Grove-I2C_FM_Receiver/)
 - [Grove - LoRa Radio](/Grove_LoRa_Radio/)

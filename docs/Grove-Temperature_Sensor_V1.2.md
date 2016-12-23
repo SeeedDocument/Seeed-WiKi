@@ -103,6 +103,7 @@ If you want to know how the algorithm of temperature coming, please refer to the
 
 ## Resources
 ---
+- [Schematic at Easyeda](https://easyeda.com/Seeed/Grove_Temperature_sensor_v1_2-ed433e462f14455e9aa38ae1a06e4680)
 - [Grove - Temperature Sensor v1.1 Eagle File](https://github.com/SeeedDocument/Grove-Temperature_Sensor_V1.2/raw/master/res/Grove_-_Temperature_sensor_v1.1.zip)
 - [Grove - Temperature Sensor v1.1.PDF](https://github.com/SeeedDocument/Grove-Temperature_Sensor_V1.2/raw/master/res/Grove_-_Temperature_sensor_v1.1.pdf)
 - [Temperature Sensor datasheet](https://github.com/SeeedDocument/Grove-Temperature_Sensor_V1.2/raw/master/res/NCP18WF104F03RC.pdf)

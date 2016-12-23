@@ -229,13 +229,9 @@ while True:
 ---
 
 - Grove - PIR Motion Sensor Eagle File v1.2
-
+- [Schematics at Easyeda](https://easyeda.com/Seeed/Grove_PIR_Sensor_v1_2-101b3ca1281645c4a36fbc06b1c7b8d0)
 - [Grove - PIR Motion Sensor v1.2 PDF](https://github.com/SeeedDocument/Grove_PIR_Motion_Sensor/raw/master/resources/Grove_PIR_Sensor_v1.2.pdf)
-
 - [Grove - PIR Motion Sensor Eagle File](https://github.com/SeeedDocument/Grove_PIR_Motion_Sensor/raw/master/resources/Grove_-_PIR_Motion_Sensor_Eagle_File.zip)
-
 - [Github repository for PIR Motion Sensor](https://github.com/Seeed-Studio/PIR_Motion_Sensor)
-
 - [BISS0001 Datasheet](https://github.com/SeeedDocument/Grove_PIR_Motion_Sensor/raw/master/resources/Twig_-_BISS0001.pdf)
-
 - [Fresnel lens 8120 Datasheet](https://github.com/SeeedDocument/Grove_PIR_Motion_Sensor/raw/master/resources/Fresnel_lens_8120.pdf)

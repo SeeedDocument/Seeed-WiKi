@@ -59,6 +59,7 @@ Here is the list of the Seeeduino Boards you can find in the Seeed WiKi. The lis
 - [Seeeduino Ethernet](/Seeeduino_Ethernet/)
 - [Seeeduino GPRS](/Seeeduino_GPRS/)
 - [Seeeduino Lite](/Seeeduino_Lite/)
+- [Seeeduino LoRaWAN](/Seeeduino_LoRAWAN/)
 - [Seeeduino Lotus](/Seeeduino_Lotus/)
 - [Seeeduino Mega](/Seeeduino_Mega/)
 - [Seeeduino Mega Protoshield Kit](/Seeeduino_Mega_Protoshield_Kit/)

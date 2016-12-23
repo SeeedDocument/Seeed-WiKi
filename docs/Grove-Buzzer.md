@@ -205,3 +205,4 @@ The Wooden Laser Gun and the Gun Target are all based on an Arduino board called
 - [Grove - Buzzer Source Files v1.1](https://github.com/SeeedDocument/Grove_Buzzer/raw/master/resources/Grove-Buzzer_V1.1_eagle.zip)
 - [Grove - Buzzer Source Files v1.0 (Eagle and pdf)](https://github.com/SeeedDocument/Grove_Buzzer/raw/master/resources/Grove_-_Buzzer_v1.0_Source_File.zip)
 - [S9013datasheet](https://github.com/SeeedDocument/Grove_Buzzer/raw/master/resources/S9013.pdf)
+- [Schematic at Easyeda](https://easyeda.com/Seeed/Grove_Buzzer_v1_2-c713baf3c1774da39ce0c995544ce5da)

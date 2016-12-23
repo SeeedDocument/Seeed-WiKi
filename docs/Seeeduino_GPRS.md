@@ -90,7 +90,7 @@ But there's a hardware bug in Seeeduino GPRS that you have to notice. When an ex
 You can debug Sim800h by this interface.
 
 * **ICSP**
-This is the ICSP connection for the ATMEGA32U4-MUR, it is located in the standard ICSP/SPI position for Arduino Uno, Due, Mega, and Leonardo compatible hardware (e.g. shields) that may use this connector. The SPI pins in this port: MISO, SCK, and MOSI, are also connected to digital pins 12, 13, and 11 respectively just like those of the Arduino Leonardo.
+This is the ICSP connection for the ATMEGA32U4-MUR, it is located in the standard ICSP/SPI position for Arduino Uno, Due, Mega, and Leonardo compatible hardware (e.g. shields) that may use this connector. The SPI pins in this port: MISO, SCK, and MOSI, please note that those pins DIDN'T connect to D11~D13.
 
 * **LED PWR2**
 SIM800H Power Indication

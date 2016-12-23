@@ -74,5 +74,6 @@ void loop()
 
 ##Resources
 
+* [Schematic at Easyeda](https://easyeda.com/Seeed/Base_Shield_v2-73af558cabc84d489aa150d218c9a39d)
 * [Schematic of Base Shield v2](https://raw.githubusercontent.com/SeeedDocument/Base_Shield_V2/master/res/Base_Shield_v2.zip)
 * [Schematics PDF of Base Shield V2](https://raw.githubusercontent.com/SeeedDocument/Base_Shield_V2/master/res/Base_Shield_v2.pdf)

@@ -424,7 +424,7 @@ void loop()
 Resources
 ---------
 
--   [Temperature Humidity.zip](https://raw.githubusercontent.com/SeeedDocument/Grove-TemperatureAndHumidity_Sensor/master/res/Temperature_Humidity.zip)
-
+- [Temperature Humidity.zip](https://raw.githubusercontent.com/SeeedDocument/Grove-TemperatureAndHumidity_Sensor/master/res/Temperature_Humidity.zip)
+- [Schematic at Easyeda](https://easyeda.com/Seeed/Grove_TemperatureHumidity_Sensor_v1_2-d24e88017bba4040907d4cee6c7edd74)
 
 <!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_Temperature&Humidity_Sensor -->

@@ -146,3 +146,4 @@ while True:
 * [Relay_Datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-Relay/master/res/Relay_Datasheet.pdf)
 * [How to upload code](https://seeeddoc.github.io/Upload_Code)
 * [Buy it](http://www.seeedstudio.com/depot/grove-relay-p-769.html?cPath=39_42)
+* [Schemtaic at Easyeda](https://easyeda.com/Seeed/Grove_Relay_v1_2-9fc9309fc77a459c91c9baa0dbbf581b)

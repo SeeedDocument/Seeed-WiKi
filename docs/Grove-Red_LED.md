@@ -103,6 +103,6 @@ Alternatively, it can be bought stand-alone [here](http://www.seeedstudio.com/de
 
 ##  Resources
 ---
-*   [Grove - Red LED Schematic](https://github.com/SeeedDocument/Grove-Red_LED/raw/master/res/Grove-LED_v1.3.pdf)
-
-*   Also see [Grove Mixer Pack V2 Resources](/GROVE_MIXER_PACK_V2#Resources "GROVE MIXER PACK V2") section for Eagle files for this module
+* [Grove - Red LED Schematic](https://github.com/SeeedDocument/Grove-Red_LED/raw/master/res/Grove-LED_v1.3.pdf)
+* Also see [Grove Mixer Pack V2 Resources](/GROVE_MIXER_PACK_V2#Resources "GROVE MIXER PACK V2") section for Eagle files for this module
+* [Schematic at Easyeda](https://easyeda.com/Seeed/Grove_Red_LED-7e3e5eacbdc94abb90c01c55c55bc83a)
