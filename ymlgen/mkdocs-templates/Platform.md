@@ -1,8 +1,6 @@
 ---
 title: Platform Introduction
-nointro:
 ---
-
 Products are grouped into the following platforms:
 
 - [Arduino](/Arduino/)
@@ -12,5 +10,3 @@ Products are grouped into the following platforms:
 - [mbed](/mbed/)
 - [RePhone](/RePhone/)
 - [Wio](/Wio/)
-
-
