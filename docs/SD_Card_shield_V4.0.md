@@ -190,7 +190,7 @@ When you complete the hardware installation, it should look like this
 
     Finally, get the files information such as name, date and size in bytes that found on the card.
 
-2. Upload the code. 
+2. Upload the code.
 
 3. View Results. You can see the follow image after Click the serial monitor.
 
@@ -293,25 +293,25 @@ Arduino default code returns SD size incorrectly if your SD is card more than 4G
 
 
       // print the type and size of the first FAT-type volume
-      
+
       uint64_t volumesize64;
       uint32_t volumesize32;
       Serial.print("\nVolume type is FAT");
       Serial.println(volume.fatType(), DEC);
       Serial.println();
-      
+
       volumesize64 = volume.blocksPerCluster();    // clusters are collections of blocks
       volumesize64 *= volume.clusterCount();       // we'll have a lot of clusters
       volumesize64 *= 512;                            // SD card blocks are always 512 bytes
-      
+
       Serial.print("Volume size (bytes): ");
       printLLNumber(volumesize64, DEC);
       Serial.println();
-      
+
       Serial.print("Volume size (Kbytes): ");
       volumesize32 = volumesize64/1024;
       Serial.println(volumesize32);
-      
+
       Serial.print("Volume size (Mbytes): ");
       volumesize32 /= 1024;
       Serial.println(volumesize32);
@@ -346,16 +346,16 @@ Arduino default code returns SD size incorrectly if your SD is card more than 4G
     }
     void printLLNumber(uint64_t n, uint8_t base)
     {
-      unsigned char buf[16 * sizeof(long)]; 
+      unsigned char buf[16 * sizeof(long)];
       unsigned int i = 0;
 
-      if (n == 0) 
+      if (n == 0)
       {
         Serial.print((char)'0');
         return;
       }
 
-      while (n > 0) 
+      while (n > 0)
       {
         buf[i++] = n % base;
         n /= base;
@@ -373,9 +373,12 @@ Resources
 
 - [SD Card Shield v4.0 Schematic](https://raw.githubusercontent.com/SeeedDocument/SD_Card_shield_V4.0/master/res/SD_Card_Shiled_v4.0.pdf)
 
-- [SD Card Shield v4.0 Eagle File.zip](https://raw.githubusercontent.com/SeeedDocument/SD_Card_shield_V4.0/master/res/SD_Card_Shield_v4.0a.zip)
+- [SD Card Shield v4.0 Eagle File.zip](https://github.com/SeeedDocument/SD_Card_shield_V4.0/raw/master/res/PCBA-SD%20Card%20shield%20V4.0.zip)
+
+- [SD Card Shield v4.0a Eagle File.zip](https://raw.githubusercontent.com/SeeedDocument/SD_Card_shield_V4.0/master/res/SD_Card_Shield_v4.0a.zip)
 
 - [SD Card Shield v4.3 Eagle file.zip](https://raw.githubusercontent.com/SeeedDocument/SD_Card_shield_V4.0/master/res/SD_Card_Shield_v4.3_eagle_file.zip)
+
 
 
 <!-- This Markdown file was created from http://www.seeedstudio.com/wiki/SD_Card_shield_V4.0 -->
