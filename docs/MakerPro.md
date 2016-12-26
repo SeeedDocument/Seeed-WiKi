@@ -51,7 +51,6 @@ Here is the list of the MakerPro Boards you can find in the Seeed WiKi. The list
 - [Raspberry Pi 3 Model B](/Raspberry_Pi_3_Model_B/)
 - [SDLogger - Open Hardware Data Logger](/SDLogger-Open_Hardware_Data_Logger/)
 - [Ultra Sonic range measurement module](/Ultra_Sonic_range_measurement_module/)
-- [Weight Sensor (Load Cell)0-500g](/Weight_Sensor_Load_Cell_0-500g - 副本/)
 - [Weight Sensor (Load Cell)0-500g](/Weight_Sensor_Load_Cell_0-500g/)
 - [WiFi Serial Transceiver Module](/WiFi_Serial_Transceiver_Module/)
 - [WireLess Gate Shield V1.0](/WireLess_Gate_Shield_V1.0/)
