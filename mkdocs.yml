@@ -204,6 +204,7 @@ pages:
         - Grove - Barometer (High-Accuracy): Grove-Barometer-High-Accuracy.md
         - Grove - Barometer Sensor: Grove-Barometer_Sensor.md
         - Grove - Barometer Sensor (BMP180): Grove-Barometer_Sensor-BMP180.md
+        - Grove - Barometer Sensor (BMP280): Grove-Barometer_Sensor-BMP280.md
         - Grove - Barometer Sensor(BME280): Grove-Barometer_Sensor-BME280.md
         - Grove - CO2 Sensor: Grove-CO2_Sensor.md
         - Grove - Chest Strap Heart Rate Sensor: Grove-Chest_Strap_Heart_Rate_Sensor.md
@@ -395,7 +396,7 @@ pages:
         - Eclipse IDE for RePhone Kit: Eclipse_IDE_for_RePhone_Kit.md
         - FM Receiver: FM_Receiver.md
         - How to Add Seeed boards to Arduino IDE: Seeed_Arduino_Boards.md
-        - How to edit a document: How_to_edit_a_document.md
+        - How to edit a document: How_To_Edit_A_Document.md
         - How to install an Arduino library: How_to_install_Arduino_Library.md
         - JavaScript for RePhone: JavaScript_for_RePhone.md
         - Lua for RePhone: Lua_for_RePhone.md
