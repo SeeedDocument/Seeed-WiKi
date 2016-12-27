@@ -26,6 +26,9 @@ If you want to build an IoT application quickly, Seeeduino LoRaWAN is your best 
 
 ##Features
 
+* Minimum current (3.7V lipo battery) - 2mA
+* Minimum current (3.7V lipo battery & remove PWR LED) - 650 uA
+
 ###Arduino/Processor
 
 * ATSAMD21G18 @ 48MHz with 3.3V logic/power
@@ -41,7 +44,7 @@ If you want to build an IoT application quickly, Seeeduino LoRaWAN is your best 
 
 ###LoRaWAN/RHF76-052
 
-* 1.45uA sleep current in WOR mode
+* 1.45uA sleep current in WOR mode (Spec of the modules, not the board)
 * High link budget of 160dB. -140dBm sensitivity and 19dBm Output power.
 * Dual band, 434/470MHz and 868/915MHz
     * 19dBm@434MHz/470MHz
