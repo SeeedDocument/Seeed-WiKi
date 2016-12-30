@@ -17,6 +17,7 @@ Intenet of Things(IoT) products are listed here:
 - [BeagleBone Green](/BeagleBone_Green/)
 - [BeagleBone Green Wireless](/BeagleBone_Green_Wireless/)
 - [Bluetooth Bee-Standalone](/Bluetooth_Bee_Standalone/)
+- [ESP32 Breakout Kit](/ESP32_Breakout_Kit/)
 - [Grove - XBee Carrier](/Grove-XBee_Carrier/)
 - [Grove Starter Kit for IoT based on Raspberry Pi](/Grove_Starter_Kit_for_IoT_based_on_Raspberry_Pi/)
 - [Qi Wireless Charger Transmitter](/Qi_Wireless_Charger_Transmitter/)

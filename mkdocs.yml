@@ -361,6 +361,7 @@ pages:
         - Grove Base Shield for NodeMCU V1.0: Grove_Base_Shield_for_NodeMCU_V1.0.md
         - Grove Base Shield for Photon: Grove_Base_Shield_for_Photon.md
         - Grove Indoor Environment Kit for Edison: Grove_Indoor_Environment_Kit_for_Edison.md
+        - Grove Shield for Intel Joule: Grove_Shield_for_Intel_Joule.md
         - Grove Smart Plant Care Kit: Grove_Smart_Plant_Care_Kit.md
         - Sidekick Basic Kit for Arduino V2: Sidekick_Basic_Kit_for_Arduino_V2.md
         - Tricycle Bot: Tricycle_Bot.md
@@ -377,6 +378,7 @@ pages:
         - BeagleBone Green: BeagleBone_Green.md
         - BeagleBone Green Wireless: BeagleBone_Green_Wireless.md
         - Bluetooth Bee-Standalone: Bluetooth_Bee_Standalone.md
+        - ESP32 Breakout Kit: ESP32_Breakout_Kit.md
         - Grove - XBee Carrier: Grove-XBee_Carrier.md
         - Grove Starter Kit for IoT based on Raspberry Pi: Grove_Starter_Kit_for_IoT_based_on_Raspberry_Pi.md
         - Qi Wireless Charger Transmitter: Qi_Wireless_Charger_Transmitter.md

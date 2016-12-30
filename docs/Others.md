@@ -24,6 +24,7 @@ Here is the list of Grove Others Boards you can find in the Seeed WiKi. The list
 - [Grove Base Shield for NodeMCU V1.0](/Grove_Base_Shield_for_NodeMCU_V1.0/)
 - [Grove Base Shield for Photon](/Grove_Base_Shield_for_Photon/)
 - [Grove Indoor Environment Kit for Edison](/Grove_Indoor_Environment_Kit_for_Edison/)
+- [Grove Shield for Intel Joule](/Grove_Shield_for_Intel_Joule/)
 - [Grove Smart Plant Care Kit](/Grove_Smart_Plant_Care_Kit/)
 - [Sidekick Basic Kit for Arduino V2](/Sidekick_Basic_Kit_for_Arduino_V2/)
 - [Tricycle Bot](/Tricycle_Bot/)
