@@ -5,7 +5,7 @@ bzurl: https://www.seeedstudio.com/Seeeduino-Cloud-Arduino-Yun-compatible-openWR
 oldwikiname: Seeeduino_Cloud
 prodimagename: seeeduino_cloud_Cover.jpg
 surveyurl: https://www.surveymonkey.com/r/Seeeduino_Cloud
-sku: 1020100021
+sku: 102010021
 ---
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Cloud/master/img/seeeduino_cloud_cover.jpg)
