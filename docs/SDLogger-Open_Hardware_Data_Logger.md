@@ -5,7 +5,7 @@ bzurl: https://www.seeedstudio.com/sdlogger-open-hardware-data-logger-p-723.html
 oldwikiname:  SDLogger - Open Hardware Data Logger
 prodimagename:  phoint1.jpg
 surveyurl: https://www.research.net/r/SDLogger-Open_Hardware_Data_Logger
-sku:      113020001
+sku:      105990002
 ---
 ![](http://bz.seeedstudio.com/depot/images/product/sdlogger1.jpg)
 
