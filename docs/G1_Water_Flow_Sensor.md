@@ -5,7 +5,7 @@ bzurl: https://www.seeedstudio.com/g34-water-flow-sensor-p-1083.html?cPath=144_1
 oldwikiname:  G1" Water Flow Sensor
 prodimagename:  G1inch_Water_Flow_sensor.jpeg
 surveyurl: https://www.research.net/r/G1_Water_Flow_Sensor
-sku:     314150003
+sku:     314150000
 ---
 ![](https://github.com/SeeedDocument/G1_Water_Flow_Sensor/raw/master/img/G1inch_Water_Flow_sensor.jpeg)
 
