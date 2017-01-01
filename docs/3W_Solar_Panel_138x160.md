@@ -5,7 +5,7 @@ bzurl: https://www.seeedstudio.com/Bluetooth-V4.0-HM-11-BLE-Module-p-1803.html
 oldwikiname:  3W Solar Panel 138*160
 prodimagename:  3wsp.JPG
 surveyurl: https://www.research.net/r/3W_Solar_Panel_138x160
-sku:     317030001
+sku:     313070001
 ---
 ![](https://github.com/SeeedDocument/3W_Solar_Panel_138x160/raw/master/img/3wsp.JPG)
 
