@@ -5,7 +5,7 @@ bzurl:
 oldwikiname: 
 prodimagename: cover.png
 surveyurl: https://www.surveymonkey.com/r/BLE_Carbon
-sku: 104030008
+sku: 102990628
 ---
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BLE-Carbon/master/img/cover.png)
