@@ -5,7 +5,7 @@ bzurl:
 oldwikiname: 
 prodimagename: cover.png
 surveyurl: https://www.surveymonkey.com/r/BLE_Nitrogen
-sku: 104030008
+sku: 102990629
 ---
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BLE-Nitrogen/master/img/cover.png)
