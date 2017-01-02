@@ -5,7 +5,7 @@ bzurl: http://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html
 oldwikiname:
 prodimagename: cover.png
 surveyurl: https://www.research.net/r/SeeeduinoLoRa
-sku: 102010026
+sku: 102010128
 ---
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_LoRa/master/img/cover.png)
