@@ -6,7 +6,7 @@ oldwikiname: Grove_-_Serial_Camera
 prodimagename: Serial_camera.jpg
 bzprodimageurl: http://statics3.seeedstudio.com/images/product/Serial Camera.jpg
 surveyurl: https://www.research.net/r/Grove-Serial_Camera
-sku: 101020000
+sku: 101020064
 tags: grove_uart, io_5v, plat_duino
 ---
 
