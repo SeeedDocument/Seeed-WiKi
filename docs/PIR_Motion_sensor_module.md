@@ -31,7 +31,7 @@ PIR（Passive Infrared Detection）are used to detect motion of human movement. 
 
 *   Detecting distance: 9m(max)
 
-*   Output signal: 0,VCC (Output high when motion detected)
+*   Output signal: 0,3 VCC (Output high when motion detected)
 
 *   Sentry Angle: 120°
 
@@ -98,4 +98,4 @@ boolean isPeopleDetected()
 
 ##   Resources
 ---
-- [PIR Motion sensor Eagle file](res/PIR_sensor_v1.0.zip)
+- [PIR Motion sensor Eagle file](https://github.com/SeeedDocument/PIR_Motion_sensor_module/raw/master/res/PIR_sensor_v1.0.zip)
