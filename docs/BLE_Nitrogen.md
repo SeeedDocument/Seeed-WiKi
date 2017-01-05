@@ -1,8 +1,8 @@
 ---
 title: BLE Nitrogen
 category: IoT
-bzurl: 
-oldwikiname: 
+bzurl: https://www.seeedstudio.com/BLE-Nitrogen-p-2711.html
+oldwikiname:
 prodimagename: cover.png
 surveyurl: https://www.surveymonkey.com/r/BLE_Nitrogen
 sku: 102990629
@@ -22,7 +22,7 @@ The [Nordic Semiconductor Infocenter](http://infocenter.nordicsemi.com/) contain
 
 It is strongly recommended that you update your development environment with the latest [SDK](https://www.zephyrproject.org/downloads/tools) since new functionality is tested against the latest releases.
 
-[![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/img/get_one_now.png)](https://www.seeedstudio.com/)
+[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/BLE-Nitrogen-p-2711.html)
 
 
 ##Features
@@ -51,7 +51,7 @@ It is strongly recommended that you update your development environment with the
     * USR and RESET(also for LPC11U35 firmware upgrade)
 * SWD debug connectors
     * nRF52832 SWD connector
-    * nRF52832 Uart connector 
+    * nRF52832 Uart connector
 * On board chip antenna
 * 1.8V work voltage
 * 2x20pin 2.0mm pitch Low speed connector
@@ -86,7 +86,7 @@ It is strongly recommended that you update your development environment with the
 * ***CDC*** - Uart data indicator.
 * ***DAP*** - SWD indicator.
 * ***MSD*** - Mass Storage/Drag&Drop indicator;
-    
+
 3.**Battery Connector** - A JST-1.0 connector for 3.7V lithium battery
 
 * **Charge Indicator**
@@ -119,7 +119,7 @@ C.IC - **ETA6003**
 
 !!!Note
     Click to view larger image.
-    
+
 ##Sostware
 
 ###Install the Driver

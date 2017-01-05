@@ -395,16 +395,36 @@ pages:
 - Tutorial:
         - Tutorial Introduction: Tutorial.md
         - A Comparison of Different Grove Temperature Sensors: temperature_sensor.md
+        - A Handy Serial Library: A_Handy_Serial_Library.md
+        - AT Command Tester: AT_Command_Tester.md
+        - Arduino Common Error: Arduino_Common_Error.md
         - Arduino IDE for RePhone Kit: Arduino_IDE_for_RePhone_Kit.md
+        - Dfu-util: Dfu-util.md
+        - Download Arduino and install Arduino driver: Download_Arduino_and_install_Arduino_driver.md
         - Eclipse IDE for RePhone Kit: Eclipse_IDE_for_RePhone_Kit.md
         - FM Receiver: FM_Receiver.md
+        - Getting Started with Seeeduino: Getting_Started_with_Seeeduino.md
+        - How To Choose The Right Cable: How_To_Choose_The_Right_Cable.md
+        - How To Use Sketchbook: How_To_Use_Sketchbook.md
         - How to Add Seeed boards to Arduino IDE: Seeed_Arduino_Boards.md
         - How to edit a document: How_To_Edit_A_Document.md
         - How to install an Arduino library: How_to_install_Arduino_Library.md
+        - How to use and write a library: How_to_use_and_write_a_library.md
+        - I2C And I2C Address of Seeed Product: I2C_And_I2C_Address_of_Seeed_Product.md
         - JavaScript for RePhone: JavaScript_for_RePhone.md
+        - LinkIt ONE Tutorial - Get temperature with Webpage: LinkIt_ONE_Tutorial-Get_temperature_with_Webpage.md
         - Lua for RePhone: Lua_for_RePhone.md
+        - Project Eight - Thermostat: Project_Eight-Thermostat.md
+        - Project Five – Relay Control: Project_Five-Relay_Control.md
+        - Project Four – Noise Maker: Project_Four-Noise_Maker.md
+        - Project One - Blink: Project_One-Blink.md
+        - Project Seven - Temperature: Project_Seven-Temperature.md
+        - Project Six – LCD Demonstration: Project_Six-LCD_Demonstration.md
         - RePhone APIs - Audio: RePhone_APIs-Audio.md
         - Service for Fusion PCB: Service_for_Fusion_PCB.md
+        - Upload Code: Upload_Code.md
+        - Use External Editor: Use_External_Editor.md
+        - Zigbee Networking with XBee Series 2 and Seeed&#39;s Products: Zigbee_Networking_with_XBee_Series_2_and_Seeeds_Products.md
 
 
 - MakerPro:

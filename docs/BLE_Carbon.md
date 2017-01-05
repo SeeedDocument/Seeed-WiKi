@@ -1,14 +1,24 @@
 ---
 title: BLE Carbon
 category: IoT
-bzurl: 
-oldwikiname: 
+bzurl: https://www.seeedstudio.com/BLE-Carbon-p-2710.html
+oldwikiname:
 prodimagename: cover.png
 surveyurl: https://www.surveymonkey.com/r/BLE_Carbon
 sku: 102990628
 ---
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BLE-Carbon/master/img/cover.png)
+
+The BLE Carbon is joint efforts by 96Boards and Seeed, aims to provide economic and compact  BLE solutions for IoT projects.
+
+96Boards is produced by Linaro, a nonprofit oganization cofunded  by famous companies including ARM, IBM、Samsung、ST-Ericsson and TI. It is the first open specification to define a platform for the delivery of compatible low-cost, small footprint 32-bit and 64-bit Cortex-A boards from the range of ARM SoC vendors. By standardizing expansion buses for peripheral I/O, display and cameras, it allows the hardware ecosystem to develop a range of compatible add-on products that will work on any 96Boards product over the lifetime of the platform.
+
+BLE Carbon is the kind of boards that uses software platform from 96Boards while the hardware from Seeed, it also uses the Nordic bluetooth solution. With the widely used open specification and strong manufacturing background from 96Boards and Seeed, BLE Cardon must be one of the best BLE solutions for IoT project.
+
+The Carbon comes pre-installed with Zephyr. When future OS become available, you may refer to the download page for more OS and applications.
+
+[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/BLE-Carbon-p-2710.html)
 
 ##Features
 
