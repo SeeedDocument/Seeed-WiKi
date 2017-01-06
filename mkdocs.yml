@@ -412,7 +412,11 @@ pages:
         - How to use and write a library: How_to_use_and_write_a_library.md
         - I2C And I2C Address of Seeed Product: I2C_And_I2C_Address_of_Seeed_Product.md
         - JavaScript for RePhone: JavaScript_for_RePhone.md
+        - LinkIt ONE Tutorial - Colorful World: LinkIt_ONE_Tutorial-Colorful_World.md
         - LinkIt ONE Tutorial - Get temperature with Webpage: LinkIt_ONE_Tutorial-Get_temperature_with_Webpage.md
+        - LinkIt ONE Tutorial - Hello World: LinkIt_ONE_Tutorial-Hello_World.md
+        - LinkIt ONE Tutorial - SMS control the LED: LinkIt_ONE_Tutorial-SMS_control_the_LED.md
+        - LinkIt ONE Tutorial - The Basics: LinkIt_ONE_Tutorial-The_Basics.md
         - Lua for RePhone: Lua_for_RePhone.md
         - Project Eight - Thermostat: Project_Eight-Thermostat.md
         - Project Five – Relay Control: Project_Five-Relay_Control.md
@@ -420,6 +424,8 @@ pages:
         - Project One - Blink: Project_One-Blink.md
         - Project Seven - Temperature: Project_Seven-Temperature.md
         - Project Six – LCD Demonstration: Project_Six-LCD_Demonstration.md
+        - Project Two - Digital Input v1.0b: Project_Two-Digital_Input_v1.0b.md
+        - Project Two – Digital Input: Project_Two-Digital_Input.md
         - RePhone APIs - Audio: RePhone_APIs-Audio.md
         - Service for Fusion PCB: Service_for_Fusion_PCB.md
         - Upload Code: Upload_Code.md

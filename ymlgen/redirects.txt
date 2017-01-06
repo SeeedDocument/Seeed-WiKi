@@ -1,10 +1,6 @@
 GrovePiPlus;http://wiki.seeedstudio.com/wiki/GrovePi+
-Getting_Started_with_Seeeduino;http://wiki.seeedstudio.com/wiki/Getting_Started_with_Seeeduino
-How_to_choose_A_Gas_Sensor;http://wiki.seeedstudio.com/wiki/How_to_Chose_A_Gas_Sensor
 Guide_to_use_demos_downloaded_from_Seeed's_Github;http://wiki.seeedstudio.com/wiki/Guide_to_use_demos_downloaded_from_Seeed%27s_Github
-Download_Arduino_and_install_Arduino_driver;http://wiki.seeedstudio.com/wiki/Download_Arduino_and_install_Arduino_driver
 Grove_IoT_Starter_Kits_Powered_by_AWS;http://wiki.seeedstudio.com/wiki/Grove_IoT_Starter_Kits_Powered_by_AWS
-Arduino_Common_Error;http://wiki.seeedstudio.com/wiki/Arduino_Common_Error
 Secret_Box;http://wiki.seeedstudio.com/wiki/Secret_Box
 How_to_detect_finger_touch;http://wiki.seeedstudio.com/wiki/How_to_detect_finger_touch%3F
 Suli;http://wiki.seeedstudio.com/wiki/Suli
