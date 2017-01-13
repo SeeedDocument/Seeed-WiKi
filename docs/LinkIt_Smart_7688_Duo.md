@@ -2,7 +2,7 @@
 title: LinkIt Smart 7688 Duo
 category: LinkIt
 bzurl: https://www.seeedstudio.com/LinkIt-Smart-7688-Duo-p-2574.html
-oldwikiname: 
+oldwikiname:
 prodimagename: cover.png
 surveyurl: https://www.surveymonkey.com/r/LS_7688_Duo
 sku: 102110017
@@ -22,7 +22,7 @@ Only one controller can be the main controller of the board at a time.
     * Only one controller can be the main controller of the board at a time.
     * This board is only a part of MediaTek LinkItTM Smart 7688 platform which includes other development boards.
 
-    
+
 [![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now.png)](https://www.seeedstudio.com/LinkIt-Smart-7688-Duo-p-2574.html)  
 
 ##Features
@@ -68,7 +68,7 @@ Only one controller can be the main controller of the board at a time.
     * Pin Count 12(ATmega32U4)
     * Resolution: 10 bits
 * External Interrupts: 8
-* SPI/SPIS 
+* SPI/SPIS
     * Pin numbers: S0, S1, S2, S3
     * Max Speed: 4MHz
 * I2C
@@ -80,7 +80,7 @@ Only one controller can be the main controller of the board at a time.
 * USB Host
     * Pin Number: P6/P7
     * Connector Type: Micro-AB
-* Communication	
+* Communication
     * Wi-Fi: 1T1R 802.11 b/g/n (2.4G)
     * Ethernet: 1-port 10/100 FE PHY
     * Pin Numbers: P2/P3/P4/P5
@@ -144,19 +144,19 @@ Only one controller can be the main controller of the board at a time.
 
 **3.**Open a Terminal session.
 
-**4.**Type **ls /dev/cu*** in the Terminal. You should see a list of devices. Look for something like cu.usbserial-XXXXXXXX where XXXXXXXX is usually a random identifier. This is the serial device used to access the system console. 
+**4.**Type **ls /dev/cu*** in the Terminal. You should see a list of devices. Look for something like cu.usbserial-XXXXXXXX where XXXXXXXX is usually a random identifier. This is the serial device used to access the system console.
 
 **For example:**
 
 ```
 $ls /dev/cu*
- 
+
 /dev/cu.Bluetooth-Incoming-Port
- 
+
 /dev/cu.Bluetooth-Modem
- 
+
 /dev/cu.pablop-WirelessiAP
- 
+
 /dev/cu.usbserial-A6YMCQBR
 
 ```
@@ -268,7 +268,7 @@ Configure Arduino IDE for LinkIt Smart 7688 Platform
 
 Arduino IDE 1.6.5 supports third party board integration using the **Board Manager** tool. LinkIt Smart 7688 development board is a plug-in to Arduino IDE and you will need to install the board package so that Arduino supports LinkIt board. Please follow the steps below:
 
-**1.**In Arduino IDE, on the File menu click Preferences then insert 
+**1.**In Arduino IDE, on the File menu click Preferences then insert
 
 ````
 http://download.labs.mediatek.com/package_mtk_linkit_smart_7688_test_index.json
@@ -389,7 +389,7 @@ import serial
 import time
 s = None
 def setup():
-global s
+    global s
 # open serial COM port to /dev/ttyS0, which maps to UART0(D0/D1)
 # the baudrate is set to 57600 and should be the same as the one
 # specified in the Arduino sketch uploaded to ATmega32U4.
