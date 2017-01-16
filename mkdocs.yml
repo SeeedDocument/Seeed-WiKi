@@ -455,6 +455,8 @@ pages:
 - MakerPro:
         - MakerPro Introduction: MakerPro.md
         - 0.5w Solar Panel 55*70: 0.5w_Solar_Panel_55x70.md
+        - 1.5W Solar Panel 81*137: 1.5W_Solar_Panel_81x137.md
+        - 125Khz RFID module - UART: 125Khz_RFID_module-UART.md
         - 13.56Mhz RFID module - IOS/IEC 14443 type a: 13.56Mhz_RFID_module-IOS-IEC_14443_type_a.md
         - 1w Solar Panel 80*100: 1w_Solar_Panel_80x100.md
         - 2.5W Solar Panel 116*160: 2.5W_Solar_Panel_116x160.md
@@ -471,14 +473,26 @@ pages:
         - Bicycle Dynamo With Bracket - 6V 3W: Danger_Shield_Complete_Kits.md
         - Bluetooth Multimeter: Bluetooth_Multimeter.md
         - Bluetooth V4.0 HM-11 BLE Module: Bluetooth_V4.0_HM_11_BLE_Module.md
+        - Bracket for Infrared Proximity Sensor: Bracket_for_Infrared_Proximity_Sensor.md
         - Bugduino: Bugduino.md
         - Bus Pirate v3 (assembled): Bus_Pirate_v3_assembled.md
         - CUI32Stem: CUI32Stem.md
         - Capacitance Meter Kit: Capacitance_Meter_Kit.md
         - Codec-Adaptive Wireless Relay: Codec-Adaptive_Wireless_Relay.md
+        - DC framework miniature solenoid VL-0063: DC_framework_miniature_solenoid_VL-0063.md
+        - DC framework solenoid HCNE1-0520: DC_framework_solenoid_HCNE1-0520.md
+        - DC framework solenoid HCNE1-0630: DC_framework_solenoid_HCNE1-0630.md
         - DSO Nano: DSO_Nano.md
         - DSO Nano v3: DSO_Nano_v3.md
+        - DSO Nano/Development: DSO_Nano-Development.md
+        - DSO Nano/OpenOCD gdb: DSO_Nano-OpenOCD_gdb.md
+        - DSO Nano/Qemu gdb: DSO_Nano-Qemu_gdb.md
+        - DSO Nano/gcc: DSO_Nano-gcc.md
         - DSO Quad: DSO_Quad.md
+        - DSO Quad Manual (by the community): DSO_Quad_Manual_by_the_community.md
+        - DSO Quad:Building Firmware: DSO_Quad-Building_Firmware.md
+        - DSO Quad:Calibration: DSO_Quad-Calibration.md
+        - FSM-55: FSM-55.md
         - FST-01: FST-01.md
         - Fubarino SD: Fubarino_SD.md
         - G1&#34; Water Flow Sensor: G1_Water_Flow_Sensor.md
@@ -499,8 +513,13 @@ pages:
         - Photo Reflective Sensor: Photo_Reflective_Sensor.md
         - Photo interrupter (OS25B10): Photo_interrupter_OS25B10.md
         - Piezo Sensor - MiniSense 100: Piezo_Sensor-MiniSense_100.md
+        - RGBW Stripe WireLess Shield V1.0: RGBW_Stripe_WireLess_Shield_V1.0.md
+        - Raspberry PI B&#43; Case: Raspberry_PI_Bplus_Case.md
         - Raspberry Pi 3 Model B: Raspberry_Pi_3_Model_B.md
+        - Renbotics ServoShield Rev: Renbotics_ServoShield_Rev.md
         - SDLogger - Open Hardware Data Logger: SDLogger-Open_Hardware_Data_Logger.md
+        - Scream out loud - 110dBA fixed tone Siren: Scream_out_loud-110dBA_fixed_tone_Siren.md
+        - Shield MaTrix V0.9: Shield-MaTrix-V0.9b.md
         - Starter bundle harness V1.0: Starter_bundle_harness_V1.md
         - Ultra Sonic range measurement module: Ultra_Sonic_range_measurement_module.md
         - Weight Sensor (Load Cell)0-500g: Weight_Sensor_Load_Cell_0-500g.md

@@ -1,7 +1,10 @@
+,http://wiki.seeed.cc/DSO_Quad-Beta_HW/,
 ,http://wiki.seeed.cc/How_to_choos_A_Gas_Sensor/,
 ,http://wiki.seeed.cc/Project_Three-Analog_Input/,
 ,http://wiki.seeed.cc/README/,
 0.5w Solar Panel 55*70,http://wiki.seeed.cc/0.5w_Solar_Panel_55x70/,http://wiki.seeedstudio.com/wiki/0.5w Solar Panel 55*70
+1.5W Solar Panel 81*137,http://wiki.seeed.cc/1.5W_Solar_Panel_81x137/,http://wiki.seeedstudio.com/wiki/1.5W Solar Panel 81*137
+125Khz RFID module - UART,http://wiki.seeed.cc/125Khz_RFID_module-UART/,http://wiki.seeedstudio.com/wiki/125Khz RFID module - UART
 13.56Mhz RFID module - IOS/IEC 14443 type a,http://wiki.seeed.cc/13.56Mhz_RFID_module-IOS-IEC_14443_type_a/,http://wiki.seeedstudio.com/wiki/13.56Mhz RFID module - IOS/IEC 14443 type a
 1w Solar Panel 80*100,http://wiki.seeed.cc/1w_Solar_Panel_80x100/,http://wiki.seeedstudio.com/wiki/1w Solar Panel 80*100
 2.5W Solar Panel 116*160,http://wiki.seeed.cc/2.5W_Solar_Panel_116x160/,http://wiki.seeedstudio.com/wiki/2.5W Solar Panel 116*160
@@ -56,6 +59,7 @@ Bluetooth Bee-Standalone,http://wiki.seeed.cc/Bluetooth_Bee_Standalone/,http://w
 Bluetooth Multimeter,http://wiki.seeed.cc/Bluetooth_Multimeter/,http://wiki.seeedstudio.com/wiki/Bluetooth Multimeter
 Bluetooth Shield V2.0,http://wiki.seeed.cc/Bluetooth_Shield_V2/,http://wiki.seeedstudio.com/wiki/Bluetooth Shield V2.0
 Bluetooth V4.0 HM-11 BLE Module,http://wiki.seeed.cc/Bluetooth_V4.0_HM_11_BLE_Module/,http://wiki.seeedstudio.com/wiki/Bluetooth V4.0 HM-11 BLE Module
+Bracket for Infrared Proximity Sensor,http://wiki.seeed.cc/Bracket_for_Infrared_Proximity_Sensor/,http://wiki.seeedstudio.com/wiki/Bracket for Infrared Proximity Sensor
 Breakout for LinkIt Smart 7688,http://wiki.seeed.cc/Breakout_for_LinkIt_Smart_7688/,http://wiki.seeedstudio.com/wiki/Breakout for LinkIt Smart 7688
 Breakout for LinkIt Smart 7688 v2.0,http://wiki.seeed.cc/Breakout_for_LinkIt_Smart_7688_v2.0/,http://wiki.seeedstudio.com/wiki/Breakout for LinkIt Smart 7688 v2.0
 Bugduino,http://wiki.seeed.cc/Bugduino/,http://wiki.seeedstudio.com/wiki/Bugduino
@@ -65,9 +69,19 @@ CUI32Stem,http://wiki.seeed.cc/CUI32Stem/,http://wiki.seeedstudio.com/wiki/CUI32
 Camera Shield,http://wiki.seeed.cc/Camera_Shield/,http://wiki.seeedstudio.com/wiki/Camera Shield
 Capacitance Meter Kit,http://wiki.seeed.cc/Capacitance_Meter_Kit/,http://wiki.seeedstudio.com/wiki/Capacitance Meter Kit
 Codec-Adaptive Wireless Relay,http://wiki.seeed.cc/Codec-Adaptive_Wireless_Relay/,http://wiki.seeedstudio.com/wiki/Codec-Adaptive Wireless Relay
+DC framework miniature solenoid VL-0063,http://wiki.seeed.cc/DC_framework_miniature_solenoid_VL-0063/,http://wiki.seeedstudio.com/wiki/DC framework miniature solenoid VL-0063
+DC framework solenoid HCNE1-0520,http://wiki.seeed.cc/DC_framework_solenoid_HCNE1-0520/,http://wiki.seeedstudio.com/wiki/DC framework solenoid HCNE1-0520
+DC framework solenoid HCNE1-0630,http://wiki.seeed.cc/DC_framework_solenoid_HCNE1-0630/,http://wiki.seeedstudio.com/wiki/DC framework solenoid HCNE1-0630
 DSO Nano,http://wiki.seeed.cc/DSO_Nano/,http://wiki.seeedstudio.com/wiki/DSO Nano
 DSO Nano v3,http://wiki.seeed.cc/DSO_Nano_v3/,http://wiki.seeedstudio.com/wiki/DSO Nano v3
+DSO Nano/Development,http://wiki.seeed.cc/DSO_Nano-Development/,http://wiki.seeedstudio.com/wiki/DSO Nano/Development
+DSO Nano/OpenOCD gdb,http://wiki.seeed.cc/DSO_Nano-OpenOCD_gdb/,http://wiki.seeedstudio.com/wiki/DSO Nano/OpenOCD gdb
+DSO Nano/Qemu gdb,http://wiki.seeed.cc/DSO_Nano-Qemu_gdb/,http://wiki.seeedstudio.com/wiki/DSO Nano/Qemu gdb
+DSO Nano/gcc,http://wiki.seeed.cc/DSO_Nano-gcc/,http://wiki.seeedstudio.com/wiki/DSO Nano/gcc
 DSO Quad,http://wiki.seeed.cc/DSO_Quad/,http://wiki.seeedstudio.com/wiki/DSO Quad
+DSO Quad Manual (by the community),http://wiki.seeed.cc/DSO_Quad_Manual_by_the_community/,http://wiki.seeedstudio.com/wiki/DSO Quad Manual (by the community)
+DSO Quad:Building Firmware,http://wiki.seeed.cc/DSO_Quad-Building_Firmware/,http://wiki.seeedstudio.com/wiki/DSO Quad:Building Firmware
+DSO Quad:Calibration,http://wiki.seeed.cc/DSO_Quad-Calibration/,http://wiki.seeedstudio.com/wiki/DSO Quad:Calibration
 Dfu-util,http://wiki.seeed.cc/Dfu-util/,http://wiki.seeedstudio.com/wiki/Dfu-util
 Download Arduino and install Arduino driver,http://wiki.seeed.cc/Download_Arduino_and_install_Arduino_driver/,http://wiki.seeedstudio.com/wiki/Download Arduino and install Arduino driver
 EL Shield,http://wiki.seeed.cc/EL_Shield/,http://wiki.seeedstudio.com/wiki/EL_Shield
@@ -75,6 +89,7 @@ ESP32 Breakout Kit,http://wiki.seeed.cc/ESP32_Breakout_Kit/,
 Eclipse IDE for RePhone Kit,http://wiki.seeed.cc/Eclipse_IDE_for_RePhone_Kit/,http://wiki.seeedstudio.com/wiki/Eclipse IDE for RePhone Kit
 Energy Shield,http://wiki.seeed.cc/Energy_Shield/,http://wiki.seeedstudio.com/wiki/Energy_Shield
 FM Receiver,http://wiki.seeed.cc/FM_Receiver/,
+FSM-55,http://wiki.seeed.cc/FSM-55/,http://wiki.seeedstudio.com/wiki/FSM-55
 FST-01,http://wiki.seeed.cc/FST-01/,http://wiki.seeedstudio.com/wiki/FST-01
 Fubarino SD,http://wiki.seeed.cc/Fubarino_SD/,http://wiki.seeedstudio.com/wiki/Fubarino SD
 G1" Water Flow Sensor,http://wiki.seeed.cc/G1_Water_Flow_Sensor/,http://wiki.seeedstudio.com/wiki/G1" Water Flow Sensor
@@ -334,11 +349,13 @@ Qi Wireless Charger Transmitter,http://wiki.seeed.cc/Qi_Wireless_Charger_Transmi
 RF Explorer Software,http://wiki.seeed.cc/RF_Explorer_Software/,http://wiki.seeedstudio.com/wiki/RF Explorer Software
 RFID Control LED,http://wiki.seeed.cc/RFID_Control_LED/,http://wiki.seeedstudio.com/wiki/RFID Control LED
 RFbee V1.1 - Wireless Arduino compatible node,http://wiki.seeed.cc/RFbee_V1.1-Wireless_Arduino_compatible_node/,http://wiki.seeedstudio.com/wiki/RFbee_V1.1_-_Wireless_Arduino_compatible_node
+RGBW Stripe WireLess Shield V1.0,http://wiki.seeed.cc/RGBW_Stripe_WireLess_Shield_V1.0/,http://wiki.seeedstudio.com/wiki/RGBW Stripe WireLess Shield V1.0
 RS232 Shield,http://wiki.seeed.cc/RS232_Shield/,http://wiki.seeedstudio.com/wiki/RS232_Shield
 Rainbow Cube kit - RGB 4*4*4 (Rainbowduino Compatible),http://wiki.seeed.cc/Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible/,http://wiki.seeedstudio.com/wiki/Rainbow Cube kit - RGB 4*4*4 (Rainbowduino Compatible)
 Rainbowduino,http://wiki.seeed.cc/Rainbowduino/,http://wiki.seeedstudio.com/wiki/Rainbowduino
 Rainbowduino LED driver platform - ATmega328,http://wiki.seeed.cc/Rainbowduino_LED_driver_platform-ATmega328/,http://wiki.seeedstudio.com/wiki/Rainbowduino LED driver platform - ATmega328
 Rainbowduino v3.0,http://wiki.seeed.cc/Rainbowduino_v3.0/,http://wiki.seeedstudio.com/wiki/Rainbowduino_v3.0
+Raspberry PI B+ Case,http://wiki.seeed.cc/Raspberry_PI_Bplus_Case/,http://wiki.seeedstudio.com/wiki/Raspberry PI B+ Case
 Raspberry Pi 3 Model B,http://wiki.seeed.cc/Raspberry_Pi_3_Model_B/,http://wiki.seeedstudio.com/wiki/Raspberry Pi 3 Model B
 Raspberry Pi Breakout Board v1.0,http://wiki.seeed.cc/Raspberry_Pi_Breakout_Board_v1.0/,http://wiki.seeedstudio.com/wiki/Raspberry_Pi_Breakout_Board_v1.0
 Raspberry Pi Introduction,http://wiki.seeed.cc/Raspberry_Pi/,
@@ -352,11 +369,13 @@ RePhone Lumi Kit,http://wiki.seeed.cc/RePhone_Lumi_Kit/,http://wiki.seeedstudio.
 RePhone Strap Kit for Pebble,http://wiki.seeed.cc/RePhone_Strap_Kit_for_Pebble/,http://wiki.seeedstudio.com/wiki/RePhone Strap Kit for Pebble
 Relay Control LED,http://wiki.seeed.cc/Relay_Control_LED/,http://wiki.seeedstudio.com/wiki/Relay Control LED
 Relay Shield v3.0,http://wiki.seeed.cc/Relay_Shield_v3/,http://wiki.seeedstudio.com/wiki/Relay Shield v3.0
+Renbotics ServoShield Rev,http://wiki.seeed.cc/Renbotics_ServoShield_Rev/,http://wiki.seeedstudio.com/wiki/Renbotics ServoShield Rev
 Rephone Core 2G-Atmel32u4,http://wiki.seeed.cc/RePhone_core_2G-Atmel32u4/,
 Rephone Core 2G-AtmelSAMD21,http://wiki.seeed.cc/Rephone_core_2G-AtmelSAMD21/,
 Replacement LCD Screen for DSO nano,http://wiki.seeed.cc/Replacement_LCD_Screen_for_DSO_nano/,http://wiki.seeedstudio.com/wiki/Replacement LCD Screen for DSO nano
 SD Card shield V4.0,http://wiki.seeed.cc/SD_Card_shield_V4.0/,http://wiki.seeedstudio.com/wiki/SD_Card_shield_V4.0
 SDLogger - Open Hardware Data Logger,http://wiki.seeed.cc/SDLogger-Open_Hardware_Data_Logger/,http://wiki.seeedstudio.com/wiki/SDLogger - Open Hardware Data Logger
+Scream out loud - 110dBA fixed tone Siren,http://wiki.seeed.cc/Scream_out_loud-110dBA_fixed_tone_Siren/,http://wiki.seeedstudio.com/wiki/Scream out loud - 110dBA fixed tone Siren
 Secret Box,http://wiki.seeed.cc/Secret_Box/,http://wiki.seeedstudio.com/wiki/Secret Box
 Seeed BLE Shield v1,http://wiki.seeed.cc/Seeed_BLE_Shield/,http://wiki.seeedstudio.com/wiki/Seeed BLE Shield v1
 Seeeduino Arch V1.0,http://wiki.seeed.cc/Seeeduino_Arch_V1.0/,http://wiki.seeedstudio.com/wiki/Seeeduino Arch V1.0
@@ -377,6 +396,7 @@ Sensor Introduction,http://wiki.seeed.cc/Sensor/,
 Service for Fusion PCB,http://wiki.seeed.cc/Service_for_Fusion_PCB/,http://wiki.seeedstudio.com/wiki/Service for Fusion PCB
 Shield Bot V1.1,http://wiki.seeed.cc/Shield_Bot_V1.1/,http://wiki.seeedstudio.com/wiki/Shield Bot V1.1
 Shield Bot V1.2,http://wiki.seeed.cc/Shield_Bot_V1.2/,http://wiki.seeedstudio.com/wiki/Shield_Bot_V1.2
+Shield MaTrix V0.9,http://wiki.seeed.cc/Shield-MaTrix-V0.9b/,http://wiki.seeedstudio.com/wiki/Shield MaTrix V0.9b
 Sidekick Basic Kit for Arduino V2,http://wiki.seeed.cc/Sidekick_Basic_Kit_for_Arduino_V2/,http://wiki.seeedstudio.com/wiki/Sidekick Basic Kit for Arduino V2
 Skeleton Bot - 4WD hercules mobile robotic platform,http://wiki.seeed.cc/Skeleton_Bot-4WD_hercules_mobile_robotic_platform/,http://wiki.seeedstudio.com/wiki/Skeleton Bot - 4WD hercules mobile robotic platform
 Skeleton Box,http://wiki.seeed.cc/Skeleton_Box/,http://wiki.seeedstudio.com/wiki/Skeleton Box
