@@ -48,6 +48,7 @@ Here is the list of the MakerPro Boards you can find in the Seeed WiKi. The list
 - [DSO Nano/gcc](/DSO_Nano-gcc/)
 - [DSO Quad](/DSO_Quad/)
 - [DSO Quad Manual (by the community)](/DSO_Quad_Manual_by_the_community/)
+- [DSO Quad:Beta HW](/DSO_Quad-Beta_HW/)
 - [DSO Quad:Building Firmware](/DSO_Quad-Building_Firmware/)
 - [DSO Quad:Calibration](/DSO_Quad-Calibration/)
 - [FSM-55](/FSM-55/)

@@ -1,4 +1,3 @@
-,http://wiki.seeed.cc/DSO_Quad-Beta_HW/,
 ,http://wiki.seeed.cc/How_to_choos_A_Gas_Sensor/,
 ,http://wiki.seeed.cc/Project_Three-Analog_Input/,
 ,http://wiki.seeed.cc/README/,
@@ -82,6 +81,7 @@ DSO Nano/Qemu gdb,http://wiki.seeed.cc/DSO_Nano-Qemu_gdb/,http://wiki.seeedstudi
 DSO Nano/gcc,http://wiki.seeed.cc/DSO_Nano-gcc/,http://wiki.seeedstudio.com/wiki/DSO Nano/gcc
 DSO Quad,http://wiki.seeed.cc/DSO_Quad/,http://wiki.seeedstudio.com/wiki/DSO Quad
 DSO Quad Manual (by the community),http://wiki.seeed.cc/DSO_Quad_Manual_by_the_community/,http://wiki.seeedstudio.com/wiki/DSO Quad Manual (by the community)
+DSO Quad:Beta HW,http://wiki.seeed.cc/DSO_Quad-Beta_HW/,http://wiki.seeedstudio.com/wiki/DSO Quad:Beta HW
 DSO Quad:Building Firmware,http://wiki.seeed.cc/DSO_Quad-Building_Firmware/,http://wiki.seeedstudio.com/wiki/DSO Quad:Building Firmware
 DSO Quad:Calibration,http://wiki.seeed.cc/DSO_Quad-Calibration/,http://wiki.seeedstudio.com/wiki/DSO Quad:Calibration
 Dfu-util,http://wiki.seeed.cc/Dfu-util/,http://wiki.seeedstudio.com/wiki/Dfu-util
@@ -284,6 +284,7 @@ Grove Cape for BeagleBone Series,http://wiki.seeed.cc/Grove_Cape_for_BeagleBone_
 Grove Indoor Environment Kit for Edison,http://wiki.seeed.cc/Grove_Indoor_Environment_Kit_for_Edison/,http://wiki.seeedstudio.com/wiki/Grove Indoor Environment Kit for Edison
 Grove Introduction,http://wiki.seeed.cc/Grove/,
 Grove IoT Developer Kit - Microsoft Azure Edition,http://wiki.seeed.cc/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/,http://wiki.seeedstudio.com/wiki/Grove IoT Developer Kit - Microsoft Azure Edition
+Grove IoT Starter Kits Powered by AWS,http://wiki.seeed.cc/Grove_IoT_Starter_Kits_Powered_by_AWS/,http://wiki.seeedstudio.com/wiki/Grove IoT Starter Kits Powered by AWS
 Grove Shield for Intel Joule,http://wiki.seeed.cc/Grove_Shield_for_Intel_Joule/,
 Grove Smart Plant Care Kit,http://wiki.seeed.cc/Grove_Smart_Plant_Care_Kit/,http://wiki.seeedstudio.com/wiki/Grove Smart Plant Care Kit
 Grove Speech Recognizer Kit for Arduino,http://wiki.seeed.cc/Grove_Speech_Recognizer_Kit_for_Arduino/,http://wiki.seeedstudio.com/wiki/Grove Speech Recognizer Kit for Arduino
@@ -305,6 +306,7 @@ How to use and write a library,http://wiki.seeed.cc/How_to_use_and_write_a_libra
 I2C And I2C Address of Seeed Product,http://wiki.seeed.cc/I2C_And_I2C_Address_of_Seeed_Product/,http://wiki.seeedstudio.com/wiki/I2C And I2C Address of Seeed Product
 I2C LCD,http://wiki.seeed.cc/I2C_LCD/,http://wiki.seeedstudio.com/wiki/I2C_LCD
 IR Remote,http://wiki.seeed.cc/IR_Remote/,http://wiki.seeedstudio.com/wiki/IR Remote
+Intel® Edison and Grove IoT Starter Kit Powered by AWS,http://wiki.seeed.cc/Intel_Edison_and_Grove_IoT_Starter_Kit_Powered_by_AWS/,http://wiki.seeedstudio.com/wiki/Intel® Edison and Grove IoT Starter Kit Powered by AWS
 IoT Introduction,http://wiki.seeed.cc/IoT/,
 JavaScript for RePhone,http://wiki.seeed.cc/JavaScript_for_RePhone/,http://wiki.seeedstudio.com/wiki/JavaScript_for_RePhone
 Joystick Control RGB Led,http://wiki.seeed.cc/Joystick_Control_RGB_Led/,http://wiki.seeedstudio.com/wiki/Joystick Control RGB Led
@@ -312,6 +314,7 @@ LCD 16*2 Characters- Green Yellow back light,http://wiki.seeed.cc/LCD_16-2_Chara
 LCD 8*2 Characters- Blue back light,http://wiki.seeed.cc/LCD_8-2_Characters-Blue_back_light/,http://wiki.seeedstudio.com/wiki/LCD 8*2 Characters- Blue back light
 License,http://wiki.seeed.cc/License/,
 Light Sensor and LED Bar,http://wiki.seeed.cc/Light_Sensor_and_LED_Bar/,http://wiki.seeedstudio.com/wiki/Light Sensor and LED Bar
+LinkIT One and Grove IoT Starter Kit Powered by AWS,http://wiki.seeed.cc/LinkIT_One_and_Grove_IoT_Starter_Kit_Powered_by_AWS/,http://wiki.seeedstudio.com/wiki/LinkIT One and Grove IoT Starter Kit Powered by AWS
 LinkIt Introduction,http://wiki.seeed.cc/LinkIt/,
 LinkIt ONE,http://wiki.seeed.cc/LinkIt_ONE/,http://wiki.seeedstudio.com/wiki/LinkIt_ONE
 LinkIt ONE Tutorial - Analog Interface,http://wiki.seeed.cc/LinkIt_ONE_Tutorial-Analog_Interface/,http://wiki.seeedstudio.com/wiki/LinkIt ONE Tutorial - Analog Interface

@@ -1,4 +1,3 @@
-# DSO Quad:Beta HW
 ---
 title: DSO Quad:Beta HW
 category: MakerPro
