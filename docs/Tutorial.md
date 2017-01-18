@@ -60,6 +60,7 @@ Here is the list of the Tutorial you can find in the Seeed WiKi. The list will b
 - [Temperature Sensor](/Temperature_Sensor/)
 - [Upload Code](/Upload_Code/)
 - [Use External Editor](/Use_External_Editor/)
+- [Xadow IO pin mapping](/Xadow_IO_pin_mapping/)
 - [Zigbee Networking with XBee Series 2 and Seeed&#39;s Products](/Zigbee_Networking_with_XBee_Series_2_and_Seeeds_Products/)
 
 
