@@ -1,11 +1,4 @@
-GrovePiPlus;http://wiki.seeedstudio.com/wiki/GrovePi+
-Guide_to_use_demos_downloaded_from_Seeed's_Github;http://wiki.seeedstudio.com/wiki/Guide_to_use_demos_downloaded_from_Seeed%27s_Github
-
-How_to_detect_finger_touch;http://wiki.seeedstudio.com/wiki/How_to_detect_finger_touch%3F
-Suli;http://wiki.seeedstudio.com/wiki/Suli
-
 Grove-I2C_Motor_Driver_V1.0;http://wiki.seeedstudio.com/wiki/Grove_-_I2C_Motor_Driver_V1.0
-Weight_Sensor-Load_Cell-0-500g;http://wiki.seeedstudio.com/wiki/Weight_Sensor_(Load_Cell)0-500g
 Grove-LED;http://wiki.seeedstudio.com/wiki/Grove_-_LED
 Grove_Speech_Recognizer;http://wiki.seeed.cc/Grove-Speech_Recognizer/
 Grove_Temperature_and_Humidity_Sensor;http://wiki.seeed.cc/Grove-TemperatureAndHumidity_Sensor/
