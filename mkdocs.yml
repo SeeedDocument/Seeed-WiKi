@@ -420,10 +420,12 @@ pages:
         - Eclipse IDE for RePhone Kit: Eclipse_IDE_for_RePhone_Kit.md
         - FM Receiver: FM_Receiver.md
         - Getting Started with Seeeduino: Getting_Started_with_Seeeduino.md
+        - Guide to use demos downloaded from Seeed&#39;s Github: Guide_to_use_demos_downloaded_from_Seeed-s_Github.md
         - How To Choose The Right Cable: How_To_Choose_The_Right_Cable.md
         - How To Use Sketchbook: How_To_Use_Sketchbook.md
         - How to Add Seeed boards to Arduino IDE: Seeed_Arduino_Boards.md
         - How to Chose A Gas Sensor: How_to_Chose_A_Gas_Sensor.md
+        - How to detect finger touch: How_to_detect_finger_touch.md
         - How to edit a document: How_To_Edit_A_Document.md
         - How to install an Arduino library: How_to_install_Arduino_Library.md
         - How to use and write a library: How_to_use_and_write_a_library.md
@@ -432,6 +434,7 @@ pages:
         - JavaScript for RePhone: JavaScript_for_RePhone.md
         - Joystick Control RGB Led: Joystick_Control_RGB_Led.md
         - Light Sensor and LED Bar: Light_Sensor_and_LED_Bar.md
+        - LightView 201k Digital display module: LightView_201k_Digital_display_module.md
         - LinkIt ONE Tutorial - Analog Interface: LinkIt_ONE_Tutorial-Analog_Interface.md
         - LinkIt ONE Tutorial - Colorful World: LinkIt_ONE_Tutorial-Colorful_World.md
         - LinkIt ONE Tutorial - Get temperature with Webpage: LinkIt_ONE_Tutorial-Get_temperature_with_Webpage.md
@@ -443,6 +446,7 @@ pages:
         - LinkIt ONE Tutorial - SMS control the LED: LinkIt_ONE_Tutorial-SMS_control_the_LED.md
         - LinkIt ONE Tutorial - The Basics: LinkIt_ONE_Tutorial-The_Basics.md
         - Lua for RePhone: Lua_for_RePhone.md
+        - Nose LED Kit: Nose_LED_Kit.md
         - Project Eight - Thermostat: Project_Eight-Thermostat.md
         - Project Five – Relay Control: Project_Five-Relay_Control.md
         - Project Four – Noise Maker: Project_Four-Noise_Maker.md
@@ -460,7 +464,9 @@ pages:
         - Replacement LCD Screen for DSO nano: Replacement_LCD_Screen_for_DSO_nano.md
         - Secret Box: Secret_Box.md
         - Service for Fusion PCB: Service_for_Fusion_PCB.md
+        - Sketchbook of Sidekick Advanced Kit: Sketchbook_of_Sidekick_Advanced_Kit.md
         - Sound Sensor And LED Bar: Sound_Sensor_And_LED_Bar.md
+        - Suli: Suli.md
         - Temperature Sensor: Temperature_Sensor.md
         - Upload Code: Upload_Code.md
         - Use External Editor: Use_External_Editor.md

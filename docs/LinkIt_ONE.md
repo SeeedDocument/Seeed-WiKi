@@ -20,7 +20,7 @@ LinkIt One is an all-in-one prototyping board for IoT/wearables devices. Integra
 
 
 !!!Note
-    LinkIt ONE board comes with a lot of features and its SDK(Software Development Kit) is quite comprehensive. Read this document throughly once before using the board. Being a co-design product basic level Technical Support for hardware is provided at [ Seeedstudio LinkIt One Forum](http://www.seeed.cc/discover.html?t=linkit).Advanced Technical support is available at  [  MediaTek LinkIt One Forums](https://labs.mediatek.com/forums/forums/list.page).These forums have a good number of FAQs about this board.Please search solutions for your requirements/issues first before posting questions for saving your time. 
+    LinkIt ONE board comes with a lot of features and its SDK(Software Development Kit) is quite comprehensive. Read this document throughly once before using the board. Being a co-design product basic level Technical Support for hardware is provided at [ Seeedstudio LinkIt One Forum](http://www.seeed.cc/discover.html?t=linkit).Advanced Technical support is available at  [  MediaTek LinkIt One Forums](https://labs.mediatek.com/forums/forums/list.page).These forums have a good number of FAQs about this board.Please search solutions for your requirements/issues first before posting questions for saving your time.
 
 ## Features
 --------------
@@ -98,20 +98,20 @@ There are 3 slide switches on LinkIt ONE which are used to configure the functio
 ### Procedure Overview
 |No.|	Step	|Read more|
 |:------|:-----------------|:-----------------|
-|1|	Install Arduino IDE 1.5.7 Beta (Windows or MAC OS X version)|	[ here](http://www.seeedstudio.com/wiki/LinkIt_ONE#Installing_Arduino_IDE)
+|1|	Install Arduino IDE 1.5.7 Beta (Windows or MAC OS X version)|	[ here](http://wiki.seeed.cc/LinkIt_ONE/#installing-arduino-ide)
 |2|		[ Register on MediaTek Labs](http://labs.mediatek.com/dpRegister/create).	| |
 |3|	Download [ Linkit Developer's Guide](http://labs.mediatek.com/fileMedia/download/5fed7907-b2ba-4000-bcb2-016a332a49fd) and read.	||
-|4|	Install [ LinkIt SDK](http://labs.mediatek.com/site/znch/developer_tools/mediatek_linkit/sdk_intro/index.gsp) for Arduino IDE (Windows or MAC OS X).|	[ here](http://www.seeedstudio.com/wiki/LinkIt_ONE#Installing_Mediatek_LinkIt_ONE_SDK)|
-|5|	Install LinkIt ONE drivers.|	[ here](http://www.seeedstudio.com/wiki/LinkIt_ONE#Installing_Drivers)|
-|6|	Update the on-board firmware version.|	[ here](http://www.seeedstudio.com/wiki/LinkIt_ONE#Updating_Firmware)|
-|7|	Open Arduino IDE, Select LinkIt ONE board and start coding.|	[ here](http://www.seeedstudio.com/wiki/LinkIt_ONE#Uploading_Code)||
-|8|	Connect GSM, GPS and WiFi/BT antennae to LinkIt One board|	[ here](http://www.seeedstudio.com/wiki/LinkIt_ONE#Connecting_Antennae)|
-|9	|Insert SIM and Micro SD Card|[ here](http://www.seeedstudio.com/wiki/LinkIt_ONE#Inserting_SIM_Card_and_SD_Card)|
+|4|	Install [ LinkIt SDK](http://labs.mediatek.com/site/znch/developer_tools/mediatek_linkit/sdk_intro/index.gsp) for Arduino IDE (Windows or MAC OS X).|	[ here](http://wiki.seeed.cc/LinkIt_ONE/#installing-mediatek-linkit-one-sdk)|
+|5|	Install LinkIt ONE drivers.|	[ here](http://wiki.seeed.cc/LinkIt_ONE/#installing-drivers)|
+|6|	Update the on-board firmware version.|	[ here](http://wiki.seeed.cc/LinkIt_ONE/#updating-firmware)|
+|7|	Open Arduino IDE, Select LinkIt ONE board and start coding.|	[ here](http://wiki.seeed.cc/LinkIt_ONE/#uploading-code-blinky)||
+|8|	Connect GSM, GPS and WiFi/BT antennae to LinkIt One board|	[ here](http://wiki.seeed.cc/LinkIt_ONE/#connecting-antennae)|
+|9	|Insert SIM and Micro SD Card|[ here](http://wiki.seeed.cc/LinkIt_ONE/#inserting-sim-card-and-sd-card)|
 |10	|Explore examples and Happy making!|
 
 ### Installing Arduino IDE
 [ Download latest Arduino IDE](https://www.arduino.cc/en/Main/Software) .For more advanced topics, follow MediaTekTM[  instructions](http://labs.mediatek.com/site/znch/developer_tools/mediatek_linkit/sdk_intro/index.gsp).
- 
+
 ### Installing Mediatek LinkIt ONE SDK
 - Download [  LinkIt SDK for Arduin](http://labs.mediatek.com/site/znch/developer_tools/mediatek_linkit/sdk_intro/index.gsp).At the time of writing this guide, **v1.1.11** Windows SDK (Beta) was used. Read the video guide for Windows OS and MAC OS X platforms  [ here](http://labs.mediatek.com/site/znch/developer_tools/mediatek_linkit/get-started/index.gsp)
 - Extract the downloaded files to Arduino IDE folder.
@@ -122,7 +122,7 @@ There are 3 slide switches on LinkIt ONE which are used to configure the functio
 
 - Disable **Driver Signature Enforcement** if you are using Windows 8/8.1 OS. Read[instructions]
 - (http://www.seeedstudio.com/wiki/Download_Arduino_and_install_Arduino_driver#Installing_drivers_for_the_Seeeduino_with_window8)
-- 
+-
 - Put the MS/UART slide switch to UART position and connect LinkIt ONE to PC.
 - Open Device Manager, the following COM ports will be displayed.
 
@@ -132,9 +132,9 @@ There are 3 slide switches on LinkIt ONE which are used to configure the functio
 - After installing drivers, Device Manger should display the following two ports:
 
    **MTK USB Debug Port** used for uploading code.
- 
+
   **MTK USB Modem Port** used for printing message, such as Serial.println()
-  
+
 ![](https://raw.githubusercontent.com/SeeedDocument/Linkit-ONE/master/image/LinkIt_ONE_Wiki_Temp2.jpg)  
 
 !!!Note
@@ -158,7 +158,7 @@ The firmware of LinkIt ONE board needs to be updated once in a while. Latest Lin
 
 - The slide switches should be configured for firmware upload (i.e Put MS/UART in UART position and Power switch in USB position).
 
-![](https://raw.githubusercontent.com/SeeedDocument/Linkit-ONE/master/image/LinkIt_ONE_Wiki_Temp3.jpg) 
+![](https://raw.githubusercontent.com/SeeedDocument/Linkit-ONE/master/image/LinkIt_ONE_Wiki_Temp3.jpg)
 
 - Open **File** -> **Examples** -> **Basics** -> **Blink** in LinkIt ONE IDE.
 - Select the COM Port number corresponding to **MTK USB Debug port** in **Tools** -> **Port**.
@@ -174,7 +174,7 @@ There are three antennae provided with LinkIt ONE. They are used for:
 
 Connect the antenna as the following image.
 
-![](https://raw.githubusercontent.com/SeeedDocument/Linkit-ONE/master/image/400px-Linkit_one_antenna.jpg) 
+![](https://raw.githubusercontent.com/SeeedDocument/Linkit-ONE/master/image/400px-Linkit_one_antenna.jpg)
 
 !!!Note
     - While pulling the antenna from board, do it with care. Please Do not use brute force.
@@ -184,7 +184,7 @@ Connect the antenna as the following image.
 
 LinkIt ONE accepts standard size SIM Card and Micro SD Card. Insert them as per the following image:
 
-![](https://raw.githubusercontent.com/SeeedDocument/Linkit-ONE/master/image/LinkItONE_SIM_SDCard_Insert.jpg) 
+![](https://raw.githubusercontent.com/SeeedDocument/Linkit-ONE/master/image/LinkItONE_SIM_SDCard_Insert.jpg)
 
 ### Exploring LinkIt ONE SDK Examples
 LinkIt ONE SDK comes with many examples / sample code to use peripherals like GSM, GPRS, WiFi, BT, Audio, GPS etc. Explore them first and read about API documentation. API documentation are available in [  User Guide ](http://labs.mediatek.com/fileMedia/download/5fed7907-b2ba-4000-bcb2-016a332a49fd) and [  API References site ](https://labs.mediatek.com/site/znch/developer_tools/mediatek_linkit/api_references/Core_Digital.gsp)
@@ -247,4 +247,3 @@ The Sidekick Basic Kit for LinkIt ONE is designed to be used with your LinkIt ON
 **More**
 
 - [See Also: Sidekick Base Kit for LinkIt ONE](http://www.seeedstudio.com/wiki/Sidekick_Basic_Kit_for_LinkIt_ONE)
-

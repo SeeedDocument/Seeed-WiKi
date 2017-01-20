@@ -1,11 +1,10 @@
 GrovePiPlus;http://wiki.seeedstudio.com/wiki/GrovePi+
 Guide_to_use_demos_downloaded_from_Seeed's_Github;http://wiki.seeedstudio.com/wiki/Guide_to_use_demos_downloaded_from_Seeed%27s_Github
-Grove_IoT_Starter_Kits_Powered_by_AWS;http://wiki.seeedstudio.com/wiki/Grove_IoT_Starter_Kits_Powered_by_AWS
-Secret_Box;http://wiki.seeedstudio.com/wiki/Secret_Box
+
 How_to_detect_finger_touch;http://wiki.seeedstudio.com/wiki/How_to_detect_finger_touch%3F
 Suli;http://wiki.seeedstudio.com/wiki/Suli
+
 Grove-I2C_Motor_Driver_V1.0;http://wiki.seeedstudio.com/wiki/Grove_-_I2C_Motor_Driver_V1.0
-GPRS_Shield_V2.0;https://seeeddoc.github.io/GPRS_Shield_V2.0
 Weight_Sensor-Load_Cell-0-500g;http://wiki.seeedstudio.com/wiki/Weight_Sensor_(Load_Cell)0-500g
 Grove-LED;http://wiki.seeedstudio.com/wiki/Grove_-_LED
 Grove_Speech_Recognizer;http://wiki.seeed.cc/Grove-Speech_Recognizer/
@@ -13,9 +12,10 @@ Grove_Temperature_and_Humidity_Sensor;http://wiki.seeed.cc/Grove-TemperatureAndH
 Grove_Ultrasonic_Ranger;http://wiki.seeed.cc/Grove-Ultrasonic_Ranger/
 Grove_gesture_v1;http://wiki.seeed.cc/Grove-Gesture_v1.0/
 Grove_Moisture_Sensor;http://wiki.seeed.cc/Grove-Moisture_Sensor/
-Grove_OLED_Display_0.96;http://wiki.seeed.cc/Grove-OLED_Display_0.96inch/
 Grove_Buzzer;http://wiki.seeed.cc/Grove-Buzzer/
+
 Grove_Recorder_V3;http://wiki.seeed.cc/Grove-Recorder_v3.0/
+
 Grove_Button;http://wiki.seeed.cc/Grove-Button/
 Grove_3_Axis_Digital_Accelerometer_Plus_Minus_16g;http://wiki.seeed.cc/Grove-3-Axis_Digital_Accelerometer-16g/
 Grove_Line_Finder;http://wiki.seeed.cc/Grove-Line_Finder/
