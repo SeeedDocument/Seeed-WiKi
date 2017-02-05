@@ -35,6 +35,11 @@ Demonstration
 
 In the following we are showing you how to use the Grove - GSR.
 Connect Grove - GSR Sensor to the analog port A2 of Grove-Basic Shield and Grove - Buzzer to digital port 3. ![](https://raw.githubusercontent.com/SeeedDocument/Grove-GSR_Sensor/master/img/GSR_Connecting.JPG)
+
+!!!note
+    If you don't have a Grove - Base Shield, don't worry, the sensor can be connected to your Arduino directly. There are 4 pins in the grove connector: GND, VCC, NC and SIG. Obviously GND and VCC should be connected to GND and 5v pin of Arduino. NC means "No connection" so you can leave it disconnected. SIG should be connected to A0~A5 pin of Arduino.
+
+
 Copy and paste the code below to a new Arduino sketch and upload it to Arduino.
 
     const int BUZZER=3;
@@ -48,7 +53,7 @@ Copy and paste the code below to a new Arduino sketch and upload it to Arduino.
       pinMode(BUZZER,OUTPUT);
       digitalWrite(BUZZER,LOW);
       delay(1000);
-      
+
       for(int i=0;i<500;i++)
       {
       sensorValue=analogRead(GSR);
@@ -101,5 +106,6 @@ Resources
 - [Grove - GSR Eagle File](https://raw.githubusercontent.com/SeeedDocument/Grove-GSR_Sensor/master/res/Grove-GSR_Eagle_File.zip)
 - [LM324 datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-GSR_Sensor/master/res/Lm324.pdf)
 - [GSR sensor data.xls](https://raw.githubusercontent.com/SeeedDocument/Grove-GSR_Sensor/master/res/GSR_sensor_data.xls "File:GSR sensor data.xls")
+- [Grove-GSR v1.0.pdf](https://github.com/SeeedDocument/Grove-GSR_Sensor/blob/master/res/Grove%20-%20GSR%20v1.0.pdf)
 
 <!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_GSR_Sensor -->

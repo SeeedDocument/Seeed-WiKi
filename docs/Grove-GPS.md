@@ -7,7 +7,7 @@ prodimagename: Grove-GPS.jpg
 bzprodimageurl: http://statics3.seeedstudio.com/images/113020003 1.jpg
 surveyurl: https://www.research.net/r/Grove-GPS
 sku: 113020003
-tags: grove_uart, io_3v3, io_5v, plat_duino, plat_bbg, plat_pi, plat_linkit, 
+tags: grove_uart, io_3v3, io_5v, plat_duino, plat_bbg, plat_pi, plat_linkit,
 ---
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-GPS/master/img/Grove-GPS.jpg)
@@ -106,6 +106,9 @@ void clearBufferArray()                     // function to clear buffer array
 ```
 
 -   Install [u-center](http://www.u-blox.com/images/Support/Support_Products/EvaluationSoftware/u-centersetup-6.2.0.0.zip). Upload the code below to your Arduino/Seeeduino and then open u-center.
+
+!!!note
+    Please note that the u-center sofeware is windows only.
 
     1. Click Receiver -> Port and select the COM port that the Arduino is using.
     2. Click Receiver -> Baudrate and make sure 9600 is selected.
@@ -224,6 +227,7 @@ SIM28 module Note:
 1. GPS Bee has change the module as SIM28 which the same footprint as origin version.
 2. You should use ["SIMCom GPS DEMO"](https://raw.githubusercontent.com/SeeedDocument/Grove-GPS/master/res/SIMCom_GPS_DEMO_V1.07.zip) tools to receive SIM28 module data.
 3. Open SIMCom_GPS_DEMO tools, go to Module->properties->module->select SIM28.
+4. SIMCom_GPS_DEMO_V1.07 is Windows only.
 
     ![](https://raw.githubusercontent.com/SeeedDocument/Grove-GPS/master/img/SIM28_module_select.jpg)
 
