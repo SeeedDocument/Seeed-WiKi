@@ -2,8 +2,8 @@
 title: Rephone Core 2G-Atmel32u4
 category: RePhone
 bzurl: https://www.seeedstudio.com/RePhone-core-2G-Atmel32u4-v1.0-p-2779.html
-oldwikiname: 
-prodimagename: 
+oldwikiname:
+prodimagename:
 surveyurl: https://www.research.net/r/S7PZCZH
 sku: 102040006
 ---
@@ -41,7 +41,7 @@ We also provide an even more powerful version of new RePhone core 2G because its
 * bluetooth:compatible3.0+EDR
 * FM:band limits 76~109MHz,Tuning step by step 50KHz
 * Via ATcommand control 3GPP TS 27.007, 27.005 and SIMCOM enhance ATcommand set
-* SIM USAT 
+* SIM USAT
 * Low power
 * Operating temperature range : -40 ~+85 °C
 
@@ -93,7 +93,7 @@ We also provide an even more powerful version of new RePhone core 2G because its
     * INT1 connect to D7
     * INT2 connect to D12
 
-##Arduino IDE 
+##Arduino IDE
 
 After you download and install the [latest Arduino IDE](https://www.arduino.cc/en/Main/Software), then click [here](http://wiki.seeed.cc/Seeed_Arduino_Boards/) to add the board to your Arduino IDE.
 
@@ -149,7 +149,7 @@ Open Serial Monitor of your Arduino IDE and you will get "Hello World" printed p
 
 RePhone core 2G board support AT command mode. TX/RX of SIM800H is connected to Serial1(D0/D1) of AtemlSAMD21.
 
-Copy the below code and upload to your board. 
+Copy the below code and upload to your board.
 
 ```c
 #include "atmel32u4_gprs.h"
@@ -158,15 +158,15 @@ void setup()
 {
     Serial.begin(9600);
     while(!Serial);
-    
+
     Serial.println("SIM800 Serial Debug Test ...");
     gsm.preInit();
-    
+
     while(0 != gsm.sendATTest())
     {
         Serial.println("sim800 init error!");
     }
-    
+
     Serial.println("sim800 init O.K!");
 }
 
@@ -176,22 +176,22 @@ void loop()
 }
 ```
 
-Open your Serial monitor and wait for ***GSM init ok.*** printed on the monitor, then you can input a command. 
+Open your Serial monitor and wait for ***GSM init ok.*** printed on the monitor, then you can input a command.
 Try to input an "AT" to get an "OK".
 
 ![](https://raw.githubusercontent.com/SeeedDocument/RePhone_core_2G-Atmel32u4/master/img/cmd.png)
 
 !!!Tip
     All command must be end with a new line(\r\n).
-    
-Click on below button to get detailed AT command documentation. 
+
+Click on below button to get detailed AT command documentation.
 
 [![](https://raw.githubusercontent.com/SeeedDocument/RePhone_core_2G-Atmel32u4/master/img/at_cmd.png)](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_GPRS/master/res/SIM800_Series_AT_Command_Manual_V1.01%20(2).pdf)
 
 
 ##Examples
 
-We had made many examples to show you how this module work. 
+We had made many examples to show you how this module work.
 At the every beginning, please
 
 1. Insert a nano SIM card
@@ -214,19 +214,19 @@ Click on **File > Examples** then you can open those examples.
 * **nfc_test**: [Xadow NFC v2](https://www.seeedstudio.com/Xadow-NFC-v2-p-2562.html) example
 * **sensorhub_test**: [Xadow Basic Sensors](https://www.seeedstudio.com/Xadow-Basic-Sensors-p-2555.html) example
 * **ws2812_test**: [Xadow Duino](https://www.seeedstudio.com/Xadow-Duino-p-2556.html) example
-        
+
 ###rephone_button
 
 * **button_test**: On-board button test
-    
+
 ###rephone_lcm
 
 * **lcm_display_test**: LCD display exampledkdsafdfds
-    
+
 ###rephone_menu_gsm
 
 * **rephone_menu_test**
-    
+
 
 ## RePhone Family
 There are several chainable add-on modules to extend the features and functionalities – Xadow Audio, Xadow LED 5x7, Xadow Basic Sensors, Xadow Duino, Xadow GPS v2 and Xadow NFC v2.
@@ -245,8 +245,8 @@ There are several chainable add-on modules to extend the features and functional
 
 #Resources
 
-- [Schematics in PDF](https://github.com/SeeedDocument/RePhone_core_2G-Atmel32u4/raw/master/res/pdf_sch_rephone_2g.pdf)
-- [Schematics in EAGLE](https://github.com/SeeedDocument/RePhone_core_2G-Atmel32u4/raw/master/res/eagle.zip)
+- [Schematics in PDF](https://github.com/SeeedDocument/RePhone_core_2G-Atmel32u4/raw/master/res/102040006RePhone%20core%202G-Atmel32u4/RePhone%20core%202G-Atmel32u4%20v1.0.pdf)
+- [Schematics in EAGLE](https://github.com/SeeedDocument/RePhone_core_2G-Atmel32u4/raw/master/res/102040006RePhone%20core%202G-Atmel32u4.zip)
 - [Driver](https://github.com/SeeedDocument/RePhone_core_2G-Atmel32u4/raw/master/res/driver.zip)
 - [Datasheet of ETA6003](https://github.com/SeeedDocument/RePhone_core_2G-Atmel32u4/raw/master/res/ETA6003.pdf)
 - [AT Command of SIM800H](https://github.com/SeeedDocument/RePhone_core_2G-Atmel32u4/raw/master/res/SIM800_AT.pdf)

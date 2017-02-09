@@ -14,7 +14,7 @@ sku:     114990584
 
 Raspberry Pi Foundation has announced a new version **Raspberry Pi 3**. Read announcement [here](https://www.raspberrypi.org/blog/raspberry-pi-3-on-sale/). With on-board **WiFi** / **Bluetooth** support and an 64bit improved Processor, **Raspberry Pi v3** will be an exciting board for Makers, Engineers and Students.
 
-[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/Skeleton-Box-p-1407.html)
+[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/Raspberry-Pi-3-Model-B-p-2625.html)
 
 ##  What is new in Raspberry Pi 3
 ---

@@ -82,7 +82,6 @@ You can use it for:
 
 ![](https://github.com/SeeedDocument/How_To_Choose_The_Right_Cable/raw/master/img/4p254.jpg)
 
-*   [Grove to 4pin Female Jumper](https://github.com/SeeedDocument/How_To_Choose_The_Right_Cable/raw/master/res/Grove-4_pin_Female_Jumper_to_Grove_4_pin_Conversion_Cable_.pdf)
 
 ##   Some Other Cables
 

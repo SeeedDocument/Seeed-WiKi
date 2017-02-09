@@ -180,8 +180,8 @@ Our module board got a firmware burned into it for factory settings, you can bur
 
 ###Download burning tools
 
-* [FLASH DOWNLOAD TOOLS](https://raw.githubusercontent.com/SeeedDocument/Grove-Uart_Wifi/master/res/FLASH_DOWNLOAD_TOOLS_v1.2_150512.zip)
-* [Bin files of firmware](https://raw.githubusercontent.com/SeeedDocument/Grove-Uart_Wifi/master/res/Grove-uart-wifi-firmware-bin.zip)
+* [FLASH DOWNLOAD TOOLS](https://github.com/SeeedDocument/Grove-Uart_Wifi/raw/master/res/FLASH_DOWNLOAD_TOOLS_v1.2_150512.zip)
+* [Bin files of firmware](https://github.com/SeeedDocument/Grove-Uart_Wifi/raw/master/res/Grove-uart-wifi-firmware-bin.zip)
 
 ###Operation steps
 
