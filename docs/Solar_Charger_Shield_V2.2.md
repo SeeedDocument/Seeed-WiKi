@@ -139,10 +139,11 @@ void loop() {
     delay(10);
 }
 ```
-##   Resources
+##  Resources
 ---
 - [Solar Charger Shield v2.2 sch&amp;pcb](https://github.com/SeeedDocument/Solar_Charger_Shield_V2.2/raw/master/res/Solar_Charger_Shield_v2.2_sch_pcb.zip)
 
+- [Solar Charger Shield v2.2.pdf](https://github.com/SeeedDocument/Solar_Charger_Shield_V2.2/raw/master/res/Solar%20Charger%20Shield%20v2.2.pdf)
 - [DSE-CN3065.pdf](https://github.com/SeeedDocument/Solar_Charger_Shield_V2.2/raw/master/res/DSE-CN3065.pdf)
 
 - [ETA1036.pdf](https://github.com/SeeedDocument/Solar_Charger_Shield_V2.2/raw/master/res/ETA1036.pdf)
