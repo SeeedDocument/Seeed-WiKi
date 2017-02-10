@@ -2,7 +2,7 @@
  * Tweak the overal size to better match RTD.
  */
 html {
-    font-size: 90%;
+    font-size: 14px;
 }
 
 h3, h4, h5, h6 {
@@ -21,7 +21,7 @@ h3, h4, h5, h6 {
     padding: 0.4045em 2.427em;
     display: block;
     position: relative;
-    font-size: 90%;
+    font-size: 14px;
     color: #838383;
     background: #F7F7F7;
 }

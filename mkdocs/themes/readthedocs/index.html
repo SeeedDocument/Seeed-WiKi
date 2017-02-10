@@ -7,8 +7,9 @@
 	  <link rel="stylesheet" href="/css/highlight.css">
 	  <link rel="stylesheet" href="/css/font-awesome-4.5.0/css/font-awesome.min.css?v=4fbd15">
 	  <link rel="stylesheet" href="/css/main.css">
+	  <link rel="stylesheet" href="/css/iconfont.css">
 	  <link rel="stylesheet" href="/css/wiki.css">
-	  <!-- <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1"> -->
+	  <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@seeedstudio">
   <meta property="og:title" content="Seeed Wiki">
@@ -25,10 +26,16 @@
   ga('create', 'UA-84917600-1', 'auto');
   ga('send', 'pageview');
   </script>
+  <script type="text/javascript">
+      var html = document.documentElement;
+      window.rem = html.getBoundingClientRect().width / 18.75 ;
+      html.style.fontSize = window.rem + 'px';
+  </script>
 
 	</head>
 
  <body class="wy-body-for-nav home-index" role="document"><!-- 头部 -->
+      <!-- pc 端首页 -->
       <div id="header" class="header" >
         <div class="w100p nav-shadow">
          <nav class="main-nav  center clear c-10 rel">
@@ -69,28 +76,56 @@
             </nav>
          </div>
       </div>
+      <!-- 移动端首页 -->
+      <div class="m_header">
+        <a href="//wiki.seeed.cc" alt="wike">
+	         <div class="logo">
+		          <img src="//statics3.seeedstudio.com/assets/img/m/seeed_logo.png" alt="Seeed" style="width: 120px;">
+		      </div>
+	      </a>
+	      <div class="nav">
+	         <a href="http://wiki.seeed.cc/Platform/" alt="wike">
+	           <i class="iconfont icon-menu"></i>  
+	         </a>
+	      </div>
+	      <div class="search">
+	          <i class="iconfont icon-Group" ></i>
+	      </div>
+	      <!-- 搜索框 -->
+	      <div class="search-wrap">
+	        <div class="cover"></div> 
+	          <div class="searchBar" style="background: rgb(255, 255, 255);">
+	             <div class="search-List"><i class="iconfont icon-Group searchIocn"></i>
+	             <input type="text" name="search_name" placeholder="Search" class="searchInput" focus="true"> <i class="iconfont icon-guanbi1 search-close"></i>
+	             </div>
+	         </div>
+	      </div>
+      </div>
+      <!-- 图片 -->
       <div  class="wrapper rel" >
       	<div class="banner">
       		<a href="http://wiki.seeed.cc/" target="_blank">
-      		   <img src="//statics3.seeedstudio.com/assets/img/wiki/wiki_banner_20161013.jpg" alt="">
+      		   <img src="//statics3.seeedstudio.com/assets/img/wiki/wiki_banner_20161013.jpg"
+      		   class="m-hide" alt="banner">
+      		   <!-- 手机显示 -->
+      		   <div class="category-goods-cover m-show" style="background-image: url(//statics3.seeedstudio.com/assets/img/wiki/wiki_banner_20161013.jpg);"></div>
       		</a>
       	</div>
       	<div class="main"  >
       		<div class="fl left-sideBar"  >
-      		  <a href="//www.seeedstudio.com" target="_blank" >
-      			 <img src="//statics3.seeedstudio.com/assets/img/wiki/wiki_left_banner_20161207.gif" alt="wiki">
+      		  <a href="//www.seeedstudio.com/Crowdbuy-3.html" target="_blank" >
+      			 <img src="//statics3.seeedstudio.com/assets/img/wiki/wiki_left_banner_20170113.jpg" alt="wiki">
       			</a>
       		</div>
+      		<!-- 内容展示 -->
       		<div class="fl sidebar_right js-sidebar" >
-
       		</div>
-
       	</div>
 
 
       </div>
 
-      <div id="footer" >
+      <div id="footer" class="m-hide" >
         <div class="be-footer"></div>
         <div class="footer__tips--outer">
            <div class="com-width center footer__tips f14">
@@ -100,8 +135,8 @@
 
 	             <a href="http://support.seeedstudio.com/" class="item" rel="nofollow"><i class="iconfont" >&#xe612;</i>CONTACT US</a>
 	           </div>
-	        </div>
-	        <div class="footer--info com-width center f14 c-9e">
+	      </div>
+	      <div class="footer--info com-width center f14 c-9e">
 	            <div class="block">
 	                <ul>
 	                    <li class="title">Seeed Info</li>
@@ -156,8 +191,8 @@
 	                    </li>
 	                </ul>
 	            </div>
-	        </div>
-	        <div class="footer--payment-list">
+	      </div>
+	      <div class="footer--payment-list ">
 	            <div class="com-width center f14 clear">
 	                <span class="fl title">Payment Method</span>
 	                <span class="item paypal">
@@ -174,18 +209,17 @@
 	                </span>
 	                <span class="fr">Secured payment endorsed with McAfee</span>
 	            </div>
-	        </div>
-	        <div class="footer--copyright f14 com-width center">
-	            <span style="margin-left: 412px;">Copyright © 2008-2016 Seeed Development Limited All rights reserved</span>
+	      </div>
+	      <div class="footer--copyright f14 com-width center">
+	          <span style="margin-left: 412px;">Copyright © 2008-2016 Seeed Development Limited All rights reserved</span>
 	            <a href="//www.seeedstudio.com/terms_of_service.html" title="Terms of use" class="c-9c ml20 mr10">Terms of use</a>|
 	            <a href="//www.seeedstudio.com/privacy_policy.html" title="Privacy" class="c-9c ml5">Privacy</a>
-	        </div>
-	        <script type="text/javascript" src="//cdn.ywxi.net/js/1.js" async></script>
-
+	      </div>
 	    </div>
-
-
-
+	    <!-- 手机端底部 -->
+	    <div class="m-footer m-show" >
+	    	<p class="description" >Copyright © 2008-2016 Seeed Development Limited All rights reserved</p>
+	    </div>
   </body>
   <script src="/js/jquery-2.1.1.min.js"></script>
    <!-- Google Tag Manager -->
@@ -490,8 +524,8 @@
 							  p_html += '	  <div class="fl list rel"  >'+
 							  '	  <a href="http://wiki.seeed.cc/'+ i_title +'" target="_blank" ><img class="fl p-img" src="//statics3.seeedstudio.com'+ item[j].img_url +'" alt="" > </a>'+
 													'	   <div class="fl desc"  >'+
-													'	      		<p class="p-title"> <a href="http://wiki.seeed.cc/'+ i_title +'" target="_blank" >'+ item[j].title +'</a></p><div class="rel see-more"><a href="http://wiki.seeed.cc/'+ i_title +'" target="_blank" >See More > </a></div>'+
-													'	      	  <div  class="keyword" style="color: #0D926E;">';
+													'	      		<p class="p-title"> <a href="http://wiki.seeed.cc/'+ i_title +'" target="_blank" >'+ item[j].title +'</a></p><div class="rel see-more m-hide"><a href="http://wiki.seeed.cc/'+ i_title +'" target="_blank" >See More > </a></div>'+
+													'	      	  <div  class="keyword m-hide" style="color: #0D926E;">';
 											var p_content = item[j].content;
 
 											for (var k = 0; k < p_content.length; k++) {
@@ -508,6 +542,36 @@
         //接入返回顶部按钮
         backToTop(1000);
 
+        /**
+         * [搜索事件]
+         */
+        $('.search-wrap').on('click', '.searchIocn', function() {
+		       // 搜索咯
+		       var s_input = $('.searchInput').val();
+		       if(s_input != '' && s_input != null){
+		       	 window.location.href = 'http://wiki.seeed.cc/search.html?q=' + s_input;
+		       }
+		    });
+		    $('.search-wrap .searchInput').bind('keypress', function (event) {
+            if (event.keyCode == "13") {
+                 //需要处理的事情
+                var s_input = $('.searchInput').val();
+					      if(s_input != '' && s_input != null){
+					       	 window.location.href = 'http://wiki.seeed.cc/search.html?q=' + s_input;
+					      }
+            }
+        });
+        // 隐藏
+        $('.search-wrap').on('click', '.search-close', function() {
+        	 $('.search-wrap').fadeOut(300);
+        })
+        // 隐藏
+        $('.search-wrap').on('click', '.cover', function() {
+        	 $('.search-wrap').fadeOut(300);
+        })
+        $('.m_header').on('click', '.search', function() {
+        	 $('.search-wrap').fadeIn(300);
+        })
 
 
       });

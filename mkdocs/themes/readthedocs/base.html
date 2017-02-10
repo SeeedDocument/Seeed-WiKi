@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@seeedstudio">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
   <meta property="og:title" content="{% if page_title %}{{ page_title }} - {% endif %}{{ site_name }}">
   <meta property="og:type" content="article">
   <meta property="og:url" content="http://wiki.seeed.cc{% if current_page %}{{ current_page.abs_url }}{% endif %}">
@@ -30,10 +31,8 @@
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/tomorrow-night-eighties.min.css">
   <link rel="stylesheet" href="{{ base_url }}/css/font-awesome-4.5.0/css/font-awesome.min.css?v=4fbd15">
   <link rel="stylesheet" href="{{ base_url }}/css/main.css">
+  <link rel="stylesheet" href="/css/iconfont.css">
   <link rel="stylesheet" href="{{ base_url }}/css/wiki.css">
-
-
-
   {%- for path in extra_css %}
   <link href="{{ path }}" rel="stylesheet">
   {%- endfor %}
@@ -57,7 +56,6 @@
   <script src="{{ path }}"></script>
   {%- endfor %}
 
-
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -67,10 +65,21 @@
   ga('create', 'UA-84917600-1', 'auto');
   ga('send', 'pageview');
   </script>
+  <script type="text/javascript">
+   $(function(){
+     var _width = $('body').width();
+     if(_width < 768){
+       var html = document.documentElement;
+       window.rem = html.getBoundingClientRect().width / 18.75 ;
+       html.style.fontSize = window.rem + 'px';
+     }
+   })
+  </script>
 
 </head>
 
 <body class="wy-body-for-nav" role="document" style="overflow: hidden;">
+  <!-- pc 版 头部 -->
   <div id="header" class="header" >
     <div class="w100p nav-shadow">
          <nav class="main-nav  center clear c-10 rel">
@@ -118,17 +127,37 @@
 
 
    </div>
-  
-  
-  <div class="" style="background: #fff;margin: 0 auto;
-    max-width: 1200px;
-    position: absolute;
-    z-index: 0;
-    height: 88%;
-    top: 61px;" >
-
+   <!-- 移动端首页 -->
+  <div class="m_header">
+    <a href="//wiki.seeed.cc" alt="wike">
+       <div class="logo">
+          <img src="//statics3.seeedstudio.com/assets/img/m/seeed_logo.png" alt="Seeed" style="width: 120px;">
+      </div>
+    </a>
+    <div class="nav">
+       <a alt="wike" class="j-menu-nav" >
+         <i class="iconfont icon-menu"></i>  
+       </a>
+    </div>
+    <div class="search">
+        <i class="iconfont icon-Group" ></i>
+    </div>
+    <!-- 搜索框 -->
+    <div class="search-wrap">
+      <div class="cover"></div> 
+        <div class="searchBar" style="background: rgb(255, 255, 255);">
+           <div class="search-List">
+              <i class="iconfont icon-Group searchIocn"></i>
+               <input type="text" name="search_name" placeholder="Search" class="searchInput" focus="true"> 
+               <i class="iconfont icon-guanbi1 search-close"></i>
+           </div>
+       </div>
+    </div>
+  </div>
+  <!-- wike 主要内容 分为左侧 右侧  -->
+  <div class="wike-content" >
       {# SIDE NAV, TOGGLES ON MOBILE #}
-      <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav j-menu-list">
         <div class="wy-side-nav-search">
           <!-- <a href="{{ homepage_url }}" class="icon icon-home"> {{ site_name }}</a> -->
           {% include "searchbox.html" %}
@@ -208,7 +237,7 @@ $("#platforms-supported-table")
 
 <p>Happy hacking</p>
 {% endif  %}
-                {% if meta.surveyurl %}<iframe style="height: 600px; width: 700px; margin: 10px 0 10px;" allowTransparency="true" src="{{ meta.surveyurl[0]}}" frameborder="0"></iframe></iframe>{% endif %}
+                {% if meta.surveyurl %}<iframe style="height: 600px; width: 700px; margin: 10px 0 10px;" allowTransparency="true" src="{{ meta.surveyurl[0]}}" frameborder="0"></iframe>{% endif %}
    
               {% endblock %}
             </div>
@@ -271,6 +300,7 @@ Build Date UTC : {{ build_date_utc }}
            foldMenu($(this));
          });
 
+
          /**
           * [foldMenu 折叠功能]
           * @return {[type]} [description]
@@ -302,11 +332,51 @@ Build Date UTC : {{ build_date_utc }}
             }
          })
 
-
+         /**
+           * [搜索事件]
+           */
+          $('.search-wrap').on('click', '.searchIocn', function() {
+             // 搜索咯
+             var s_input = $('.searchInput').val();
+             if(s_input != '' && s_input != null){
+               window.location.href = 'http://wiki.seeed.cc/search.html?q=' + s_input;
+             }
+          });
+          $('.search-wrap .searchInput').bind('keypress', function (event) {
+              if (event.keyCode == "13") {
+                   //需要处理的事情
+                  var s_input = $('.searchInput').val();
+                  if(s_input != '' && s_input != null){
+                     window.location.href = 'http://wiki.seeed.cc/search.html?q=' + s_input;
+                  }
+              }
+          });
+          // 隐藏
+          console.log($('.search-wrap').find('.search-close'))
+          $('.search-wrap').on('click', '.search-close', function() {
+             console.log('取消')
+             $('.search-wrap').hide();
+          });
+          // 隐藏
+          $('.search-wrap').on('click', '.cover', function() {
+             $('.search-wrap').hide();
+          })
+          $('.m_header').on('click', '.search', function() {
+             $('.search-wrap').fadeIn(300);
+          })
 
       });
+     
+     /**
+      * 移动端事件 
+      */
+     $('.wy-body-for-nav').on('click', '.j-menu-nav', function() {
+       $('.j-menu-list').show();
+     });
 
-           /*
+
+
+     /*
       * 返回顶部
       * @param {string} show_target, 滚动出现目标（可为空
       * @param {string} to_top, 返回顶部按钮滚动速度

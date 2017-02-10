@@ -207,12 +207,132 @@ nav.stickynav {
   font-size: 14px;
   color: #000000;
 }
+.m_header {
+  display: none;
+  background: #FFFFFF;
+  position: fixed;
+  top: 0px;
+  height: 60px;
+  width: 100%;
+  z-index:6;
+}
+.m_header .logo{
+  margin: 20px 0px;
+}
+.m_header .nav {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 18px 20px;
+}
+.m_header i {
+  color: #000;
+  font-size: 20px;
+}
+.m_header .search {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 18px 20px;
+}
+
+/*
+ * 搜索
+ */
+.m_header .search-wrap {
+  display: none;
+  width: 100%;
+}
+.m_header .search-wrap .cover {
+  position: fixed;
+  top: 0px;
+  z-index: 1000;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  background: #000;
+}
+.m_header .search-wrap .searchBar {
+  position: fixed;
+  top: 0px;
+  z-index: 1000;
+  width: 100%;
+  background: #fff;
+  height: 60px;
+}
+.m_header .search-wrap .searchBar .searchIocn {
+  line-height: 60px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  color: #00946c;
+}
+.m_header .search-wrap .searchBar .searchInput {
+  font-size: 16px;
+  color: #3c3c3c;
+  line-height: 30px;
+  width: 12rem;
+   padding: 0px;
+  border: 0px;
+  box-shadow: none;
+}
+.m_header .search-wrap .searchBar .search-close {
+  padding: 1rem;
+  font-size: 14px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin: 0px;
+}
+
+/*
+ * 图片
+ */
+.wrapper .banner .category-goods-cover{
+   padding-bottom: 40%;
+   background-size: cover;
+   background-position: 50%;
+   display: none;
+}
+/**
+ * 底部
+ */
+.m-footer{
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+/**
+ * 分类页 
+ */
+.wike-content{
+  background: #fff;margin: 0 auto;
+  max-width: 1200px;
+  position: absolute;
+  z-index: 0;
+  height: 88%;
+  top: 61px;
+}
+
 
 
 /**
  * 移动端
  */
 @media only screen and (max-width: 568px) {
+  /**
+   * 首页
+   */
+   .header{
+     display: none;
+   }
+   .m-hide{
+     display: none!important;
+   }
+   .m-show{
+     display: block!important;
+   }
+   .m_header {
+    display: block;
+   }
    .home-index .wrapper .main .left-sideBar {
       display: none;
    }
@@ -220,5 +340,72 @@ nav.stickynav {
       margin: 0px;
       width: 100%;
    }
+   /*
+    * 内容展示
+    */
+   .home-index .wrapper .main{
+     margin-top: 20px;
+     height: 1750px;
+   }
+   .home-index .wrapper .main .sidebar_right .item .title{
+     margin-left: 10px;
+     font-size: 20px;
+     border-bottom: 1px solid #DFDFDF;
+     margin-right: 10px;
+     padding-bottom: 10px;
+     margin-bottom: 10px;
+   }
+   .home-index .wrapper .main .sidebar_right .item .list {
+      width: 50%;
+      text-align: center;
+      padding: 0px;
+      margin: 0px;
+      border-bottom:0px;
+   }
+   .home-index .wrapper .main .sidebar_right .item .list .p-img{
+      text-align: center;
+      margin: 0 auto;
+      float: none;
+   }
+   .home-index .wrapper .main .sidebar_right .item .list .desc{
+      width: 100%;
+   }
+   .home-index .wrapper .main .sidebar_right .item .list .desc .p-title a{
+      font-size: 14px;
+      color: #00946C;
+   }
+   .home-index .wrapper .main .sidebar_right .item{
+      padding-top: 10px;
+   }
+   /**
+    * 底部
+    */
+   .m-footer .description{
+     font-size: 14px;
+     color: #3c3c3c;
+     line-height: 20px;
+     margin: 0;
+   }
+   .back-to-top{
+     right: 16px;
+   }
+   /**
+    * 主要内容
+    */
+   .wy-nav-content-wrap{
+      margin:0px;
+      width:100%;
+   }
+   .wike-content{
+     width: 100%;
+   }
+   .wy-nav-content {
+     padding: 10px 15px;
+   }
+   .wy-nav-side {
+     display: none;
+     width: 100%;
+   }
+
 
 }
