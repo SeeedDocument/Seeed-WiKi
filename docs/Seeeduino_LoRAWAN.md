@@ -5,7 +5,7 @@ bzurl: http://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html
 oldwikiname:
 prodimagename: cover.png
 surveyurl: https://www.research.net/r/SeeeduinoLoRa
-sku: 102010128
+sku: 102010026
 ---
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_LoRa/master/img/cover.png)
@@ -21,13 +21,16 @@ If you want to build an IoT application quickly, Seeeduino LoRaWAN is your best 
 |Seeeduino LoRaWAN |Dec 20, 2016|[![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now_small.png)](https://www.seeedstudio.com/Seeeduino-LoRaWAN-p-2780.html)|
 |Seeeduino LoRaWAN W/GPS |Dec 20, 2016|[![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now_small.png)](https://www.seeedstudio.com/Seeeduino-LoRaWAN-W%2FGPS-p-2781.html)|
 
+!!!Warning
+    Please update the firmware when the first time to use it.
+
 !!!Tip
     Seeeduino LoRaWAN W/GPS is consist of GPS module.
 
 ##Features
 
 * Minimum current (3.7V lipo battery) - 2mA
-* Minimum current (3.7V lipo battery & remove PWR LED) - 650 uA
+* Minimum current (3.7V lipo battery & remove PWR LED) - 80 uA
 
 ###Arduino/Processor
 
@@ -115,12 +118,15 @@ In brief, Groves is hundreds of sensor that in standard style, which is consist 
     * ***L*** - an led connect to D13
     * ***PWR*** - power
 
+!!!Tip
+    If you want to use the 4 on-board Grove connector, please use digitalWrite(38, HIGH) to open VCC. Otherwise you can't provide power to Grove modules.
+
 ##Pin Map
 
 |Pin Name|GPIO Num|External Interrupt|PWM|Analog In|Analog Out|Function|
 |--------|--------|-----------|---|---------|----------|--------|
-|0       |#0      |YES        |YES|         |          | RX(Serial1)|
-|1       |#1      |YES        |YES|         |          | TX(Serial1)|
+|0       |#0      |YES        |YES|         |          | RX(Serial)|
+|1       |#1      |YES        |YES|         |          | TX(Serial)|
 |2       |#2      |YES        |   |         |          |        |
 |3       |#3      |YES        |YES|         |          |        |
 |4       |#4      |           |YES|         |          |        |
@@ -357,7 +363,62 @@ Open Serial Monitor then you will get data from GPS.
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_LoRa/master/img/gps.png)
     
+##Low Power
 
+The minimum current is 80uA(for Seeeduino LoRaWAN) under our testing. 
+Please follow below steps.
+
+1. Remove PWR LED (If you don't remove this LED, the current will > 2mA)
+2. Remove CHG LED
+3. Upload below code to your board. 
+
+```
+#include <LoRaWan.h>
+#include <EnergySaving.h>
+
+EnergySaving nrgSave;
+
+void blink()
+{
+    for(unsigned char i = 0; i < 5; i ++)
+    {
+        digitalWrite(13,HIGH);
+        delay(500);
+        digitalWrite(13,LOW);
+        delay(500);
+    }
+}
+
+void setup()
+{
+    for(unsigned char i = 0; i < 26; i ++)      // important, set all pins to HIGH to save power
+    {
+        pinMode(i, OUTPUT);
+        digitalWrite(i, HIGH);
+    }
+
+    lora.init();
+    blink();    
+    lora.setDeviceLowPower();
+    blink();    
+    nrgSave.begin(WAKE_EXT_INTERRUPT, 7, dummy);    // buton on D7 to wake up the board
+    nrgSave.standby();
+}
+
+void loop()
+{
+    blink();
+    nrgSave.standby();
+}
+
+void dummy(void)
+{
+    // do something
+}
+
+// END File
+```
+    
 ##Update firmware
 
 The firmware version of is 2.0.10, if you want to update firmware, few steps need to follow. 
