@@ -118,17 +118,22 @@ g
 
 Platforms Supported
 -------------------
+Intel Edison (with the [seeedstudio library](https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/res/Encoder.zip))
+Arduino101 (with the [community library](https://github.com/dantler/GroveEncoder))
 
 Getting Started
 ---------------
+This Grove-Encoder is very easy to use with the [seeedstudio Encoder Lib](https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/res/Encoder.zip), or the [community GroveEncoder library](https://github.com/dantler/GroveEncoder).  Simply connect this module to a Digital pin on the Base Shield and you can start using it. 
 
-This Grove-Encoder is very easy to use with the [Encoder Lib](https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/res/Encoder.zip) designed by seeedstudio. Simply connect this module to the D2 connector of Base Shield and you can start using. The following is a introduction of how to make a Circular LED bar.
+Circular LED bar demo
+----------------
+The following is a introduction of how to make a Circular LED bar.
 
 -   This Circular LED bar consists of an Encoder and a [Grove-CircularLED](/Grove-Circular_LED) module. Connect the two modules to Base shield as the following picture:
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/img/Cirhard.jpg)
 
--   In the project, the [TimeOne Lib](https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/res/TimerOne.zip) and [Encoder Lib](https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/res/Encoder.zip) and [CircularLED Library](https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/res/CircularLED.zip) are needed. Download all the librarys and install them to your Arduino IDE.
+-   In the project, the [TimerOne Lib](https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/res/TimerOne.zip) and [Encoder Lib](https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/res/Encoder.zip) and [CircularLED Library](https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/res/CircularLED.zip) are needed. Download all the librarys and install them to your Arduino IDE.
 
 -   Restart the Arduino IDE and open the example by the path: File->Examples->Encoder->EncodeCircuiBar.
 
@@ -194,7 +199,8 @@ Resources
 -   [Encoder Spec](https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/res/Encoder_Spe.zip)
 -   [Demo in Arduino forum](http://www.arduino.cc/playground/Main/RotaryEncoders)
 -   [TimeOne Lib](https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/res/TimerOne.zip)
--   [Encoder Lib](https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/res/Encoder.zip)
+-   [seeedstudio Encoder Library](https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/res/Encoder.zip)
+-   [community Encoder Library](https://github.com/dantler/GroveEncoder/archive/v1.0.0.zip)
 -   [Grove-Encoder Eagle files](https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/res/Grove-Encoder_eagle_files.zip)
 
 <!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_Encoder -->
