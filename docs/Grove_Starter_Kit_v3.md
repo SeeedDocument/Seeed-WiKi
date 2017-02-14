@@ -8,7 +8,7 @@ surveyurl: https://www.research.net/r/Grove_Starter_Kit_v3
 sku:  110060024
 ---
 
-Grove is a modular electronics platform for quick prototyping that does not involve soldering or bread boarding. Simply plug the Grove modules into the Grove shield and leverage the example code provided for each Grove module. The Grove Starter Kit contains a multitude of sensors and actuators, so you can start messing around with projects.
+Grove is a modular electronics platform for convenient and rapid prototyping. Many configurations can be assembled without the need for   soldering or breadboarding. Simply cable the Grove modules to the Grove shield and leverage the example code provided for each Grove module. The Grove Starter Kit contains a multitude of sensors and actuators, including support for audio, light, motion, tactile, and other interaction modes.  So, you can start messing around at once with a wide variety of projects.
 
 ![](https://github.com/SeeedDocument/Grove_Starter_Kit_v3/raw/master/img/Grove-Starter_Kit_v2_Photo.jpg)
 
@@ -16,11 +16,13 @@ Grove is a modular electronics platform for quick prototyping that does not invo
 
 ###  About Grove
 
-Grove is a modulated, ready-to-use tool set. Much like Lego, it takes a building block approach to assembling electronics. Compared with the traditional, complicated learning method of using a breadboard and various electronic components to assemble a project, Grove simplifies and condenses the learning process significantly. The Grove system consists of a base shield and various modules with standardized connectors. The base shield allows for easy connection of any microprocessor input or output from the Grove modules, and every Grove module addresses a single function, such as a simple button or a more complex heart rate sensor. Each one comes with clear documentation and demo code to help you get started quickly.
+Grove is a moderated, ready-to-use tool set. Much like Lego, it takes a building-block approach to assembling electronics. Compared with the traditional, complicated learning method of using a breadboard and various electronic components to assemble a project, Grove simplifies and condenses the learning process significantly. The Grove system consists of a base shield and various modules with standardized connectors.
+
+The base shield allows for easy connection of any microprocessor input or output from the Grove modules. Every Grove module addresses a single function, such as a simple button or a more complex heart rate sensor. Each one comes with clear documentation and demo code to help you get started quickly.
 
 ###  Get to know Arduino
 
-If this is your first time to use an Arduino, you need to complete the following steps:
+If this is your first time using an Arduino, you will need to complete the following steps:
 
 *   [Download Arduino IDE and Install Arduino Driver](/Download_Arduino_and_install_Arduino_driver)
 
@@ -30,7 +32,7 @@ If this is your first time to use an Arduino, you need to complete the following
 
 The download address of the Grove - Starter Kit Sketchbook is [here](https://github.com/Seeed-Studio/Sketchbook_Starter_Kit_V2.0).
 
-Now you have got yourself ready for the Grove exploration.
+You are now ready to explore the Grove ecosystem.
 
 ###  Parts list
 
@@ -58,29 +60,29 @@ Now you have got yourself ready for the Grove exploration.
 
 #### Grove - Base Shield
 
-First we start with the Grove base shield board. Grove - Base Shield is the new version of Electronic Brick Shield.The Basic Shield is compatible with Seeeduino v3.0 (168p and 328p), and Arduino UNO and Duemilanove. The are 16 Grove ports on the base shield, which can be divided into three different functional areas: digital ports(8),analog ports(4),I2C(4).
+Let's start with the Grove base shield board. "Grove - Base Shield" is the new version of the "Electronic Brick Shield". The Base Shield is compatible with Seeeduino v3.0 (168p and 328p), as well as Arduino UNO and Duemilanove. There are 16 Grove ports on the base shield, divided into four functional areas: analog(4), digital(7), I2C(4), and UART(1).
 
 ![](https://github.com/SeeedDocument/Grove_Starter_Kit_v3/raw/master/img/Base_Shield_IO.jpg)
 
 *   Digital Ports
 
-As photo shows there are have 8 digital ports, what are equivalent to digital pins 0 to through 9 on the Arduino Uno. Normally, they are used when reading a digital sensor that only outputs 0 or 1,or turning on or off an actuator.
+As the photo shows, there are seven digital ports, labeled D2-D8.  Each of these handles a pair of digital pins (2/3 ... 8/9) on the Arduino Uno. They can be used for reading a digital sensor (e.g., pushbutton) or controlling a digital (or analog, via PWM) actuator. In any case, each port can only handle two logic states: 0 or 1.
 
 *   Analog Ports
 
-On the left-hand side are four Grove ports for taking analog reading. Analog sensors can return readings ranging from 0 to 1023.Compared with digital sensors that only return 0 or 1, analog readings are more detailed and precise.
+On the left-hand side are four Grove ports for taking analog readings. Analog sensors can return readings ranging from 0 to 1023. Compared with digital sensors that only return 0 or 1, analog readings are more detailed and precise.
 
 *   I2C Ports
 
-Below the digital ports are four I2C Grove ports. I2C is a low-speed bus protocol that transfers data via two wire : SCL and SDA . SCL is the clock line that synchronizes data transfer over the I2C bus, and SDA is data line.
+Below the digital ports are four I2C Grove ports. I2C is a low-speed bus protocol that transfers data via two wires: SCL and SDA. SCL is the clock line for synchronizing data transfer over the I2C bus; SDA is the data line.
 
-For a detailed information on how to use your Grove – Base Shield ,you can go to [Base Shield v2](/Base_shield_v2)
+For detailed information on how to use your Grove – Base Shield, go to [Base Shield v2](/Base_shield_v2).
 
 ####  Grove - LCD RGB Backlight
 
 ![](https://github.com/SeeedDocument/Grove_Starter_Kit_v3/raw/master/img/Serial_LEC_RGB_Backlight_Lcd.jpg)
 
-This Grove enables you to set the color to whatever you like via the simple and concise Grove interface. It takes I2C as communication method with your microcontroller. So number of pins required for data exchange and backlight control shrinks from ~10 to 2, relieving IOs for other challenging tasks. Besides, Grove - LCD RGB Backlight supports user-defined characters.
+The Grove - LCD RGB Backlight supports text display, using user-defined characters. It enables you to set the backlight color, using the simple and concise Grove interface. It uses I2C as the communication method with your Arduino. So, the number of pins required for data exchange and backlight control shrinks from ~10 to 2, leaving more I/O capability for other challenging tasks.
 
 **Example**
 
@@ -92,7 +94,7 @@ File -&gt; Sketchbook -&gt; Grove_RGB_Backlight_LCD -&gt; HelloWorld
 
 **Tips**
 
-This is a 16x2 LCD screen. It is capable of displaying two rows of sixteen-character texts, supporting languages including English and Japanese. Aside from the built-in languages, you can have custom characters. You can build unique characters by defining their display patterns. You can find an example of making a custom character here:
+This is a 16x2 LCD screen. It is capable of displaying two rows of sixteen-character texts, supporting languages such as English and Japanese. You can also create and use custom characters by defining their display patterns. You can find an example of making a custom character here:
 
 [https://github.com/Seeed-Studio/Grove_LCD_RGB_Backlight/archive/master.zip](https://github.com/Seeed-Studio/Grove_LCD_RGB_Backlight/archive/master.zip)
 
@@ -100,49 +102,47 @@ This is a 16x2 LCD screen. It is capable of displaying two rows of sixteen-chara
 
 ![](https://github.com/SeeedDocument/Grove_Starter_Kit_v3/raw/master/img/Twig-Relay.jpg)
 
-Relay is a useful tool to magnify your Arduino’s control ability! Feed the control signal through the Grove interface, and relay will control the open/close of the external circuit that connected to the screw terminals. The voltage of the external circuit can run up to 220V! So grab this relay and start some really tough projects!
+The Relay is a useful tool to magnify your Arduino’s control ability! Feed the control signal through the Grove interface and the relay open or close the external circuit that is connected to the screw terminals. The voltage of the external circuit can run up to 220V! So grab this relay and start some really tough projects!
 
 **Example**
 
-The example shows you how to control relay by a button : File -&gt; Sketchbook -&gt; Grove_Realy.
+The example shows you how to control relay by a button: File -&gt; Sketchbook -&gt; Grove_Relay.
 
 ![](https://github.com/SeeedDocument/Grove_Starter_Kit_v3/raw/master/img/Grove-Relay_Ex.jpg)
 
 **Tips**
 
-Relay is an electronically controlled mechanical switch. The size of one varies according to its capability of carrying current. The bigger a relay (essentially just the plastic box part) is, the larger the current it can carry.
+The Relay is an electronically-controlled mechanical switch. The size of a relay varies according to its capability for carrying current. The bigger a relay (essentially, just the plastic box part) is, the larger the current it can carry.
 
 <font color="red">
-Please exercise great care when working with mains voltages – if in doubt contact a professional such as a licensed electrician for help.
+Please exercise great care when working with mains voltages – if in doubt, contact a professional such as a licensed electrician for help.
 </font>
 
-For a detailed information on how to use your Grove – Relay ,you can go to [Grove – Relay page](/Grove-Relay)
+For detailed information on how to use your Grove – Relay, you can go to [Grove – Relay page](/Grove-Relay).
 
 ####  Grove – Buzzer
 
 ![](https://github.com/SeeedDocument/Grove_Starter_Kit_v3/raw/master/img/Buzzer1.jpg)
 
-This is a simple yet enjoyable Grove to use. The piezo can be connected to digital outputs, and will emit a tone when the output is high. Alternatively it can be connected to an analog pulse-width modulation output to generate various tones and effects.
+The Buzzer is a simple yet enjoyable Grove to use. It is piezoelectric speaker, coupled with a simple control circuit.  If it is connected to a digital output, it will emit a tone when the output is high. Alternatively, it can be connected to an analog (really, pulse-width modulated digital) output to generate various tones and effects.
 
 **Example**
 
-You can use the code for Grove – Button to make the buzzerbeep when you press the button. However ,Grove – Buzzer can be much more fun – it can play songs!This is a brief example from Oomlout.com, playing you a household nursery rhyme – “Twinkle Twinkle Little Star”
+You can use the code for Grove – Button to make the buzzer beep when you press the button. However, Grove – Buzzer can be much more fun – it can play songs! This is a brief example from Oomlout.com, playing a household nursery rhyme – “Twinkle Twinkle Little Star”.
 
-Find the example via the path below:File -&gt; Sketchbook -&gt; Grove_Buzzer
+Find the example via the path below: File -&gt; Sketchbook -&gt; Grove_Buzzer
 
 ![](https://github.com/SeeedDocument/Grove_Starter_Kit_v3/raw/master/img/Grove-Buzzer_Ex.jpg)
 
-This is a brief example from Oomlout.com, playing you a household nursery rhyme – “Twinkle Twinkle Little Star”
-
 ** Tips**
 
-How Piezo buzzer works? Usually there are two ceramic wafers in each Piezo buzzer. When voltages are given to them, they attract or reject each other. The air vibration caused by the shake of these wafers emits sound. When the shaking frequency changes the sound frequency will change alongside.
+How does the Piezo buzzer actually work? Usually, there are two ceramic wafers in each Piezo buzzer. When different voltages are given to them, they attract or repel each other. The movement of these wafers causes air vibrations (i.e., sound). When the frequency of the vibration changes, the sound frequency will change accordingly.
 
-For a detailed information on how to use your Grove - Buzzer ,you can go to [Grove - Buzzer page](/Grove-Buzzer)
+For detailed information on how to use your Grove - Buzzer, go to [Grove - Buzzer page](/Grove-Buzzer)
 
 ####   Grove - Sound Sensor
 
-The Sound sensor module is a simple microphone. Based on the amplifier LM358 and the electret microphone, it can be used to detect the sound strength of the environment.
+The Sound sensor module is a simple microphone. Based on an LM358 amplifier and an electret microphone, it can be used to detect the sound level in the environment.
 
 **Example**
 
@@ -154,33 +154,33 @@ File -&gt; Sketchbook -&gt; Grove_Sound_Sensor
 
 **Tips**
 
-The electric microphone collects sound intensity for all frequencies. And the potentiometer acts as the doorman. When you rotate it completely clockwise, it lets everything go through, and when you rotate it completely counterclockwise, none of it can go through.
+The electret microphone collects sound intensity for all frequencies, but a potentiometer can act as the doorman. For example, when you rotate the shaft completely clockwise, the potentiometer could let everything go through. When you rotate it completely counterclockwise, nothing would go through.
 
-For a detailed information on how to use your Grove - Sound Sensor ,you can go to [Grove - Sound Sensor page](/Grove-Sound_Sensor)
+For a detailed information on how to use your Grove - Sound Sensor, go to [Grove - Sound Sensor page](/Grove-Sound_Sensor)
 
 ####   Grove - Touch Sensor
 
 ![](https://github.com/SeeedDocument/Grove_Starter_Kit_v3/raw/master/img/Grove-touch_sensor_Photo.jpg)
 
-Grove - Touch Sensor enables you to replace press with touch. It can detect the change in capacitance when a finger is near by. That means no matter your finger directly touches the pad or just stays close to the pad, Grove - Touch Sensor would outputs HIGH.
+The Grove - Touch Sensor enables you to replace pressure on a button with contact on a detecting surface. It can detect the change in capacitance when a finger is nearby. So, whether your finger touches the pad directly or just stays close to it, the Grove - Touch Sensor would output HIGH.
 
 **Example**
 
-The code of Grove – Button works with this module. Find the example via the path below :File -&gt; Sketchbook -&gt; Grove_Buzzer
+The code of Grove – Button works with this module. Find the example via the path below: File -&gt; Sketchbook -&gt; Grove_Buzzer
 
 ![](https://github.com/SeeedDocument/Grove_Starter_Kit_v3/raw/master/img/Grove-Touch_Sensor_Ex.jpg)
 
 **Tips**
 
-This is an alternative to the momentary button .Grove – Touch Sensor detects the change in capacitance in the circular region; the closer you finger is to the region, the larger the change in capacitance. Even if there is paper between your finger and the sensor, it will still function reliable.
+This is an alternative to the momentary contact button. The Grove – Touch Sensor detects the change in capacitance in the circular (unpainted) region on the bottom; the closer your finger is to this region, the larger the change in capacitance. Even if there is paper between your finger and the sensor, it will still function reliably.
 
-For a detailed information on how to use your Grove - Touch Sensor ,you can go to [Grove - Touch Sensor page](/Grove-Touch_Sensor)
+For detailed information on how to use your Grove - Touch Sensor, go to [Grove - Touch Sensor page](/Grove-Touch_Sensor).
 
 ####   Grove - Rotary Angle Sensor
 
 ![](https://github.com/SeeedDocument/Grove_Starter_Kit_v3/raw/master/img/Potentiometer1.jpg)
 
-The potentiometer Grove produces analog output between 0 and VCC. The angular range is 300 degrees with a linear change in value. The resistance value is 10k ohms, perfect for Arduino use. This may also be known as a “rotary angle sensor”.
+The Grove potentiometer produces analog output between 0 and VCC (3.3 or 5 VDC). The angular range is 300 degrees, with a linear change in value. The resistance value is 10k ohms, perfect for Arduino use. This may also be known as a “rotary angle sensor”.
 
 **Example**
 
@@ -192,7 +192,7 @@ File -&gt; Sketchbook -&gt; Grove_Rotary_Angle_Sensor
 
 **Tips**
 
-A rotary potentiometer looks very similar to a rotary encoder, but they are not the same. A Rotary potentiometer is essentially a slide potentiometer .It reflects the potion in an analog way just like a slide potentiometer does.
+A rotary potentiometer looks very similar to a rotary encoder, but they are not the same. A Rotary potentiometer is essentially a slide potentiometer, constructed in a circular shape. It reports, in an analog manner, the fraction of the resistive element being used by the sliding contact.
 
 For a detailed information on how to use your Grove - Rotary Angle Sensor,you can go to [Grove - Rotary Angle Sensor page](/Grove-Rotary_Angle_Sensor)
 
