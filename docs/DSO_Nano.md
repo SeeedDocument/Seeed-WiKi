@@ -14,15 +14,15 @@ Being a new and dynamic open-hardware and open-source project, the information t
 
 Click the image to get to different version of DSO Nano.
 
-|![](https://github.com/SeeedDocument/DSO_Nano/raw/master/img/Dsonanointro.jpg)|![](https://github.com/SeeedDocument/DSO_Nano/raw/master/img/Dsonanov2intro.jpg)|![](https://github.com/SeeedDocument/DSO_Nano/raw/master/img/Nano_v3.jpg)|
+|[![](https://github.com/SeeedDocument/DSO_Nano/raw/master/img/Dsonanointro.jpg)](https://www.seeedstudio.com/DSO-nano-Pocket-size-digital-storage-oscilloscope-p-512.html)|[![](https://github.com/SeeedDocument/DSO_Nano/raw/master/img/Dsonanov2intro.jpg)](https://www.seeedstudio.com/DSO-Nano-v2-p-681.html)|[![](https://github.com/SeeedDocument/DSO_Nano/raw/master/img/Nano_v3.jpg)](https://www.seeedstudio.com/DSO-Nano-v3-p-1358.html)|
 |:---:|:---:|:---:|
-|[DSO Nano v1](/DSO_Nano_v1 "DSO Nano v1")|[DSO Nano v2](/DSO_Nano_v2 "DSO Nano v2")|[DSO Nano v3](/DSO_Nano_v3 "DSO Nano v3")
+|[DSO Nano v1](https://www.seeedstudio.com/DSO-nano-Pocket-size-digital-storage-oscilloscope-p-512.html)<br>**(Discontinued)**|[DSO Nano v2](https://www.seeedstudio.com/DSO-Nano-v2-p-681.html)<br>**(Discontinued)**|[DSO Nano v3](https://www.seeedstudio.com/DSO-Nano-v3-p-1358.html)
 
 ##   Hardware details
 ---
-So far there have been two major versions of the DSO Nano, the original one in 2009, and the DSO Nano V2 in 2010. (A significant hardware upgrade including dual channels was introduced with the [DSO Quad](http://wiki.seeedstudio.com/wiki/DSO_Quad).) Apart from the improved charging unit in V2, and a redesigned PCB, the specifications are pretty much the same. They can use the same firmware.
+So far there have been three major versions of the DSO Nano, the original one in 2009, and the DSO Nano V2 in 2010. (A significant hardware upgrade including dual channels was introduced with the [DSO Quad](http://wiki.seeedstudio.com/wiki/DSO_Quad).) Apart from the improved charging unit in V2, and a redesigned PCB, the specifications are pretty much the same. They can use the same firmware.
 
-A photo from inside the V2 was posted to the [forum](http://www.seeedstudio.com/forum/viewtopic.php?p=4551#p4551).
+A photo from inside the V2 was posted to the [forum](https://www.seeed.cc/discover.html?t=DSO).
 
 <table >
 <tr>
@@ -80,11 +80,11 @@ A photo from inside the V2 was posted to the [forum](http://www.seeedstudio.com/
 ---
 The DSO Nano you hold in your hand took some time to reach you; it is more than likely that a newer version of the firmware is already available.
 
-The newest firmware from BenF is available from the [Tech Support](http://www.seeedstudio.com/forum/viewtopic.php?f=12&amp;t=1793) forum. Inside the ZIP file you will also find the operating manual for this firmware release.
+The newest firmware from BenF is available from the [Tech Support](http://www.seeedstudio.com/forum/viewtopic.php?f=12&amp;t=1793)(This link is broken, if you are looking for the firmware please refer to the wiki of [DSO Nano V3](http://wiki.seeed.cc/DSO_Nano_v3/)) forum. Inside the ZIP file you will also find the operating manual for this firmware release.
 
 To upgrade the firmware to the latest version, you have a few options:
 
-*   If you work with Windows, follow the instructions contained in the official [v2 User Manual](http://www.seeedstudio.com/depot/datasheet/DSO%20Nano%20v2%20Manual.pdf) (pages 8-10). The required utility DfuSeDemo.exe is also available [here](http://dsonano.googlecode.com/files/um0412.zip).
+*   If you work with Windows, follow the instructions contained in the official [v2 User Manual](https://github.com/SeeedDocument/DSO_Nano/raw/master/res/DSO%20Nano%20v2%20Manual.pdf) (pages 8-10). The required utility DfuSeDemo.exe is also available [here](http://dsonano.googlecode.com/files/um0412.zip).
 *   On Linux and Mac OS X you can use [dfu-util](http://wiki.seeedstudio.com/wiki/Dfu-util) (0.5 or newer).
 
 ##   Capabilities
@@ -208,14 +208,12 @@ To upgrade the firmware to the latest version, you have a few options:
 
 ##   Resources
 ---
-*   Please visit our [DSO Nano forum](http://www.seeedstudio.com/forum/viewforum.php?f=12) for prompt technical support and usage discussion.
+*   Please visit our [DSO Nano forum](https://www.seeed.cc/discover.html?t=DSO) for prompt technical support and usage discussion.
 *   [Official firmware, schematics and development documentation](http://code.google.com/p/dsonano/)
 
 *   [Community firmware source git tree](http://gitorious.org/dsonano/dso-firmware) (for gcc and IAR)
 *   [Developer's corner](http://wiki.seeedstudio.com/wiki/DSO_Nano/Development)
 
-*   [MOD your DSO nano UI](http://www.seeedstudio.com/depot/docu/DSOUI.pdf)
+*   [MOD your DSO nano UI](https://github.com/SeeedDocument/DSO_Nano/raw/master/res/DSOUI.pdf)
 
 *   [Sewa Mobil Jakarta](http://www.awanirentcar.com), [Aksesoris mobil](http://kiosauto.com)
-
-*   Thanks to [input from our users](http://www.seeedstudio.com/forum/viewtopic.php?f=12&amp;t=676), we could provide better Nano v2 revisions and future models.
