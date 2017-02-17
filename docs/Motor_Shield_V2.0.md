@@ -286,7 +286,7 @@ There's something need to be modified, please refer the examples.
 - [Motor shield V2.1 Eagle File ](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/resource/Motor_shield_2.1.rar)
 - [Motor Shield 2.0 schematics](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/resource/Motor_shield_2.0.pdf)
 - [Motor Shield 2.1 schematics](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/resource/Motor_shield_2.1.pdf)
-- [Motor Shield 2.2 schematics](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/resource/Motor_Shield_V2.2.zip)
+- [Motor Shield 2.2 schematics](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/resource/Motor%20Shield%20v2.2.pdf)
 - [Motor Shield Library](https://github.com/Seeed-Studio/SeeedMotorShieldV2)
 - [L298 Datasheet](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/resource/L298.pdf)
 - [78M05 Datasheet](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/resource/78M05_datasheet.pdf)
