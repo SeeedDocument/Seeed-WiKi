@@ -12,7 +12,7 @@ tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit, plat_pi, plat_wio
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-I2C_Motor_Driver_V1.3/master/img/I2CMotorDriver_New.jpg)
 
-The Grove - I2C Motor Driver V1.3 (latest version) can directly control Stepper Motor or DC Motor. Its heart is a dual channel H-bridge driver chip（L298P）that can handle current up to 2A per channel, controlled by an Atmel ATmega8L which handles the I2C communication with for example an Arduino. Both motors can be driven simultaneously while set to a different speed and direction. It can power two brushed DC motors or one 4-wire two-phase stepper motor. It requires a 6V to 15V power supply to power the motor and has an onboard 5V voltage regulator which can power the I2C bus and the Arduino(selectable by jumper). All driver lines are protected by diodes from back-EMF.
+The Grove - I2C Motor Driver V1.3 (latest version) can directly control Stepper Motor or DC Motor. Its heart is a dual channel H-bridge driver chip（L298N）that can handle current up to 2A per channel, controlled by an Atmel ATmega8L which handles the I2C communication with for example an Arduino. Both motors can be driven simultaneously while set to a different speed and direction. It can power two brushed DC motors or one 4-wire two-phase stepper motor. It requires a 6V to 15V power supply to power the motor and has an onboard 5V voltage regulator which can power the I2C bus and the Arduino(selectable by jumper). All driver lines are protected by diodes from back-EMF.
 
 Contrast to the [Grove - I2C motor driver V1.2](/Grove-I2C_Motor_Driver_V1.2), the V1.3 enables users to control the stepper more easily. You do not need to control the steppers all the time anymore, simply send a command to I2C motor driver V1.3 to drive a stepper, and it will act as your command, which would save your Arduino resource and simplify your code.
 
@@ -82,7 +82,7 @@ VDC
 Max Output Current per channel
 </th>
 <td colspan="3" align="center">
-2
+0.5
 </td>
 <td>
 A
@@ -160,21 +160,31 @@ Usage
 
 The I2C Motor Driver can control motor which is based on the chip L298. The L298 isn’t just a dual motor driver, it is a dual H-bridge. An h-bridge is basically a specific setup of transistors that allow you to switch direction of current. Hooking up to a motor means you can have it spin in both directions; and with PWM input, you can use your Arduino to make them spin at any speed. Because the L298 has 2 H-bridges, you can make a robot turn around by spinning each wheel in different directions, and of course go forwards and backwards.
 
-Now, let us use the I2C Motor Driver to control two DC motors or a stepper rotating clockwise and anticlockwise.
+### 1. Install the library
 
-### Set the address of the I2C Motor Driver
 
--   Set the address by dial switch is a new function added to the new I2C Motor Driver.
+`git clone https://github.com/Seeed-Studio/Grove_I2C_Motor_Driver_v1_3.git`
+or download the zip.
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove-I2C_Motor_Driver_V1.3/master/img/I2CMotorDriver-9.jpg)
+- Simply copy the Grove_I2C_Motor_Driver_v1_3 folder to your Arduino library collection. For example, arduino-1.6.12/libraries. Next time you run the Arduino IDE, you'll have a new option in Sketch -> Include Library -> Grove_I2C_Motor_Driver_v1_3. Review the included examples in Grove_I2C_Motor_Driver_v1_3/examples.
 
--   Then keep the address setup in the program the same as the address setup on the I2C motor driver. The default address setup in the program is 0x0f.
+### 2. Set the address of the I2C Motor Driver
 
-<!-- -->
+- Set the address by dial switch is a new function added to the new I2C Motor Driver.
 
-    #define I2CMotorDriverAdd         0x0f   // Set the address of the I2CMotorDriver
+    ![](https://raw.githubusercontent.com/SeeedDocument/Grove-I2C_Motor_Driver_V1.3/master/img/I2CMotorDriver-9.jpg)
 
-### How to drive 2 DC motors
+- Then keep the address setup in the program the same as the address setup on the I2C motor driver. The default address setup in the program is 0x0f.
+    ```
+    // default I2C address is 0x0f
+    #define I2C_ADDRESS 0x0f
+
+    void setup() {
+      Motor.begin(I2C_ADDRESS);
+    }
+```
+
+### 3. Drive 2 DC motors
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-I2C_Motor_Driver_V1.3/master/img/I2CMotorDriver-4.jpg)
 
@@ -183,249 +193,49 @@ Now, let us use the I2C Motor Driver to control two DC motors or a stepper rotat
 The first thing to notice however, is that you need an external power source for your DC motors. The 5V pin on the Arduino cannot provide enough power to drive 2 motors, you may damage your Arduino if you do so.
 </div>
 
-And then program your Arduino as below:
+- There are 2 functions to control DC motors:
+    ```
+    // Set the speed of a motor, speed is equal to duty cycle here
+    void speed(unsigned char motor_id, int _speed);
 
-```c
-#include <Wire.h>
-     .......
-     .......
-    < Driver functions >
-     .......
-     .......
-void setup(){
-  Wire.begin(); // join i2c bus (address optional for master)
-  delayMicroseconds(10000); //wait for motor driver to initialization
-}
- 
-void loop(){
-    MotorSpeedSetAB(100,20);
-    delay(10);                  // this delay needed
-    MotorDirectionSet(0b1010);  // 0b1010  Rotating in the positive direction
-    delay(1000);
-    MotorDirectionSet(0b0101);  // 0b0101  Rotating in the opposite direction
-    delay(500);
-}
+    // Stop one motor
+    void stop(unsigned char motor_id);
 ```
+With speed() function, you are able to drive one motor at the speed you want.
 
-In this program, Arduino first set the speed of the 2 DC motors with the *MotorSpeedSetAB()*command, and then set the DC motors work directions with *MotorDirectionSet()* command. please refer to the [Function Reference](/Grove-I2C_Motor_Driver_V1.3#function-reference) for details, you can download all the demo code in the [Resources](/Grove-I2C_Motor_Driver_V1.3#resources).
+    **motor_id** represents which motor to use. You can fill MOTOR1 or MOTOR2.
 
-### How to drive a stepper using I2C motor driver V1.3
+    **_speed** represents the speed you set to the motor. You can fill -100~100 here. When _speed>0, DC motor runs clockwise, while _speed<0, DC motor runs anticlockwise. And the bigger the absolute value of _speed, the faster the speed of DC motor.
 
-As the upgraded version of [I2C motor DriverV1.2](/Grove-I2C_Motor_Driver_V1.2), You can drive stepper via 2 methods for I2C motor driver V1.3.
+    With stop() function, you are able to stop a running DC motor.
 
-**1. Control the stepper directly by Arduino**
-The I2C motor Driver can also be used to drive a 4-wire stepper. Connect your stepper to the output pins of I2C motor driver, and then connect motor driver to your Arduino/Seeeduino with I2C bus. Program your Arduino as below:
+    **motor_id** represents which motor to use. You can fill MOTOR1 or MOTOR2.
 
-```c
-#include <Wire.h>
-     .......
-     .......
-    < Driver functions >
-     .......
-     .......
-     
-void setup() {
-  Wire.begin(); // join i2c bus (address optional for master)
-  delayMicroseconds(10000); //wait for motor driver to initialization
-}
- 
-void loop() {
 
-    MotorSpeedSetAB(100,100);//when driving a stepper, the speed should be set to 100;
-    delay(10);
-    MotorDirectionSet(0b0001);
-    delay(4);
-    MotorDirectionSet(0b0011);
-    delay(4);  
-    MotorDirectionSet(0b0010);
-    delay(4);
-    MotorDirectionSet(0b0110);
-    delay(4);  
-    MotorDirectionSet(0b0100);
-    delay(4);  
-    MotorDirectionSet(0b1100);
-    delay(4);
-    MotorDirectionSet(0b1000);
-    delay(4);
-    MotorDirectionSet(0b1001);
-    delay(4); 
-}
-```
+### 4. Drive a Stepper Motor
 
-This connected 4-wire stepper will rotate; you can adjust the rotation speed or step number in your Arduino program. You can also use some other stepper libraries to control it. For all the demo code please refer to [Resources](/Grove-I2C_Motor_Driver_V1.3#resources).
-
-![](https://raw.githubusercontent.com/SeeedDocument/Grove-I2C_Motor_Driver_V1.3/master/img/2.gif)
-
-**2. Control the Stepper using the I2C motor Driver V1.3 on-chip ATmega8L.
-** Take [24BYJ48](http://www.seeedstudio.com/depot/high-quality-stepper-motor-12v-p-335.html?cPath=170_171) as an example, The hardware installation as shown below:
+Take [24BYJ48 Stepper Motor](http://www.seeedstudio.com/depot/high-quality-stepper-motor-12v-p-335.html?cPath=170_171) as an example, The hardware installation as shown below:
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-I2C_Motor_Driver_V1.3/master/img/I2C_Motor_Driver_control_a_Stepper_Motor.jpg)
 
-The connection between 24BYJ48 Stepper Motor and I2C Motor Driver is as shown below:
+The connection between [24BYJ48](http://www.seeedstudio.com/depot/high-quality-stepper-motor-12v-p-335.html?cPath=170_171) Stepper Motor and I2C Motor Driver is as shown below:
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-I2C_Motor_Driver_V1.3/master/img/I2C_Motor_Driver_Connector.jpg)
 
-Download the [Grove-I2C motor driver V1.3 demo code](/Grove-I2C_Motor_Driver_V1.3#resources), and open the *StepperControlMode2.ino*:
 
-```c
-#include <Wire.h>
-#define MotorSpeedSet           0x82
-#define PWMFrequenceSet         0x84
-#define DirectionSet            0xaa
-#define MotorSetA               0xa1
-#define MotorSetB               0xa5
-#define Nothing                 0x01
-#define EnableStepper           0x1a
-#define DisableStepper          0x1b
-#define Stepernu                0x1c
-#define I2CMotorDriverAdd       0x0f    // Set the address of the I2CMotorDriver
-// set the steps you want, if 255, the stepper will rotate continuously;
-void SteperStepset(unsigned char stepnu)
-{
-    Wire.beginTransmission(I2CMotorDriverAdd); // transmit to device I2CMotorDriverAdd
-    Wire.write(Stepernu);          // Send the stepernu command
-    Wire.write(stepnu);            // send the steps
-    Wire.write(Nothing);           // send nothing   
-    Wire.endTransmission();        // stop transmitting
-}
-     .......
-     .......
-     .......
-     .......
-void stepperrun()
-{
-    Serial.println("sent command to + direction, very fast");
-    SteperStepset(255);
-    StepperMotorEnable(1, 1);// ennable the i2c motor driver a stepper.
-    delay(5000);
-    Serial.println("sent command to - direction, slow");
-    SteperStepset(255);
-    StepperMotorEnable(0, 20);
-    delay(5000);
-    Serial.println("sent command to - direction, fast");
-    StepperMotorEnable(0, 2);// ennable the i2c motor driver a stepper.
-    delay(5000);
-    Serial.println("sent command to + direction,100 steps, fast");
-    SteperStepset(100);
-    StepperMotorEnable(1,5);
-    delay(3000);
+- We provide one function to drive a stepper motor.
 
-    Serial.println("sent command to shut down the stepper");
-    StepperMotorDisable();
-    delay(1000);
-
-    Serial.println("sent command to - direction, slow, and 10 steps then stop");
-    SteperStepset(10);
-    StepperMotorEnable(0,40);
-    delay(5000);
-    Serial.println("sent command to shut down the stepper");
-    StepperMotorDisable();
-    delay(5000);
-}
-
-void setup() {
-    Wire.begin(); // join i2c bus (address optional for master)
-    delayMicroseconds(10000);
-    Serial.begin(9600);
-    Serial.println("setup begin");
-    stepperrun();
-}
-void loop() {
-
-}
+    ```
+    // Drive a stepper motor
+    void StepperRun(int _step);
 ```
-
-In this demo code, Arduino sends stepper-control command to I2C motor driver via I2C bus, with SteperStepset() to set the step number, and StepperMotorEnable() to set the direction and speed. Please refer to the [Function Reference](/Grove-I2C_Motor_Driver_V1.3#function-reference) for the details.
-
-Note that if you have I2C motor driver V1.2 and want to use the off-line Stepper control methods, you will need to upgrade your firmware in your V1.2 motor driver with a [AVRISP](http://www.seeedstudio.com/depot/atmel-avrisp-stk500-usb-isp-programmer-p-207.html?cPath=132_135) and upload the .hex file to your I2C motor driver. Please download the .hex file and source code and related tips in the [Resources](/Grove-I2C_Motor_Driver_V1.3#resources).
-
-Function Reference
-------------------
-
-**1. void SteperStepset(unsigned char stepnu)**
-
-*Description: Set the steps you want.*
-
-*stepnu: the Parameter can be 1~255. if 255, the stepper will rotate continuously;*
-
-Usage:
-
-```c
-Serial.println("sent command to + direction,100 steps, fast");
-SteperStepset(100);
-```
-**2. void StepperMotorEnable(unsigned char Direction, unsigned char motorspeed)**
-
-*Description: Enable the IIC motor driver to drive a 4-wire stepper.*
-
-*Direction: Stepper direction 1/0*
-
-*motorspeed: defines the time interval the i2C motor driver, Change it output to drive the stepper. The actual interval time is : motorspeed \* 4ms. That is , When motor speed is 10, the interval time would be 40 ms.*
-
-Usage:
-
-```c
-StepperMotorEnable(1, 1);// enable the i2c motor driver a stepper.
-```
-
-**3. void StepperMotorDisable()**
-
-*Description: Uneanble IIC motor drive to drive the stepper.*
-
-Usage:
-
-```c
-StepperMotorDisable();
-```
-
-**4. void MotorSpeedSetAB(unsigned char MotorSpeedA , unsigned char MotorSpeedB)**
-
-*Description: defines the speed of motor 1 and motor 2*
-
-
-*MotorSpeedA: the DC motor A speed, should be 0~100;*
-
-*MotorSpeedB: the DC motor B speed, should be 0~100;*
-
-Usage:
-
-```c
-Serial.println("sent DC speed 100");
-MotorSpeedSetAB(100,100);//defines the speed of motor 1 and motor 2;
-delay(10); //this delay needed
-```
-
-**5. void MotorPWMFrequenceSet(unsigned char Frequence)**
-
-*Description:set the prescale frequency of PWM, 0x03 default*
-
-*Frequency: the prescale frequency of PWM*
-
-**6. void MotorDirectionSet(unsigned char Direction)**
-
-*Description: Adjust the direction of the motors*
-
-*Direction:can be Forward/Reverse rotating.*
-
-Usage:
-
-```c
-MotorDirectionSet(0b1010);  //"0b1010" defines the output polarity, "10" means the M+ is "positive" while the M- is "negative"
-                            // make sure M+ and M- is different polarity when driving DC motors.
-delay(1000);
-MotorDirectionSet(0b0101);  //0b0101  Rotating in the opposite direction
-delay(500);
-```
-
-**7. void MotorDriectionAndSpeedSet(unsigned char Direction,unsigned char MotorSpeedA,unsigned char MotorSpeedB)**
-
-*Description: Adjust the direction and speed altogether.*
+**_step** represents the steps you set to the stepper motor to run. You can fill -1024~1024. When _step>0, stepper motor runs clockwise, while _step<0, stepper motor runs anticlockwise. When _step is 512/-512, the stepper motor will run a complete turn and if _step is 1024/-1024, the stepper motor will run 2 turns. The stepper motor will stop automatically after it finishes its steps.
 
 Resources
 ---------
 
 -   [Grove - I2C Motor Driver V1.3 Eagle File](https://raw.githubusercontent.com/SeeedDocument/Grove-I2C_Motor_Driver_V1.3/master/res/Grove-I2C_Motor_Driver_v1.3_Eagle_File.zip)
--   [I2C Motor DriverV13 Demo Code](https://raw.githubusercontent.com/SeeedDocument/Grove-I2C_Motor_Driver_V1.3/master/res/I2CMotorDriverDemoCodeV13.zip)
+-   [I2C Motor Driver V1.3 Library](https://github.com/Seeed-Studio/Grove_I2C_Motor_Driver_v1_3)
 -   [L298 Datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-I2C_Motor_Driver_V1.3/master/res/L298datasheet.pdf)
 -   [78M05 Datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-I2C_Motor_Driver_V1.3/master/res/ST_78M05DataSheet.pdf)
 -   [On-Chip Firmware for I2C motor driver](https://raw.githubusercontent.com/SeeedDocument/Grove-I2C_Motor_Driver_V1.3/master/res/On-Chipfirmware_for_Motor_driver.zip)
