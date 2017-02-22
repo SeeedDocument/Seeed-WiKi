@@ -314,6 +314,8 @@ nav.stickynav {
 
 
 
+
+
 /**
  * 移动端
  */
@@ -405,6 +407,12 @@ nav.stickynav {
    .wy-nav-side {
      display: none;
      width: 100%;
+   }
+   .wy-nav-content ul,.wy-nav-content{
+    font-size: 16px;
+   }
+   .wy-nav-content table{
+    font-size: 16px;
    }
 
 

@@ -162,8 +162,8 @@ The I2C Motor Driver can control motor which is based on the chip L298. The L298
 
 ### 1. Install the library
 
-
 `git clone https://github.com/Seeed-Studio/Grove_I2C_Motor_Driver_v1_3.git`
+
 or download the zip.
 
 - Simply copy the Grove_I2C_Motor_Driver_v1_3 folder to your Arduino library collection. For example, arduino-1.6.12/libraries. Next time you run the Arduino IDE, you'll have a new option in Sketch -> Include Library -> Grove_I2C_Motor_Driver_v1_3. Review the included examples in Grove_I2C_Motor_Driver_v1_3/examples.
@@ -175,13 +175,15 @@ or download the zip.
     ![](https://raw.githubusercontent.com/SeeedDocument/Grove-I2C_Motor_Driver_V1.3/master/img/I2CMotorDriver-9.jpg)
 
 - Then keep the address setup in the program the same as the address setup on the I2C motor driver. The default address setup in the program is 0x0f.
-    ```
-    // default I2C address is 0x0f
-    #define I2C_ADDRESS 0x0f
 
-    void setup() {
-      Motor.begin(I2C_ADDRESS);
-    }
+```
+// default I2C address is 0x0f
+#define I2C_ADDRESS 0x0f
+
+void setup()
+{
+    Motor.begin(I2C_ADDRESS);
+}
 ```
 
 ### 3. Drive 2 DC motors
@@ -194,22 +196,25 @@ The first thing to notice however, is that you need an external power source for
 </div>
 
 - There are 2 functions to control DC motors:
-    ```
-    // Set the speed of a motor, speed is equal to duty cycle here
-    void speed(unsigned char motor_id, int _speed);
 
-    // Stop one motor
-    void stop(unsigned char motor_id);
 ```
+// Set the speed of a motor, speed is equal to duty cycle here
+void speed(unsigned char motor_id, int _speed);
+
+// Stop one motor
+void stop(unsigned char motor_id);
+```
+
 With speed() function, you are able to drive one motor at the speed you want.
 
-    **motor_id** represents which motor to use. You can fill MOTOR1 or MOTOR2.
+- **motor_id** represents which motor to use. You can fill MOTOR1 or MOTOR2.
 
-    **_speed** represents the speed you set to the motor. You can fill -100~100 here. When _speed>0, DC motor runs clockwise, while _speed<0, DC motor runs anticlockwise. And the bigger the absolute value of _speed, the faster the speed of DC motor.
 
-    With stop() function, you are able to stop a running DC motor.
+- **_speed** represents the speed you set to the motor. You can fill -100~100 here. When _speed>0, DC motor runs clockwise, while _speed<0, DC motor runs anticlockwise. And the bigger the absolute value of _speed, the faster the speed of DC motor.
 
-    **motor_id** represents which motor to use. You can fill MOTOR1 or MOTOR2.
+With stop() function, you are able to stop a running DC motor.
+
+- **motor_id** represents which motor to use. You can fill MOTOR1 or MOTOR2.
 
 
 ### 4. Drive a Stepper Motor
@@ -225,10 +230,11 @@ The connection between [24BYJ48](http://www.seeedstudio.com/depot/high-quality-s
 
 - We provide one function to drive a stepper motor.
 
-    ```
-    // Drive a stepper motor
-    void StepperRun(int _step);
 ```
+// Drive a stepper motor
+void StepperRun(int _step);
+```
+
 **_step** represents the steps you set to the stepper motor to run. You can fill -1024~1024. When _step>0, stepper motor runs clockwise, while _step<0, stepper motor runs anticlockwise. When _step is 512/-512, the stepper motor will run a complete turn and if _step is 1024/-1024, the stepper motor will run 2 turns. The stepper motor will stop automatically after it finishes its steps.
 
 Resources
