@@ -32,7 +32,7 @@ Specifications
 
 !!!Tip
     More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
-    
+
 Platforms Supported
 -------------------
 
@@ -71,8 +71,9 @@ Resources
 --------
 
 -   [Grove - IMU 10DOF v1.0 eagle file](https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_10DOF/master/res/Grove-IMU_10DOF_v1.0_sch_pcb.zip)
--   [Grove - IMU 10DOF v1.0 schematics pdf file](https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_10DOF/master/res/Grove-IMU_10DOF_v1.0.pdf)
 -   [Grove - IMU 10DOF v1.1 eagle file](https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_10DOF/master/res/Grove-IMU_10DOF_V1.1_Eagle_file.zip)
+-   [Grove - IMU 10DOF v1.0 schematics pdf file](https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_10DOF/master/res/Grove-IMU_10DOF_v1.0.pdf)
+-   [Grove - IMU 10DOF v1.1 schematics pdf file](https://github.com/SeeedDocument/Grove-IMU_10DOF/raw/master/res/Grove%20-%20IMU%2010DOF%20v1.1.pdf)
 -   [Get library from github](https://github.com/Seeed-Studio/IMU_10DOF)
 -   [BMP180 datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_10DOF/master/res/BMP180.pdf)
 -   [MPU-9250 datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_10DOF/master/res/MPU-9250A_Product_Specification.pdf)

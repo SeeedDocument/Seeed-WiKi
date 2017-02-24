@@ -213,6 +213,8 @@ $sudo screen /dev/ttyUSB0 57600
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/LinkIt_Smart_7688_Duo/master/img/Connect_to_computer.jpg)
 
 **3.**Type **python /IoT/examples/blink-gpio44.py** and press **Enter** to run the Blink example.
+!!!note
+    Please note that there is 1 blank space after the first word "python", otherwise the example won't be found.
 
 **4.**After around 2 seconds, you will notice that the Wi-Fi LED blinks steadily.
 
