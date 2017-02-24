@@ -17,7 +17,7 @@ As an expansion board, Base Shield v2 has many Grove connectors, making it conve
 [![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now.png)](https://www.seeedstudio.com/base-shield-v13-p-1378.html)  
 
 
-##Features
+## Features
 
 * Power Compatible: Every Grove connector has four wires, one of which is Vcc. However, not every micro-controller main board needs a supply voltage of 5V, some need 3.3V. That's why we add a power switch to Base Shield v2. In this way, you can adjust the voltage of Vcc via this switch, making sure the voltage of Vcc is the same as supply power of the main board.
 
@@ -42,7 +42,19 @@ Grove connectors: Base Shield v2 has sixteen Grove connectors.
 * Dimension: 2.1 * 2.7 inch
 * LED indicator: The Green LED would be lighted up while powering.
 
-##Application
+### Compatibility
+
+We have produced a lot of extension board that can make your platform board more powerful, however not every extension board is compatible with all the platform board, here we use a table to illustrate how are those boards compatible with platform board.
+
+!!!note
+Please note that "Not recommanded" means that it might can be use with the platform board however need extra work such as jump wires or rewrite the code. If you are interested in dig more, welcome to contact with techsupport@seeed.cc.
+
+**Click to see full picture**
+[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/Shield%20Compatibility.png)](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/Shield%20Compatibility.png)
+
+
+
+## Application
 
 We have used Grove - LED and Grove - Button with Base Shield v2. All Grove products have Grove connectors, and can be plugged onto Base Shield directly.
 
