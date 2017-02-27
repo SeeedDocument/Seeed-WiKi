@@ -15,7 +15,7 @@ The W5500 Ethernet Shield v1.0 can be used to provide your projects with interne
 
 [![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](https://www.seeedstudio.com/W5500-Ethernet-Shield-p-2433.html)
 
-Features
+## Features
 --------
 
 -   Supports Hardwired TCP/IP Protocols : TCP, UDP, ICMP, IPv4, ARP, IGMP, PPPoE
@@ -32,7 +32,17 @@ Features
 -   Micro-SD card socket
 -   Grove connector for I2C and UART
 
-Hardware Overview
+## Compatibility
+
+We have produced a lot of extension board that can make your platform board more powerful, however not every extension board is compatible with all the platform board, here we use a table to illustrate how are those boards compatible with platform board.
+
+!!!note
+    Please note that "Not recommended" means that it might have chance to work with the platform board however requires extra work such as jump wires or rewriting the code. If you are interested in digging more, welcome to contact with techsupport@seeed.cc.
+
+**Click to see full picture**
+[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/Shield%20Compatibility.png)](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/Shield%20Compatibility.png)
+
+## Hardware Overview
 -----------------
 
 ![](https://raw.githubusercontent.com/SeeedDocument/W5500_Ethernet_Shield_v1.0/master/img/W5500_Interface.jpg)
@@ -108,7 +118,7 @@ We will show a example.This example can upload your sensor data to [Xively](http
 6. Open the example "Ethernet_Temp_SD" via the path: File --> Examples --> Ethernet --> Ethernet_Temp_SD. you need to modify some parameters.
 ![](https://raw.githubusercontent.com/SeeedDocument/W5500_Ethernet_Shield_v1.0/master/img/W5500_Data.jpg)
 
-7. Upload the program to Arduino. 
+7. Upload the program to Arduino.
 
 ### Results
 
@@ -124,8 +134,8 @@ Now, we will show result.
 
 Isn't it very easy? You can begin your project.
 
-Resources
----------
+## Resources
+
 
 - [W5500 Ethernet Shield Library](https://github.com/Wiznet/WIZ_Ethernet_Library)
 - [W5500 Ethernet Shield eagle files](https://raw.githubusercontent.com/SeeedDocument/W5500_Ethernet_Shield_v1.0/master/res/W5500_Ethernet_Shield_v1.0.zip)

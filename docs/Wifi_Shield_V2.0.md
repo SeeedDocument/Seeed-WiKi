@@ -51,6 +51,16 @@ Specifications
 | Built-in networking applications | DHCP client, DNS client, ARP, ICMP ping, FTP, TELNET, HTTP, UDP, TCP |
 | Certification                    | RN171: FCC, CE                                                      |
 
+## Compatibility
+
+We have produced a lot of extension board that can make your platform board more powerful, however not every extension board is compatible with all the platform board, here we use a table to illustrate how are those boards compatible with platform board.
+
+!!!note
+    Please note that "Not recommended" means that it might have chance to work with the platform board however requires extra work such as jump wires or rewriting the code. If you are interested in digging more, welcome to contact with techsupport@seeed.cc.
+
+**Click to see full picture**
+[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/Shield%20Compatibility.png)](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/Shield%20Compatibility.png)
+
 Hardware Overview
 -----------------
 
@@ -206,15 +216,15 @@ void loop()
 !!!Tip
     The examples is based on Arduino UNO and we take D2/D3 as the SoftwareSerial pins. If you are using an Arduino Mega, D2 is not available anymore. More details please refer to [Arduino Software Serial](https://www.arduino.cc/en/Tutorial/SoftwareSerialExample)
     Here's an example.
-    
+
 ![](https://raw.githubusercontent.com/SeeedDocument/Wifi_Shield_V2.0/master/img/connect_mega.jpg)
 
-As for the code, you need to do some change as well: 
+As for the code, you need to do some change as well:
 
 ````c
 SoftwareSerial uart(10, 3); // create a serial connection to the WiFi shield TX and RX pins.
 ````
-    
+
 #### receive()
 
 -   **Description:**
@@ -369,7 +379,7 @@ Do the following:
     2.  The security modes supported by the WiFi shield are listed in Figure 1 below.
 
 7. **Set the access point phrase**
-    1.  Type *set wlan phrase myPhrase*. Replace *myPhrase* with your access point's password/security key. 
+    1.  Type *set wlan phrase myPhrase*. Replace *myPhrase* with your access point's password/security key.
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 If your access point's security type is WEP use *key* instead of *phrase* in the command above.
@@ -716,7 +726,7 @@ void setup()
 void loop()
 {
     if(wifly.available())       // the wifi shield has data available
-    { 
+    {
 
         if(wiflyUart.find("*OPEN*")) // see if the data available is from an open connection by looking for the *OPEN* string
         {
@@ -883,7 +893,7 @@ The commands we need to send to the WiFi shield to receive the JSON string from 
     set dns name api.openweathermap.org //name of your webserver
     set ip address 0 // so WiFly will use DNS
     set ip remote 80 // standard webserver port
-    set com remote 0 // turn off the REMOTE string so it does not interfere with the post 
+    set com remote 0 // turn off the REMOTE string so it does not interfere with the post
     open // to open the connection
     GET /data/2.5/weather?q=San%20Francisco,US \n\n // to send the data
 

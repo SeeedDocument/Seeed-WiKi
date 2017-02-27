@@ -28,6 +28,17 @@ For this new version of the shield we have created a separate, independent, PCB 
 
 [![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](https://www.seeedstudio.com/NFC-Shield-V2.0-p-1370.html)
 
+## Compatibility
+
+We have produced a lot of extension board that can make your platform board more powerful, however not every extension board is compatible with all the platform board, here we use a table to illustrate how are those boards compatible with platform board.
+
+!!!note
+    Please note that "Not recommended" means that it might have chance to work with the platform board however requires extra work such as jump wires or rewriting the code. If you are interested in digging more, welcome to contact with techsupport@seeed.cc.
+
+**Click to see full picture**
+[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/Shield%20Compatibility.png)](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/Shield%20Compatibility.png)
+
+
 Application Ideas
 -----------------
 
@@ -113,16 +124,16 @@ In the Arduino IDE copy, paste, then upload the code below to your board.
     #include "PN532_SPI.h"
     #include "PN532.h"
     #include "NfcAdapter.h"
-     
+
     PN532_SPI interface(SPI, 10); // create a PN532 SPI interface with the SPI CS terminal located at digital pin 10
     NfcAdapter nfc = NfcAdapter(interface); // create an NFC adapter object
-     
+
     void setup(void) {
         Serial.begin(115200); // begin serial communication
         Serial.println("NDEF Reader");
         nfc.begin(); // begin NFC communication
     }
-     
+
     void loop(void) {
 
         Serial.println("\nScan an NFC tag\n");
@@ -176,29 +187,29 @@ This example will show you how to use an NFC tag as a key to unlock a door or a 
 
     PN532_SPI interface(SPI, 10); // create a SPI interface for the shield with the SPI CS terminal at digital pin 10
     NfcAdapter nfc = NfcAdapter(interface); // create an NFC adapter object
-     
+
     void setup(void) {
         Serial.begin(115200); // start serial comm
         Serial.println("NDEF Reader");
         nfc.begin(); // begin NFC comm
-        
+
         // make LED pins outputs
         pinMode(greenLedPin,OUTPUT);
         pinMode(redLedPin,OUTPUT);
-        
+
         // turn off the LEDs
         digitalWrite(greenLedPin,LOW);
         digitalWrite(redLedPin,LOW);
     }
-     
+
     void loop(void) {
-      
+
         Serial.println("Scanning...");
         if (nfc.tagPresent()) // check if an NFC tag is present on the antenna area
         {
             NfcTag tag = nfc.read(); // read the NFC tag
             String scannedUID = tag.getUidString(); // get the NFC tag's UID
-            
+
             if( myUID.compareTo(scannedUID) == 0) // compare the NFC tag's UID with the correct tag's UID (a match exists when compareTo returns 0)
             {
               // The correct NFC tag was used
@@ -206,7 +217,7 @@ This example will show you how to use an NFC tag as a key to unlock a door or a 
               // Blink the green LED and make sure the RED led is off
               digitalWrite(greenLedPin,HIGH);
               digitalWrite(redLedPin,LOW);
-              
+
               delay(500);
               digitalWrite(greenLedPin,LOW);
               delay(500);
@@ -220,14 +231,14 @@ This example will show you how to use an NFC tag as a key to unlock a door or a 
               // blink the red LED and make sure the green LED is off
               digitalWrite(greenLedPin,LOW);
               digitalWrite(redLedPin,HIGH);
-              
+
               delay(500);
               digitalWrite(redLedPin,LOW);
               delay(500);
               digitalWrite(redLedPin,HIGH);
               delay(500);
               digitalWrite(redLedPin,LOW);
-              // DO NOT UNLOCK! an incorrect NFC tag was used. 
+              // DO NOT UNLOCK! an incorrect NFC tag was used.
               // put your code here to trigger an alarm (e.g. buzzard, speaker) or do something else
             }
         }
@@ -282,31 +293,31 @@ Upload the following code to your Arduino board:
     NfcAdapter nfc = NfcAdapter(interface); // create an NFC adapter object
 
     String scannedUID = ""; // this is where we'll store the scanned tag's UID
-      
+
     void setup(void) {
         // make LED pins outputs
         pinMode(greenLedPin,OUTPUT);
         pinMode(redLedPin,OUTPUT);
-       
+
         Serial.begin(115200); // start serial comm
         Serial.println("NDEF Reader");
         nfc.begin(); // begin NFC comm
-           
+
         // turn off the LEDs
         digitalWrite(greenLedPin,LOW);
         digitalWrite(redLedPin,LOW);
        // attach the function "irq" to interrupt 0 on the falling edges
        attachInterrupt(0,irq,FALLING);// digital pin 2 is interrupt 0, we'll call the irq function (below) on the falling edge of this pin
     }
-     
+
     void loop(void) {
         int flag = getFlag(); // get the present flag
-        
+
         switch(flag) // check which flag/signal we are on
         {
            case FLAG_NONE:
              // nothing needs to be done
-           break; 
+           break;
            case FLAG_IRQ_TRIGGERED: // the interrupt pin has been triggered
                Serial.println("Interrupt Triggered");
                if (nfc.tagPresent())
@@ -324,7 +335,7 @@ Upload the following code to your Arduino board:
                     // the scanned NFC tag's UDI does not match the myUID value
                     Serial.println("Incorrect tag/key");
                     blinkLed(redLedPin,200,4); // blink the red led
-                    // DO NOT UNLOCK! an incorrect NFC tag was used. 
+                    // DO NOT UNLOCK! an incorrect NFC tag was used.
                     // put your code here to trigger an alarm (e.g. buzzard, speaker) or do something else
                   }
                   // return to the original state
@@ -390,7 +401,7 @@ Upload the following code to your Arduino board:
     /*
     * Name: blinkLed
     * Description: used to toggle a pin to blink an LED attached to the pin
-    * Parameters: 
+    * Parameters:
     *      ledPin - the pin where the led is connected to
     *      delayTime - the time in milliseconds between HIGH and LOW
     *      times - the number of times to toggle the pin
@@ -443,15 +454,15 @@ If your NFC tag is not properly formatted ("Message write failed" will be displa
     PN532_SPI interface(SPI, 10); // create a SPI interface for the shield with the SPI CS terminal at digital pin 10
 
     NfcAdapter nfc = NfcAdapter(interface); // create an NFC adapter object
-     
-    void setup(void) 
+
+    void setup(void)
     {
         Serial.begin(115200); // start serial comm
         Serial.println("NDEF Reader");
         nfc.begin(); // begin NFC comm
     }
 
-    void loop(void) 
+    void loop(void)
     {
       Serial.println("Place a formatted Mifare Classic NFC tag on the reader.");
       if(nfc.tagPresent())
@@ -459,7 +470,7 @@ If your NFC tag is not properly formatted ("Message write failed" will be displa
         NdefMessage message = NdefMessage();
         message.addUriRecord("Hello, world!");
         message.addUriRecord("How are you today?");
-        
+
         bool success = nfc.write(message);
         if(success)
         {
@@ -468,7 +479,7 @@ If your NFC tag is not properly formatted ("Message write failed" will be displa
           Serial.println("Message write failed.");
         }
       }
-      
+
       delay(5000);
     }
 ```
@@ -497,15 +508,15 @@ Your brand new NFC tag might not be NDEF formatted initially. To format a tag as
     PN532_SPI interface(SPI, 10); // create a SPI interface for the shield with the SPI CS terminal at digital pin 10
 
     NfcAdapter nfc = NfcAdapter(interface); // create an NFC adapter object
-     
-    void setup(void) 
+
+    void setup(void)
     {
         Serial.begin(115200); // start serial comm
         Serial.println("NDEF Reader");
         nfc.begin(); // begin NFC comm
     }
 
-    void loop(void) 
+    void loop(void)
     {
         Serial.println("Place an unformatted Mifare Classic tag on the reader.");
         if (nfc.tagPresent()) {
@@ -519,7 +530,7 @@ Your brand new NFC tag might not be NDEF formatted initially. To format a tag as
 
         }
         delay(5000);
-    } 
+    }
 ```
 
 To test/run the code:
@@ -555,15 +566,15 @@ Upload the following code to your Arduino development board.
     PN532_SPI interface(SPI, 10); // create a SPI interface for the shield with the SPI CS terminal at digital pin 10
 
     NfcAdapter nfc = NfcAdapter(interface); // create an NFC adapter object
-     
-    void setup(void) 
+
+    void setup(void)
     {
         Serial.begin(115200); // start serial comm
         Serial.println("NDEF Reader");
         nfc.begin(); // begin NFC comm
     }
 
-    void loop(void) 
+    void loop(void)
     {
       Serial.println("\nScan an NFC tag\n");
       if (nfc.tagPresent()) // Do an NFC scan to see if an NFC tag is present
@@ -583,7 +594,7 @@ Upload the following code to your Arduino development board.
           }
       }
       delay(500); // wait half a second (500ms) before scanning again (you may increment or decrement the wait time)
-    } 
+    }
 ```
 
 To test code above:

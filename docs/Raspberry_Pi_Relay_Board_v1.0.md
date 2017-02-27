@@ -195,6 +195,7 @@ Place 2 layers of electrical tape on the top of the Arduino's usb connector. Thi
 
 ## Usage
 -----
+This section was writen by John M. Wargo, here we would like to express our gratitude to John's contribution. We have amended the original text a little to fit it in the whole Seeed's document. Please click [here](http://johnwargo.com/microcontrollers-single-board-computers/using-the-seeed-studio-raspberry-pi-relay-board.html) to visit the original document on his website.
 
 The steps for installing the board and verifying that it works includes the following steps:
 

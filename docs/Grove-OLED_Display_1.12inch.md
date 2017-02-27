@@ -12,7 +12,7 @@ sku: 104030011
 
 It is a 16 color grayscale 96x96 dot matrix OLED display module with Grove compatible 4pin I2C interface.
 This module is constructed with 96x96 dot matrix OLED module LY120 and SSD1327 driver IC.
-Comparing to LCD, OLED screens are more competitive, which has a number of advantages such as high 
+Comparing to LCD, OLED screens are more competitive, which has a number of advantages such as high
 brightness, self-emission, high contrast ratio, slim / thin outline, wide viewing angle, wide temperature
 range, and low power consumption.
 
@@ -253,6 +253,6 @@ Example:
 * [Github Repository of the Library](https://github.com/Seeed-Studio/OLED_Display_96X96)
 * [Schematic in Eagle](https://github.com/SeeedDocument/Grove_OLED_1.12/raw/master/resources/OLED%20Display.zip)
 * [SSD1327 Datasheet](https://github.com/SeeedDocument/Grove_OLED_1.12/raw/master/resources/SSD1327_datasheet.pdf)
-* [LY120 Datasheet](https://github.com/SeeedDocument/Grove_OLED_1.12/raw/master/resources/LY120-096096.pdf)
+* [LY120 Datasheet](https://github.com/SeeedDocument/Grove_OLED_1.12/raw/master/resources/308010007_LCD-22P-0.7.pdf)
 * [Reference for Make a 96x96 Image](https://github.com/SeeedDocument/Grove_OLED_1.12/raw/master/resources/Make_A_96X96_Image1.zip)
 * [Github Repository of this Document](https://github.com/SeeedDocument)

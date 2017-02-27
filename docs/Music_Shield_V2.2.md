@@ -21,6 +21,17 @@ The recording function works with Seeeduino Mega and Arduino Mega only. And the 
 
 [![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](http://www.seeedstudio.com/depot/Music-Shield-V20-p-1372.html)
 
+## Compatibility
+
+We have produced a lot of extension board that can make your platform board more powerful, however not every extension board is compatible with all the platform board, here we use a table to illustrate how are those boards compatible with platform board.
+
+!!!note
+    Please note that "Not recommended" means that it might have chance to work with the platform board however requires extra work such as jump wires or rewriting the code. If you are interested in digging more, welcome to contact with techsupport@seeed.cc.
+
+**Click to see full picture**
+[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/Shield%20Compatibility.png)](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/Shield%20Compatibility.png)
+
+
 Hardware Overview
 -----------------
 
@@ -101,7 +112,7 @@ Getting Started
 <ol><li>Change the folder name of the extracted library if Arduino throws an error while loading.</li>
 <li>Change the included header (to Arduino.h) in the example file if there is a <span style="font-style:italic">'arduino.h: No such file or directory'</span> error while compiling.</li></ol>
 </div>
- 
+
 **Demo 1: Play songs (e.g. in shuffle mode)**
 
 In order to use the playback function, you need to create a playlist first.
@@ -202,7 +213,7 @@ I would like to tell you that there is an open source library called jdksmidi,by
 ```
      midiNoteOn()
      midiNoteOff()
-     midiWriteData() 
+     midiWriteData()
 ```
 Now, it is time to build your real-time MIDI instrument/music player in any format(single-channel or multi-channel). Your contribution is appreciated. A demo MIDI player was add to the latest library. MIDI Demo(upload the code. When completed, you will hear Fancy MIDI music):
 

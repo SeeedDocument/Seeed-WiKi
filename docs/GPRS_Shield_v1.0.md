@@ -101,6 +101,17 @@ For SIM900's Specifications, please refer this PDF file: [SIM900_SPEC.pdf](http:
 </td><td>g
 </td></tr></table>
 
+## Compatibility
+
+We have produced a lot of extension board that can make your platform board more powerful, however not every extension board is compatible with all the platform board, here we use a table to illustrate how are those boards compatible with platform board.
+
+!!!note
+    Please note that "Not recommended" means that it might have chance to work with the platform board however requires extra work such as jump wires or rewriting the code. If you are interested in digging more, welcome to contact with techsupport@seeed.cc.
+
+**Click to see full picture**
+[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/Shield%20Compatibility.png)](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/Shield%20Compatibility.png)
+
+
 ##  Interface Function
 
 ![](https://github.com/SeeedDocument/GPRS_Shield_v1.0/raw/master/img/GPRS_Shield_interface.png)

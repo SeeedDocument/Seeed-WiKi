@@ -11,7 +11,7 @@ sku: 101020173
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/cover.jpg)
 
 
-The Grove - Light sensor a photo-resistor(light dependent resistor) to detect the intensity of light in the environment. The resistance of photo-resistor decreases when the intensity of light increases. A dual OpAmp chip LM358 on board produces voltage corresponding to intensity of light(i.e. based on resistance value). The output signal is analog value, the brighter the light, the larger the value.
+The Grove - Light sensor integrates a photo-resistor(light dependent resistor) to detect the intensity of light. The resistance of photo-resistor decreases when the intensity of light increases. A dual OpAmp chip LM358 on board produces voltage corresponding to intensity of light(i.e. based on resistance value). The output signal is analog value, the brighter the light is, the larger the value.
 
 This module can be used to build a light controlled switch i.e. switch off lights during day time and switch on lights during night time.
 
@@ -81,16 +81,16 @@ Here we will show you how this Grove - Light Sensor works via a simple demo. Fir
 
 ### Connection
 
-Thanks to the benefit of Grove series module, you don't need to make soldering or bread board, what you need to do is connect the modules to the right port of Base Shield. For this demo, we have 2 Grove modules.
+Thanks to the benefit of Grove series module, you don't need soldering or bread board, what you need to do is connecting the modules to the appropriate grove port of Base Shield. For this demo, we will use 2 Grove modules.
 
-* Grove - Light Sensor is an analog output module, we connect it to **A0** at this demo
-* Grove - LED Bar is a digital input module with a 2-wire bus, we connect it to **D2**
+* Grove - Light Sensor is an analog output module, let's connect it to **A0**.
+* Grove - LED Bar is a digital input module with a 2-wire bus, let's connect it to **D2**
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/connect.jpeg)
 
 ### Download sketch
 
-There's a sketchbook for Seeeduino Stalker V3.1, which is consist of:
+There's a sketchbook for Seeeduino Stalker V3.1, which includes:
 
 * Example of read raw value of the sensor
 * Example of this getting started

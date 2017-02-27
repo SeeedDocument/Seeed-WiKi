@@ -480,6 +480,5 @@ void loop()
 
 *   [Grove - Buzzer Source File](https://github.com/SeeedDocument/Grove_Starter_Kit_v3/raw/master/res/Grove-Buzzer_V1.1_eagle.zip)
 
-##   Licensing
-
-This documentation is licensed under the Creative Commons [Attribution-ShareAlike License 3.0](http://creativecommons.org/licenses/by-sa/3.0/) Source code and libraries are licensed under [GPL/LGPL](http://www.gnu.org/licenses/gpl.html), see source code files for details.
+##   Acknowledgement
+We would like to express our gratitude to Rich Morin who modified this document with more appropriate grammar and words.
