@@ -45,7 +45,7 @@ Features
 
 !!!Tip
     More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
-    
+
 Specifications
 --------------
 
@@ -53,7 +53,7 @@ Specifications
 |----------------------------------------------|--------------------------------------------------------------------------------|
 | Operating voltage(V)                         | 4.5–5.5V                                                                       |
 | Operating current(mA)                        | 14.69–15.35 mA                                                                 |
-| Effective detectable distance                | 0.5–4.5 cm                                                                     |
+| Effective detectable distance                | 4–15 mm                                                                     |
 | Response time                                | 10 μs                                                                          |
 | Phototransistor: Peak sensitivity wavelength | 800 nm                                                                         |
 | IR LED: Peak light emitting wavelength       | 940 nm                                                                         |
@@ -111,7 +111,7 @@ Place the sensor such that there is 12mm between reflective photosensor and whit
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Infrared_Reflective_Sensor/master/img/Infrared_Reflective_Sensor-4.JPG)
 
-2.Adjust the potentiometer with a screwdriver to change the sensitivity of reflective photosensor, until the LED indicator glows. As your rotate clockwise, the reflective photosensor will be more sensitive to light. 
+2.Adjust the potentiometer with a screwdriver to change the sensitivity of reflective photosensor, until the LED indicator glows. As your rotate clockwise, the reflective photosensor will be more sensitive to light.
 
 <div class="admonition note">
 <p class="admonition-title">Note</p>

@@ -1,6 +1,6 @@
 ---
 title: USB To Uart 5V
-category: IoT
+category: Essentials
 bzurl: https://www.seeedstudio.com/USB-To-Uart-5V-p-1833.html
 oldwikiname:  USB To Uart 5V
 prodimagename:  USB_To_Uart_5V_photo.jpg

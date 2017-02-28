@@ -195,7 +195,7 @@ Place 2 layers of electrical tape on the top of the Arduino's usb connector. Thi
 
 ## Usage
 -----
-This section was writen by John M. Wargo, here we would like to express our gratitude to John's contribution. We have amended the original text a little to fit it in the whole Seeed's document. Please click [here](http://johnwargo.com/microcontrollers-single-board-computers/using-the-seeed-studio-raspberry-pi-relay-board.html) to visit the original document on his website.
+This section was written by John M. Wargo, here we would like to express our gratitude to John's contribution. We have amended the original text a little to fit it in the whole Seeed's document. Please click [here](http://johnwargo.com/microcontrollers-single-board-computers/using-the-seeed-studio-raspberry-pi-relay-board.html) to visit the original document on his website.
 
 The steps for installing the board and verifying that it works includes the following steps:
 
@@ -219,7 +219,7 @@ The relay board is configured for an older Raspberry Pi with a 26 pin header, so
 
 
 ### Enabling I2C
-The relay board communicates with the Raspberry Pi through an I2C interface (https://en.wikipedia.org/wiki/I%C2%B2C). This interface is disabled by default in the Pi’s Raspbian OS, so you’ll have to turn it on before you can use the board. Power up the Pi and let it boot to the graphical interface. When it’s up and running, open the Pi menu, select Preferences, then Raspberry Pi Configuration as shown in the following figure:
+The relay board communicates with the Raspberry Pi through an I2C interface [https://en.wikipedia.org/wiki/I%C2%B2C](https://en.wikipedia.org/wiki/I%C2%B2C). This interface is disabled by default in the Pi’s Raspbian OS, so you’ll have to turn it on before you can use the board. Power up the Pi and let it boot to the graphical interface. When it’s up and running, open the Pi menu, select Preferences, then Raspberry Pi Configuration as shown in the following figure:
 
 ![](https://github.com/SeeedDocument/Raspberry_Pi_Relay_Board_v1.0/raw/master/img2/seed-figure-02.png)
 **Figure 2**

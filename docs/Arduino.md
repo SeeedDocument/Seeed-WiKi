@@ -19,8 +19,7 @@ Here is the list of the Seeeduino Boards you can find in the Seeed WiKi. The lis
 
 - [2.8&#39;&#39; TFT Touch Shield v2.0](/2.8inch_TFT_Touch_Shield_v2.0/)
 - [4WD Driver Platform V1.0](/4WD_Driver_Platform_V1.0/)
-- [BLE (dual) Bee v1.0](/BLE_dual_Bee_v1.0/)
-- [Base Shield V2](/Base_Shield_V2/)
+- [4WD Mecanum Wheel Robot Kit Series](/4WD_Mecanum_Wheel_Robot_Kit_Series/)
 - [Battery Detector with Polymer Lithium Ion 1050mAh 3.7V](/Battery_Detector_with_Polymer_Lithium_Ion_1050mAh_3.7V/)
 - [Battery Detector with Polymer Lithium Ion 5100mAh 3.8V](/Battery_Detector_with_Polymer_Lithium_Ion_5100mAh_3.8V/)
 - [Bluetooth Bee v2.0](/Bluetooth_Bee_v2.0/)

@@ -1,6 +1,6 @@
 ---
 title: Base Shield V2
-category: Arduino
+category: Shield
 bzurl: https://www.seeedstudio.com/base-shield-v13-p-1378.html
 oldwikiname:
 prodimagename: Base_Shield_v2-1.png

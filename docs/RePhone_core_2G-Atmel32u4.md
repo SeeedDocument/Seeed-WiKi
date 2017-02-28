@@ -61,7 +61,7 @@ We also provide an even more powerful version of new RePhone core 2G because its
 |Width	|30 mm|
 |Weight	|12 gr.|
 
-##Hardware Overview
+## Hardware Overview
 
 ![](https://raw.githubusercontent.com/SeeedDocument/RePhone_core_2G-Atmel32u4/master/img/hw.png)
 

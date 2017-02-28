@@ -14,8 +14,7 @@ pages:
         - Arduino Introduction: Arduino.md
         - 2.8&#39;&#39; TFT Touch Shield v2.0: 2.8inch_TFT_Touch_Shield_v2.0.md
         - 4WD Driver Platform V1.0: 4WD_Driver_Platform_V1.0.md
-        - BLE (dual) Bee v1.0: BLE_dual_Bee_v1.0.md
-        - Base Shield V2: Base_Shield_V2.md
+        - 4WD Mecanum Wheel Robot Kit Series: 4WD_Mecanum_Wheel_Robot_Kit_Series.md
         - Battery Detector with Polymer Lithium Ion 1050mAh 3.7V: Battery_Detector_with_Polymer_Lithium_Ion_1050mAh_3.7V.md
         - Battery Detector with Polymer Lithium Ion 5100mAh 3.8V: Battery_Detector_with_Polymer_Lithium_Ion_5100mAh_3.8V.md
         - Bluetooth Bee v2.0: Bluetooth_Bee_v2.0.md
@@ -188,6 +187,18 @@ pages:
         - Wio Link Event Kit: Wio_Link_Event_Kit.md
         - Wio Link Starter Kit: Wio_Link_Starter_Kit.md
         - Wio Node: Wio_Node.md
+
+    - Shield:
+        - Shield Introduction: Shield.md
+        - Base Shield V2: Base_Shield_V2.md
+
+    - Wireless:
+        - Wireless Introduction: Wireless.md
+        - BLE (dual) Bee v1.0: BLE_dual_Bee_v1.0.md
+
+    - Essentials:
+        - Essentials Introduction: Essentials.md
+        - USB To Uart 5V: USB_To_Uart_5V.md
 
 
 - Grove:
@@ -380,7 +391,6 @@ pages:
 
 - IoT:
         - IoT Introduction: IoT.md
-        - 4WD Mecanum Wheel Robot Kit Series: 4WD_Mecanum_Wheel_Robot_Kit_Series.md
         - Adjustable DC - DC Power Converter(1V - 12V1.5A): Adjustable_DC_DC_Power_Converter_1V-12V-1.5A.md
         - BLE Carbon: BLE_Carbon.md
         - BLE Micro: BLE_Micro.md
@@ -402,7 +412,6 @@ pages:
         - Seeeduino GPRS: Seeeduino_GPRS.md
         - Shield Bot V1.1: Shield_Bot_V1.1.md
         - Skeleton Bot - 4WD hercules mobile robotic platform: Skeleton_Bot-4WD_hercules_mobile_robotic_platform.md
-        - USB To Uart 5V: USB_To_Uart_5V.md
         - USB To Uart 5V/3V3: USB_To_Uart_5V_3V3.md
         - Unibody box for Galileo Gen2: Unibody_box_for_Galileo_Gen2.md
 

@@ -31,6 +31,15 @@ pages:
     - Wio:
         - Wio Introduction: Wio.md
 {{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Wio") (eq $cat2 "Wio") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
+    - Shield:
+        - Shield Introduction: Shield.md
+{{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Shield") (eq $cat2 "Shield") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
+    - Wireless:
+        - Wireless Introduction: Wireless.md
+{{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Wireless") (eq $cat2 "Wireless") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
+    - Essentials:
+        - Essentials Introduction: Essentials.md
+{{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Essentials") (eq $cat2 "Essentials") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
 
 - Grove:
     - Grove Introduction: Grove.md
