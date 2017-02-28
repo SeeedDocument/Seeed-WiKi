@@ -1,6 +1,6 @@
 ---
 title: Mbed Shield
-category: Arduino
+category: Shield
 bzurl: https://www.seeedstudio.com/mbed-shield-p-1390.html?cPath=132_134
 oldwikiname:  Mbed Shield
 prodimagename: Mbed_Shield_01.jpg

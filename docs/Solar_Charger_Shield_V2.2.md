@@ -1,6 +1,6 @@
 ---
 title: Solar Charger Shield V2.2
-category: Arduino
+category: Shield
 bzurl: https://www.seeedstudio.com/Solar-Charger-Shield-v2.2-p-2391.html
 oldwikiname:  Solar Charger Shield V2.2
 prodimagename:  Solar_Charger_Shield_v2.2.jpg

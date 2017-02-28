@@ -1,6 +1,6 @@
 ---
 title: Qi Wireless Charger Transmitter
-category: IoT
+category: Wireless
 bzurl: https://www.seeedstudio.com/Qi-Wireless-Charger-Transmitter-5V%261A-p-1997.html
 oldwikiname:  Qi Wireless Charger Transmitter
 prodimagename:  Qi_Wireless_Charger_Photo.jpg

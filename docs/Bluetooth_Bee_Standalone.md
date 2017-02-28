@@ -1,6 +1,6 @@
 ---
 title: Bluetooth Bee-Standalone
-category: IoT
+category: Wireless
 bzurl: https://www.seeedstudio.com/Bluetooth-Bee-Standalone-p-1157.html
 oldwikiname:  Bluetooth Bee-Standalone
 prodimagename: P3302883_02.jpg

@@ -51,7 +51,7 @@ Specifications
 
 | Parameter                                    | Value                                                                          |
 |----------------------------------------------|--------------------------------------------------------------------------------|
-| Operating voltage(V)                         | 4.5–5.5V                                                                       |
+| Operating voltage(V)                         | 3.3–5V                                                                       |
 | Operating current(mA)                        | 14.69–15.35 mA                                                                 |
 | Effective detectable distance                | 4–15 mm                                                                     |
 | Response time                                | 10 μs                                                                          |

@@ -1,6 +1,6 @@
 ---
 title: Small e-Paper Shield V2
-category: Arduino
+category: Shield
 bzurl: https://www.seeedstudio.com/Small-e-paper-Shield-V2-p-2462.html
 oldwikiname:  Small e-Paper Shield V2
 prodimagename:  Small_e-Paper_shield_b.jpg

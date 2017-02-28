@@ -1,6 +1,6 @@
 ---
 title: Adjustable DC - DC Power Converter(1V - 12V1.5A)
-category: IoT
+category: Essentials
 bzurl: https://www.seeedstudio.com/Adjustable-DC%26DC-Power-Converter-(1V-12V%261.5A)-p-1996.html
 oldwikiname:  Adjustable DC - DC Power Converter(1V - 12V1.5A)
 prodimagename: Adjustable_04.jpg

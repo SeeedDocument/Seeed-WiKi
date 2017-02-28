@@ -1,6 +1,6 @@
 ---
 title: Grove IoT Starter Kits Powered by AWS
-category: IoT
+category: Others
 bzurl:
 oldwikiname: Grove IoT Starter Kits Powered by AWS
 prodimagename:

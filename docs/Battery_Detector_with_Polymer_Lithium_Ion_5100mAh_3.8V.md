@@ -1,6 +1,6 @@
 ---
 title: Battery Detector with Polymer Lithium Ion 5100mAh 3.8V
-category: Arduino
+category: Essentials
 bzurl: https://seeedstudio.com/Battery-Detector-with-Polymer-Lithium-Ion-5100mAh-3.8V-p-2647.html
 oldwikiname: Battery_Detector_with_Polymer_Lithium_Ion_5100mAh_3.8V
 prodimagename: Battery_Detector_with_Polymer_Lithium_Ion_5100mAh_3.8V_700_s.jpg

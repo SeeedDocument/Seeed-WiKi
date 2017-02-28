@@ -1,6 +1,6 @@
 ---
 title: Grove Base BoosterPack
-category: Arduino
+category: Others
 bzurl: https://www.seeedstudio.com/Grove-Base-BoosterPack-p-2177.html
 oldwikiname:  Grove Base BoosterPack
 prodimagename: 110020004%205.jpg

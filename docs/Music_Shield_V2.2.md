@@ -1,6 +1,6 @@
 ---
 title: Music Shield V2.2
-category: Arduino
+category: Shield
 bzurl: https://www.seeedstudio.com/Music-Shield-V2.0-p-1372.html
 oldwikiname: Music_Shield_V2.2
 prodimagename: Music_Shield_Picture.jpg

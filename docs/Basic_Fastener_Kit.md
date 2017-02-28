@@ -1,6 +1,6 @@
 ---
 title: Basic Fastener Kit
-category: IoT
+category: Arduino
 bzurl: https://www.seeedstudio.com/Basic-Fastener-Kit-p-1555.html
 oldwikiname:  Basic Fastener Kit
 prodimagename: Fastener_Kit_01.jpg

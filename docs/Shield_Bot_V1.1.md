@@ -1,6 +1,6 @@
 ---
 title: Shield Bot V1.1
-category: IoT
+category: Arduino
 bzurl: https://www.seeedstudio.com/Shield-Bot-p-1380.html
 oldwikiname:  Shield Bot V1.1
 prodimagename: 4WD_Mecanum_Wheel_Robot_Kit-RF_Version-.PNG

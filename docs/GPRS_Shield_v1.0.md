@@ -1,6 +1,6 @@
 ---
 title: GPRS Shield V1.0
-category: Arduino
+category: Shield
 bzurl: http://www.seeedstudio.com/depot/gprs-shield-p-779.html
 oldwikiname:  GPRS Shield V1.0
 prodimagename: gprs-shield-p-779.html

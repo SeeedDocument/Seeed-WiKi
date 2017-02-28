@@ -1,6 +1,6 @@
 ---
 title: Battery Detector with Polymer Lithium Ion 1050mAh 3.7V
-category: Arduino
+category: Essentials
 bzurl: https://seeedstudio.com/Battery-Detector-with-Polymer-Lithium-Ion-1050mAh-3.7V-p-2648.html
 oldwikiname: Battery_Detector_with_Polymer_Lithium_Ion_1050mAh_3.7V
 prodimagename: Battery_Detector_with_Polymer_Lithium_Ion_1050mAh_3.7V.jpg

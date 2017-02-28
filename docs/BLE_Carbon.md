@@ -1,6 +1,6 @@
 ---
 title: BLE Carbon
-category: IoT
+category: Wireless
 bzurl: https://www.seeedstudio.com/BLE-Carbon-p-2710.html
 oldwikiname:
 prodimagename: cover.png

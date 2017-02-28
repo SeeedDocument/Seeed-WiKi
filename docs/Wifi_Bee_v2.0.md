@@ -1,6 +1,6 @@
 ---
 title: Wifi Bee v2.0
-category: Arduino
+category: Wireless
 bzurl: https://www.seeedstudio.com/Wifi-Bee-v2.0-p-1637.html
 oldwikiname:  Wifi Bee v2.0
 prodimagename:  Wifi_bee_v2_01.jpg

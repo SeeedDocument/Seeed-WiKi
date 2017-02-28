@@ -1,6 +1,6 @@
 ---
 title: Unibody box for Galileo Gen2
-category: IoT
+category: Essentials
 bzurl: https://www.seeedstudio.com/Unibody-Box-for-Galileo-Gen2-p-2605.html
 oldwikiname:  Unibody box for Galileo Gen2
 prodimagename:  Unibody_box_for_Galileo_Gen2.jpg

@@ -1,6 +1,6 @@
 ---
 title: Skeleton Bot - 4WD hercules mobile robotic platform
-category: IoT
+category: Arduino
 bzurl: https://www.seeedstudio.com/Skeleton-Bot-4WD-Hercules-Mobile-Robotic-Platform-p-1504.html
 oldwikiname:   Skeleton Bot - 4WD hercules mobile robotic platform
 prodimagename:  4WD_Robot_Car_Body.jpg

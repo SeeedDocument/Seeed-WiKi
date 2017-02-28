@@ -1,6 +1,6 @@
 ---
 title: Lipo Rider Pro
-category: Arduino
+category: Essentials
 bzurl: https://seeedstudio.com/LiPo-Rider-Pro-p-992.html
 oldwikiname: Lipo_Rider_Pro
 prodimagename: LiPo_Rider_Pro.jpg

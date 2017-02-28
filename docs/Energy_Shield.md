@@ -1,6 +1,6 @@
 ---
 title: Energy Shield
-category: Arduino
+category: Shield
 bzurl: https://seeedstudio.com/Energy-Shield-p-1373.html
 oldwikiname: Energy_Shield
 prodimagename: Energy_Shield.jpg

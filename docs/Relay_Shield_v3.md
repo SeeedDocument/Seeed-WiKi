@@ -1,6 +1,6 @@
 ---
 title: Relay Shield v3.0
-category: Arduino
+category: Shield
 bzurl: https://www.seeedstudio.com/Relay-Shield-v3.0-p-2440.html
 oldwikiname: Relay Shield v3.0
 prodimagename: Relay_Shield_L_v3.0.jpg

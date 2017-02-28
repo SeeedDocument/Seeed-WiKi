@@ -1,6 +1,6 @@
 ---
 title: Grove - Starter Kit v3
-category: Arduino
+category: Others
 bzurl: https://www.seeedstudio.com/Grove-Starter-Kit-V3-p-1855.html
 oldwikiname: Grove - Starter Kit v3
 prodimagename: Grove-Starter_Kit_v2_Photo.jpg

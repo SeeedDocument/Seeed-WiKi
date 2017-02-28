@@ -1,6 +1,6 @@
 ---
 title: Grove - XBee Carrier
-category: IoT
+category: Sensor
 bzurl: https://www.seeedstudio.com/grove-xbee-carrier-p-905.html?cPath=132_134
 oldwikiname:  Grove - XBee Carrier
 prodimagename: Bee_Stem.jpg

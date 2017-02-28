@@ -1,6 +1,6 @@
 ---
 title: RS232 Shield
-category: Arduino
+category: Shield
 bzurl: https://seeedstudio.com/RS232-Shield-p-1910.html
 oldwikiname: RS232_Shield
 prodimagename: RS232_Shield_Photo.jpg

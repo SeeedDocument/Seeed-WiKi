@@ -1,6 +1,6 @@
 ---
 title: Grove - Starter Kit Plus
-category: Arduino
+category: Others
 bzurl: https://www.seeedstudio.com/Grove-Starter-Kit-Plus-p-1294.html
 oldwikiname: Grove - Starter Kit Plus
 prodimagename: Grove-Starter_Kit_Plus.jpeg

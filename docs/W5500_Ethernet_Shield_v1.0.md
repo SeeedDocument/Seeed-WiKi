@@ -1,6 +1,6 @@
 ---
 title: W5500 Ethernet Shield v1.0
-category: Arduino
+category: Shield
 bzurl: https://www.seeedstudio.com/W5500-Ethernet-Shield-p-2433.html
 oldwikiname: W5500_Ethernet_Shield_v1.0
 prodimagename: W5500.jpg

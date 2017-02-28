@@ -1,6 +1,6 @@
 ---
 title: EL Shield
-category: Arduino
+category: Shield
 bzurl: https://seeedstudio.com/EL-Shield-p-1287.html
 oldwikiname: EL_Shield
 prodimagename: EL_Shield_02.jpg

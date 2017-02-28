@@ -12,44 +12,19 @@ pages:
     - Platform Introduction: Platform.md
     - Arduino:
         - Arduino Introduction: Arduino.md
-        - 2.8&#39;&#39; TFT Touch Shield v2.0: 2.8inch_TFT_Touch_Shield_v2.0.md
         - 4WD Driver Platform V1.0: 4WD_Driver_Platform_V1.0.md
         - 4WD Mecanum Wheel Robot Kit Series: 4WD_Mecanum_Wheel_Robot_Kit_Series.md
-        - Battery Detector with Polymer Lithium Ion 1050mAh 3.7V: Battery_Detector_with_Polymer_Lithium_Ion_1050mAh_3.7V.md
-        - Battery Detector with Polymer Lithium Ion 5100mAh 3.8V: Battery_Detector_with_Polymer_Lithium_Ion_5100mAh_3.8V.md
-        - Bluetooth Bee v2.0: Bluetooth_Bee_v2.0.md
-        - Bluetooth Shield V2.0: Bluetooth_Shield_V2.md
-        - CAN-BUS Shield V1.2: CAN-BUS_Shield_V1.2.md
-        - Camera Shield: Camera_Shield.md
-        - EL Shield: EL_Shield.md
-        - Energy Shield: Energy_Shield.md
-        - GPRS Shield V1.0: GPRS_Shield_v1.0.md
+        - Basic Fastener Kit: Basic_Fastener_Kit.md
         - Galileo Case: Galileo_Case.md
-        - Grove - Mega Shield: Grove-Mega_Shield.md
-        - Grove - Starter Kit Plus: Grove_Starter_Kit_Plus.md
-        - Grove - Starter Kit v3: Grove_Starter_Kit_v3.md
-        - Grove Base BoosterPack: Grove_Base_BoosterPack.md
+        - Grove Maker Kit for Intel Joule: Grove Maker Kit for Intel Joule.md
         - Grove Speech Recognizer Kit for Arduino: Grove_Speech_Recognizer_Kit_for_Arduino.md
         - Grove Starter kit for Arduino&amp;Genuino 101: Grove_Starter_kit_for_Arduino_101.md
         - Hercules Dual 15A 6-20V Motor Controller: Hercules_Dual_15A_6-20V_Motor_Controller.md
-        - Lipo Rider Pro: Lipo_Rider_Pro.md
-        - Lipo Rider V1.3: Lipo_Rider_V1.3.md
-        - Mbed Shield: mbed_Shield.md
-        - Mesh Bee: Mesh_Bee.md
-        - Motor Shield V2.0: Motor_Shield_V2.0.md
-        - Music Shield V2.2: Music_Shield_V2.2.md
-        - NFC Shield V2.0: NFC_Shield_V2.0.md
-        - Protoshield Kit for Arduino: Protoshield_Kit_for_Arduino.md
-        - RFbee V1.1 - Wireless Arduino compatible node: RFbee_V1.1-Wireless_Arduino_compatible_node.md
-        - RS232 Shield: RS232_Shield.md
         - Rainbow Cube Kit Acrylic Harness: Rainbow_Cube_Kit_Acrylic_Harness.md
         - Rainbow Cube kit - RGB 4*4*4 (Rainbowduino Compatible): Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible.md
         - Rainbowduino: Rainbowduino.md
         - Rainbowduino LED driver platform - ATmega328: Rainbowduino_LED_driver_platform-ATmega328.md
         - Rainbowduino v3.0: Rainbowduino_v3.0.md
-        - Relay Shield v3.0: Relay_Shield_v3.md
-        - SD Card shield V4.0: SD_Card_shield_V4.0.md
-        - Seeed BLE Shield v1: Seeed_BLE_Shield.md
         - Seeeduino Cloud: Seeeduino_Cloud.md
         - Seeeduino Cloud and Grove IoT Starter Kit Powered by AWS: Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS.md
         - Seeeduino Ethernet: Seeeduino_Ethernet.md
@@ -63,19 +38,14 @@ pages:
         - Seeeduino Stalker V3.1: Seeeduino_Stalker_V3.1.md
         - Seeeduino Stalker v3 enclosure: Seeeduino_Stalker_v3_enclosure.md
         - Seeeduino v4.2: Seeeduino_v4.2.md
+        - Shield Bot V1.1: Shield_Bot_V1.1.md
         - Shield Bot V1.2: Shield_Bot_V1.2.md
         - Sidekick Basic Kit for TI LaunchPad: Sidekick_Basic_Kit_for_TI_LaunchPad\Sidekick_Basic_Kit_for_TI_LaunchPad.md
+        - Skeleton Bot - 4WD hercules mobile robotic platform: Skeleton_Bot-4WD_hercules_mobile_robotic_platform.md
         - Skeleton Box: Skeleton_Box.md
         - Skeleton Box (10x7,10x10,17x10): Skeleton_Box_10x7_10x10_17x10.md
-        - Small e-Paper Shield V2: Small_e-Paper_Shield_V2.md
-        - Solar Charger Shield V2.2: Solar_Charger_Shield_V2.2.md
         - UartSBee V4: UartSBee_V4.md
         - UartSBee v5: UartSBee_v5.md
-        - W5500 Ethernet Shield v1.0: W5500_Ethernet_Shield_v1.0.md
-        - Wifi Bee v2.0: Wifi_Bee_v2.0.md
-        - Wifi Shield (Fi250) V1.1: Wifi_Shield_Fi250_V1.1.md
-        - Wifi Shield V2.0: Wifi_Shield_V2.0.md
-        - XBee Shield V2.0: XBee_Shield_V2.0.md
 
     - BeagleBone:
         - BeagleBone Introduction: BeagleBone.md
@@ -92,6 +62,7 @@ pages:
 
     - Raspberry Pi:
         - Raspberry Pi Introduction: Raspberry_Pi.md
+        - Grove Starter Kit for IoT based on Raspberry Pi: Grove_Starter_Kit_for_IoT_based_on_Raspberry_Pi.md
         - Raspberry Pi Breakout Board v1.0: Raspberry_Pi_Breakout_Board_v1.0.md
         - Raspberry Pi Motor Driver Board v1.0: Raspberry_Pi_Motor_Driver_Board_v1.0.md
         - Raspberry Pi RS232 Board v1.0: Raspberry_Pi_R232_Board_v1.0.md
@@ -107,6 +78,7 @@ pages:
         - Grove - Starter Kit for LinkIt ONE: Grove-Starter_Kit_for_LinkIt_ONE.md
         - Grove Breakout for LinkIt Smart 7688 Duo: Grove_Breakout_for_LinkIt_Smart_7688_Duo.md
         - Grove Starter kit for LinkIt Smart7688 Duo: Grove_Starter_kit_for_LinkIt_Smart7688_Duo.md
+        - LinkIT One and Grove IoT Starter Kit Powered by AWS: LinkIT_One_and_Grove_IoT_Starter_Kit_Powered_by_AWS.md
         - LinkIt ONE: LinkIt_ONE.md
         - LinkIt Smart 7688 Duo: LinkIt_Smart_7688_Duo.md
         - Linkit Connect 7681: Linkit_Connect_7681.md
@@ -131,6 +103,7 @@ pages:
         - RePhone Strap Kit for Pebble: RePhone_Strap_Kit_for_Pebble.md
         - Rephone Core 2G-Atmel32u4: RePhone_core_2G-Atmel32u4.md
         - Rephone Core 2G-AtmelSAMD21: Rephone_core_2G-AtmelSAMD21.md
+        - Retro Phone Kit: Retro Phone Kit.md
         - Xadow - 3-Axis Accelerometer: Xadow_3_Aixs_Accelerometer.md
         - Xadow - 3-Axis Digital Accelerometer(±400g): Xadow_3_Aixs_Digital_Accelerometer_plusandminus_400g.md
         - Xadow - BLE (Dual Model) v1.0: Xadow_BLE_Dual_Model_V1.0.md
@@ -190,15 +163,55 @@ pages:
 
     - Shield:
         - Shield Introduction: Shield.md
+        - 2.8&#39;&#39; TFT Touch Shield v2.0: 2.8inch_TFT_Touch_Shield_v2.0.md
         - Base Shield V2: Base_Shield_V2.md
+        - Bluetooth Shield V2.0: Bluetooth_Shield_V2.md
+        - CAN-BUS Shield V1.2: CAN-BUS_Shield_V1.2.md
+        - Camera Shield: Camera_Shield.md
+        - EL Shield: EL_Shield.md
+        - Energy Shield: Energy_Shield.md
+        - GPRS Shield V1.0: GPRS_Shield_v1.0.md
+        - Mbed Shield: mbed_Shield.md
+        - Motor Shield V2.0: Motor_Shield_V2.0.md
+        - Music Shield V2.2: Music_Shield_V2.2.md
+        - NFC Shield V2.0: NFC_Shield_V2.0.md
+        - Protoshield Kit for Arduino: Protoshield_Kit_for_Arduino.md
+        - RS232 Shield: RS232_Shield.md
+        - Relay Shield v3.0: Relay_Shield_v3.md
+        - SD Card shield V4.0: SD_Card_shield_V4.0.md
+        - Seeed BLE Shield v1: Seeed_BLE_Shield.md
+        - Small e-Paper Shield V2: Small_e-Paper_Shield_V2.md
+        - Solar Charger Shield V2.2: Solar_Charger_Shield_V2.2.md
+        - W5500 Ethernet Shield v1.0: W5500_Ethernet_Shield_v1.0.md
+        - Wifi Shield (Fi250) V1.1: Wifi_Shield_Fi250_V1.1.md
+        - Wifi Shield V2.0: Wifi_Shield_V2.0.md
+        - XBee Shield V2.0: XBee_Shield_V2.0.md
 
     - Wireless:
         - Wireless Introduction: Wireless.md
         - BLE (dual) Bee v1.0: BLE_dual_Bee_v1.0.md
+        - BLE Carbon: BLE_Carbon.md
+        - BLE Micro: BLE_Micro.md
+        - BLE Nitrogen: BLE_Nitrogen.md
+        - Bluetooth Bee v2.0: Bluetooth_Bee_v2.0.md
+        - Bluetooth Bee-Standalone: Bluetooth_Bee_Standalone.md
+        - ESP32 Breakout Kit: ESP32_Breakout_Kit.md
+        - Grove - Mega Shield: Grove-Mega_Shield.md
+        - Mesh Bee: Mesh_Bee.md
+        - Qi Wireless Charger Transmitter: Qi_Wireless_Charger_Transmitter.md
+        - RFbee V1.1 - Wireless Arduino compatible node: RFbee_V1.1-Wireless_Arduino_compatible_node.md
+        - Wifi Bee v2.0: Wifi_Bee_v2.0.md
 
     - Essentials:
         - Essentials Introduction: Essentials.md
+        - Adjustable DC - DC Power Converter(1V - 12V1.5A): Adjustable_DC_DC_Power_Converter_1V-12V-1.5A.md
+        - Battery Detector with Polymer Lithium Ion 1050mAh 3.7V: Battery_Detector_with_Polymer_Lithium_Ion_1050mAh_3.7V.md
+        - Battery Detector with Polymer Lithium Ion 5100mAh 3.8V: Battery_Detector_with_Polymer_Lithium_Ion_5100mAh_3.8V.md
+        - Lipo Rider Pro: Lipo_Rider_Pro.md
+        - Lipo Rider V1.3: Lipo_Rider_V1.3.md
         - USB To Uart 5V: USB_To_Uart_5V.md
+        - USB To Uart 5V/3V3: USB_To_Uart_5V_3V3.md
+        - Unibody box for Galileo Gen2: Unibody_box_for_Galileo_Gen2.md
 
 
 - Grove:
@@ -294,6 +307,7 @@ pages:
         - Grove - Ultrasonic Ranger: Grove-Ultrasonic_Ranger.md
         - Grove - Voltage Divider: Grove-Voltage_Divider.md
         - Grove - Water Sensor: Grove-Water_Sensor.md
+        - Grove - XBee Carrier: Grove-XBee_Carrier.md
 
     - Actuator:
         - Actuator Introduction: Actuator.md
@@ -367,6 +381,7 @@ pages:
         - Grove - DC Jack Power: Grove-DC_Jack_Power.md
         - Grove - Differential Amplifier v1.2: Grove-Differential_Amplifier_v1.2.md
         - Grove - I2C Hub: Grove-I2C_Hub.md
+        - Grove - Joint v2.0: Grove-Joint_v2.0.md
         - Grove - MOSFET: Grove-MOSFET.md
         - Grove - Mini Camera: Grove-Mini_Camera.md
         - Grove - Mixer Pack V2: Grove-Mixer_Pack_V2.md
@@ -378,42 +393,29 @@ pages:
         - Grove - Recorder v2.0: Grove-Recorder_v2.0.md
         - Grove - SPDT Relay(30A): Grove-SPDT_Relay_30A.md
         - Grove - Serial Camera: Grove-Serial_Camera.md
+        - Grove - Starter Kit Plus: Grove_Starter_Kit_Plus.md
+        - Grove - Starter Kit v3: Grove_Starter_Kit_v3.md
         - Grove - Toy Kit: Grove-Toy_Kit.md
         - Grove - Wrapper: Grove-Wrapper.md
+        - Grove Base BoosterPack: Grove_Base_BoosterPack.md
         - Grove Base Shield for NodeMCU V1.0: Grove_Base_Shield_for_NodeMCU_V1.0.md
         - Grove Base Shield for Photon: Grove_Base_Shield_for_Photon.md
         - Grove Indoor Environment Kit for Edison: Grove_Indoor_Environment_Kit_for_Edison.md
+        - Grove IoT Developer Kit - Microsoft Azure Edition: Grove_IoT_Developer_Kit-Microsoft_Azure_Edition.md
+        - Grove IoT Starter Kits Powered by AWS: Grove_IoT_Starter_Kits_Powered_by_AWS.md
         - Grove Shield for Intel Joule: Grove_Shield_for_Intel_Joule.md
         - Grove Smart Plant Care Kit: Grove_Smart_Plant_Care_Kit.md
+        - Intel® Edison and Grove IoT Starter Kit Powered by AWS: Intel_Edison_and_Grove_IoT_Starter_Kit_Powered_by_AWS.md
         - Sidekick Basic Kit for Arduino V2: Sidekick_Basic_Kit_for_Arduino_V2.md
         - Tricycle Bot: Tricycle_Bot.md
 
 
 - IoT:
         - IoT Introduction: IoT.md
-        - Adjustable DC - DC Power Converter(1V - 12V1.5A): Adjustable_DC_DC_Power_Converter_1V-12V-1.5A.md
-        - BLE Carbon: BLE_Carbon.md
-        - BLE Micro: BLE_Micro.md
-        - BLE Nitrogen: BLE_Nitrogen.md
-        - Basic Fastener Kit: Basic_Fastener_Kit.md
         - BeagleBone Green: BeagleBone_Green.md
         - BeagleBone Green Wireless: BeagleBone_Green_Wireless.md
-        - Bluetooth Bee-Standalone: Bluetooth_Bee_Standalone.md
-        - ESP32 Breakout Kit: ESP32_Breakout_Kit.md
-        - Grove - Joint v2.0: Grove-Joint_v2.0.md
-        - Grove - XBee Carrier: Grove-XBee_Carrier.md
-        - Grove IoT Developer Kit - Microsoft Azure Edition: Grove_IoT_Developer_Kit-Microsoft_Azure_Edition.md
-        - Grove IoT Starter Kits Powered by AWS: Grove_IoT_Starter_Kits_Powered_by_AWS.md
-        - Grove Starter Kit for IoT based on Raspberry Pi: Grove_Starter_Kit_for_IoT_based_on_Raspberry_Pi.md
-        - Intel® Edison and Grove IoT Starter Kit Powered by AWS: Intel_Edison_and_Grove_IoT_Starter_Kit_Powered_by_AWS.md
-        - LinkIT One and Grove IoT Starter Kit Powered by AWS: LinkIT_One_and_Grove_IoT_Starter_Kit_Powered_by_AWS.md
-        - Qi Wireless Charger Transmitter: Qi_Wireless_Charger_Transmitter.md
         - Seeeduino Cloud: Seeeduino_Cloud.md
         - Seeeduino GPRS: Seeeduino_GPRS.md
-        - Shield Bot V1.1: Shield_Bot_V1.1.md
-        - Skeleton Bot - 4WD hercules mobile robotic platform: Skeleton_Bot-4WD_hercules_mobile_robotic_platform.md
-        - USB To Uart 5V/3V3: USB_To_Uart_5V_3V3.md
-        - Unibody box for Galileo Gen2: Unibody_box_for_Galileo_Gen2.md
 
 
 - Tutorial:

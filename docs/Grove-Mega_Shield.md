@@ -1,6 +1,6 @@
 ---
 title: Grove - Mega Shield
-category: Arduino
+category: Wireless
 bzurl: https://www.seeedstudio.com/Grove-Mega-Shield-v12-p-2539.html
 oldwikiname:  Grove - Mega Shield
 prodimagename: 500px-Megashieldn1_03.jpg

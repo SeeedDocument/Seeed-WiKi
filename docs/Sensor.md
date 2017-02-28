@@ -96,5 +96,6 @@ Here is the list of the Grove - Sensor Boards you can find in the Seeed WiKi. Th
 - [Grove - Ultrasonic Ranger](/Grove-Ultrasonic_Ranger/)
 - [Grove - Voltage Divider](/Grove-Voltage_Divider/)
 - [Grove - Water Sensor](/Grove-Water_Sensor/)
+- [Grove - XBee Carrier](/Grove-XBee_Carrier/)
 
 

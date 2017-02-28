@@ -1,6 +1,6 @@
 ---
 title: SD Card shield V4.0
-category: Arduino
+category: Shield
 bzurl: https://seeedstudio.com/SD-Card-Shield-V4-p-1381.html
 oldwikiname: SD_Card_shield_V4.0
 prodimagename: SD_Card_Shield-v4.jpg

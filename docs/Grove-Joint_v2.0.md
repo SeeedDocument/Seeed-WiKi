@@ -1,6 +1,6 @@
 ---
 title: Grove - Joint v2.0
-category: IoT
+category: Others
 bzurl:
 oldwikiname: Grove - Joint v2.0
 prodimagename:  Grove-Joint.jpg

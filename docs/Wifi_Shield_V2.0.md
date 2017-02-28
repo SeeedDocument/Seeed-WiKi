@@ -1,6 +1,6 @@
 ---
 title: Wifi Shield V2.0
-category: Arduino
+category: Shield
 bzurl: https://seeedstudio.com/Wifi-Shield-V2.0-p-2505.html
 oldwikiname: Wifi_Shield_V2.0
 prodimagename: Wifi_Shield_v2.jpg

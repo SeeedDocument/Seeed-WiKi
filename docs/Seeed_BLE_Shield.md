@@ -1,6 +1,6 @@
 ---
 title: Seeed BLE Shield v1
-category: Arduino
+category: Shield
 bzurl: https://www.seeedstudio.com/Seeed-BLE-Shield-p-1859.html
 oldwikiname:   Seeed BLE Shield v1
 prodimagename:  Seeed_BLE-4.png

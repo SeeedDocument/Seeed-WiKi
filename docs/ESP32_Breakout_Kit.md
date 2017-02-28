@@ -1,8 +1,8 @@
 ---
 title: ESP32 Breakout Kit
-category: IoT
+category: Wireless
 bzurl: https://www.seeedstudio.com/ESP32-Breakout-Kit-p-2783.html
-oldwikiname: 
+oldwikiname:
 prodimagename: cover.jpg
 surveyurl: https://www.research.net/r/HL2XL5S
 sku: 110060576
@@ -18,7 +18,7 @@ This is the breakout kit specially made for ESP32, it contains a breakout board 
 ##Part List
 
 !!!Note
-    The parts of the kit is non-soldered. 
+    The parts of the kit is non-soldered.
 
 ![](https://raw.githubusercontent.com/SeeedDocument/ESP32_Breakout_Kit/master/img/part_list.jpg)
 
@@ -36,7 +36,7 @@ This is the breakout kit specially made for ESP32, it contains a breakout board 
 
 !!!Tip
     Click to view larger image.
-    
+
 ##Resources
 
 * [Schematics in EAGLE](https://github.com/SeeedDocument/ESP32_Breakout_Kit/raw/master/res/319011771_ESP32%20Extension%20Board%20v1.0_%E5%8E%9F%E7%90%86%E5%9B%BE.zip)

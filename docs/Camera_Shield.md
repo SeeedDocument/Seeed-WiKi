@@ -1,6 +1,6 @@
 ---
 title: Camera Shield
-category: Arduino
+category: Shield
 bzurl: https://www.seeedstudio.com/Camera-Shield-p-2106.html
 oldwikiname:  Camera Shield
 prodimagename: CameraShield.jpg

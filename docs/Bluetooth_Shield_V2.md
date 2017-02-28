@@ -1,6 +1,6 @@
 ---
 title: Bluetooth Shield V2.0
-category: Arduino
+category: Shield
 bzurl: https://www.seeedstudio.com/Bluetooth-Shield-V2-p-2416.html
 oldwikiname: Bluetooth Shield V2.0
 prodimagename: Bluetooth_Shiled_v2.JPG
