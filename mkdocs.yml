@@ -40,10 +40,12 @@ pages:
         - Seeeduino v4.2: Seeeduino_v4.2.md
         - Shield Bot V1.1: Shield_Bot_V1.1.md
         - Shield Bot V1.2: Shield_Bot_V1.2.md
+        - Sidekick Basic Kit for Arduino V2: Sidekick_Basic_Kit_for_Arduino_V2.md
         - Sidekick Basic Kit for TI LaunchPad: Sidekick_Basic_Kit_for_TI_LaunchPad\Sidekick_Basic_Kit_for_TI_LaunchPad.md
         - Skeleton Bot - 4WD hercules mobile robotic platform: Skeleton_Bot-4WD_hercules_mobile_robotic_platform.md
         - Skeleton Box: Skeleton_Box.md
         - Skeleton Box (10x7,10x10,17x10): Skeleton_Box_10x7_10x10_17x10.md
+        - Tricycle Bot: Tricycle_Bot.md
         - UartSBee V4: UartSBee_V4.md
         - UartSBee v5: UartSBee_v5.md
 
@@ -406,16 +408,6 @@ pages:
         - Grove Shield for Intel Joule: Grove_Shield_for_Intel_Joule.md
         - Grove Smart Plant Care Kit: Grove_Smart_Plant_Care_Kit.md
         - Intel® Edison and Grove IoT Starter Kit Powered by AWS: Intel_Edison_and_Grove_IoT_Starter_Kit_Powered_by_AWS.md
-        - Sidekick Basic Kit for Arduino V2: Sidekick_Basic_Kit_for_Arduino_V2.md
-        - Tricycle Bot: Tricycle_Bot.md
-
-
-- IoT:
-        - IoT Introduction: IoT.md
-        - BeagleBone Green: BeagleBone_Green.md
-        - BeagleBone Green Wireless: BeagleBone_Green_Wireless.md
-        - Seeeduino Cloud: Seeeduino_Cloud.md
-        - Seeeduino GPRS: Seeeduino_GPRS.md
 
 
 - Tutorial:

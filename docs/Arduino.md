@@ -45,10 +45,12 @@ Here is the list of the Seeeduino Boards you can find in the Seeed WiKi. The lis
 - [Seeeduino v4.2](/Seeeduino_v4.2/)
 - [Shield Bot V1.1](/Shield_Bot_V1.1/)
 - [Shield Bot V1.2](/Shield_Bot_V1.2/)
+- [Sidekick Basic Kit for Arduino V2](/Sidekick_Basic_Kit_for_Arduino_V2/)
 - [Sidekick Basic Kit for TI LaunchPad](/Sidekick_Basic_Kit_for_TI_LaunchPad/)
 - [Skeleton Bot - 4WD hercules mobile robotic platform](/Skeleton_Bot-4WD_hercules_mobile_robotic_platform/)
 - [Skeleton Box](/Skeleton_Box/)
 - [Skeleton Box (10x7,10x10,17x10)](/Skeleton_Box_10x7_10x10_17x10/)
+- [Tricycle Bot](/Tricycle_Bot/)
 - [UartSBee V4](/UartSBee_V4/)
 - [UartSBee v5](/UartSBee_v5/)
 

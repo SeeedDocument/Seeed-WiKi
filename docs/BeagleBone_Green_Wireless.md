@@ -1,6 +1,6 @@
 ---
 title: BeagleBone Green Wireless
-category: BeagleBone, IoT
+category: BeagleBone
 bzurl: https://www.seeedstudio.com/SeeedStudio-BeagleBone-Green-Wireless-p-2650.html
 oldwikiname: SeeedStudio_BeagleBone_Green_Wireless
 prodimagename: BBGW_cover.png
@@ -295,7 +295,7 @@ In **/boot/uEnv.txt**:
     ##enable Generic eMMC Flasher:
     ##make sure, these tools are installed: dosfstools rsync
     #cmdline=init=/opt/scripts/tools/eMMC/init-eMMC-flasher-v3.sh
-    
+
 Change to:
 
     ##enable Generic eMMC Flasher:

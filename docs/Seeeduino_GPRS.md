@@ -1,6 +1,6 @@
 ---
 title: Seeeduino GPRS
-category: Arduino,IoT
+category: Arduino
 bzurl: https://www.seeedstudio.com/Seeeduino-GPRS-p-1909.html
 oldwikiname: Seeeduino_GPRS
 prodimagename: seeeduino_gprs_cover.jpg

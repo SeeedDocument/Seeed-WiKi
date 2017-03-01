@@ -39,6 +39,4 @@ Here is the list of Grove Others Boards you can find in the Seeed WiKi. The list
 - [Grove Shield for Intel Joule](/Grove_Shield_for_Intel_Joule/)
 - [Grove Smart Plant Care Kit](/Grove_Smart_Plant_Care_Kit/)
 - [Intel® Edison and Grove IoT Starter Kit Powered by AWS](/Intel_Edison_and_Grove_IoT_Starter_Kit_Powered_by_AWS/)
-- [Sidekick Basic Kit for Arduino V2](/Sidekick_Basic_Kit_for_Arduino_V2/)
-- [Tricycle Bot](/Tricycle_Bot/)
 

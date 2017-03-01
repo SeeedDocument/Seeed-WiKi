@@ -1,8 +1,8 @@
 ---
 title: Tricycle Bot
-category: Others
+category: Arduino
 bzurl: https://www.seeedstudio.com/Grove-Button-p-766.html
-oldwikiname: 
+oldwikiname:
 prodimagename: 3.jpg
 surveyurl: https://www.research.net/r/65Y9KB8
 sku: 110070028
@@ -34,7 +34,7 @@ Further more, you can fix the Arduino board and breadboard as the heart of the r
 |Parts name|Specification|Quantity|
 |:---------|:-----------:|:------:|
 |Wheel     |Ф64mm*W30mm  |2       |
-|Deceleration DC Motor|/ |2       | 
+|Deceleration DC Motor|/ |2       |
 |Universal Wheel|49\*32\*22mm|1   |
 |Battery Holder|62\*58\*30mm|1    |
 |Binding Ties|20.5\*31.8mm|1      |
@@ -68,7 +68,7 @@ Further more, you can fix the Arduino board and breadboard as the heart of the r
 
 You could fix any boards you like on Tricycle Bot to drive this Robot Platform, such as Arduino, Raspberry Pi and BeagleBone. And to drive the DC motors and Grove modules, motor cape and Grove cape are good helper for you.
 
-As there are so many boards to choose, here we will make a introduction of how to choose the suitable board for you between Arduino, Raspberry and BeagleBone. 
+As there are so many boards to choose, here we will make a introduction of how to choose the suitable board for you between Arduino, Raspberry and BeagleBone.
 
 
 ##Work with Arduino
@@ -113,7 +113,7 @@ As an expansion board, Base Shield v2 has many Grove connectors, making it conve
 |[GET ONE NOW!](https://www.seeedstudio.com/Grove-Buzzer-p-768.html)|[GET ONE NOW!](https://www.seeedstudio.com/Grove-Serial-RF-Pro-p-794.html)|[GET ONE NOW!](https://www.seeedstudio.com/Grove-Serial-Bluetooth-v3.0-p-2475.html)|
 
 !!!Tip
-    Click on [Grove System](http://wiki.seeed.cc/Grove_System/) to get more available modules. 
+    Click on [Grove System](http://wiki.seeed.cc/Grove_System/) to get more available modules.
 
 ##Work with Raspberry Pi
 
@@ -125,7 +125,7 @@ The Raspberry Pi 3 has included integrated 802.11 b/g/n wireless LAN, Bluetooth 
 
 <div class="text-center">
 <img src="https://statics3.seeedstudio.com/seeed/img/2016-08/xuZp3Msf6xeHp96wPFjInzco.jpg" width="50%" height="50%">
-</div>	
+</div>
 
 
 ###[Raspberry Pi Motor Board v1.0](https://www.seeedstudio.com/Raspberry-Pi-Motor-Board-v1.0-p-2411.html)
@@ -134,7 +134,7 @@ Raspberry Pi Motor Board lets you drive two DC motors with your Raspberry Pi, co
 
 <div class="text-center">
 <img src="https://statics3.seeedstudio.com/images/product/103030031%201.jpg" width="50%" height="50%">
-</div>	
+</div>
 
 ###[GrovePi+](https://www.seeedstudio.com/GrovePi%2B-p-2241.html)
 
@@ -142,7 +142,7 @@ GrovePi+ is a system that brings Grove Modules to the Raspberry Pi. It adds supp
 
 <div class="text-center">
 <img src="https://statics3.seeedstudio.com/product/110060049%2010_03.jpg" width="50%" height="50%">
-</div>	
+</div>
 
 
 ###Recommendation Modules
@@ -153,7 +153,7 @@ GrovePi+ is a system that brings Grove Modules to the Raspberry Pi. It adds supp
 |[GET ONE NOW!](https://www.seeedstudio.com/300K-Pixel-USB-2.0-Mini-Webcam-p-1499.html)|[GET ONE NOW!](http://www.seeedstudio.com/Grove-OLED-Display-1.12%22-p-824.html)|[GET ONE NOW!](http://www.seeedstudio.com/depot/grove-gps-p-959.html)|
 
 !!!Tip
-    Click on [Grove System](http://wiki.seeed.cc/Grove_System/) to get more available modules. 
+    Click on [Grove System](http://wiki.seeed.cc/Grove_System/) to get more available modules.
 
 ##Work with BeagleBone Board
 
@@ -164,22 +164,22 @@ SeeedStudio BeagleBone Green Wireless is based on the open-source hardware desig
 
 <div class="text-center">
 <img src="https://github.com/SeeedDocument/BeagleBone_Green_Wireless/raw/master/images/BBGW_cover.png?raw=true" width="50%" height="50%">
-</div>	
+</div>
 
 ###[Motor Bridge Cape v1.0](https://www.seeedstudio.com/Motor-Bridge-Cape-p-2569.html)
 The Motor Bridge Cape can control two stepper motors or four brushed DC motors with 6~15V DC power and about 1A current draw per motor. It also has six servo control interfaces and six expand I\O, which means that you could expand one more robot arm on your robot car.  
-	
+
 <div class="text-center">
 <img src="https://raw.githubusercontent.com/SeeedDocument/Motor_Bridge_Cape_v1.0/master/img/Motor_bridge_driver.jpg" width="50%" height="50%">
-</div>	
+</div>
 
 
 ###[Grove Base Cape for BeagleBone v2](https://www.seeedstudio.com/Grove-Base-Cape-for-Beaglebone-v2.0-p-2644.html)
-Grove Base Cape for BeagleBone v2 is a Grove system expansion board for BeagleBone platform. This cape makes it convenient to connect many transducers (sensors and actuators) available as Grove modules with BeagleBone platform. 
+Grove Base Cape for BeagleBone v2 is a Grove system expansion board for BeagleBone platform. This cape makes it convenient to connect many transducers (sensors and actuators) available as Grove modules with BeagleBone platform.
 
 <div class="text-center">
 <img src="https://github.com/SeeedDocument/Grove_Base_Cape_for_BeagleBone_v2/raw/master/img/Grove_Base_Cape_for_BeagleBone_v2_product_view_1200.jpg" width="50%" height="50%">
-</div>	
+</div>
 
 
 ###Recommendation Grove Modules
@@ -195,7 +195,7 @@ Grove Base Cape for BeagleBone v2 is a Grove system expansion board for BeagleBo
 |[GET ONE NOW!](http://www.seeedstudio.com/Grove-OLED-Display-1.12%22-p-824.html)|[GET ONE NOW!](http://www.seeedstudio.com/Grove-Digital-Light-Sensor-p-1281.html)|[GET ONE NOW!](http://www.seeedstudio.com/depot/grove-gps-p-959.html)|
 
 !!!Tip
-    Click on [Grove System](http://wiki.seeed.cc/Grove_System/) to get more available modules. 
+    Click on [Grove System](http://wiki.seeed.cc/Grove_System/) to get more available modules.
 
 ##Simple Example
 
@@ -220,9 +220,9 @@ Here is a simple example of making a Tricycle Bot with Arduino UNO.
 </div>
 
 1. [Assemble the Tricycle Bot.](https://github.com/SeeedDocument/Tricycle_Bot/blob/master/Tricycle_Bot.md#assembly-introdutions)
-2. Fix the Grove modules on the shores and top plate. 
+2. Fix the Grove modules on the shores and top plate.
 3. Connect Grove Buzzer to **D4**, Grove Ultrasonic Ranger to **D5** and LED strip to **D6** of the Base Shield.
-4. Finish it! 
+4. Finish it!
 
 <div class="text-center">
 <img src="https://github.com/SeeedDocument/Tricycle_Bot/blob/master/img/6.jpg?raw=true" width="50%" height="50%">
@@ -363,9 +363,7 @@ void beep() {
     digitalWrite(BEE, LOW);
 }
 ```
-	
+
 ##Attachments
 
 * [Tricycle Bot Assembly Instructions(pdf)](https://github.com/SeeedDocument/Tricycle_Bot/blob/master/res/Tricycle%20Bot%20Assembly%20Instructions.pdf)
-
-

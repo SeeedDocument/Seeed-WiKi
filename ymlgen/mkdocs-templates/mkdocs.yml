@@ -60,10 +60,6 @@ pages:
         - Others Introduction: Others.md
 {{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Others") (eq $cat2 "Others") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
 
-- IoT:
-        - IoT Introduction: IoT.md
-{{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "IoT") (eq $cat2 "IoT") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
-
 - Tutorial:
         - Tutorial Introduction: Tutorial.md
 {{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Tutorial") (eq $cat2 "Tutorial") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
