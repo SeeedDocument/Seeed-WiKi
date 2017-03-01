@@ -112,7 +112,7 @@ The SPI pins (SCK, MISO, MOSI) is default to the ICSP pins. But for some Boards,
 -----
 
 Here's a simple demo to show you how CAN-BUS Shield works. In this demo we need 2 piece of CAN-BUS Shield as well as Arduino/Seeeduino.
-
+ 
 !!!note
     This demo is built under [Arduino IDE version 1.6.9](https://www.arduino.cc/download_handler.php?f=/arduino-1.6.9-windows.zip).
 
