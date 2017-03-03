@@ -19,7 +19,13 @@ The Grove - Gas Sensor(MQ5) module is useful for gas leakage detection (in home 
 The sensor value only reflects the approximated trend of gas concentration in a permissible error range, it DOES NOT represent the exact gas concentration. The detection of certain components in the air usually requires a more precise and costly instrument, which cannot be done with a single gas sensor. If your project is aimed at obtaining the gas concentration at a very precise level, then we do not recommend this gas sensor.
 </div>
 
-[![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](http://www.seeedstudio.com/depot/Grove-Gas-SensorMQ5-p-938.html)
+|Sensor|Gas Type|Get One Now|
+|:---:|---|---|---|
+|MQ2|Combustible Gas, Smoke|[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](http://wiki.seeed.cc/Grove-Gas_Sensor-MQ2/)|
+|MQ3|Alcohol Vapor|[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](http://wiki.seeed.cc/Grove-Gas_Sensor-MQ3/)|
+|MQ5|LPG, Natural Gas, Town Gas|[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](http://wiki.seeed.cc/Grove-Gas_Sensor-MQ5/)|
+|MQ9|Carbon Monoxide, Coal Gas, Liquefied Gas|[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](http://wiki.seeed.cc/Grove-Gas_Sensor-MQ9/)|
+
 
 Features
 --------

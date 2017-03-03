@@ -12,10 +12,6 @@ sku: 102110017
 
 LinkItTM Smart 7688 Duo(a compact controller board) is an open development board based on MT7688([datasheet](https://raw.githubusercontent.com/SeeedDocument/LinkIt_Smart_7688_Duo/master/res/MT7688_datasheet.pdf)) and ATmega32u4. The board is compatible with Arduino Yun sketches and is based on the OpenWrt Linux distribution. The board is designed especially to enable prototyping of Rich Application IoT devices for smart home or office[1]. As it is compatible well with Arduino, you can use different features from Arduino Yun and LinkIt Smart 7688 Duo[2]. This will help you build rich applications based on various, robust and compiled Arduino Yun sketches. The board offers you the memory and packet storage to enable robust video processing. The platform also offers options to create device applications in Python, Node.js and C programming languages.
 
-This board is only a part of MediaTek LinkItTM Smart 7688 platform which includes other development boards.
-
-Only one controller can be the main controller of the board at a time.
-
 
 !!!Note
     * This page only guides you to get started with this development board. For a complete guide, please refer to Resources.
@@ -25,7 +21,7 @@ Only one controller can be the main controller of the board at a time.
 
 [![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now.png)](https://www.seeedstudio.com/LinkIt-Smart-7688-Duo-p-2574.html)  
 
-##Features
+## Features
 
 * 580 MHz MIPS CPU
 * Single input single output(1T1R) Wi-Fi 802.11 b/g/n (2.4G)
@@ -35,14 +31,14 @@ Only one controller can be the main controller of the board at a time.
 * Micro SD slot
 * Support for Arduino API (ATmega32U4)
 
-##Application ideas
+## Application ideas
 
 * IoT/Gateway Device
 * Robotics
 * Teaching and learning
 
 
-##Specification
+## Specification
 
 * MPU
     * Chipset: MT7688AN
@@ -87,35 +83,35 @@ Only one controller can be the main controller of the board at a time.
 * User Storage: SD Card	Micro SD/SDXC
 * Size: 60.8x26.0mm
 
-##Hardware Overview
+## Hardware Overview
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/LinkIt_Smart_7688_Duo/master/img/Front_component_view_with_text_1200_s.jpg)
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/LinkIt_Smart_7688_Duo/master/img/7688_duo_backview_with_text_1200.jpg)
 
-##Getting started
+## Getting started
 
-###Connecting to the embedded operating system
+### Connecting to the embedded operating system
 
 !!!Note
     There are two ways described in the manual. In this case, we only show an advanced method (using USB to Serial adapter) which might seem a little harder. But, you will benefit a lot from it in the long run.
 
-####Materials required
+#### Materials required
 
 * LinkIt Smart 7688 x 1
 * USB cable (type A to micro type-B) x 1
 * USB to Serial adapter x 1
 * Jumper wires x 3
 
-###On Windows
+### On Windows
 
-**1.**Install PuTTy. PuTTY provides a system console environment using SSH (Secure Socket Shell) to access development board's operating system.
+**1.**Install [PuTTy](http://www.putty.org/). PuTTY provides a system console environment using SSH (Secure Socket Shell) to access development board's operating system.
 
 **2.**Install [Bonjour](https://support.apple.com/kb/DL999?viewlocale=en_US&locale=en_US) Print Service (For Windows 7, Windows 8, Windows 10).
 
 **3.**Install driver. If you are using a USB cable based on FTDI chip please download and install its driver from [here](http://www.ftdichip.com/Drivers/VCP.htm). If you are having problems with the latest driver, try installing an [older version](http://www.ftdichip.com/Support/Documents/InstallGuides.htm).
 
-**4.**Next, you will need to connect the Serial to USB cable to LinkIt Smart 7688's UART pins as shown in the following table:
+**4.**Next, you need to connect the Serial-to-USB cable to LinkIt Smart 7688's UART pins as shown in the following table:
 
 
 | Pin on USB adapter |	Corresponding Pin to be connected on LinkIt Smart 7688 |
@@ -136,7 +132,7 @@ Only one controller can be the main controller of the board at a time.
 
 **7.**To exit the system console, click the **close icon** on top right of the PuTTY windows.
 
-###On Mac
+### On Mac
 
 **1.**Install the driver if needed. Check the cable manufacturer's website for driver requirements on Mac and installation instructions.
 
@@ -171,7 +167,7 @@ $screen /dev/cu.usbserial-XXXXXXXX 57600
 ```
 **7.**You are ready to make changes to the LinkIt Smart 7688 system through this console.
 
-###On Linux
+### On Linux
 
 **1.**Install the driver if needed. Check the cable manufacturer's website for driver requirements on Linux and installation instructions.
 
@@ -194,16 +190,16 @@ $sudo screen /dev/ttyUSB0 57600
 ```
 **7.**You are ready to make changes to the LinkIt Smart 7688 system through this console.
 
-###Running the Blink example
+### Running the Blink example
 
-####Materials Required
+#### Materials Required
 
 * LinkIt Smart 7688 x 1
 * USB cable (type A to micro type-B) x 1
 * USB to Serial adapter x 1
 * Jumper wires x 3
 
-####Get Blink RUN
+#### Get Blink RUN
 
 **1.**Power up your board with a micro-USB cable (only connect the USB Power interface, rather than the USB Host interface).
 
@@ -220,9 +216,9 @@ $sudo screen /dev/ttyUSB0 57600
 
 **5.**In the system console, type **CTRL + C**, this will terminate the example.
 
-###Connect to the Internet (Switch to Station mode)
+### Connect to the Internet (Switch to Station mode)
 
-There are two Wi-Fi modes, i.e. AP mode and Station mode. Refer this for the differences between them.
+There are two kind of Wi-Fi modes: AP mode and Station mode. Refer here for the differences between them.
 
 **1.**Power up the board with a micro-USB cable.
 
@@ -256,17 +252,17 @@ There are two Wi-Fi modes, i.e. AP mode and Station mode. Refer this for the dif
 **9.**Now you can use internet to configure your system on development board.
 
 
-###Installing Arduino programming environment
+### Installing Arduino programming environment
 
-This development board has features that are compatible with Arduino. So you can transfer your Arduino code to 7688 platforms which makes prototyping process quicker. In this section, we will show you how to build an Arduino programming environment.
+This development board has features that are compatible with Arduino. So you can apply your Arduino code to 7688 platforms which makes prototyping process quicker. In this section, we will show you how to build an Arduino programming environment.
 
-####Download and install Arduino IDE
+#### Download and install Arduino IDE
 
 You can [install Arduino IDE 1.6.5](https://www.arduino.cc/en/Main/Software) on your computer.
 
 Configure Arduino IDE for LinkIt Smart 7688 Platform
 
-####Installing developed board support package
+#### Installing developed board support package
 
 Arduino IDE 1.6.5 supports third party board integration using the **Board Manager** tool. LinkIt Smart 7688 development board is a plug-in to Arduino IDE and you will need to install the board package so that Arduino supports LinkIt board. Please follow the steps below:
 
@@ -292,7 +288,7 @@ http://download.labs.mediatek.com/package_mtk_linkit_smart_7688_test_index.json
 
 **5.**The installation is completed.
 
-###Installing LinkIt Smart 7688 Duo COM Port Driver
+### Installing LinkIt Smart 7688 Duo COM Port Driver
 
 After installing the board package, connect LinkIt Smart 7688 Duo to your computer and you should see a USB serial COM port in the device manager with the following port ID:
 

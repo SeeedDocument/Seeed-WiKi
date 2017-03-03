@@ -140,21 +140,21 @@ And you need a dc motor or a stepper for testing.
 
 ### Download the library
 
-Click the below button to download the library. If the library you had download include "**-master**", please remove it.
+Click below button to download the library. If the library you download includes "**-master**", please remove it.
 
 [![](https://raw.githubusercontent.com/SeeedDocument/Motor_Shield_V2.0/master/image/400px-Motor_shield_v2_library.png)](https://github.com/Seeed-Studio/SeeedMotorShieldV2)
 
 ### Drive a DC Motor
-You can drive 2 DC motor with this shield. Here I will show you how to drive a DC motor.
+This section will show you how to drive a DC motor with this module.
 ![](https://raw.githubusercontent.com/SeeedDocument/Motor_Shield_V2.0/master/image/400px-Electric_motor_cycle_2.png)
 
 You need to do some preparing first:
 
 - Set **SEN_A** and **SEN_B**, connect the left 2 pins together with a jumper.
-- Connect **MB_EN** together with a jumper, as we are no going use an external power.
+- Connect **MB_EN** together with a jumper, as we are not going use an external power.
 - Connect your DC motor to Chanel 0 (OUT1 and OUT2).
 
-Then open **motor_dc** example in the library. Upload the code to Seeeduino V4.2.
+Then open **motor_dc** example in the library. Upload the code to Seeeduino V4.
 
 ```
 //  Demo function:The application method to drive the DC motor.
@@ -186,20 +186,20 @@ void loop()
 ```
 Then you will find your motor move (1s), stop (1s), move back (1s), stop (1s), and loop.
 
-If there's nothing happen, please make sure:
+If nothing happens, please make sure:
 
-- You had uploaded the code successfully
-- Your motor connect right
+- You have uploaded the code successfully
+- Your motor is connecting properly
 - The led indicators blink right
 
 ### Drive a Stepper
-You can drive a 4-wire stepper with this shield. Here I will show you how to drive a [ stepper ](https://en.wikipedia.org/wiki/Stepper_motor)
+This section will show you how to drive a [stepper](https://en.wikipedia.org/wiki/Stepper_motor) with this module.
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Motor_Shield_V2.0/master/image/400px-StepperMotor.gif)
 
 You need to do some preparing first:
 - Set **SEN_A** and **SEN_B**, connect the left 2 pins together with a jumper.
-- Connect **MB_EN** together with a jumper, as we are no going to use an external power.
+- Connect **MB_EN** together with a jumper, as we are not going to use an external power.
 
 Find the pin definitions of you stepper, and connect it to the OUTPUT of the shield. As below:
 
@@ -257,7 +257,7 @@ void loop()
 
 // END FILE
 ```
-If there's nothing happen, please double check if you had connected the wire right.
+If nothing happens, please double check if you have connected the wire right.
 
 ## Library APIs
 

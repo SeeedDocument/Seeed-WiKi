@@ -19,7 +19,13 @@ The Grove - Gas Sensor(MQ3) module is useful for gas leakage detection (in home 
 The sensor value only reflects the approximated trend of gas concentration in a permissible error range, it DOES NOT represent the exact gas concentration. The detection of certain components in the air usually requires a more precise and costly instrument, which cannot be done with a single gas sensor. If your project is aimed at obtaining the gas concentration at a very precise level, then we do not recommend this gas sensor.
 </div>
 
-[![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](http://www.seeedstudio.com/depot/Grove-Gas-SensorMQ3-p-1418.html)
+|Sensor|Gas Type|Get One Now|
+|:---:|---|---|---|
+|MQ2|Combustible Gas, Smoke|[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](http://wiki.seeed.cc/Grove-Gas_Sensor-MQ2/)|
+|MQ3|Alcohol Vapor|[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](http://wiki.seeed.cc/Grove-Gas_Sensor-MQ3/)|
+|MQ5|LPG, Natural Gas, Town Gas|[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](http://wiki.seeed.cc/Grove-Gas_Sensor-MQ5/)|
+|MQ9|Carbon Monoxide, Coal Gas, Liquefied Gas|[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](http://wiki.seeed.cc/Grove-Gas_Sensor-MQ9/)|
+
 
 Features
 --------
@@ -86,7 +92,7 @@ void setup() {
 }
  
 void loop() {
-  float sensor_volt; 
+  float sensor_volt;
   float sensorValue;
  
   sensorValue = analogRead(A0);
@@ -106,12 +112,12 @@ This examples demonstrates a way to know the approximate concentration of Gas. A
 1. Keep the Gas Sensor in clean air environment. Upload the program below.
 
 ```
-void setup() 
+void setup()
 {
     Serial.begin(9600);
 }
 
-void loop() 
+void loop()
 {
     float sensor_volt;
     float RS_air; //  Get the value of RS via in a clear air
@@ -199,5 +205,5 @@ Resources
 **Datasheet**
 
 -   [MQ-3 Datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-Gas_Sensor-MQ3/master/res/MQ-3.pdf)
-  
+
 <!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_Gas_Sensor(MQ3) -->

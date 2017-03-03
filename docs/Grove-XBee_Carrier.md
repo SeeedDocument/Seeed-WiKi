@@ -217,7 +217,7 @@ void loop() {
 
 ##  Resources
 ---
-*   [Grove - XBee Carrier  Eagle Files](http://garden.seeedstudio.com/images/4/4c/Bee_Stem_v0.9b_EagleFiles.zip)
+*   [Grove - XBee Carrier  Eagle Files](https://github.com/SeeedDocument/Grove-XBee_Carrier/raw/master/res/PCBA-Grove%20XBee%20Carrier_Eagle.rar)
 
 *   [Grove - XBee Carrier PDF schematics file](https://github.com/SeeedDocument/Grove-XBee_Carrier/raw/master/res/Bee_Stem_v0.9b.pdf)
 
