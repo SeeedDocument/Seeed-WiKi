@@ -1,25 +1,17 @@
 ---
 title: GrovePi+
-category: MakerPro
+category: Raspberry Pi
 bzurl: https://www.seeedstudio.com/GrovePi%2B-p-2241.html
 oldwikiname:  GrovePi+
 prodimagename:  GrovePi_Wiki_1.JPG
 surveyurl: https://www.research.net/r/GrovePi_plus
 sku:     103010002
 ---
-|![](https://github.com/SeeedDocument/GrovePi_Plus/raw/master/img/GrovePi_Wiki_1.JPG)|![](https://github.com/SeeedDocument/GrovePi_Plus/raw/master/img/GrovePi_Wiki_2.JPG)
-|---|---|---|
+![](https://github.com/SeeedDocument/GrovePi_Plus/raw/master/img/110060049%2010_02.jpg)
 
-[GrovePi](http://www.dexterindustries.com/GrovePi/) is a system that brings [Grove Sensors](/GROVE_System "GROVE System") to the [Raspberry Pi](http://www.seeedstudio.com/depot/s/Raspberry%2520Pi.html?search_in_description=0).
-
-GrovePi+ is a new version of [GrovePi](http://www.seeedstudio.com/depot/GrovePi-p-1672.html).
-
+[GrovePi](http://www.dexterindustries.com/GrovePi/) is an add-on board that brings [Grove Sensors](/GROVE_System "GROVE System") to the [Raspberry Pi](http://www.seeedstudio.com/depot/s/Raspberry%2520Pi.html?search_in_description=0). As a new version of [GrovePi](http://www.seeedstudio.com/depot/GrovePi-p-1672.html).
 It adds support for the newly RaspberryPi Model B+ and Model A+.
-
-There are three mounting holes can perfect match all version of Raspberry Pi.
-
-Camera cable outlet hole.
-
+There are three mounting holes can perfect match all version of Raspberry Pi. Camera cable outlet hole.
 It also improves the voltage level converting sub circuits.
 
 ##   Features
@@ -44,7 +36,7 @@ If you want to know more about how it works, you can find all the design files i
 
 ###   Connect the GrovePi to the Raspberry Pi
 
-<dl><dd>First, mount your GrovePi on the Raspberry Pi.  The GrovePi slides over top of the Raspberry Pi as shown in the picture below.
+First, mount your GrovePi on the Raspberry Pi.  The GrovePi slides over top of the Raspberry Pi as shown in the picture below.
 
 ![](https://github.com/SeeedDocument/GrovePi_Plus/raw/master/img/GrovePiPlus_wiki_3.jpg)
 
@@ -52,7 +44,7 @@ If you want to know more about how it works, you can find all the design files i
 
 
 Ensure that the pins are properly aligned when stacking the GrovePi.
-</dd></dl>
+
 
 ###   Setup the Software on the Raspberry Pi
 
@@ -67,8 +59,10 @@ Next we will install the software on the Raspberry Pi. There are two options for
 *   Download the Brick Pi Image and install the image on your SD card. [Here is the link to the BrickPi Page with steps to configure the SD card](http://www.dexterindustries.com/BrickPi/getting-started/pi-prep/).  You will need a minimum of 4GB SD Card for this installation.
 
 *   Clone the Github repository at an appropriate location in Raspbian
-<pre>   git clone [https://github.com/DexterInd/GrovePi.git](https://github.com/DexterInd/GrovePi.git)
-</pre>
+
+```
+git clone https://github.com/DexterInd/GrovePi.git
+```
 
 *   Run the bash script in the Scripts folder to configure the Raspbian. [Here is the tutorial for setting up with the Script.](http://www.dexterindustries.com/GrovePi/get-started-with-the-grovepi/setting-software/)
 
@@ -77,8 +71,10 @@ Next we will install the software on the Raspberry Pi. There are two options for
 **Configuring your own image**
 
 *   Clone the Github repository at an appropriate location
-<pre>   git clone [https://github.com/DexterInd/GrovePi.git](https://github.com/DexterInd/GrovePi.git)
-</pre>
+
+```
+git clone https://github.com/DexterInd/GrovePi.git
+```
 
 *   Run the bash script in the Scripts folder to configure the Raspbian. [here](http://www.dexterindustries.com/GrovePi/get-started-with-the-grovepi/setting-software/) is the tutorial for setting up with the Script.
 

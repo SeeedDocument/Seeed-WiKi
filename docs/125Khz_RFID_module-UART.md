@@ -176,6 +176,6 @@ void loop()
 
 ##   Resources
 
-*   Datasheet: [RDM630-Spec.pdf](http://www.seeedstudio.com/depot/datasheet/RDM630-Spec..pdf)
+*   Datasheet: [RDM630-Spec.pdf](https://github.com/SeeedDocument/125Khz_RFID_module-UART/raw/master/res/RDM630-Spec.pdf)
 
 *   [How to connect Arduino and RFID](http://www.instructables.com/id/Arduino-and-RFID-from-seeedstudio/)

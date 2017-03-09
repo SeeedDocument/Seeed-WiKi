@@ -38,12 +38,12 @@ If you have questions or other better design ideas, you can go to our [forum](ht
 
 ## Resources
 
-- Demo Scheme
-- VirtualWire 1.3
-- Documentation For 1.3
-- example from sparkfun
-- example running rf modules
-- TX module schematic
+- [Demo Scheme](https://github.com/SeeedDocument/433Mhz_RF_Link_Kit/raw/master/res/315MRFlink.pdf)
+- [VirtualWire 1.3](https://github.com/SeeedDocument/433Mhz_RF_Link_Kit/raw/master/res/VirtualWire.rar)
+- [Documentation For 1.3](https://github.com/SeeedDocument/433Mhz_RF_Link_Kit/raw/master/res/VirtualWire.pdf)
+- [example from sparkfun](https://github.com/SeeedDocument/433Mhz_RF_Link_Kit/raw/master/res/KLP_Walkthrough.pdf)
+- [example running rf modules](http://winavr.scienceprog.com/example-avr-projects/running-tx433-and-rx433-rf-modules-with-avr-microcontrollers.html)
+
 
 ## Licensing
 

@@ -38,7 +38,7 @@ The Motor Shield is a driver module for motors that allows you to use Arduino to
 |:------|:-----------------|
 |Operating Voltage   |	5V |
 |External Power	|6-15V  |
-|Output Current 	|2.0A Max @ Each Channel   |
+|Output Current 	|2.0A Max @ Each Channel  |
 |PWM Range	 |0-100% |
 |Output    |2 Channels, 4 Ports|
 

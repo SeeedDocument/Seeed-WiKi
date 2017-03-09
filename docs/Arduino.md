@@ -21,7 +21,7 @@ Here is the list of the Seeeduino Boards you can find in the Seeed WiKi. The lis
 - [4WD Mecanum Wheel Robot Kit Series](/4WD_Mecanum_Wheel_Robot_Kit_Series/)
 - [Basic Fastener Kit](/Basic_Fastener_Kit/)
 - [Galileo Case](/Galileo_Case/)
-- [Grove Maker Kit for Intel Joule](/Grove Maker Kit for Intel Joule/)
+- [Grove Maker Kit for Intel Joule](/Grove_Maker_Kit_for_Intel_Joule/)
 - [Grove Speech Recognizer Kit for Arduino](/Grove_Speech_Recognizer_Kit_for_Arduino/)
 - [Grove Starter kit for Arduino&amp;Genuino 101](/Grove_Starter_kit_for_Arduino_101/)
 - [Hercules Dual 15A 6-20V Motor Controller](/Hercules_Dual_15A_6-20V_Motor_Controller/)

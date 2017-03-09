@@ -10,11 +10,11 @@ sku: 102010026
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_LoRa/master/img/cover.png)
 
-Seeeduino LoRaWAN is an Arduino development board with LoRaWan protocol embedded, through which you can get started quickly to experience LoRa's advantage in the field of IoT. Based on the communication module RHF76-052AM, Seeeduino LoRaWAN is compatible with LoRaWAN Class A/C and supports a variety of communication frequencies. 
+Seeeduino LoRaWAN is an Arduino development board with LoRaWan protocol embedded, through which you can get started quickly to experience LoRa's advantage in the field of IoT. Based on the communication module RHF76-052AM, Seeeduino LoRaWAN is compatible with LoRaWAN Class A/C and supports a variety of communication frequencies.
 
-The 4 onboard standard Grove connectors allow Seeeduino LoRaWan to connect with hundreds of Grove sensors and actuators from Seeedstudio conveniently, as a result, users are able to be more focus on the application itself without worrying about the compatibility issue between different modules. In addition, the board has embedded an integrated lithium battery management chip that allows the board to be charged by USB interface. In low consumption mode, a full charged lithium battery can power the board for several months. 
+The 4 onboard standard Grove connectors allow Seeeduino LoRaWan to connect with hundreds of Grove sensors and actuators from Seeedstudio conveniently, as a result, users are able to be more focus on the application itself without worrying about the compatibility issue between different modules. In addition, the board has embedded an integrated lithium battery management chip that allows the board to be charged by USB interface. In low consumption mode, a full charged lithium battery can power the board for several months.
 
-If you want to build an IoT application quickly, Seeeduino LoRaWAN is your best choice. 
+If you want to build an IoT application quickly, Seeeduino LoRaWAN is your best choice.
 
 |Product Version|Released Date | How to Buy|
 |-------|-------------|----------|
@@ -94,7 +94,7 @@ If you want to build an IoT application quickly, Seeeduino LoRaWAN is your best 
 !!!Tip
     Use Grove modules to expand your application
 
-There are 4 Grove connects on board. If this is your first time to hear about Grove, please put had on [Grove System](http://wiki.seeed.cc/Grove_System/) for more details. 
+There are 4 Grove connects on board. If this is your first time to hear about Grove, please put had on [Grove System](http://wiki.seeed.cc/Grove_System/) for more details.
 In brief, Groves is hundreds of sensor that in standard style, which is consist of sensors, actuators, displays as well as communication.
 
 ##Hardware Overview
@@ -201,7 +201,7 @@ Then click on the **Upload** button on the left-top of Arduino IDE, seconds late
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_LoRa/master/img/blink2.png)
 
-If the uploading is success, you should the some info in red and please the on-board LED, it's blinking. 
+If the uploading is success, you should the some info in red and please the on-board LED, it's blinking.
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_LoRa/master/img/blink3.png)
 
@@ -210,9 +210,9 @@ If the uploading is success, you should the some info in red and please the on-b
 You can power the board via a 3.7V Lipo battery. There's a JST2.0 cable included, use it if you can't get a battery with JST2.0 connector.
 
 !!!Warning
-    Make sure the positive and negative end of your battery is connected right, otherwise the board may be damaged. 
+    Make sure the positive and negative end of your battery is connected right, otherwise the board may be damaged.
 
-Charge status pin and positive pin of the battery had beed connect to A4 and A5, which allow you to detect the charge status and measure voltage of the battery via coding. 
+Charge status pin and positive pin of the battery had beed connect to A4 and A5, which allow you to detect the charge status and measure voltage of the battery via coding.
 
 Copy and upload the below code to detect the battery status.
 
@@ -230,7 +230,7 @@ void setup() {
 void loop() {
 
     int a = analogRead(pin_battery_voltage);
-    float v = a/1023.0*3.3*11.0;        // there's an 1M and 100k resistor divider 
+    float v = a/1023.0*3.3*11.0;        // there's an 1M and 100k resistor divider
     SerialUSB.print(v, 2);
     SerialUSB.print('\t');
     SerialUSB.println(digitalRead(pin_battery_status));
@@ -240,14 +240,14 @@ void loop() {
 ```
 !!!Note
     Charge status return 0 while charging, return 1 while charge done or no battery insert.
-    
+
 ##Send and Receive Example
 
 There is a well written library for the LoRaWAN modules, for simple applications you even don't need to know much about the protocol about LoRa, which is complex and hard to read.
 And please note that you till need some acknowledge about LoRa protocol if you want an advanced application.
 You don't need to download the library, it's included in the package already. You can open it at **File > Examples > LoRaWAN**.
 
-You need 2 piece of Seeeduino LoRaWAN to complete this example, one for sending and another for receiving. 
+You need 2 piece of Seeeduino LoRaWAN to complete this example, one for sending and another for receiving.
 
 ###Sending
 
@@ -255,7 +255,7 @@ Open your Arduino IDE and click on **File > Examples > LoRaWAN > p2p_tx** to ope
 This sketch will broadcast a string "Hello World!" every 3000 ms.
 
 ```
-// Seduino LoRaWAN - TX example 
+// Seduino LoRaWAN - TX example
 #include <LoRaWan.h>
 
 void setup(void)
@@ -335,9 +335,9 @@ We had provide many useful examples. You can open **File > Examples > LoRaWan** 
 ##GPS Data
 
 !!!Note
-    This chapter works with Seeeduino LoRaWAN W/GPS only. 
+    This chapter works with Seeeduino LoRaWAN W/GPS only.
 
-Copy below code you Seeeduino LoRaWAN W/GPS. 
+Copy below code you Seeeduino LoRaWAN W/GPS.
 
 ```
 void setup()
@@ -362,15 +362,15 @@ void loop()
 Open Serial Monitor then you will get data from GPS.
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_LoRa/master/img/gps.png)
-    
+
 ##Low Power
 
-The minimum current is 80uA(for Seeeduino LoRaWAN) under our testing. 
+The minimum current is 80uA(for Seeeduino LoRaWAN) under our testing.
 Please follow below steps.
 
 1. Remove PWR LED (If you don't remove this LED, the current will > 2mA)
 2. Remove CHG LED
-3. Upload below code to your board. 
+3. Upload below code to your board.
 
 ```
 #include <LoRaWan.h>
@@ -418,10 +418,10 @@ void dummy(void)
 
 // END File
 ```
-    
+
 ##Update firmware
 
-The firmware version of is 2.0.10, if you want to update firmware, few steps need to follow. 
+The firmware version of is 2.0.10, if you want to update firmware, few steps need to follow.
 
 If you want to check version of you board, please upload below code to your board.
 
@@ -444,7 +444,7 @@ void loop()
     }
 }
 ```
-Open your Serial Monitor and INPUT 
+Open your Serial Monitor and INPUT
 ```
 AT+VER
 ```
@@ -480,8 +480,6 @@ void loop()
 
 ```
 
-Input ***AT+VER*** to get the version of your board. If it's not the most recent version, please following below steps to upgrade it.
-
 **Step2**
 
 Remove the board form USB and reconnect again, then press the DFU Button, after the Firmware mode led blinking you can go to the next step.
@@ -500,11 +498,11 @@ Open PuTTy and connect to the board
 
 !!!Tip
     You can find the latest PuTTy here: [http://www.extraputty.com/download.php](http://www.extraputty.com/download.php)
-    
+
 **Step5**
 
 After connect your board to PuTTy successful, you will find the char 'C' print on the monitor continually.
-Click on **Files Transfer > Ymodem > Send**, and select the .bin file we had downloaded at Step4. 
+Click on **Files Transfer > Ymodem > Send**, and select the .bin file we had downloaded at Step4.
 
 Then the updating is started.
 ![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_LoRa/master/img/firmware_4.png)

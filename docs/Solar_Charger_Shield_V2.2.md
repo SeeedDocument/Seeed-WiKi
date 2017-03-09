@@ -89,11 +89,11 @@ Solar_Charger_Shield_v2.2_inputs.jpg
 
 ##   Testing the solar shield with a simple arduino program
 ---
-Short R7 using a 0ohm resistor as shown in the figure:
+This section will teach you how to measure the voltage of Lipo Battery.
+
+In order to connect the VBAT pin to Analog pin A0, so that we can read the data from A0 pin, we need to  Short R7 using a 0ohm resistor as shown in the figure
 
 ![](https://github.com/SeeedDocument/Solar_Charger_Shield_V2.2/raw/master/img/Solar_Charger_Shield_v2.2_shortR7.jpg)
-
-Img Solar_Charger_Shield_v2.2_shortR7.jpg
 
 ###   Programming Example
 

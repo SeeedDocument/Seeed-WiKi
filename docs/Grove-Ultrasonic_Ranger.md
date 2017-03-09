@@ -21,15 +21,18 @@ This Grove - Ultrasonic sensor is a non-contact distance measurement module whic
 |Parameter|	Value/Range|
 |:------|:------------------|
 |Operating voltage|	3.3~5V|
-|Operating current|	15mA|
-|Ultrasonic frequency|	42kHz|
-|Measuring range|	3-400cm|
+|Operating current|	8mA|
+|Ultrasonic frequency|	40kHz|
+|Measuring range|	2-350cm|
 |Resolution|	1cm|
-|Output|	PWM|
+|Output|PWM|
+|Size|L50*W25*H16|
+|Weight|13g|
+
 
 !!!Tip
     More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
-    
+
 ## Get Started
 ---
 Connect Serial LCD to D4/D5 pins of Grove - Base Shield and connect Ultrasonic Ranger to D7.

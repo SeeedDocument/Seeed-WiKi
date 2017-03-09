@@ -62,7 +62,6 @@ Here is the list of the MakerPro Boards you can find in the Seeed WiKi. The list
 - [G3/4 Water Flow sensor](/G3-4_Water_Flow_sensor/)
 - [GPS Bee kit](/GPS_Bee_kit/)
 - [Grove - Base Shield for IOIO-OTG](/Grove-Base_Shield_for_IOIO-OTG/)
-- [GrovePi&#43;](/GrovePi_Plus/)
 - [LCD 16*2 Characters- Green Yellow back light](/LCD_16-2_Characters-Green_Yellow_back_light/)
 - [LCD 8*2 Characters- Blue back light](/LCD_8-2_Characters-Blue_back_light/)
 - [LoNet 808 - Mini GSM/GPRS &#43; GPS Breakout](/LoNet_808-Mini_GSM_GPRS_Plus_GPS_Breakout/)

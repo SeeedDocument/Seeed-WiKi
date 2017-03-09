@@ -106,7 +106,7 @@ Connect the Arduino board to your computer using the USB cable. The green power 
 
 [![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/download_driver_for_seeeduino_lotus.png)](https://github.com/SeeedDocument/Seeeduino_Lotus/raw/master/res/CH341SER.EXE)
 
-Double click on the driver and Install it. 
+Double click on the driver and Install it.
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/driver_install.png)
 
@@ -163,7 +163,7 @@ A few seconds after the upload finishes, you should see the pin 13 (L) LED on th
 
 * **Schematic**
     * [Seeeduino Lotus Eagle file](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/res/Seeeduino_Lotus_v1.0_Sch.zip)
-    * [Seeeduino Lotus PDF file](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/res/Seeeduino_lotus_bootloader.zip)
+    * [Seeeduino Lotus PDF file](https://github.com/SeeedDocument/Seeeduino_Lotus/raw/master/res/Seeeduino_Lotus_v1.0_pdf.pdf)
 
 * **Datasheet**
     * [ATmega328P](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/res/ATmega328.pdf)

@@ -157,6 +157,7 @@ Resources
 ---------
 
 - [Grove - MOSFET Eagle File](https://raw.githubusercontent.com/SeeedDocument/Grove-MOSFET/master/res/Grove-MOSFET_Eagle_File.zip)
+- [Grove - MOSFET Schematic PDF](https://github.com/SeeedDocument/Grove-MOSFET/raw/master/res/Grove%20-%20MOSFET%20.pdf)
 - [CJQ4435 Datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-MOSFET/master/res/CJQ4435.pdf)
 - [MOSFET Wikipedia](http://en.wikipedia.org/wiki/MOSFET)
 
