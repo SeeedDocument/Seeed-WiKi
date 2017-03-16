@@ -23,7 +23,7 @@ This 14.8-Volt DC framework miniature solenoid is for instantaneous power work a
 
 ##   Application Ideas
 
-<div class="center"><div class="floatnone">![](https://github.com/SeeedDocument/DC_framework_miniature_solenoid_VL-0063/raw/master/img/HCNE1-0520-2-.jpg)</div></div>
+![](https://github.com/SeeedDocument/DC_framework_miniature_solenoid_VL-0063/raw/master/img/HCNE1-0520-2-.jpg)</div></div>
 
 *   Vending machines, ticket vending machines,money exchange machine
 *   Office equipment: fax machines, punch card machines, copiers, typewriters, cash registers, plotters
@@ -33,7 +33,7 @@ This 14.8-Volt DC framework miniature solenoid is for instantaneous power work a
 
 ##   Specifications
 
-<div class="center"><div class="floatnone">![](https://github.com/SeeedDocument/DC_framework_miniature_solenoid_VL-0063/raw/master/img/VL-0063.jpg)</div></div>
+![](https://github.com/SeeedDocument/DC_framework_miniature_solenoid_VL-0063/raw/master/img/VL-0063.jpg)</div></div>
 
 Operating conditions:
 

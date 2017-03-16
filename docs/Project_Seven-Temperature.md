@@ -38,10 +38,8 @@ void loop()
   ctemperature=1/(log(resistance/10000)/B+1/298.15)-273.15;
   ftemperature=ctemperature*9/5+32;
   Serial.print(ctemperature);
-  Serial.write(186);
   Serial.print("C ");
   Serial.print(ftemperature);
-  Serial.write(186);
   Serial.println("F");
   delay(del);
 }

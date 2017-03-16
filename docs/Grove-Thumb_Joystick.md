@@ -7,7 +7,7 @@ prodimagename: Bgjoy1.jpg
 bzprodimageurl: http://statics3.seeedstudio.com/images/product/bgjoy1.jpg
 surveyurl: https://www.research.net/r/Grove-Thumb_Joystick
 sku: 101020028
-tags: grove_analog, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg
+tags: grove_analog, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg，plat_pi
 ---
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Thumb_Joystick/master/img/Bgjoy1.jpg)
@@ -35,7 +35,7 @@ Application Ideas
 
 ###Project - 2048 Game
 
-This is a Pi game project which is consists of Gorve - Thumb Joystick. Click on the images below to get more information about this project. 
+This is a Pi game project which is consists of Gorve - Thumb Joystick. Click on the images below to get more information about this project.
 
 [![](https://raw.githubusercontent.com/SeeedDocument/Grove-Thumb_Joystick/master/img/pi_game.jpg)](http://www.instructables.com/id/DIY-a-Raspberry-Game-2048/)
 
@@ -66,7 +66,7 @@ The Grove - Thumb Joystick is an analog device that outputs analog signal rangin
 3.Connect Arduino to PC by using a USB cable.
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Thumb_Joystick/master/img/Grove-Thumb_Joystick.jpg)
 
-4.Copy and paste code below to a new Arduino sketch. 
+4.Copy and paste code below to a new Arduino sketch.
 
 ```
 /*
@@ -75,16 +75,16 @@ The Grove - Thumb Joystick is an analog device that outputs analog signal rangin
   connect the module to A0&A1 for using;
 */
 
-void setup() 
+void setup()
 {
     Serial.begin(9600);
 }
 
-void loop() 
+void loop()
 {
     int sensorValue1 = analogRead(A0);
     int sensorValue2 = analogRead(A1);
-    
+
     Serial.print("The X and Y coordinate is:");
     Serial.print(sensorValue1, DEC);
     Serial.print(",");
