@@ -7,7 +7,7 @@ prodimagename: Bgjoy1.jpg
 bzprodimageurl: http://statics3.seeedstudio.com/images/product/bgjoy1.jpg
 surveyurl: https://www.research.net/r/Grove-Thumb_Joystick
 sku: 101020028
-tags: grove_analog, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg
+tags: grove_analog, io_3v3, io_5v, plat_duino,plat_pi
 ---
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Thumb_Joystick/master/img/Bgjoy1.jpg)
@@ -31,13 +31,13 @@ Application Ideas
 -----------------
 
 -   Game Controller
--   Robot remote
+-   Robot remote control
 
-###Project - 2048 Game
+###[Project - 2048 Game](http://www.instructables.com/id/DIY-a-Raspberry-Game-2048/)
 
-This is a Pi game project which is consists of Gorve - Thumb Joystick. Click on the images below to get more information about this project. 
+This is a Pi game project which is consists of Grove - Thumb Joystick. Click on the images below to get more information about this project.
 
-[![](https://raw.githubusercontent.com/SeeedDocument/Grove-Thumb_Joystick/master/img/pi_game.jpg)](http://www.instructables.com/id/DIY-a-Raspberry-Game-2048/)
+[![](https://github.com/SeeedDocument/Grove-Thumb_Joystick/raw/master/img/pi_game_new.jpg)](http://www.instructables.com/id/DIY-a-Raspberry-Game-2048/)
 
 
 Specifications
@@ -59,14 +59,14 @@ Usage
 
 The Grove - Thumb Joystick is an analog device that outputs analog signal ranging from 0 to 1023. That requires us to use the analog port of Arduino to take the readings.
 
-1.Connect the module to the A0/A1 of [Grove - Base Shield](http://www.seeedstudio.com/grove-base-shield-p-754.html) using the 4-pin grove cable.
+1.Connect the module to the A0/A1 of [Grove - Base Shield](http://www.seeedstudio.com/grove-base-shield-p-754.html) by using the 4-pin grove cable.
 
 2.Plug the Grove - Basic Shield into Arduino.
 
 3.Connect Arduino to PC by using a USB cable.
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Thumb_Joystick/master/img/Grove-Thumb_Joystick.jpg)
 
-4.Copy and paste code below to a new Arduino sketch. 
+4.Copy and paste code below to a new Arduino sketch.
 
 ```
 /*
@@ -75,16 +75,16 @@ The Grove - Thumb Joystick is an analog device that outputs analog signal rangin
   connect the module to A0&A1 for using;
 */
 
-void setup() 
+void setup()
 {
     Serial.begin(9600);
 }
 
-void loop() 
+void loop()
 {
     int sensorValue1 = analogRead(A0);
     int sensorValue2 = analogRead(A1);
-    
+
     Serial.print("The X and Y coordinate is:");
     Serial.print(sensorValue1, DEC);
     Serial.print(",");
@@ -98,18 +98,18 @@ void loop()
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Thumb_Joystick/master/img/Grove-Thumd_Joystick_Result.jpg)
 
-The output value from the analog port of Arduino can be converted to the corresponding resistance using the formula:R=(float)(1023-sensorValue)\*10/sensorValue.
+The output value from the analog port of Arduino can be converted to the corresponding resistance by using the formula:R=(float)(1023-sensorValue)\*10/sensorValue.
 
 ### With Raspberry Pi
 
 1.You should have got a raspberry pi and a grovepi or grovepi+.
 
-2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus).
+2.You should have completed configuring the development environment, otherwise please follow [here](/GrovePiPlus).
 
 3.Connection
 
 -   Plug the sensor to grovepi socket A0 by using a grove cable.
-
+![](https://github.com/SeeedDocument/Grove-Thumb_Joystick/raw/master/img/Pi_Joystick%20connection.jpg)
 4.Navigate to the demos' directory:
 ```
     cd yourpath/GrovePi/Software/Python/
@@ -184,6 +184,7 @@ Resources
 
 - [Grove-Thumb Joystick Eagle File](https://raw.githubusercontent.com/SeeedDocument/Grove-Thumb_Joystick/master/res/Eagle_Design_Files.zip)
 - [Analog Joystick Datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-Thumb_Joystick/master/res/Analog_Joystick_Datasheet.jpg)
+- [Joystick Schematic PDF File](https://github.com/SeeedDocument/Grove-Thumb_Joystick/raw/master/res/Joystick.pdf)
 
 
 

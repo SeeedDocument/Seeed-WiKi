@@ -63,7 +63,7 @@ Here is the list of the Tutorial you can find in the Seeed WiKi. The list will b
 - [Sketchbook of Sidekick Advanced Kit](/Sketchbook_of_Sidekick_Advanced_Kit/)
 - [Sound Sensor And LED Bar](/Sound_Sensor_And_LED_Bar/)
 - [Suli](/Suli/)
-- [Temperature Sensor](/Temperature_Sensor/)
+- [Temperature Sensor](/temperature_sensor/)
 - [Upload Code](/Upload_Code/)
 - [Use External Editor](/Use_External_Editor/)
 - [Xadow IO pin mapping](/Xadow_IO_pin_mapping/)

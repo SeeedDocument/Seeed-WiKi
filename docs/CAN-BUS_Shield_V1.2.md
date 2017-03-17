@@ -10,7 +10,7 @@ sku: 113030021
 
 ![](https://github.com/SeeedDocument/CAN_BUS_Shield/blob/master/image/Can_bus_shield_all.jpg?raw=true)
 
-**CAN-BUS** is a common industrial bus because of its long travel distance, medium communication speed and high reliability. It is commonly found on modern machine tools and as an automotive diagnostic bus.
+**CAN-BUS** is a common industrial bus because of its long travel distance, medium communication speed and high reliability. It is commonly found on modern machine tools, such as an automotive diagnostic bus.
 
 This CAN-BUS Shield adopts **MCP2515** CAN Bus controller with SPI interface and **MCP2551** CAN transceiver to give your Arduino/Seeeduino CAN-BUS capability. With an **OBD-II** converter cable added on and the OBD-II library imported, you are ready to build an onboard diagnostic device or data logger.
 
@@ -25,14 +25,16 @@ This document applies to the following version of products:
 |CAN BUS Shield V1.2|Jan 5, 2015|[![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now_small.png)](http://www.seeedstudio.com/CAN-BUS-Shield-V1.2-p-2256.html)|
 
 **What's new in CAN BUS Shield V1.2**
-* Pads on the back of PCBA
-* Change terminal resistor to 120 Ohm
+
+
+- Pads on the backside of PCBA
+- Change terminal resistor to 120 Ohm
 
 ## Features
 -----
 
-- Implements CAN V2.0B at up to **1 Mb/s**
-- SPI Interface up to **10 MHz**
+- Implements CAN V2.0B speed up to **1 Mb/s**
+- SPI Interface speed up to **10 MHz**
 - Standard (**11 bit**) and extended (**29 bit**) data and remote frames
 - Two receive buffers with prioritized message storage
 - Industrial standard DB-9 connector
@@ -47,18 +49,18 @@ This document applies to the following version of products:
 ![](https://github.com/SeeedDocument/CAN_BUS_Shield/blob/master/image/hardware_overview_1.png?raw=true)
 
 1. **DB9 Interface** - to connect to OBDII Interface via a DBG-OBD Cable.
-2. **V_OBD** - If get power from OBDII Interface (from DB9)
+2. **V_OBD** - It gets power from OBDII Interface (from DB9)
 3. **Led Indicator**:
     - **PWR**: power
     - **TX**: blink when the data is sending
-    - **RX**: blink when there's data coming
+    - **RX**: blink when there's data receiving
     - **INT**: data interrupt
 4. **Terminal** - CAN_H and CAN_L
 5. **Arduino UNO pin out**
 6. **Serial Grove connector**
 7. **I2C Grove connector**
 8. **ICSP pins**
-9. **IC** - MCP2551, a high-speed can transceiver ([datasheet](https://github.com/SeeedDocument/CAN_BUS_Shield/raw/master/resource/Mcp2551.pdf))
+9. **IC** - MCP2551, a high-speed CAN transceiver ([datasheet](https://github.com/SeeedDocument/CAN_BUS_Shield/raw/master/resource/Mcp2551.pdf))
 10. **IC** - MCP2515, stand-alone CAN controller with SPI interface ([datasheet](https://github.com/SeeedDocument/CAN_BUS_Shield/raw/master/resource/MCP2515.pdf))
 
 
@@ -79,13 +81,13 @@ This document applies to the following version of products:
 
 **CS pin**
 
-SPI_CS pin of V1.2 is default to **D9**. If you want to change it to **D10**.
+SPI_CS pin of V1.2 is connected to **D9** by default. If you want to change to **D10**, please follow below instructions.
 
-- Step1: Take a look at the back of the PCBA, you will find a pad named CS.
+- Step1: Take a look at the backside of the PCBA, you will find a pad named CS.
 
 ![](https://github.com/SeeedDocument/CAN_BUS_Shield/blob/master/image/hardware_overview_pins_setting.png?raw=true)
 
- - Step2: Cut the wire that connect pad9 and the middle pad
+ - Step2: Cut the wire between pad9 and the middle pad.
 
 ![](https://github.com/SeeedDocument/CAN_BUS_Shield/raw/master/image/cut%20this%20wire%20with%20box%20cutter.png)
 
@@ -99,10 +101,10 @@ SPI_CS pin of V1.2 is default to **D9**. If you want to change it to **D10**.
 
 **SPI pins**
 
-The SPI pins (SCK, MISO, MOSI) are default to the ICSP pins. But for some Boards, maybe the SPI pins are at D11~D13, if so you need to make some change to the PCBA. Take a look at the back of the PCBA, there're three pads, MOSI, MISO and SCK, they are default to A. You can change them to B if needed.
+The SPI pins (SCK, MISO, MOSI) are routed to the ICSP pins by default. But for some boards, the SPI pins are located at D11~D13. if this happens, you need make some change to the PCBA. Take a look at the backside of the PCBA, there're three pads, MOSI, MISO and SCK, they are connected to A by default. You can change them to B if needed.
 
 !!!note
-    For Arduino UNO, Arduino Mega, Arduino Leonardo and any others AVR based Arduino boards, default is working.
+    For Arduino UNO, Arduino Mega, Arduino Leonardo and any others AVR based Arduino boards, it works well by default setting.
 
 !!!warning
     Be careful when you are going to change SPI pins, it's easy to hurt yourself or the PCBA.
@@ -110,10 +112,10 @@ The SPI pins (SCK, MISO, MOSI) are default to the ICSP pins. But for some Boards
 
 ## Getting Started
 -----
-Here's a simple demo to show you how CAN-BUS Shield works. In this demo we need 2 pieces of CAN-BUS Shield as well as Arduino or Seeeduino.
+Here's a simple example to show you how CAN-BUS Shield works. In this example we need 2 pieces of CAN-BUS Shields as well as Arduino or Seeeduino.
 
 !!!note
-    This demo is built under [Arduino IDE version 1.6.9](https://www.arduino.cc/download_handler.php?f=/arduino-1.6.9-windows.zip).
+    This example is built under [Arduino IDE version 1.6.9](https://www.arduino.cc/download_handler.php?f=/arduino-1.6.9-windows.zip).
 
 
 **STEP1: What do we need**
@@ -126,7 +128,7 @@ Here's a simple demo to show you how CAN-BUS Shield works. In this demo we need 
 
 **STEP2: Hardware Connection**
 
-Insert each CAN-BUS Shield to Seeeduino V4.2, and connect the 2 CAN-BUS Shield together via 2 jumper wires. Shown as below images.
+Insert each CAN-BUS Shield into Seeeduino V4.2, and connect the 2 CAN-BUS Shield together via 2 jumper wires. Shown as below images.
 
 ![](https://raw.githubusercontent.com/SeeedDocument/CAN_BUS_Shield/master/image/connection.png)
 
@@ -134,6 +136,9 @@ Insert each CAN-BUS Shield to Seeeduino V4.2, and connect the 2 CAN-BUS Shield t
     CAN_H to CAN_H, CAN_L to CAN_L
 
 **STEP3: Software**
+
+Please follow [how to install an arduino library](http://wiki.seeed.cc/How_to_install_Arduino_Library/) procedures to install CAN BUS shield library.
+
 
 Click on below button to download the library.
 
@@ -147,8 +152,9 @@ One of the node (a node means Seeeduino + CAN_BUS Shield) acts as master, the ot
     Each node can act as master before the code being uploaded.
 
 Open the **send** example (**File > Examples > CAN_BUS_Shield-master > send**) and upload to the **master**.
-
+![](https://github.com/SeeedDocument/CAN_BUS_Shield/raw/master/image/send%20example.png)
 Open the **receive_check** example (**File > Examples > CAN_BUS_Shield-master > receive_check**) and upload to the **slaver**.
+![](https://github.com/SeeedDocument/CAN_BUS_Shield/raw/master/image/receive%20check%20example.png)
 
 **STEP4: View Result**
 
@@ -223,7 +229,7 @@ When some data arrive, you can use the following function to get the CAN ID of t
 
 It is a function to send data onto the bus. In which:
 
-* **id** represents where the data come from.
+* **id** represents where the data comes from.
 * **ext** represents the status of the frame. '0' means standard frame. '1' means extended frame.
 * **len** represents the length of this frame.
 * **data_buf** is the content of this message.
@@ -245,25 +251,25 @@ In conditions that masks and filters have been set. This function can only get f
 
 ## Generate a New BaudRate
 
-We had provided many frequently-used baud rate, as below:
+We had provided many frequently-used baud rates, as below:
 
 	#define CAN_5KBPS    1
 	#define CAN_10KBPS   2
 	#define CAN_20KBPS   3
 	#define CAN_25KBPS   4
-	#define CAN_31K25BPS 5
+	#define CAN_31KBPS   5
 	#define CAN_33KBPS   6
 	#define CAN_40KBPS   7
 	#define CAN_50KBPS   8
 	#define CAN_80KBPS   9
-	#define CAN_83K3BPS  10
+	#define CAN_83KBPS   10
 	#define CAN_95KBPS   11
 	#define CAN_100KBPS  12
 	#define CAN_125KBPS  13
 	#define CAN_200KBPS  14
 	#define CAN_250KBPS  15
 	#define CAN_500KBPS  16
-	#define CAN_666kbps  17
+	#define CAN_666KBPS  17
 	#define CAN_1000KBPS 18
 
 Yet you may still can't find the rate you want. Here we provide a software to help you to calculate the baud rate you need.
@@ -273,25 +279,25 @@ Click [here](https://github.com/SeeedDocument/CAN_BUS_Shield/raw/master/resource
 ![](https://github.com/SeeedDocument/CAN_BUS_Shield/blob/master/image/CAN_BUS_Shield_SetBaud.jpg?raw=true)
 
 !!!note
-    This software support Windows system only. If you can't open it, please free to contact loovee@seeed.cc for help.
+    This software supports Windows system only. If you can't open it, please feel free to contact loovee@seeed.cc for support.
 
-Open the software, what you need to do is setting the baud rate you want, and then do some simple setting, then click **calculate**.
+Open the software, what you need to do is to set the baud rate you want, and then do some simple setting, then click **calculate**.
 
 Then you will get some data, cfg1, cfg2 and cfg3.
 
 You need to add some code to the library.
 
-Open **mcp_can_dfs.h**, you need to add some code at about line 272:
+Open **mcp_can_dfs.h**, you need to add below code at about line 272:
 
 	#define MCP_16MHz_xxxkBPS_CFG1 (cfg1)    // xxx is the baud rate you need
 	#define MCP_16MHz_xxxkBPS_CFG2 (cfg2)
 	#define MCP_16MHz_xxxkBPS_CFG3 (cfg2)
 
-Then let's go to about line 390, add some code:
+Then let's go to about line 390, add below code:
 
 	#define CAN_xxxKBPS NUM       // xxx is the baudrate you need, and NUM is a number, you need to get a different from the other rates.
 
-Open **mcp_can.cpp**, goto the function **mcp2515_configRate**(at about line 190), then add some code:
+Open **mcp_can.cpp**, goto the function **mcp2515_configRate**(at about line 190), then add below code:
 
 	case (CAN_xxxKBPS):
 	    cfg1 = MCP_16MHz_xxxkBPS_CFG1;
@@ -305,13 +311,13 @@ Then you can use the baud rate you need. And please give me a pull request at gi
 ## Projects
 -----
 
-If you want to make some awesome projects with CAN-BUS shield, here's some projects for reference.
+If you want to make some awesome projects with CAN-BUS shield, here are some projects for reference.
 
 ### Volkswagen CAN BUS Gaming
 
 ![](https://github.com/SeeedDocument/CAN_BUS_Shield/blob/master/image/project1.JPG?raw=true)
 
-Ever wanted to play a car/truck simulator with a real dashboard on your PC? Me too! I'm trying to control a VW Polo 6R dashboard via CAN Bus with an Arduino Uno and a Seeed CAN Bus Shield. Inspired by Silas Parker. Thanks to Sepp and Is0-Mick for their great support!
+Ever wanted to play a car/truck simulator with a real dashboard on your PC? Me too! I'm trying to control a VW Polo 6R dashboard via CAN Bus with an Arduino Uno and a Seeed CAN Bus Shield. Inspired by Silas Parker. Thanks Sepp and Is0-Mick for their great support!
 
 [![](https://github.com/SeeedDocument/CAN_BUS_Shield/blob/master/image/Wiki_makeitnow_logo.png?raw=true)](http://www.seeed.cc/project_detail.html?id=291)
 
@@ -333,13 +339,13 @@ From each node (IE Switch pod that controls your windows or electric door locks)
 **Q1: I can't get data from other CAN device.**
 
 * Check if the connection is right
-* Check if the baud rate set right
+* Check if the baud rate setting is right
 
 **Q2: The serial monitor print Init Fail.**
 
-* Check if the CS pin set right in the code. For CAN Bus Shield V1.1/1.2, CS pin is default to D9, others default to D10.
+* Check if the CS pin setting is matched with the code. For CAN Bus Shield V1.1/1.2, CS pin is connected to D9, others are to D10.
 
-**Q3. Where can I find technical support if I have some other issue.**
+**Q3. Where can I find technical support if I have some other issues.**
 
 * You can post a question to [Seeed Forum](http://www.seeed.cc/discover.html?t=Arduino) or send an email to **techsupport@seeed.cc**.
 
