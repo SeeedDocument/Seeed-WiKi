@@ -7,7 +7,11 @@ prodimagename: Bgjoy1.jpg
 bzprodimageurl: http://statics3.seeedstudio.com/images/product/bgjoy1.jpg
 surveyurl: https://www.research.net/r/Grove-Thumb_Joystick
 sku: 101020028
+<<<<<<< HEAD
 tags: grove_analog, io_3v3, io_5v, plat_duino,plat_pi
+=======
+tags: grove_analog, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg，plat_pi
+>>>>>>> ac472b11c3c95f824b2cb780eb79c21b28af7edd
 ---
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Thumb_Joystick/master/img/Bgjoy1.jpg)
@@ -35,7 +39,11 @@ Application Ideas
 
 ###[Project - 2048 Game](http://www.instructables.com/id/DIY-a-Raspberry-Game-2048/)
 
+<<<<<<< HEAD
 This is a Pi game project which is consists of Grove - Thumb Joystick. Click on the images below to get more information about this project.
+=======
+This is a Pi game project which is consists of Gorve - Thumb Joystick. Click on the images below to get more information about this project.
+>>>>>>> ac472b11c3c95f824b2cb780eb79c21b28af7edd
 
 [![](https://github.com/SeeedDocument/Grove-Thumb_Joystick/raw/master/img/pi_game_new.jpg)](http://www.instructables.com/id/DIY-a-Raspberry-Game-2048/)
 

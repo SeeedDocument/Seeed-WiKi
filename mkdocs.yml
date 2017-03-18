@@ -16,6 +16,7 @@ pages:
         - 4WD Mecanum Wheel Robot Kit Series: 4WD_Mecanum_Wheel_Robot_Kit_Series.md
         - Basic Fastener Kit: Basic_Fastener_Kit.md
         - Galileo Case: Galileo_Case.md
+        - Grove Maker Kit for Intel Joule: Grove Maker Kit for Intel Joule.md
         - Grove Maker Kit for Intel Joule: Grove_Maker_Kit_for_Intel_Joule.md
         - Grove Speech Recognizer Kit for Arduino: Grove_Speech_Recognizer_Kit_for_Arduino.md
         - Grove Starter kit for Arduino&amp;Genuino 101: Grove_Starter_kit_for_Arduino_101.md
@@ -41,7 +42,6 @@ pages:
         - Shield Bot V1.1: Shield_Bot_V1.1.md
         - Shield Bot V1.2: Shield_Bot_V1.2.md
         - Sidekick Basic Kit for Arduino V2: Sidekick_Basic_Kit_for_Arduino_V2.md
-        - Sidekick Basic Kit for TI LaunchPad: Sidekick_Basic_Kit_for_TI_LaunchPad\Sidekick_Basic_Kit_for_TI_LaunchPad.md
         - Skeleton Bot - 4WD hercules mobile robotic platform: Skeleton_Bot-4WD_hercules_mobile_robotic_platform.md
         - Skeleton Box: Skeleton_Box.md
         - Skeleton Box (10x7,10x10,17x10): Skeleton_Box_10x7_10x10_17x10.md
@@ -85,7 +85,6 @@ pages:
         - LinkIt ONE: LinkIt_ONE.md
         - LinkIt Smart 7688 Duo: LinkIt_Smart_7688_Duo.md
         - Linkit Connect 7681: Linkit_Connect_7681.md
-        - Sidekick Basic Kit for LinkIt ONE: Sidekick_Basic_Kit_for_LinkIt_ONE\Sidekick_Basic_Kit_for_LinkIt_ONE.md
 
     - mbed:
         - mbed Introduction: mbed.md
@@ -471,7 +470,7 @@ pages:
         - Sketchbook of Sidekick Advanced Kit: Sketchbook_of_Sidekick_Advanced_Kit.md
         - Sound Sensor And LED Bar: Sound_Sensor_And_LED_Bar.md
         - Suli: Suli.md
-        - Temperature Sensor: Temperature_Sensor.md
+        - Temperature Sensor: temperature_sensor.md
         - Upload Code: Upload_Code.md
         - Use External Editor: Use_External_Editor.md
         - Xadow IO pin mapping: Xadow_IO_pin_mapping.md

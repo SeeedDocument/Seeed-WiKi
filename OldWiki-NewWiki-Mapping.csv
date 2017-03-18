@@ -1,8 +1,6 @@
 ,http://wiki.seeed.cc/How_to_choos_A_Gas_Sensor/,
 ,http://wiki.seeed.cc/Project_Three-Analog_Input/,
 ,http://wiki.seeed.cc/README/,
-,http://wiki.seeed.cc/README/,
-,http://wiki.seeed.cc/README/,
 0.5w Solar Panel 55*70,http://wiki.seeed.cc/0.5w_Solar_Panel_55x70/,http://wiki.seeedstudio.com/wiki/0.5w Solar Panel 55*70
 1.5W Solar Panel 81*137,http://wiki.seeed.cc/1.5W_Solar_Panel_81x137/,http://wiki.seeedstudio.com/wiki/1.5W Solar Panel 81*137
 125Khz RFID module - UART,http://wiki.seeed.cc/125Khz_RFID_module-UART/,http://wiki.seeedstudio.com/wiki/125Khz RFID module - UART
@@ -286,6 +284,7 @@ Grove Indoor Environment Kit for Edison,http://wiki.seeed.cc/Grove_Indoor_Enviro
 Grove Introduction,http://wiki.seeed.cc/Grove/,
 Grove IoT Developer Kit - Microsoft Azure Edition,http://wiki.seeed.cc/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/,http://wiki.seeedstudio.com/wiki/Grove IoT Developer Kit - Microsoft Azure Edition
 Grove IoT Starter Kits Powered by AWS,http://wiki.seeed.cc/Grove_IoT_Starter_Kits_Powered_by_AWS/,http://wiki.seeedstudio.com/wiki/Grove IoT Starter Kits Powered by AWS
+Grove Maker Kit for Intel Joule,http://wiki.seeed.cc/Grove Maker Kit for Intel Joule/,
 Grove Maker Kit for Intel Joule,http://wiki.seeed.cc/Grove_Maker_Kit_for_Intel_Joule/,
 Grove Shield for Intel Joule,http://wiki.seeed.cc/Grove_Shield_for_Intel_Joule/,
 Grove Smart Plant Care Kit,http://wiki.seeed.cc/Grove_Smart_Plant_Care_Kit/,http://wiki.seeedstudio.com/wiki/Grove Smart Plant Care Kit
@@ -421,8 +420,6 @@ Shield Bot V1.2,http://wiki.seeed.cc/Shield_Bot_V1.2/,http://wiki.seeedstudio.co
 Shield Introduction,http://wiki.seeed.cc/Shield/,
 Shield MaTrix V0.9,http://wiki.seeed.cc/Shield-MaTrix-V0.9b/,http://wiki.seeedstudio.com/wiki/Shield MaTrix V0.9b
 Sidekick Basic Kit for Arduino V2,http://wiki.seeed.cc/Sidekick_Basic_Kit_for_Arduino_V2/,http://wiki.seeedstudio.com/wiki/Sidekick Basic Kit for Arduino V2
-Sidekick Basic Kit for LinkIt ONE,http://wiki.seeed.cc/Sidekick_Basic_Kit_for_LinkIt_ONE/,http://wiki.seeedstudio.com/wiki/Sidekick Basic Kit for LinkIt ONE
-Sidekick Basic Kit for TI LaunchPad,http://wiki.seeed.cc/Sidekick_Basic_Kit_for_TI_LaunchPad/,http://wiki.seeedstudio.com/wiki/Sidekick Basic Kit for TI LaunchPad
 Skeleton Bot - 4WD hercules mobile robotic platform,http://wiki.seeed.cc/Skeleton_Bot-4WD_hercules_mobile_robotic_platform/,http://wiki.seeedstudio.com/wiki/Skeleton Bot - 4WD hercules mobile robotic platform
 Skeleton Box,http://wiki.seeed.cc/Skeleton_Box/,http://wiki.seeedstudio.com/wiki/Skeleton Box
 Skeleton Box (10x7,10x10,17x10),http://wiki.seeed.cc/Skeleton_Box_10x7_10x10_17x10/,http://wiki.seeedstudio.com/wiki/Skeleton Box (10x7,10x10,17x10)
@@ -435,7 +432,7 @@ Solar Charger Shield V2.2,http://wiki.seeed.cc/Solar_Charger_Shield_V2.2/,http:/
 Sound Sensor And LED Bar,http://wiki.seeed.cc/Sound_Sensor_And_LED_Bar/,http://wiki.seeedstudio.com/wiki/Sound Sensor And LED Bar
 Starter bundle harness V1.0,http://wiki.seeed.cc/Starter_bundle_harness_V1/,http://wiki.seeedstudio.com/wiki/Starter bundle harness V1.0
 Suli,http://wiki.seeed.cc/Suli/,http://wiki.seeedstudio.com/wiki/Suli
-Temperature Sensor,http://wiki.seeed.cc/Temperature_Sensor/,http://wiki.seeedstudio.com/wiki/Temperature Sensor
+Temperature Sensor,http://wiki.seeed.cc/temperature_sensor/,http://wiki.seeedstudio.com/wiki/Temperature Sensor
 Tiny BLE,http://wiki.seeed.cc/Tiny_BLE/,http://wiki.seeedstudio.com/wiki/Tiny BLE
 Tricycle Bot,http://wiki.seeed.cc/Tricycle_Bot/,
 Tutorial Introduction,http://wiki.seeed.cc/Tutorial/,
