@@ -12,25 +12,25 @@ tags: grove_analog, io_5v, plat_duino
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Gas_Sensor-MQ2/master/img/Twig-Gas_Sensor.bmp)
 
-The Grove - Gas Sensor(MQ2) module is useful for gas leakage detection (in home and industry). It is suitable for detecting <font color="Blue">H2, LPG, CH4, CO, Alcohol, Smoke or Propane</font>. Due to its high sensitivity and fast response time, measurement can be taken as soon as possible. The sensitivity of the sensor can be adjusted by potentiometer.
+The Grove - Gas Sensor(MQ2) module is useful for gas leakage detection (home and industry). It is suitable for detecting <font color="Blue">H2, LPG, CH4, CO, Alcohol, Smoke or Propane</font>. Due to its high sensitivity and fast response time, measurement can be taken as soon as possible. The sensitivity of the sensor can be adjusted by potentiometer.
 
 !!!Note
     The sensor value only reflects the approximated trend of gas concentration in a permissible error range, it DOES NOT represent the exact gas concentration. The detection of certain components in the air usually requires a more precise and costly instrument, which cannot be done with a single gas sensor. If your project is aimed at obtaining the gas concentration at a very precise level, then we don't recommend this gas sensor.
 
-There are 4 kind of gas sensor, each can detect different type of gas, here we use a table to illustrate.
+There are 4 kinds of gas sensors, every can detect different type of gas, here we use a table to illustrate.
 
 |Sensor|Gas Type|Get One Now|
-|:---:|---|---|---|
-|MQ2|Combustible Gas, Smoke|[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](http://wiki.seeed.cc/Grove-Gas_Sensor-MQ2/)|
-|MQ3|Alcohol Vapor|[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](http://wiki.seeed.cc/Grove-Gas_Sensor-MQ3/)|
-|MQ5|LPG, Natural Gas, Town Gas|[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](http://wiki.seeed.cc/Grove-Gas_Sensor-MQ5/)|
-|MQ9|Carbon Monoxide, Coal Gas, Liquefied Gas|[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](http://wiki.seeed.cc/Grove-Gas_Sensor-MQ9/)|
+|:---:|---|---|
+|MQ2|Combustible Gas, Smoke|<a href="https://www.seeedstudio.com/Grove-Gas-Sensor(MQ2)-p-937.html">![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)</a>|
+|MQ3|Alcohol Vapor|<a href="https://www.seeedstudio.com/Grove-Gas-Sensor%28MQ3%29-p-1418.html">![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)</a>|
+|MQ5|LPG, Natural Gas, Town Gas|<a href="https://www.seeedstudio.com/Grove-Gas-Sensor%28MQ5%29-p-938.html">![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)</a>|
+|MQ9|Carbon Monoxide, Coal Gas, Liquefied Gas|<a href="https://www.seeedstudio.com/Grove-Gas-Sensor%28MQ9%29-p-1419.html">![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)</a>|
 
 Features
 --------
 
 -   Wide detecting scope
--   Stable and long life
+-   Stable and long lifetime
 -   Fast response and High sensitivity
 
 !!!Tip
@@ -59,7 +59,7 @@ Application Ideas
 Hardware Overview
 -----------------
 
-This is an Analog output sensor. This needs to be connected to any one Analog socket in [Grove Base Shield](/Base_Shield_V2). The examples used in this tutorial makes uses of A0 analog pin. Connect this module to the A0 port of Base Shield.
+This is an Analog output sensor. It needs to be connected to any one Analog socket in [Grove Base Shield](/Base_Shield_V2). The examples used in this tutorial make uses of A0 analog pin. Connect this module to the A0 port of Base Shield.
 
 It is possible to connect the Grove module to Arduino directly by using jumper wires, please refer to the connection in the table below:
 
@@ -70,10 +70,20 @@ It is possible to connect the Grove module to Arduino directly by using jumper w
 | NC        | NC         |
 | Analog A0 | SIG        |
 
-The output voltage from the Gas sensor increases when the concentration of gas increases. Sensitivity can be adjusted by varying the potentiometer. <font color="Red">Please note that the best preheat time for the sensor is above 24 hours</font>. For detailed information about the MQ-2 sensor, please refer the data-sheet provided in **Resources** section.
+The output voltage from the Gas sensor increases when the concentration of gas increases. Sensitivity can be adjusted by rotating the potentiometer. <font color="Red">Please note that the best preheat time for the sensor is above 24 hours</font>. For detail information about the MQ-2 sensor, please refer the data-sheet provided in **Resources** section.
 
 Getting Started
 ---------------
+
+### What do we need
+
+|Name|Function|Qty|Link|
+|----|--------|---|----|
+|Base Shield V2 |Provide Grove connectors | 1 | [link](https://www.seeedstudio.com/Base-Shield-V2-p-1378.html) |
+|Seeeduino V4.2|Controller|1|[link](http://www.seeedstudio.com/item_detail.html?p_id=2517)|
+|Grove-Gas Sensor MQ2 |Sensor|1|<a href="https://www.seeedstudio.com/Grove-Gas-Sensor(MQ2)-p-937.html">link</a>|
+
+### Connection
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Gas_Sensor-MQ2/master/img/Read_Gas_Sensor_data_MQ2_MQ5.jpg)
 
@@ -106,7 +116,7 @@ void loop() {
 
 These examples demonstrate ways to know the approximate concentration of Gas. As per the data-sheet of the MQx sensors, these equations are tested for standard conditions and are not calibrated. It may vary based on change in temperature or humidity.
 
-1. Keep the Gas Sensor in clean air environment. Upload the program below.
+-  Keep the Gas Sensor in clean air environment. Upload the program below.
 
 ```
 void setup() {
@@ -142,7 +152,7 @@ void loop() {
 }
 ```
 
-2. Then, open the serial monitor of Arduino IDE. Write down the value of R0 and this needs to be used in the next program. Please node down the R0 after the reading stabilizes.
+-  Then, open the serial monitor of Arduino IDE. Write down the value of R0 and this will be used in the next program. Please write down the R0 after the reading stabilizes.
 
     <font color="Red">Replace the R0 below with value of R0 tested above </font>. Expose the sensor to any one of the gas listed above.
 
