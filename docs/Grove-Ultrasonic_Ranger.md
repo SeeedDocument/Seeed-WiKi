@@ -228,6 +228,12 @@ With a Grove - Ultrasonic Ranger she can magically control the number of illumin
 ## Resources
 ---
 - [Ultrasonic Ranger library](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/blob/master/resource/Ultrasonic.zip)
+- [Adafruit_NeoPixel](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/res/Adafruit_NeoPixel.zip)
+- [Grove_LCD_RGB_Backlight-master](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/res/Grove_LCD_RGB_Backlight-master.zip)
+- [WS2812_Breakout](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/res/WS2812_Breakout_Example.zip)
+- [Download all the library](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/res/Download%20all%20the%20library.zip)
+- [Example_Measure_and_display_the_distance](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/res/Example_Measure_and_display_the_distance.zip)
+- [Example_Measure_distance_and_led_display](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/res/Example_Measure_distance_and_led_display.zip)
 - [Video demonstration](http://v.youku.com/v_show/id_XMzEzNTcwODI4.html)
 - [Github repository for Grove_Ultrasonic_Ranger Library (new)](https://github.com/Seeed-Studio/Grove_Ultrasonic_Ranger)
 - [SerialLCD Library](https://github.com/Seeed-Studio/Serial_LCD)
