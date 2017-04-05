@@ -53,7 +53,7 @@ Grove products have a eco system and all have a same connector which can plug on
 | Analog A1   | SCL            |
 | Analog A0   | DAT            |
 
-You can gain the present voltage through the DAT pin of sensor. Sensitivity can be regulated by rotating the potentiometer. <font color="Red">Please note the best preheat time of the sensor is above 48 hours</font>. For the detailed information about the Alcohol sensor please refer to the datasheet.
+You can gain the present voltage through the DAT pin of sensor. <font color="Red">Please note the best preheat time of the sensor is above 48 hours</font>. For the detailed information about the Alcohol sensor please refer to the datasheet.
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Alcohol_Sensor/master/img/Twig_Alcohol_Sensor_Connected_To_Seeeduino_via_BaseStem.jpg)
 
