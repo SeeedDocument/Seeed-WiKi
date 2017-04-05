@@ -341,7 +341,7 @@ You will need some expansion board when you start a project. There're many cape 
 ---
 1. What is the different between BBG 1 and BBG 2?
    ![](https://github.com/SeeedDocument/BeagleBone_Green/blob/master/bbg12.png)
- We have updated the eMMC on Beaglebone Green in 2016. So the previous firmware for BBG1 is not workable on BBG2, but the new firmware is ok on BBG1.
+ We have updated the eMMC on Beaglebone Green in 2016. So the previous firmware for BBG1 is not workable on BBG2, but the new firmware is ok on BBG1 and BBG2.
     
 ## References
 ---
