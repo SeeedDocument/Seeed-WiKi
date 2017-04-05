@@ -337,7 +337,12 @@ You will need some expansion board when you start a project. There're many cape 
 |![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/product4.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/product5.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/product6.jpg)|
 |[GET ONE NOW!](http://www.seeedstudio.com/Grove-Base-Cape-for-Beaglebone-v2.0-p-2644.html)|[GET ONE NOW!](http://www.seeedstudio.com/5-Inch-BeagleBone-Green-LCD-Cape-with-Resistive-Touch-p-2642.html)|[GET ONE NOW!](http://www.seeedstudio.com/7-Inch-BeagleBone-Green-LCD-Cape-with-Resistive-Touch-p-2643.html)|
 
-
+## FAQ
+---
+1. What is the different between BBG 1 and BBG 2?
+   ![](https://github.com/SeeedDocument/BeagleBone_Green/blob/master/bbg12.png)
+ We have updated the eMMC on Beaglebone Green in 2016. So the previous firmware for BBG1 is not workable on BBG2, but the new firmware is ok on BBG1.
+    
 ## References
 ---
 There're many references to help you to get more information about the board.
