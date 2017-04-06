@@ -10,12 +10,12 @@ sku: 110060576
 
 ![](https://raw.githubusercontent.com/SeeedDocument/ESP32_Breakout_Kit/master/img/cover.jpg)
 
-This is the breakout kit specially made for ESP32, it contains a breakout board and some pin headers. The breakout board with 2.54mm-gap female headers allows you to connect the pin of ESP32 to it so that you can connect ESP32 to breadboard easier. We also provided 2 grove connectors in this kit to enrich the expansibility of ESP32.
+This is the breakout kit specially designed for ESP32, it contains a breakout board and pin headers. The dimension is 53mmx38mmx1.2mm. The breakout board with 2.54mm-gap female headers allows you to connect the pin of ESP32 to it easily. We also provided 2 grove connectors in this kit to enrich the expansibility of ESP32.
 
 
 [![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now.png)](https://www.seeedstudio.com/ESP32-Breakout-Kit-p-2783.html)
 
-##Part List
+## Part List
 
 !!!Note
     The parts of the kit is non-soldered.
@@ -30,15 +30,22 @@ This is the breakout kit specially made for ESP32, it contains a breakout board 
 |10Pin 2.54 Header Female|4|
 |PCB|1|
 
-#Pin map
+## Pin map
 
-![](https://raw.githubusercontent.com/SeeedDocument/ESP32_Breakout_Kit/master/img/esp32_breakout_pin.png)
+[![](https://raw.githubusercontent.com/SeeedDocument/ESP32_Breakout_Kit/master/img/esp32_breakout_pin.png)](https://raw.githubusercontent.com/SeeedDocument/ESP32_Breakout_Kit/master/img/esp32_breakout_pin.png)
 
 !!!Tip
     Click to view larger image.
 
-##Resources
+## Getting Started
 
-* [Schematics in EAGLE](https://github.com/SeeedDocument/ESP32_Breakout_Kit/raw/master/res/319011771_ESP32%20Extension%20Board%20v1.0_%E5%8E%9F%E7%90%86%E5%9B%BE.zip)
-* [Schematics in PDF](https://github.com/SeeedDocument/ESP32_Breakout_Kit/raw/master/res/ESP32%20Extension%20Board%20v1.0.pdf)
-* [Link to buy ESP32](https://www.seeedstudio.com/ESP-32S-Wifi-Bluetooth-Combo-Module-p-2706.html)
+- First, you need to purchase [ESP-32S Wifi Bluetooth Combo Module](https://www.seeedstudio.com/ESP-32S-Wifi-Bluetooth-Combo-Module-p-2706.html).
+![](https://github.com/SeeedDocument/ESP32_Breakout_Kit/raw/master/img/ESP32.jpg)
+- Second,Solder the ESP32 module onto breakout kit.
+- The assembled kit will provide ultra high performance and ultra low-power consumption Wi-Fi and Bluetooth combo wireless solution.
+
+## Resources
+
+* [ESP32 Breakout Kit Schematics and PCB in EAGLE format](https://github.com/SeeedDocument/ESP32_Breakout_Kit/raw/master/res/319011771_ESP32%20Extension%20Board%20v1.0_%E5%8E%9F%E7%90%86%E5%9B%BE.zip)
+* [ESP32 Breakout Kit Schematics in PDF format](https://github.com/SeeedDocument/ESP32_Breakout_Kit/raw/master/res/ESP32%20Extension%20Board%20v1.0.pdf)
+* [ESP32 Breakout Kit PCB in PDF format](https://github.com/SeeedDocument/ESP32_Breakout_Kit/raw/master/res/ESP32%20Extension%20Board%20v1.0%20PCB.pdf)
