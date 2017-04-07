@@ -78,6 +78,7 @@ Plug the dust sensor into digital port **D8** on the Grove - [Base Shield](http:
 |GND	| Pin 1|Black wire|
 |D8| Pin 4|	Yellow wire|
 
+Grove cable is included in Grove Dust Sensor package. We also can use Dupont Line to connect Base Shield as below picture.
 ![](https://github.com/SeeedDocument/Grove_Dust_Sensor/raw/master/image/connection.jpg)
 
 Also, you can connect Grove - Dust sensor to Arduino UNO without Base Shield.
