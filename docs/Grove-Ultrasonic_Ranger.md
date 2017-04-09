@@ -57,7 +57,7 @@ Here we will show you how this Grove - Ultrasonic Ranger works via a simple demo
 
 #### Software
 
-- Download the  [ UltrasonicRanger Library](https://github.com/Seeed-Studio/Grove_Ultrasonic_Ranger) and  [  Grove - LCD RGB Backlight Library ](https://github.com/Seeed-Studio/Grove_LCD_RGB_Backlight/archive/master.zip) from Github.
+- Download the  [ UltrasonicRanger Library](https://github.com/Seeed-Studio/Grove_Ultrasonic_Ranger/archive/master.zip) and  [  Grove - LCD RGB Backlight Library ](https://github.com/Seeed-Studio/Grove_LCD_RGB_Backlight/archive/master.zip) from Github.
 -  If you don't know how to install library for Arduino, please refer to [How to install library](/How_to_Install_an_Arduino_Library/)
 
 ```
@@ -253,7 +253,7 @@ With a Grove - Ultrasonic Ranger she can magically control the number of illumin
 
 ## Resources
 ---
-- **[Library]**[Ultrasonic Ranger library](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/blob/master/resource/Ultrasonic.zip)
-- **[Library]** [Grove_LCD_RGB_Backlight-master](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/res/Grove_LCD_RGB_Backlight-master.zip)
+- **[Library]**[Ultrasonic Ranger library](https://github.com/Seeed-Studio/Grove_Ultrasonic_Ranger/archive/master.zip)
+- **[Library]** [Grove_LCD_RGB_Backlight-master](https://github.com/Seeed-Studio/Grove_LCD_RGB_Backlight/archive/master.zip)
 - **[Example]** [Example_Measure_and_display_the_distance](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/res/Example_Measure_and_display_the_distance.zip)
 - **[Example]** [Example_Measure_distance_and_led_display](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/res/Example_Measure_distance_and_led_display.zip)
