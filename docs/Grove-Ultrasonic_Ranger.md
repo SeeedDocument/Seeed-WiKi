@@ -6,14 +6,14 @@ oldwikiname: Grove - Ultrasonic Ranger
 prodimagename: 350px-Ultrasonic_Ranger.jpg
 surveyurl: https://www.research.net/r/Grove-Ultrasonic-Ranger
 sku: 101020010
----
+tags: io_3v, io_5v, plat_duino, plat_pi
 
 ---
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove_Ultrasonic_Ranger/master/image/350px-Ultrasonic_Ranger.jpg)
 
 This Grove - Ultrasonic sensor is a non-contact distance measurement module which works at 42KHz, suitable for projects that require middle distance measurement.
 
-[![Get one now](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/image/300px-Get_One_Now_Banner.png)](https://www.seeedstudio.com/item_detail.html?p_id=960)
+[![Get one now](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/image/300px-Get_One_Now_Banner.png)](https://www.seeedstudio.com/Grove-Ultrasonic-Ranger-p-960.html)
 
 
 ## Specification
@@ -26,69 +26,88 @@ This Grove - Ultrasonic sensor is a non-contact distance measurement module whic
 |Measuring range|	2-350cm|
 |Resolution|	1cm|
 |Output|PWM|
-|Size|L50*W25*H16|
+|Size|50mm X 25mm X 16mm|
 |Weight|13g|
 
 
 !!!Tip
     More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
 
-## Get Started
+Platforms Supported
+-------------------
+
+## Getting Started
 ---
-Connect Serial LCD to D4/D5 pins of Grove - Base Shield and connect Ultrasonic Ranger to D7.
+### With Arduino
+#### Connection
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove_Ultrasonic_Ranger/master/image/600px-UltrasonicRanger.png)
+Here we will show you how this Grove - Ultrasonic Ranger works via a simple demo. First of all, you need to prepare the below stuffs:
 
-Download the  [ UltrasonicRanger Library](https://github.com/Seeed-Studio/Grove_Ultrasonic_Ranger) and  [  SerialLCD Library](https://github.com/Seeed-Studio/Serial_LCD) from Github. Since the are not in origin library of Arduino library files, You need to install them to Arduino Library. If you don't know how to install library for Arduino, please refer to the toturial [How to install library](/How_to_Install_an_Arduino_Library/)
+| Seeeduino V4 | Grove - Ultrasonic Ranger | Base Shield |Grove - LCD RGB Backlight |
+|--------------|-------------|-----------------|-----------------|
+|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_1.jpg)|![enter image description here](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/img/Ultrasonic_Ranger_s.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_4.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Ultrasonic_Ranger/master/img/grove-lcd%20rgb_s.jpg)|
+|[Get ONE Now](http://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html)|[Get ONE Now](https://www.seeedstudio.com/Grove-Ultrasonic-Ranger-p-960.html)|[Get ONE Now](https://www.seeedstudio.com/Base-Shield-V2-p-1378.html)|[Get ONE Now](https://www.seeedstudio.com/Grove-LCD-RGB-Backlight-p-1643.html)|
 
-```c
-/***************************************************************************/
-// Function: Measure the distance to obstacles in front and display the
-//                         result on seeedstudio serialLcd. Make sure you installed the
-//                         serialLCD, SoftwareSerial and Ultrasonic library.
-//        Hardware: Grove - Ultrasonic Ranger, Grove - Serial LCD
-//        Arduino IDE: Arduino-1.0
-//        Author:         LG
-//        Date:          Jan 17,2013
-//        Version: v1.0 modified by FrankieChu
-//        by www.seeedstudio.com
+-   Connect Ultrasonic Ranger to port D7 of Grove-Base Shield.
+-   Connect Ultrasonic Ranger to port I2C of Grove-Base Shield.
+-   Plug Grove - Base Shield into Arduino.
+-   Connect Arduino to PC via a USB cable.
 
-/*****************************************************************************/
-#include <SoftwareSerial.h>
-#include <SerialLCD.h>
+![](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/img/arduino%20connection.jpg)
+
+#### Software
+
+- Download the  [ UltrasonicRanger Library](https://github.com/Seeed-Studio/Grove_Ultrasonic_Ranger) and  [  Grove - LCD RGB Backlight Library ](https://github.com/Seeed-Studio/Grove_LCD_RGB_Backlight/archive/master.zip) from Github.
+-  If you don't know how to install library for Arduino, please refer to [How to install library](/How_to_Install_an_Arduino_Library/)
+
+```
+#include <Wire.h>
+#include "rgb_lcd.h"
 #include "Ultrasonic.h"
 
-SerialLCD slcd(11,12);
+rgb_lcd lcd;
 Ultrasonic ultrasonic(7);
+
+const int colorR = 0;
+const int colorG = 255;
+const int colorB = 0;
+
+
 void setup()
 {
-    slcd.begin();
+    // set up the LCD's number of columns and rows:
+    lcd.begin(16, 2);
+    lcd.setRGB(colorR, colorG, colorB);
 }
 
 void loop()
-{
+{   
     long RangeInCentimeters;
     RangeInCentimeters = ultrasonic.MeasureInCentimeters();
     delay(150);
-    slcd.clear();
-    slcd.setCursor(0,0);
-    slcd.print("The distance:");
-    slcd.setCursor(0,1) ;
-    slcd.print(RangeInCentimeters,DEC);
-    slcd.setCursor(5,1) ;
-    slcd.print("cm");
+    lcd.clear();
+    lcd.setCursor(0,0);
+    lcd.print("The distance:");
+    lcd.setCursor(0,1) ;
+    lcd.print(RangeInCentimeters,DEC);
+    lcd.setCursor(5,1) ;
+    lcd.print("cm");
 }
 ```
-Also we have shot a video about it. which is more straightforward to understand You may find it in the Resources!
+- Copy the code into Arduino and upload. We can see the distance display on the LCD.
 
-**With TI LaunchPad**
+### With TI LaunchPad
+
+#### Connection
 
 Sensing the Distance (Ultrasonic Ranger Sensor)
 
 This example shows how to measure the distance to obstacles using the ultrasonic sensor and display the value on a 4-Digital-Display (centimeters).
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove_Ultrasonic_Ranger/master/image/600px-Ultrasonic.jpg)
-```c
+
+#### Software
+```
 /*
  Ultrasonic-Ranger to 4-digit-display
  Measure the distance to obstacles in front and display the value on
@@ -152,13 +171,23 @@ void loop() {
 }
 ```
 
-**With [Raspberry Pi](http://www.seeedstudio.com/wiki/GrovePi%2B)**
+### With [Raspberry Pi](http://www.seeedstudio.com/wiki/GrovePi%2B)
 
-Connect Ultrasonic ranger to Port D4 and Run the program below. It will print distance information on you terminal, as the figure below.
+#### Connection
+| Raspberry pi | Grove - Ultrasonic Ranger | GrovePi_Plus |
+|--------------|-------------|-----------------|
+|![enter image description here](https://github.com/SeeedDocument/Grove-Temperature_and_Humidity_Sensor_Pro/raw/master/img/pi.jpg)|![enter image description here](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/img/Ultrasonic_Ranger_s.jpg)|![enter image description here](https://github.com/SeeedDocument/Grove-Temperature_and_Humidity_Sensor_Pro/raw/master/img/grovepi%2B.jpg)|
+|[Get ONE Now](https://www.seeedstudio.com/Raspberry-Pi-3-Model-B-p-2625.html)|[Get ONE Now](https://www.seeedstudio.com/Grove-Ultrasonic-Ranger-p-960.html)|[Get ONE Now](https://www.seeedstudio.com/GrovePi%2B-p-2241.html)|
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove_Ultrasonic_Ranger/master/image/GrovePi%2B_Ultrasonic_Ranger_Sensor.jpg)
+- Follow [instruction](http://wiki.seeed.cc/GrovePi_Plus/) to configure the development environment.
+- Connect Ultrasonic ranger to Port **D4** and Run the program below. It will print distance information on you terminal, as the figure below.
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove_Ultrasonic_Ranger/master/image/600px-GrovePi%2B_Ultrasonic_Ranger_Sensor_terminal.jpg)
+![](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/img/pi%20connection.jpg)
+
+
+
+#### Software
+
 ```python
 # GrovePi + Grove Ultrasonic Ranger
 
@@ -189,52 +218,42 @@ while True:
  sudo python grove_ultrasonic.py
 ```
 
+- Here is the result.
+![](https://raw.githubusercontent.com/SeeedDocument/Grove_Ultrasonic_Ranger/master/image/600px-GrovePi%2B_Ultrasonic_Ranger_Sensor_terminal.jpg)
+
+
 ### Related Projects
-If you want to make some awesome projects by Grove - Ultrasonic Ranger, here's some projects for reference.
+If you want to make some awesome projects by Grove - Ultrasonic Ranger, here are some projects for your reference.
 
-**Automatic Water Level Controller**
-
-![](https://raw.githubusercontent.com/SeeedDocument/Grove_Ultrasonic_Ranger/master/image/600px-Automatic_Water_Level_Controller.jpg)
-
-This is an IoT demo make by Arduino and [   Grove](http://www.seeedstudio.com/wiki/Grove_System)
+#### Automatic Water Level Controller
 
 There are many ways like using a float sensor to determine the water level, or using probes to detect peak and low level in the tank. How to measure water level without using probe or contacting with water? yeah there is a way just using a Ultrasonic sensor, and it is very simple! You can even determine the water depth in the tank by setting the maximum and minimum level.
 
+![](https://raw.githubusercontent.com/SeeedDocument/Grove_Ultrasonic_Ranger/master/image/600px-Automatic_Water_Level_Controller.jpg)
+
 [![](https://raw.githubusercontent.com/SeeedDocument/Grove_Ultrasonic_Ranger/master/image/200px-Wiki_makeitnow_logo.png)](http://www.seeed.cc/project_detail.html?id=241)
 
-**Indoor Lightning Cloud**
-
-![](https://raw.githubusercontent.com/SeeedDocument/Grove_Ultrasonic_Ranger/master/image/Indoor_Lightning_Cloud.gif)
-
-This is an IoT demo maked by Seeeduino and [   Grove](http://www.seeedstudio.com/wiki/Grove_System)
-
+#### Indoor Lightning Cloud
 
 Make an indoor lightning Cloud, hang it to your ceiling, to make a joke, blast whoever passing under it, have fun!
 
+![](https://raw.githubusercontent.com/SeeedDocument/Grove_Ultrasonic_Ranger/master/image/Indoor_Lightning_Cloud.gif)
+
 [![](https://raw.githubusercontent.com/SeeedDocument/Grove_Ultrasonic_Ranger/master/image/200px-Wiki_makeitnow_logo.png)](http://www.seeed.cc/project_detail.html?id=182)
 
-**The Colour Helix**
-
-![](https://raw.githubusercontent.com/SeeedDocument/Grove_Ultrasonic_Ranger/master/image/600px-The_Colour_Helix.JPG)
-
-This is an IoT demo maked by Seeeduino and [ Grove](http://www.seeedstudio.com/wiki/Grove_System)
+#### The Color Helix
 
 Our artist Shihui Wang recently showed me her another amazing work of art: the Colour Helix. Again with few simple components she presented us the beauty of the combination of art and electronics.
 
 With a Grove - Ultrasonic Ranger she can magically control the number of illuminated LEDs inside the Helix by raising or lower her palm in the air.
 
+![](https://raw.githubusercontent.com/SeeedDocument/Grove_Ultrasonic_Ranger/master/image/600px-The_Colour_Helix.JPG)
+
 [![](https://raw.githubusercontent.com/SeeedDocument/Grove_Ultrasonic_Ranger/master/image/200px-Wiki_makeitnow_logo.png)](http://www.seeed.cc/project_detail.html?id=138)
 
 ## Resources
 ---
-- [Ultrasonic Ranger library](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/blob/master/resource/Ultrasonic.zip)
-- [Adafruit_NeoPixel](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/res/Adafruit_NeoPixel.zip)
-- [Grove_LCD_RGB_Backlight-master](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/res/Grove_LCD_RGB_Backlight-master.zip)
-- [WS2812_Breakout](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/res/WS2812_Breakout_Example.zip)
-- [Download all the library](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/res/Download%20all%20the%20library.zip)
-- [Example_Measure_and_display_the_distance](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/res/Example_Measure_and_display_the_distance.zip)
-- [Example_Measure_distance_and_led_display](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/res/Example_Measure_distance_and_led_display.zip)
-- [Video demonstration](http://v.youku.com/v_show/id_XMzEzNTcwODI4.html)
-- [Github repository for Grove_Ultrasonic_Ranger Library (new)](https://github.com/Seeed-Studio/Grove_Ultrasonic_Ranger)
-- [SerialLCD Library](https://github.com/Seeed-Studio/Serial_LCD)
-- [Suli-compatible Library](http://www.seeedstudio.com/wiki/Suli)
+- **[Library]**[Ultrasonic Ranger library](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/blob/master/resource/Ultrasonic.zip)
+- **[Library]** [Grove_LCD_RGB_Backlight-master](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/res/Grove_LCD_RGB_Backlight-master.zip)
+- **[Example]** [Example_Measure_and_display_the_distance](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/res/Example_Measure_and_display_the_distance.zip)
+- **[Example]** [Example_Measure_distance_and_led_display](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/res/Example_Measure_distance_and_led_display.zip)
