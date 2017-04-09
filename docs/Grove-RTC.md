@@ -35,27 +35,47 @@ Specifications
 
 !!!Tip
     More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
-    
+
 Platforms Supported
 -------------------
 
-Demonstration
+Getting Started
 -------------
 
 ### With [Arduino](/Arduino "Arduino")
 
-The following sketch demonstrates a simple application of setting the time and reading it out.
+### Connection
+
+Here we will show you how this Grove - RTC works via a simple demo. First of all, you need to prepare the below stuffs:
+
+| Seeeduino V4 | Grove - RTC | Base Shield |
+|--------------|-------------|-----------------|
+|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_1.jpg)|![enter image description here](https://github.com/SeeedDocument/Grove-RTC/raw/master/img/Grove-RTC_s.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_4.jpg)|
+|[Get ONE Now](http://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html)|[Get ONE Now](https://www.seeedstudio.com/Grove-RTC-p-758.html)|[Get ONE Now](https://www.seeedstudio.com/Base-Shield-V2-p-1378.html)|
 
 -   Connect the module to the I2C Interface of **Grove- Base Shield**.
 -   Plug Grove- Base Shield into Arduino.
 -   Connect Arduino to PC via a USB cable.
--   Download the [RTC Library](https://raw.githubusercontent.com/SeeedDocument/Grove-RTC/master/res/RTC_Library.zip).
--   Unzip it into the libraries file of Arduino IDE by the path: ..\arduino-1.0\libraries.
--   Open the code directly by the path:File -> Example ->RTC->SetTimeAndDisplay.
+
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+ In order to gain a robust performance, you must put a 3-Volt CR1225 lithium cell in the battery-holder. If you use the primary power only, the module may not work normally, because the crystal may not oscillate.
+</div>
+
+![](https://github.com/SeeedDocument/Grove-RTC/raw/master/img/arduino%20connection.jpg)
+
+### Software
+
+-  Download the [RTC Library](https://raw.githubusercontent.com/SeeedDocument/Grove-RTC/master/res/RTC_Library.zip).
+- Please follow [how to install an arduino library](http://wiki.seeed.cc/How_to_install_Arduino_Library/) procedures to install library.
+-   Open the code directly by the path: **File -> Example ->RTC->SetTimeAndDisplay**.
+
+  ![](https://github.com/SeeedDocument/Grove-RTC/raw/master/img/library%20example.jpg)
+
 
 ```     
-    #include <Wire.h>
-    #include "DS1307.h"
+#include <Wire.h>
+#include "DS1307.h"
 
 DS1307 clock;//define a object of DS1307 class
 void setup()
@@ -117,7 +137,7 @@ void printTime()
 }
 ```
 
--   Set the time. Put function arguments change to current date/time. The attention should be paid to the arguments format.
+-   Set the time. Change function arguments to current date/time. Please pay attention to arguments' format.
 
 ```
 clock.fillByYMD(2013,1,19);//Jan 19,2013
@@ -126,27 +146,37 @@ clock.fillDayOfWeek(SAT);//Saturday
 ```
 
 -   Upload the code.
--   Open the serial monitor to see the result.
+-   Open the serial to monitor the result.
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove-RTC/master/img/RTC_result.jpg)
+![](https://github.com/SeeedDocument/Grove-RTC/raw/master/img/arduino%20result.png)
 
-The output time is changing like the clock.
 
 ### With Raspberry Pi
 
-1.You should have a raspberry pi and a grovepi or grovepi+.
+#### Connection
 
-2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus).
+- First, We need to prepare the below stuffs:
 
-3.Connection
+|  Raspberry pi | Grove - RTC | Grovepi+ |
+|--------------|-------------|-----------------|
+|![enter image description here](https://github.com/SeeedDocument/Grove-Temperature_and_Humidity_Sensor_Pro/raw/master/img/pi.jpg)|![enter image description here](https://github.com/SeeedDocument/Grove-RTC/raw/master/img/Grove-RTC_s.jpg)|![enter image description here](https://github.com/SeeedDocument/Grove-Temperature_and_Humidity_Sensor_Pro/raw/master/img/grovepi%2B.jpg)|
+|[Get ONE Now](https://www.seeedstudio.com/Raspberry-Pi-3-Model-B-p-2625.html)|[Get ONE Now](https://www.seeedstudio.com/Grove-RTC-p-758.html)|[Get ONE Now](https://www.seeedstudio.com/GrovePi%2B-p-2241.html)|
 
--   Plug the sensor to grovepi socket i2c-x(1~3) by using a grove cable.
 
-4.Navigate to the demos' directory:
+- Follow [instruction](http://wiki.seeed.cc/GrovePi_Plus/) to configure the development environment.
+-   Plug the sensor to grovepi+ socket i2c-x(1~3) by using a grove cable.
+
+![](https://github.com/SeeedDocument/Grove-RTC/raw/master/img/pi%20connenction.jpg)
+
+#### Software
+
+**Demo 1: Grove_i2c_rtc**
+
+- Navigate to the demos' directory:
 ```
     cd yourpath/GrovePi/Software/Python/
 ```
--   To see the code
+-   To find the code
 ```
     nano grove_i2c_rtc.py   # "Ctrl+x" to exit #
 ```
@@ -167,21 +197,23 @@ The output time is changing like the clock.
             print "Error"
 ```
 
-5.Run the demo.
+- Run the demo.
 ```
     sudo python grove_i2c_rtc.py
 ```
 
-6.Result
+- Here is the result.
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove-RTC/master/img/Grovepi_i2c_rtc_00.png)
+  ![](https://raw.githubusercontent.com/SeeedDocument/Grove-RTC/master/img/Grovepi_i2c_rtc_00.png)
 
-7.Use this demo to show the time in common
+**Demo 2: Grove_rtc**
+
+- Use this demo to show the time in common
+
 ```
-    '''
     /*
      * Grove-RTC.py
-     * Demo for Raspberry Pi 
+     * Demo for Raspberry Pi
      *
      * Copyright (c) 2014 seeed technology inc.
      * Website    : www.seeed.cc
@@ -209,7 +241,7 @@ The output time is changing like the clock.
      * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
      * THE SOFTWARE.
      */
-    '''
+
     #!/usr/bin/python
     import time
     import smbus
@@ -227,43 +259,43 @@ The output time is changing like the clock.
             self.SAT = 6
             self.SUN = 7
             self.DS1307_I2C_ADDRESS = 0x68
-            
-            print 'begin' 
-            
+
+            print 'begin'
+
         def decToBcd(self, val):
             return ( (val/10*16) + (val%10) )
-            
+
         def bcdToDec(self,  val):
             return ( (val/16*10) + (val%16) )
-            
+
         def begin(self, news):
             print news
-            
+
         def startClock(self):   
             bus.write_byte(self.DS1307_I2C_ADDRESS, 0x00)
             self.second = bus.read_byte(self.DS1307_I2C_ADDRESS) & 0x7f
             bus.write_byte_data(self.DS1307_I2C_ADDRESS, 0x00, self.second)
-            
+
             print 'startClock..'
-            
+
         def stopClock(self):                        
             bus.write_byte(self.DS1307_I2C_ADDRESS, 0x00)
             self.second = bus.read_byte(self.DS1307_I2C_ADDRESS) | 0x80
             bus.write_byte_data(self.DS1307_I2C_ADDRESS, 0x00, self.second)         
-            
+
             print 'stopClock..'
-            
+
         def setTime(self):
             data = [self.decToBcd(self.second), self.decToBcd(self.minute), \
                     self.decToBcd(self.hour), self.decToBcd(self.dayOfWeek), \
                     self.decToBcd(self.dayOfMonth), self.decToBcd(self.month), \
                     self.decToBcd(self.year)]
-            
+
             bus.write_byte(self.DS1307_I2C_ADDRESS, 0x00)
             bus.write_i2c_block_data(self.DS1307_I2C_ADDRESS,0x00,data)
-            
+
             print 'setTime..'
-            
+
         def getTime(self):
             bus.write_byte(self.DS1307_I2C_ADDRESS, 0x00)
             data = bus.read_i2c_block_data(self.DS1307_I2C_ADDRESS,0x00)
@@ -275,29 +307,29 @@ The output time is changing like the clock.
             self.dayOfMonth = self.bcdToDec(data[4])
             self.month = self.bcdToDec(data[5])
             self.year = self.bcdToDec(data[6])
-            
+
             print 'getTime..'
-            
+
         def fillByHMS(self, _hour,  _minute,  _second):
             self.hour = _hour
             self.minute = _minute
             self.second = _second
-            
+
             print 'fillByHMS..'
-            
+
         def fillByYMD(self, _year,  _month,  _day):     
             self.year = _year - 2000
             self.month = _month;
             self.dayOfMonth = _day
-            
+
             print 'fillByYMD..'
-            
+
         def fillDayOfWeek(self,  _dow):     
             self.dayOfWeek = _dow
-            
+
             print 'fillDayOfWeek..'
-            
-    if __name__ == "__main__": 
+
+    if __name__ == "__main__":
         clock = DS1307()
         clock.fillByYMD(2015,3,5)
         clock.fillByHMS(12,42,30)
@@ -312,23 +344,25 @@ The output time is changing like the clock.
             time.sleep(1)
 ```
 
-8.Create grove_rtc.py and copy codes above.
+- Create grove_rtc.py and copy codes above.
 
-9.Run the code
+- Run the code
 ```
     sudo python grove_rtc.py
 ```
 
-10.Result
+- Here is the result.
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-RTC/master/img/Grovepi_i2c_rtc_01.png)
 
 Resources
 ---------
 
--   [Real Time Clock Eagle File](https://raw.githubusercontent.com/SeeedDocument/Grove-RTC/master/res/Real_Time_Clock.zip)
--   [Github repository for RTC](https://github.com/Seeed-Studio/Grove_RTC)
--   [DS1307 Datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-RTC/master/res/DS1307.pdf)
+- **[Eagle]** [Grove-RTC in Eagle format](https://raw.githubusercontent.com/SeeedDocument/Grove-RTC/master/res/Real_Time_Clock.zip)
+- **[PDF]** [Grove-RTC Schematic in PDF format](https://github.com/SeeedDocument/Grove-RTC/raw/master/res/Grove%20-%20RTC%20v1.1%20Sch.pdf)
+- **[PDF]** [Grove-RTC PCB in PDF format](https://github.com/SeeedDocument/Grove-RTC/raw/master/res/Grove%20-%20RTC%20v1.1%20PCB.pdf)
+- **[Library]**[Github repository for RTC](https://github.com/Seeed-Studio/RTC_DS1307/archive/master.zip)
+- **[Datasheet]** [DS1307 Datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-RTC/master/res/DS1307.pdf)
 
 
 
