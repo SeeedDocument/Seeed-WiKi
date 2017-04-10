@@ -6,6 +6,7 @@ oldwikiname: Motor_Shield_V2.0
 prodimagename: 500px-Motorshield_01.jpg
 surveyurl: https://www.surveymonkey.com/r/MotorShield
 sku: 105030001
+tags: io_5v, plat_duino
 ---
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Motor_Shield_V2.0/master/image/500px-Motorshield_01.jpg)
@@ -13,26 +14,34 @@ sku: 105030001
 !!!Note
     This document works for Motor Shield V2.0/2.1/2.2.
 
-
-The Motor Shield is a driver module for motors that allows you to use Arduino to control the working speed and direction of the motor. Based on the Dual Full-Bridge Drive Chip L298, it is able to drive two DC motors or a step motor. The Motor Shield can either be powered directly by Arduino or by an external 6V~15V power supply via the terminal input. This module can be used for the development of micro robots and intelligent vehicles, etc
+The Motor Shield is a driver module for motors that allows you to use Arduino to control the working speed and direction of the motor. Based on the Dual Full-Bridge Drive Chip L298, it is able to drive two DC motors or a step motor. The Motor Shield can either be powered by Arduino directly or by an external 6V~15V power supply via the terminal input. This module can be used for the development of micro robots and intelligent vehicles, etc
 
 [![Get one now](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now.png)](https://www.seeedstudio.com/item_detail.html?p_id=1377)
+
+Version
+---------------
+
+| Revision | Descriptions                                    | Release        |
+|----------|-------------------------------------------------|----------------|
+| v1.0| Initial public release| NA |
+| v2.0| Enable +5V Pin of Arduino/Seeeduino to power motor | 2013-2  |
+
 
 
 
 ## Features
-
+-------------------
 - Standard Arduino UNO Shield pin out
 - Based on L298 full bridge IC
 - Drive 2 DC Motor or 1 Stepper
 - External power input available
-- Led indicator
+- Led indicators
 - Heat sink for better performance
 - Arduino library
 
 
 ## Specifications
-
+-------------------
 
 |Spec   |Value|
 |:------|:-----------------|
@@ -42,9 +51,15 @@ The Motor Shield is a driver module for motors that allows you to use Arduino to
 |PWM Range	 |0-100% |
 |Output    |2 Channels, 4 Ports|
 
-## Compatibility
 
-We have produced a lot of extension board that can make your platform board more powerful, however not every extension board is compatible with all the platform board, here we use a table to illustrate how are those boards compatible with platform board.
+Platforms Supported
+-------------------
+
+
+## Compatibility
+-------------------
+
+We have produced a lot of extension boards that can make your platform board more powerful, however not every extension board is compatible with all the platform boards, here we use a table to illustrate how are those boards compatible with platform board.
 
 !!!note
     Please note that "Not recommended" means that it might have chance to work with the platform board however requires extra work such as jump wires or rewriting the code. If you are interested in digging more, welcome to contact with techsupport@seeed.cc.
@@ -54,6 +69,7 @@ We have produced a lot of extension board that can make your platform board more
 
 
 ## Hardware Overview
+-------------------
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Motor_Shield_V2.0/master/image/700px-MotorShieldHardware.png)
 
@@ -88,12 +104,12 @@ We have produced a lot of extension board that can make your platform board more
 
 **9**.Power indicator - turn green when power in, either internal or external
 
-**A.**Power switch
+**A.** Power switch
 
 - Connect - Get power from Arduino
 - Disconnect - Get power from External sources
 
-**B.**Standard Arduino shield pin out
+**B.** Standard Arduino shield pin out
 
 ### Digital Pin Used
 |Arduino Pin   |Function        |
@@ -114,7 +130,7 @@ We have produced a lot of extension board that can make your platform board more
 |D13    |	**OUT4** |
 
 !!!Note
-    D8~D13 was used by Motor Shield. Please don't use those pins to avoid conflict.
+    D8~D13 are used by Motor Shield. Please don't use those pins to avoid conflict.
 
 ### Analog Pin Used
 |Arduino Pin   |Function        |
@@ -131,30 +147,34 @@ We have produced a lot of extension board that can make your platform board more
     Not Used means you can use those pins freely.
 
 ## Getting Started
+-------------------
+### Drive a DC motor
 
-Here we will show you how to drive a dc motor and a stepper with this shield.
+#### Connection
 
-We need a[ Seeeduino V4 ](http://www.seeedstudio.com/wiki/LinkIt_Smart_7688#Getting_Started)as the controller, Seeeduino V4 is an Arduino compatible board, and you can use an Arduino as well.
+Here we will show you how this Motor Shield works via a simple demo. First of all, you need to prepare the below stuffs:
 
-And you need a dc motor or a stepper for testing.
-
-### Download the library
-
-Click below button to download the library. If the library you download includes "**-master**", please remove it.
-
-[![](https://raw.githubusercontent.com/SeeedDocument/Motor_Shield_V2.0/master/image/400px-Motor_shield_v2_library.png)](https://github.com/Seeed-Studio/SeeedMotorShieldV2)
-
-### Drive a DC Motor
-This section will show you how to drive a DC motor with this module.
-![](https://raw.githubusercontent.com/SeeedDocument/Motor_Shield_V2.0/master/image/400px-Electric_motor_cycle_2.png)
-
-You need to do some preparing first:
+| Seeeduino V4 | DC Motor | Motor Shield |
+|--------------|-------------|-----------------|
+|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_1.jpg)|![enter image description here](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/image/130%20DC%20Motor_s.jpg)|![enter image description here](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/image/motor%20shield_s.jpg)|
+|[Get ONE Now](http://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html)|[Get ONE Now](https://www.seeedstudio.com/130-DC-Motor-p-2023.html)|[Get ONE Now](https://www.seeedstudio.com/Motor-Shield-V2.0-p-1377.html)|
 
 - Set **SEN_A** and **SEN_B**, connect the left 2 pins together with a jumper.
 - Connect **MB_EN** together with a jumper, as we are not going use an external power.
-- Connect your DC motor to Chanel 0 (OUT1 and OUT2).
+- Connect DC motor to Chanel 0 (OUT1 and OUT2).
+- Plug Motor Shield into Arduino.
+- Connect Arduino to PC via a USB cable.
 
-Then open **motor_dc** example in the library. Upload the code to Seeeduino V4.
+![](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/image/DC%20connection.jpg)
+
+#### Software
+
+- Click below button to download the motor shield library.
+- Please follow [how to install an arduino library](http://wiki.seeed.cc/How_to_install_Arduino_Library/) procedures to install the library.
+
+[![](https://raw.githubusercontent.com/SeeedDocument/Motor_Shield_V2.0/master/image/400px-Motor_shield_v2_library.png)](https://github.com/Seeed-Studio/SeeedMotorShieldV2/archive/master.zip)
+
+- Upload the code to Seeeduino V4.
 
 ```
 //  Demo function:The application method to drive the DC motor.
@@ -184,24 +204,30 @@ void loop()
 }
 // END FILE
 ```
-Then you will find your motor move (1s), stop (1s), move back (1s), stop (1s), and loop.
+- Then you will find your motor move (1s), stop (1s), move back (1s), stop (1s), and loop.
 
 If nothing happens, please make sure:
 
-- You have uploaded the code successfully
-- Your motor is connecting properly
+- We have uploaded the code successfully
+- The motor is connected properly
 - The led indicators blink right
 
 ### Drive a Stepper
-This section will show you how to drive a [stepper](https://en.wikipedia.org/wiki/Stepper_motor) with this module.
 
-![](https://raw.githubusercontent.com/SeeedDocument/Motor_Shield_V2.0/master/image/400px-StepperMotor.gif)
+#### Connection
 
-You need to do some preparing first:
+Here we will show you how this Motor Shield works via a simple demo.  First of all, you need to prepare the below stuffs:
+
+| Seeeduino V4 | Stepper Motor | Motor Shield |
+|--------------|-------------|-----------------|
+|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_1.jpg)|![enter image description here](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/image/Motor%2024BYJ48_s.jpg)|![enter image description here](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/image/motor%20shield_s.jpg)|
+|[Get ONE Now](http://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html)|[Get ONE Now](https://www.seeedstudio.com/Small-Size-and-High-Torque-Stepper-Motor-24BYJ48-p-1922.html)|[Get ONE Now](https://www.seeedstudio.com/Motor-Shield-V2.0-p-1377.html)|
+
+
+
 - Set **SEN_A** and **SEN_B**, connect the left 2 pins together with a jumper.
-- Connect **MB_EN** together with a jumper, as we are not going to use an external power.
-
-Find the pin definitions of you stepper, and connect it to the OUTPUT of the shield. As below:
+- Connect **MB_EN** together with a jumper, as we are not going use an external power.
+- Find the pin definitions of you stepper, and connect it to the OUTPUT of the shield. As below:
 
 |Stepper   |Motor Shield  |
 |:------|:-----------------|
@@ -210,7 +236,12 @@ Find the pin definitions of you stepper, and connect it to the OUTPUT of the shi
 |B+ 	|OUT3  |
 |B-    |OUT4 |
 
-Then open **stepper_test** example in the library, upload it to Seeeduino V4, then you will find your stepper move.
+- Plug Motor Shield into Arduino.
+- Connect Arduino to PC via a USB cable.
+
+#### Software
+
+Copy below code to Arduino IDE and upload it to Seeeduino V4, then you will find your stepper move.
 ```
 /*
  * Stepper test for Seeed Motor Shield V2
@@ -260,16 +291,20 @@ void loop()
 If nothing happens, please double check if you have connected the wire right.
 
 ## Library APIs
+---------
 
-### begin
+### DC Motor APIs:
+
+#### begin
+
 **Description**
 ```Javascript
 void begin();
 ```
-### speed
+#### speed
 **Description**
 
-Set speed, control by PWM.
+
 ```Javascript
 void move(int motor_id, int speed);
 ```
@@ -286,18 +321,18 @@ void stop(unsigned char motor_id);
 ```Javascript
 void brake(unsigned char motor_id);
 ```
-### Stepper
+#### Stepper
 **Note** that we use the library provided by Arduino IDE to drive a stepper.
 
-There's something need to be modified, please refer the examples.
+There's something need to be modified, please refer to the examples.
 
-### Resources
-
-- [ Motor Shield V2.0 Eagle File ](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/resource/Motor_Shield_Eagle_File.zip)
-- [Motor shield V2.1 Eagle File ](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/resource/Motor_shield_2.1.rar)
-- [Motor Shield 2.0 schematics](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/resource/Motor_shield_2.0.pdf)
-- [Motor Shield 2.1 schematics](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/resource/Motor_shield_2.1.pdf)
-- [Motor Shield 2.2 schematics](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/resource/Motor%20Shield%20v2.2.pdf)
-- [Motor Shield Library](https://github.com/Seeed-Studio/SeeedMotorShieldV2)
-- [L298 Datasheet](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/resource/L298.pdf)
-- [78M05 Datasheet](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/resource/78M05_datasheet.pdf)
+## Resources
+-------------------
+- **[Eagle]** [ Motor Shield V2.0 Eagle File ](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/resource/Motor_Shield_Eagle_File.zip)
+- **[Eagle]** [Motor shield V2.1 Eagle File ](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/resource/Motor_shield_2.1.rar)
+- **[PDF]** [Motor Shield 2.0 schematics](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/resource/Motor_shield_2.0.pdf)
+- **[PDF]** [Motor Shield 2.1 schematics](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/resource/Motor_shield_2.1.pdf)
+- **[PDF]** [Motor Shield 2.2 schematics](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/resource/Motor%20Shield%20v2.2.pdf)
+- **[Library]** [Motor Shield Library](https://github.com/Seeed-Studio/SeeedMotorShieldV2/archive/master.zip)
+- **[Datasheet]** [L298 Datasheet](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/resource/L298.pdf)
+- **[Datasheet]** [78M05 Datasheet](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/resource/78M05_datasheet.pdf)
