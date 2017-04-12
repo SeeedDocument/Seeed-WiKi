@@ -6,17 +6,18 @@ oldwikiname: Grove - OLED Display 0.96"
 prodimagename: Grove-OLED-0.96.png
 surveyurl: https://www.surveymonkey.com/r/Grove_OLED_0_96
 sku: 104030008
+tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_bbg
 ---
 
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove_OLED_Display_0.96/master/images/Grove-OLED-0.96.png)
 
-**Grove - OLED Display 0.96"** module is an OLED monochrome 128×64dot matrix display module with Grove 4pin I2C Interface.Comparing to LCD, OLED screens are way more competitive, which has a number of advantages such as high brightness, self-emission, high contrast ratio, slim / thin outline, wide viewing angle, wide temperature range, and low power consumption. It has bigger screen so that it can display more contents than the OLED 96×96. 
+**Grove - OLED Display 0.96"** module is an OLED monochrome 128×64dot matrix display module with Grove 4pin I2C Interface.Comparing to LCD, OLED screens are more competitive, which has a number of advantages such as high brightness, self-emission, high contrast ratio, slim / thin outline, wide viewing angle, wide temperature range, and low power consumption. It has bigger screen so that it can display more contents than the OLED 96×96.
 
 [![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now.png)](https://www.seeedstudio.com/item_detail.html?p_id=781)
 
-##Features
-
+## Features
+------------
 - Grove compatible interface
 - Communicate Mode:I2C
 - Low power consumption
@@ -29,7 +30,9 @@ sku: 104030008
 !!!Tip
     More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
 
-##Specifications
+## Specifications
+------------
+
 |Items	                             |Min	 |Norm	   |Max	   |Unit          |
 |------------------------------------|-----------|---------|-------|--------------|
 |Power Voltage (VCC)                 |3.3	 |5.0	   |5.5	   |V             |
@@ -41,29 +44,71 @@ sku: 104030008
 |Dot Pitch	                     |-|0.17(W)×0.175 (H)|-	           |mm            |
 |Dot Size	                     |-|0.15(W)×0.15 (H)|-	           |mm            |
 |Wide range of operating temperature |-|-20~70 |-                      |℃            |
- 
-##Getting Started
-###With Arduino
-The OLED128*64 uses all the pins of SSD1308 chip, the default original point is on the top left corner. You can also change the original point by adjusting the program and in order to display your desired patterns. For more details, please consult [SSD1308_1.0.pdf](https://github.com/SeeedDocument/Grove_OLED_Display_0.96/blob/master/resource/SSD1308_1.0.pdf) and [LY190-128064.pdf](https://github.com/SeeedDocument/Grove_OLED_Display_0.96/blob/master/resource/LY190-128064.pdf).
+
+
+## Platforms Supported
+------------
+
+## Getting Started
+------------
+### With Arduino
+
+#### Connection
+
+The OLED128*64 uses all the pins of SSD1308 chip, the default original point is on the top left corner. You can also change the original point by adjusting the program and in order to display your desired patterns. For more details, please refer [SSD1308_1.0.pdf](https://github.com/SeeedDocument/Grove_OLED_Display_0.96/raw/master/resource/SSD1308_1.0.pdf) and [LY190-128064.pdf](https://github.com/SeeedDocument/Grove_OLED_Display_0.96/raw/master/resource/LY190-128064.pdf).
 
 Here we demonstrate how to display "Hello World" on the screen.
 
-- Plug the Grove OLED Display 128*64 onto the I2C port on Grove Base Shield, and then plug the Base Shield onto Arduino or Seeeduino;
+First of all, We need to prepare the below stuffs:
 
-- Download the library code from [GitHub](https://github.com/Seeed-Studio/OLED_Display_128X64);
+| Seeeduino V4 | Grove - OLED Display 0.96inch | Base Shield |
+|--------------|-------------|-----------------|
+|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_1.jpg)|![enter image description here](https://github.com/SeeedDocument/Grove_OLED_Display_0.96/raw/master/images/grove%20oled%200.96_s.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_4.jpg)|
+|[Get ONE Now](http://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html)|[Get ONE Now](https://www.seeedstudio.com/Grove-OLED-Display-0.96%26quot%3B-p-781.html)|[Get ONE Now](https://www.seeedstudio.com/Base-Shield-V2-p-1378.html)|
 
-<iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://codebender.cc/embed/example/SeeedGrayOLED/OLED_Hello_World" frameborder="0"></iframe>
+- Plug the Grove OLED Display 128*64 onto the I2C port on Grove Base Shield, and then plug the Base Shield into  Seeeduino;
+
+#### Software
+
+- Download [Seeed OLED Display 128*64 library](https://github.com/Seeed-Studio/OLED_Display_128X64/archive/master.zip)
+- Please follow [how to install an arduino library](http://wiki.seeed.cc/How_to_install_Arduino_Library/) procedures to install library.
+- Open the code directly by the path: **File -> Example ->OLED_Display_128X64-master->OLED_Hello_World**.
+![](https://github.com/SeeedDocument/Grove_OLED_Display_0.96/raw/master/images/library%20example.png)
 
 
-- Download and upload the code. If you do not know how to upload an Arduino sketch, please visit https://www.arduino.cc/en/Guide/Windows for Windows user or https://www.arduino.cc/en/Guide/MacOSX for Mac user. You can see the result as below.
+```
+#include <Wire.h>
+#include <SeeedOLED.h>
 
-**Tips:** if you use Seeeduino, please also select **Boards** under **Tools** as you upload sketches.
+
+void setup()
+{
+  Wire.begin();
+  SeeedOled.init();  //initialze SEEED OLED display
+
+  SeeedOled.clearDisplay();          //clear the screen and set start position to top left corner
+  SeeedOled.setNormalDisplay();      //Set display to normal mode (i.e non-inverse mode)
+  SeeedOled.setPageMode();           //Set addressing mode to Page Mode
+  SeeedOled.setTextXY(0,0);          //Set the cursor to Xth Page, Yth Column  
+  SeeedOled.putString("Hello World!"); //Print the String
+
+}
+
+void loop()
+{
+
+}
+
+```
+
+- Upload the code.  
+- We can see "hello world" on screen.
 
 
-###With Beaglebone Green
-To begin editing programs that live on BBG, you can use the Cloud9 IDE.
-As a simple exercise to become familiar with Cloud9 IDE, creating a simple application to blink one of the 4 user programmable LEDs on the BeagleBone is a good start.
-If this is your first time to use Cloud9 IDE, please follow this link. 
+### With Beaglebone Green
+To begin editing programs that live on BBG, you can use the [Cloud9 IDE](https://c9.io) and refer [Beaglebone Green Wiki](http://wiki.seeed.cc/BeagleBone_Green/).
+
+Here are the steps how to display "Hello World" on OLED.
 
 **Step1**: Click the "+" in the top-right to create a new file.
 
@@ -73,19 +118,20 @@ If this is your first time to use Cloud9 IDE, please follow this link.
 
 **Step2**:Copy and paste the following code into the new tab
 ``` python
+
 from Adafruit_I2C import Adafruit_I2C
 import time
 import math
- 
- 
+
+
 Oled = Adafruit_I2C(0x3c)
 Command_Mode=0x80
 Data_mode=0x40
- 
+
 grayH= 0xF0
 grayL= 0x0F
 Normal_Display_Cmd=0xA4
- 
+
 BasicFont = [[0 for x in xrange(8)] for x in xrange(10)]
 BasicFont=[[0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00],
 [0x00,0x00,0x5F,0x00,0x00,0x00,0x00,0x00],
@@ -183,7 +229,7 @@ BasicFont=[[0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00],
 [0x00,0x41,0x36,0x08,0x00,0x00,0x00,0x00],
 [0x00,0x02,0x01,0x01,0x02,0x01,0x00,0x00],
 [0x00,0x02,0x05,0x05,0x02,0x00,0x00,0x00]]
- 
+
 def oled_init():
     sendCommand(0xFD) # Unlock OLED driver IC MCU interface from entering command. i.e: Accept commands
     sendCommand(0x12)
@@ -197,11 +243,11 @@ def oled_init():
     sendCommand(0xA0) # set remap
     sendCommand(0x46)
     sendCommand(0xAB) # set vdd internal
-    sendCommand(0x01) 
+    sendCommand(0x01)
     sendCommand(0x81) # set contrasr
     sendCommand(0x53) # 100 nit
     sendCommand(0xB1) # Set Phase Length
-    sendCommand(0X51) 
+    sendCommand(0X51)
     sendCommand(0xB3) # Set Display Clock Divide Ratio/Oscillator Frequency
     sendCommand(0x01)
     sendCommand(0xB9)
@@ -210,7 +256,7 @@ def oled_init():
     sendCommand(0xBE) # set VCOMH
     sendCommand(0X07) # (0x07);
     sendCommand(0xB6) # Set second pre-charge period
-    sendCommand(0x01) 
+    sendCommand(0x01)
     sendCommand(0xD5) # enable second precharge and enternal vsl
     sendCommand(0X62) # (0x62);
     sendCommand(0xA4) # Set Normal Display Mode
@@ -218,44 +264,44 @@ def oled_init():
     sendCommand(0xAF) # Switch on display
     time.sleep(0.1)
     # delay(100);
- 
+
     # Row Address
-    sendCommand(0x75)    # Set Row Address 
+    sendCommand(0x75)    # Set Row Address
     sendCommand(0x00)    # Start 0
-    sendCommand(0x5f)    # End 95 
- 
- 
+    sendCommand(0x5f)    # End 95
+
+
     # Column Address
-    sendCommand(0x15)    # Set Column Address 
-    sendCommand(0x08)    # Start from 8th Column of driver IC. This is 0th Column for OLED 
+    sendCommand(0x15)    # Set Column Address
+    sendCommand(0x08)    # Start from 8th Column of driver IC. This is 0th Column for OLED
     sendCommand(0x37)    # End at  (8 + 47)th column. Each Column has 2 pixels(segments)
- 
+
     # Init gray level for text. Default:Brightest White
     grayH= 0xF0
     grayL= 0x0F
- 
+
 def sendCommand(byte):
     Oled.write8(Command_Mode,byte)
- 
+
 def sendData(byte):
     Oled.write8(Data_mode,byte)
- 
+
 def multi_comm(commands):
     for c in commands:
         sendCommand(c)
- 
+
 def oled_clearDisplay():
     for j in range (0,48):
         for i in range (0,96):
             sendData(0x00)
- 
+
 def oled_setNormalDisplay():
     sendCommand(Normal_Display_Cmd)
- 
+
 def oled_setVerticalMode():
     sendCommand(0xA0)    # remap to
     sendCommand(0x46)    # Vertical mode
- 
+
 def oled_setTextXY(Row,Column):
     sendCommand(0x15)             # Set Column Address
     sendCommand(0x08+(Column*4))  # Start Column: Start from 8
@@ -264,13 +310,13 @@ def oled_setTextXY(Row,Column):
     sendCommand(0x75)             # Set Row Address
     sendCommand(0x00+(Row*8))     # Start Row
     sendCommand(0x07+(Row*8))     # End Row
- 
+
 def oled_putChar(C):
     C_add=ord(C)
     if C_add<32 or C_add>127:     # Ignore non-printable ASCII characters
         C=' '
         C_add=ord(C)
- 
+
     for i in range(0,8,2):
         for j in range(0,8):
             c=0x00
@@ -285,12 +331,12 @@ def oled_putChar(C):
             else:
                 c=c|0x00
             sendData(c)
- 
+
 def oled_putString(String):
     for i in range(len(String)):
         oled_putChar(String[i])   
- 
- 
+
+
 if __name__=="__main__":
     oled_init()
     oled_setNormalDisplay()
@@ -305,11 +351,14 @@ if __name__=="__main__":
 
 **Step4**: Connect Grove - OLED to Grove I2C socket on BBG.
 
-**Step5**: Run the code. You'll find that the Grove - OLED outputs "Hello World".
+**Step5**: Run the code. We'll find that the Grove - OLED outputs "Hello World".
 
-##Resources
-
-- [GitHub Library for OLED](https://github.com/Seeed-Studio/OLED_Display_128X64)
-- [Grove-OLED128x64 Schematic.pdf](https://github.com/SeeedDocument/Grove_OLED_Display_0.96/blob/master/resource/Twig-OLED128x64_v0.9b.pdf)
-- [Resources of SSD1308_1.0.pdf](https://github.com/SeeedDocument/Grove_OLED_Display_0.96/blob/master/resource/SSD1308_1.0.pdf)
-- [Resources of LY190-128064.pdf](https://github.com/SeeedDocument/Grove_OLED_Display_0.96/blob/master/resource/LY190-128064.pdf)
+## Resources
+-----------
+- **[Eagle]** [Grove-OLED128x64 .pdf](https://github.com/SeeedDocument/Grove_OLED_Display_0.96/raw/master/resource/OLED%20128x64.zip)
+- **[PDF]** [Grove-OLED128x64 Schematic](https://github.com/SeeedDocument/Grove_OLED_Display_0.96/raw/master/resource/OLED%20128x64%20SCH.pdf)
+- **[PDF]** [Grove-OLED128x64 PCB](https://github.com/SeeedDocument/Grove_OLED_Display_0.96/raw/master/resource/OLED%20128x64%20PCB.pdf)
+- **[Library]** [GitHub Library for OLED](https://github.com/Seeed-Studio/OLED_Display_128X64/archive/master.zip)
+- **[Datasheet]** [Resources of SSD1308_1.0.pdf](https://github.com/SeeedDocument/Grove_OLED_Display_0.96/raw/master/resource/SSD1308_1.0.pdf)
+- **[Datasheet]** [Resources of LY190-128064.pdf](https://github.com/SeeedDocument/Grove_OLED_Display_0.96/raw/master/resource/LY190-128064.pdf)
+- **[Wiki]** [Beaglebone Green Wiki](http://wiki.seeed.cc/BeagleBone_Green/)
