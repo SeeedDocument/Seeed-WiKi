@@ -6,15 +6,14 @@ oldwikiname: Grove_-_OLED_Display_1.12"
 prodimagename: main.jpg
 surveyurl: https://www.research.net/r/F79KN2D
 sku: 104030011
+tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_bbg, plat_pi, plat_wio, plat_linkit
 ---
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_OLED_1.12/master/images/main.jpg)
 
-It is a 16 color grayscale 96x96 dot matrix OLED display module with Grove compatible 4pin I2C interface.
-This module is constructed with 96x96 dot matrix OLED module LY120 and SSD1327 driver IC.
-Comparing to LCD, OLED screens are more competitive, which has a number of advantages such as high
-brightness, self-emission, high contrast ratio, slim / thin outline, wide viewing angle, wide temperature
-range, and low power consumption.
+Our new 1.12” OLED displays are perfect when you need a small display with 16 grayscale. The visible portion of the OLED measures 1.12” diagonal and contains 96x96 grayscale pixels. Because the display uses OLEDs, there is no backlight, and the contrast is very high.
+
+This OLED uses the SSD1327 driver chip, which manages the display. You can talk to the driver chip using 4-wire I2C (clock, data, power, and GND pins).
 
 * Communicate Mode: I2C
 * Grayscale Display: 16 Gray shades.
@@ -25,8 +24,8 @@ range, and low power consumption.
   [![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now.png)](http://www.seeedstudio.com/Grove-OLED-Display-1.12%22-p-824.html)
 
 
-##Specifications
-
+## Specifications
+---
 |Item|Value|
 |-----|------|
 |Operating Voltage | 3.3/5 V|
@@ -42,17 +41,24 @@ range, and low power consumption.
     More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
 
 
-###Platform Support
-
-|Arduino|Wio|BeagleBone|Raspberry Pi|LinkIt|
-|---------|-----|-----|------|------|
-|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/arduino_logo.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/wio_logo.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/bbg_logo.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/raspberry_pi_logo.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/linkit_logo.jpg)|
+## Platforms Supported
+---
 
 
-##Getting Started
+## Getting Started
+---
 
 !!!Note
     This chapter is based on Win10 and Arduino IDE 1.6.9
+
+### Connection
+
+Here we will show you how this Grove - OLED Display works via a simple demo. First of all, you need to prepare the below stuffs:
+
+| Seeeduino V4 | Grove - OLED Display 1.12`` | Base Shield |
+|--------------|----------------------|-----------------|
+|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_1.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_OLED_1.12/master/images/product.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_4.jpg)|
+|[Get ONE Now](http://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html)|[Get ONE Now](http://www.seeedstudio.com/Grove-OLED-Display-1.12%22-p-824.html)|[Get ONE Now](https://www.seeedstudio.com/Base-Shield-V2-p-1378.html)|
 
 This is an easy-to-use module, what you need to do is connect the module to I2C port of a Base Shield. There're 4 pins, defined as below.
 
@@ -63,68 +69,50 @@ This is an easy-to-use module, what you need to do is connect the module to I2C 
 |pin3   | VCC  | Power, 5V/3.3V| RED |
 |pin4	| GND  | Ground | BLACK |
 
+**Grove - OLED Display 1.12``** is an **I2C** module, we connect it to **I2C** port at this demo.
 
-Here we will show you how this Grove - OLED Display works via a simple demo. First of all, you need to prepare the below stuffs:
+![enter image description here](https://github.com/SeeedDocument/Grove_OLED_1.12/raw/master/images/connection.jpg)
 
-| Seeeduino V4 | Grove - OLED Display 1.12`` | Base Shield |
-|--------------|----------------------|-----------------|
-|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_1.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_OLED_1.12/master/images/product.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_4.jpg)|
-|[Get ONE Now](http://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html)|[Get ONE Now](http://www.seeedstudio.com/Grove-OLED-Display-1.12%22-p-824.html)|[Get ONE Now](http://www.seeedstudio.com/Grove-Universal-4-Pin-20cm-Unbuckled-Cable-%285-PCs-Pack%29-p-749.html)|
+### Software
 
-###Connection
-
-Thanks to the benefit of Grove series modules, you don't need to make soldering or bread board, what you need to do is connect the modules to the right port of Base Shield. For this demo, we have only one Grove module.
-
-* **Grove - OLED Display 1.12``** is an **I2C** module, we connect it to **I2C** port at this demo.
-
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_OLED_1.12/master/images/connectin.jpeg)
-
-###Download the library
-
-We provide an Arduino Library for this Grove - OLED Display 1.12``, click on the below button to download it.
-
-
+- Please follow [how to install an arduino library](http://wiki.seeed.cc/How_to_install_Arduino_Library/) procedures to install library.
+- We provide an Arduino Library for this Grove - OLED Display 1.12inch, click on the below button to download it.
 [![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_OLED_1.12/master/images/library.png)](https://github.com/Seeed-Studio/OLED_Display_96X96/archive/master.zip)
 
-Unzip the file and put to libraries folder of your Arduino IDE.
+- Unzip the file and put to libraries folder of your Arduino IDE.
 There're many examples in this library, which is consist of
 
-* OLED_Bitmap_Inverse_Display
-* OLED_Draw_Bitmap
-* OLED_Hello_World
-* OLED_Inverse_Display
-* OLED_PrintNumbers
-* OLED_Scroll_Left
-* OLED_Scroll_Right
-* OLED_Z_Display_Driver_Test_Suite
 
+    1. OLED_Bitmap_Inverse_Display
+    2. OLED_Draw_Bitmap
+    3. OLED_Hello_World
+    4. OLED_Inverse_Display
+    5. OLED_PrintNumbers
+    6. OLED_Scroll_Left
+    7. OLED_Scroll_Right
+    8. OLED_Z_Display_Driver_Test_Suite
 
-###Upload example to an Arduino
+- Now let's try upload **OLED_Hello_World** to Seeeduino V4. Open your Arduino IDE, click on **File > Example > OLED_Display_96x96-master > OLED_Hello_World**
 
-Now let's try upload **OLED_Hello_World** to Seeeduino V4. Open your Arduino IDE, click on
+  ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_OLED_1.12/master/images/example.png)
 
-**File > Example > OLED_Display_96x96-master > OLED_Hello_World**
-
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_OLED_1.12/master/images/example.png)
-
-The code is open, select the right board and right COM Port, then click on Upload button which will take few seconds.
+- When the code is open, select the right board and right COM Port, then click on Upload button which will take few seconds.
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_OLED_1.12/master/images/arduino.png)
 
-If the code is uploaded correctly, take look at your display, something was printed on it.
+- If the code is uploaded correctly, you will see the hello world on the OLELD.
+  ![enter image description here](https://github.com/SeeedDocument/Grove_OLED_1.12/raw/master/images/hello_world.png)
 
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_OLED_1.12/master/images/play.jpeg)
+- Then please try the other examples to see what will happen.
 
-Then please try the other examples to see what will happen.
-
-###APIs of the library
+### APIs of the library
 
 Seeed Gray OLED library provides complete software interfaces to exercise the capabilities of
 SSD1327Z driver with a 96x96 gray OLED. Almost all useful features are implemented and all
 functions are in public scope. This makes Seeed Gray OLED Library extensible. Seeed Gray OLED
 library uses Arduino Wire library. Hence initialize wire library before initializing Seeed OLED library.
 
-###init()
+#### init()
 
 Initializes the Seeed OLED frame and sets the display to Normal mode.
 
@@ -132,7 +120,7 @@ Example:
 
     SeeedGrayOled.init();  //initialze SEEED Gray OLED display
 
-###clearDisplay()  
+#### clearDisplay()  
 
 Clears the whole screen. Should be used before starting a fresh start or after scroll deactivation.
 This function also sets the cursor to top left corner.
@@ -141,7 +129,7 @@ Example:
 
     SeeedGrayOled.clearDisplay();  //clear the screen and set start position to top left corner
 
-###setNormalDisplay()  
+#### setNormalDisplay()  
 
 Configures the display to normal mode(non-inverse) mode.
 
@@ -150,32 +138,32 @@ Example:
     SeeedGrayOled.setNormalDisplay();//Set display to normal mode (i.e non-inverse mode)
 
 
-###setContrastLevel(unsigned char ContrastLevel)  
+#### setContrastLevel(unsigned char ContrastLevel)  
 Set the contrast ratio of OLED display. ContrastLevel can be any number from 0 - 255.
 Example:
 
     SeeedGrayOled.setContrastLevel(127); //Set display contrast ratio to half level( i.e 256/2 1 ).
 
-###setInverseDisplay())  
+#### setInverseDisplay()
 Configures the display to inverse mode.
 Example:
 
     SeeedGrayOled.setInverseDisplay();      //Set display to inverse mode
 
-###setHorizontalMode()  
+#### setHorizontalMode()  
 Configures the display to horizontal addressing mode.
 Example:
 
     SeeedGrayOled.setHorizontalMode();      //Set addressing mode to Horizontal Mode
 
-####setVerticalMode()  
+#### setVerticalMode()  
 Configures the display to vertical addressing mode. Texts are drawn in vertical mode. Please set
 the display to vertical mode before printing text.
 Example:
 
     SeeedGrayOled.setVerticalMode();      //Set addressing mode to Vertical Mode
 
-###setTextXY(X,Y)  
+#### setTextXY(X,Y)  
 Set the text's position (cursor) to Xth Text Row, Yth Text Column.96x96 OLED is divided into 12
 rows and 12 Columns of text. This row and column should not be confused with OLED Row and
 Column.
@@ -187,7 +175,7 @@ Example:
 
     SeeedGrayOled.setTextXY(0,0);  //Set the cursor to 0th Text Row, 0th Text Column
 
-###putChar(unsigned char c)  
+#### putChar(unsigned char c)  
 Print a character to OLED display starting from current address-pointer set by setTextXY(X,Y). This
 function is internally used by putString().
 
@@ -195,14 +183,14 @@ Example:
 
     SeeedGrayOled.putChar('S'); //Print the character S
 
-###putString(cont char *string)  
+#### putString(cont char *string)  
 
 Print string to OLED display starting from current address-pointer set by setTextXY(X,Y)
 Example:
 
     SeeedGrayOled.putString("Hello World!"); //Print the String
 
-###putNumber(long n)  
+### putNumber(long n)  
 
 Print numbers to OLED display starting from current address-pointer set by setTextXY(X,Y).
 Number can be any char,int or long datatype. It also takes care of -ve sign.
@@ -211,7 +199,7 @@ Example:
 
     SeeedGrayOled.putNumber(-56123); //Print number -56123
 
-###drawBitmap(unsigned char *bitmaparray, int bytes)  
+### drawBitmap(unsigned char *bitmaparray, int bytes)  
 
 Display a binary bitmap on the OLED matrix. The data is provided through a pointer to uni-dimensional array holding bitmap. The bitmap data is available in continuous rows of columns
 as like Horizontal Addressing mode. bytes is size of bitmap in bytes.
@@ -220,7 +208,7 @@ Example:
 
     SeeedGrayOled.drawBitmap(SeeedLogo,96*96/8);   //  Draw binary Bitmap (96 pixels *96 pixels  / 8) bytes
 
-###setHorizontalScrollProperties
+### setHorizontalScrollProperties
 
 Set the properties of horizontal scroll.
 
@@ -235,24 +223,25 @@ Example:
 
     SeeedGrayOled.setHorizontalScrollProperties(Scroll_Left,72,95,0,47,Scroll_5Frames);  //Set the properties of Horizontal Scroll
 
-###activateScroll()  
+### activateScroll()  
 Enable scrolling. This should be used only after setting horizontal scroll properties.
 Example:
 
     SeeedGrayOled.activateScroll();   //Enable scrolling.
 
-###deactivateScroll()  
+### deactivateScroll()  
 
 Disable scrolling. This should be used after activateScroll();
 Example:
 
     SeeedGrayOled.activateScroll();   //Disable scrolling.
 
-##Resources
-
-* [Github Repository of the Library](https://github.com/Seeed-Studio/OLED_Display_96X96)
-* [Schematic in Eagle](https://github.com/SeeedDocument/Grove_OLED_1.12/raw/master/resources/OLED%20Display.zip)
-* [SSD1327 Datasheet](https://github.com/SeeedDocument/Grove_OLED_1.12/raw/master/resources/SSD1327_datasheet.pdf)
-* [LY120 Datasheet](https://github.com/SeeedDocument/Grove_OLED_1.12/raw/master/resources/308010007_LCD-22P-0.7.pdf)
-* [Reference for Make a 96x96 Image](https://github.com/SeeedDocument/Grove_OLED_1.12/raw/master/resources/Make_A_96X96_Image1.zip)
-* [Github Repository of this Document](https://github.com/SeeedDocument)
+## Resources
+---------
+* **[Eagle]** [Grove-OLED Display 1.12inch in Eagle](https://github.com/SeeedDocument/Grove_OLED_1.12/raw/master/resources/OLED%20Display.zip)
+* **[PDF]** [Grove-OLED Display 1.12inch Sch](https://github.com/SeeedDocument/Grove_OLED_1.12/raw/master/resources/Grove%20-%2096x96%20OLED%20Display%20v2.1%20Sch.pdf)
+* **[PDF]** [Grove-OLED Display 1.12inch PCB](https://github.com/SeeedDocument/Grove_OLED_1.12/raw/master/resources/Grove%20-%2096x96%20OLED%20Display%20v2.1%20PCB.pdf)
+* **[Library]** [Github Repository of the Library](https://github.com/Seeed-Studio/OLED_Display_96X96)
+* **[Datasheet]** [SSD1327 Datasheet](https://github.com/SeeedDocument/Grove_OLED_1.12/raw/master/resources/SSD1327_datasheet.pdf)
+*  **[Datasheet]** [LY120 Datasheet](https://github.com/SeeedDocument/Grove_OLED_1.12/raw/master/resources/308010007_LCD-22P-0.7.pdf)
+* **[Tool]** [Reference for Make a 96x96 Image](https://github.com/SeeedDocument/Grove_OLED_1.12/raw/master/resources/Make_A_96X96_Image1.zip)
