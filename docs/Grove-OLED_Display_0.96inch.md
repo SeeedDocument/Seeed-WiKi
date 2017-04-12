@@ -6,7 +6,7 @@ oldwikiname: Grove - OLED Display 0.96"
 prodimagename: Grove-OLED-0.96.png
 surveyurl: https://www.surveymonkey.com/r/Grove_OLED_0_96
 sku: 104030008
-tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_bbg
+tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_bbg, plat_pi, plat_wio, plat_linkit
 ---
 
 
