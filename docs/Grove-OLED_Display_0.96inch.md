@@ -355,7 +355,7 @@ if __name__=="__main__":
 
 ## Resources
 -----------
-- **[Eagle]** [Grove-OLED128x64 .pdf](https://github.com/SeeedDocument/Grove_OLED_Display_0.96/raw/master/resource/OLED%20128x64.zip)
+- **[Eagle]** [Grove-OLED128x64](https://github.com/SeeedDocument/Grove_OLED_Display_0.96/raw/master/resource/OLED%20128x64.zip)
 - **[PDF]** [Grove-OLED128x64 Schematic](https://github.com/SeeedDocument/Grove_OLED_Display_0.96/raw/master/resource/OLED%20128x64%20SCH.pdf)
 - **[PDF]** [Grove-OLED128x64 PCB](https://github.com/SeeedDocument/Grove_OLED_Display_0.96/raw/master/resource/OLED%20128x64%20PCB.pdf)
 - **[Library]** [GitHub Library for OLED](https://github.com/Seeed-Studio/OLED_Display_128X64/archive/master.zip)
