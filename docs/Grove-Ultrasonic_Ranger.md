@@ -17,6 +17,7 @@ This Grove - Ultrasonic sensor is a non-contact distance measurement module whic
 
 ## Product Update
 We have made some update on this product in order to improve the power stability when working with some low-voltage main board. The update includes:
+
 - Added an capacitance C14
 - Redesigned the layout to make it more tidy
 
