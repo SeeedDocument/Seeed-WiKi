@@ -34,7 +34,7 @@ Here we use 2 photos to show the difference:
 ---
 |Parameter|	Value/Range|
 |:------|:------------------|
-|Operating voltage|	3.3~5V|
+|Operating voltage|	3.2~5.2V|
 |Operating current|	8mA|
 |Ultrasonic frequency|	40kHz|
 |Measuring range|	2-350cm|
