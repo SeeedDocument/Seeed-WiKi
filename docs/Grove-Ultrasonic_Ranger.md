@@ -15,6 +15,19 @@ This Grove - Ultrasonic sensor is a non-contact distance measurement module whic
 
 [![Get one now](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/image/300px-Get_One_Now_Banner.png)](https://www.seeedstudio.com/Grove-Ultrasonic-Ranger-p-960.html)
 
+## Product Update
+We have made some update on this product in order to improve the power stability when working with some low-voltage main board. The update includes:
+- Added an capacitance C14
+- Redesigned the layout to make it more tidy
+
+Here we use 2 photos to show the difference:
+
+![](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/img/front.jpg)
+
+![](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/img/back.jpg)
+
+!!!note
+    Please note that the new version shares the same sku with old version, so you can still use the old sku:101020010 to buy and we will ship new version to you.
 
 ## Specification
 ---
