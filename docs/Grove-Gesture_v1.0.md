@@ -31,7 +31,7 @@ Application: You can use Gesture as an input device to control another grove, or
  - Clockwise
  - Count Clockwise
  - Wave
- 
+
 !!!Tip
     More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
 
@@ -48,7 +48,7 @@ Application: You can use Gesture as an input device to control another grove, or
  |Interface type	 IIC interface |up to 400 kbit/s
  |Operating Temperature	| -40°C to +85°C
  |Dimensions|	20 * 20mm
- |Detection range	|5-15mm
+ |Detection range	|5-10cm
 
 ## With Arduino/Seeeduino
 
