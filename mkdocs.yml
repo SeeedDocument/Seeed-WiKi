@@ -269,6 +269,7 @@ pages:
         - Grove - I2C Color Sensor: Grove-I2C_Color_Sensor.md
         - Grove - I2C Touch Sensor: Grove-I2C_Touch_Sensor.md
         - Grove - IMU 10DOF: Grove-IMU_10DOF.md
+        - Grove - IMU 10DOF v2.0: Grove-IMU_10DOF_v2.0.md
         - Grove - IMU 9DOF v2.0: Grove-IMU_9DOF_v2.0.md
         - Grove - IR Distance Interrupter v1.2: Grove-IR_Distance_Interrupter_v1.2.md
         - Grove - Infrared Receiver: Grove-Infrared_Receiver.md
