@@ -55,6 +55,7 @@ Here is the list of the Grove - Sensor Boards you can find in the Seeed WiKi. Th
 - [Grove - I2C Color Sensor](/Grove-I2C_Color_Sensor/)
 - [Grove - I2C Touch Sensor](/Grove-I2C_Touch_Sensor/)
 - [Grove - IMU 10DOF](/Grove-IMU_10DOF/)
+- [Grove - IMU 10DOF v2.0](/Grove-IMU_10DOF_v2.0/)
 - [Grove - IMU 9DOF v2.0](/Grove-IMU_9DOF_v2.0/)
 - [Grove - IR Distance Interrupter v1.2](/Grove-IR_Distance_Interrupter_v1.2/)
 - [Grove - Infrared Receiver](/Grove-Infrared_Receiver/)
