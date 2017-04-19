@@ -53,7 +53,6 @@ Here is the list of the Tutorial you can find in the Seeed WiKi. The list will b
 - [Project Three – Analog Input v1.0b](/Project_Three-Analog_Input_v1b/)
 - [Project Two - Digital Input v1.0b](/Project_Two-Digital_Input_v1.0b/)
 - [Project Two – Digital Input](/Project_Two-Digital_Input/)
-- [RF Explorer Software](/RF_Explorer_Software/)
 - [RFID Control LED](/RFID_Control_LED/)
 - [RePhone APIs - Audio](/RePhone_APIs-Audio/)
 - [Relay Control LED](/Relay_Control_LED/)

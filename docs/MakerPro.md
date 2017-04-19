@@ -71,6 +71,7 @@ Here is the list of the MakerPro Boards you can find in the Seeed WiKi. The list
 - [Photo Reflective Sensor](/Photo_Reflective_Sensor/)
 - [Photo interrupter (OS25B10)](/Photo_interrupter_OS25B10/)
 - [Piezo Sensor - MiniSense 100](/Piezo_Sensor-MiniSense_100/)
+- [RF Explorer Software](/RF_Explorer_Software/)
 - [RGBW Stripe WireLess Shield V1.0](/RGBW_Stripe_WireLess_Shield_V1.0/)
 - [Raspberry PI B&#43; Case](/Raspberry_PI_Bplus_Case/)
 - [Raspberry Pi 3 Model B](/Raspberry_Pi_3_Model_B/)
