@@ -42,12 +42,14 @@ pages:
         - Shield Bot V1.1: Shield_Bot_V1.1.md
         - Shield Bot V1.2: Shield_Bot_V1.2.md
         - Sidekick Basic Kit for Arduino V2: Sidekick_Basic_Kit_for_Arduino_V2.md
+        - Sidekick Basic Kit for TI LaunchPad: Sidekick_Basic_Kit_for_TI_LaunchPad.md
         - Skeleton Bot - 4WD hercules mobile robotic platform: Skeleton_Bot-4WD_hercules_mobile_robotic_platform.md
         - Skeleton Box: Skeleton_Box.md
         - Skeleton Box (10x7,10x10,17x10): Skeleton_Box_10x7_10x10_17x10.md
         - Tricycle Bot: Tricycle_Bot.md
         - UartSBee V4: UartSBee_V4.md
         - UartSBee v5: UartSBee_v5.md
+        - Wio GPS Board: wio_gps_board.md
 
     - BeagleBone:
         - BeagleBone Introduction: BeagleBone.md
@@ -85,6 +87,7 @@ pages:
         - LinkIt ONE: LinkIt_ONE.md
         - LinkIt Smart 7688 Duo: LinkIt_Smart_7688_Duo.md
         - Linkit Connect 7681: Linkit_Connect_7681.md
+        - Sidekick Basic Kit for LinkIt ONE: Sidekick_Basic_Kit_for_LinkIt_ONE.md
 
     - mbed:
         - mbed Introduction: mbed.md
@@ -462,7 +465,6 @@ pages:
         - Project Three – Analog Input v1.0b: Project_Three-Analog_Input_v1b.md
         - Project Two - Digital Input v1.0b: Project_Two-Digital_Input_v1.0b.md
         - Project Two – Digital Input: Project_Two-Digital_Input.md
-        - RF Explorer Software: RF_Explorer_Software.md
         - RFID Control LED: RFID_Control_LED.md
         - RePhone APIs - Audio: RePhone_APIs-Audio.md
         - Relay Control LED: Relay_Control_LED.md
@@ -540,6 +542,7 @@ pages:
         - Photo Reflective Sensor: Photo_Reflective_Sensor.md
         - Photo interrupter (OS25B10): Photo_interrupter_OS25B10.md
         - Piezo Sensor - MiniSense 100: Piezo_Sensor-MiniSense_100.md
+        - RF Explorer Software: RF_Explorer_Software.md
         - RGBW Stripe WireLess Shield V1.0: RGBW_Stripe_WireLess_Shield_V1.0.md
         - Raspberry PI B&#43; Case: Raspberry_PI_Bplus_Case.md
         - Raspberry Pi 3 Model B: Raspberry_Pi_3_Model_B.md
