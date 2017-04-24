@@ -64,6 +64,17 @@ Here we will show you how this Grove - RTC works via a simple demo. First of all
 
 ![](https://github.com/SeeedDocument/Grove-RTC/raw/master/img/arduino%20connection.jpg)
 
+!!!Note
+    If we don't have the base shield, we also can directly connect the Grove-RTC to Arduino board. Please follow below connection.
+
+| Grove-RTC | Arduino  |
+| :-------- | :------- |
+| GND       | GND      |
+| VCC       | VCC      |
+| SDA       | A4       |
+| SCL       | A5       |
+
+
 ### Software
 
 -  Download the [RTC Library](https://raw.githubusercontent.com/SeeedDocument/Grove-RTC/master/res/RTC_Library.zip).
