@@ -20,6 +20,7 @@ Here is the list of the Seeeduino Boards you can find in the Seeed WiKi. The lis
 - [EL Shield](/EL_Shield/)
 - [Energy Shield](/Energy_Shield/)
 - [GPRS Shield V1.0](/GPRS_Shield_v1.0/)
+- [GPRS Shield V2.0](/GPRS_Shield_V2.0/)
 - [Mbed Shield](/mbed_Shield/)
 - [Motor Shield V2.0](/Motor_Shield_V2.0/)
 - [Music Shield V2.2](/Music_Shield_V2.2/)
