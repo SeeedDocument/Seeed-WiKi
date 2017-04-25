@@ -19,6 +19,7 @@ Why do we call the WIO GPS Board a solution, because it is really not just a boa
 
 We have prepared everything, the last thing we need is your creative projects, so if you are making an out-door IOT tracking project, please don’t hesitate to use the WIO GPS Board!
 
+[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/Wio-GPS-Board-p-2831.html)
 
 ## Features
 
