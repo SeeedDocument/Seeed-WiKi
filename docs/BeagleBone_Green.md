@@ -259,7 +259,7 @@ Click on **Write** button, then the process is started.
 Insert SD card into your (powered-down first) board. Then the board will boot from the SD card.
 
 !!!Note
-    If you don't need to write the image to your on-board eMMC, you don't need to read the last of this chapter.  Otherwise pleas go ahead.
+    If you don't need to write the image to your on-board eMMC, you don't need to read the last of this chapter.  Otherwise please go ahead.
 
 If you desire to write the image to your on-board eMMC, you need to launch to the board, and modify a file.
 
