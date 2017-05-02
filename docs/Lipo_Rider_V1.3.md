@@ -79,7 +79,7 @@ Max
 </tr>
 <tr align="center">
 <td width="400">
-I<sub>in</sub> Solar
+U<sub>in</sub> Solar
 </td>
 <td width="200">
 4.8V
