@@ -29,7 +29,7 @@ This Moisture Senor can be used for detecting the moisture of soil or judge if t
 |---|---|---|---|---|---|
 |Voltage|-|3.3|-|5|V|
 |Current|-|0|-|35|mA|
-|Output Value|Sensor in dry soil<br>Sensor in humid soil<br>Sensor in water|0<br>300<700>|-|300<br>700<br>950|-|
+|Output Value|Sensor in dry soil<br>Sensor in humid soil<br>Sensor in water|0<br>300<br>700<br>|-|300<br>700<br>950|-|
 
 ## Application Ideas
 ---
