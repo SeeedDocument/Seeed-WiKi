@@ -85,6 +85,7 @@ pages:
         - Grove Starter kit for LinkIt Smart7688 Duo: Grove_Starter_kit_for_LinkIt_Smart7688_Duo.md
         - LinkIT One and Grove IoT Starter Kit Powered by AWS: LinkIT_One_and_Grove_IoT_Starter_Kit_Powered_by_AWS.md
         - LinkIt ONE: LinkIt_ONE.md
+        - LinkIt Smart 7688: LinkIt_Smart_7688.md
         - LinkIt Smart 7688 Duo: LinkIt_Smart_7688_Duo.md
         - Linkit Connect 7681: Linkit_Connect_7681.md
         - Sidekick Basic Kit for LinkIt ONE: Sidekick_Basic_Kit_for_LinkIt_ONE.md
@@ -177,6 +178,8 @@ pages:
         - EL Shield: EL_Shield.md
         - Energy Shield: Energy_Shield.md
         - GPRS Shield V1.0: GPRS_Shield_v1.0.md
+        - GPRS Shield V2.0: GPRS_Shield_V2.0.md
+        - GPRS Shield V3.0: GPRS_Shield_V3.0.md
         - Mbed Shield: mbed_Shield.md
         - Motor Shield V2.0: Motor_Shield_V2.0.md
         - Music Shield V2.2: Music_Shield_V2.2.md
