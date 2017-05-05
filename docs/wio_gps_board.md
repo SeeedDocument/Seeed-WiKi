@@ -1,7 +1,7 @@
 ---
-title: Wio GPS Board
+title: Wio Tracker - GPS, BT3.0, GSM, Arduino Compatible
 category: Arduino
-bzurl: https://www.seeedstudio.com/Wio-GPS-Board-p-2831.html
+bzurl: https://www.seeedstudio.com/Wio-Tracker-GPS%2C-BT3.0%2C-GSM%2C-Arduino-Compatible-p-2831.html
 prodimagename: Wio_GPS_Antanna.jpg
 surveyurl: https://www.research.net/r/wio-gps-board
 sku: 102990824
@@ -9,17 +9,17 @@ sku: 102990824
 
 ![](https://github.com/SeeedDocument/Wio_GPS_Board/raw/master/images/Wio_GPS_Antanna.jpg)
 
-What is WIO GPS Board? WIO GPS Board is an Arduino compatible development board that helps you to track any moving things on the planet. By integrating GSM&GPRS as well as GPS&BeiDou in one board, it provides an all-in-one solution for your out-door IoT project.
+What is Wio Tracker? Wio Tracker is an Arduino compatible development board that helps you to track any moving things on the planet. By integrating GSM&GPRS as well as GPS&BeiDou in one board, it provides an all-in-one solution for your out-door IoT project.
 
-If you are following the latest news about Low-Power Wide-Area Network(LPWAN), you may know that 2016 is a special year because there are new technology like LoRa and Sigfox came out, which remarkably pushed the development of WAN. The WIO GPS Board has similarities as LoRa and Sigfox but also quite different. It is more suitable for out-door moving tracking and situations that has high frequency customer interaction and medium volume of data, for example sharing bicycle, logistics location, pet tracking.
+If you are following the latest news about Low-Power Wide-Area Network(LPWAN), you may know that 2016 is a special year because there are new technology like LoRa and Sigfox came out, which remarkably pushed the development of WAN. The Wio Tracker has similarities as LoRa and Sigfox but also quite different. It is more suitable for out-door moving tracking and situations that has high frequency customer interaction and medium volume of data, for example sharing bicycle, logistics location, pet tracking.
 
-Comparing to traditional GPS tracking solution, Seeed’s WIO GPS Board is much more easier to use and customize for the fast changing IOT market. As a user-friendly Grove development board, the look of WIO GPS Board may remind you of Wio Link, another started product of Seeed. So you can also find 6 grove connector on the board. As an Arduino compatible board, users can use the WIO GPS Board with Arduino IDE directly.
+Comparing to traditional GPS tracking solution, Seeed’s Wio Tracker is much more easier to use and customize for the fast changing IOT market. As a user-friendly Grove development board, the look of Wio Tracker may remind you of Wio Link, another started product of Seeed. So you can also find 6 grove connector on the board. As an Arduino compatible board, users can use the Wio Tracker with Arduino IDE directly.
 
-Why do we call the WIO GPS Board a solution, because it is really not just a board. At SeeedStudio, we have the ability to help customer customize the WIO GPS Board for their own project and finish the project all the way to mass production. As WIO GPS Board uses standard module that is mass production, we are ready to mass production even when customer is at their prototyping stage.
+Why do we call the Wio Tracker a solution, because it is really not just a board. At SeeedStudio, we have the ability to help customer customize the Wio Tracker for their own project and finish the project all the way to mass production. As Wio Tracker uses standard module that is mass production, we are ready to mass production even when customer is at their prototyping stage.
 
-We have prepared everything, the last thing we need is your creative projects, so if you are making an out-door IOT tracking project, please don’t hesitate to use the WIO GPS Board!
+We have prepared everything, the last thing we need is your creative projects, so if you are making an out-door IOT tracking project, please don’t hesitate to use the Wio Tracker!
 
-[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/Wio-GPS-Board-p-2831.html)
+[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/Wio-Tracker-GPS%2C-BT3.0%2C-GSM%2C-Arduino-Compatible-p-2831.html)
 
 ## Features
 
@@ -53,7 +53,7 @@ We have prepared everything, the last thing we need is your creative projects, s
 * Support Bluetooth V3.0: SPP & HFP-AG profiles
 
 !!!Warning
-    Unlike most Arduino & Genuino boards, the WIO GPS Board runs at 3.3V. The maximum voltage that the I/O pins can tolerate is 3.3V. Applying voltages higher than 3.3V to any I/O pin could damage the board.
+    Unlike most Arduino & Genuino boards, the Wio Tracker runs at 3.3V. The maximum voltage that the I/O pins can tolerate is 3.3V. Applying voltages higher than 3.3V to any I/O pin could damage the board.
 
 ## Specification
 
@@ -155,20 +155,20 @@ First you need to install the latest Arduino IDE, and [ADD Seeeduino LoRa to you
 
 ### Install the Driver (For Windows)
 
-When the first time to insert the board, you should get a USB COM device name WIO GPS Board that need to install a driver. Click [here](https://github.com/SeeedDocument/Seeeduino_LoRa/raw/master/res/driver.zip) to download driver for the board.
+When the first time to insert the board, you should get a USB COM device name Wio Tracker that need to install a driver. Click [here](https://github.com/SeeedDocument/Seeeduino_LoRa/raw/master/res/driver.zip) to download driver for the board.
 
 
 
-To make sure the driver was installed successful, open your Device Manager to see if **WIO GPS Board** exists.
+To make sure the driver was installed successful, open your Device Manager to see if **Wio Tracker** exists.
 
-### Install the library of WIO GPS Board(For Windows, Linux and Mac)
+### Install the library of Wio Tracker(For Windows, Linux and Mac)
 
-Click [here](https://github.com/lanselambor/MC20_GPS_Tracker/archive/master.zip) to download the library(zip file) of WIO GPS Board and import the zip library into your Arduino IDE. If you are new to this, please click [here](https://www.arduino.cc/en/Guide/Libraries#toc4) for more information.
+Click [here](https://github.com/lanselambor/MC20_GPS_Tracker/archive/master.zip) to download the library(zip file) of Wio Tracker and import the zip library into your Arduino IDE. If you are new to this, please click [here](https://www.arduino.cc/en/Guide/Libraries#toc4) for more information.
 
 
 ### Blink
 
-Different from other boards, there is an User LED SK6812 on WIO GPS Board, which is an intelligent control LED light source and similar to ws2812b. Now we are going to upload our first demo - Blink to WIO GPS Board, which will introduce how to use the User LED.
+Different from other boards, there is an User LED SK6812 on Wio Tracker, which is an intelligent control LED light source and similar to ws2812b. Now we are going to upload our first demo - Blink to Wio Tracker, which will introduce how to use the User LED.
 
 First, we have to install [Adafruit NeoPixel Library](https://github.com/adafruit/Adafruit_NeoPixel/archive/master.zip)(for ws2812b LED) and import it into Arduino IDE.
 
@@ -203,7 +203,7 @@ void loop() {
 
 And Then,
 
-* Click on **Tools > Board > WIO GPS Board**
+* Click on **Tools > Board > Wio Tracker**
 * Click on **Tools > Port** to select a right port number. (*Don't choose COM1*)
 
 
@@ -216,7 +216,7 @@ If the uploading is success, you should the some info in red and you will see th
 
 ### Check battery
 
-WIO GPS Board is designed for tracking moving things outdoor. So you can power the board via a 3.7V Lipo battery with JST1.0 connector and check the voltage of your battery easily.
+Wio Tracker is designed for tracking moving things outdoor. So you can power the board via a 3.7V Lipo battery with JST1.0 connector and check the voltage of your battery easily.
 
 !!!Warning
     Make sure the positive and negative end of your battery is connected right, otherwise the board may be damaged.
@@ -247,7 +247,7 @@ void loop() {
 
 ### Use Grove modules to expand your application
 
-To use 6 Grove connectors on WIO GPS Board, we have to use `digitalWrite(12, HIGH)` to open 3V3\_B to power the Grove modules(D12 defaults to LOW in order to reduce consumption).
+To use 6 Grove connectors on Wio Tracker, we have to use `digitalWrite(12, HIGH)` to open 3V3\_B to power the Grove modules(D12 defaults to LOW in order to reduce consumption).
 
 The following code shows how to use Analog and Digital Grove modules:
 
@@ -285,9 +285,9 @@ void loop() {
 
 MC20 module provides the AT Commands Set for MCU to communicate with its GSM/GPRS, GNSS and Bluetooth modules.
 
-And we have installed a well written library for the WIO GPS Board, for simple applications you even don't need to know much about how to use the AT commands, which is complex and hard to read.
+And we have installed a well written library for the Wio Tracker, for simple applications you even don't need to know much about how to use the AT commands, which is complex and hard to read.
 
-The following example shows how to read longitude and latitude and print them out in Serial Monitor. Please note that WIO GPS Board should be placed outdoor to get GPS signal.
+The following example shows how to read longitude and latitude and print them out in Serial Monitor. Please note that Wio Tracker should be placed outdoor to get GPS signal.
 
 Open your Arduino IDE and click on **File > Examples > MC20\_GPS\_Traker > MC20\_GNSS > GNSS\_Show\_Coordinate** to open the sketch or copy the blow code:
 
@@ -332,7 +332,7 @@ void loop() {
 
 ### SMS Message Read
 
-The following example shows how to read sms messages on WIO GPS Board. Nano SIM card is needed in this example.
+The following example shows how to read sms messages on Wio Tracker. Nano SIM card is needed in this example.
 
 Open your Arduino IDE and click on **File > Examples > MC20\_GPS\_Traker > MC20\_SMSRead** to open the sketch or copy the blow code:
 
@@ -394,9 +394,9 @@ void loop() {
 
 ### Bluetooth Connection
 
-It is also very easy to connect to your Bluetooth device on WIO GPS Board. Open your Arduino IDE and click on **File > Examples > MC20\_GPS\_Traker > MC20\_BlueTooth > BT\_FastConnect** to open the sketch or copy the blow code.
+It is also very easy to connect to your Bluetooth device on Wio Tracker. Open your Arduino IDE and click on **File > Examples > MC20\_GPS\_Traker > MC20\_BlueTooth > BT\_FastConnect** to open the sketch or copy the blow code.
 
-Then change the deviceName of your Bluetooth device, WIO GPS Board will connect it automatically.
+Then change the deviceName of your Bluetooth device, Wio Tracker will connect it automatically.
 
 ```c
 #include "MC20_Common.h"
