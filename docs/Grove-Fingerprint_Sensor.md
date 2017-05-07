@@ -58,7 +58,7 @@ When you plug in the power, you can see the red LED blink which indicates the se
 
 The library can enroll and search so its perfect for any project. It can help you get running in under 10 minutes. There are basically two requirements for using the optical fingerprint sensor. First one, you'll need to enroll fingerprints - that means assigning ID \#'s to each print so you can query them later. Once you've enrolled all your prints, you can easily 'search' the sensor, asking it to identify which ID (if any) has currently been photographed.
 
--   Open the enroll code directly by the path: File->Example->FingerPrint->Enroll.
+-   Open the enroll code directly by the path: **File->Example->FingerPrint->Enroll**.
 -   Upload the code into Arduino.
 -   Start up Serial Tool and Select the ComNum and BaudRate used by the Arduino.
 -   Select the "SendNew" option. Send the ID \# you want to use. You can use up to 162 ID numbers. And it will ask you to press the finger to the sensor. At the moment, you should see the red LED blink.
@@ -86,11 +86,12 @@ Once you have the finger enrolled, it's a good idea to do a quick test to make s
 
 !!!Tip
     More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
-    
+
 Resources
 --------
 
-- [Finger Print Sensor Library File](https://raw.githubusercontent.com/SeeedDocument/Grove-Fingerprint_Sensor/master/res/Fingerprint_library.rar)
-- [Finger Print Sensor Datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-Fingerprint_Sensor/master/res/ZFM206用户手册V2.1.pdf)
+- **[Library]** [Finger Print Sensor Library File](https://raw.githubusercontent.com/SeeedDocument/Grove-Fingerprint_Sensor/master/res/Fingerprint_library.rar)
+- **[Datasheet]** [ZhianTec ZFM-206 Series Datasheet (for this version, but in Simplified Chinese)](https://raw.githubusercontent.com/SeeedDocument/Grove-Fingerprint_Sensor/master/res/ZFM206用户手册V2.1.pdf)
+- **[Datasheet]** [ZhianTec ZFM-20 Series Datasheet (for older series, but in English)](https://github.com/SeeedDocument/Grove-Fingerprint_Sensor/raw/master/res/ZFM-user-manualV15.pdf)
 
 <!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_Fingerprint_Sensor -->
