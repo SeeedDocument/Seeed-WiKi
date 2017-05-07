@@ -13,32 +13,40 @@ Grove-Serial RF Pro is a low cost, high performance transparent FSK transceiver 
 
 [![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/Grove-Serial-RF-Pro-p-794.html)
 
+##  Version Tracker
+
+<table>
+<tr>
+<th> Revision
+</th>
+<th> Descriptions
+</th>
+<th> Release
+</th></tr>
+<tr>
+<td width="300px"> v0.9b
+</td>
+<td width="500px"> Initial public release
+</td>
+<td width="200px"> NA
+</td></tr></table>
+
 ##  Features
 ---
 *   Grove compatible
-
 *   High output power
-
 *   High output power
-
 *   Small size
-
 *   Longer transmission distance
 
 ##  Application Ideas
 ---
 *   Remote control, remote measurement system
-
 *   Wireless meter
-
 *   Access control
-
 *   Identification system
-
 *   Data collection
-
 *   IT household appliance
-
 *   Baby monitoring system
 
 ##  Specification
@@ -176,11 +184,11 @@ Set high for communication (Default is high).
 <td> Antenna pin
 </td></tr></table>
 
-##  Usage
+##  Getting Started
 ---
 Here we show two RF Pro Grove units mutually transmitting/receiving data. You need two RF Pro Grove units and two Seeeduino to do the demo.
 
-*   Connect one Grove - Serial RF Pro to UART of [Grove - Base Shield](/Grove-Base_Shield "Grove - Base Shield") and plug Grove - Base Shield into Seeeduino.
+*   Connect one Grove - Serial RF Pro to UART of [Grove - Base Shield](http://wiki.seeed.cc/Base_Shield_V2/) and plug Grove - Base Shield into Seeeduino.
 
 ![](https://github.com/SeeedDocument/Grove-Serial_RF_Pro/raw/master/img/Rfdemo.jpg)
 
@@ -193,7 +201,7 @@ if the red and green LED keep lighting. Then you can Config &amp; inquiry on the
 
 *   Connect CON pin to LOW/GND to enter configure mode.
 
-*   Send command to modify and query the config of the module. Config &amp; Inquiry instruction description see [Reference](/Grove-Serial_RF_Pro#Reference).
+*   Send command to modify and query the config of the module. Config &amp; Inquiry instruction description see [Reference](http://wiki.seeed.cc/Grove-Serial_RF_Pro/#reference).
 
 The Config instruction format is as AA+FA+[instruction]+[parameter]. The instruction is 1 byte, the parameter is the HEX data of 0-4 bytes (in big-endian ordering, with the high byte before the low byte).
 
@@ -448,26 +456,10 @@ Note：
 <td>RSSI value is 8 bit , range: 0-255
 </td></tr></table>
 
-##  Version Tracker
 
-<table>
-<tr>
-<th> Revision
-</th>
-<th> Descriptions
-</th>
-<th> Release
-</th></tr>
-<tr>
-<td width="300px"> v0.9b
-</td>
-<td width="500px"> Initial public release
-</td>
-<td width="200px"> date
-</td></tr></table>
 
 ##  Resources
 
-*   [Serial RF Pro Demo Code](https://github.com/SeeedDocument/Grove-Serial_RF_Pro/raw/master/res/Serial_RF_Pro_Demo_Code.zip)
+*   **[Code]** [Serial RF Pro Demo Code](https://github.com/SeeedDocument/Grove-Serial_RF_Pro/raw/master/res/Grove-Serial_RF_Pro_Demo_Code.zip)
 
-*   [the HopeRF HM-TRP Series 100mW Transceiver modules V1.0 Datasheet](http://www.hoperf.com/upload/rf_app/hm-trp.pdf)
+*   **[Datasheet]** [HopeRF HM-TRP Series 100mW Transceiver modules V1.0 Datasheet](https://github.com/SeeedDocument/Grove-Serial_RF_Pro/raw/master/res/HM-TRP-RS232_enV1.0_20120604.pdf)
