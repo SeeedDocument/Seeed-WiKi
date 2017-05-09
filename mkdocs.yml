@@ -49,7 +49,7 @@ pages:
         - Tricycle Bot: Tricycle_Bot.md
         - UartSBee V4: UartSBee_V4.md
         - UartSBee v5: UartSBee_v5.md
-        - Wio GPS Board: wio_gps_board.md
+        - Wio Tracker - GPS, BT3.0, GSM, Arduino Compatible: wio_gps_board.md
 
     - BeagleBone:
         - BeagleBone Introduction: BeagleBone.md
