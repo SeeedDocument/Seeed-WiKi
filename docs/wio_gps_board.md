@@ -336,8 +336,7 @@ The following example shows how to read sms messages on Wio Tracker. Nano SIM ca
 
 Open your Arduino IDE and click on **File > Examples > MC20\_GPS\_Traker > MC20\_SMSRead** to open the sketch or copy the blow code:
 
-
- ```c
+```c
 #include "MC20_Common.h"
 #include "MC20_Arduino_Interface.h"
 
@@ -390,7 +389,7 @@ void loop() {
   }
 
 }
- ```
+```
 
 ### Bluetooth Connection
 

@@ -68,6 +68,10 @@ pages:
         - MakerPro Introduction: MakerPro.md
 {{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "MakerPro") (eq $cat2 "MakerPro") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
 
+- Discontinued:
+        - Discontinued Introduction: Discontinued.md
+{{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Discontinued") (eq $cat2 "Discontinued") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
+
 - About:
     - About Introduction: About.md
     - License: License.md
