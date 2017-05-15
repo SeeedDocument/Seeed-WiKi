@@ -21,9 +21,8 @@ The RTC module is based on the clock chip DS1307, which supports the I2C protoco
 The battery is not included.
 </div>
 
-Specifications
---------------
-
+## Specifications
+---------
 -   PCB Size: 2.0cm\*4.0cm
 -   Interface: 2.0mm pitch pin header
 -   IO Structure: SCL,SDA,VCC,GND
@@ -36,15 +35,16 @@ Specifications
 !!!Tip
     More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
 
-Platforms Supported
--------------------
+## Platforms Supported
 
-Getting Started
--------------
 
+### Getting Started
+
+----
 ### With [Arduino](/Arduino "Arduino")
+---
 
-### Connection
+#### Connection
 
 Here we will show you how this Grove - RTC works via a simple demo. First of all, you need to prepare the below stuffs:
 
@@ -76,7 +76,7 @@ Here we will show you how this Grove - RTC works via a simple demo. First of all
 
 
 ### Software
-
+---
 -  Download the [RTC Library](https://raw.githubusercontent.com/SeeedDocument/Grove-RTC/master/res/RTC_Library.zip).
 - Please follow [how to install an arduino library](http://wiki.seeed.cc/How_to_install_Arduino_Library/) procedures to install library.
 -   Open the code directly by the path: **File -> Example ->RTC->SetTimeAndDisplay**.
@@ -163,6 +163,7 @@ clock.fillDayOfWeek(SAT);//Saturday
 
 
 ### With Raspberry Pi
+---
 
 #### Connection
 
@@ -180,6 +181,7 @@ clock.fillDayOfWeek(SAT);//Saturday
 ![](https://github.com/SeeedDocument/Grove-RTC/raw/master/img/pi%20connenction.jpg)
 
 #### Software
+-----
 
 **Demo 1: Grove_i2c_rtc**
 
@@ -365,8 +367,19 @@ clock.fillDayOfWeek(SAT);//Saturday
 - Here is the result.
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-RTC/master/img/Grovepi_i2c_rtc_01.png)
+### Without Grove Shield
+--------------
+#### Connection
+Without Grove Shield,you can connect to Arduino by increasing an Pinout to a grove interface.
 
-Resources
+| grove | Arduino |
+|-------|---------|
+| GND   | GND     |
+| VCC   | VCC     |
+| SDA   | SDA     |
+| SCL   | SCL     |
+
+## Resources
 ---------
 
 - **[Eagle]** [Grove-RTC in Eagle format](https://raw.githubusercontent.com/SeeedDocument/Grove-RTC/master/res/Real_Time_Clock.zip)
