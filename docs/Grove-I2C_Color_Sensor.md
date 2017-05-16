@@ -14,6 +14,9 @@ tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit
 
 This module is based on the color sensor TCS3414CS with digital output I2C. Based on the 8\*2 array of filtered photodiodes and 16-bit analog-to-digital converters, you can measure the color chromaticity of ambient light or the color of objects. Of the 16 photodiodes, 4 have red filters, 4 have green filters, 4 have blue filters and 4 have no filter(clear). With the synchronization input pin, an external pulsed light source can provide precise synchronous conversion control.
 
+!!!Note
+    Please note that the latest version V2.01 has replaced the IC with TCS3472 and the old library has also been updated, If you are using the V2.01 version, please use the [new library](https://github.com/Seeed-Studio/Grove_I2C_Color_Sensor_TCS3472).
+
 [![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](http://www.seeedstudio.com/depot/grove-i2c-color-sensor-p-854.html)
 
 Features
@@ -81,7 +84,7 @@ We have created a library to help you start playing quickly with the Seeeduino/A
 
 #### Setup
 
-1.  Download the [library code as a zip file](https://github.com/Seeed-Studio/Grove_I2C_Color_Sensor) from the Grove_I2C_Color_Sensor github page.
+1.  Download the [library code as a zip file](https://github.com/Seeed-Studio/Grove_I2C_Color_Sensor) from the Grove_I2C_Color_Sensor github page. If you are using the latest version V2.01(IC is TCS3472 ), please use this [new library](https://github.com/Seeed-Studio/Grove_I2C_Color_Sensor_TCS3472)
 2.  Unzip the downloaded file into your …/arduino/libraries.
 3.  Rename the unzipped folder "Color_Sensor"
 4.  Start the Arduino IDE (or restart if it is open).
@@ -198,16 +201,17 @@ Transformation Equations
 
 -   When we get coordinates (x, y), please reference the below figure so as to get the recommended color.
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove-I2C_Color_Sensor/master/img/Chromaticity_Diagram.jpg) 
-     
+![](https://raw.githubusercontent.com/SeeedDocument/Grove-I2C_Color_Sensor/master/img/Chromaticity_Diagram.jpg)
+
 
 Resources
 ---------
 
 -   [Library Grove - I2C Color Sensor](https://github.com/Seeed-Studio/Grove_I2C_Color_Sensor)
+-   [Library for Grove - I2C Color Sensor V2.01](https://github.com/Seeed-Studio/Grove_I2C_Color_Sensor_TCS3472)
 -   [Grove-I2C Color Sensor Eagle File](https://raw.githubusercontent.com/SeeedDocument/Grove-I2C_Color_Sensor/master/res/Twig-I2C_Color_sensor_v0.9b_eagle_files.zip)
 -   [TCS3414-A Datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-I2C_Color_Sensor/master/res/TCS3404_TCS3414-A.pdf)
-
+-  [TCS3472 Datasheet](https://github.com/SeeedDocument/Grove-I2C_Color_Sensor/raw/master/res/TCS3472%20Datasheet.pdf)
 
 </li>
 

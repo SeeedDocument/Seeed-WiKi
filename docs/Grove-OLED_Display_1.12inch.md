@@ -15,6 +15,7 @@ Our new 1.12” OLED displays are perfect when you need a small display with 16 
 
 This OLED uses the SSD1327 driver chip, which manages the display. You can talk to the driver chip using 4-wire I2C (clock, data, power, and GND pins).
 
+
 * Communicate Mode: I2C
 * Grayscale Display: 16 Gray shades.
 * Supports both Normal and Inverse Color Display.
@@ -244,4 +245,5 @@ Example:
 * **[Library]** [Github Repository of the Library](https://github.com/Seeed-Studio/OLED_Display_96X96)
 * **[Datasheet]** [SSD1327 Datasheet](https://github.com/SeeedDocument/Grove_OLED_1.12/raw/master/resources/SSD1327_datasheet.pdf)
 *  **[Datasheet]** [LY120 Datasheet](https://github.com/SeeedDocument/Grove_OLED_1.12/raw/master/resources/308010007_LCD-22P-0.7.pdf)
+* **[Datasheet]** [SH1107G_datasheet](https://github.com/SeeedDocument/Grove_OLED_1.12/raw/master/resources/SH1107G_datasheet.pdf)
 * **[Tool]** [Reference for Make a 96x96 Image](https://github.com/SeeedDocument/Grove_OLED_1.12/raw/master/resources/Make_A_96X96_Image1.zip)
