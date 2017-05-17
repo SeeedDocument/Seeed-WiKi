@@ -50,6 +50,7 @@ pages:
         - UartSBee V4: UartSBee_V4.md
         - UartSBee v5: UartSBee_v5.md
         - Wio Tracker - GPS, BT3.0, GSM, Arduino Compatible: wio_gps_board.md
+        - Wio Tracker - LTE CAT1: Wio_Tracker_LTE_CAT1.md
 
     - BeagleBone:
         - BeagleBone Introduction: BeagleBone.md
@@ -565,7 +566,6 @@ pages:
 - Discontinued:
         - Discontinued Introduction: Discontinued.md
         - Discontinued Product: Discontinued.md
-        - Grove-Single_Axis_Analog_Gyro‏‎: Grove-Single_Axis_Analog_Gyro‏‎.md
 
 
 - About:
