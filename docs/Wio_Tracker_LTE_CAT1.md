@@ -9,17 +9,18 @@ sku: 102990837
 
 ![](https://github.com/SeeedDocument/Wio_Tracker_LTE/raw/master/img/wio_tracker_lte_1.jpg)
 
-Wio Tracker (Wireless Input Output) is an open source gateway which enable faster IoT GPS solutions. It is Arduino and Grove compatible development boards that helps you track nearly any moving thing on the planet and then upload that data wirelessly. The Wio Tracker - LTE is the LTE version of Wio Tracker, so now we’ve got 2 versions of Wio Tracker, the 2G is like a warm-up product that bring the Wio Tracker series to the world, while the LTE (4G) version is the one that really brings some differences.
+Wio Tracker is an open source gateway which enable faster IoT GPS solutions. It is Grove compatible development boards that helps you track nearly any moving thing on the planet and then upload that data wirelessly. The Wio Tracker - LTE Cat.1 is the LTE version of Wio Tracker, so now we’ve got 2 versions of Wio Tracker, the 2G is like a warm-up product that bring the Wio Tracker series to the world, while the LTE (4G) version is the one that really brings some differences.
 
 There are three main update of the Wio Tracker - LTE comparing to the 2G version. The first one, from the product name we can tell that it supports 4G communication, by inserting a 4G sim card and you can communicate with the board ever faster. The purpose of the Wio Tracker is tracking things, when it comes to GNSS, Wio Tracker - LTE supports totally 4 different systems - GPS, Beidou, GLONSS and Galileo, the QZSS is also supported. The third update is MCU, in the LTE version, we uses STM32 which is based on Cortex-M4, makes the LTE version 5 times faster than 2G version. What’s more, the flash and RAM have also been raised to 1Mbytes and 192+4k bytes.
 
-Apart from the three main updates, the LTE version is almost the same as the 2G version. If your project is using the 2G version, it would be very easy to update to the LTE version because we have prepared transplantable and expansible AT command library. The Arduino and Grove compatibility allows for quicker development through numerous libraries and a supportive community. The GPS library which will be available with the board is not just limited to Arduino - it can function just as well if you chose to develop in C/C++. With 6 Grove connections available developers can plug in any combination of out 180+ sensors and actuators to make any project and solve any problem. Simplifying the prototyping and development phase is our goal.
+Apart from the three main updates, the LTE version is almost the same as the 2G version. If your project is using the 2G version, it would be very easy to update to the LTE version because we have prepared transplantable and expansible AT command library. The Grove compatibility allows for quicker development through numerous grove modules and a supportive community. With 6 Grove connections available developers can plug in any combination of out 180+ sensors and actuators to make any project and solve any problem. Simplifying the prototyping and development phase is our goal.
 
 The Wio Tracker - LTE is well suited for outdoor projects where the device can connect to the GPS satellites and provide a real-time location of the item it is attached to. The LTE provides a wide bandwidth which allows much faster interaction between the user and device. Some example projects could be a bicycle sharing service, tracking pets or livestock, locating a vehicle, or even keeping track of a child.
 
 
 ## Features
 
+* LTE Cat.1 Support and backwards compatible with WCDMA
 * Low-cost, low-power LTE connectivity optimized for broad- band IoT applications
 * Worldwide LTE and UMTS/HSPA+
 * Embedded power management unit (PMU) featuring ultra-low deep-sleep current consumption
@@ -39,7 +40,7 @@ The Wio Tracker - LTE is well suited for outdoor projects where the device can c
 ||SRAM|192+4KB|
 ||Operating Voltage|3.3V|
 ||DC Current per I/O Pin|7 mA|
-|LTE|LTE Cat.1|FDD LTE: B2/B4/B12 WCDMA: B2/B4/B5|
+|LTE|LTE Cat.1|FDD LTE Cat.1: B2/B4/B12 WCDMA: B2/B4/B5|
 |||AT Command: 3GPP TS27.007 and enhanced AT Commands|
 ||Data|LTE-FDD Max 10Mbps(DL) Max 5Mbps (UL)|
 |||Protocol: TCP/UDP/PPP/FTP/HTTP/SSL/NTP/PING/QMI|
