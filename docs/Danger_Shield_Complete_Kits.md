@@ -1,17 +1,35 @@
 ---
-title: Bicycle Dynamo With Bracket - 6V 3W
+title: Danger Shield Complete Kits
 category: MakerPro
-bzurl: https://www.seeedstudio.com/bicycle-dynamo-with-bracket-6v-3w-p-798.html?cPath=155
-oldwikiname:  Bicycle Dynamo With Bracket - 6V 3W
+bzurl: https://www.seeedstudio.com/Danger-Shield-Complete-kits-p-141.html
+oldwikiname:  Danger Shield Complete Kits
 prodimagename:  DgrSld_13.jpg
-surveyurl: https://www.research.net/r/Bicycle_Dynamo_With_Bracket-6V_3W
-sku:      108990013
+surveyurl: https://www.research.net/r/Danger_Shield_Complete_kits
+sku:      103990021
 ---
 ![](http://bz.seeedstudio.com/depot/images/product/DgrSld_13.jpg)
 
-The Danger Shield is an add-on for the [Arduino](/w/index.php?title=Arduino&amp;action=edit&amp;redlink=1 "Arduino&amp;action=edit&amp;redlink=1") micro controller board. It contains a variety of fun and useful electronic circuits that you can use to do fun and useful things. It is a fully self-contained shield. You plug it into your [Arduino](/w/index.php?title=Arduino&amp;action=edit&amp;redlink=1 "Arduino&amp;action=edit&amp;redlink=1"), and you can immediately start using it. No extra things to hook up, no external components. Just a really rad board ready to rock.
+The Danger Shield is an add-on for the Arduino micro controller board. It contains a variety of fun and useful electronic circuits that you can use to do fun and useful things. It is a fully self-contained shield. You plug it into your Arduino, and you can immediately start using it. No extra things to hook up, no external components. Just a really rad board ready to rock.
 
-[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/bicycle-dynamo-with-bracket-6v-3w-p-798.html?cPath=155)
+[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/Danger-Shield-Complete-kits-p-141.html)
+
+##   Version Tracker
+
+<table>
+<tr>
+<th> Revision
+</th>
+<th> Descriptions
+</th>
+<th> Release
+</th></tr>
+<tr>
+<td width="300px"> v1.0
+</td>
+<td width="500px"> Initial public release
+</td>
+<td width="200px"> Oct 04, 2008
+</td></tr></table>
 
 ##   Features
 ---
@@ -159,23 +177,7 @@ Please enjoy soldering them:
 <td>40 component
 </td></tr></table>
 
-##   Version Tracker
 
-<table>
-<tr>
-<th> Revision
-</th>
-<th> Descriptions
-</th>
-<th> Release
-</th></tr>
-<tr>
-<td width="300px"> v1.0
-</td>
-<td width="500px"> Initial public release
-</td>
-<td width="200px"> Oct 04, 2008
-</td></tr></table>
 
 ##   Resources
 
