@@ -7,7 +7,7 @@ prodimagename: cover.png
 surveyurl: https://www.surveymonkey.com/r/BLE_Nitrogen
 sku: 102990629
 ---
-
+test
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BLE-Nitrogen/master/img/cover.png)
 
 Zephyr applications use the nrf52_nitrogen configuration to run on the nRF52 Nitrogen hardware. It provides support for the Nordic Semiconductor nRF52832 ARM Cortex-M4F CPU and the following devices:
