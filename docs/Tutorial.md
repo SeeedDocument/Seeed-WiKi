@@ -11,6 +11,7 @@ Here is the list of the Tutorial you can find in the Seeed WiKi. The list will b
 - [AT Command Tester Application](/AT_Command_Tester_Application/)
 - [Arduino Common Error](/Arduino_Common_Error/)
 - [Arduino IDE for RePhone Kit](/Arduino_IDE_for_RePhone_Kit/)
+- [Arduino Software I2C user guide](/Arduino_Software_I2C_user_guide/)
 - [Dfu-util](/Dfu-util/)
 - [Download Arduino and install Arduino driver](/Download_Arduino_and_install_Arduino_driver/)
 - [Eclipse IDE for RePhone Kit](/Eclipse_IDE_for_RePhone_Kit/)
