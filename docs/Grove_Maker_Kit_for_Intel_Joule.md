@@ -17,6 +17,8 @@ The Grove maker kit for Intel Joule is the best kit for fast building prototype 
 
 [![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/Grove-Maker-Kit-for-Intel-Joule-p-2796.html)
 
+![](https://raw.githubusercontent.com/SeeedDocument/CAN_BUS_Shield/master/image/test.jpg)
+
 
 ## Part Introduction
 
