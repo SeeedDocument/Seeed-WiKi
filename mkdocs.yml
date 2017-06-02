@@ -26,6 +26,7 @@ pages:
         - Rainbowduino: Rainbowduino.md
         - Rainbowduino LED driver platform - ATmega328: Rainbowduino_LED_driver_platform-ATmega328.md
         - Rainbowduino v3.0: Rainbowduino_v3.0.md
+        - ReSpeaker 2-Mics Pi HAT: Respeaker_2_Mics_Pi_HAT.md
         - Seeeduino Cloud: Seeeduino_Cloud.md
         - Seeeduino Cloud and Grove IoT Starter Kit Powered by AWS: Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS.md
         - Seeeduino Ethernet: Seeeduino_Ethernet.md
@@ -566,9 +567,7 @@ pages:
 
 - Discontinued:
         - Discontinued Introduction: Discontinued.md
-        - Bluetooth-Bee: Bluetooth-Bee‏‎.md
         - Discontinued Product: Discontinued.md
-        - Grove-Single_Axis_Analog_Gyro‏‎: Grove-Single_Axis_Analog_Gyro‏‎.md
 
 
 - About:
