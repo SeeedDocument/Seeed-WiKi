@@ -20,15 +20,22 @@ This document applies to the following version of products:
 
 |Version|Released Date|How to Buy|
 |--------|-----------|-----------|
-|CAN BUS Shield V1.0 |Oct 14, 2012|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/EOL.png)|
-|CAN BUS Shield V1.1 |Aug 10, 2013|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/EOL.png)|
-|CAN BUS Shield V1.2|Jan 5, 2015|[![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now_small.png)](http://www.seeedstudio.com/CAN-BUS-Shield-V1.2-p-2256.html)|
+|CAN BUS Shield V1.0 |Oct 14, 2012|![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/EOL.png)|
+|CAN BUS Shield V1.1 |Aug 10, 2013|![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/EOL.png)|
+|CAN BUS Shield V1.2|Jan 5, 2015|[![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now_small.png)](http://www.seeedstudio.com/CAN-BUS-Shield-V1.2-p-2256.html)|
 
 **What's new in CAN BUS Shield V1.2**
 
 
 - Pads on the backside of PCBA
 - Change terminal resistor to 120 Ohm
+
+**What if I want to connect this shield to my car**
+
+If you want to read data or control your car, there's an OBD>DB9 cable available for you, [this cable](https://www.seeedstudio.com/DB9-to-OBD2-Cable-With-Switch-p-2872.html) make easier to connect to OBD-connector and DB9-connector. This cable will also work with anything that has a OBD-connector. Add a power switch makes such a satisfying click.
+
+[![](https://raw.githubusercontent.com/SeeedDocument/CAN_BUS_Shield/master/image/obd_cable.jpg)](https://www.seeedstudio.com/DB9-to-OBD2-Cable-With-Switch-p-2872.html)
+
 
 ## Features
 -----
