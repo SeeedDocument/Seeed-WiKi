@@ -76,7 +76,6 @@ Here is the list of the MakerPro Boards you can find in the Seeed WiKi. The list
 - [Raspberry PI B&#43; Case](/Raspberry_PI_Bplus_Case/)
 - [Raspberry Pi 3 Model B](/Raspberry_Pi_3_Model_B/)
 - [Renbotics ServoShield Rev](/Renbotics_ServoShield_Rev/)
-- [Respeaker Core](/Respeaker Core/)
 - [SDLogger - Open Hardware Data Logger](/SDLogger-Open_Hardware_Data_Logger/)
 - [Scream out loud - 110dBA fixed tone Siren](/Scream_out_loud-110dBA_fixed_tone_Siren/)
 - [Shield MaTrix V0.9](/Shield-MaTrix-V0.9b/)

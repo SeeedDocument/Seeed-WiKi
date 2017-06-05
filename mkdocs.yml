@@ -554,7 +554,6 @@ pages:
         - Raspberry PI B&#43; Case: Raspberry_PI_Bplus_Case.md
         - Raspberry Pi 3 Model B: Raspberry_Pi_3_Model_B.md
         - Renbotics ServoShield Rev: Renbotics_ServoShield_Rev.md
-        - Respeaker Core: Respeaker Core.md
         - SDLogger - Open Hardware Data Logger: SDLogger-Open_Hardware_Data_Logger.md
         - Scream out loud - 110dBA fixed tone Siren: Scream_out_loud-110dBA_fixed_tone_Siren.md
         - Shield MaTrix V0.9: Shield-MaTrix-V0.9b.md
@@ -568,6 +567,8 @@ pages:
 
 - Respeaker:
         - Respeaker Introduction: Respeaker.md
+        - ReSpeaker Mic Array: Respeaker_Mic_Array.md
+        - Respeaker Core: Respeaker Core.md
 
 
 - Discontinued:
