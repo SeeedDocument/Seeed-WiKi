@@ -1,16 +1,15 @@
 ---
 title: ReSpeaker Mic Array
-category: 
+category: Respeaker
 bzurl: https://www.seeedstudio.com/ReSpeaker-Mic-Array-Far-field-w--7-PDM-Microphones--p-2719.html
-oldwikiname:
-prodimagename:
-surveyurl:
+oldwikiname: ReSpeaker Mic Array
+prodimagename: respeaker_mic_array.jpeg
+surveyurl: https://www.research.net/r/Respeaker_Mic_Array
 sku: 107010001
 ---
 
 
-<img src="https://statics3.seeedstudio.com/seeed/img/2016-09/Eb4RjfA2jaWSQn6h1nEN4JNe.jpg" 
-width="50%" height="50%">
+![](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/img/respeaker_mic_array.jpeg)
 
 ## Description
 
@@ -27,17 +26,17 @@ The ReSpeaker Mic Array can be stacked (connected) right onto the top of ReSpeak
 
 ## Technology Specs
 
-![](https://www.seeedstudio.com/upload/image/20161010/1476085761315357.jpg)
+![](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/img/respeaker_mic_array.jpeg)
 
 - XVSM-2000 with 16 cores inside:
   - 16 real-time logical cores on 2 xCore tiles.
   - Cores share up to 2000 MIPS in dual issue mode.
-  - 512KB internal single-cycle SRAM and 2MB built-in flash. 
+  - 512KB internal single-cycle SRAM and 2MB built-in flash.
   - 16KB internal OTP (max 8KB per tile),
   - USB PHY, fully compliant with USB 2.0 specification.
   - Programmable I/O.
   - Supply DFU Mode.
-- 7 Digital Microphones: 
+- 7 Digital Microphones:
   - far field voice recognition or sound localization usefulness.
   - ST MP34DT01-M.
   - -26 dBFS sensitivity.
@@ -45,10 +44,10 @@ The ReSpeaker Mic Array can be stacked (connected) right onto the top of ReSpeak
   - 61 dB signal-to-noise ratio.
   - Omnidirectional sensitivity.
   - PDM output.
-- 12 RGB LEDs: 
+- 12 RGB LEDs:
   - 256 levels brightness.
   - 800kHz line data transmission.
-- Audio output: 
+- Audio output:
   - On board 3.5mm Aux output.
   - WOLFSON WM8960.
   - 24 or 16bit 16kHz stereo output.
@@ -57,11 +56,11 @@ The ReSpeaker Mic Array can be stacked (connected) right onto the top of ReSpeak
   - On board PLL.
   - Programmable sample clock for DAC,MIC.
     (Disable if DSP is used in XVSM-2000).
-- Power supply: 
-  - 5V supply from Micro USB or expansion header. 
-- Size: 
+- Power supply:
+  - 5V supply from Micro USB or expansion header.
+- Size:
   - Diameter 70mm.
-- Weight: 
+- Weight:
   - 15.25g
 
 ## Driver for ReSpeaker Mic Array
@@ -69,7 +68,7 @@ The ReSpeaker Mic Array can be stacked (connected) right onto the top of ReSpeak
 - For Windows Users, click [here](https://github.com/Fuhua-Chen/ReSpeaker_Microphone_Array_Driver) to install the driver
 - For Linux or Mac Users, don't need to install the driver
 
-## Extract voice with ReSpeaker Core 
+## Extract voice with ReSpeaker Core
 
 When Mic Array is stacked on ReSpeaker Core,  it will be detected(check with `aplay -l`) automatically. And we recommand that you could using our [respeaker\_python\_library](https://github.com/respeaker/respeaker_python_library) to develop your speech interaction application so that you don't need to care about if the Mic Array is on or not. Our library will check this and choose Mic Array when it is on.
 
@@ -142,7 +141,7 @@ wf.close()
 
 ## Firmwares for ReSpeaker Mic Array
 
-You could download ReSpeaker Mic array firmwares for DFU [here](https://github.com/Fuhua-Chen/ReSpeaker_Microphone_Array_Firmware). We have provided two versions: 
+You could download ReSpeaker Mic array firmwares for DFU [here](https://github.com/Fuhua-Chen/ReSpeaker_Microphone_Array_Firmware). We have provided two versions:
 
 - *xvsm version* : initial version, outputs 2 channels data with dsp support.
 - *raw version* : outputs 8 channels mic raw data, this firmware is without xvsm dsp support, so it does not support some functions such as DOA, AEC and so on.
@@ -173,7 +172,7 @@ class MicArray:
             packet = bytearray([address & 0xFF, (address >> 8) & 0x7F, length & 0xFF, (length >> 8) & 0xFF]) + data
             packet = list(packet)
             self.hid.write(packet)
-            
+
     def read(self, address, length):
         self.hid.write(list(bytearray([address & 0xFF, (address >> 8) & 0xFF | 0x80, length & 0xFF, (length >> 8) & 0xFF])))
         for _ in range(6):
@@ -246,4 +245,7 @@ if __name__ == '__main__':
 
 ## Resources
 
-- [ReSpeaker Microphone Array SCH&PCB](https://github.com/Fuhua-Chen/ReSpeaker_Microphone_Array_SCH_PCB)
+- **[Eagle]**[ReSpeaker Microphone Array SCH](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker%20Microphone%20Array%20v1.0.sch)
+- **[Eagle]**[ReSpeaker Microphone Array BRD](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker%20Microphone%20Array%20v1.0.brd)
+- **[PDF]** [ReSpeaker Microphone Array SCH](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker%20Microphone%20Array%20v1.0%20Sch.pdf)
+- **[PDF]** [ReSpeaker Microphone Array PCB](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker%20Microphone%20Array%20v1.0%20PCB.pdf)

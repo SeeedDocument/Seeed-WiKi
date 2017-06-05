@@ -1,9 +1,9 @@
 ---
 title: Respeaker Core
-category: MakerPro
+category: Respeaker
 bzurl: https://www.seeedstudio.com/ReSpeaker-Core-Based-On-MT7688-and-OpenWRT-p-2716.html
 oldwikiname:  Respeaker Core
-prodimagename:  Nano_v3.jpg
+prodimagename:  respeaker_core.jpg
 surveyurl:  https://www.research.net/r/Respeaker_Core
 sku:     102010088
 ---
