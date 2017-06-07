@@ -40,6 +40,9 @@ pages:
     - Essentials:
         - Essentials Introduction: Essentials.md
 {{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Essentials") (eq $cat2 "Essentials") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
+    - Respeaker:
+        - Respeaker Introduction: Respeaker.md
+{{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Respeaker") (eq $cat2 "Respeaker") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
 
 - Grove:
     - Grove Introduction: Grove.md
@@ -67,10 +70,6 @@ pages:
 - MakerPro:
         - MakerPro Introduction: MakerPro.md
 {{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "MakerPro") (eq $cat2 "MakerPro") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
-
-- Respeaker:
-        - Respeaker Introduction: Respeaker.md
-{{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Respeaker") (eq $cat2 "Respeaker") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
 
 - Discontinued:
         - Discontinued Introduction: Discontinued.md

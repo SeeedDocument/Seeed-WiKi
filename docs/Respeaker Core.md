@@ -168,7 +168,7 @@ root@mylinkit:~# wictl
 12, SEEED-MKT
 13, zhongrixing
 Please choose your wifi: 8
-Please input the wifi password: qqqqqqqq9
+Please input the wifi password: 88888888
 udhcpc (v1.23.2) started
 Sending discover...
 Sending discover...

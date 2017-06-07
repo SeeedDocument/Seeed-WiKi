@@ -26,7 +26,6 @@ pages:
         - Rainbowduino: Rainbowduino.md
         - Rainbowduino LED driver platform - ATmega328: Rainbowduino_LED_driver_platform-ATmega328.md
         - Rainbowduino v3.0: Rainbowduino_v3.0.md
-        - ReSpeaker 2-Mics Pi HAT: Respeaker_2_Mics_Pi_HAT.md
         - Seeeduino Cloud: Seeeduino_Cloud.md
         - Seeeduino Cloud and Grove IoT Starter Kit Powered by AWS: Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS.md
         - Seeeduino Ethernet: Seeeduino_Ethernet.md
@@ -224,6 +223,12 @@ pages:
         - USB To Uart 5V: USB_To_Uart_5V.md
         - USB To Uart 5V/3V3: USB_To_Uart_5V_3V3.md
         - Unibody box for Galileo Gen2: Unibody_box_for_Galileo_Gen2.md
+
+    - Respeaker:
+        - Respeaker Introduction: Respeaker.md
+        - ReSpeaker 2-Mics Pi HAT: Respeaker_2_Mics_Pi_HAT.md
+        - ReSpeaker Mic Array: Respeaker_Mic_Array.md
+        - Respeaker Core: Respeaker Core.md
 
 
 - Grove:
@@ -565,15 +570,11 @@ pages:
         - Wireless Sensor Node - Solar Kit: Wireless_Sensor_Node-Solar_Kit.md
 
 
-- Respeaker:
-        - Respeaker Introduction: Respeaker.md
-        - ReSpeaker Mic Array: Respeaker_Mic_Array.md
-        - Respeaker Core: Respeaker Core.md
-
-
 - Discontinued:
         - Discontinued Introduction: Discontinued.md
+        - Bluetooth-Bee: Bluetooth-Bee‏‎.md
         - Discontinued Product: Discontinued.md
+        - Grove-Single_Axis_Analog_Gyro‏‎: Grove-Single_Axis_Analog_Gyro‏‎.md
 
 
 - About:
