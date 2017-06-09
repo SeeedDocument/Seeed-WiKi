@@ -51,6 +51,7 @@ Here is the list of the Grove - Sensor Boards you can find in the Seeed WiKi. Th
 - [Grove - Gesture V1.0](/Grove-Gesture_v1.0/)
 - [Grove - HCHO Sensor](/Grove-HCHO_Sensor/)
 - [Grove - Hall Sensor](/Grove-Hall_Sensor/)
+- [Grove - Heelight Sensor](/Grove-Heelight_Sensor/)
 - [Grove - High Temperature Sensor](/Grove-High_Temperature_Sensor/)
 - [Grove - I2C Color Sensor](/Grove-I2C_Color_Sensor/)
 - [Grove - I2C Touch Sensor](/Grove-I2C_Touch_Sensor/)

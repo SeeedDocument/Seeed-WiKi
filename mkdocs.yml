@@ -279,6 +279,7 @@ pages:
         - Grove - Gesture V1.0: Grove-Gesture_v1.0.md
         - Grove - HCHO Sensor: Grove-HCHO_Sensor.md
         - Grove - Hall Sensor: Grove-Hall_Sensor.md
+        - Grove - Heelight Sensor: Grove-Heelight_Sensor.md
         - Grove - High Temperature Sensor: Grove-High_Temperature_Sensor.md
         - Grove - I2C Color Sensor: Grove-I2C_Color_Sensor.md
         - Grove - I2C Touch Sensor: Grove-I2C_Touch_Sensor.md
@@ -572,9 +573,7 @@ pages:
 
 - Discontinued:
         - Discontinued Introduction: Discontinued.md
-        - Bluetooth-Bee: Bluetooth-Bee‏‎.md
         - Discontinued Product: Discontinued.md
-        - Grove-Single_Axis_Analog_Gyro‏‎: Grove-Single_Axis_Analog_Gyro‏‎.md
 
 
 - About:
