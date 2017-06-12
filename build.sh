@@ -17,36 +17,12 @@ do
 	rm layouts/index.html
         echo ""
 done
-rm -r public
+clear
 cd ..
-echo "Mkdocs build"
+echo "kkdocs build"
 echo "-------------"
 mkdocs build --clean
 echo ""
-echo "Creating Redirects for non existing pages"
-echo "-----------------------------------------"
-for redirectline in `cat ymlgen/redirects.txt`
-do
- pagename=${redirectline%;*}
- pagelink=${redirectline#*;}
- echo "Redirecting $pagename ----> $pagelink"
- echo ""
- mkdir "site/$pagename"
- touch "site/$pagename/index.html"
- echo "<!DOCTYPE html>
- <html>
-   <head>
-     <link rel=\"canonical\" href=\"$pagelink\"/>
-     <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\"/>
-     <meta http-equiv=\"refresh\" content=\"0;url=$pagelink\"/>
-   </head>
- </html>" > "site/$pagename/index.html"
-done
-echo "-----------------------------------------"
 echo "Now, You can copy the generated files in /site folder to Server."
 echo ""
 echo "Thank You ☺"
-
-
-
-
