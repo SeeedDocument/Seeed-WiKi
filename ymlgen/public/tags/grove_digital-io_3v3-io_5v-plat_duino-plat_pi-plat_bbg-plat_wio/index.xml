@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Grove_digital Io_3v3 Io_5v Plat_duino Plat_pi Plat_bbg Plat_wio on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
+    <link>http://wiki.seeed.cc/tags/grove_digital-io_3v3-io_5v-plat_duino-plat_pi-plat_bbg-plat_wio/index.xml</link>
+    <description>Recent content in Grove_digital Io_3v3 Io_5v Plat_duino Plat_pi Plat_bbg Plat_wio on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://wiki.seeed.cc/tags/grove_digital-io_3v3-io_5v-plat_duino-plat_pi-plat_bbg-plat_wio/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Grove - Magnetic Switch</title>
+      <link>http://wiki.seeed.cc/Grove-Magnetic_Switch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/Grove-Magnetic_Switch/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Magnetic_Switch/master/img/Magnetic_Switch.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a Grove interface compatible Magnetic switch module. It is based on encapsulated dry reed switch CT10. CT10 is single-pole, single throw (SPST) type, having normally open ruthenium contacts. The sensor is a double-ended type and may be actuated with an electromagnet, a permanent magnet or a combination of both. The magnetic switch is a wonderful tool for designers who would like to turn a circuit on and off based on proximity.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/Grove-Magnetic-Switch-p-744.html&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Grove compatible interface&lt;/li&gt;
+&lt;li&gt;2.0cm x 2.0cm Grove module&lt;/li&gt;
+&lt;li&gt;Minimum external parts&lt;/li&gt;
+&lt;li&gt;10W rating&lt;/li&gt;
+&lt;li&gt;Rugged encapsulation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;!!!Tip
+    More details about Grove modules please refer to &lt;a href=&#34;http://wiki.seeed.cc/Grove_System/&#34;&gt;Grove System&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;application-ideas&#34;&gt;Application Ideas&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Proximity Sensor&lt;/li&gt;
+&lt;li&gt;Security Alarm Sensor&lt;/li&gt;
+&lt;li&gt;Level Sensor&lt;/li&gt;
+&lt;li&gt;Flow Sensor&lt;/li&gt;
+&lt;li&gt;Pulse Counter&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;specifications&#34;&gt;Specifications&lt;/h2&gt;
+
+&lt;table border=&#34;1&#34;&gt;
+&lt;tr&gt;
+&lt;th scope=&#34;col&#34;&gt;
+Items
+&lt;/th&gt;
+&lt;th scope=&#34;col&#34;&gt;
+Min
+&lt;/th&gt;
+&lt;th scope=&#34;col&#34;&gt;
+Norm
+&lt;/th&gt;
+&lt;th scope=&#34;col&#34;&gt;
+Max
+&lt;/th&gt;
+&lt;th scope=&#34;col&#34;&gt;
+Unit
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr align=&#34;center&#34;&gt;
+&lt;td&gt;
+Working Voltage
+&lt;/td&gt;
+&lt;td&gt;
+4.75
+&lt;/td&gt;
+&lt;td&gt;
+5.0
+&lt;/td&gt;
+&lt;td&gt;
+5.25
+&lt;/td&gt;
+&lt;td&gt;
+V
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align=&#34;center&#34;&gt;
+&lt;td&gt;
+Switched Power
+&lt;/td&gt;
+&lt;td colspan=&#34;3&#34;&gt;
+10
+&lt;/td&gt;
+&lt;td&gt;
+W
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align=&#34;center&#34;&gt;
+&lt;td&gt;
+Switched Voltage AC,RMS value(max)
+&lt;/td&gt;
+&lt;td colspan=&#34;3&#34;&gt;
+&amp;lt; 140
+&lt;/td&gt;
+&lt;td&gt;
+V
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align=&#34;center&#34;&gt;
+&lt;td&gt;
+Switched Current DC
+&lt;/td&gt;
+&lt;td colspan=&#34;3&#34;&gt;
+&amp;lt; 500
+&lt;/td&gt;
+&lt;td&gt;
+mA
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align=&#34;center&#34;&gt;
+&lt;td&gt;
+Carry Current DC
+&lt;/td&gt;
+&lt;td colspan=&#34;3&#34;&gt;
+&amp;lt; 0.5
+&lt;/td&gt;
+&lt;td&gt;
+A
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align=&#34;center&#34;&gt;
+&lt;td&gt;
+Contact Resistance
+&lt;/td&gt;
+&lt;td colspan=&#34;3&#34;&gt;
+&amp;lt;200
+&lt;/td&gt;
+&lt;td&gt;
+mΩ
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align=&#34;center&#34;&gt;
+&lt;td&gt;
+Insulation Resistance
+&lt;/td&gt;
+&lt;td colspan=&#34;3&#34;&gt;
+&amp;gt;10&lt;sup&gt;6&lt;/sup&gt;
+&lt;/td&gt;
+&lt;td&gt;
+MΩ
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align=&#34;center&#34;&gt;
+&lt;td&gt;
+Operating Temperature
+&lt;/td&gt;
+&lt;td&gt;
+-40
+&lt;/td&gt;
+&lt;td&gt;
+-
+&lt;/td&gt;
+&lt;td&gt;
+125
+&lt;/td&gt;
+&lt;td&gt;
+℃
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align=&#34;center&#34;&gt;
+&lt;td&gt;
+Operate Range
+&lt;/td&gt;
+&lt;td&gt;
+10
+&lt;/td&gt;
+&lt;td&gt;
+-
+&lt;/td&gt;
+&lt;td&gt;
+40
+&lt;/td&gt;
+&lt;td&gt;
+AT
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;platforms-supported&#34;&gt;Platforms Supported&lt;/h2&gt;
+
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+
+&lt;h3 id=&#34;with-arduino-arduino-arduino&#34;&gt;With &lt;a href=&#34;http://wiki.seeed.cc/Arduino&#34; title=&#34;Arduino&#34;&gt;Arduino&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;The SIG pin of the module output LOW normally. When a magnet approaches the switch, the magnetic switch close and the SIG pin output HIGH.&lt;/p&gt;
+
+&lt;p&gt;The following sketch demonstrates a simple application of using the Magnetic switch to control the led. When you put a magnet that has enough magnetic power close to the module, the switch is closed .Then the SIG pin out put a high voltage. You can use this to control the led.&lt;/p&gt;
+
+&lt;p&gt;As the picture on the below indicates, the Magnetic switch is connected to digital port 9 of the &lt;strong&gt;Grove - Base Shield&lt;/strong&gt; and the LED is connected to digital port 13. When a Magnet approaches the switch, the SIG pin outputs a High voltage. Then the LED lights up. The hardware installation is as follows:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Magnetic_Switch/master/img/Grove-Magnetic_Switch.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Copy and paste code below to a new Arduino sketch.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;    /*******************************************************************************/
+
+    /*macro definitions of magnetic pin and LED pin*/
+    #define MAGNECTIC_SWITCH 9
+    #define LED 13//the on board LED of the Arduino or Seeeduino
+
+    void setup()
+    {
+        pinsInit();
+    }
+     
+    void loop() 
+    {
+        if(isNearMagnet())//if the magnetic switch is near the magnet?
+        {
+            turnOnLED();
+        }
+        else
+        {
+            turnOffLED();
+        }
+    }
+    void pinsInit()
+    {
+        pinMode(MAGNECTIC_SWITCH, INPUT);
+        pinMode(LED,OUTPUT);
+    }
+
+    /*If the magnetic switch is near the magnet, it will return ture, */
+    /*otherwise it will return false                                */
+    boolean isNearMagnet()
+    {
+        int sensorValue = digitalRead(MAGNECTIC_SWITCH);
+        if(sensorValue == HIGH)//if the sensor value is HIGH?
+        {
+            return true;//yes,return ture
+        }
+        else
+        {
+            return false;//no,return false
+        }
+    }
+    void turnOnLED()
+    {
+        digitalWrite(LED,HIGH);
+    }
+    void turnOffLED()
+    {
+        digitalWrite(LED,LOW);
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Upload the code.&lt;/li&gt;
+&lt;li&gt;Then the LED light when there is Magnetic approaches the switch. Have a try!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;with-raspberry-pi&#34;&gt;With Raspberry Pi&lt;/h3&gt;
+
+&lt;p&gt;1.You should have a raspberry pi and a grovepi or grovepi+.&lt;/p&gt;
+
+&lt;p&gt;2.You should have completed configuring the development enviroment, otherwise follow &lt;a href=&#34;http://wiki.seeed.cc/GrovePiPlus&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;3.Connection&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Plug the Magnet Switch to grovepi socket D3 by using a grove cable.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;4.Navigate to the demos&amp;rsquo; directory:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    cd yourpath/GrovePi/Software/Python/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;To see the code (this demo has the same usage with tilt switch)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;nano grovepi_tilt_switch.py   # &amp;quot;Ctrl+x&amp;quot; to exit #
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;import time
+import grovepi
+
+# Connect the Grove Tilt Switch to digital port D3
+# SIG,NC,VCC,GND
+tilt_switch = 3
+
+grovepi.pinMode(tilt_switch,&amp;quot;INPUT&amp;quot;)
+
+while True:
+    try:
+        print grovepi.digitalRead(tilt_switch)
+        time.sleep(.5)
+
+    except IOError:
+        print &amp;quot;Error&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;5.Run the demo.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    sudo python grove_tilt_switch.py
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;6.Result&lt;/p&gt;
+
+&lt;p&gt;Put a magnet upon the sensor, the SIG pin will output HIGH.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Magnetic_Switch/master/img/Grovepi_tilt_Switch_00.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Magnetic_Switch/master/res/Magnetic_Switch.zip&#34;&gt;Grove-Magnetic Switch v0.9 Eagle File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Magnetic_Switch/master/res/CT10.pdf&#34;&gt;CT10 Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Magnetic_Switch/master/res/Grove-Magnetic_Switch_v1.3_Eagle_File.zip&#34;&gt;Grove-Magnetic Switch v1.3 Eagle File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Magnetic_Switch/master/res/Grove-Magnetic_Switch_v1.3_PDF_File.pdf&#34;&gt;Grove-Magnetic Switch v1.3 PDF File&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_Magnetic_Switch --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

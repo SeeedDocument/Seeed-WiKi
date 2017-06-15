@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Plat_duino Plat_pi Plat_bbg Plat_linkit    on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
+    <link>http://wiki.seeed.cc/tags/plat_duino-plat_pi-plat_bbg-plat_linkit---/index.xml</link>
+    <description>Recent content in Plat_duino Plat_pi Plat_bbg Plat_linkit    on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://wiki.seeed.cc/tags/plat_duino-plat_pi-plat_bbg-plat_linkit---/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Grove - 6-Axis Accelerometer&amp;Gyroscope</title>
+      <link>http://wiki.seeed.cc/Grove-6-Axis_AccelerometerAndGyroscope/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/Grove-6-Axis_AccelerometerAndGyroscope/</guid>
+      <description>
+
+&lt;!-- tags: io_3v3, io_5v, grove_i2c, grove_analog, grove_digital, grove_uart, plat_duino, plat_bbg, plat_pi, plat_wio, plat_linkit --&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-6-Axis_AccelerometerAndGyroscope/master/img/Grove-6-Axis_AccelerometerAndGyroscope_product_view_1200_s.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Grove - 6-Axis Accelerometer&amp;amp;Gyroscope is a cost-effective Grove interfaced and integrated sensor combination of 3-axis digital accelerometer and 3-axis digital gyroscope.&lt;/p&gt;
+
+&lt;p&gt;With a serious low power consumption digital chip LSM6DS3(&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-6-Axis_AccelerometerAndGyroscope/master/res/LSM6DS3TR.pdf&#34;&gt;datasheet&lt;/a&gt;) and power supply regulator inside, it features high sensitivity, green tech and low noise interference. It can be configured to different sensitivity levels of acceleration and different angular rate measurement range. Provided with detailed SDK, it can make the prototyping process quicker and easier.&lt;/p&gt;
+
+&lt;p&gt;This product can be used for different applications for tilt, motion, and tap sensings, such as robotics, IoT devices and consumer electronic devices.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.seeedstudio.com/Grove-6-Axis-Accelerometer&amp;amp;Gyroscope-p-2606.html&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Grove interfaced and cost-effective.&lt;/li&gt;
+&lt;li&gt;Digital-output for 6 DOF motion data.&lt;/li&gt;
+&lt;li&gt;±2/±4/±8/±16 g full scale leaner acceleration sensing range for various environment.&lt;/li&gt;
+&lt;li&gt;±125, ±245, ±500, ±1000, ±2000 degree per seconds(dps) for angular rate measurement range make it versatile.&lt;/li&gt;
+&lt;li&gt;Detailed SDK for easier programming.&lt;/li&gt;
+&lt;li&gt;Regulated power supply for reliable data to be collected.&lt;/li&gt;
+&lt;li&gt;Programmed interrupts for different event.&lt;/li&gt;
+&lt;li&gt;8 kB data buffering.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;!!!Tip
+    More details about Grove modules please refer to &lt;a href=&#34;http://wiki.seeed.cc/Grove_System/&#34;&gt;Grove System&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;application-ideas&#34;&gt;Application ideas&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Robotics&lt;/li&gt;
+&lt;li&gt;Consumer-level aircraft&lt;/li&gt;
+&lt;li&gt;Computer input devices&lt;/li&gt;
+&lt;li&gt;Wearable devices.&lt;/li&gt;
+&lt;li&gt;IoT things&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;specifications&#34;&gt;Specifications&lt;/h2&gt;
+
+&lt;p&gt;For detailed information please refer to &lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-6-Axis_AccelerometerAndGyroscope/master/res/LSM6DS3TR.pdf&#34;&gt;datasheet&lt;/a&gt;.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Parameter&lt;/th&gt;
+&lt;th&gt;Value&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Analog supply voltage:&lt;/td&gt;
+&lt;td&gt;5V/3.3V(DC)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Power consumption:&lt;/td&gt;
+&lt;td&gt;0.9 mA in combo normal mode and 1.25 mA in combo high-performance mode up to 1.6 kHz&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Linear acceleration measurement range&lt;/td&gt;
+&lt;td&gt;±2/±4/±8/±16 g full scale (typical value)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Angular rate measurement range&lt;/td&gt;
+&lt;td&gt;±125, ±245, ±500, ±1000, ±2000 dps(typical value)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Linear acceleration sensitivity&lt;/td&gt;
+&lt;td&gt;0.061(FS = ±2), 0.122(FS = ±4), 0.244(FS = ±8), 0.488(FS = ±16) mg/LSB&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Angular rate sensitivity&lt;/td&gt;
+&lt;td&gt;4.375(FS = ±125), 8.75(FS = ±245), 17.50(FS = ±500), 35(FS = ±1000), 70(FS = ±2000)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;platforms-supported&#34;&gt;Platforms Supported&lt;/h3&gt;
+
+&lt;div class=&#34;admonition note&#34;&gt;
+&lt;p class=&#34;admonition-title&#34;&gt;Note&lt;/p&gt;
+If no version number is not represented for a specific platform, it means this product support all versions within this platform. But you will need additional corresponding Grove shield board such as Grove - Base Shield v2.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;hardware-overview&#34;&gt;Hardware Overview&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-6-Axis_AccelerometerAndGyroscope/master/img/Grove-6-Axis_AccelerometerAndGyroscope_components_view_1200_s.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Grove Port&lt;/strong&gt;&lt;br /&gt;
+Connect main control board such as Seeeduino board with driver board.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;LSM6DS3&lt;/strong&gt;&lt;br /&gt;
+Main MCU.&lt;/p&gt;
+
+&lt;h3 id=&#34;parts-list&#34;&gt;&lt;strong&gt;Parts list&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Parts name&lt;/th&gt;
+&lt;th&gt;Quantity&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Grove - 6-Axis Accelerometer&amp;amp;Gyroscope&lt;/td&gt;
+&lt;td&gt;1PC&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Grove wire&lt;/td&gt;
+&lt;td&gt;1PC&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;get-started&#34;&gt;Get started&lt;/h2&gt;
+
+&lt;h3 id=&#34;material-required&#34;&gt;&lt;strong&gt;Material required&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Seeeduino * 1&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Grove - Base Shield v2&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;preparations&#34;&gt;&lt;strong&gt;Preparations&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Refer to following guides to build an appropriate IDE:&lt;/p&gt;
+
+&lt;div class=&#34;admonition note&#34;&gt;
+&lt;p class=&#34;admonition-title&#34;&gt;Note&lt;/p&gt;
+We have chosen Seeeduino and it is compatible with Arduino in this case. You can also use Arduino board instead.
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://wiki.seeed.cc/Seeeduino_v4.2#Getting_Started_on_Windows&#34;&gt;Getting Started on Windows&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://wiki.seeed.cc/Seeeduino_v4.2#Getting_Started_on_Mac_OS_X&#34;&gt;Getting Started on Mac OS X&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;hardware-connections&#34;&gt;&lt;strong&gt;Hardware connections&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-6-Axis_AccelerometerAndGyroscope/master/img/Grove-6-Axis_AccelerometerAndGyroscope_demo_connection_1200_s.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;div class=&#34;admonition note&#34;&gt;
+&lt;p class=&#34;admonition-title&#34;&gt;Note&lt;/p&gt;
+Plug Grove - 6-Axis Accelerometer&amp;Gyroscope to I&lt;sup&gt;2&lt;/sup&gt;C interface on Grove - Base shield. Connect power supply with USB cable.
+&lt;/div&gt;
+
+&lt;h3 id=&#34;a-little-demo&#34;&gt;&lt;strong&gt;A little demo&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Download the &lt;a href=&#34;https://github.com/Seeed-Studio/Accelerometer_And_Gyroscope_LSM6DS3&#34;&gt;library&lt;/a&gt; for Grove - 6-Axis Accelerometer&amp;amp;Gyroscope. Refer to &lt;a href=&#34;http://wiki.seeed.cc/Guide_to_use_demos_downloaded_from_Seeed&#39;s_Github&#34;&gt;Guide to use demos downloaded from Seeed&amp;rsquo;s Github&lt;/a&gt; for quicker flashing your code to main controller board. There are three demo examples in total in sub directory &lt;strong&gt;&lt;em&gt;examples&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-6-Axis_AccelerometerAndGyroscope/master/res/Schematic_files.zip&#34;&gt;Schematic files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Seeed-Studio/Accelerometer_And_Gyroscope_LSM6DS3&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-6-Axis_AccelerometerAndGyroscope/master/res/LSM6DS3TR.pdf&#34;&gt;Datasheet of LSM6DS3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_6-Axis_Accelerometer&amp;Gyroscope --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

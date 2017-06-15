@@ -29,39 +29,39 @@ The ReSpeaker Mic Array can be stacked (connected) right onto the top of ReSpeak
 ![](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/img/respeaker_mic_array.jpeg)
 
 - XVSM-2000 with 16 cores inside:
-  - 16 real-time logical cores on 2 xCore tiles.
-  - Cores share up to 2000 MIPS in dual issue mode.
-  - 512KB internal single-cycle SRAM and 2MB built-in flash.
-  - 16KB internal OTP (max 8KB per tile),
-  - USB PHY, fully compliant with USB 2.0 specification.
-  - Programmable I/O.
-  - Supply DFU Mode.
+    - 16 real-time logical cores on 2 xCore tiles.
+    - Cores share up to 2000 MIPS in dual issue mode.
+    - 512KB internal single-cycle SRAM and 2MB built-in flash.
+    - 16KB internal OTP (max 8KB per tile),
+    - USB PHY, fully compliant with USB 2.0 specification.
+    - Programmable I/O.
+    - Supply DFU Mode.
 - 7 Digital Microphones:
-  - far field voice recognition or sound localization usefulness.
-  - ST MP34DT01-M.
-  - -26 dBFS sensitivity.
-  - 120 dBSPL acoustic overload point.
-  - 61 dB signal-to-noise ratio.
-  - Omnidirectional sensitivity.
-  - PDM output.
+    - far field voice recognition or sound localization usefulness.
+    - ST MP34DT01-M.
+    - -26 dBFS sensitivity.
+    - 120 dBSPL acoustic overload point.
+    - 61 dB signal-to-noise ratio.
+    - Omnidirectional sensitivity.
+    - PDM output.
 - 12 RGB LEDs:
-  - 256 levels brightness.
-  - 800kHz line data transmission.
+    - 256 levels brightness.
+    - 800kHz line data transmission.
 - Audio output:
-  - On board 3.5mm Aux output.
-  - WOLFSON WM8960.
-  - 24 or 16bit 16kHz stereo output.
-  - 40 mW output Power into 16 Ω @ 3.3 V.
+    - On board 3.5mm Aux output.
+    - WOLFSON WM8960.
+    - 24 or 16bit 16kHz stereo output.
+    - 40 mW output Power into 16 Ω @ 3.3 V.
 - Clock Sync：
-  - On board PLL.
-  - Programmable sample clock for DAC,MIC.
+    - On board PLL.
+    - Programmable sample clock for DAC,MIC.
     (Disable if DSP is used in XVSM-2000).
 - Power supply:
-  - 5V supply from Micro USB or expansion header.
+    - 5V supply from Micro USB or expansion header.
 - Size:
-  - Diameter 70mm.
+    - Diameter 70mm.
 - Weight:
-  - 15.25g
+    - 15.25g
 
 ## Driver for ReSpeaker Mic Array
 
@@ -146,7 +146,7 @@ You could download ReSpeaker Mic array firmwares for DFU [here](https://github.c
 - *xvsm version* : initial version, outputs 2 channels data with dsp support.
 - *raw version* : outputs 8 channels mic raw data, this firmware is without xvsm dsp support, so it does not support some functions such as DOA, AEC and so on.
 
-Please see [here](https://github.com/respeaker/get_started_with_respeaker/issues/97) for **updating firmware on Mac or Linux**.
+Please see [here](https://github.com/jerryyip/respeaker_micarray_dfu_mac_linux) for **updating firmware on Mac or Linux**.
 
 ## HID for controlling ReSpeaker Mic Array
 

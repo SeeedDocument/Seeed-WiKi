@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Grove_i2c Io_3v3 Io_5v Plat_duino on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
+    <link>http://wiki.seeed.cc/tags/grove_i2c-io_3v3-io_5v-plat_duino/index.xml</link>
+    <description>Recent content in Grove_i2c Io_3v3 Io_5v Plat_duino on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://wiki.seeed.cc/tags/grove_i2c-io_3v3-io_5v-plat_duino/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Grove - NFC Tag</title>
+      <link>http://wiki.seeed.cc/Grove-NFC_Tag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/Grove-NFC_Tag/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-NFC_Tag/master/img/Grove-NFC_Tag_uasge.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Grove - NFC Tag is a highly integrated Near Field Communication Tag module,this module is I2C interface,which base on M24LR64E-R,M24LR64E-R have a 64-bit unique identifier and 64 -Kbit EEPROM.Grove - NFC Tag attach an independent PCB antenna which can easily stretch out of any enclosure you use, leaving more room for you to design the exterior of your project.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/Grove-NFC-Tag-p-1866.html&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;specifications&#34;&gt;Specifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Working Voltage:5V or 3V3&lt;/li&gt;
+&lt;li&gt;Working Current&amp;lt;1mA&lt;/li&gt;
+&lt;li&gt;Effective range&amp;lt;2cm&lt;/li&gt;
+&lt;li&gt;Serve for contactless communication at 13.56MHz&lt;/li&gt;
+&lt;li&gt;ISO 15693 and ISO 18000-3 mode 1 compatible&lt;/li&gt;
+&lt;li&gt;64-bit unique identifier (UID)&lt;/li&gt;
+&lt;li&gt;Read Block &amp;amp; Write (32-bit blocks)&lt;/li&gt;
+&lt;li&gt;Grove I2C Interface&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;!!!Tip
+    More details about Grove modules please refer to &lt;a href=&#34;http://wiki.seeed.cc/Grove_System/&#34;&gt;Grove System&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;platforms-supported&#34;&gt;Platforms Supported&lt;/h2&gt;
+
+&lt;h1 id=&#34;usage&#34;&gt;Usage&lt;/h1&gt;
+
+&lt;h2 id=&#34;read-write-from-mobile&#34;&gt;Read/Write from Mobile&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Download &lt;a href=&#34;https://github.com/Seeed-Studio/NFC_Tag_M24LR6E/blob/master/Resources/NfcVreader.apk&#34;&gt;NfcV-reader for Android&lt;/a&gt; and install it&lt;/li&gt;
+&lt;li&gt;We can Read/Write it from Mobile&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-NFC_Tag/master/img/NFC_Tag_1.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-NFC_Tag/master/img/NFC_Tag_2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-NFC_Tag/master/img/NFC_Tag_3.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-NFC_Tag/master/img/NFC_Tag_4.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;control-led&#34;&gt;Control LED&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Hardware Installation&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-NFC_Tag/master/img/Grove-NFC_Tag_Photo.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Download &lt;a href=&#34;https://github.com/Seeed-Studio/NFC_Tag_M24LR6E/blob/master/Resources/NfcVreader.apk&#34;&gt;NfcV-reader for Android&lt;/a&gt; and install it&lt;/li&gt;
+&lt;li&gt;Download &lt;a href=&#34;https://github.com/Seeed-Studio/NFC_Tag_M24LR6E&#34;&gt;NFC Tag Lib&lt;/a&gt;, rename it to NFC_Tag_M24LR6E and put it into Arduino&amp;rsquo;s library .&lt;/li&gt;
+&lt;li&gt;Open Arduino IDE. If Arduino IDE is already opened, restart it.&lt;/li&gt;
+&lt;li&gt;In Arduino IDE, click menus: File -&amp;gt; Example -&amp;gt; NFC_Tag_M24LR6E -&amp;gt; ledControl&lt;/li&gt;
+&lt;li&gt;Now, you can control LED from your phone.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code&gt; 
+#include &amp;quot;NfcTag.h&amp;quot;
+#include &amp;lt;Wire.h&amp;gt;
+ 
+NfcTag nfcTag;
+int led = 5;
+bool flag = false;
+bool preFlag = false;
+void setup(){
+  Serial.begin(9600);
+  pinMode(led,OUTPUT);
+  nfcTag.init();
+}
+ 
+void loop(){
+  flag = nfcTag.readByte(EEPROM_I2C_LENGTH-1) == 0xff?true:false;
+  if(flag != preFlag){
+    Serial.println(&amp;quot;get remote NFC control signal!&amp;quot;);
+    if(flag == true){
+      Serial.println(&amp;quot;led will light up!&amp;quot;);
+      digitalWrite(led,HIGH);
+    }else{
+      Serial.println(&amp;quot;led will turn dark!&amp;quot;);
+      digitalWrite(led,LOW);
+    }
+    preFlag = flag;
+  }
+  delay(5*1000);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-NFC_Tag/master/res/Grove-NFC_Tag_v1.0.pdf&#34;&gt;Grove - NFC Tag.PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-NFC_Tag/master/res/Grove-NFC_Tag_v1.0.zip&#34;&gt;Grove - NFC Tag Eagle file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-NFC_Tag/master/res/M24LR64E-R.pdf&#34;&gt;M24LR64E-R datasheet.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Seeed-Studio/NFC_Tag_M24LR6E/blob/master/Resources/NfcVreader.apk&#34;&gt;NfcV-reader for Android&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Seeed-Studio/NFC_Tag_M24LR6E&#34;&gt;NFC Tag M24LR6E Lib&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_NFC_Tag --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Grove - Q Touch Sensor</title>
+      <link>http://wiki.seeed.cc/Grove-Q_Touch_Sensor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/Grove-Q_Touch_Sensor/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Q_Touch_Sensor/master/img/Grove-Q_Touch_Sensor.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Q Touch Sensor is a high sensitivity and high noise immunity touch input device. It is based on Atmel AT42QT1070. The AT42QT1070 modulates its bursts in a spread-spectrum fashion in order to heavily suppress the effects of external noise, and to suppress RF emissions. The QT1070 uses a dual-pulse method of acquisition. This provides greater noise immunity and eliminates the need for external sampling capacitors, allowing touch sensing using a single pin.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/Grove-Q-Touch-Sensor-p-1854.html&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;specifications&#34;&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Operating Voltage: 3 ~ 5.5V&lt;/li&gt;
+&lt;li&gt;Operating Current @3.3V: 1mA&lt;/li&gt;
+&lt;li&gt;Touch Keys: 7 Keys ; key0, key1, key2 are on the Grove PCB bottom side&lt;/li&gt;
+&lt;li&gt;Communicating Protocol: I2C&lt;/li&gt;
+&lt;li&gt;I2C Address: 0x1B&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;!!!Tip
+    More details about Grove modules please refer to &lt;a href=&#34;http://wiki.seeed.cc/Grove_System/&#34;&gt;Grove System&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;platforms-supported&#34;&gt;Platforms Supported&lt;/h2&gt;
+
+&lt;h2 id=&#34;hardware-overview&#34;&gt;Hardware Overview&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Q_Touch_Sensor/master/img/Grove-Q_Touch.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;① - On board touch key0&lt;/p&gt;
+
+&lt;p&gt;② - On board touch key1&lt;/p&gt;
+
+&lt;p&gt;③ - On board touch key2&lt;/p&gt;
+
+&lt;p&gt;④ - Touch key0 ~ key6 breakout&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The recommended range for key capacitance Cx is 1 pF – 30 pF. Larger values of Cx will give reduced sensitivity.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;⑤ - GND&lt;/p&gt;
+
+&lt;p&gt;⑥ - Grove interface&lt;/p&gt;
+
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+
+&lt;p&gt;Demo: Who touched my lychee?&lt;/p&gt;
+
+&lt;p&gt;Have you ever heard of a lychee? Yes, it&amp;rsquo;s a very famous fruit of south of China. If you have ever tasted, will love it.&lt;/p&gt;
+
+&lt;p&gt;Now let us begin our demo. When you touch the hit pan (lychee),the LED will turn on.&lt;/p&gt;
+
+&lt;h3 id=&#34;hardware-connections&#34;&gt;Hardware Connections&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Connect the I2C of Grove-Q Touch Sensor to the I2C socket on the Grove Base Shield.&lt;/li&gt;
+&lt;li&gt;Connect the Grove-LED to D3 (Digital Pin 3) on the Grove Base Shield.&lt;/li&gt;
+&lt;li&gt;Connect Key0 (marked K0) on the Grove-Q Touch sensor to a Lychee (Alternatively, you could touch the open end of the cable with a finger while testing).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Q_Touch_Sensor/master/img/Grove-Q_Touch_Demo1.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;software-part&#34;&gt;Software Part&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Download the &lt;a href=&#34;https://github.com/Seeed-Studio/Seeed_QTouch&#34;&gt;Q Touch Library&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Unzip it into the libraries folder of Arduino IDE, for example the path could be ..\arduino-1.0.5\libraries.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&#34;example-1&#34;&gt;&lt;strong&gt;Example 1&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;a. Open the example via Arduino Menu &amp;lsquo;File -&amp;gt; Examples -&amp;gt; Seeed_QTouch-master -&amp;gt; Grove_QTouch_demoCode_v_1_0&amp;rsquo;.&lt;/p&gt;
+
+&lt;p&gt;b. Upload the code. Note that you should select the correct board type and COM port.&lt;/p&gt;
+
+&lt;p&gt;c. On touching the Lychee, the LED would glow, as can be seen below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Q_Touch_Sensor/master/img/Grove-Q_Touch_Demo2.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;example-2&#34;&gt;&lt;strong&gt;Example 2&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;a. Open the example via Arduino Menu &amp;lsquo;File -&amp;gt; Examples -&amp;gt; Seeed_QTouch-master -&amp;gt; isTouch&amp;rsquo;.&lt;/p&gt;
+
+&lt;p&gt;b. Upload the code.&lt;/p&gt;
+
+&lt;p&gt;c. Open the Serial Monitor.&lt;/p&gt;
+
+&lt;p&gt;d. Touch and release the Lychee; The Serial Monitor would display the duration of touch as in the screenshot below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Q_Touch_Sensor/master/img/Screenshot--QTouch.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can try the &lt;a href=&#34;http://www.codebender.cc&#34;&gt;Codebender&lt;/a&gt; widget below to upload the code as well.&lt;/p&gt;
+
+&lt;iframe frameborder=&#34;0&#34; height=&#34;510&#34; src=&#34;https://codebender.cc/embed/example/Seeed_QTouch/isTouch&#34; width=&#34;800&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Please open the Serial monitor below to view data.&lt;/p&gt;
+
+&lt;iframe frameborder=&#34;0&#34; height=&#34;300&#34; src=&#34;https://codebender.cc/embed/serialmonitor&#34; width=&#34;800&#34;&gt;&lt;/iframe&gt;
+
+&lt;h4 id=&#34;example-3&#34;&gt;&lt;strong&gt;Example 3&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;a. Open the example via Arduino Menu &amp;lsquo;File -&amp;gt; Examples -&amp;gt; Seeed_QTouch-master -&amp;gt; getTouchNumber&amp;rsquo;.&lt;/p&gt;
+
+&lt;p&gt;b. Upload the code.&lt;/p&gt;
+
+&lt;p&gt;c. Open the Serial Monitor.&lt;/p&gt;
+
+&lt;p&gt;d. On touching the Lychee, the Serial Monitor would display the Key that is connected, as in the screenshot below. One can connect the fruit to any other Key and verify.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Q_Touch_Sensor/master/img/Screenshot--getTouchNumber.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can try the &lt;a href=&#34;http://www.codebender.cc&#34;&gt;Codebender&lt;/a&gt; widget below to upload the code as well.&lt;/p&gt;
+
+&lt;iframe frameborder=&#34;0&#34; height=&#34;510&#34; src=&#34;https://codebender.cc/embed/example/Seeed_QTouch/getTouchNumber&#34; width=&#34;80%&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Please open the Serial monitor below to view data.&lt;/p&gt;
+
+&lt;iframe frameborder=&#34;0&#34; height=&#34;300&#34; src=&#34;https://codebender.cc/embed/serialmonitor&#34; width=&#34;100%&#34;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Seeed-Studio/Seeed_QTouch&#34;&gt;Q Touch Library&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Q_Touch_Sensor/master/res/Grove-Q_Touch_Sensor_v1.0.pdf&#34;&gt;Schematic pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Q_Touch_Sensor/master/res/Grove_Q－Touch_Sensor_v1.0_sch_pcb.zip&#34;&gt;Eagle file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Q_Touch_Sensor/master/res/AT42QT1070-MMH.pdf&#34;&gt;AT42QT107 datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://wiki.seeed.cc/How_to_detect_finger_touch?&#34;&gt;How to detect finger touch?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_Q_Touch_Sensor --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

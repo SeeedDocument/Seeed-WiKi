@@ -302,6 +302,7 @@ Install git
 
 ```
 git clone https://github.com/respeaker/respeaker_python_library.git
+cd respeaker_python_library
 python setup.py install
 ```
 

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Grove_analog Io_3v3 Io_5v Plat_duino Plat_linkit Plat_bbg Plat_pi on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
+    <link>http://wiki.seeed.cc/tags/grove_analog-io_3v3-io_5v-plat_duino-plat_linkit-plat_bbg-plat_pi/index.xml</link>
+    <description>Recent content in Grove_analog Io_3v3 Io_5v Plat_duino Plat_linkit Plat_bbg Plat_pi on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://wiki.seeed.cc/tags/grove_analog-io_3v3-io_5v-plat_duino-plat_linkit-plat_bbg-plat_pi/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Grove - Loudness Sensor</title>
+      <link>http://wiki.seeed.cc/Grove-Loudness_Sensor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/Grove-Loudness_Sensor/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Loudness_Sensor/master/img/LoudnessSensor.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Grove - Loudness Sensor is designed to detect the sound of environment. Based on LM2904 amplifier and a built-in microphone, it amplifies and filters the high frequency signal that received from the microphone, and outputs a positive envelop. This is used for Arduino’s signal acquisition. The output value depends on the level of sound input. In order to avoid unnecessary signal disturbances, input signal will go through two times’ filtering inside the module. There is a screw potentiometer that enables manual adjustments to the output gain.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/Grove-Loudness-Sensor-p-1382.html&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;specifications&#34;&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Voltage ：3.5~10 VDC&lt;/li&gt;
+&lt;li&gt;Working Frequency ：50~2000 Hz&lt;/li&gt;
+&lt;li&gt;Sensitivity : -48~66 dB&lt;/li&gt;
+&lt;li&gt;Signal-to-noise Ratio : &amp;gt;58 dB&lt;/li&gt;
+&lt;li&gt;Output Signal range : Analog Signal (0-1023)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;!!!Tip
+    More details about Grove modules please refer to &lt;a href=&#34;http://wiki.seeed.cc/Grove_System/&#34;&gt;Grove System&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;platforms-supported&#34;&gt;Platforms Supported&lt;/h2&gt;
+
+&lt;h2 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h2&gt;
+
+&lt;h3 id=&#34;with-arduino&#34;&gt;With Arduino&lt;/h3&gt;
+
+&lt;h4 id=&#34;connection&#34;&gt;Connection&lt;/h4&gt;
+
+&lt;p&gt;This module uses the chip LM2904 to amplify the electronic signal produced by the mini microphone. At last, you’ll get the analog-to-digital conversion value. Let&amp;rsquo;s try to read the output value.&lt;/p&gt;
+
+&lt;p&gt;Here we will show you how this Grove - Loudness Sensor works via a simple demo. First of all, you need to prepare the below stuffs:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Seeeduino V4&lt;/th&gt;
+&lt;th&gt;Grove - Loudness Sensor&lt;/th&gt;
+&lt;th&gt;Base Shield&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_1.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/SeeedDocument/Grove-Loudness_Sensor/raw/master/img/LoudnessSensor_s.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_4.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html&#34;&gt;Get ONE Now&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.seeedstudio.com/Grove-Loudness-Sensor-p-1382.html&#34;&gt;Get ONE Now&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.seeedstudio.com/Base-Shield-V2-p-1378.html&#34;&gt;Get ONE Now&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+&lt;li&gt;As the picture on the below indicates, the Loudness sensor is connected to analog port A0 of the Grove - Base Shield.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://github.com/SeeedDocument/Grove-Loudness_Sensor/raw/master/img/arduino%20loudness%20sensor.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Connect Arduino/Seeeduino to PC by using a USB cable.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;software&#34;&gt;Software&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Copy and paste code below to a new Arduino sketch.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;int val;
+void setup()
+{
+    Serial.begin(9600);
+}
+
+void loop()
+{
+    analogRead(0);
+    delay(10);
+    val = analogRead(0);
+    Serial.println(val);
+    delay(200);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Upload the code.&lt;/li&gt;
+&lt;li&gt;Then open the serial monitor to observe the output results. There will be a significant change when blow to the sensor.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Loudness_Sensor/master/img/Loudness_Sensor.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Here is the test screenshot from the oscilloscope.&lt;/strong&gt;
+The blue line is the original signal from microphone and the yellow is the sig pin of Loudness Sensor. It is the original signal envelope that the module outputs.&lt;/p&gt;
+
+&lt;p&gt;Blowing to the sensor:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Loudness_Sensor/master/img/Loudness_Sensor_Test_1.bmp&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Speaking to the sensor：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Loudness_Sensor/master/img/Loudness_Sensor_Test_3.bmp&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;with-raspberry-pi&#34;&gt;With Raspberry Pi&lt;/h3&gt;
+
+&lt;h4 id=&#34;connection-1&#34;&gt;Connection&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;First, You need to prepare the below stuffs:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Raspberry pi&lt;/th&gt;
+&lt;th&gt;Grove - DHT Sensor pro&lt;/th&gt;
+&lt;th&gt;Grovepi+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/SeeedDocument/Grove-Temperature_and_Humidity_Sensor_Pro/raw/master/img/pi.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/SeeedDocument/Grove-Loudness_Sensor/raw/master/img/LoudnessSensor_s.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/SeeedDocument/Grove-Temperature_and_Humidity_Sensor_Pro/raw/master/img/grovepi%2B.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.seeedstudio.com/Raspberry-Pi-3-Model-B-p-2625.html&#34;&gt;Get ONE Now&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.seeedstudio.com/Grove-Loudness-Sensor-p-1382.html&#34;&gt;Get ONE Now&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.seeedstudio.com/GrovePi%2B-p-2241.html&#34;&gt;Get ONE Now&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Follow &lt;a href=&#34;http://wiki.seeed.cc/GrovePi_Plus/&#34;&gt;instruction&lt;/a&gt; to configure the development environment.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Plug the sensor to grovepi socket A0 by using a grove cable.
+&lt;img src=&#34;https://github.com/SeeedDocument/Grove-Loudness_Sensor/raw/master/img/pi%20loudness%20sensor.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;software-1&#34;&gt;Software&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Navigate to the demos&amp;rsquo; directory:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;    cd yourpath/GrovePi/Software/Python/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;To see the code&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;nano grove_loudness_sensor.py   # &amp;quot;Ctrl+x&amp;quot; to exit #
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;import time
+import grovepi
+
+# Connect the Grove Loudness Sensor to analog port A0
+# SIG,NC,VCC,GND
+loudness_sensor = 0
+
+while True:
+    try:
+        # Read the sound level
+        sensor_value = grovepi.analogRead(loudness_sensor)
+
+        print &amp;quot;sensor_value =&amp;quot;, sensor_value
+        time.sleep(.5)
+
+    except IOError:
+        print &amp;quot;Error&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Run the demo.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo python grove_loudness_sensor.py
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;【Eagle】&lt;/strong&gt; &lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Loudness_Sensor/master/res/Grove-Loudness_Sensor_Eagle_File.zip&#34;&gt;Grove - Loudness Sensor in Eagle format&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;【PDF】&lt;/strong&gt; &lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Loudness_Sensor/master/res/Grove_loudness_sensor.pdf&#34;&gt;Grove - loudness sensor Schematic in PDF format&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;【PDF】&lt;/strong&gt; &lt;a href=&#34;https://github.com/SeeedDocument/Grove-Loudness_Sensor/raw/master/res/Grove-loudness%20sensor%20PCB.pdf&#34;&gt;Grove - loudness sensor PCB in PDF format&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;【Datasheet】&lt;/strong&gt; &lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Loudness_Sensor/master/res/LM2904DR.pdf&#34;&gt;LM2904DR Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_Loudness_Sensor --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

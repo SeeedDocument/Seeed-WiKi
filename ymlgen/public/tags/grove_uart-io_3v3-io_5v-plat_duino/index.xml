@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Grove_uart Io_3v3 Io_5v Plat_duino on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
+    <link>http://wiki.seeed.cc/tags/grove_uart-io_3v3-io_5v-plat_duino/index.xml</link>
+    <description>Recent content in Grove_uart Io_3v3 Io_5v Plat_duino on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://wiki.seeed.cc/tags/grove_uart-io_3v3-io_5v-plat_duino/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Grove - LoRa Radio</title>
+      <link>http://wiki.seeed.cc/Grove_LoRa_Radio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/Grove_LoRa_Radio/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove_LoRa_Radio/master/img/cover.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Grove is a very powerful platform developed by Seeed Studio to simplify your IoT projects.We have integrated the grove connector to most boards produced by Seeed to make them become a system. This time, we combined Grove with LoRa to provide an ultra-long-range wireless module for you.&lt;/p&gt;
+
+&lt;p&gt;The main functional module in Grove - LoRa Radio 433MHz is RFM98, which is a transceiver features the LoRa long range modem that provides ultra-long range spread spectrum communication and high interference immunity whilst mini-missing current consumption. The heart of Grove - LoRa Radio 433MHz is ATmega168, a widely used chip with very high-performance and low power consumption, especially suitable for this grove module.&lt;/p&gt;
+
+&lt;p&gt;There we already integrated a simple wire antenna to receive signal, if the signal is too weak to receive, don’t worry, the MHF connector next to the antenna is for adding a second antenna which has MHF interface to gain more signal.&lt;/p&gt;
+
+&lt;p&gt;This is the 433MHz version, which can be used for 433MHz communication. You can also find the version for 868MHz at Grove - LoRa Radio 868MHz.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Version&lt;/th&gt;
+&lt;th&gt;Released Date&lt;/th&gt;
+&lt;th&gt;How to Buy&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Grove - LoRa Radio 433 MHz&lt;/td&gt;
+&lt;td&gt;Dec 10, 2016&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.seeedstudio.com/Grove-LoRa-Radio-433MHz-p-2777.html&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now_small.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Grove - LoRa Radio 868 MHz&lt;/td&gt;
+&lt;td&gt;Dec 10, 2016&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.seeedstudio.com/Grove-LoRa-Radio-868MHz-p-2776.html&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now_small.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Using RFM95 module based on SX1276 LoRa®&lt;/li&gt;
+&lt;li&gt;Working Voltage:5V/3.3V&lt;/li&gt;
+&lt;li&gt;~28mA(Avg) @+20dBm continuous transmit&lt;/li&gt;
+&lt;li&gt;~8.4mA(Avg)@standby mode&lt;/li&gt;
+&lt;li&gt;~20mA(Avg) @receive mode, BW-500kHz&lt;/li&gt;
+&lt;li&gt;Working Temperature:-20 – 70℃&lt;/li&gt;
+&lt;li&gt;Interface:Grove - UART(RX,TX,VCC,GND)&lt;/li&gt;
+&lt;li&gt;Simple wire antenna or MHF Connector for external high gain antenna&lt;/li&gt;
+&lt;li&gt;Working Frequency:868MHz/433MHz&lt;/li&gt;
+&lt;li&gt;+20dBm 100 mW Power Output Capability&lt;/li&gt;
+&lt;li&gt;Size:20*40mm&lt;/li&gt;
+&lt;li&gt;Rate:0.3kps~50kps&lt;/li&gt;
+&lt;li&gt;Ready-to-go Arduino libraries&lt;/li&gt;
+&lt;li&gt;Resered MHF antenna connector&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;!!!Tip
+    More details about Grove modules please refer to &lt;a href=&#34;http://wiki.seeed.cc/Grove_System/&#34;&gt;Grove System&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;##Platforms Supported&lt;/p&gt;
+
+&lt;h2 id=&#34;hardware-overview&#34;&gt;Hardware Overview&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove_LoRa_Radio/master/img/hardware.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;ATMega168 MCU (&lt;a href=&#34;https://github.com/SeeedDocument/Grove_LoRa_Radio/blob/master/res/Atmel-2545-8-bit-AVR-Microcontroller-ATmega48-88-168_Datasheet.pdf&#34;&gt;datasheet&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;MHF Connector&lt;/li&gt;
+&lt;li&gt;Wire Antenna&lt;/li&gt;
+&lt;li&gt;RFM95 Module (&lt;a href=&#34;https://github.com/SeeedDocument/Grove_LoRa_Radio/blob/master/res/RFM95_96_97_98_DataSheet.pdf&#34;&gt;datesheet&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Grove Interface&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;PIN&lt;/th&gt;
+&lt;th&gt;NAME&lt;/th&gt;
+&lt;th&gt;FUNCTION&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;TX&lt;/td&gt;
+&lt;td&gt;TX of UART&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;RX&lt;/td&gt;
+&lt;td&gt;RX of UART&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;VCC&lt;/td&gt;
+&lt;td&gt;Power supply, 3.3V or 5V&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;GND&lt;/td&gt;
+&lt;td&gt;Connect Ground&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;application-ideas&#34;&gt;Application Ideas&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Internet of Things&lt;/li&gt;
+&lt;li&gt;Smart Home&lt;/li&gt;
+&lt;li&gt;Sensor Hub&lt;/li&gt;
+&lt;li&gt;Long distance wireless communication&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;##Getting Started&lt;/p&gt;
+
+&lt;p&gt;After this section, you can make &lt;strong&gt;Grove - LoRa Radio&lt;/strong&gt; run with only few steps.&lt;/p&gt;
+
+&lt;p&gt;###Preparations&lt;/p&gt;
+
+&lt;p&gt;Now we are making a demo for P2P(point to point) communication with the Grove - Lora Radio 433MHz, the Grove - LoRa Radio 868MHz is the same way to use.&lt;/p&gt;
+
+&lt;p&gt;!!!Tip
+    Grove - LoRa Radio 433MHz can&amp;rsquo;t talk to Grove - LoRa Radio 868MHz.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Item&lt;/th&gt;
+&lt;th&gt;Qty&lt;/th&gt;
+&lt;th&gt;Link&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Seeeduino Lotus&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.seeedstudio.com/Seeeduino-Lotus-ATMega328-Board-with-Grove-Interface-p-1942.html&#34;&gt;GET ONE NOW!&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Grove - LoRa Radio 433MHz&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.seeedstudio.com/Grove-LoRa-Radio-433MHz-p-2777.html&#34;&gt;GET ONE NOW!&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Micro USB Cable&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.seeedstudio.com/Micro-USB-Cable-48cm-p-1475.html&#34;&gt;GET ONE NOW!&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;If this is your first time using &lt;a href=&#34;https://www.seeedstudio.com/Seeeduino-Lotus-ATMega328-Board-with-Grove-Interface-p-1942.html&#34;&gt;Seeeduino Lotus&lt;/a&gt;, please refer to &lt;a href=&#34;http://www.seeedstudio.com/wiki/Seeeduino_Lotus_v1.0&#34;&gt;Seeeduino Lotus&amp;rsquo;s wiki&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Seeeduino Lotus is fully compatible with Arduino which works as simple as Arduino.&lt;/p&gt;
+
+&lt;p&gt;If this is your first time using Arduino, Please put hand on &lt;a href=&#34;http://arduino.cc&#34;&gt;here&lt;/a&gt; to start your Arduino journey.&lt;/p&gt;
+
+&lt;p&gt;###Connecting hardware&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.seeedstudio.com/Seeeduino-Lotus-ATMega328-Board-with-Grove-Interface-p-1942.html&#34;&gt;Seeeduino Lotus&lt;/a&gt; is a combination of Seeeduino and Base Shield. We can connect the LoRa Radio module to the D5 socket directly as the below picture shows.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove_LoRa_Radio/master/img/demo.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;###Download Library&lt;/p&gt;
+
+&lt;p&gt;Click to download the library and install it (&lt;a href=&#34;http://wiki.seeed.cc/How_to_install_Arduino_Library/&#34;&gt;How to install an Arduino Library&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Seeed-Studio/Grove_LoRa_433MHz_and_915MHz_RF/archive/master.zip&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove_LoRa_Radio/master/img/library.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;###Open the example&lt;/p&gt;
+
+&lt;p&gt;Open your Arduino IDE, click &lt;strong&gt;File &amp;gt; Examples&amp;gt;Grove_LoRa_433MHz_and_915MHz_RF-master&lt;/strong&gt; you will get many examples for the module.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove_LoRa_Radio/master/img/library_2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Node&lt;/th&gt;
+&lt;th&gt;Example Name&lt;/th&gt;
+&lt;th&gt;Function&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Sender&lt;/td&gt;
+&lt;td&gt;rf95_client&lt;/td&gt;
+&lt;td&gt;Send &amp;ldquo;Hello World&amp;rdquo; every 1s&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Receiver&lt;/td&gt;
+&lt;td&gt;rf95_server&lt;/td&gt;
+&lt;td&gt;Receive data and print it&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Click &lt;strong&gt;Tools&amp;gt;Board&lt;/strong&gt; to choose &amp;ldquo;Seeeduino Lotus&amp;rdquo; and select respective serial port then click on Upload button to finish the steps.&lt;/p&gt;
+
+&lt;p&gt;!!!Tip
+    If you&amp;rsquo;re using Grove - LoRa Radio 868MHz module change the following code.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-c&#34;&gt;//rf95.setFrequency(434.0);
+rf95.setFrequency(868.0);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;###Review Results&lt;/p&gt;
+
+&lt;p&gt;After upload completed, you can open the serial monitor to see the result.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove_LoRa_Radio/master/img/result.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;###Data Rate&lt;/p&gt;
+
+&lt;p&gt;The below chart shows the relationships between the band rate signal band width spreding factor and sensitivity.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove_LoRa_Radio/master/img/DateRate.png&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Schematics&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/SeeedDocument/Grove_LoRa_Radio/blob/master/res/433_eagle.zip&#34;&gt;Grove - LoRa Radio 433MHz v1.0 Schematics (Eagle files)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/SeeedDocument/Grove_LoRa_Radio/blob/master/res/433_sch.pdf&#34;&gt;Grove - LoRa Radio 433MHz v1.0 Schematics (PDF files)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/SeeedDocument/Grove_LoRa_Radio/blob/master/res/868_eagle.zip&#34;&gt;Grove - LoRa Radio 868MHz v1.0 Schematics (Eagle files)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/SeeedDocument/Grove_LoRa_Radio/blob/master/res/868_sch.pdf&#34;&gt;Grove - LoRa Radio 868MHz v1.0 Schematics (PDF files)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Datasheet&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/SeeedDocument/Grove_LoRa_Radio/blob/master/res/RFM95_96_97_98_DataSheet.pdf&#34;&gt;RFM95/96/97 Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/SeeedDocument/Grove_LoRa_Radio/blob/master/res/Atmel-2545-8-bit-AVR-Microcontroller-ATmega48-88-168_Datasheet.pdf&#34;&gt;Atmega168 Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;References&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.lora-alliance.org/&#34;&gt;LoRa Alliance&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Library&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Seeed-Studio/Grove_LoRa_433MHz_and_915MHz_RF/&#34;&gt;Grove - LoRa Radio Library and Examples&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/SeeedDocument/Grove_LoRa_Radio/blob/master/res/res.zip&#34;&gt;&lt;strong&gt;&lt;em&gt;Download ALL Above&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
