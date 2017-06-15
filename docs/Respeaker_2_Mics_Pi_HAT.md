@@ -166,20 +166,79 @@ Each on-board APA102 LED has an additional driver chip. The driver chip takes ca
 ![](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/blob/master/img/led.gif?raw=true)
 
 - Activate SPI: `sudo raspi-config`; Go to "Interfacing Options"; Go to "SPI"; Enable SPI; Exit the tool and reboot
+
+
+- Now we have an [new LED library](https://github.com/respeaker/mic_hat):
+
+```
+git clone https://github.com/respeaker/mic_hat.git
+cd mic_hat/
+pip install spidev
+python pixels.py
+```
+
+- You could run `python google-assistant.py` to run the Google Assistant with interactive LEDs.
+
+#### **You could still use the old library:**
 - Get the APA102 Library and sample light programs(if you are using our [raspbian image](#about-our-raspbian-image), please skip this step):
 
 ```
 cd ~/
 git clone https://github.com/KillingJacky/APA102_Pi.git
 ```
-
 - You might want to set the number of LEDs to match your strip: `cd ~/APA102_Pi && nano runcolorcycle.py`; Update the number, Ctrl-X and "Yes" to save.
 - Run the sample lightshow: `python runcolorcycle.py`
 - [More informations](https://github.com/KillingJacky/APA102_Pi)
 
 ### How to use User Button
 
-There is an on-board User Button, which is connected to GPIO17. Now we will try to detect it with python and RPi.GPIO.
+There is an on-board User Button, which is connected to GPIO17.
+Now **gpiozero** library and **Python3** are recommended to use.
+
+```
+sudo apt-get install python3-gpiozero   // install gpiozero library
+nano button.py                          // copy the following code in button.py
+```
+
+Check if a button is pressed:
+
+```
+from gpiozero import Button
+
+button = Button(17)
+
+while True:
+    if button.is_pressed:
+        print("Button is pressed")
+    else:
+        print("Button is not pressed")
+```
+
+Run the script:
+
+```
+python3 button.py
+```
+
+Run a function every time the button is pressed:
+
+```
+from gpiozero import Button
+from signal import pause
+
+def say_hello():
+    print("Hello!")
+
+button = Button(2)
+
+button.when_pressed = say_hello
+
+pause()
+```
+
+For more informations abour **gpiozero** library, please click [here](http://gpiozero.readthedocs.io/en/stable/recipes.html#button).
+
+And you could also program the user button with python2 and RPi.GPIO.
 
 ```
 sudo pip install rpi.gpio    // install RPi.GPIO library
@@ -228,7 +287,7 @@ cd /usr/local/lib/python2.7/dist-packages/googlesamples/assistant/grpc
 sudo nano pushtotalk.py
 ```
 
-Go to the buttom of the file(Line 301), then modify as the following code and save:  
+Go to the buttom of the file(Line 301), then modify as the following code and save:
 
 ```Python
     with SampleAssistant(conversation_stream,

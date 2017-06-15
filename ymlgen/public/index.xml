@@ -1142,6 +1142,549 @@ If you have any question about how to upload the code, please refer &lt;a href=&
     </item>
     
     <item>
+      <title>2.8inch TFT Touch Shield V1.0</title>
+      <link>http://wiki.seeed.cc/2.8inch-TFT_Touch_Shield_V1.0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/2.8inch-TFT_Touch_Shield_V1.0/</guid>
+      <description>
+
+&lt;p&gt;2.8&amp;rdquo; TFT Touch Shield is an Arduino / Arduino Mega compatible multicolored TFT display with a 4-wire resistive touch screen. It includes an Arduino shield compatible footprint for attachment. The TFT driver is based on professional Driver IC and with 8 bit data and 4 bit control interface.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://github.com/SeeedDocument/2.8inch-TFT_Touch_Shield_V1.0/raw/master/img/Tft.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Arduino/Seeeduino, Arduino Mega, and Seeeduino Mega compatible&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;2.8” Size QVGA Display&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Resistive Touch Screen&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;specification&#34;&gt;Specification&lt;/h2&gt;
+
+&lt;table  cellspacing=&#34;0&#34; width=&#34;80%&#34;&gt;
+&lt;tr&gt;
+&lt;th scope=&#34;col&#34;&gt; Item
+&lt;/th&gt;
+&lt;th scope=&#34;col&#34;&gt; Min
+&lt;/th&gt;
+&lt;th scope=&#34;col&#34;&gt; Typical
+&lt;/th&gt;
+&lt;th scope=&#34;col&#34;&gt; Max
+&lt;/th&gt;
+&lt;th scope=&#34;col&#34;&gt; Unit
+&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th scope=&#34;row&#34;&gt; Voltage
+&lt;/th&gt;
+&lt;td&gt;4.5
+&lt;/td&gt;
+&lt;td&gt;5
+&lt;/td&gt;
+&lt;td&gt;5.5
+&lt;/td&gt;
+&lt;td&gt;VDC
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th scope=&#34;row&#34;&gt; Current
+&lt;/th&gt;
+&lt;td&gt;/
+&lt;/td&gt;
+&lt;td&gt;/
+&lt;/td&gt;
+&lt;td&gt;250
+&lt;/td&gt;
+&lt;td&gt;mA
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th scope=&#34;row&#34;&gt; LCD Panel Size
+&lt;/th&gt;
+&lt;td colspan=&#34;3&#34;&gt; 2.8
+&lt;/td&gt;
+&lt;td&gt;inch
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th scope=&#34;row&#34;&gt; View angle
+&lt;/th&gt;
+&lt;td colspan=&#34;3&#34;&gt; 60~120
+&lt;/td&gt;
+&lt;td&gt;Deg
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th scope=&#34;row&#34;&gt; Resolution
+&lt;/th&gt;
+&lt;td colspan=&#34;3&#34;&gt; 320x240
+&lt;/td&gt;
+&lt;td&gt;/
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th scope=&#34;row&#34;&gt; LCD color
+&lt;/th&gt;
+&lt;td colspan=&#34;3&#34;&gt; 65k
+&lt;/td&gt;
+&lt;td&gt;/
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th scope=&#34;row&#34;&gt; Backlight Type
+&lt;/th&gt;
+&lt;td colspan=&#34;3&#34;&gt; LED
+&lt;/td&gt;
+&lt;td&gt;/
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th scope=&#34;row&#34;&gt; LCD driver IC
+&lt;/th&gt;
+&lt;td colspan=&#34;3&#34;&gt; ST7781R
+&lt;/td&gt;
+&lt;td&gt;/
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th scope=&#34;row&#34;&gt; Interface Type
+&lt;/th&gt;
+&lt;td colspan=&#34;3&#34;&gt; 10±2
+&lt;/td&gt;
+&lt;td&gt;g
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th scope=&#34;row&#34;&gt; Interface Type
+&lt;/th&gt;
+&lt;td colspan=&#34;3&#34;&gt; Parallel port ( 8bit Data + 4bit Control )
+&lt;/td&gt;
+&lt;td&gt;/
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th scope=&#34;row&#34;&gt; Touch Screen
+&lt;/th&gt;
+&lt;td colspan=&#34;3&#34;&gt; 4-Wire resistive touch screen
+&lt;/td&gt;
+&lt;td&gt;/
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th scope=&#34;row&#34;&gt; Active area
+&lt;/th&gt;
+&lt;td colspan=&#34;3&#34;&gt; 43.2*57.3
+&lt;/td&gt;
+&lt;td&gt;mm
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th scope=&#34;row&#34;&gt; ESD contact discharge
+&lt;/th&gt;
+&lt;td colspan=&#34;3&#34;&gt; ±4
+&lt;/td&gt;
+&lt;td&gt;KV
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th scope=&#34;row&#34;&gt; ESD air discharge
+&lt;/th&gt;
+&lt;td colspan=&#34;3&#34;&gt; ±8
+&lt;/td&gt;
+&lt;td&gt;KV
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th scope=&#34;row&#34;&gt; Dimension
+&lt;/th&gt;
+&lt;td colspan=&#34;3&#34;&gt; 72.5x54.7x18
+&lt;/td&gt;
+&lt;td&gt;mm
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th scope=&#34;row&#34;&gt; Weight
+&lt;/th&gt;
+&lt;td colspan=&#34;3&#34;&gt; 24±2
+&lt;/td&gt;
+&lt;td&gt;g
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;Cautions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Do not subject the module to mechanical shock or impact by dropping it.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Do not apply excessive force to the display surface or the adjoining areas since this may cause the color tone to vary.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;pins-usage-on-arduino&#34;&gt;Pins usage on Arduino&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://github.com/SeeedDocument/2.8inch-TFT_Touch_Shield_V1.0/raw/master/img/2.8_Inch_TFT_Touch_Shield_Block_Diagram.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;strong&gt;D0&lt;/strong&gt; - Unused.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;D1&lt;/strong&gt; - Unused.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;D2&lt;/strong&gt; - LCD data bit 8.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;D3&lt;/strong&gt; - LCD data bit 9.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;D4&lt;/strong&gt; - LCD data bit 10.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;D5&lt;/strong&gt; - LCD data bit 11.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;D6&lt;/strong&gt; - LCD data bit 12.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;D7&lt;/strong&gt; - LCD data bit 13.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;D8&lt;/strong&gt; - LCD data bit 14.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;D9&lt;/strong&gt; - LCD data bit 15.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;D10&lt;/strong&gt; - LCD CS pin, active low.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;D11&lt;/strong&gt; - LCD RS pin.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;D12&lt;/strong&gt; - LCD WR pin.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;D13&lt;/strong&gt; - LCD RD pin.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;D14(A0)&lt;/strong&gt; - Touch Screen Y-.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;D15(A1)&lt;/strong&gt; - Touch Screen X-.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;D16(A2)&lt;/strong&gt; - Touch Screen Y+.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;D17(A3)&lt;/strong&gt; - Touch Screen X+.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;D18(A4)&lt;/strong&gt; - Unused.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;D19(A5)&lt;/strong&gt; - Unused.&lt;/p&gt;
+
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+
+&lt;h3 id=&#34;hardware-installation&#34;&gt;Hardware Installation&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Insert the TFT Touch Shield to Seeeduino as shown below.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://github.com/SeeedDocument/2.8inch-TFT_Touch_Shield_V1.0/raw/master/img/TFT_Touch_Shield_with_Seeeduino.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;tft-programming&#34;&gt;TFT Programming&lt;/h3&gt;
+
+&lt;p&gt;The &lt;strong&gt;TFT&lt;/strong&gt; library provides the following Application Programming Interfaces(&lt;strong&gt;API&lt;/strong&gt;). The library makes use of direct access to PORT registers instead of Arduino APIs. This is to increase the speed of communication between MCU and TFT. At present, the library supports Arduino, Arduino Mega (1280 or 2560) and Seeeduino ADK Main Board compatible boards. In Mega the 8bit data port of TFT is distributed to different pins belonging to different ports. This decreases the speed of graphics drawing when compared to Arduino. The choice of port pins are purely based on Arduino / Mega port pin arrangement.&lt;/p&gt;
+
+&lt;h3 id=&#34;general-functions&#34;&gt;General Functions&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;paintScreenBlack(void)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The TFT RAM can only be initialized in display-off mode, so this function only for clearing screen with black colour.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;setXY(unsigned int poX, unsigned int poY)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Sets the cursor position to (poX,poY). This function is internally used by other graphics APIs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;setPixel(unsigned int poX, unsigned int poY,unsigned int color)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Sets the (poX,poY) pixel to color color. This function is internally used by other graphics APIs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;lines&#34;&gt;Lines&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;drawLine(unsigned int x0,unsigned int y0,unsigned int x1,unsigned int y1,unsigned int color)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Draws a line from pixel (x0,y0) to pixel (x1,y1) with color color.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;drawVerticalLine(unsigned int poX, unsigned int poY,unsigned int length,unsigned int color&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Draws a Horizontal Line of length length with color color starting from pixel (poX,poY).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;drawHorizontalLine(unsigned int poX, unsigned int poY,unsigned int length,unsigned int color)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Draws a Vertical Line of length length with color color starting from pixel (poX,poY).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;rectangle&#34;&gt;Rectangle&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;drawRectangle(unsigned int poX, unsigned int poY, unsigned int length,unsigned int width,unsigned int color)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Draws a rectangle starting from (poX,poY) of length length, width width and color &lt;strong&gt;color&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;fillRectangle(unsigned int poX, unsigned int poY, unsigned int length, unsigned int width, unsigned int color)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Draws a filled rectangle starting from pixel (poX,poY) of length length, width width and color &lt;strong&gt;color&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;circle&#34;&gt;Circle&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;drawCircle(int poX, int poY, int r,unsigned int color)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Draws a circle at (poX,poY) of radius &lt;strong&gt;radius&lt;/strong&gt; and color &lt;strong&gt;color&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;fillCircle(int poX, int poY, int r,unsigned int color&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Draws a filled circle at (poX,poY) of radius &lt;strong&gt;radius&lt;/strong&gt; and color &lt;strong&gt;color&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;text&#34;&gt;Text&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;drawChar(unsigned char ascii,unsigned int poX, unsigned int poY,unsigned int size, unsigned int fgcolor)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Draws a character starting from (poX,poY) using inbuilt font of size &lt;strong&gt;size&lt;/strong&gt; and with color fgcolor. This function is used by drawString() function.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;drawString(char *string,unsigned int poX, unsigned int poY,unsigned int size,unsigned int fgcolor)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Draws a string of text starting from (poX,poY) using inbuilt font of size &lt;strong&gt;size&lt;/strong&gt; and with color fgcolor.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;touchscreen-programming&#34;&gt;TouchScreen Programming&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;TFT Touch Shield uses the &lt;a href=&#34;https://github.com/adafruit/Touch-Screen-Library&#34;&gt;Adafruit Touch Screen Library&lt;/a&gt;. To understand the principle behind resistive touch screen refer &lt;a href=&#34;http://wiki.seeedstudio.com/index.php?title=2.8%27%27_TFT_Touch_Shield#External_Links&#34;&gt;External Links&lt;/a&gt;. In short, a 4-wire resistive touch screen provides two voltage divider each for X and Y axis. By applying proper voltages for each axis and scanning the ADC values the position of the touch can be detected. These values are always prone to noise. Hence a digital filter is used.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;To use the TouchScreen Library first create a TouchScreen object by&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code&gt;
+TouchScreen ts = TouchScreen(XP, YP, XM, YM, 300);
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Where XP, YP, XM and YM are ADC port pins connected to XPlus, YPlus, XMinus and YMinus pins of Touch Screen. 300 is the resistance across X plates.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Read the Raw ADC value using&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code&gt;
+Point p = ts.getPoint();
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The Raw ADC value has to be converted to Pixel Co-ordinates. This is done with map function. This mapping changes for v0.9 and v1.0. The demo applications already takes care of this mapping.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code&gt;
+p.x = map(p.x, TS_MINX, TS_MAXX, 240, 0);
+p.y = map(p.y, TS_MINY, TS_MAXY, 320, 0);
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The following sketch demonstrates use of TouchScreen Library. This can also be used to calibrate the touch screen co-ordinates.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Compile and upload the sketch.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Open serial port monitor and touch the points displayed on the screen.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;See if the displayed X and Y values are correct. If not, we have to re-calibrate the touch screen coordinates.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;how-to-calibrate-the-touch-screen&#34;&gt;How to calibrate the touch screen ?&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The parameters &lt;code&gt;TS_MINX, TS_MAXX, TS_MINY and TS_MAXY&lt;/code&gt; actually decides the extreme ends of the touch screen and actually forms the calibration parameters.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The values assigned to these variables are measured ADC values (i.e Raw X, Raw Y) when we touch the extreme diagonal ends of touch screen.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Touch points (0,0) and (239,319) and note down Raw X and Raw Y values. For better accuracy, try out many times and find the right value.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;TS_MINX corresponds to ADC value when X = 0 ;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;TS_MINY corresponds to ADC value when Y = 0 ;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;TS_MAXX corresponds to ADC value when X = 240 -1 i.e 239 ;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;TS_MAXY corresponds to ADC value when Y = 320 -1 i.e 319 ;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Change these parameters in the sketch, recompile and upload to Arduino.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Repeat the above steps if you still do not get accurate values.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;touch-screen-demo-sketch&#34;&gt;Touch Screen Demo Sketch&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;// Paint application - Demonstate both TFT and Touch Screen
+//  This library is free software; you can redistribute it and/or
+//  modify it under the terms of the GNU Lesser General Public
+//  License as published by the Free Software Foundation; either
+//  version 2.1 of the License, or (at your option) any later version.
+//
+//  This library is distributed in the hope that it will be useful,
+//  but WITHOUT ANY WARRANTY; without even the implied warranty of
+//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+//  Lesser General Public License for more details.
+//
+//  You should have received a copy of the GNU Lesser General Public
+//  License along with this library; if not, write to the Free Software
+//  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+#include &amp;lt;stdint.h&amp;gt;
+#include &amp;lt;TouchScreen.h&amp;gt;
+#include &amp;lt;TFT.h&amp;gt;
+
+#if defined(__AVR_ATmega1280__) || defined(__AVR_ATmega2560__) // mega
+#define YP A2   // must be an analog pin, use &amp;quot;An&amp;quot; notation!
+#define XM A1   // must be an analog pin, use &amp;quot;An&amp;quot; notation!
+#define YM 54   // can be a digital pin, this is A0
+#define XP 57   // can be a digital pin, this is A3
+
+#elif defined(__AVR_ATmega32U4__) // leonardo
+#define YP A2   // must be an analog pin, use &amp;quot;An&amp;quot; notation!
+#define XM A1   // must be an analog pin, use &amp;quot;An&amp;quot; notation!
+#define YM 18   // can be a digital pin, this is A0
+#define XP 21   // can be a digital pin, this is A3
+
+#else //168, 328, something else
+#define YP A2   // must be an analog pin, use &amp;quot;An&amp;quot; notation!
+#define XM A1   // must be an analog pin, use &amp;quot;An&amp;quot; notation!
+#define YM 14   // can be a digital pin, this is A0
+#define XP 17   // can be a digital pin, this is A3
+
+#endif
+
+//Measured ADC values for (0,0) and (210-1,320-1)
+//TS_MINX corresponds to ADC value when X = 0
+//TS_MINY corresponds to ADC value when Y = 0
+//TS_MAXX corresponds to ADC value when X = 240 -1
+//TS_MAXY corresponds to ADC value when Y = 320 -1
+
+#define TS_MINX 140
+#define TS_MAXX 900
+#define TS_MINY 120
+#define TS_MAXY 940
+
+int color = WHITE;  //Paint brush color
+
+// For better pressure precision, we need to know the resistance
+// between X+ and X- Use any multimeter to read it
+// The 2.8&amp;quot; TFT Touch shield has 300 ohms across the X plate
+
+TouchScreen ts = TouchScreen(XP, YP, XM, YM, 300); //init TouchScreen port pins
+
+void setup()
+{
+
+    Tft.init();  //init TFT library
+    pinMode(0,OUTPUT);
+    //Draw the pallet
+    Tft.fillRectangle(0,0,30,10,BLACK);
+    Tft.fillRectangle(30,0,30,10,RED);
+    Tft.fillRectangle(60,0,30,10,GREEN);
+    Tft.fillRectangle(90,0,30,10,BLUE);
+    Tft.fillRectangle(120,0,30,10,CYAN);
+    Tft.fillRectangle(150,0,30,10,YELLOW);
+    Tft.fillRectangle(180,0,30,10,WHITE);
+    Tft.fillRectangle(210,0,30,10,GRAY1);
+
+}
+
+void loop()
+{
+
+    // a point object holds x y and z coordinates.
+    Point p = ts.getPoint();
+
+    //map the ADC value read to into pixel co-ordinates
+
+    p.x = map(p.x, TS_MINX, TS_MAXX, 240, 0);
+    p.y = map(p.y, TS_MINY, TS_MAXY, 320, 0);
+
+    // we have some minimum pressure we consider &#39;valid&#39;
+    // pressure of 0 means no pressing!
+
+    if (p.z &amp;gt; ts.pressureThreshhold) {
+
+
+        // Detect  paint brush color change
+        if(p.y &amp;lt; 15)
+        {
+            if(p.x &amp;gt;= 0 &amp;amp;&amp;amp; p.x &amp;lt; 30)
+            {
+                color = BLACK;
+            }
+            if(p.x &amp;gt;= 30 &amp;amp;&amp;amp; p.x &amp;lt; 60)
+            {
+                color = RED;
+                digitalWrite(0,HIGH);
+            }
+            if(p.x &amp;gt;= 60 &amp;amp;&amp;amp; p.x &amp;lt; 90)
+            {
+                color = GREEN;
+            }
+            if(p.x &amp;gt;= 90 &amp;amp;&amp;amp; p.x &amp;lt; 110)
+            {
+                color = BLUE;
+                digitalWrite(0,LOW);
+            }
+            if(p.x &amp;gt;= 120 &amp;amp;&amp;amp; p.x &amp;lt; 150)
+            {
+                color = CYAN;
+            }
+            if(p.x &amp;gt;= 150 &amp;amp;&amp;amp; p.x &amp;lt; 180)
+            {
+                color = YELLOW;
+            }
+            if(p.x &amp;gt;= 180 &amp;amp;&amp;amp; p.x &amp;lt; 210)
+            {
+                color = WHITE;
+            }
+            if(p.x &amp;gt;= 210 &amp;amp;&amp;amp; p.x &amp;lt; 240)
+            {
+                color = GRAY1;
+            }
+        }
+        else
+        {
+            Tft.fillCircle(p.x,p.y,2,color);
+        }
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;demo-code-shown&#34;&gt;Demo Code shown&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Insert the TFT Touch Shield to Seeeduino as shown below.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://github.com/SeeedDocument/2.8inch-TFT_Touch_Shield_V1.0/raw/master/img/DemoShow.JPG&#34; alt=&#34;&#34; /&gt;
+TFT Touch Shield connected to Seeeduino&lt;/p&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Libraries]&lt;/strong&gt;&lt;a href=&#34;https://github.com/Seeed-Studio/TFT_Touch_Shield_V1&#34;&gt;TFT Touch Shield libraries&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Eagle]&lt;/strong&gt;&lt;a href=&#34;http://seeedstudio.com/wiki/images/c/c5/2.8_TFT_Touch_Shield_v1.0_EagleFiles.zip&#34;&gt;TFT Touch Shield v1.0 Schematic and Layout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[PDF]&lt;/strong&gt;&lt;a href=&#34;https://github.com/SeeedDocument/2.8inch-TFT_Touch_Shield_V1.0/raw/master/res/TFT%20Touch%20PCB.pdf&#34;&gt;TFT Touch PCB&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[PDF]&lt;/strong&gt;&lt;a href=&#34;https://github.com/SeeedDocument/2.8inch-TFT_Touch_Shield_V1.0/raw/master/res/TFT%20Touch%20Sch.pdf&#34;&gt;TFT Touch SCH&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Version]&lt;/strong&gt;&lt;a href=&#34;res/Schematic_for_Radio_Shack_.zip&#34;&gt;Radio Shack version of TFT Touch Shield in Eagle Files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Datasheet]&lt;/strong&gt; &lt;a href=&#34;http://garden.seeedstudio.com/images/4/4e/ST7781R_datasheet.pdf&#34;&gt;ST7781R&lt;/a&gt; , &lt;a href=&#34;http://garden.seeedstudio.com/images/7/75/FGD280E3715V1_8bit.pdf&#34;&gt;FGD280E3715V1_8bit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[App Notes]&lt;/strong&gt;&lt;a href=&#34;http://www.adafruit.com/datasheets/AVR341.pdf&#34;&gt;ATMEL - App Notes on Four and five-wire Touch Screen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Touch Screen]&lt;/strong&gt;&lt;a href=&#34;http://focus.ti.com/lit/an/slyt209a/slyt209a.pdf&#34;&gt;TI - Using Resistive Touch Screen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[SD Card]&lt;/strong&gt;&lt;a href=&#34;https://github.com/adafruit/SD&#34;&gt;https://github.com/adafruit/SD&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>2KM Long Range RF link kits w/ encoder and decoder</title>
       <link>http://wiki.seeed.cc/2KM_Long_Range_RF_link_kits_w_encoder_and_decoder/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1693,62 +2236,6 @@ Flow and Output voltage Diagram&lt;/p&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://winavr.scienceprog.com/example-avr-projects/running-tx433-and-rx433-rf-modules-with-avr-microcontrollers.html&#34;&gt;Example running rf modules&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>315Mhz Wireless car key fob with key chain</title>
-      <link>http://wiki.seeed.cc/315Mhz_Wireless_car_key_fob_with_key_chain/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://wiki.seeed.cc/315Mhz_Wireless_car_key_fob_with_key_chain/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;http://www.seeedstudio.com/depot/images/large/product/carkey_LRG.jpg&#34; alt=&#34;http://www.seeedstudio.com/depot/images/large/product/carkey_LRG.jpg&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This is a Wireless car key FOB with 4 buttons: Lock,unlock,mute and alarm on.  A blue led will light on when any button were pressed. Use this FOB to communicate with &lt;a href=&#34;http://www.seeedstudio.com/depot/codecadaptive-wireless-relay-p-550.html&#34;&gt;Codec-Adaptive Wireless&lt;/a&gt; Relay for your remote control project.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/depot/315mhz-wireless-car-key-fob-with-key-chain-battery-included-p-557.html?cPath=139_140&#34;&gt;&lt;img src=&#34;https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Frequency Range: High: 315.15MHZ  Average: 315.025MHZ  Low: 314.85MHZ&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Modulation schemes: amplitude modulation (AM)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Data transfer rate: 625HZ&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Output power: ≤ 12mW&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Battery voltage: DC12V&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Operating temperature: -30 ℃ ~ +85 ° C&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;faq&#34;&gt;FAQ&lt;/h2&gt;
-
-&lt;p&gt;Here is the &lt;a href=&#34;http://wiki.seeed.cc/w/index.php?title=Wireless_FAQ&amp;amp;amp;action=edit&amp;amp;amp;redlink=1&#34; title=&#34;Wireless_FAQ&amp;amp;amp;action=edit&amp;amp;amp;redlink=1&#34;&gt;Wireless FAQ&lt;/a&gt;, people can go here to find questions and answers for this kind of products.&lt;/p&gt;
-
-&lt;h2 id=&#34;version-tracker&#34;&gt;Version Tracker&lt;/h2&gt;
-
-&lt;table&gt;
-&lt;tr&gt;
-&lt;th&gt; Revision
-&lt;/th&gt;
-&lt;th&gt; Descriptions
-&lt;/th&gt;
-&lt;th&gt; Release
-&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td width=&#34;300px&#34;&gt; v0.9b
-&lt;/td&gt;
-&lt;td width=&#34;500px&#34;&gt; Initial public release
-&lt;/td&gt;
-&lt;td width=&#34;200px&#34;&gt; Nov 04, 2009
-&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 </description>
     </item>
     

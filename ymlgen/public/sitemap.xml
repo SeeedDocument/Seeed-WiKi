@@ -42,6 +42,10 @@
   </url>
   
   <url>
+    <loc>http://wiki.seeed.cc/2.8inch-TFT_Touch_Shield_V1.0/</loc>
+  </url>
+  
+  <url>
     <loc>http://wiki.seeed.cc/2KM_Long_Range_RF_link_kits_w_encoder_and_decoder/</loc>
   </url>
   
@@ -231,6 +235,10 @@
   </url>
   
   <url>
+    <loc>http://wiki.seeed.cc/Bluetooth_Bee%E2%80%8F%E2%80%8E/</loc>
+  </url>
+  
+  <url>
     <loc>http://wiki.seeed.cc/Bluetooth_Bee_v2.0/</loc>
   </url>
   
@@ -247,11 +255,11 @@
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Bluetooth_V4.0_HM_11_BLE_Module/</loc>
+    <loc>http://wiki.seeed.cc/Bluetooth_Shield%E2%80%8F%E2%80%8E/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Bluetooth-Bee%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/Bluetooth_V4.0_HM_11_BLE_Module/</loc>
   </url>
   
   <url>
@@ -1661,6 +1669,10 @@
   </url>
   
   <url>
+    <loc>http://wiki.seeed.cc/Motor_Shield_V1.0/</loc>
+  </url>
+  
+  <url>
     <loc>http://wiki.seeed.cc/Motor_Shield_V2.0/</loc>
   </url>
   
@@ -1879,6 +1891,18 @@
   </url>
   
   <url>
+    <loc>http://wiki.seeed.cc/Relay_Shield%E2%80%8F%E2%80%8E/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/Relay_Shield_V1/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/Relay_Shield_V2/</loc>
+  </url>
+  
+  <url>
     <loc>http://wiki.seeed.cc/Relay_Shield_v3/</loc>
   </url>
   
@@ -1928,6 +1952,10 @@
   
   <url>
     <loc>http://wiki.seeed.cc/Seeed_BLE_Shield/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/Seeeduino_ADK_Main_Board%E2%80%8F%E2%80%8E/</loc>
   </url>
   
   <url>
@@ -2184,7 +2212,7 @@
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/wio_gps_board/</loc>
+    <loc>http://wiki.seeed.cc/WIO_GPS_Board/</loc>
   </url>
   
   <url>

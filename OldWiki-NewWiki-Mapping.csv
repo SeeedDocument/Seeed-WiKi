@@ -8,6 +8,7 @@
 1w Solar Panel 80*100,http://wiki.seeed.cc/1w_Solar_Panel_80x100/,http://wiki.seeedstudio.com/wiki/1w Solar Panel 80*100
 2.5W Solar Panel 116*160,http://wiki.seeed.cc/2.5W_Solar_Panel_116x160/,http://wiki.seeedstudio.com/wiki/2.5W Solar Panel 116*160
 2.8'' TFT Touch Shield v2.0,http://wiki.seeed.cc/2.8inch_TFT_Touch_Shield_v2.0/,http://wiki.seeedstudio.com/wiki/2.8''_TFT_Touch_Shield_v2.0
+2.8inch TFT Touch Shield V1.0,http://wiki.seeed.cc/2.8inch-TFT_Touch_Shield_V1.0/,http://wiki.seeedstudio.com/wiki/2.8inch-TFT_Touch_Shield_V1.0
 2KM Long Range RF link kits w/ encoder and decoder,http://wiki.seeed.cc/2KM_Long_Range_RF_link_kits_w_encoder_and_decoder/,http://wiki.seeedstudio.com/wiki/2KM Long Range RF link kits w/ encoder and decoder
 3.6V Micro hydro generator,http://wiki.seeed.cc/3.6V_Micro_hydro_generator/,http://wiki.seeedstudio.com/wiki/3.6V Micro hydro generator
 315MHz Simple RF Link Kit,http://wiki.seeed.cc/315MHz_Simple_RF_Link_Kit/,http://wiki.seeedstudio.com/wiki/315MHz Simple RF Link Kit
@@ -54,12 +55,13 @@ BeagleBone Green Wireless,http://wiki.seeed.cc/BeagleBone_Green_Wireless/,http:/
 BeagleBone Introduction,http://wiki.seeed.cc/BeagleBone/,
 Bees Shield,http://wiki.seeed.cc/Bees_Shield/,http://wiki.seeedstudio.com/wiki/Bees Shield
 Bicycle Dynamo With Bracket - 6V 3W,http://wiki.seeed.cc/Bicycle_Dynamo_With_Bracket-6V_3W/,http://wiki.seeedstudio.com/wiki/Bicycle Dynamo With Bracket - 6V 3W
+Bluetooth Bee,http://wiki.seeed.cc/Bluetooth_Bee‏‎/,http://wiki.seeedstudio.com/wiki/Bluetooth_Bee
 Bluetooth Bee v2.0,http://wiki.seeed.cc/Bluetooth_Bee_v2.0/,http://wiki.seeedstudio.com/wiki/Bluetooth Bee v2.0
 Bluetooth Bee-Standalone,http://wiki.seeed.cc/Bluetooth_Bee_Standalone/,http://wiki.seeedstudio.com/wiki/Bluetooth Bee-Standalone
 Bluetooth Multimeter,http://wiki.seeed.cc/Bluetooth_Multimeter/,http://wiki.seeedstudio.com/wiki/Bluetooth Multimeter
 Bluetooth Shield V2.0,http://wiki.seeed.cc/Bluetooth_Shield_V2/,http://wiki.seeedstudio.com/wiki/Bluetooth Shield V2.0
+Bluetooth Shield‏‎,http://wiki.seeed.cc/Bluetooth_Shield‏‎/,http://wiki.seeedstudio.com/wiki/Bluetooth_Shield‏‎
 Bluetooth V4.0 HM-11 BLE Module,http://wiki.seeed.cc/Bluetooth_V4.0_HM_11_BLE_Module/,http://wiki.seeedstudio.com/wiki/Bluetooth V4.0 HM-11 BLE Module
-Bluetooth-Bee,http://wiki.seeed.cc/Bluetooth-Bee‏‎/,http://wiki.seeedstudio.com/wiki/Bluetooth-Bee
 Bracket for Infrared Proximity Sensor,http://wiki.seeed.cc/Bracket_for_Infrared_Proximity_Sensor/,http://wiki.seeedstudio.com/wiki/Bracket for Infrared Proximity Sensor
 Breakout for LinkIt Smart 7688,http://wiki.seeed.cc/Breakout_for_LinkIt_Smart_7688/,http://wiki.seeedstudio.com/wiki/Breakout for LinkIt Smart 7688
 Breakout for LinkIt Smart 7688 v2.0,http://wiki.seeed.cc/Breakout_for_LinkIt_Smart_7688_v2.0/,http://wiki.seeedstudio.com/wiki/Breakout for LinkIt Smart 7688 v2.0
@@ -302,7 +304,7 @@ Grove Starter Kit for IoT based on Raspberry Pi,http://wiki.seeed.cc/Grove_Start
 Grove Starter kit for Arduino&Genuino 101,http://wiki.seeed.cc/Grove_Starter_kit_for_Arduino_101/,http://wiki.seeedstudio.com/wiki/Grove Starter kit for Arduino&Genuino 101
 Grove Starter kit for LinkIt Smart7688 Duo,http://wiki.seeed.cc/Grove_Starter_kit_for_LinkIt_Smart7688_Duo/,http://wiki.seeedstudio.com/wiki/Grove_Starter_kit_for_LinkIt_Smart7688_Duo
 Grove System,http://wiki.seeed.cc/Grove_System/,http://wiki.seeedstudio.com/wiki/Grove_System
-Grove-Single_Axis_Analog_Gyro‏‎,http://wiki.seeed.cc/Grove-Single_Axis_Analog_Gyro‏‎/,http://wiki.seeedstudio.com/wiki/Grove-Single_Axis_Analog_Gyro‏‎
+Grove-Single Axis Analog Gyro‏‎,http://wiki.seeed.cc/Grove-Single_Axis_Analog_Gyro‏‎/,http://wiki.seeedstudio.com/wiki/Grove-Single_Axis_Analog_Gyro‏‎
 GrovePi+,http://wiki.seeed.cc/GrovePi_Plus/,http://wiki.seeedstudio.com/wiki/GrovePi+
 Guide to use demos downloaded from Seeed's Github,http://wiki.seeed.cc/Guide_to_use_demos_downloaded_from_Seeed-s_Github/,http://wiki.seeedstudio.com/wiki/Guide to use demos downloaded from Seeed's Github
 Hercules Dual 15A 6-20V Motor Controller,http://wiki.seeed.cc/Hercules_Dual_15A_6-20V_Motor_Controller/,http://wiki.seeedstudio.com/wiki/Hercules_Dual_15A_6-20V_Motor_Controller
@@ -354,6 +356,7 @@ Mbed Shield,http://wiki.seeed.cc/mbed_Shield/,http://wiki.seeedstudio.com/wiki/M
 Mesh Bee,http://wiki.seeed.cc/Mesh_Bee/,http://wiki.seeedstudio.com/wiki/Mesh Bee
 Mini Soldering Iron,http://wiki.seeed.cc/Mini_Soldering_Iron/,http://wiki.seeedstudio.com/wiki/Mini Soldering Iron
 Motor Bridge Cape v1.0,http://wiki.seeed.cc/Motor_Bridge_Cape_v1.0/,http://wiki.seeedstudio.com/wiki/Motor_Bridge_Cape_v1.0
+Motor Shield V1.0,http://wiki.seeed.cc/Motor_Shield_V1.0/,http://wiki.seeedstudio.com/wiki/Motor_Shield_V1.0
 Motor Shield V2.0,http://wiki.seeed.cc/Motor_Shield_V2.0/,http://wiki.seeedstudio.com/wiki/Motor_Shield_V2.0
 Music Shield V2.2,http://wiki.seeed.cc/Music_Shield_V2.2/,http://wiki.seeedstudio.com/wiki/Music_Shield_V2.2
 NFC Shield V2.0,http://wiki.seeed.cc/NFC_Shield_V2.0/,http://wiki.seeedstudio.com/wiki/NFC_Shield_V2.0
@@ -401,6 +404,9 @@ RePhone Strap Kit for Pebble,http://wiki.seeed.cc/RePhone_Strap_Kit_for_Pebble/,
 ReSpeaker 2-Mics Pi HAT,http://wiki.seeed.cc/Respeaker_2_Mics_Pi_HAT/,
 ReSpeaker Mic Array,http://wiki.seeed.cc/Respeaker_Mic_Array/,http://wiki.seeedstudio.com/wiki/ReSpeaker Mic Array
 Relay Control LED,http://wiki.seeed.cc/Relay_Control_LED/,http://wiki.seeedstudio.com/wiki/Relay Control LED
+Relay Shield,http://wiki.seeed.cc/Relay_Shield‏‎/,http://wiki.seeedstudio.com/wiki/Relay_Shield
+Relay Shield V1.0‏‎,http://wiki.seeed.cc/Relay_Shield_V1/,http://wiki.seeedstudio.com/wiki/Relay-Shield_V1.0‏‎
+Relay Shield V2.0,http://wiki.seeed.cc/Relay_Shield_V2/,http://wiki.seeedstudio.com/wiki/Relay_Shield_V2.0
 Relay Shield v3.0,http://wiki.seeed.cc/Relay_Shield_v3/,http://wiki.seeedstudio.com/wiki/Relay Shield v3.0
 Renbotics ServoShield Rev,http://wiki.seeed.cc/Renbotics_ServoShield_Rev/,http://wiki.seeedstudio.com/wiki/Renbotics ServoShield Rev
 Rephone Core 2G-Atmel32u4,http://wiki.seeed.cc/RePhone_core_2G-Atmel32u4/,
@@ -414,6 +420,7 @@ SDLogger - Open Hardware Data Logger,http://wiki.seeed.cc/SDLogger-Open_Hardware
 Scream out loud - 110dBA fixed tone Siren,http://wiki.seeed.cc/Scream_out_loud-110dBA_fixed_tone_Siren/,http://wiki.seeedstudio.com/wiki/Scream out loud - 110dBA fixed tone Siren
 Secret Box,http://wiki.seeed.cc/Secret_Box/,http://wiki.seeedstudio.com/wiki/Secret Box
 Seeed BLE Shield v1,http://wiki.seeed.cc/Seeed_BLE_Shield/,http://wiki.seeedstudio.com/wiki/Seeed BLE Shield v1
+Seeeduino ADK Main Board‏‎,http://wiki.seeed.cc/Seeeduino_ADK_Main_Board‏‎/,http://wiki.seeedstudio.com/wiki/Seeeduino_ADK_Main_Board‏‎
 Seeeduino Arch V1.0,http://wiki.seeed.cc/Seeeduino_Arch_V1.0/,http://wiki.seeedstudio.com/wiki/Seeeduino Arch V1.0
 Seeeduino Cloud,http://wiki.seeed.cc/Seeeduino_Cloud/,http://wiki.seeedstudio.com/wiki/Seeeduino_Cloud
 Seeeduino Cloud and Grove IoT Starter Kit Powered by AWS,http://wiki.seeed.cc/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/,http://wiki.seeedstudio.com/wiki/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS
@@ -476,7 +483,7 @@ Wio Link Environment Kit,http://wiki.seeed.cc/Wio_Link_Environment_Kit/,http://w
 Wio Link Event Kit,http://wiki.seeed.cc/Wio_Link_Event_Kit/,http://wiki.seeedstudio.com/wiki/Wio_Link_Event_Kit
 Wio Link Starter Kit,http://wiki.seeed.cc/Wio_Link_Starter_Kit/,http://wiki.seeedstudio.com/wiki/Wio_Link_Starter_Kit
 Wio Node,http://wiki.seeed.cc/Wio_Node/,http://wiki.seeedstudio.com/wiki/Wio_Node
-Wio Tracker - GPS, BT3.0, GSM, Arduino Compatible,http://wiki.seeed.cc/wio_gps_board/,
+Wio Tracker - GPS, BT3.0, GSM, Arduino Compatible,http://wiki.seeed.cc/WIO_GPS_Board/,
 Wio Tracker - LTE CAT1,http://wiki.seeed.cc/Wio_Tracker_LTE_CAT1/,
 WireLess Gate Shield V1.0,http://wiki.seeed.cc/WireLess_Gate_Shield_V1.0/,http://wiki.seeedstudio.com/wiki/WireLess Gate Shield V1.0
 Wireless Introduction,http://wiki.seeed.cc/Wireless/,

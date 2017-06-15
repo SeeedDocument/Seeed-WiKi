@@ -78,9 +78,11 @@ We have prepared everything, the last thing we need is your creative projects, s
 ||Technology|EASY/LOCUS/AlwaysLocate/EPO/GLP/AIC|
 |Peripheral|Grove|2 x Grove Digital Port|
 |||2 x Analog Port|
-|||1 x UART||||1 x I2C|
+|||1 x UART|
+|||1 x I2C|
 ||Antenna|GSM Antenna|
-|||Bluetooth Antenna||||GNSS Antenna|
+|||Bluetooth Antenna|
+|||GNSS Antenna|
 ||Others|USB: Power supply and upload program|
 |||JST 1.0 connecter for battery|
 |||3.5mm Audio Jack|
@@ -129,6 +131,7 @@ In brief, Groves is hundreds of sensor that in standard style, which is consist 
 |D3      |YES        |YES|         |          |Grove Digital|
 |D4      |YES        |   |         |          |Grove Digital|
 |D5      |YES        |YES|         |          |Grove Digital|
+|D6      |YES        |   |         |          |User LED Control|
 |D7      |YES        |   |         |          |Power of MC20|
 |D10     |YES        |YES|         |          |User LED|
 |D11     |YES        |YES|         |          |Check Earphone|
@@ -178,13 +181,15 @@ Then open your Arduino IDE and click on **File > Examples > MC20\_GPS\_Traker > 
 #include "MC20_Arduino_Interface.h"
 #include <Adafruit_NeoPixel.h>
 
+#define RGBPOWER     6          //To use User LED, D6 should be HIGH.
 #define RGBPIN       10
 #define LED_NUM      1
 
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(LED_NUM, RGBPIN, NEO_GRB + NEO_KHZ800);
 
 void setup() {
-
+  pinMode(RGBPOWER, OUTPUT);
+  digitalWrite(RGBPOWER, HIGH);
   pixels.begin(); // This initializes the NeoPixel library.
 }
 
@@ -285,9 +290,13 @@ void loop() {
 
 MC20 module provides the AT Commands Set for MCU to communicate with its GSM/GPRS, GNSS and Bluetooth modules.
 
-And we have installed a well written library for the Wio Tracker, for simple applications you even don't need to know much about how to use the AT commands, which is complex and hard to read.
+And we have installed a well written library for the Wio GPS, for simple applications you even don't need to know much about how to use the AT commands, which is complex and hard to read.
 
-The following example shows how to read longitude and latitude and print them out in Serial Monitor. Please note that Wio Tracker should be placed outdoor to get GPS signal.
+The following example shows how to read longitude and latitude and print them out in Serial Monitor. Please note that Wio Tracker should be placed outdoor to get GPS signal. And this example needs a SIM card in Wio Tracker, the following pictures show how to install/uninstall a SIM card:
+
+![](https://github.com/SeeedDocument/Wio_GPS_Board/raw/master/images/insertsim.jpg)
+
+![](https://github.com/SeeedDocument/Wio_GPS_Board/raw/master/images/pullsim.jpg)
 
 Open your Arduino IDE and click on **File > Examples > MC20\_GPS\_Traker > MC20\_GNSS > GNSS\_Show\_Coordinate** to open the sketch or copy the blow code:
 

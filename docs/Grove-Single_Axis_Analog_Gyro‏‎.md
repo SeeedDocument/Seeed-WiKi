@@ -1,12 +1,12 @@
 ---
-title: Grove-Single_Axis_Analog_Gyro‏‎
+title: Grove-Single Axis Analog Gyro‏‎
 category: Discontinued
 bzurl:
 oldwikiname: Grove-Single_Axis_Analog_Gyro‏‎
 prodimagename:
 bzprodimageurl:
 surveyurl: https://www.research.net/r/Grove-Single_Axis_Analog_Gyro
-sku:
+sku: 101020053
 tags:
 
 ---
@@ -34,15 +34,10 @@ Model:[SEN05091P](https://github.com/SeeedDocument/Grove-Base_Shield_for_IOIO-OT
 ### With [Arduino](https://www.arduino.cc/)
 
 The module detects one-axis rotation with analog signal.
-
 High-pass filter and low-pass filter circuit are applied to reduce the temperature drift and suppress the output noise.
-
 Before the measurement of the angular velocity, a reference value(the sensor output at Angular Velocity=0) is required.
-
 This value is 1.35V in default. But in order to get more accurate reference values, before the measurement,a calibration is necessary.
-
 In this calibration, the output voltage when angular velocity =0 been sampled 200 times,
-
 and then the average of these data will be treated as the reference value.
 
 1.Connect it to A0 port of  [ Grove - Base Shield](https://seeeddoc.github.io/Grove-Base_Shield/), of cause any pin of the analog pins would be OK.

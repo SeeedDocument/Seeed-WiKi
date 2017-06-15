@@ -1,12 +1,12 @@
 ---
-title:  Bluetooth-Bee
+title:  Bluetooth Bee
 category: Discontinued
 bzurl:
-oldwikiname: Bluetooth-Bee
+oldwikiname: Bluetooth_Bee
 prodimagename:
 bzprodimageurl:
 surveyurl: https://www.research.net/r/Bluetooth-Bee
-sku:
+sku: 113050001
 tags:
 
 ---
@@ -149,7 +149,7 @@ The following sketch presents an overview of **Bluetooth Bee** operation in mast
 
 ![](https://github.com/SeeedDocument/Bluetooth-Bee/raw/master/img/Bluetooth-1.jpg)
 
-####   Flowchat   ####
+####   Flowchart   ####
 
 The following flowchart gives a quick start guide to **Bluetooth Bee** programming.
 
@@ -163,8 +163,6 @@ The following flowchart gives a quick start guide to **Bluetooth Bee** programmi
 |--|||
 | ** \r\n+STWMOD=1\r\n** | **Set device working mode as server (master). Save and Rest.**  |
 
-
-
 **Note:**\r\n is necessary for operation and the value of are **80x0D 0x0A** in Hex. **\r** and **\n** represent **carriage-return** and **line-feed**(or next line),
 
 2.Set BAUDRATE
@@ -176,13 +174,9 @@ The following flowchart gives a quick start guide to **Bluetooth Bee** programmi
 
  3.Set Device NAME
 
-
-
 |  \r\n+STNA=abcdefg\r\n  | Set device name as “abcdefg”. Save and Rest.   |
 |---|---|
 ||||
-
-
 
  \r\n+STNA=abcdefg\r\n
  Set device name as “abcdefg”. Save and Rest.
@@ -246,8 +240,6 @@ The following flowchart gives a quick start guide to **Bluetooth Bee** programmi
 |---|---|
 | ** \r\n+INQ=1\r\n** |  **Enable been inquired** |
 
-
-
 When **+INQ=1** command is successful, the  red  and green LEDS blink alternatively.
 
 #### 2.Bluetooth module returns inquiring result
@@ -266,8 +258,6 @@ When **+INQ=1** command is successful, the  red  and green LEDS blink alternativ
 
 #### 4.Bluetooth module requests inputting PINCODE
 
-
-
 \r\n+INPIN\r\n
 
 #### 5.Input PINCODE
@@ -275,7 +265,6 @@ When **+INQ=1** command is successful, the  red  and green LEDS blink alternativ
 |  \r\n+RTPIN=code\r\n  |   |
 |---|---|
 |   **Example: RTPIN=0000** | **Input PINCODE which is four zero ** |
-
 
 #### 6. Disconnect device
 Pulling PIO0 high will disconnect current working Bluetooth device.
@@ -308,39 +297,113 @@ Bluetooth Bee is  connected to Seeeduino via XBee Shield as shown above. Bluetoo
 /*
 BluetoothBee Demo Code - Flowcontrol Based Implementation
 2010,2011 Copyright (c) Seeed Technology Inc.  All right reserved.
- 
+
 Author: Visweswara R
- 
+
 This demo code is free software; you can redistribute it and/or
 modify it under the terms of the GNU Lesser General Public
 License as published by the Free Software Foundation; either
 version 2.1 of the License, or (at your option) any later version.
- 
+
 This library is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 Lesser General Public License for more details.
- 
+
 You should have received a copy of the GNU Lesser General Public
 License along with this library; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
- 
+
 For more details about the product please check http://www.seeedstudio.com/depot/
- 
-*//* Upload this sketch to Seeeduino and press reset*/#include <SoftwareSerial.h>   //Software Serial Port#define RxD 11#define TxD 12#define DEBUG_ENABLED  1SoftwareSerial blueToothSerial(RxD,TxD);voidsetup(){pinMode(RxD, INPUT);pinMode(TxD, OUTPUT);
-    setupBlueToothConnection();}voidloop(){//Typical Bluetoth command - response simulation://Type 'a' from PC Bluetooth Serial Terminal//See Bluetooth Bee - Wiki for instructionsif(blueToothSerial.read()=='a'){
-    blueToothSerial.println("You are connected");//You can write you BT communication logic here}}void setupBlueToothConnection(){
-    blueToothSerial.begin(38400);//Set BluetoothBee BaudRate to default baud rate 38400delay(1000);
+
+*/
+
+
+/* Upload this sketch to Seeeduino and press reset*/
+
+#include <SoftwareSerial.h>   //Software Serial Port
+#define RxD 11
+#define TxD 12
+
+#define DEBUG_ENABLED  1
+
+SoftwareSerial blueToothSerial(RxD,TxD);
+
+void setup()
+{
+    pinMode(RxD, INPUT);
+    pinMode(TxD, OUTPUT);
+    setupBlueToothConnection();
+
+}
+
+void loop()
+{
+  //Typical Bluetoth command - response simulation:
+
+  //Type 'a' from PC Bluetooth Serial Terminal
+  //See Bluetooth Bee - Wiki for instructions
+
+  if(blueToothSerial.read() == 'a')
+  {
+    blueToothSerial.println("You are connected");
+    //You can write you BT communication logic here
+  }
+
+}
+
+
+void setupBlueToothConnection()
+{
+    blueToothSerial.begin(38400); //Set BluetoothBee BaudRate to default baud rate 38400
+    delay(1000);
     sendBlueToothCommand("\r\n+STWMOD=0\r\n");
     sendBlueToothCommand("\r\n+STNA=SeeeduinoBluetooth\r\n");
     sendBlueToothCommand("\r\n+STAUTO=0\r\n");
     sendBlueToothCommand("\r\n+STOAUT=1\r\n");
-    sendBlueToothCommand("\r\n +STPIN=0000\r\n");delay(2000);// This delay is required.
-    sendBlueToothCommand("\r\n+INQ=1\r\n");delay(2000);// This delay is required.}//Checks if the response "OK" is receivedvoid CheckOK(){char a,b;while(1){if(blueToothSerial.available()){
-    a = blueToothSerial.read();if('O'== a){// Wait for next character K. available() is required in some cases, as K is not immediately available.while(blueToothSerial.available()){
-         b = blueToothSerial.read();break;}if('K'== b){break;}}}}while((a = blueToothSerial.read())!=-1){//Wait until all other response chars are received}}void sendBlueToothCommand(char command[]){
+    sendBlueToothCommand("\r\n +STPIN=0000\r\n");
+    delay(2000); // This delay is required.
+    sendBlueToothCommand("\r\n+INQ=1\r\n");
+    delay(2000); // This delay is required.
+}
+
+//Checks if the response "OK" is received
+void CheckOK()
+{
+  char a,b;
+  while(1)
+  {
+    if(blueToothSerial.available())
+    {
+    a = blueToothSerial.read();
+
+    if('O' == a)
+    {
+      // Wait for next character K. available() is required in some cases, as K is not immediately available.
+      while(blueToothSerial.available())
+      {
+         b = blueToothSerial.read();
+         break;
+      }
+      if('K' == b)
+      {
+        break;
+      }
+    }
+   }
+  }
+
+  while( (a = blueToothSerial.read()) != -1)
+  {
+    //Wait until all other response chars are received
+  }
+}
+
+void sendBlueToothCommand(char command[])
+{
     blueToothSerial.print(command);
-    CheckOK();}
+    CheckOK();   
+}
 ```
 
 ####   Delay Based Implementation  ####
@@ -351,36 +414,83 @@ The following sketch is a modification of above program using delay() instead of
 /*
 BluetoothBee Demo Code - Delay Based Implementaion
 2011 Copyright (c) Seeed Technology Inc.  All right reserved.
- 
+
 Author: Visweswara R
- 
+
 This demo code is free software; you can redistribute it and/or
 modify it under the terms of the GNU Lesser General Public
 License as published by the Free Software Foundation; either
 version 2.1 of the License, or (at your option) any later version.
- 
+
 This library is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 Lesser General Public License for more details.
- 
+
 You should have received a copy of the GNU Lesser General Public
 License along with this library; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
- 
+
 For more details about the product please check http://www.seeedstudio.com/depot/
- 
-*//* Upload this sketch into Seeeduino and press reset*/#include <SoftwareSerial.h>   //Software Serial Port#define RxD 11#define TxD 12SoftwareSerial blueToothSerial(RxD,TxD);voidsetup(){Serial.begin(9600);//Serial port for debugging, Comment this line if not required  pinMode(RxD, INPUT);pinMode(TxD, OUTPUT);
-    setupBlueToothConnection();}voidloop(){if(blueToothSerial.read()=='a'){
-    blueToothSerial.println("You are connected to Bluetooth Bee");//You can write you BT communication logic here}}void setupBlueToothConnection(){Serial.print("Setting up Bluetooth link");//For debugging, Comment this line if not required    
-    blueToothSerial.begin(38400);//Set BluetoothBee BaudRate to default baud rate 38400delay(1000);
+
+*/
+
+/* Upload this sketch into Seeeduino and press reset*/
+
+#include <SoftwareSerial.h>   //Software Serial Port
+#define RxD 11
+#define TxD 12
+
+SoftwareSerial blueToothSerial(RxD,TxD);
+
+void setup()
+{
+    Serial.begin(9600);          //Serial port for debugging, Comment this line if not required  
+    pinMode(RxD, INPUT);
+    pinMode(TxD, OUTPUT);
+    setupBlueToothConnection();
+
+}
+
+void loop()
+{
+
+  if(blueToothSerial.read() == 'a')
+  {
+    blueToothSerial.println("You are connected to Bluetooth Bee");
+    //You can write you BT communication logic here
+  }
+}
+
+void setupBlueToothConnection()
+{
+    Serial.print("Setting up Bluetooth link");       //For debugging, Comment this line if not required    
+    blueToothSerial.begin(38400); //Set BluetoothBee BaudRate to default baud rate 38400
+    delay(1000);
     sendBlueToothCommand("\r\n+STWMOD=0\r\n");
     sendBlueToothCommand("\r\n+STNA=modem\r\n");
     sendBlueToothCommand("\r\n+STAUTO=0\r\n");
     sendBlueToothCommand("\r\n+STOAUT=1\r\n");
-    sendBlueToothCommand("\r\n+STPIN=0000\r\n");delay(2000);// This delay is required.
-    blueToothSerial.print("\r\n+INQ=1\r\n");delay(2000);// This delay is required.Serial.print("Setup complete");}void sendBlueToothCommand(char command[]){char a;
-    blueToothSerial.print(command);Serial.print(command);//For debugging, Comment this line if not required    delay(3000);while(blueToothSerial.available())//For debugging, Comment this line if not required  {//For debugging, Comment this line if not required   Serial.print(char(blueToothSerial.read()));//For debugging, Comment this line if not required  }//For debugging, Comment this line if not required   }
+    sendBlueToothCommand("\r\n+STPIN=0000\r\n");
+    delay(2000); // This delay is required.
+    blueToothSerial.print("\r\n+INQ=1\r\n");
+    delay(2000); // This delay is required.
+    Serial.print("Setup complete");
+
+}
+
+void sendBlueToothCommand(char command[])
+{
+    char a;
+    blueToothSerial.print(command);
+    Serial.print(command);                          //For debugging, Comment this line if not required    
+    delay(3000);
+
+    while(blueToothSerial.available())              //For debugging, Comment this line if not required  
+    {                                               //For debugging, Comment this line if not required   
+       Serial.print(char(blueToothSerial.read()));  //For debugging, Comment this line if not required  
+    }                                               //For debugging, Comment this line if not required   
+}
 ```
 
 ####   Connecting Bluetooth Bee to PC (via Bluetooth Dongle) under GNU/Linux  ####
@@ -417,9 +527,7 @@ and click Forward
 
 ![](https://github.com/SeeedDocument/Bluetooth-Bee/raw/master/img/Bluetooth_linux_config4.png)
 
-and
-
-Setup Completed dialog opens. Click Close.
+- and Setup Completed dialog opens. Click Close.
 
 ![](https://github.com/SeeedDocument/Bluetooth-Bee/raw/master/img/Bluetooth_linux_config5.png)
 
@@ -429,13 +537,11 @@ Setup Completed dialog opens. Click Close.
 
 - Bind the **Bluetooth Bee** to rfcomm port. Here the address of **Bluetooth Bee** is bound to a serial port device /dev/rfcomm0
 
-`
+```
 user@user-desktop:~$ sudo rfcomm bind 0 00:13:EF:00:00:24 1
-`
-
 user@user-desktop:~$ ls /dev/rfcomm*
-
 /dev/rfcomm0
+```
 
 - This /dev/rfcomm0 serial port can be accessed by any serial port terminal like cutecom.
 
@@ -472,12 +578,10 @@ user@user-desktop:~$ ls /dev/rfcomm*
 
 ![](https://github.com/SeeedDocument/Bluetooth-Bee/raw/master/img/Bluetooth_windows5.jpg)
 
--
 -  A task-bar balloon shows that a new Bluetooth Serial Port link is added.
 
 ![](https://github.com/SeeedDocument/Bluetooth-Bee/raw/master/img/Bluetooth_windows6.jpg)
 
--
 - COM5 is assigned for communication. This port should be used to communicate PC with Bluetooth Bee.
 
 ![](https://github.com/SeeedDocument/Bluetooth-Bee/raw/master/img/Bluetooth_windows7.jpg)
@@ -516,10 +620,6 @@ This demo uses hardware arrangement described in [Hardware Installation - UartSB
 - [Bluetooth Bee bare PCB](https://seeeddoc.github.io/w/index.php?title=Bluetooth_Bee_bare_PCB&action=edit&redlink=1)
 - [Serial_port_bluetooth_module_(Master/Slave)](https://seeeddoc.github.io/Serial_port_bluetooth_module-Master-Slave/)
 
-##   FAQ   ##
-
-Please list your questions here:
-
 ##   Support   ##
 
 If you have questions or other better design ideas, you can go to our [forum](http://www.seeedstudio.com/forum) or [wish](http://wish.seeedstudio.com) to discuss.
@@ -535,7 +635,6 @@ If you have questions or other better design ideas, you can go to our [forum](ht
 |  v2.0 | Update the module as HM－01（The same with the newest Bluetooth shield）. The AT command can not compatible with before.  |   Dec 4, 2014 |
 
 
-
 ##   Bug Tracker   ##
 
 Bug Tracker is the place you can publish any bugs you think you might have found during use. Please write down what you have to say, your answers will help us improve our products.
@@ -546,22 +645,6 @@ Bug Tracker is the place you can publish any bugs you think you might have found
 
 -  Wireless control a toy robot from PC.
 
-##   Resources   ##
-
-- **[Eagle]** [Bluetooth Bee Schematic and Board Files](http://wiki.seeedstudio.com/images/f/f6/Bluetooth_Bee_Schematic_Board.zip)
-
-- **[PDF]**[Bluetooth_Bee_v2.0_SCH_PCB.zip](http://images/0/06/Bluetooth_Bee_v2.0_SCH_PCB.zip)
-
-- **[Library]** [NewSoftLibrary](http://arduiniana.org/NewSoftSerial/NewSoftSerial10c.zip)
-
-- **[Information]** [Information on how to setup connections between Bluetooth Bees is available in Seeedstudio Forum](http://www.seeedstudio.com/forum/viewtopic.php?f=4&amp;t=687)
-
-- **[Information]** [PC connecting Bluetooth Bee in Seeedstudio Forum](http://www.seeedstudio.com/forum/viewtopic.php?f=18&amp;t=1436&amp;p=5637#p5637)
-
-- **[Datasheet]**  [Bluetooth Bee datasheet](https://github.com/SeeedDocument/Bluetooth-Bee/raw/master/res/Bluetooth_Bee_datasheet.pdf)
-
-
-- **[Datasheet]**[HM－01_Datasheet](https://github.com/SeeedDocument/Bluetooth-Bee/raw/master/res/HM%EF%BC%8D01_Datasheet.pdf)
 
 ##   How to buy   ##
 
@@ -575,9 +658,6 @@ Click here to buy:[http://www.seeedstudio.com/depot/bluetooth-bee-p-598.html?cPa
 
 This documentation is licensed under the Creative Commons [Attribution-ShareAlike License 3.0](http://creativecommons.org/licenses/by-sa/3.0/) Source code and libraries are licensed under [GPL/LGPL](http://www.gnu.org/licenses/gpl.html), see source code files for details.
 
-##   External Links   ##
-
-Links to external webpages which provide more application ideas, documents/datasheet or software libraries
 
 ##  Related Projects ##
 
@@ -610,4 +690,19 @@ Now share you awesome projects on with us on [Recipe](https://www.seeed.cc/proje
 
 -  We cooperate with our Core Users in the development of our new product, this, in another word, the Core Users will have the chance to experience any new products of Seeed before its official launch, and in return we expect valuable feedback from them to help us improving the product performance and user experience. And for most of cases if our Core Users have any good ideas for making things, we'll offer hardware pieces, PCBA services as well as technical support. Besides, further commercial cooperation with the Core Users is highly possible.
 
-<font color=red >Get more information about Core User please email to: recipe@seeed.cc</font>
+
+##   Resources   ##
+
+- **[Eagle]** [Bluetooth Bee Schematic and Board Files](http://wiki.seeedstudio.com/images/f/f6/Bluetooth_Bee_Schematic_Board.zip)
+
+- **[PDF]**[Bluetooth_Bee_v2.0_SCH_PCB.zip](http://images/0/06/Bluetooth_Bee_v2.0_SCH_PCB.zip)
+
+- **[Library]** [NewSoftLibrary](http://arduiniana.org/NewSoftSerial/NewSoftSerial10c.zip)
+
+- **[Information]** [Information on how to setup connections between Bluetooth Bees is available in Seeedstudio Forum](http://www.seeedstudio.com/forum/viewtopic.php?f=4&amp;t=687)
+
+- **[Information]** [PC connecting Bluetooth Bee in Seeedstudio Forum](http://www.seeedstudio.com/forum/viewtopic.php?f=18&amp;t=1436&amp;p=5637#p5637)
+
+- **[Datasheet]**  [Bluetooth Bee datasheet](https://github.com/SeeedDocument/Bluetooth-Bee/raw/master/res/Bluetooth_Bee_datasheet.pdf)
+
+- **[Datasheet]**[HM－01_Datasheet](https://github.com/SeeedDocument/Bluetooth-Bee/raw/master/res/HM%EF%BC%8D01_Datasheet.pdf)
