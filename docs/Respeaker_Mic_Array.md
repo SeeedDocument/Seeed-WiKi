@@ -146,7 +146,7 @@ You could download ReSpeaker Mic array firmwares for DFU [here](https://github.c
 - *xvsm version* : initial version, outputs 2 channels data with dsp support.
 - *raw version* : outputs 8 channels mic raw data, this firmware is without xvsm dsp support, so it does not support some functions such as DOA, AEC and so on.
 
-Please see [here](https://github.com/jerryyip/respeaker_micarray_dfu_mac_linux) for **updating firmware on Mac or Linux**.
+Please see [here](https://github.com/respeaker/mic_array_dfu) for **updating firmware on Mac or Linux**.
 
 ## HID for controlling ReSpeaker Mic Array
 

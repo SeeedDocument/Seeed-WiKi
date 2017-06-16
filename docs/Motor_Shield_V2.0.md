@@ -1,6 +1,6 @@
 ---
 title: Motor Shield V2.0
-category: Shield
+category: Discontinued
 bzurl: https://www.seeedstudio.com/Motor-Shield-V2.0-p-1377.html
 oldwikiname: Motor_Shield_V2.0
 prodimagename: 500px-Motorshield_01.jpg

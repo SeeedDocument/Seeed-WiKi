@@ -98,6 +98,7 @@ Eclipse IDE for RePhone Kit,http://wiki.seeed.cc/Eclipse_IDE_for_RePhone_Kit/,ht
 Energy Shield,http://wiki.seeed.cc/Energy_Shield/,http://wiki.seeedstudio.com/wiki/Energy_Shield
 Essentials Introduction,http://wiki.seeed.cc/Essentials/,
 Ethernet Shield V2.0‏‎,http://wiki.seeed.cc/Ethernet_Shield_V2.0‏‎/,http://wiki.seeedstudio.com/wiki/Ethernet_Shield_V2.0‏‎
+Ethernet Shield‏‎,http://wiki.seeed.cc/Ethernet_Shield‏‎/,http://wiki.seeedstudio.com/wiki/Ethernet_Shield‏‎
 FM Receiver,http://wiki.seeed.cc/FM_Receiver/,
 FSM-55,http://wiki.seeed.cc/FSM-55/,http://wiki.seeedstudio.com/wiki/FSM-55
 FST-01,http://wiki.seeed.cc/FST-01/,http://wiki.seeedstudio.com/wiki/FST-01
@@ -301,6 +302,7 @@ Grove IoT Starter Kits Powered by AWS,http://wiki.seeed.cc/Grove_IoT_Starter_Kit
 Grove Maker Kit for Intel Joule,http://wiki.seeed.cc/Grove Maker Kit for Intel Joule/,
 Grove Maker Kit for Intel Joule,http://wiki.seeed.cc/Grove_Maker_Kit_for_Intel_Joule/,
 Grove Serial Bluetooth‏‎,http://wiki.seeed.cc/Grove-Serial_Bluetooth‏‎/,http://wiki.seeedstudio.com/wiki/Grove-Serial_Bluetooth‏‎
+Grove Serial LCD V1.0‏‎,http://wiki.seeed.cc/Grove-Serial_LCD_V1.0‏‎/,http://wiki.seeedstudio.com/wiki/Grove-Serial_LCD_V1.0‏‎
 Grove Shield for Intel Joule,http://wiki.seeed.cc/Grove_Shield_for_Intel_Joule/,
 Grove Smart Plant Care Kit,http://wiki.seeed.cc/Grove_Smart_Plant_Care_Kit/,http://wiki.seeedstudio.com/wiki/Grove Smart Plant Care Kit
 Grove Speech Recognizer Kit for Arduino,http://wiki.seeed.cc/Grove_Speech_Recognizer_Kit_for_Arduino/,http://wiki.seeedstudio.com/wiki/Grove Speech Recognizer Kit for Arduino
@@ -350,6 +352,7 @@ LinkIt ONE Tutorial - The Basics,http://wiki.seeed.cc/LinkIt_ONE_Tutorial-The_Ba
 LinkIt Smart 7688,http://wiki.seeed.cc/LinkIt_Smart_7688/,
 LinkIt Smart 7688 Duo,http://wiki.seeed.cc/LinkIt_Smart_7688_Duo/,
 Linkit Connect 7681,http://wiki.seeed.cc/Linkit_Connect_7681/,http://wiki.seeedstudio.com/wiki/Linkit_Connect_7681
+Lipo Rider,http://wiki.seeed.cc/Lipo_Rider/,http://wiki.seeedstudio.com/wiki/Lipo_Rider
 Lipo Rider Pro,http://wiki.seeed.cc/Lipo_Rider_Pro/,http://wiki.seeedstudio.com/wiki/Lipo_Rider_Pro
 Lipo Rider V1.3,http://wiki.seeed.cc/Lipo_Rider_V1.3/,http://wiki.seeedstudio.com/wiki/Lipo_Rider_V1.3
 LoNet 808 - Mini GSM/GPRS + GPS Breakout,http://wiki.seeed.cc/LoNet_808-Mini_GSM_GPRS_Plus_GPS_Breakout/,http://wiki.seeedstudio.com/wiki/LoNet 808 - Mini GSM/GPRS + GPS Breakout
@@ -364,6 +367,7 @@ Motor Bridge Cape v1.0,http://wiki.seeed.cc/Motor_Bridge_Cape_v1.0/,http://wiki.
 Motor Shield V1.0,http://wiki.seeed.cc/Motor_Shield_V1.0/,http://wiki.seeedstudio.com/wiki/Motor_Shield_V1.0
 Motor Shield V2.0,http://wiki.seeed.cc/Motor_Shield_V2.0/,http://wiki.seeedstudio.com/wiki/Motor_Shield_V2.0
 Motor Shield‏‎,http://wiki.seeed.cc/Motor_Shield‏‎/,http://wiki.seeedstudio.com/wiki/Motor_Shield‏‎
+Music Shield,http://wiki.seeed.cc/Music_Shield/,http://wiki.seeedstudio.com/wiki/Music_Shield
 Music Shield V2.2,http://wiki.seeed.cc/Music_Shield_V2.2/,http://wiki.seeedstudio.com/wiki/Music_Shield_V2.2
 NFC Shield V2.0,http://wiki.seeed.cc/NFC_Shield_V2.0/,http://wiki.seeedstudio.com/wiki/NFC_Shield_V2.0
 NFC Shield‏‎,http://wiki.seeed.cc/NFC_Shield‏‎/,http://wiki.seeedstudio.com/wiki/NFC_Shield‏‎
@@ -422,6 +426,7 @@ Replacement LCD Screen for DSO nano,http://wiki.seeed.cc/Replacement_LCD_Screen_
 Respeaker Core,http://wiki.seeed.cc/Respeaker_Core/,http://wiki.seeedstudio.com/wiki/Respeaker Core
 Respeaker Introduction,http://wiki.seeed.cc/Respeaker/,
 Retro Phone Kit,http://wiki.seeed.cc/Retro Phone Kit/,
+SD Card Shield,http://wiki.seeed.cc/SD_Card_Shield/,http://wiki.seeedstudio.com/wiki/SD_Card_Shield
 SD Card shield V4.0,http://wiki.seeed.cc/SD_Card_shield_V4.0/,http://wiki.seeedstudio.com/wiki/SD_Card_shield_V4.0
 SDLogger - Open Hardware Data Logger,http://wiki.seeed.cc/SDLogger-Open_Hardware_Data_Logger/,http://wiki.seeedstudio.com/wiki/SDLogger - Open Hardware Data Logger
 Scream out loud - 110dBA fixed tone Siren,http://wiki.seeed.cc/Scream_out_loud-110dBA_fixed_tone_Siren/,http://wiki.seeedstudio.com/wiki/Scream out loud - 110dBA fixed tone Siren
@@ -440,7 +445,9 @@ Seeeduino Mega,http://wiki.seeed.cc/Seeeduino_Mega/,http://wiki.seeedstudio.com/
 Seeeduino Mega Protoshield Kit,http://wiki.seeed.cc/Seeeduino_Mega_Protoshield_Kit/,http://wiki.seeedstudio.com/wiki/Seeeduino Mega Protoshield Kit
 Seeeduino Stalker V3 - Waterproof Solar Kit,http://wiki.seeed.cc/Seeeduino_Stalker_V3-Waterproof_Solar_Kit/,http://wiki.seeedstudio.com/wiki/Seeeduino Stalker V3 - Waterproof Solar Kit
 Seeeduino Stalker V3.1,http://wiki.seeed.cc/Seeeduino_Stalker_V3.1/,
+Seeeduino Stalker v2.3‏‎,http://wiki.seeed.cc/Seeeduino_Stalker_v2.3‏‎/,http://wiki.seeedstudio.com/wiki/Seeeduino_Stalker_v2.3‏‎
 Seeeduino Stalker v3 enclosure,http://wiki.seeed.cc/Seeeduino_Stalker_v3_enclosure/,http://wiki.seeedstudio.com/wiki/Seeeduino Stalker v3 enclosure
+Seeeduino v2.21‏‎,http://wiki.seeed.cc/Seeeduino_v2.21‏‎/,http://wiki.seeedstudio.com/wiki/Seeeduino_v2.21‏‎
 Seeeduino v3.0‏‎,http://wiki.seeed.cc/Seeeduino_v3.0‏‎/,http://wiki.seeedstudio.com/wiki/Seeeduino_v3.0‏‎
 Seeeduino v4.2,http://wiki.seeed.cc/Seeeduino_v4.2/,http://wiki.seeedstudio.com/wiki/Seeeduino_v4.2
 Sensor Introduction,http://wiki.seeed.cc/Sensor/,
@@ -482,6 +489,8 @@ WiFi Serial Transceiver Module,http://wiki.seeed.cc/WiFi_Serial_Transceiver_Modu
 Wifi Bee v2.0,http://wiki.seeed.cc/Wifi_Bee_v2.0/,http://wiki.seeedstudio.com/wiki/Wifi Bee v2.0
 Wifi Bee‏‎,http://wiki.seeed.cc/Wifi_Bee‏‎/,http://wiki.seeedstudio.com/wiki/Wifi_Bee‏‎
 Wifi Shield (Fi250) V1.1,http://wiki.seeed.cc/Wifi_Shield_Fi250_V1.1/,http://wiki.seeedstudio.com/wiki/Wifi Shield (Fi250) V1.1
+Wifi Shield V1.0‏‎,http://wiki.seeed.cc/Wifi_Shield_V1.0‏‎/,http://wiki.seeedstudio.com/wiki/Wifi_Shield_V1.0‏‎
+Wifi Shield V1.1‏‎,http://wiki.seeed.cc/Wifi_Shield_V1.1‏‎/,http://wiki.seeedstudio.com/wiki/Wifi_Shield_V1.1‏‎
 Wifi Shield V2.0,http://wiki.seeed.cc/Wifi_Shield_V2.0/,http://wiki.seeedstudio.com/wiki/Wifi_Shield_V2.0
 Wio Introduction,http://wiki.seeed.cc/Wio/,
 Wio Link,http://wiki.seeed.cc/Wio_Link/,http://wiki.seeedstudio.com/wiki/Wio_Link

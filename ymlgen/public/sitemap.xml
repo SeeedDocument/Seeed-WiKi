@@ -407,6 +407,10 @@
   </url>
   
   <url>
+    <loc>http://wiki.seeed.cc/Ethernet_Shield%E2%80%8F%E2%80%8E/</loc>
+  </url>
+  
+  <url>
     <loc>http://wiki.seeed.cc/FM_Receiver/</loc>
   </url>
   
@@ -1219,6 +1223,10 @@
   </url>
   
   <url>
+    <loc>http://wiki.seeed.cc/Grove-Serial_LCD_V1.0%E2%80%8F%E2%80%8E/</loc>
+  </url>
+  
+  <url>
     <loc>http://wiki.seeed.cc/Grove_Shield_for_Intel_Joule/</loc>
   </url>
   
@@ -1645,6 +1653,10 @@
   </url>
   
   <url>
+    <loc>http://wiki.seeed.cc/Lipo_Rider/</loc>
+  </url>
+  
+  <url>
     <loc>http://wiki.seeed.cc/Lipo_Rider_Pro/</loc>
   </url>
   
@@ -1698,6 +1710,10 @@
   
   <url>
     <loc>http://wiki.seeed.cc/Motor_Shield%E2%80%8F%E2%80%8E/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/Music_Shield/</loc>
   </url>
   
   <url>
@@ -1963,6 +1979,10 @@
   </url>
   
   <url>
+    <loc>http://wiki.seeed.cc/SD_Card_Shield/</loc>
+  </url>
+  
+  <url>
     <loc>http://wiki.seeed.cc/SD_Card_shield_V4.0/</loc>
   </url>
   
@@ -2035,7 +2055,15 @@
   </url>
   
   <url>
+    <loc>http://wiki.seeed.cc/Seeeduino_Stalker_v2.3%E2%80%8F%E2%80%8E/</loc>
+  </url>
+  
+  <url>
     <loc>http://wiki.seeed.cc/Seeeduino_Stalker_v3_enclosure/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/Seeeduino_v2.21%E2%80%8F%E2%80%8E/</loc>
   </url>
   
   <url>
@@ -2205,6 +2233,14 @@
   
   <url>
     <loc>http://wiki.seeed.cc/Wifi_Shield_Fi250_V1.1/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/Wifi_Shield_V1.0%E2%80%8F%E2%80%8E/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/Wifi_Shield_V1.1%E2%80%8F%E2%80%8E/</loc>
   </url>
   
   <url>
