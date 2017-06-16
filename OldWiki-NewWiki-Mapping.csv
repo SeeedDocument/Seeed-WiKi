@@ -40,6 +40,7 @@ Arduino Introduction,http://wiki.seeed.cc/Arduino/,
 Arduino Software I2C user guide,http://wiki.seeed.cc/Arduino_Software_I2C_user_guide/,http://wiki.seeedstudio.com/wiki/Arduino Software I2C user guide
 Atom Node,http://wiki.seeed.cc/Atom_Node/,http://wiki.seeedstudio.com/wiki/Atom Node
 BLE (dual) Bee v1.0,http://wiki.seeed.cc/BLE_dual_Bee_v1.0/,http://wiki.seeedstudio.com/wiki/BLE (dual) Bee v1.0
+BLE Bee,http://wiki.seeed.cc/BLE_Bee‏‎/,http://wiki.seeedstudio.com/wiki/BLE_Bee
 BLE Carbon,http://wiki.seeed.cc/BLE_Carbon/,
 BLE Micro,http://wiki.seeed.cc/BLE_Micro/,http://wiki.seeedstudio.com/wiki/BLE Micro
 BLE Nitrogen,http://wiki.seeed.cc/BLE_Nitrogen/,
@@ -47,6 +48,7 @@ Base Shield V2,http://wiki.seeed.cc/Base_Shield_V2/,
 Basic Fastener Kit,http://wiki.seeed.cc/Basic_Fastener_Kit/,http://wiki.seeedstudio.com/wiki/Basic Fastener Kit
 Battery Detector with Polymer Lithium Ion 1050mAh 3.7V,http://wiki.seeed.cc/Battery_Detector_with_Polymer_Lithium_Ion_1050mAh_3.7V/,http://wiki.seeedstudio.com/wiki/Battery_Detector_with_Polymer_Lithium_Ion_1050mAh_3.7V
 Battery Detector with Polymer Lithium Ion 5100mAh 3.8V,http://wiki.seeed.cc/Battery_Detector_with_Polymer_Lithium_Ion_5100mAh_3.8V/,http://wiki.seeedstudio.com/wiki/Battery_Detector_with_Polymer_Lithium_Ion_5100mAh_3.8V
+Battery kit 3.7V 520mAh,http://wiki.seeed.cc/Battery_kit_3.7V_520_mAh/,http://wiki.seeedstudio.com/wiki/Battery_kit-3.7V_520_mAh
 Beagle Bone Green and Grove IoT Starter Kit Powered by AWS,http://wiki.seeed.cc/Beagle_Bone_Green_and_Grove_IoT_Starter_Kit_Powered_by_AWS/,http://wiki.seeedstudio.com/wiki/Beagle_Bone_Green_and_Grove_IoT_Starter_Kit_Powered_by_AWS
 BeagleBone Case,http://wiki.seeed.cc/Beaglebone_Case/,http://wiki.seeedstudio.com/wiki/BeagleBone Case
 BeagleBone Green,http://wiki.seeed.cc/BeagleBone_Green/,http://wiki.seeedstudio.com/wiki/BeagleBone_Green
@@ -95,6 +97,7 @@ ESP32 Breakout Kit,http://wiki.seeed.cc/ESP32_Breakout_Kit/,
 Eclipse IDE for RePhone Kit,http://wiki.seeed.cc/Eclipse_IDE_for_RePhone_Kit/,http://wiki.seeedstudio.com/wiki/Eclipse IDE for RePhone Kit
 Energy Shield,http://wiki.seeed.cc/Energy_Shield/,http://wiki.seeedstudio.com/wiki/Energy_Shield
 Essentials Introduction,http://wiki.seeed.cc/Essentials/,
+Ethernet Shield V2.0‏‎,http://wiki.seeed.cc/Ethernet_Shield_V2.0‏‎/,http://wiki.seeedstudio.com/wiki/Ethernet_Shield_V2.0‏‎
 FM Receiver,http://wiki.seeed.cc/FM_Receiver/,
 FSM-55,http://wiki.seeed.cc/FSM-55/,http://wiki.seeedstudio.com/wiki/FSM-55
 FST-01,http://wiki.seeed.cc/FST-01/,http://wiki.seeedstudio.com/wiki/FST-01
@@ -108,6 +111,7 @@ G3/4 Water Flow sensor,http://wiki.seeed.cc/G3-4_Water_Flow_sensor/,http://wiki.
 GPRS Shield V1.0,http://wiki.seeed.cc/GPRS_Shield_v1.0/,http://wiki.seeedstudio.com/wiki/GPRS Shield V1.0
 GPRS Shield V2.0,http://wiki.seeed.cc/GPRS_Shield_V2.0/,http://wiki.seeedstudio.com/wiki/GPRS Shield V2.0
 GPRS Shield V3.0,http://wiki.seeed.cc/GPRS_Shield_V3.0/,http://wiki.seeedstudio.com/wiki/GPRS Shield V3.0
+GPRS Shield‏‎,http://wiki.seeed.cc/GPRS-Shield‏‎/,http://wiki.seeedstudio.com/wiki/GPRS-Shield‏‎
 GPS Bee kit,http://wiki.seeed.cc/GPS_Bee_kit/,http://wiki.seeedstudio.com/wiki/GPS Bee kit
 Galileo Case,http://wiki.seeed.cc/Galileo_Case/,http://wiki.seeedstudio.com/wiki/Galileo Case
 Getting Started with Seeeduino,http://wiki.seeed.cc/Getting_Started_with_Seeeduino/,http://wiki.seeedstudio.com/wiki/Getting Started with Seeeduino
@@ -296,6 +300,7 @@ Grove IoT Developer Kit - Microsoft Azure Edition,http://wiki.seeed.cc/Grove_IoT
 Grove IoT Starter Kits Powered by AWS,http://wiki.seeed.cc/Grove_IoT_Starter_Kits_Powered_by_AWS/,http://wiki.seeedstudio.com/wiki/Grove IoT Starter Kits Powered by AWS
 Grove Maker Kit for Intel Joule,http://wiki.seeed.cc/Grove Maker Kit for Intel Joule/,
 Grove Maker Kit for Intel Joule,http://wiki.seeed.cc/Grove_Maker_Kit_for_Intel_Joule/,
+Grove Serial Bluetooth‏‎,http://wiki.seeed.cc/Grove-Serial_Bluetooth‏‎/,http://wiki.seeedstudio.com/wiki/Grove-Serial_Bluetooth‏‎
 Grove Shield for Intel Joule,http://wiki.seeed.cc/Grove_Shield_for_Intel_Joule/,
 Grove Smart Plant Care Kit,http://wiki.seeed.cc/Grove_Smart_Plant_Care_Kit/,http://wiki.seeedstudio.com/wiki/Grove Smart Plant Care Kit
 Grove Speech Recognizer Kit for Arduino,http://wiki.seeed.cc/Grove_Speech_Recognizer_Kit_for_Arduino/,http://wiki.seeedstudio.com/wiki/Grove Speech Recognizer Kit for Arduino
@@ -358,8 +363,10 @@ Mini Soldering Iron,http://wiki.seeed.cc/Mini_Soldering_Iron/,http://wiki.seeeds
 Motor Bridge Cape v1.0,http://wiki.seeed.cc/Motor_Bridge_Cape_v1.0/,http://wiki.seeedstudio.com/wiki/Motor_Bridge_Cape_v1.0
 Motor Shield V1.0,http://wiki.seeed.cc/Motor_Shield_V1.0/,http://wiki.seeedstudio.com/wiki/Motor_Shield_V1.0
 Motor Shield V2.0,http://wiki.seeed.cc/Motor_Shield_V2.0/,http://wiki.seeedstudio.com/wiki/Motor_Shield_V2.0
+Motor Shield‏‎,http://wiki.seeed.cc/Motor_Shield‏‎/,http://wiki.seeedstudio.com/wiki/Motor_Shield‏‎
 Music Shield V2.2,http://wiki.seeed.cc/Music_Shield_V2.2/,http://wiki.seeedstudio.com/wiki/Music_Shield_V2.2
 NFC Shield V2.0,http://wiki.seeed.cc/NFC_Shield_V2.0/,http://wiki.seeedstudio.com/wiki/NFC_Shield_V2.0
+NFC Shield‏‎,http://wiki.seeed.cc/NFC_Shield‏‎/,http://wiki.seeedstudio.com/wiki/NFC_Shield‏‎
 Nose LED Kit,http://wiki.seeed.cc/Nose_LED_Kit/,http://wiki.seeedstudio.com/wiki/Nose LED Kit
 Others Introduction,http://wiki.seeed.cc/Others/,
 PIR Motion sensor module,http://wiki.seeed.cc/PIR_Motion_sensor_module/,http://wiki.seeedstudio.com/wiki/PIR Motion sensor module
@@ -434,6 +441,7 @@ Seeeduino Mega Protoshield Kit,http://wiki.seeed.cc/Seeeduino_Mega_Protoshield_K
 Seeeduino Stalker V3 - Waterproof Solar Kit,http://wiki.seeed.cc/Seeeduino_Stalker_V3-Waterproof_Solar_Kit/,http://wiki.seeedstudio.com/wiki/Seeeduino Stalker V3 - Waterproof Solar Kit
 Seeeduino Stalker V3.1,http://wiki.seeed.cc/Seeeduino_Stalker_V3.1/,
 Seeeduino Stalker v3 enclosure,http://wiki.seeed.cc/Seeeduino_Stalker_v3_enclosure/,http://wiki.seeedstudio.com/wiki/Seeeduino Stalker v3 enclosure
+Seeeduino v3.0‏‎,http://wiki.seeed.cc/Seeeduino_v3.0‏‎/,http://wiki.seeedstudio.com/wiki/Seeeduino_v3.0‏‎
 Seeeduino v4.2,http://wiki.seeed.cc/Seeeduino_v4.2/,http://wiki.seeedstudio.com/wiki/Seeeduino_v4.2
 Sensor Introduction,http://wiki.seeed.cc/Sensor/,
 Service for Fusion PCB,http://wiki.seeed.cc/Service_for_Fusion_PCB/,http://wiki.seeedstudio.com/wiki/Service for Fusion PCB
@@ -472,6 +480,7 @@ W5500 Ethernet Shield v1.0,http://wiki.seeed.cc/W5500_Ethernet_Shield_v1.0/,http
 Weight Sensor (Load Cell)0-500g,http://wiki.seeed.cc/Weight_Sensor_Load_Cell_0-500g/,http://wiki.seeedstudio.com/wiki/Weight Sensor (Load Cell)0-500g
 WiFi Serial Transceiver Module,http://wiki.seeed.cc/WiFi_Serial_Transceiver_Module/,http://wiki.seeedstudio.com/wiki/WiFi Serial Transceiver Module
 Wifi Bee v2.0,http://wiki.seeed.cc/Wifi_Bee_v2.0/,http://wiki.seeedstudio.com/wiki/Wifi Bee v2.0
+Wifi Bee‏‎,http://wiki.seeed.cc/Wifi_Bee‏‎/,http://wiki.seeedstudio.com/wiki/Wifi_Bee‏‎
 Wifi Shield (Fi250) V1.1,http://wiki.seeed.cc/Wifi_Shield_Fi250_V1.1/,http://wiki.seeedstudio.com/wiki/Wifi Shield (Fi250) V1.1
 Wifi Shield V2.0,http://wiki.seeed.cc/Wifi_Shield_V2.0/,http://wiki.seeedstudio.com/wiki/Wifi_Shield_V2.0
 Wio Introduction,http://wiki.seeed.cc/Wio/,
