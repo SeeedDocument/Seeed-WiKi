@@ -312,4 +312,4 @@ Figure 9.2 JTAG probe interface connections
 
 | Rev. | Date | Description |
 | --- | --- | --- |
-| 1.00 | March 3, 2017 | - | Initial version |
+| 1.00 | March 3, 2017 | Initial version |
