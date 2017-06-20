@@ -403,6 +403,10 @@
   </url>
   
   <url>
+    <loc>http://wiki.seeed.cc/Ethernet_Shield_V1.0%E2%80%8F%E2%80%8E/</loc>
+  </url>
+  
+  <url>
     <loc>http://wiki.seeed.cc/Ethernet_Shield_V2.0%E2%80%8F%E2%80%8E/</loc>
   </url>
   
@@ -1187,6 +1191,10 @@
   </url>
   
   <url>
+    <loc>http://wiki.seeed.cc/Grove-BlinkM%E2%80%8F%E2%80%8E/</loc>
+  </url>
+  
+  <url>
     <loc>http://wiki.seeed.cc/Grove_Breakout_for_LinkIt_Smart_7688_Duo/</loc>
   </url>
   
@@ -1529,6 +1537,10 @@
   
   <url>
     <loc>http://wiki.seeed.cc/Intel_Edison_and_Grove_IoT_Starter_Kit_Powered_by_AWS/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/IoT_Fast_Prototyping_Kit%20S5D9_User_Manual/</loc>
   </url>
   
   <url>
