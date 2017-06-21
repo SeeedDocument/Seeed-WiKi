@@ -28,6 +28,7 @@ AVR USB Programmer,http://wiki.seeed.cc/AVR_USB_Programmer/,http://wiki.seeedstu
 About Seeeed,http://wiki.seeed.cc/About/,
 Adjustable DC - DC Power Converter(1V - 12V1.5A),http://wiki.seeed.cc/Adjustable_DC_DC_Power_Converter_1V-12V-1.5A/,http://wiki.seeedstudio.com/wiki/Adjustable DC - DC Power Converter(1V - 12V1.5A)
 Arch BLE,http://wiki.seeed.cc/Arch_BLE/,http://wiki.seeedstudio.com/wiki/Arch_BLE
+Arch GPRS,http://wiki.seeed.cc/Arch_GPRS/,http://wiki.seeedstudio.com/wiki/Arch_GPRS
 Arch GPRS V2,http://wiki.seeed.cc/Arch_GPRS_V2/,http://wiki.seeedstudio.com/wiki/Arch_GPRS_V2
 Arch Link,http://wiki.seeed.cc/Arch_Link/,http://wiki.seeedstudio.com/wiki/Arch_Link
 Arch Max v1.1,http://wiki.seeed.cc/Arch_Max_v1.1/,http://wiki.seeedstudio.com/wiki/Arch_Max_v1.1
@@ -357,6 +358,7 @@ LinkIt Smart 7688 Duo,http://wiki.seeed.cc/LinkIt_Smart_7688_Duo/,
 Linkit Connect 7681,http://wiki.seeed.cc/Linkit_Connect_7681/,http://wiki.seeedstudio.com/wiki/Linkit_Connect_7681
 Lipo Rider,http://wiki.seeed.cc/Lipo_Rider/,http://wiki.seeedstudio.com/wiki/Lipo_Rider
 Lipo Rider Pro,http://wiki.seeed.cc/Lipo_Rider_Pro/,http://wiki.seeedstudio.com/wiki/Lipo_Rider_Pro
+Lipo Rider V1.1,http://wiki.seeed.cc/Lipo_Rider_V1.1/,http://wiki.seeedstudio.com/wiki/Lipo_Rider_V1.1
 Lipo Rider V1.3,http://wiki.seeed.cc/Lipo_Rider_V1.3/,http://wiki.seeedstudio.com/wiki/Lipo_Rider_V1.3
 LoNet 808 - Mini GSM/GPRS + GPS Breakout,http://wiki.seeed.cc/LoNet_808-Mini_GSM_GPRS_Plus_GPS_Breakout/,http://wiki.seeedstudio.com/wiki/LoNet 808 - Mini GSM/GPRS + GPS Breakout
 LoRa/LoRaWAN Gateway Kit,http://wiki.seeed.cc/LoRa_LoRaWan_Gateway_Kit/,
@@ -371,7 +373,9 @@ Motor Shield V1.0,http://wiki.seeed.cc/Motor_Shield_V1.0/,http://wiki.seeedstudi
 Motor Shield V2.0,http://wiki.seeed.cc/Motor_Shield_V2.0/,http://wiki.seeedstudio.com/wiki/Motor_Shield_V2.0
 Motor Shield‏‎,http://wiki.seeed.cc/Motor_Shield‏‎/,http://wiki.seeedstudio.com/wiki/Motor_Shield‏‎
 Music Shield,http://wiki.seeed.cc/Music_Shield/,http://wiki.seeedstudio.com/wiki/Music_Shield
+Music Shield V1.0‏‎,http://wiki.seeed.cc/Music_Shield_V1.0‏‎/,http://wiki.seeedstudio.com/wiki/Music_Shield_V1.0‏‎
 Music Shield V2.2,http://wiki.seeed.cc/Music_Shield_V2.2/,http://wiki.seeedstudio.com/wiki/Music_Shield_V2.2
+NFC Shield V1.0,http://wiki.seeed.cc/NFC_Shield_V1.0/,http://wiki.seeedstudio.com/wiki/NFC_Shield_V1.0
 NFC Shield V2.0,http://wiki.seeed.cc/NFC_Shield_V2.0/,http://wiki.seeedstudio.com/wiki/NFC_Shield_V2.0
 NFC Shield‏‎,http://wiki.seeed.cc/NFC_Shield‏‎/,http://wiki.seeedstudio.com/wiki/NFC_Shield‏‎
 Nose LED Kit,http://wiki.seeed.cc/Nose_LED_Kit/,http://wiki.seeedstudio.com/wiki/Nose LED Kit
@@ -448,11 +452,14 @@ Seeeduino Mega,http://wiki.seeed.cc/Seeeduino_Mega/,http://wiki.seeedstudio.com/
 Seeeduino Mega Protoshield Kit,http://wiki.seeed.cc/Seeeduino_Mega_Protoshield_Kit/,http://wiki.seeedstudio.com/wiki/Seeeduino Mega Protoshield Kit
 Seeeduino Stalker V3 - Waterproof Solar Kit,http://wiki.seeed.cc/Seeeduino_Stalker_V3-Waterproof_Solar_Kit/,http://wiki.seeedstudio.com/wiki/Seeeduino Stalker V3 - Waterproof Solar Kit
 Seeeduino Stalker V3.1,http://wiki.seeed.cc/Seeeduino_Stalker_V3.1/,
+Seeeduino Stalker v1.0,http://wiki.seeed.cc/Seeeduino_Stalker_v1.0/,http://wiki.seeedstudio.com/wiki/Seeeduino_Stalker_v1.0
 Seeeduino Stalker v2.3‏‎,http://wiki.seeed.cc/Seeeduino_Stalker_v2.3‏‎/,http://wiki.seeedstudio.com/wiki/Seeeduino_Stalker_v2.3‏‎
 Seeeduino Stalker v3 enclosure,http://wiki.seeed.cc/Seeeduino_Stalker_v3_enclosure/,http://wiki.seeedstudio.com/wiki/Seeeduino Stalker v3 enclosure
+Seeeduino V2.2‏‎,http://wiki.seeed.cc/Seeeduino_V2.2‏‎/,http://wiki.seeedstudio.com/wiki/Seeeduino_V2.2‏‎
 Seeeduino v2.21‏‎,http://wiki.seeed.cc/Seeeduino_v2.21‏‎/,http://wiki.seeedstudio.com/wiki/Seeeduino_v2.21‏‎
 Seeeduino v3.0‏‎,http://wiki.seeed.cc/Seeeduino_v3.0‏‎/,http://wiki.seeedstudio.com/wiki/Seeeduino_v3.0‏‎
 Seeeduino v4.2,http://wiki.seeed.cc/Seeeduino_v4.2/,http://wiki.seeedstudio.com/wiki/Seeeduino_v4.2
+Seeeduino‏‎,http://wiki.seeed.cc/Seeeduino‏‎/,http://wiki.seeedstudio.com/wiki/Seeeduino‏‎
 Sensor Introduction,http://wiki.seeed.cc/Sensor/,
 Service for Fusion PCB,http://wiki.seeed.cc/Service_for_Fusion_PCB/,http://wiki.seeedstudio.com/wiki/Service for Fusion PCB
 Shield Bot V1.1,http://wiki.seeed.cc/Shield_Bot_V1.1/,http://wiki.seeedstudio.com/wiki/Shield Bot V1.1
@@ -474,12 +481,14 @@ Solar Charger Shield V2.2,http://wiki.seeed.cc/Solar_Charger_Shield_V2.2/,http:/
 Sound Sensor And LED Bar,http://wiki.seeed.cc/Sound_Sensor_And_LED_Bar/,http://wiki.seeedstudio.com/wiki/Sound Sensor And LED Bar
 Starter bundle harness V1.0,http://wiki.seeed.cc/Starter_bundle_harness_V1/,http://wiki.seeedstudio.com/wiki/Starter bundle harness V1.0
 Suli,http://wiki.seeed.cc/Suli/,http://wiki.seeedstudio.com/wiki/Suli
+TFT Touch Shield V1.0‏‎,http://wiki.seeed.cc/TFT_Touch_Shield_V1.0‏‎/,http://wiki.seeedstudio.com/wiki/TFT_Touch_Shield_V1.0‏‎
 Temperature Sensor,http://wiki.seeed.cc/temperature_sensor/,http://wiki.seeedstudio.com/wiki/Temperature Sensor
 Tiny BLE,http://wiki.seeed.cc/Tiny_BLE/,http://wiki.seeedstudio.com/wiki/Tiny BLE
 Tricycle Bot,http://wiki.seeed.cc/Tricycle_Bot/,
 Tutorial Introduction,http://wiki.seeed.cc/Tutorial/,
 USB To Uart 5V,http://wiki.seeed.cc/USB_To_Uart_5V/,http://wiki.seeedstudio.com/wiki/USB To Uart 5V
 USB To Uart 5V/3V3,http://wiki.seeed.cc/USB_To_Uart_5V_3V3/,http://wiki.seeedstudio.com/wiki/USB To Uart 5V/3V3
+UartSBee V3.1,http://wiki.seeed.cc/UartSBee_V3.1/,http://wiki.seeedstudio.com/wiki/UartSBee_V3.1
 UartSBee V4,http://wiki.seeed.cc/UartSBee_V4/,http://wiki.seeedstudio.com/wiki/UartSBee V4
 UartSBee v5,http://wiki.seeed.cc/UartSBee_v5/,http://wiki.seeedstudio.com/wiki/UartSBee_v5
 Ultra Sonic range measurement module,http://wiki.seeed.cc/Ultra_Sonic_range_measurement_module/,http://wiki.seeedstudio.com/wiki/Ultra Sonic range measurement module
