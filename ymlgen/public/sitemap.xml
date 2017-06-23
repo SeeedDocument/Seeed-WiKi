@@ -90,6 +90,14 @@
   </url>
   
   <url>
+    <loc>http://wiki.seeed.cc/5V-3.3V_Breadboard_Power_Supply_v1.1/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/5V-3.3V_Breadboard_Power_Supply%E2%80%8F%E2%80%8E/</loc>
+  </url>
+  
+  <url>
     <loc>http://wiki.seeed.cc/A_Comparison_of_Different_Grove_Temperature_Sensors/</loc>
   </url>
   
@@ -140,6 +148,10 @@
   
   <url>
     <loc>http://wiki.seeed.cc/Arch_Max_v1.1/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/Arch_Max%E2%80%8F%E2%80%8E/</loc>
   </url>
   
   <url>
@@ -396,6 +408,18 @@
   
   <url>
     <loc>http://wiki.seeed.cc/Eclipse_IDE_for_RePhone_Kit/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/Edison_4WD_Auto_Robotic_Platform_2.0%E2%80%8F%E2%80%8E/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/Edison_4WD_Auto_Robotic_Platform%E2%80%8F%E2%80%8E/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/Energy_Monitor_Shield_V0.9b%E2%80%8F%E2%80%8E/</loc>
   </url>
   
   <url>
@@ -1488,6 +1512,10 @@
   </url>
   
   <url>
+    <loc>http://wiki.seeed.cc/Heart-Sound_Sensor%E2%80%8F%E2%80%8E/</loc>
+  </url>
+  
+  <url>
     <loc>http://wiki.seeed.cc/Hercules_Dual_15A_6-20V_Motor_Controller/</loc>
   </url>
   
@@ -1693,6 +1721,10 @@
   </url>
   
   <url>
+    <loc>http://wiki.seeed.cc/Logic_DC_Jack%E2%80%8F%E2%80%8E/</loc>
+  </url>
+  
+  <url>
     <loc>http://wiki.seeed.cc/Lua_for_RePhone/</loc>
   </url>
   
@@ -1710,6 +1742,10 @@
   
   <url>
     <loc>http://wiki.seeed.cc/Mesh_Bee/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/Mini_GSM_GPRS_GPS_Breakout_SIM808/</loc>
   </url>
   
   <url>
@@ -1895,6 +1931,10 @@
   </url>
   
   <url>
+    <loc>http://wiki.seeed.cc/Rainbowduino_Extension_Board_v0.9b/</loc>
+  </url>
+  
+  <url>
     <loc>http://wiki.seeed.cc/Rainbowduino_LED_driver_platform-ATmega328/</loc>
   </url>
   
@@ -2011,6 +2051,10 @@
   </url>
   
   <url>
+    <loc>http://wiki.seeed.cc/SD_Card_Shield_V3.0%E2%80%8F%E2%80%8E/</loc>
+  </url>
+  
+  <url>
     <loc>http://wiki.seeed.cc/SD_Card_shield_V4.0/</loc>
   </url>
   
@@ -2032,6 +2076,10 @@
   
   <url>
     <loc>http://wiki.seeed.cc/Seeeduino_ADK_Main_Board%E2%80%8F%E2%80%8E/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/Seeeduino_Arch%E2%80%8F%E2%80%8E/</loc>
   </url>
   
   <url>
@@ -2095,6 +2143,18 @@
   </url>
   
   <url>
+    <loc>http://wiki.seeed.cc/Seeeduino_Stalker%E2%80%8F%E2%80%8E/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/Seeeduino-Stalker_v3%E2%80%8F%E2%80%8E/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/Seeeduino_V2.2_Atmega-168P/</loc>
+  </url>
+  
+  <url>
     <loc>http://wiki.seeed.cc/Seeeduino_V2.2%E2%80%8F%E2%80%8E/</loc>
   </url>
   
@@ -2107,6 +2167,10 @@
   </url>
   
   <url>
+    <loc>http://wiki.seeed.cc/Seeeduino_v4.0%E2%80%8F%E2%80%8E/</loc>
+  </url>
+  
+  <url>
     <loc>http://wiki.seeed.cc/Seeeduino_v4.2/</loc>
   </url>
   
@@ -2116,6 +2180,10 @@
   
   <url>
     <loc>http://wiki.seeed.cc/Sensor/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/Serial_port_bluetooth_module_Master-Slave/</loc>
   </url>
   
   <url>
@@ -2136,6 +2204,10 @@
   
   <url>
     <loc>http://wiki.seeed.cc/Shield-MaTrix-V0.9b/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/Sidekick_Advanced_Kit%E2%80%8F%E2%80%8E/</loc>
   </url>
   
   <url>
@@ -2183,7 +2255,15 @@
   </url>
   
   <url>
+    <loc>http://wiki.seeed.cc/Small_e-Paper_Shield%E2%80%8F%E2%80%8E/</loc>
+  </url>
+  
+  <url>
     <loc>http://wiki.seeed.cc/Solar_Charger_Shield_V2.2/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/Solar_Charger_Shield%E2%80%8F%E2%80%8E/</loc>
   </url>
   
   <url>
@@ -2192,6 +2272,18 @@
   
   <url>
     <loc>http://wiki.seeed.cc/Starter_bundle_harness_V1/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/Starter_Shield_EN%E2%80%8F%E2%80%8E/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/Stepper_Motor_Driver%E2%80%8F%E2%80%8E/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/Stepper_Motor_Driver_v2.3%E2%80%8F%E2%80%8E/</loc>
   </url>
   
   <url>
@@ -2205,6 +2297,10 @@
   <url>
     <loc>http://wiki.seeed.cc/tags/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/Techbox_Tricks%E2%80%8F%E2%80%8E/</loc>
   </url>
   
   <url>
@@ -2224,11 +2320,19 @@
   </url>
   
   <url>
+    <loc>http://wiki.seeed.cc/USB_To_Uart_3V3%E2%80%8F%E2%80%8E/</loc>
+  </url>
+  
+  <url>
     <loc>http://wiki.seeed.cc/USB_To_Uart_5V/</loc>
   </url>
   
   <url>
     <loc>http://wiki.seeed.cc/USB_To_Uart_5V_3V3/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/UartSB_Frame%E2%80%8F%E2%80%8E/</loc>
   </url>
   
   <url>
@@ -2264,6 +2368,10 @@
   </url>
   
   <url>
+    <loc>http://wiki.seeed.cc/Wifi_Shield%E2%80%8F%E2%80%8E/</loc>
+  </url>
+  
+  <url>
     <loc>http://wiki.seeed.cc/Weight_Sensor_Load_Cell_0-500g/</loc>
   </url>
   
@@ -2289,6 +2397,10 @@
   
   <url>
     <loc>http://wiki.seeed.cc/Wifi_Shield_V1.1%E2%80%8F%E2%80%8E/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/Wifi_Shield_V1.2/</loc>
   </url>
   
   <url>
@@ -2349,6 +2461,10 @@
   
   <url>
     <loc>http://wiki.seeed.cc/Wireless_Sensor_Node-Solar_Kit/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/XBee_Shield/</loc>
   </url>
   
   <url>

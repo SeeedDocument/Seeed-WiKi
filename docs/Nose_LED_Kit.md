@@ -1,6 +1,6 @@
 ---
 title: Nose LED Kit
-category: Tutorial
+category: Discontinued
 bzurl:  https://www.seeedstudio.com/Nose-LED-Kit-p-1274.html
 oldwikiname: Nose LED Kit
 prodimagename:

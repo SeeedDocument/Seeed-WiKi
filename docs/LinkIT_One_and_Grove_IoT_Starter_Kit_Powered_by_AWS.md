@@ -1,6 +1,6 @@
 ---
 title: LinkIT One and Grove IoT Starter Kit Powered by AWS
-category: LinkIt
+category: Discontinued
 bzurl:  https://www.amazon.com/dp/B0168LBYWC
 oldwikiname: LinkIT One and Grove IoT Starter Kit Powered by AWS
 prodimagename:  

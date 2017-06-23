@@ -36,6 +36,8 @@ surveyurl: https://www.research.net/r/IoT_Fast_Prototyping_Kit_S5D9_User_Manual
 
 Please contact a Renesas Electronics sales office if you have any questions regarding the information contained in this document or Renesas Electronics products, or if you have any other inquiries.
 
+**Introduction**
+
 ![](https://github.com/SeeedDocument/IoT_Fast_Prototyping_Kit_S5D9_User_Manual/raw/master/img/S5D9_MCU_Board.png)
 
 The S5D9 IoT Fast Prototyping Kit features include the following interface options:

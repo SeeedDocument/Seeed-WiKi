@@ -19,7 +19,6 @@ Here is the list of the LinkIt Boards you can find in the Seeed WiKi. The list w
 - [Grove - Starter Kit for LinkIt ONE](/Grove-Starter_Kit_for_LinkIt_ONE/)
 - [Grove Breakout for LinkIt Smart 7688 Duo](/Grove_Breakout_for_LinkIt_Smart_7688_Duo/)
 - [Grove Starter kit for LinkIt Smart7688 Duo](/Grove_Starter_kit_for_LinkIt_Smart7688_Duo/)
-- [LinkIT One and Grove IoT Starter Kit Powered by AWS](/LinkIT_One_and_Grove_IoT_Starter_Kit_Powered_by_AWS/)
 - [LinkIt ONE](/LinkIt_ONE/)
 - [LinkIt Smart 7688](/LinkIt_Smart_7688/)
 - [LinkIt Smart 7688 Duo](/LinkIt_Smart_7688_Duo/)

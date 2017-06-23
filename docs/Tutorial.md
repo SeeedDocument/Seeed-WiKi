@@ -44,7 +44,6 @@ Here is the list of the Tutorial you can find in the Seeed WiKi. The list will b
 - [LinkIt ONE Tutorial - SMS control the LED](/LinkIt_ONE_Tutorial-SMS_control_the_LED/)
 - [LinkIt ONE Tutorial - The Basics](/LinkIt_ONE_Tutorial-The_Basics/)
 - [Lua for RePhone](/Lua_for_RePhone/)
-- [Nose LED Kit](/Nose_LED_Kit/)
 - [Project Eight - Thermostat](/Project_Eight-Thermostat/)
 - [Project Five – Relay Control](/Project_Five-Relay_Control/)
 - [Project Four – Noise Maker](/Project_Four-Noise_Maker/)

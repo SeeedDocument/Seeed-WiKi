@@ -1,6 +1,6 @@
 ---
 title: Intel® Edison and Grove IoT Starter Kit Powered by AWS
-category: Others
+category: Discontinued
 bzurl:  https://www.amazon.com/dp/B0168KU5FK
 oldwikiname: Intel® Edison and Grove IoT Starter Kit Powered by AWS
 prodimagename:
