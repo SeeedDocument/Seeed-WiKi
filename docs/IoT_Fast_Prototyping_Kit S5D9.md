@@ -1,7 +1,7 @@
 ---
-title: IoT Fast Prototyping Kit S5D9 User Manual
+title: IoT Fast Prototyping Kit S5D9
 category: Tutorial
-oldwikiname:  IoT Fast Prototyping Kit S5D9 User Manual
+oldwikiname:  IoT Fast Prototyping Kit S5D9
 prodimagename:  
 surveyurl: https://www.research.net/r/IoT_Fast_Prototyping_Kit_S5D9_User_Manual
 ---
@@ -36,7 +36,15 @@ surveyurl: https://www.research.net/r/IoT_Fast_Prototyping_Kit_S5D9_User_Manual
 
 Please contact a Renesas Electronics sales office if you have any questions regarding the information contained in this document or Renesas Electronics products, or if you have any other inquiries.
 
-**Introduction**
+## Quick Start Guide
+
+![](https://github.com/SeeedDocument/IoT_Fast_Prototyping_Kit_S5D9_User_Manual/raw/master/img/Quick%20Start%20Guide.jpeg)
+
+- The link of Step4: [www.renesas.com/iotsandbox/S5D9/tutorial](www.renesas.com/iotsandbox/S5D9/tutorial)
+
+- The link of Step5: [www.renesas.com/iotsandbox/S5D9/getstarted](www.renesas.com/iotsandbox/S5D9/getstarted)
+
+## 1. Overview
 
 ![](https://github.com/SeeedDocument/IoT_Fast_Prototyping_Kit_S5D9_User_Manual/raw/master/img/S5D9_MCU_Board.png)
 
@@ -59,7 +67,7 @@ The kit also includes the following on-board sensors:
 - Knowles SPU0414HR5H-SB amplified SiSonic microphone
 
 
-### S5D9 MCU Board
+### 1.1 S5D9 MCU Board
 
 The S5D9 MCU Board is the heart of the IoT Fast Prototyping Kit. It enables the fast prototyping of applications that require wired Ethernet and USB connectivity along with PMOD and Grove expansion options.
 
@@ -75,9 +83,9 @@ The Grove connections consist of one UART interface and one I2C interface. The G
 
 The board also includes a JTAG interface for programming and debugging.
 
-## S5D9 IoT Fast Prototyping Kit Specification
+## 2. S5D9 IoT Fast Prototyping Kit Specification
 
-### Electrical Specifications
+### 2.2.1 Electrical Specifications
 
 The S5D9 Fast Prototyping Kit specifications are listed in Table 2.1.
 
@@ -98,7 +106,7 @@ Table 2.1 Electrical Specifications
 | MCU RAM                          | 640KB  |              |
 | MCU Clock                        | 120MHz |              |
 
-### Connection Diagram
+### 2.2.2 Connection Diagram
 
 The IoT Fast Prototyping kit is intended to enable quick prototyping of various applications. Figure 2.1 shows the connection of components included in the kit for running the lab with the pre-installed firmware on the board or for designing new applications and downloading firmware over the JTAG interface.
 
@@ -106,9 +114,9 @@ Figure 2.1 Connection Diagram
 
 ![](https://github.com/SeeedDocument/IoT_Fast_Prototyping_Kit_S5D9_User_Manual/raw/master/img/Connection%20Diagram.png)
 
-## S5D9 MCU Board Description
+## 3. S5D9 MCU Board Description
 
-### Block Diagram
+### 3.1 Block Diagram
 
 The main functional blocks of the S5D9 board are presented in Figure 3.1.
 
@@ -127,10 +135,11 @@ The various modules are as follows:
 - Grove interfaces – the Grove connectors are compatible with the Seeed Studio&#39;s line of peripheral modules that feature a very large selection of sensors and actuators. One of the Grove connectors can be configured to communicate over the UART and the other is dedicated for I2C interface.
 - JTAG interface that is available on a 10-pin connector, J20 compatible with Segger debugging probe. Alternatively, a 14-pin Tag-Connect interface probe can be used to program and debug the device.
 
-### Components Layout
+### 3.2 Components Layout
 
-**Error! Reference source not found.** calls out the main components of the S5D9 MCU board.
- ![](https://github.com/SeeedDocument/IoT_Fast_Prototyping_Kit_S5D9_User_Manual/raw/master/img/S5D9_MCU_board_main_components.png)
+Calls out the main components of the S5D9 MCU board.
+
+![](https://github.com/SeeedDocument/IoT_Fast_Prototyping_Kit_S5D9_User_Manual/raw/master/img/Block%20Diagram.png)
 
 **Figure 3.2  S5D9 MCU board main components**
 
@@ -138,11 +147,11 @@ The MCU at the heart of the board is a Renesas Synergy S5D9 device. It is based 
 
 The 32 MB QSPI flash memory is Micron N25Q256A13EF840E. It can be used to store digital assets needed by the GUI design or even an executable code.
 
-## Power Supply
+## 4. Power Supply
 
 The IoT Fast Prototyping Kit requires a single 5V power supply source. It can be provided through the USB Device connector J9 or through the Molex MicroBlade series connector J8.
 
-**Error! Reference source not found.** shows the pin information for the power connectors, and **Error! Reference source not found.** shows the pin information for the USB connector.
+Pin# shows the pin information for the power connectors, and Function shows the pin information for the USB connector.
 
 Table 4.1 USB Device Connector (J9)
 
@@ -156,11 +165,11 @@ Table 4.1 USB Device Connector (J9)
 
 Figure 4.1 LDO regulator used in the MCU board.
 
-![](https://github.com/SeeedDocument/IoT_Fast_Prototyping_Kit_S5D9_User_Manual/raw/master/img/LDO%20regulators%20and%20boost%20converter%20in%20MCU%20board.png)
+![](https://github.com/SeeedDocument/IoT_Fast_Prototyping_Kit_S5D9_User_Manual/raw/master/img/LDO%20regulators%20and%20boost%20converter%20in%20MCU%20board.jpeg)
 
 Figure 4.1 LDO regulators and boost converter in MCU board
 
-## PMOD and Grove Connectors
+## 5. PMOD and Grove Connectors
 
 The S5D9 MCU board offers one PMOD connector. It can interface with modules that require UART, I2C, or SPI interface. The function of the PMOD is dependent on the initialization and the pin-muxing of the MCU. The PMOD connector pin map is shown in Table 5.1.
 
@@ -208,15 +217,15 @@ The pin-mapping of the connectors is described in Table 5.3.
 
 Figure 5.1 and Figure 5.2 show schematics for the PMOD and Grove connectors, respectively.
 
-![](https://github.com/SeeedDocument/IoT_Fast_Prototyping_Kit_S5D9_User_Manual/raw/master/img/PMOD%20schematic.png)
+![](https://github.com/SeeedDocument/IoT_Fast_Prototyping_Kit_S5D9_User_Manual/raw/master/img/PMOD%20schematic.jpeg)
 
 Figure 5.1 PMOD schematic
 
-![](https://github.com/SeeedDocument/IoT_Fast_Prototyping_Kit_S5D9_User_Manual/raw/master/img/Grove_connector_schematic.png)
+![](https://github.com/SeeedDocument/IoT_Fast_Prototyping_Kit_S5D9_User_Manual/raw/master/img/Grove%20connector%20schematic.jpeg)
 
 Figure 5.2 Grove connector schematic
 
-## USB Interface
+## 6. USB Interface
 
 The S5D9 IoT Fast Prototyping kit provides USB device interface only. The wiring of the connector pins to the chip is shown in Table 6.1
 
@@ -232,13 +241,13 @@ Table 6.1 USB Micro B Type Receptacle - Device Mode (J9)
 
 Figure 6.1 describes the USB interface implementation:
 
-![](https://github.com/SeeedDocument/IoT_Fast_Prototyping_Kit_S5D9_User_Manual/raw/master/img/USB%20interface%20implementation.png)
+![](https://github.com/SeeedDocument/IoT_Fast_Prototyping_Kit_S5D9_User_Manual/raw/master/img/USB%20interface%20implementation.jpeg)
 
 Figure 6.1 USB interface implementation
 
-## Digital Inputs and Outputs
+## 7. Digital Inputs and Outputs
 
-### 24V Tolerant Digital Inputs and Outputs
+### 7.1 24V Tolerant Digital Inputs and Outputs
 
 The S5D9 board includes 24V tolerant interface to digital inputs and features 1A rated MOSFETs suitable to drive inductive loads such as solenoids. The schematic below shows circuits related to these interfaces.
 
@@ -246,7 +255,7 @@ Figure 7.1 Digital Inputs and Outputs
 
 The table below shows the mapping between the digital inputs, outputs and the matching MCU pins used for interfacing to them.
 
-![](https://github.com/SeeedDocument/IoT_Fast_Prototyping_Kit_S5D9_User_Manual/raw/master/img/Digital%20Inputs%20and%20Outputs.png)
+![](https://github.com/SeeedDocument/IoT_Fast_Prototyping_Kit_S5D9_User_Manual/raw/master/img/Digital%20Inputs%20and%20Outputs.jpeg)
 
 Table 7.1 24V Tolerant Digital Inputs and Outputs Mapping
 
@@ -268,7 +277,7 @@ Table 7.1 24V Tolerant Digital Inputs and Outputs Mapping
 
 The PMOD and Grove connectors also provide interface to the MCU ports that can be configured as digital inputs or outputs. They are 5V tolerant, so no level shifters are required when interfacing to 5V powered peripherals.
 
-### On-Board LEDs
+### 7.2 On-Board LEDs
 
 The S5D9 board provides 3 on-board LEDs for user-defined functions. They are connected to general purpose output pins through a single resistor. The output active state is 1. When set, it turns the LED on. Table 7.2 describes the mapping between the LEDs and the ports that drive them.
 
@@ -284,7 +293,7 @@ Table 7.2 User Defined LED Mapping
 
 Figure 7.2 Mapping between LEDs, ports
 
-## Dual RS232 Interface
+## 8. Dual RS232 Interface
 
 The S5D9 board provides dual RS232 interface transceiver. The serial interfaces are available on connector J8. The pin mapping of the connector to the MCU ports is described in the table below:
 
@@ -305,7 +314,7 @@ Table 8.1 Dual RS232 Interface
 
 Figure 8.1 Dual RS232 Ports
 
-## JTAG Probe Interface
+## 9. JTAG Probe Interface
 
 The JTAG probe interface is provided on the connector J2. The connector part number is Samtec FTSH-105-01-L-DV-007-K.
 
@@ -319,13 +328,12 @@ Table 9.1 JTAG Probe Interface - Connector J2
 | 7 |   | N.C | 8 | Input | TDI |
 | 9 |   | GND | 10 | Input | RESET |
 
+
 ![](https://github.com/SeeedDocument/IoT_Fast_Prototyping_Kit_S5D9_User_Manual/raw/master/img/JTAG%20probe%20interface%20connections.png)
 
 Figure 9.1 JTAG probe interface connections
 
 Alternatively, the JTAG interface is available on the connector J1 – designed to be used with Tag Connect 14-pin probe. The probe part number is Tag Connect XXXXXXX.
-
-![](https://github.com/SeeedDocument/IoT_Fast_Prototyping_Kit_S5D9_User_Manual/raw/master/img/JTAG%20probe%20interface%20connections.png)
 
 Table 9.2 JTAG Probe Interface - Connector J1
 

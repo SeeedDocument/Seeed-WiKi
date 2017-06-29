@@ -55,6 +55,6 @@ Here is the list of the Seeeduino Boards you can find in the Seeed WiKi. The lis
 - [Tricycle Bot](/Tricycle_Bot/)
 - [UartSBee V4](/UartSBee_V4/)
 - [UartSBee v5](/UartSBee_v5/)
-- [Wio Tracker - GPS, BT3.0, GSM, Arduino Compatible](/WIO_GPS_Board/)
+- [Wio Tracker - GPS, BT3.0, GSM, Arduino Compatible](/wio_gps_board/)
 - [Wio Tracker - LTE CAT1](/Wio_Tracker_LTE_CAT1/)
 

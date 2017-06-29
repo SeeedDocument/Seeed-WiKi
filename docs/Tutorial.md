@@ -28,7 +28,7 @@ Here is the list of the Tutorial you can find in the Seeed WiKi. The list will b
 - [How to use and write a library](/How_to_use_and_write_a_library/)
 - [I2C And I2C Address of Seeed Product](/I2C_And_I2C_Address_of_Seeed_Product/)
 - [IR Remote](/IR_Remote/)
-- [IoT Fast Prototyping Kit S5D9 User Manual](/IoT_Fast_Prototyping_Kit S5D9_User_Manual/)
+- [IoT Fast Prototyping Kit S5D9](/IoT_Fast_Prototyping_Kit S5D9/)
 - [JavaScript for RePhone](/JavaScript_for_RePhone/)
 - [Joystick Control RGB Led](/Joystick_Control_RGB_Led/)
 - [Light Sensor and LED Bar](/Light_Sensor_and_LED_Bar/)
