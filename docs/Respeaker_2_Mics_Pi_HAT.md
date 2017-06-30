@@ -236,7 +236,7 @@ button.when_pressed = say_hello
 pause()
 ```
 
-For more informations abour **gpiozero** library, please click [here](http://gpiozero.readthedocs.io/en/stable/recipes.html#button).
+For more information about **gpiozero** library, please click [here](http://gpiozero.readthedocs.io/en/stable/recipes.html#button).
 
 And you could also program the user button with python2 and RPi.GPIO.
 
@@ -287,7 +287,7 @@ cd /usr/local/lib/python2.7/dist-packages/googlesamples/assistant/grpc
 sudo nano pushtotalk.py
 ```
 
-Go to the buttom of the file(Line 301), then modify as the following code and save:
+Go to the buttom of the file(Line 301), then modify the following code and save:
 
 ```Python
     with SampleAssistant(conversation_stream,
@@ -342,7 +342,7 @@ $ googlesamples-assistant-pushtotalk
 
 ### About our Raspbian image
 
-We have built a Raspbian iamge for your convenience, in which ReSpeaker 2-Mics Pi HAT driver, the Google Assistant Library and APA102 LEDs library are pre-installed.
+We have built a Raspbian image for your convenience, in which ReSpeaker 2-Mics Pi HAT driver, the Google Assistant Library and APA102 LEDs library are pre-installed.
 
 - [Download our Raspbian image](https://s3-us-west-2.amazonaws.com/wiki.seeed.cc/001share/seeed-raspbian-jessie-20170523.7z)
 
