@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Grove_i2c Io_3v3 Io_5v Plat_duino Plat_linkit on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
+    <title>A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
     <link>http://wiki.seeed.cc/tags/grove_i2c-io_3v3-io_5v-plat_duino-plat_linkit/index.xml</link>
-    <description>Recent content in Grove_i2c Io_3v3 Io_5v Plat_duino Plat_linkit on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
+    <description>Recent content on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="http://wiki.seeed.cc/tags/grove_i2c-io_3v3-io_5v-plat_duino-plat_linkit/index.xml" rel="self" type="application/rss+xml" />
@@ -2007,10 +2007,10 @@ Since each electrode needs to be auto-configured by the MPR121 during power up a
     
     <item>
       <title>Grove - Mini I2C Motor Driver v1.0</title>
-      <link>http://wiki.seeed.cc/Grove-Mini_I2C_Motor_Driver_v1.0/</link>
+      <link>http://wiki.seeed.cc/Grove-Mini_I2C_Motor_Driver_v1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://wiki.seeed.cc/Grove-Mini_I2C_Motor_Driver_v1.0/</guid>
+      <guid>http://wiki.seeed.cc/Grove-Mini_I2C_Motor_Driver_v1/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Mini_I2C_Motor_Driver_v1.0/master/img/Mini_I2C_motor_2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -2884,10 +2884,10 @@ You have to copy the file &lt;span style=&#34;font-style:italic&#34;&gt;readTemp
     
     <item>
       <title>Grove - Temperature&amp;Humidity Sensor (High-Accuracy &amp;Mini) v1.0</title>
-      <link>http://wiki.seeed.cc/Grove-TemptureAndHumidity_Sensor-High-Accuracy_AndMini-v1.0/</link>
+      <link>http://wiki.seeed.cc/Grove-TemptureAndHumidity_Sensor-High-Accuracy_AndMini-v1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://wiki.seeed.cc/Grove-TemptureAndHumidity_Sensor-High-Accuracy_AndMini-v1.0/</guid>
+      <guid>http://wiki.seeed.cc/Grove-TemptureAndHumidity_Sensor-High-Accuracy_AndMini-v1/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-TemptureAndHumidity_Sensor-High-Accuracy_AndMini-v1.0/master/img/Grove-TemptureAndHumidity_Sensor-High-Accuracy_AndMini-.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;

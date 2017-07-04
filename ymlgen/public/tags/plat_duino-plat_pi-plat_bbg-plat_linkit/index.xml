@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Plat_duino Plat_pi Plat_bbg Plat_linkit on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
+    <title>A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
     <link>http://wiki.seeed.cc/tags/plat_duino-plat_pi-plat_bbg-plat_linkit/index.xml</link>
-    <description>Recent content in Plat_duino Plat_pi Plat_bbg Plat_linkit on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
+    <description>Recent content on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="http://wiki.seeed.cc/tags/plat_duino-plat_pi-plat_bbg-plat_linkit/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Grove - LED Matrix Driver v1.0</title>
-      <link>http://wiki.seeed.cc/Grove-LED_Matrix_Driver_v1.0/</link>
+      <link>http://wiki.seeed.cc/Grove-LED_Matrix_Driver_v1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://wiki.seeed.cc/Grove-LED_Matrix_Driver_v1.0/</guid>
+      <guid>http://wiki.seeed.cc/Grove-LED_Matrix_Driver_v1/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-LED_Matrix_Driver_v1.0/master/img/Grove-LED_Matrix_Driver_v1.0_product_view_700_s.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -200,10 +200,10 @@ This Grove module does not support changing the input current of each LED separa
     
     <item>
       <title>Grove - MP3 v2.0</title>
-      <link>http://wiki.seeed.cc/Grove-MP3_v2.0/</link>
+      <link>http://wiki.seeed.cc/Grove-MP3_v2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://wiki.seeed.cc/Grove-MP3_v2.0/</guid>
+      <guid>http://wiki.seeed.cc/Grove-MP3_v2/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-MP3_v2.0/master/img/Grove-MP3_v2.0_Product_View_700_S.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Grove_i2c Io_3v3 Io_5v Plat_duino Plat_bbg Plat_pi Plat_wio Plat_linkit on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
+    <title>A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
     <link>http://wiki.seeed.cc/tags/grove_i2c-io_3v3-io_5v-plat_duino-plat_bbg-plat_pi-plat_wio-plat_linkit/index.xml</link>
-    <description>Recent content in Grove_i2c Io_3v3 Io_5v Plat_duino Plat_bbg Plat_pi Plat_wio Plat_linkit on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
+    <description>Recent content on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="http://wiki.seeed.cc/tags/grove_i2c-io_3v3-io_5v-plat_duino-plat_bbg-plat_pi-plat_wio-plat_linkit/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Grove - OLED Display 0.96 inch</title>
-      <link>http://wiki.seeed.cc/Grove-OLED_Display_0.96inch/</link>
+      <link>http://wiki.seeed.cc/Grove-OLED_Display_0/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://wiki.seeed.cc/Grove-OLED_Display_0.96inch/</guid>
+      <guid>http://wiki.seeed.cc/Grove-OLED_Display_0/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove_OLED_Display_0.96/master/images/Grove-OLED-0.96.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -482,10 +482,10 @@ if __name__==&amp;quot;__main__&amp;quot;:
     
     <item>
       <title>Grove - OLED Display 1.12&#34;</title>
-      <link>http://wiki.seeed.cc/Grove-OLED_Display_1.12inch/</link>
+      <link>http://wiki.seeed.cc/Grove-OLED_Display_1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://wiki.seeed.cc/Grove-OLED_Display_1.12inch/</guid>
+      <guid>http://wiki.seeed.cc/Grove-OLED_Display_1/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove_OLED_1.12/master/images/main.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/p&gt;

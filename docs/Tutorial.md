@@ -64,6 +64,7 @@ Here is the list of the Tutorial you can find in the Seeed WiKi. The list will b
 - [Sound Sensor And LED Bar](/Sound_Sensor_And_LED_Bar/)
 - [Suli](/Suli/)
 - [Temperature Sensor](/temperature_sensor/)
+- [Things We Make](/Things_We_Make/)
 - [Upload Code](/Upload_Code/)
 - [Use External Editor](/Use_External_Editor/)
 - [Xadow IO pin mapping](/Xadow_IO_pin_mapping/)

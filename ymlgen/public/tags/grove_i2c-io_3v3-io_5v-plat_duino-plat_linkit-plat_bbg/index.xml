@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Grove_i2c Io_3v3 Io_5v Plat_duino Plat_linkit Plat_bbg on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
+    <title>A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
     <link>http://wiki.seeed.cc/tags/grove_i2c-io_3v3-io_5v-plat_duino-plat_linkit-plat_bbg/index.xml</link>
-    <description>Recent content in Grove_i2c Io_3v3 Io_5v Plat_duino Plat_linkit Plat_bbg on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
+    <description>Recent content on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="http://wiki.seeed.cc/tags/grove_i2c-io_3v3-io_5v-plat_duino-plat_linkit-plat_bbg/index.xml" rel="self" type="application/rss+xml" />
@@ -169,10 +169,10 @@ The diagram below shows the orientation of the axes of sensitivity and the polar
     
     <item>
       <title>Grove - IMU 10DOF v2.0</title>
-      <link>http://wiki.seeed.cc/Grove-IMU_10DOF_v2.0/</link>
+      <link>http://wiki.seeed.cc/Grove-IMU_10DOF_v2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://wiki.seeed.cc/Grove-IMU_10DOF_v2.0/</guid>
+      <guid>http://wiki.seeed.cc/Grove-IMU_10DOF_v2/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://github.com/SeeedDocument/Grove-IMU_10DOF_v2.0/raw/master/img/Grove-imu-10dof-v2.0.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -322,10 +322,10 @@ The diagram below shows the orientation of the axes of sensitivity and the polar
     
     <item>
       <title>Grove - IMU 9DOF v2.0</title>
-      <link>http://wiki.seeed.cc/Grove-IMU_9DOF_v2.0/</link>
+      <link>http://wiki.seeed.cc/Grove-IMU_9DOF_v2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://wiki.seeed.cc/Grove-IMU_9DOF_v2.0/</guid>
+      <guid>http://wiki.seeed.cc/Grove-IMU_9DOF_v2/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_9DOF_v2.0/master/img/Grove-IMU_9DOF_v2.0.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
