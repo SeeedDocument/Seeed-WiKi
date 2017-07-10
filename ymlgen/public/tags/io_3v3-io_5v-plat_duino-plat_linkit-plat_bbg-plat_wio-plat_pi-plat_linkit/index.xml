@@ -1,186 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
-    <link>http://wiki.seeed.cc/tags/io_3v3-io_5v-plat_duino-plat_linkit-plat_bbg-plat_wio-plat_pi-plat_linkit/index.xml</link>
-    <description>Recent content on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
+    <title>Io_3v3 Io_5v Plat_duino Plat_linkit Plat_bbg Plat_wio Plat_pi Plat_linkit on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
+    <link>http://wiki.seeed.cc/tags/io_3v3-io_5v-plat_duino-plat_linkit-plat_bbg-plat_wio-plat_pi-plat_linkit/</link>
+    <description>Recent content in Io_3v3 Io_5v Plat_duino Plat_linkit Plat_bbg Plat_wio Plat_pi Plat_linkit on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://wiki.seeed.cc/tags/io_3v3-io_5v-plat_duino-plat_linkit-plat_bbg-plat_wio-plat_pi-plat_linkit/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://wiki.seeed.cc/tags/io_3v3-io_5v-plat_duino-plat_linkit-plat_bbg-plat_wio-plat_pi-plat_linkit/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Grove - Sound Sensor</title>
-      <link>http://wiki.seeed.cc/Grove-Sound_Sensor/</link>
+      <link>http://wiki.seeed.cc/grove-sound_sensor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://wiki.seeed.cc/Grove-Sound_Sensor/</guid>
-      <description>
+      <guid>http://wiki.seeed.cc/grove-sound_sensor/</guid>
+      <description>Grove - Sound Sensor can detect the sound intensity of the environment. The main component of the module is a simple microphone, which is based on the LM386 amplifier and an electret microphone. This module&amp;rsquo;s output is analog and can be easily sampled and tested by a Seeeduino.
 
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove_Sound_Sensor/master/images/page.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Grove - Sound Sensor can detect the sound intensity of the environment. The main component of the module is a simple microphone, which is based on the LM386 amplifier and an electret microphone. This module&amp;rsquo;s output is analog and can be easily sampled and tested by a Seeeduino.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/Grove-Sound-Sensor-p-752.html&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Easy to use&lt;/li&gt;
-&lt;li&gt;Provides analog output signal&lt;/li&gt;
-&lt;li&gt;Easily integrates with Logic modules on the input side of Grove circuits&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://wiki.seeed.cc/Grove_System/&#34;&gt;Grove System&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;!!!Warning
-    This sound sensor is used to detect whether there&amp;rsquo;s sound surround or not, please don&amp;rsquo;t use the module to collect sound signal. For example, you can use it to make a sound control lamp, but not as a recording device.&lt;/p&gt;
-
-&lt;h2 id=&#34;specifications&#34;&gt;Specifications&lt;/h2&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Item&lt;/th&gt;
-&lt;th&gt;Value&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Operating Voltage Range&lt;/td&gt;
-&lt;td&gt;3.&lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5&lt;/sub&gt; V&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Operating Current(Vcc=5V)&lt;/td&gt;
-&lt;td&gt;4~5 mA&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Voltage Gain(V=6V, f=1kHz)&lt;/td&gt;
-&lt;td&gt;26 dB&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Microphone sensitivity(1kHz)&lt;/td&gt;
-&lt;td&gt;52-48 dB&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Microphone Impedance&lt;/td&gt;
-&lt;td&gt;2.2k Ohm&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Microphone Frequency&lt;/td&gt;
-&lt;td&gt;16-20 kHz&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Microphone S/N Radio&lt;/td&gt;
-&lt;td&gt;54 dB&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;!!!Tip
-    More details about Grove modules please refer to &lt;a href=&#34;http://wiki.seeed.cc/Grove_System/&#34;&gt;Grove System&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;platforms-supported&#34;&gt;Platforms Supported&lt;/h2&gt;
-
-&lt;h2 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h2&gt;
-
-&lt;p&gt;!!!Note
-    This chapter is based on Win10 and Arduino IDE 1.6.9&lt;/p&gt;
-
-&lt;p&gt;This an easy-to-use module, what you need to do is to connect the signal pin (the YELLOW pin of Grove cable) to the ADC input of your controller. If there&amp;rsquo;s no internal ADC in your controller, &lt;a href=&#34;http://www.seeedstudio.com/Grove-I2C-ADC-p-1580.html&#34;&gt;Grove - I2C ADC&lt;/a&gt; is recommended.&lt;/p&gt;
-
-&lt;p&gt;Here we will show you how this Grove - Sound Sensor works via a simple demo. First of all, you need to prepare the below stuffs:&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Seeeduino V4&lt;/th&gt;
-&lt;th&gt;Grove - Sound Sensor&lt;/th&gt;
-&lt;th&gt;Base Shield&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_1.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove_Sound_Sensor/master/images/gs_1.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_4.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;http://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html&#34;&gt;Get ONE Now&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;http://www.seeedstudio.com/Grove-Sound-Sensor-p-752.html&#34;&gt;Get ONE Now&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.seeedstudio.com/Base-Shield-V2-p-1378.html&#34;&gt;Get ONE Now&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt;Connection&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Thanks to the benefit of Grove series modules, you don&amp;rsquo;t need to make soldering or bread board, what you need to do is to connect the modules to the right port of Base Shield. For this demo, we only need one Grove module.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Grove - Sound Sensor is an analog input module, we connect it to &lt;strong&gt;A0&lt;/strong&gt; at this demo&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove_Sound_Sensor/master/images/connection.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Upload the code to Arduino&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Copy the below code to Arduino IDE.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;// test code for Grove - Sound Sensor
-// loovee @ 2016-8-30
-
-const int pinAdc = A0;
-
-void setup()
-{
-    Serial.begin(115200);
-    //Serial.println(&amp;quot;Grove - Sound Sensor Test...&amp;quot;);
-}
-
-void loop()
-{
-    long sum = 0;
-    for(int i=0; i&amp;lt;32; i++)
-    {
-        sum += analogRead(pinAdc);
-    }
-
-    sum &amp;gt;&amp;gt;= 5;
-
-    Serial.println(sum);
-    delay(10);
-}
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then choose the right Board and COM port, and then click on the Upload button, this process take few seconds.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Get Raw Data&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Here let&amp;rsquo;s click on &lt;strong&gt;Serial &amp;gt; Plotter&lt;/strong&gt; to get the changing curve of the sensor. Please make a noise to view the change of the value.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove_Sound_Sensor/master/images/sound_raw.png&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/SeeedDocument/Grove_Sound_Sensor/raw/master/resources/Grove%20-%20Sound%20Sensor.zip&#34;&gt;Schematic and PCB in Eagle format&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/SeeedDocument/Grove_Sound_Sensor/raw/master/res/Grove%20-%20Sound%20Sensor%20v1.6%20Schematic.pdf&#34;&gt;Schematic in PDF format&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/SeeedDocument/Grove_Sound_Sensor/raw/master/res/Grove%20-%20Sound%20Sensor%20v1.6%20PCB.pdf&#34;&gt;PCB in PDF format&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/SeeedDocument/Grove_Sound_Sensor&#34;&gt;Github Page of this Document&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/SeeedDocument/Grove_Sound_Sensor/raw/master/res/LM386.pdf&#34;&gt;LM386.PDF&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+Features  Easy to use Provides analog output signal Easily integrates with Logic modules on the input side of Grove circuits Grove System  !</description>
     </item>
     
   </channel>

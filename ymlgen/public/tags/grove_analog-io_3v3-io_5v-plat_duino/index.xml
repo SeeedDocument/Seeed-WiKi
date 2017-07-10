@@ -1,97 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
-    <link>http://wiki.seeed.cc/tags/grove_analog-io_3v3-io_5v-plat_duino/index.xml</link>
-    <description>Recent content on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
+    <title>Grove_analog Io_3v3 Io_5v Plat_duino on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
+    <link>http://wiki.seeed.cc/tags/grove_analog-io_3v3-io_5v-plat_duino/</link>
+    <description>Recent content in Grove_analog Io_3v3 Io_5v Plat_duino on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://wiki.seeed.cc/tags/grove_analog-io_3v3-io_5v-plat_duino/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://wiki.seeed.cc/tags/grove_analog-io_3v3-io_5v-plat_duino/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Grove - Infrared Temperature Sensor</title>
-      <link>http://wiki.seeed.cc/Grove-Infrared_Temperature_Sensor/</link>
+      <link>http://wiki.seeed.cc/grove-infrared_temperature_sensor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://wiki.seeed.cc/Grove-Infrared_Temperature_Sensor/</guid>
-      <description>
+      <guid>http://wiki.seeed.cc/grove-infrared_temperature_sensor/</guid>
+      <description>The Infrared temperature sensor is a non-contact temperature measure model. It is composed of 116 elements of thermocouple in series on a floating micro-membrane, the black Surface of the sensor is good to absorb the incident thermal infrared radiation, which might trigger a voltage response at output. This sensor outputs an analog voltage (0~1.1V) according to target temperature.
+Old version: v0.92.
 
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Infrared_Temperature_Sensor/master/img/Grove-Infrared_Temperature_Sensor.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The Infrared temperature sensor is a non-contact temperature measure model. It is composed of 116 elements of thermocouple in series on a floating micro-membrane, the black Surface of the sensor is good to absorb the incident thermal infrared radiation, which might trigger a voltage response at output. This sensor outputs an analog voltage (0~1.1V) according to target temperature.&lt;/p&gt;
-
-&lt;p&gt;Old version: v0.92.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/Grove-Infrared-Temperature-Sensor-p-1058.html&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;specifications&#34;&gt;Specifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Voltage: 3-5V&lt;/li&gt;
-&lt;li&gt;Measuring Current Supply: 160-200 uA&lt;/li&gt;
-&lt;li&gt;Measuring Range: -10~100°C&lt;/li&gt;
-&lt;li&gt;Holding Time: 2S&lt;/li&gt;
-&lt;li&gt;Operating Temperature: -10~80 °C&lt;/li&gt;
-&lt;li&gt;Storage Temperature: -35-80 °C&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;!!!Tip
-    More details about Grove modules please refer to &lt;a href=&#34;http://wiki.seeed.cc/Grove_System/&#34;&gt;Grove System&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;platforms-supported&#34;&gt;Platforms Supported&lt;/h2&gt;
-
-&lt;h2 id=&#34;demonstration&#34;&gt;Demonstration&lt;/h2&gt;
-
-&lt;p&gt;The following sketch demonstrates a simple application of measure the measure the surrounding temperature around the sensor and the temperature of the target which is in front of the sensor. And print the result on the serial monitor.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Connect this module to Seeeduino using Grove-Base Shield port A0 and A1.&lt;/li&gt;
-&lt;li&gt;Download the &lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Infrared_Temperature_Sensor/master/res/MeasureTemperature.zip&#34;&gt;Demo Code&lt;/a&gt; and open it.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Before measuring temperature, you need simple setting. Following the instruction below before your test and you will gain a accurately result.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Step 1: Regulate the sensor voltage&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;After uploading the demo program, make the sensor in normal environment more than 5 minutes that make the sensor temperature the same as surrounding temperature. Then open the serial monitor to check the voltage which the sensor output. Ideally, when the ambient temperature is equal to the temperature sensor, the infrared sensor (TP-538U) output is 0V.We should regulate the reference voltage which offset at 0.5V by hardware. As shown below, the sensor voltage is 0.014V, we just need to change the offset_vol value as0.014 which you obtain from the serial monitor in program.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Infrared_Temperature_Sensor/master/img/Infrared_Temperature_Sensor_code2.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Infrared_Temperature_Sensor/master/img/Serialmonitor.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Step 2: Regulate the sensor detected distance&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;According to our experiment, the sensor&amp;rsquo;s nominal measure distance is 9CM, but we can’t ensure all sensor have the same character. So if you want to have accurate result, you need to regulate it with Ice and water mixture to measure the 0℃, and use boiled water to regulate the 100℃. After that, you can obtain the effective distance of the sensor.&lt;/p&gt;
-
-&lt;p&gt;The specific method for measuring is fill with ice and water in a dark container which has a flat surface. Waiting for the container drop to 0℃, keep the sensor 9CM between object, move the sensor forward or back and check the result, if output is 0℃, note down the distance value. The same method to check boiled water. When you gain a pair of value, make a deal with average calculation. You can begin to measure in a rated distance which you just obtained now.&lt;/p&gt;
-
-&lt;p&gt;Now we can measure the surrounding temperature around the sensor. The sensor is apply in a nominal distance, you can have a try in other distance, but the distance-temperature diagram neither sensor’s manufacturer nor we obtained, you can draw it follow the two instructions above. We reserve variable &lt;strong&gt;&amp;ldquo;temperature_range&amp;rdquo;&lt;/strong&gt; in demo code. We assume that the target distance is 3 cm, the coefficient which you measured may be 5 more or less. Wish you have a fun try.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Infrared_Temperature_Sensor/master/img/Infrared_Temperature_Sensor_Code_1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Advanced application example:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Infrared_Temperature_Sensor/master/img/Infrared_temperature_example.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;div class=&#34;admonition note&#34;&gt;
-&lt;p class=&#34;admonition-title&#34;&gt;Note&lt;/p&gt;
-&lt;ol&gt;&lt;li&gt; The demo code does not support Atmega168.&lt;/li&gt;
-&lt;li&gt;In order to gain a accurate measured, the distance(D) and target diament(S) rate D:S must less than 0.5.&lt;/li&gt;&lt;/ol&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Infrared_Temperature_Sensor/master/img/Dsdiagram.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Infrared_Temperature_Sensor/master/res/Infrared_Temperature_Sensor_v0.92_egale_file.zip&#34;&gt;Grove-Infrared Temperature Sensor V0.9 Eagle File&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Infrared_Temperature_Sensor/master/res/Infrared_Temperature_Sensor_V1.0_egale_file.zip&#34;&gt;Grove-Infrared Temperature Sensor V1.0 Eagle File&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Infrared_Temperature_Sensor/master/res/OTP-538Udatasheet.zip&#34;&gt;OTP-538U Datasheet&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Infrared_Temperature_Sensor/master/res/MeasureTemperature.zip&#34;&gt;Demo Code&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Infrared_Temperature_Sensor/master/res/Infrared_temperature_demo_code_with_serialLCD.zip&#34;&gt;Infrared Temperature Demo Code with SerialLCD&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_Infrared_Temperature_Sensor --&gt;
-</description>
+Specifications  Voltage: 3-5V Measuring Current Supply: 160-200 uA Measuring Range: -10~100°C Holding Time: 2S Operating Temperature: -10~80 °C Storage Temperature: -35-80 °C  !</description>
     </item>
     
   </channel>

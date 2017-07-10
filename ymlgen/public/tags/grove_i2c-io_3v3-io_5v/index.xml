@@ -1,58 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
-    <link>http://wiki.seeed.cc/tags/grove_i2c-io_3v3-io_5v/index.xml</link>
-    <description>Recent content on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
+    <title>Grove_i2c Io_3v3 Io_5v on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
+    <link>http://wiki.seeed.cc/tags/grove_i2c-io_3v3-io_5v/</link>
+    <description>Recent content in Grove_i2c Io_3v3 Io_5v on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://wiki.seeed.cc/tags/grove_i2c-io_3v3-io_5v/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://wiki.seeed.cc/tags/grove_i2c-io_3v3-io_5v/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Grove - I2C Hub</title>
-      <link>http://wiki.seeed.cc/Grove-I2C_Hub/</link>
+      <link>http://wiki.seeed.cc/grove-i2c_hub/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://wiki.seeed.cc/Grove-I2C_Hub/</guid>
-      <description>
+      <guid>http://wiki.seeed.cc/grove-i2c_hub/</guid>
+      <description>I2C Hub Grove is an extension Grove module for connecting multiply I2C devices to Grove Base Shield. It can use with Universal 4 Pin to X2 4 Pin cable and connects up to 3 I2C devices which may cover most developing purpose.
 
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-I2C_Hub/master/img/I2C_hub.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I2C Hub Grove is an extension Grove module for connecting multiply I2C devices to Grove Base Shield. It can use with &lt;a href=&#34;http://www.seeedstudio.com/depot/universal-4-pin-to-x2-4-pin-cable-5-pcs-pack-p-847.html?cPath=178_179&#34;&gt;Universal 4 Pin to X2 4 Pin cable&lt;/a&gt; and connects up to 3 I2C devices which may cover most developing purpose.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/Grove-I2C-Hub-p-851.html&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Chainable&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;platforms-supported&#34;&gt;Platforms Supported&lt;/h2&gt;
-
-&lt;h2 id=&#34;application-ideas&#34;&gt;Application Ideas&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Using more I2C devices than you otherwise have room for on your Grove platform.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
-
-&lt;p&gt;It does not conflict if you use the same I2C Socket simultaneously because every I2C device has its own address. Hardware installation is shown below.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-I2C_Hub/master/img/I2C_Hub_Connect.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Here we do not list a specific example.&lt;/p&gt;
-
-&lt;p&gt;!!!Tip
-    More details about Grove modules please refer to &lt;a href=&#34;http://wiki.seeed.cc/Grove_System/&#34;&gt;Grove System&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-I2C_Hub/master/res/I2C_Hub_Eagle_File.zip&#34;&gt;I2C Hub Eagle File&lt;/a&gt;&lt;/p&gt;
-
-&lt;!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_I2C_Hub --&gt;
-</description>
+Features  Chainable  Platforms Supported Application Ideas  Using more I2C devices than you otherwise have room for on your Grove platform.  Usage It does not conflict if you use the same I2C Socket simultaneously because every I2C device has its own address.</description>
     </item>
     
   </channel>

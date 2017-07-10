@@ -17,6 +17,13 @@ GSR, standing for galvanic skin response, is a method of measuring the electrica
 
 [![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](http://www.seeedstudio.com/Grove-GSR-sensor-p-1614.html)
 
+## Version
+----
+| Product                  | Released Date  | Description                                |
+|------------------------|----------------|--------------------------------------------|
+| Grove - GSR_Sensor V1.0      | June 19, 2013     | Initial      |
+| Grove - GSR_Sensor V1.2  | July 31, 2014 | Add C3 100nf between M324PW-TSSOP14 and GND |
+
 ## Specifications
 --------------
 
@@ -177,9 +184,12 @@ There are several graphs which are created in excel by using GSR data. We can op
 ## Resources
 ---------
 
-- **[Eagle]** [Grove - GSR v1.0 Eagle File](https://raw.githubusercontent.com/SeeedDocument/Grove-GSR_Sensor/master/res/Grove-GSR_Eagle_File.zip)
-- **[PDF]** [Grove-GSR v1.0 Sch](https://github.com/SeeedDocument/Grove-GSR_Sensor/blob/master/res/Grove%20-%20GSR%20v1.0.pdf)
+- **[Eagle]** [Grove - GSR v1.0 Eagle File](https://github.com/SeeedDocument/Grove-GSR_Sensor/raw/master/res/Grove-GSR_Eagle_File_V1.0.zip)
+- **[PDF]** [Grove-GSR v1.0 Sch](https://github.com/SeeedDocument/Grove-GSR_Sensor/raw/master/res/Grove%20-%20GSR%20v1.0%20SCH.pdf)
 - **[PDF]** [Grove-GSR v1.0 PCB](https://github.com/SeeedDocument/Grove-GSR_Sensor/raw/master/res/Grove%20-%20GSR%20v1.0%20PCB.pdf)
+- **[Eagle]** [Grove - GSR v1.2 Eagle File](https://github.com/SeeedDocument/Grove-GSR_Sensor/raw/master/res/Grove-GSR_Eagle_File_V1.2.zip)
+- **[PDF]** [Grove-GSR v1.2 Sch](https://github.com/SeeedDocument/Grove-GSR_Sensor/raw/master/res/Grove%20-%20GSR_v1.2_SCH.pdf)
+- **[PDF]** [Grove-GSR v1.2 PCB](https://github.com/SeeedDocument/Grove-GSR_Sensor/raw/master/res/Grove%20-%20GSR_v1.2_PCB.pdf)
 - **[Datasheet]** [LM324 datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-GSR_Sensor/master/res/Lm324.pdf)
 - **[Document]** [GSR sensor data](https://raw.githubusercontent.com/SeeedDocument/Grove-GSR_Sensor/master/res/GSR_sensor_data.xls "File:GSR sensor data.xls")
 
