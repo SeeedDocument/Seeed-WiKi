@@ -59,7 +59,7 @@ Here we show how to use Arduino to control the state of the LED.
 3.Copy the demo code to your sketch, then upload to Arduino or Seeeduino board. Please click [here](http://www.seeedstudio.com/wiki/Upload_Code) if you do not know how to upload.
 
 You will see the LED  blink every second.
-```
+```cpp
 /*************************************************************************
 * File Name          : GroveLEDDemoCode.ino
 * Author             : Seeedteam
@@ -84,7 +84,7 @@ void loop() {
 ##  Get Started with Raspberry Pi
 ---
 Connect the **LED to Port D4** and power on the Raspberry Pi, using the Grove wire connector. This is a test to make led blinking. You can connect to GrovePi+ with it as the picture below.
-```
+```python
 # GrovePi LED Blink example
 
 import time
@@ -114,12 +114,12 @@ while True:
 ###  Run The Program
 
 *   Find the path to the file(According to your own path)
-```
+```shell
 cd GrovePi/Software/Python/
 ```
 
 *   Run Program
-```
+```shell
 sudo python grove_led_blink.py
 ```
 
