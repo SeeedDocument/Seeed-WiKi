@@ -15,7 +15,7 @@ Seeeduino Lotus is an ATMEGA328 Microcontroller development board. It is a combi
 [![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now.png)](https://www.seeedstudio.com/Seeeduino-Lotus-ATMega328-Board-with-Grove-Interface-p-1942.html)
 
 !!!Warning
-    Seeeduino Lotus works at Windows Operating System ONLY. DO NOT buy it if you want to use it under MAC or Linux.
+    Seeeduino Lotus 1.0 works at Windows Operating System ONLY.   Seeeduino Lotus 1.1 works with Window and Mac.
 
 ## Version
 ---
