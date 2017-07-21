@@ -17,14 +17,14 @@ This module is based on the color sensor TCS3414CS with digital output I2C. Base
 !!!Note
     Please note that the latest version V2.01 has replaced the IC with TCS3472 and the old library has also been updated, If you are using the V2.01 version, please use the [new library](https://github.com/Seeed-Studio/Grove_I2C_Color_Sensor_TCS3472).
 
-[![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](http://www.seeedstudio.com/depot/grove-i2c-color-sensor-p-854.html)
+
 
 Version
 ---
-| Revision | Descriptions                                              | Release      |
-|----------|-----------------------------------------------------------|--------------|
-| v1.2    | Initial public release (beta)                             | Jan 17, 2013  |
-| v2.01    | Replace TCS3472(EOL) with TCS34725FN and optimize PCB Layout |Apr 27,2017   |
+| Revision | Descriptions                                              | Release      |How to buy|
+|----------|-----------------------------------------------------------|--------------|--------------|
+| v1.2    | Initial public release (beta)                             | Jan 17, 2013  |[![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](http://www.seeedstudio.com/depot/grove-i2c-color-sensor-p-854.html)|
+| v2.01    | Replace TCS3472(EOL) with TCS34725FN and optimize PCB Layout |Apr 27,2017   |[![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](https://www.seeedstudio.com/Grove-I2C-Color-Sensor-V2-p-2890.html)|
 
 Features
 --------

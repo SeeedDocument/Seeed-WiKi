@@ -12,17 +12,17 @@ sku: 102020001
 
 Seeeduino Lotus is an ATMEGA328 Microcontroller development board. It is a combination of Seeeduino and Base Shield. It uses an Atmel ATMEGA328P-MU and CH340. ATMEGA328P-MU is a high performance, low power AVR 8-Bit Microcontroller. CH340 is a USB bus converter chip that can realize a USB to serial interface. Seeeduino Lotus has 14 digital input/outputs (6 of which can output PWM) and 7 analog input/outputs, a micro USB connection, an ICSP header, 12 Grove connections, a reset button.
 
-[![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now.png)](https://www.seeedstudio.com/Seeeduino-Lotus-ATMega328-Board-with-Grove-Interface-p-1942.html)
+
 
 !!!Warning
-    Seeeduino Lotus 1.0 works at Windows Operating System ONLY.   Seeeduino Lotus 1.1 works with Window and Mac.
+    Seeeduino Lotus 1.0 works at Windows Operating System ONLY. Seeeduino Lotus 1.1 works with Window and Mac.
 
 ## Version
 ---
-| Revision | Descriptions                                              | Release      |
-|----------|-----------------------------------------------------------|--------------|
-| v1.0   | Initial public release (beta)                             | Jul 22, 2014  |
-| v1.1   | Replace CH340 with CP2102N to enable the compatibilty with MAC |Dec 22,2016   |
+| Revision | Descriptions                                              | Release      |How to buy|
+|----------|-----------------------------------------------------------|--------------|--------------|
+| v1.0   | Initial public release (beta)                             | Jul 22, 2014  |[![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now.png)](https://www.seeedstudio.com/Seeeduino-Lotus-ATMega328-Board-with-Grove-Interface-p-1942.html)|
+| v1.1   | Replace CH340 with CP2102N to enable the compatibilty with MAC |Dec 22,2016   |[![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now.png)](https://www.seeedstudio.com/Seeeduino-Lotus-V1.1-ATMega328-Board-with-Grove-Interface-p-2917.html)|
 
 ## Application Ideas
 

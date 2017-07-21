@@ -14,14 +14,14 @@ tags: grove_digital, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg
 
 **Grove - Chainable RGB LED** is based on P9813 chip which is a full-color LED driver. It provides 3 constant-current drivers as well as modulated output of 256 shades of gray. It communicates with a MCU using 2-wire transmission (Data and Clock). This 2-wire transmission can be used to cascade additional **Grove - Chainable RGB LED** modules. The built-in clock regeneration enhances the transmission distance. This Grove module is suitable for any colorful LED based projects.
 
-[![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](https://www.seeedstudio.com/Grove-Chainable-RGB-LED-p-850.html)
+
 
 Version
 ---
-| Revision | Descriptions                                              | Release      |
-|----------|-----------------------------------------------------------|--------------|
-| v1    | Initial public release (beta)                             | May 5, 2011  |
-| v2    | Replace P9813S16 with P9813S14  and change Grove connector from Vertical to horizontal | Apr 19, 2016  |
+| Revision | Descriptions                                              | Release      |How to Buy|
+|----------|-----------------------------------------------------------|--------------|--------------|
+| v1    | Initial public release (beta)                             | May 5, 2011  |[![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](https://www.seeedstudio.com/Grove-Chainable-RGB-LED-p-850.html)|
+| v2    | Replace P9813S16 with P9813S14  and change Grove connector from Vertical to horizontal | Apr 19, 2016  |[![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](https://www.seeedstudio.com/Grove-%E2%80%93-Chainable-RGB-Led-V2.0-p-2903.html)|
 
 Specifications
 -------------
