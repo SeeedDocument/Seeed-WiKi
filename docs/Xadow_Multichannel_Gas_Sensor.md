@@ -42,7 +42,7 @@ Xadow – Multichannel Gas sensor is a very small sensor board with a compact MO
 **Performance RED sensor**
 
 |Characteristic RED sensor	|Symbol	|Typ|	Min	|Max	|Unit|
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 |Sensing resistance in air	|R0|	-	|100	|1500|	kΩ|
 |Typical CO detection range	|FS|	-	|1|	1000|	ppm|
 |Sensitivity factor	|SR|	-|	1.2|	50|	-|
@@ -50,6 +50,7 @@ Xadow – Multichannel Gas sensor is a very small sensor board with a compact MO
 ![](https://github.com/SeeedDocument/Xadow_Multichannel_Gas_Sensor/raw/master/img/Red_sensor.jpg)
 
 **Performance OX sensor**
+
 |Characteristic OX sensor	|Symbol|	Typ	|Min	|Max	|Unit|
 |---|---|---|---|---|---|
 |Sensing resistance in air	|R0	|-	|0.8|	20|	kΩ|
@@ -59,6 +60,7 @@ Xadow – Multichannel Gas sensor is a very small sensor board with a compact MO
 ![](https://github.com/SeeedDocument/Xadow_Multichannel_Gas_Sensor/raw/master/img/OX_sensor.jpg)
 
 **Performance NH3 sensor**
+
 |Characteristic NH3 sensor|	Symbol	|Typ|	Min|	Max|	Unit|
 |---|---|---|---|---|---|
 |Sensing resistance in air	|R0|	-	|10	|1500|	kΩ|
