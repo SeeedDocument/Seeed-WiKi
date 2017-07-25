@@ -96,35 +96,53 @@ int main() {
 We can upgrade the firmware of the heart rate sensor through its bootloader.
 
 *   The bootloader is located at 0x08000000 - 0x08002000
-
 *   The application is located at 0x08002000 - 0x08020000
 
-*   To boot into bootloader, connect SWDIO to GND and reset to run
+##### Hardware Connection
 
-![](https://github.com/SeeedDocument/Grove-Finger-clip_Heart_Rate_Sensor/raw/master/img/Grove-Finger-clip_Heart_Rate_Sensor_boot_set.jpg)
 
-*   Interface: UART (the Grove connector supports I2C and UART),when upgrade the firmware, the Grove interface run in UART mode.
+![](https://github.com/SeeedDocument/Grove-Finger-clip_Heart_Rate_Sensor/raw/master/img/Firmware_Connection.jpg)
 
-VCC  -  VCC
+*   [USB to serial adapter](https://www.seeedstudio.com/CH340G-USB-to-Serial-%28TTL%29-Module%26Adapter-p-2359.html) is required
+*   UART (the Grove connector supports I2C and UART),when upgrade the firmware, the Grove interface run in UART mode.
 
-GND  -  GND
+| Grove-Finger-clip_Heart_Rate_Sensor | USB to Serial (TTL) Module&Adapter |
+|-------------------------------------|------------------------------------|
+| VCC                                 | VCC                                |
+| GND                                 | GND                                |
+| SDA                                 | TX                                 |
+| SCL                                 | RX                                 |
 
-SDA  -  TX
+##### Software
 
-SCL  -  RX
+*   Download [Tera Term](https://ttssh2.osdn.jp/index.html.en) Software
+*   Set UART Baud Rate as 115200
 
-*   UART Baud Rate: 115200
+![](https://github.com/SeeedDocument/Grove-Finger-clip_Heart_Rate_Sensor/raw/master/img/BaudRate_Setting.png)
 
-*   Protocol: ymodem (The recommended tool is Tera Term)
+*   Download [firmware](ttps://github.com/SeeedDocument/Grove-Finger-clip_Heart_Rate_Sensor/raw/master/res/Grove-Finger-clip_Heart_Rate_Sensor_bin.zip)
 
-*   USB to serial adapter is required, for example, using [UartSBee](http://www.seeedstudio.com/depot/UartSBee-V5-p-1752.html)
+*   Select Grove - Finger-clip Heart Rate Sensor.bin
+
+![](https://github.com/SeeedDocument/Grove-Finger-clip_Heart_Rate_Sensor/raw/master/img/Select_firmware.png)
+
+*   Downloading the firmware to Grove-Finger-clip_Heart_Rate_Sensor
+
+![](https://github.com/SeeedDocument/Grove-Finger-clip_Heart_Rate_Sensor/raw/master/img/Firmware_download.png)
+
+*   Firmware download successfully
+
+![](https://github.com/SeeedDocument/Grove-Finger-clip_Heart_Rate_Sensor/raw/master/img/Finish_Downloading.png)
+
 
 !!!NOTE:
     Grove - Finger-clip Heart Rate Sensor provide heart rate measurements.However, it is not a medical device. To use the heart rate detection sensor on your wrist, finger or palm, you must:
-- (1)Fasten the sensor snugly makes tight contact with your skin and maintain table (no motion) while measuring to acquire accurate
+
+- Fasten the sensor snugly makes tight contact with your skin and maintain table (no motion) while measuring to acquire accurate
  heart rate.If the sensor does not contact the skin well or have extreme motion while measuring that the heart rate will not
  be measured correctly.
-- (2)Sensor's performance is optimized with greater blood flow. On cold days or users have poor circulation(ex: cold hands,
+
+- Sensor's performance is optimized with greater blood flow. On cold days or users have poor circulation(ex: cold hands,
  fingers and cold feet) the sensor performance (heart rate accuracy) can be impacted because of lower blood flow in the
  measuring position.
 

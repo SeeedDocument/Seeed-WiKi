@@ -43,7 +43,7 @@ Here is the list of the Seeeduino Boards you can find in the Seeed WiKi. The lis
 - [Seeeduino Stalker V3 - Waterproof Solar Kit](/Seeeduino_Stalker_V3-Waterproof_Solar_Kit/)
 - [Seeeduino Stalker V3.1](/Seeeduino_Stalker_V3.1/)
 - [Seeeduino Stalker v3 enclosure](/Seeeduino_Stalker_v3_enclosure/)
-- [Seeeduino v4.0‏‎](/Seeeduino_v4.0‏‎/)
+- [Seeeduino v4.0‏‎](/Seeeduino_v4.0/)
 - [Seeeduino v4.2](/Seeeduino_v4.2/)
 - [Shield Bot V1.1](/Shield_Bot_V1.1/)
 - [Shield Bot V1.2](/Shield_Bot_V1.2/)
