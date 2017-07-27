@@ -25,6 +25,9 @@ The on board DC/DC converter suport a very wide range of input voltage, and can 
 - Over-current limiting (regulation) via internal constant-off-time PWM  
 - Temperature dependant current limit threshold reduction  
 
+## Platforms Supported
+-------------------
+
 ## Interface
 ---
 
