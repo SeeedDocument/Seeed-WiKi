@@ -12,6 +12,7 @@ This section includes extension boards that created by Seeed.
 Here is the list of the Seeeduino Boards you can find in the Seeed WiKi. The list will constantly updated.
 
 - [2.8&#39;&#39; TFT Touch Shield v2.0](/2.8inch_TFT_Touch_Shield_v2.0/)
+- [4A Motor Shield](/4A_Motor_Shield/)
 - [Base Shield V2](/Base_Shield_V2/)
 - [Bluetooth Shield V2.0](/Bluetooth_Shield_V2/)
 - [CAN-BUS Shield V1.2](/CAN-BUS_Shield_V1.2/)
@@ -21,6 +22,7 @@ Here is the list of the Seeeduino Boards you can find in the Seeed WiKi. The lis
 - [GPRS Shield V1.0](/GPRS_Shield_v1.0/)
 - [GPRS Shield V3.0](/GPRS_Shield_V3.0/)
 - [Mbed Shield](/mbed_Shield/)
+- [Motor Shield V2.0](/Motor_Shield_V2.0/)
 - [Music Shield V2.2](/Music_Shield_V2.2/)
 - [NFC Shield V2.0](/NFC_Shield_V2.0/)
 - [Protoshield Kit for Arduino](/Protoshield_Kit_for_Arduino/)

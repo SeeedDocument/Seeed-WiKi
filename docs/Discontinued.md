@@ -38,7 +38,6 @@ Here is the list of the BeagleBone Boards you can find in the Seeed WiKi. The li
 - [Logic_DC_Jack‏‎](/Logic_DC_Jack/)
 - [Mini GSM/GPRS&#43;GPS Breakout SIM808](/Mini_GSM_GPRS_GPS_Breakout_SIM808/)
 - [Motor Shield V1.0](/Motor_Shield_V1.0/)
-- [Motor Shield V2.0](/Motor_Shield_V2.0/)
 - [Motor Shield‏‎](/Motor_Shield/)
 - [Music Shield](/Music_Shield/)
 - [Music Shield V1.0‏‎](/Music_Shield_V1.0/)
