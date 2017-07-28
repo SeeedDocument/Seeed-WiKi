@@ -11,6 +11,16 @@
     
     
     <item>
+      <title>4A Motor Shield</title>
+      <link>http://wiki.seeed.cc/4a_motor_shield/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/4a_motor_shield/</guid>
+      <description>The 4A Motor Shield is based on the Freescale MC33932 dual H-Bridge Power IC , which can control inductive loads with currents up to 5.0A peak per single bridge. It lets you drive two DC motors with your Arduino/Seeeduino board, controlling the speed and direction of each one independently. You can also measure the motor current absorption of each motor, among other features.
+The on board DC/DC converter suport a very wide range of input voltage, and can provide a 5V power supply for the microcontroller board with 100mA maximun current.</description>
+    </item>
+    
+    <item>
       <title>Motor Shield V2.0</title>
       <link>http://wiki.seeed.cc/motor_shield_v2.0/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

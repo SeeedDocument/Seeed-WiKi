@@ -59,6 +59,7 @@ Here is the list of the Tutorial you can find in the Seeed WiKi. The list will b
 - [Relay Control LED](/Relay_Control_LED/)
 - [Replacement LCD Screen for DSO nano](/Replacement_LCD_Screen_for_DSO_nano/)
 - [Secret Box](/Secret_Box/)
+- [Seeeduino Buying Guide](/Seeeduino_Buying_Guide/)
 - [Service for Fusion PCB](/Service_for_Fusion_PCB/)
 - [Sketchbook of Sidekick Advanced Kit](/Sketchbook_of_Sidekick_Advanced_Kit/)
 - [Sound Sensor And LED Bar](/Sound_Sensor_And_LED_Bar/)

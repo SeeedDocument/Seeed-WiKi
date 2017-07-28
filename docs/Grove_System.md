@@ -2,6 +2,7 @@
 title: Grove System
 oldwikiname: Grove_System
 prodimagename: grove_cover.png
+surveyurl: https://www.research.net/r/grove_system
 ---
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/GroveSystem/master/images/grove_cover.png)
@@ -51,7 +52,7 @@ Here are some project made with Grove for your reference, more projects please r
 
 ##Size of Grove
 
-There're 5 size of Grove. 
+There're 5 size of Grove.
 
 | 1X1 | 1X2 | 1X3 | 2X2 | 2X3 |
 |---|-----|------|-----|----|
@@ -75,7 +76,7 @@ If there's no Grove connector on your board, you need a **Grove Expansion Board*
 
 !!!Note
      Arduino Base Shield works for:
-     
+
     * Arduino UNO/Leonardo
     * Seeeduino V3/4/4.1/Lite/Clio/Lotus/Stalker
     * LinkIt ONE
@@ -83,14 +84,14 @@ If there's no Grove connector on your board, you need a **Grove Expansion Board*
 
 ##Interface of Grove modules
 
-You may notice that there're 4 color of the Grove cable. 
+You may notice that there're 4 color of the Grove cable.
 
 * **pin 1** - Yellow (for example, SCL on I2C Grove Connectors)
 * **pin 2** - White (for example, SDA on I2C Grove Connectors)
 * **pin 3** - Red - VCC on all Grove Connectors
 * **pin 4** - Black - GND on all Grove Connectors
 
-There're mainly 4 type of Interface of Grove modules. 
+There're mainly 4 type of Interface of Grove modules.
 
 ###Digital
 
@@ -132,7 +133,7 @@ The Grove UART module is a specialized version of a Grove Digital Module.  It us
 
 Those long term readers of this blog know that our favourite devices are I2C sensors.   There are many types of I2C Grove sensors available.   Most are 5V/3.3V devices, but there are a few that are only 3.3V or 5.0V.  You need to check the specifications.
 
-The Grove I2C connector has the standard layout.   Pin 1 is the SCL signal and Pin 2 is the SDA signal.   Power and Ground are the same as the other connectors.  This is another special version of the Grove Digital Connector.  In fact, often the I2C bus on a controller (like the ESP8266, Raspberry Pi and the Arduino) just uses Digital I/O pins to implement the I2C bus.  The pins on the Raspberry Pi and Arduino are special with hardware support for the I2C bus. 
+The Grove I2C connector has the standard layout.   Pin 1 is the SCL signal and Pin 2 is the SDA signal.   Power and Ground are the same as the other connectors.  This is another special version of the Grove Digital Connector.  In fact, often the I2C bus on a controller (like the ESP8266, Raspberry Pi and the Arduino) just uses Digital I/O pins to implement the I2C bus.  The pins on the Raspberry Pi and Arduino are special with hardware support for the I2C bus.
 
 |pin|Function  | Note   |
 |--------|------|-----|
@@ -154,7 +155,7 @@ There're 4 size of Grove cables for your projects, the length is consist of 5cm,
 
 ###Grove - Branch Cable
 
-Grove Branch Cable is a cable used in the Grove system. It consists of three male-type latching connectors and four color-coded wires. Grove Branch Cables can be used to support daisy-chaining multiple Grove devices to a Grove shield. Typically, one end is connected to a Grove shield, and the second and third connectors are attached to two Grove devices. 
+Grove Branch Cable is a cable used in the Grove system. It consists of three male-type latching connectors and four color-coded wires. Grove Branch Cables can be used to support daisy-chaining multiple Grove devices to a Grove shield. Typically, one end is connected to a Grove shield, and the second and third connectors are attached to two Grove devices.
 
 As with other members of the Grove cable family, the male connectors are keyed. This means that they are shaped uniquely and will fit one and only one way into their matching connectors on shields and devices. Also, when attaching the connectors to shields or devices, be sure to press firmly to mate the male connectors on the Grove Branch Cable with the female receptacles on the Grove shield or Grove devices. Since Grove Branch Cables have latches (sometimes referred to as "buckles" or "buckled cables"), when the latch closes, you will hear a small sound and should see the latch close over its corresponding part. These latches (or buckles) improve connections, and are especially handy in high-vibration or production environments, since some force must be used when disconnecting the cable. When moving your Grove device, or changing it, you must also apply a small bit of pressure to release the latch on the Grove Branch Cable connector, and then pull to remove the it from the receptacle or socket.
 
@@ -197,7 +198,7 @@ You can use it for:
 
 ##Grove Starter Kit
 
-We designed many kit for the beginner. Normally, a Grove starter kit include a Grove Extension Board, many Grove modules and a user manual, which include many lessons for the beginners. If you want to start a platform or just learn about electronic, Grove Starter kit is your best choice. 
+We designed many kit for the beginner. Normally, a Grove starter kit include a Grove Extension Board, many Grove modules and a user manual, which include many lessons for the beginners. If you want to start a platform or just learn about electronic, Grove Starter kit is your best choice.
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/GroveSystem/master/images/starter_kit_main.jpg)
 
@@ -219,7 +220,7 @@ There are many kits for different platform.
 
 ##Choose your Grove
 
-Want some Grove modules for your project? Here are some recommend. 
+Want some Grove modules for your project? Here are some recommend.
 
 ###Grove Basic Input and Output
 
@@ -321,4 +322,3 @@ Want some Grove modules for your project? Here are some recommend.
 |--------------------------|---------------------------|-----------------------|
 |![enter image description here](https://raw.githubusercontent.com/SeeedDocument/GroveSystem/master/images/robot_4.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/GroveSystem/master/images/robot_5.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/GroveSystem/master/images/robot_6.jpg)|
 |[More Details](http://www.seeedstudio.com/Grove-Line-Finder-p-825.html)|[More Details](http://www.seeedstudio.com/Grove-Ultrasonic-Ranger-p-960.html)|[More Details](http://www.seeedstudio.com/Grove-80cm-Infrared-Proximity-Sensor-p-788.html)|
-
