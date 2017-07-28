@@ -198,7 +198,7 @@ You can use it for:
 
 ##Grove Starter Kit
 
-We designed many kit for the beginner. Normally, a Grove starter kit include a Grove Extension Board, many Grove modules and a user manual, which include many lessons for the beginners. If you want to start a platform or just learn about electronic, Grove Starter kit is your best choice.
+We designed many kits for the beginner. Normally, a Grove starter kit include a Grove Extension Board, many Grove modules and a user manual, which include many lessons for the beginners. If you want to start a platform or just learn about electronic, Grove Starter kit is your best choice.
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/GroveSystem/master/images/starter_kit_main.jpg)
 
