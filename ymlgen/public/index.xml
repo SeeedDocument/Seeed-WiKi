@@ -255,6 +255,16 @@ Specification  Frequency: 433Mhz. Modulation: ASK Receiver Data Output: High - 1
     </item>
     
     <item>
+      <title>4A Motor Shield</title>
+      <link>http://wiki.seeed.cc/4a_motor_shield/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/4a_motor_shield/</guid>
+      <description>The 4A Motor Shield is based on the Freescale MC33932 dual H-Bridge Power IC , which can control inductive loads with currents up to 5.0A peak per single bridge. It lets you drive two DC motors with your Arduino/Seeeduino board, controlling the speed and direction of each one independently. You can also measure the motor current absorption of each motor, among other features.
+The on board DC/DC converter suport a very wide range of input voltage, and can provide a 5V power supply for the microcontroller board with 100mA maximun current.</description>
+    </item>
+    
+    <item>
       <title>4WD Driver Platform V1.0</title>
       <link>http://wiki.seeed.cc/4wd_driver_platform_v1.0/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5104,7 +5114,7 @@ Features  Easy to start - The Shieldbot is plug &amp;amp; play.</description>
       <guid>http://wiki.seeed.cc/shield/</guid>
       <description>This section includes extension boards that created by Seeed.
 Product List Here is the list of the Seeeduino Boards you can find in the Seeed WiKi. The list will constantly updated.
- 2.8&amp;#39;&amp;#39; TFT Touch Shield v2.0 Base Shield V2 Bluetooth Shield V2.0 CAN-BUS Shield V1.2 Camera Shield EL Shield Energy Shield GPRS Shield V1.0 GPRS Shield V3.0 Mbed Shield Music Shield V2.2 NFC Shield V2.0 Protoshield Kit for Arduino RS232 Shield Relay Shield v3.</description>
+ 2.8&amp;#39;&amp;#39; TFT Touch Shield v2.0 4A Motor Shield Base Shield V2 Bluetooth Shield V2.0 CAN-BUS Shield V1.2 Camera Shield EL Shield Energy Shield GPRS Shield V1.0 GPRS Shield V3.0 Mbed Shield Motor Shield V2.0 Music Shield V2.2 NFC Shield V2.</description>
     </item>
     
     <item>

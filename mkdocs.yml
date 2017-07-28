@@ -38,7 +38,7 @@ pages:
         - Seeeduino Stalker V3 - Waterproof Solar Kit: Seeeduino_Stalker_V3-Waterproof_Solar_Kit.md
         - Seeeduino Stalker V3.1: Seeeduino_Stalker_V3.1.md
         - Seeeduino Stalker v3 enclosure: Seeeduino_Stalker_v3_enclosure.md
-        - Seeeduino v4.0‏‎: Seeeduino_v4.0‏‎.md
+        - Seeeduino v4.0‏‎: Seeeduino_v4.0.md
         - Seeeduino v4.2: Seeeduino_v4.2.md
         - Shield Bot V1.1: Shield_Bot_V1.1.md
         - Shield Bot V1.2: Shield_Bot_V1.2.md
@@ -171,6 +171,7 @@ pages:
     - Shield:
         - Shield Introduction: Shield.md
         - 2.8&#39;&#39; TFT Touch Shield v2.0: 2.8inch_TFT_Touch_Shield_v2.0.md
+        - 4A Motor Shield: 4A_Motor_Shield.md
         - Base Shield V2: Base_Shield_V2.md
         - Bluetooth Shield V2.0: Bluetooth_Shield_V2.md
         - CAN-BUS Shield V1.2: CAN-BUS_Shield_V1.2.md
@@ -180,6 +181,7 @@ pages:
         - GPRS Shield V1.0: GPRS_Shield_v1.0.md
         - GPRS Shield V3.0: GPRS_Shield_V3.0.md
         - Mbed Shield: mbed_Shield.md
+        - Motor Shield V2.0: Motor_Shield_V2.0.md
         - Music Shield V2.2: Music_Shield_V2.2.md
         - NFC Shield V2.0: NFC_Shield_V2.0.md
         - Protoshield Kit for Arduino: Protoshield_Kit_for_Arduino.md
@@ -572,74 +574,73 @@ pages:
         - Discontinued Introduction: Discontinued.md
         - 2.8inch TFT Touch Shield V1.0: 2.8inch-TFT_Touch_Shield_V1.0.md
         - 5V-3.3V Breadboard Power Supply v1.1: 5V-3.3V_Breadboard_Power_Supply_v1.1.md
-        - 5V/3.3V Breadboard Power Supply‏‎: 5V-3.3V_Breadboard_Power_Supply‏‎.md
+        - 5V/3.3V Breadboard Power Supply‏‎: 5V-3.3V_Breadboard_Power_Supply.md
         - Arch GPRS: Arch_GPRS.md
-        - Arch Max‏‎: Arch_Max‏‎.md
-        - BLE Bee: BLE_Bee‏‎.md
+        - Arch Max‏‎: Arch_Max.md
+        - BLE Bee: BLE_Bee.md
         - Battery kit 3.7V 520mAh: Battery_kit_3.7V_520_mAh.md
         - Bees Shield: Bees_Shield.md
-        - Bluetooth Bee: Bluetooth_Bee‏‎.md
-        - Bluetooth Shield‏‎: Bluetooth_Shield‏‎.md
-        - Edison 4WD Auto Robotic Platform 2.0‏‎: Edison_4WD_Auto_Robotic_Platform_2.0‏‎.md
-        - Edison_4WD_Auto_Robotic_Platform‏‎: Edison_4WD_Auto_Robotic_Platform‏‎.md
-        - Energy Monitor Shield V0.9b‏‎: Energy_Monitor_Shield_V0.9b‏‎.md
-        - Ethernet Shield V1.0: Ethernet_Shield_V1.0‏‎.md
-        - Ethernet Shield V2.0‏‎: Ethernet_Shield_V2.0‏‎.md
-        - Ethernet Shield‏‎: Ethernet_Shield‏‎.md
+        - Bluetooth Bee: Bluetooth_Bee.md
+        - Bluetooth Shield‏‎: Bluetooth_Shield.md
+        - Edison 4WD Auto Robotic Platform 2.0‏‎: Edison_4WD_Auto_Robotic_Platform_2.0.md
+        - Edison_4WD_Auto_Robotic_Platform‏‎: Edison_4WD_Auto_Robotic_Platform.md
+        - Energy Monitor Shield V0.9b‏‎: Energy_Monitor_Shield_V0.9b.md
+        - Ethernet Shield V1.0: Ethernet_Shield_V1.0.md
+        - Ethernet Shield V2.0‏‎: Ethernet_Shield_V2.0.md
+        - Ethernet Shield‏‎: Ethernet_Shield.md
         - GPRS Shield V2.0: GPRS_Shield_V2.0.md
-        - GPRS Shield‏‎: GPRS-Shield‏‎.md
-        - Grove BlinkM‏‎: Grove-BlinkM‏‎.md
-        - Grove Serial Bluetooth‏‎: Grove-Serial_Bluetooth‏‎.md
-        - Grove Serial LCD V1.0‏‎: Grove-Serial_LCD_V1.0‏‎.md
-        - Grove-Single Axis Analog Gyro‏‎: Grove-Single_Axis_Analog_Gyro‏‎.md
-        - Heart Sound Sensor‏‎: Heart-Sound_Sensor‏‎.md
+        - GPRS Shield‏‎: GPRS-Shield.md
+        - Grove BlinkM‏‎: Grove-BlinkM.md
+        - Grove Serial Bluetooth‏‎: Grove-Serial_Bluetooth.md
+        - Grove Serial LCD V1.0‏‎: Grove-Serial_LCD_V1.0.md
+        - Grove-Single Axis Analog Gyro‏‎: Grove-Single_Axis_Analog_Gyro.md
+        - Heart Sound Sensor‏‎: Heart-Sound_Sensor.md
         - Intel® Edison and Grove IoT Starter Kit Powered by AWS: Intel_Edison_and_Grove_IoT_Starter_Kit_Powered_by_AWS.md
         - LinkIT One and Grove IoT Starter Kit Powered by AWS: LinkIT_One_and_Grove_IoT_Starter_Kit_Powered_by_AWS.md
         - Lipo Rider: Lipo_Rider.md
         - Lipo Rider V1.1: Lipo_Rider_V1.1.md
-        - Logic_DC_Jack‏‎: Logic_DC_Jack‏‎.md
+        - Logic_DC_Jack‏‎: Logic_DC_Jack.md
         - Mini GSM/GPRS&#43;GPS Breakout SIM808: Mini_GSM_GPRS_GPS_Breakout_SIM808.md
         - Motor Shield V1.0: Motor_Shield_V1.0.md
-        - Motor Shield V2.0: Motor_Shield_V2.0.md
-        - Motor Shield‏‎: Motor_Shield‏‎.md
+        - Motor Shield‏‎: Motor_Shield.md
         - Music Shield: Music_Shield.md
-        - Music Shield V1.0‏‎: Music_Shield_V1.0‏‎.md
+        - Music Shield V1.0‏‎: Music_Shield_V1.0.md
         - NFC Shield V1.0: NFC_Shield_V1.0.md
-        - NFC Shield‏‎: NFC_Shield‏‎.md
+        - NFC Shield‏‎: NFC_Shield.md
         - Nose LED Kit: Nose_LED_Kit.md
         - Rainbowduino Extension Board v0.9b: Rainbowduino_Extension_Board_v0.9b.md
-        - Relay Shield: Relay_Shield‏‎.md
+        - Relay Shield: Relay_Shield.md
         - Relay Shield V1.0‏‎: Relay_Shield_V1.md
         - Relay Shield V2.0: Relay_Shield_V2.md
         - SD Card Shield: SD_Card_Shield.md
-        - SD Card Shield V3.0‏‎: SD_Card_Shield_V3.0‏‎.md
-        - Seeeduino ADK Main Board‏‎: Seeeduino_ADK_Main_Board‏‎.md
-        - Seeeduino Arch: Seeeduino_Arch‏‎.md
+        - SD Card Shield V3.0‏‎: SD_Card_Shield_V3.0.md
+        - Seeeduino ADK Main Board‏‎: Seeeduino_ADK_Main_Board.md
+        - Seeeduino Arch: Seeeduino_Arch.md
         - Seeeduino Stalker v1.0: Seeeduino_Stalker_v1.0.md
-        - Seeeduino Stalker v2.3‏‎: Seeeduino_Stalker_v2.3‏‎.md
-        - Seeeduino Stalker‏‎: Seeeduino_Stalker‏‎.md
-        - Seeeduino Stalker‏‎ V3: Seeeduino-Stalker_v3‏‎.md
+        - Seeeduino Stalker v2.3‏‎: Seeeduino_Stalker_v2.3.md
+        - Seeeduino Stalker‏‎: Seeeduino_Stalker.md
+        - Seeeduino Stalker‏‎ V3: Seeeduino-Stalker_v3.md
         - Seeeduino V2.2 Atmega 168P: Seeeduino_V2.2_Atmega-168P.md
-        - Seeeduino V2.2‏‎: Seeeduino_V2.2‏‎.md
-        - Seeeduino v2.21‏‎: Seeeduino_v2.21‏‎.md
-        - Seeeduino v3.0‏‎: Seeeduino_v3.0‏‎.md
-        - Seeeduino‏‎: Seeeduino‏‎.md
+        - Seeeduino V2.2‏‎: Seeeduino_V2.2.md
+        - Seeeduino v2.21‏‎: Seeeduino_v2.21.md
+        - Seeeduino v3.0‏‎: Seeeduino_v3.0.md
+        - Seeeduino‏‎: Seeeduino.md
         - Serial port bluetooth module(Master/Slave)‏‎: Serial_port_bluetooth_module_Master-Slave.md
-        - Sidekick Advanced Kit‏‎: Sidekick_Advanced_Kit‏‎.md
-        - Small e-Paper Shield‏‎: Small_e-Paper_Shield‏‎.md
-        - Solar Charger Shield‏‎: Solar_Charger_Shield‏‎.md
-        - Starter_Shield_EN: Starter_Shield_EN‏‎.md
-        - Stepper Motor Driver: Stepper_Motor_Driver‏‎.md
-        - Stepper Motor Driver v2.3‏‎: Stepper_Motor_Driver_v2.3‏‎.md
-        - TFT Touch Shield V1.0‏‎: TFT_Touch_Shield_V1.0‏‎.md
-        - Techbox Tricks‏‎: Techbox_Tricks‏‎.md
-        - USB To Uart 3V3‏‎: USB_To_Uart_3V3‏‎.md
-        - UartSB Frame‏‎: UartSB_Frame‏‎.md
+        - Sidekick Advanced Kit‏‎: Sidekick_Advanced_Kit.md
+        - Small e-Paper Shield‏‎: Small_e-Paper_Shield.md
+        - Solar Charger Shield‏‎: Solar_Charger_Shield.md
+        - Starter_Shield_EN: Starter_Shield_EN.md
+        - Stepper Motor Driver: Stepper_Motor_Driver.md
+        - Stepper Motor Driver v2.3‏‎: Stepper_Motor_Driver_v2.3.md
+        - TFT Touch Shield V1.0‏‎: TFT_Touch_Shield_V1.0.md
+        - Techbox Tricks‏‎: Techbox_Tricks.md
+        - USB To Uart 3V3‏‎: USB_To_Uart_3V3.md
+        - UartSB Frame‏‎: UartSB_Frame.md
         - UartSBee V3.1: UartSBee_V3.1.md
-        - WIFI Shield‏‎: Wifi_Shield‏‎.md
-        - Wifi Bee‏‎: Wifi_Bee‏‎.md
-        - Wifi Shield V1.0‏‎: Wifi_Shield_V1.0‏‎.md
-        - Wifi Shield V1.1‏‎: Wifi_Shield_V1.1‏‎.md
+        - WIFI Shield‏‎: Wifi_Shield.md
+        - Wifi Bee‏‎: Wifi_Bee.md
+        - Wifi Shield V1.0‏‎: Wifi_Shield_V1.0.md
+        - Wifi Shield V1.1‏‎: Wifi_Shield_V1.1.md
         - Wifi Shield V1.2: Wifi_Shield_V1.2.md
         - XBee Shield: XBee_Shield.md
 
