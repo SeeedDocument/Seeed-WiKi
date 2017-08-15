@@ -175,6 +175,7 @@ pages:
         - Base Shield V2: Base_Shield_V2.md
         - Bluetooth Shield V2.0: Bluetooth_Shield_V2.md
         - CAN-BUS Shield V1.2: CAN-BUS_Shield_V1.2.md
+        - CAN-BUS Shield V2.0: CAN-BUS_Shield_V2.0.md
         - Camera Shield: Camera_Shield.md
         - EL Shield: EL_Shield.md
         - Energy Shield: Energy_Shield.md
@@ -262,7 +263,6 @@ pages:
         - Grove - Ear-clip Heart Rate Sensor: Grove-Ear-clip_Heart_Rate_Sensor.md
         - Grove - Electricity Sensor: Grove-Electricity_Sensor.md
         - Grove - Electromagnet: Grove-Electromagnet.md
-        - Grove - Encoder: Grove-Encoder.md
         - Grove - FM Receiver: Grove-FM_Receiver.md
         - Grove - Finger-clip Heart Rate Sensor: Grove-Finger-clip_Heart_Rate_Sensor.md
         - Grove - Finger-clip Heart Rate Sensor with shell: Grove-Finger-clip_Heart_Rate_Sensor_with_shell.md

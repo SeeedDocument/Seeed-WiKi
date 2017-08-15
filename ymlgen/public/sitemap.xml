@@ -316,6 +316,10 @@
   </url>
   
   <url>
+    <loc>http://wiki.seeed.cc/can-bus_shield_v2.0/</loc>
+  </url>
+  
+  <url>
     <loc>http://wiki.seeed.cc/cui32stem/</loc>
   </url>
   
@@ -710,10 +714,6 @@
   
   <url>
     <loc>http://wiki.seeed.cc/grove-electromagnet/</loc>
-  </url>
-  
-  <url>
-    <loc>http://wiki.seeed.cc/grove-encoder/</loc>
   </url>
   
   <url>

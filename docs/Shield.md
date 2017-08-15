@@ -16,6 +16,7 @@ Here is the list of the Seeeduino Boards you can find in the Seeed WiKi. The lis
 - [Base Shield V2](/Base_Shield_V2/)
 - [Bluetooth Shield V2.0](/Bluetooth_Shield_V2/)
 - [CAN-BUS Shield V1.2](/CAN-BUS_Shield_V1.2/)
+- [CAN-BUS Shield V2.0](/CAN-BUS_Shield_V2.0/)
 - [Camera Shield](/Camera_Shield/)
 - [EL Shield](/EL_Shield/)
 - [Energy Shield](/Energy_Shield/)

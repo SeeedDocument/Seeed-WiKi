@@ -846,6 +846,16 @@ This CAN-BUS Shield adopts MCP2515 CAN Bus controller with SPI interface and MCP
     </item>
     
     <item>
+      <title>CAN-BUS Shield V2.0</title>
+      <link>http://wiki.seeed.cc/can-bus_shield_v2.0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/can-bus_shield_v2.0/</guid>
+      <description>CAN-BUS is a common industrial bus because of its long travel distance, medium communication speed and high reliability. It is commonly found on modern machine tools, such as an automotive diagnostic bus.
+This CAN-BUS Shield adopts MCP2515 CAN Bus controller with SPI interface and MCP2551 CAN transceiver to give your Arduino/Seeeduino CAN-BUS capability. With an OBD-II converter cable added on and the OBD-II library imported, you are ready to build an onboard diagnostic device or data logger.</description>
+    </item>
+    
+    <item>
       <title>CUI32Stem</title>
       <link>http://wiki.seeed.cc/cui32stem/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1867,15 +1877,6 @@ Application Ideas  Alternating current measurement Device condition monitoring  
       
       <guid>http://wiki.seeed.cc/grove-electromagnet/</guid>
       <description>An electromagnet is a type of magnet in which the magnetic field is produced by electric current. An electric current flowing in a wire creates a magnetic field around the wire, due to Ampere&amp;rsquo;s law(see drawing below). To concentrate the magnetic field, in an electromagnet the wire is wound into a coil with many turns of wire lying side by side. The magnetic field of all the turns of wire passes through the center of the coil, creating a strong magnetic field there.</description>
-    </item>
-    
-    <item>
-      <title>Grove - Encoder</title>
-      <link>http://wiki.seeed.cc/grove-encoder/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://wiki.seeed.cc/grove-encoder/</guid>
-      <description>This module is an incremental rotary encoder. It encodes the rotation signal from the axis and output the signal by electronic pulse. The Grove – Encoder is one of the Grove series and has a standard Grove interface. When you need to add a rotary knob to your project, for example a volume knob for a speaker, a selection panel or a digital input, this will be your first choice.</description>
     </item>
     
     <item>
@@ -5126,7 +5127,7 @@ Features  Easy to start - The Shieldbot is plug &amp;amp; play.</description>
       <guid>http://wiki.seeed.cc/shield/</guid>
       <description>This section includes extension boards that created by Seeed.
 Product List Here is the list of the Seeeduino Boards you can find in the Seeed WiKi. The list will constantly updated.
- 2.8&amp;#39;&amp;#39; TFT Touch Shield v2.0 4A Motor Shield Base Shield V2 Bluetooth Shield V2.0 CAN-BUS Shield V1.2 Camera Shield EL Shield Energy Shield GPRS Shield V1.0 GPRS Shield V3.0 Mbed Shield Motor Shield V2.0 Music Shield V2.2 NFC Shield V2.</description>
+ 2.8&amp;#39;&amp;#39; TFT Touch Shield v2.0 4A Motor Shield Base Shield V2 Bluetooth Shield V2.0 CAN-BUS Shield V1.2 CAN-BUS Shield V2.0 Camera Shield EL Shield Energy Shield GPRS Shield V1.0 GPRS Shield V3.0 Mbed Shield Motor Shield V2.0 Music Shield V2.</description>
     </item>
     
     <item>
