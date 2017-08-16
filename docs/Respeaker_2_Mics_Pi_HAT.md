@@ -350,6 +350,11 @@ We have built a Raspbian iamge for your convenience, in which ReSpeaker 2-Mics P
 
 
 ## Resources
-- [Download our Raspbian image](https://s3-us-west-2.amazonaws.com/wiki.seeed.cc/001share/seeed-raspbian-jessie-20170523.7z)
-- [Schematics in Eagle](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/blob/master/src/ReSpeaker%202-Mics%20Pi%20HAT.sch)
-- [PCB in Eagle](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/blob/master/src/ReSpeaker%202-Mics%20Pi%20HAT.brd)
+- **[Image]** [Download our Raspbian image](https://s3-us-west-2.amazonaws.com/wiki.seeed.cc/001share/seeed-raspbian-jessie-20170523.7z)
+- **[Eagle]** [Respeaker_2_Mics_Pi_HAT_SCH](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/raw/master/src/ReSpeaker%202-Mics%20Pi%20HAT_SCH.zip)
+- **[Eagle]** [Respeaker_2_Mics_Pi_HAT_PCB](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/raw/master/src/ReSpeaker%202-Mics%20Pi%20HAT_PCB.zip)
+- **[PDF]** [Respeaker_2_Mics_Pi_HAT_SCH](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/raw/master/src/ReSpeaker%202-Mics%20Pi%20HAT_SCH.pdf)
+- **[PDF]** [Respeaker_2_Mics_Pi_HAT_PCB](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/raw/master/src/ReSpeaker%202-Mics%20Pi%20HAT_PCB.pdf)
+
+
+

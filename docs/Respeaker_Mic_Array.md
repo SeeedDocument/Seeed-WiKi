@@ -237,15 +237,39 @@ if __name__ == '__main__':
 
 ## FAQ
 
-- How to get audio source direction from Mic Array with *xvsm version* firmware?
+### Q1: How to get audio source direction from Mic Array with *xvsm version* firmware?
 
   When using Windows, follow the [guide](https://github.com/respeaker/get_started_with_respeaker/wiki/Mic-Array) or use our [HID tool](https://github.com/Fuhua-Chen/ReSpeaker-Microphone-Array-HID-tool).
 
   Python & C hidapi examples are [here](https://github.com/elthef/respeaker-xmos-hid)
 
+### Q2: How to use audacity to extract the 8 channels raw data on Windows?
+
+  Please select Windows WASA, here is the picture. If you want to switch firmware version from 0x032 to 0x082, before you do that, please uninstall your device in
+devices managment first. after uninstalling, update the firmware via DFU and reinstall the device.
+
+![](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/img/audacity.png)
+
+### Q3: How does Mic array communicate with Respeaker Core?
+
+  Mic array communicates with Respeaker Core through USB.
+
+### Q4: What does [ReSpeaker-Microphone-Array-HID-tool ](https://github.com/Fuhua-Chen/ReSpeaker-Microphone-Array-HID-tool) VAD stand for?
+
+  ![](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/img/VAD.png)
+
+  | Data  | Degree |
+  |-------|--------|
+  | 1e, 0 | 30     |
+  | e, 1  | 270    |
+  | d2,0  | 210    |
+  | 96,0  | 150    |
+
+
+
 ## Resources
 
-- **[Eagle]**[ReSpeaker Microphone Array SCH](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker%20Microphone%20Array%20v1.0.sch)
-- **[Eagle]**[ReSpeaker Microphone Array BRD](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker%20Microphone%20Array%20v1.0.brd)
+- **[Eagle]**[ReSpeaker Microphone Array SCH](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker%20Microphone%20Array%20v1.0.sch.zip)
+- **[Eagle]**[ReSpeaker Microphone Array BRD](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker%20Microphone%20Array%20v1.0.brd.zip)
 - **[PDF]** [ReSpeaker Microphone Array SCH](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker%20Microphone%20Array%20v1.0%20Sch.pdf)
 - **[PDF]** [ReSpeaker Microphone Array PCB](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker%20Microphone%20Array%20v1.0%20PCB.pdf)
