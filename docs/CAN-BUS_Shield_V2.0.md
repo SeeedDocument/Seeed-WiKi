@@ -27,6 +27,21 @@ This document applies to the following version of products:
 |CAN BUS Shield V1.2|Jan 05, 2015|[![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now_small.png)](http://www.seeedstudio.com/CAN-BUS-Shield-V1.2-p-2256.html)|
 | CAN BUS Shield V2.0 | Aug 01,2017    | [![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now_small.png)](https://www.seeedstudio.com/CAN-BUS-Shield-V2-p-2921.html)  |
 
+**Version Tracker**
+
+|**Features**|**V1.2**|**V2.0**|
+|------------|--------|------|
+|CAN-BUS Controller|	MCP2515|	MCP2515|
+|CAN Transceiver|	MCP2551|	MCP2551|
+|Default OBD Pinout|	OBD-II Standard|	OBD-II Standard|
+|CAN Standard Pinout|	Not compatible|Compatible (jumper)|
+|INT Pin	| Not changeable	|D2 or D3 (jumper)|
+|CS pin for TF card slot|	No TF card slot|	D4 or D5 (jumper)|
+|Serial Grove	|D0/D1	|A0/A1|
+|I2C Grove	|A4/A5	|SDA/SCL|
+|Grove Orientation|	Vertical	|Horizontal|
+|P1 pad	|Front of the shied|	Back of the shield|
+
 **What's new in CAN BUS Shield V2.0**
 
 
@@ -81,9 +96,8 @@ If you want a CAN Bus Analyzer to debug your CAN Bus, this [USB-CAN Analyzer](ht
 
 ## Hardware Overview
 -----
-(to_be_modify)
 
-![](https://github.com/SeeedDocument/CAN_BUS_Shield/blob/master/image/hardware_overview_1.png?raw=true)
+![](https://github.com/SeeedDocument/CAN-BUS-Shield-V2.0/raw/master/img/CANBUS_V2_Hardware_overview.png)
 
 1. **DB9 Interface** - to connect to OBDII Interface via a DBG-OBD Cable.
 2. **V_OBD** - It gets power from OBDII Interface (from DB9)
@@ -97,8 +111,9 @@ If you want a CAN Bus Analyzer to debug your CAN Bus, this [USB-CAN Analyzer](ht
 6. **Serial Grove connector**
 7. **I2C Grove connector**
 8. **ICSP pins**
-9. **IC** - MCP2551, a high-speed CAN transceiver ([datasheet](https://github.com/SeeedDocument/CAN_BUS_Shield/raw/master/resource/Mcp2551.pdf))
+9. **IC** - MCP2551, a high-speed CAN transceiver ([datasheet](https://github.com/SeeedDocument/CAN_BUS_Shield/raw/master/resource/Mcp2551.pdf))  
 10. **IC** - MCP2515, stand-alone CAN controller with SPI interface ([datasheet](https://github.com/SeeedDocument/CAN_BUS_Shield/raw/master/resource/MCP2515.pdf))
+11. **SD card slot**
 
 
 !!!warning
@@ -107,10 +122,10 @@ If you want a CAN Bus Analyzer to debug your CAN Bus, this [USB-CAN Analyzer](ht
 
 **Pin map**
 
-![](https://raw.githubusercontent.com/SeeedDocument/CAN_BUS_Shield/master/image/PINMAP.png)
+![](https://github.com/SeeedDocument/CAN-BUS-Shield-V2.0/raw/master/img/PingMAP_CANBUS_V2.png)
 
 !!!note
-    The FREE pin is available for the other usages.
+    - The FREE pin is available for the other usages.
 
 **DB9&OBDii Interface**
 
