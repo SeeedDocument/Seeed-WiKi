@@ -23,12 +23,22 @@ This document applies to the following version of products:
 |CAN BUS Shield V1.0 |Oct 14, 2012|![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/EOL.png)|
 |CAN BUS Shield V1.1 |Aug 10, 2013|![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/EOL.png)|
 |CAN BUS Shield V1.2|Jan 5, 2015|[![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now_small.png)](http://www.seeedstudio.com/CAN-BUS-Shield-V1.2-p-2256.html)|
+| CAN BUS Shield V2.0 | Aug 01,2017    | [![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now_small.png)](https://www.seeedstudio.com/CAN-BUS-Shield-V2-p-2921.html)  |
+
 
 **What's new in CAN BUS Shield V1.2**
 
 
 - Pads on the backside of PCBA
 - Change terminal resistor to 120 Ohm
+
+
+**Alternative Choice**
+
+
+If your project is space limited and also don't need other fuctions except CAN-BUS, here is a Grove CAN-BUS module which is Arduino compatible, more compact and cost effective, please click [here](https://www.seeedstudio.com/Serial-CAN-BUS-Module-based-on-MCP2551-and-MCP2515-p-2924.html) to visit its page.
+
+[![](https://github.com/SeeedDocument/CAN-BUS-Shield-V2.0/raw/master/img/canbus_arduino.png)](https://www.seeedstudio.com/Serial-CAN-BUS-Module-based-on-MCP2551-and-MCP2515-p-2924.html)
 
 **What if I want to connect this shield to my car**
 
@@ -38,7 +48,7 @@ If you want to read data or control your car, there's an OBD>DB9 cable available
 
 **USB-CAN Analyzer**
 
-If you want a CAN Bus Analyzer to debug your CAN Bus, this [USB-CAN Analyzer](https://www.seeedstudio.com/USB-CAN-Analyzer-p-2888.html) is recommended. 
+If you want a CAN Bus Analyzer to debug your CAN Bus, this [USB-CAN Analyzer](https://www.seeedstudio.com/USB-CAN-Analyzer-p-2888.html) is recommended.
 
 [![](https://raw.githubusercontent.com/SeeedDocument/CAN_BUS_Shield/master/image/usb_can.jpg)](https://www.seeedstudio.com/USB-CAN-Analyzer-p-2888.html)
 

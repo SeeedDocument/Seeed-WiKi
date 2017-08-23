@@ -485,10 +485,6 @@
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/g1_4_water_flow_sensor/</loc>
-  </url>
-  
-  <url>
     <loc>http://wiki.seeed.cc/g1-8_water_flow_sensor/</loc>
   </url>
   
@@ -1736,6 +1732,10 @@
   
   <url>
     <loc>http://wiki.seeed.cc/lua_for_rephone/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/m11_1.25_water_flow_sensor/</loc>
   </url>
   
   <url>

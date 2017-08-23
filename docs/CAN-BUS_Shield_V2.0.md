@@ -46,20 +46,47 @@ This document applies to the following version of products:
 
 
 **Hardware**
-- OBD-II or CAN standard pinout can be selected by switching jumpers on DB9 interface, the default pinout is OBD-II.
-- Add a TF card slot for data storage and the CS pin can be either set to D4 or D5.
-- The INT pin can be set to D2 or D3 by switching jumpers on the back of the shield.
-- Moved the P1 pad from front to the back of the shield to make it easier to cut and solder.
-- Consider that the D0/D1 pin are usually used for downloading code, we changed the serial Grove connector to pin A0/A1.
-- The I2C grove connector is also changed to more reasonable standard SDA/SCL pin instead of previous A4/A5.
-- The two grove connectors are both changed to horizontal rather than vertical to the shield so that it would be more convenient when connecting to other grove modules.
+
+
+  -  OBD-II or CAN standard pinout can be selected by switching jumpers on DB9 interface, the default pinout is OBD-II.
+  -  Add a TF card slot for data storage and the CS pin can be either set to D4 or D5.
+  -  The INT pin can be set to D2 or D3 by switching jumpers on the back of the shield.
+  -  Moved the P1 pad from front to the back of the shield to make it easier to cut and solder.
+  -  Consider that the D0/D1 pin are usually used for downloading code, we changed the serial Grove connector to pin A0/A1.
+  -  The I2C grove connector is also changed to more reasonable standard SDA/SCL pin instead of previous A4/A5.
+  -  The two grove connectors are both changed to horizontal rather than vertical to the shield so that it would be more convenient when connecting to other grove modules.
 
 
 **Software**
-- Add the function and example to access the data of your car.
-- Add the function to read the SD card.
-- Add the example to store the data of your car into the SD card.
-- Fix some bugs and optimize some program.
+
+
+  -  Add the function and example to access the data of your car.
+  -  Add the function to read the SD card.
+  -  Add the example to store the data of your car into the SD card.
+  -  Fix some bugs and optimize some program.
+
+**D-Sub CANbus PinOut**
+
+|pin#|Signal names|Signal Description|
+|----|----|-----------|
+|1|Reserved|Upgrade Path|
+|2|CAN_L|Dominant Low|
+|3|CAN_GND|Ground|
+|4|Reserved|Upgrade Path|
+|5|CAN_SHLD|Shiled, Optional|
+|6|GND|Ground，Optional|
+|7|CAN_H|Dominant High|
+|8|Reserved|Upgrade Path|
+|9|CAN_V+|Power, Optional|
+
+
+
+**Alternative Choice**
+
+
+If your project is space limited and also don't need other fuctions except CAN-BUS, here is a Grove CAN-BUS module which is Arduino compatible, more compact and cost effective, please click [here](https://www.seeedstudio.com/Serial-CAN-BUS-Module-based-on-MCP2551-and-MCP2515-p-2924.html) to visit its page.
+
+[![](https://github.com/SeeedDocument/CAN-BUS-Shield-V2.0/raw/master/img/canbus_arduino.png)](https://www.seeedstudio.com/Serial-CAN-BUS-Module-based-on-MCP2551-and-MCP2515-p-2924.html)
 
 **What if I want to connect this shield to my car**
 
@@ -131,25 +158,43 @@ If you want a CAN Bus Analyzer to debug your CAN Bus, this [USB-CAN Analyzer](ht
 
 ![](https://raw.githubusercontent.com/SeeedDocument/CAN_BUS_Shield/master/image/OBD.png)
 
-**CS pin**
+**CS_CAN pin**
 
-SPI_CS pin of V1.2 is connected to **D9** by default. If you want to change to **D10**, please follow below instructions.
+SPI_CS pin of V2.0 is connected to **D9** by default. If you want to change to **D10**, please follow below instructions.
 
-- Step1: Take a look at the backside of the PCBA, you will find a pad named CS.
+- Step1: Take a look at the backside of the PCBA, you will find a pad named CS_CAN.
 
-![](https://github.com/SeeedDocument/CAN_BUS_Shield/blob/master/image/hardware_overview_pins_setting.png?raw=true)
+![](https://github.com/SeeedDocument/CAN-BUS-Shield-V2.0/raw/master/img/cs_view.png)
 
  - Step2: Cut the wire between pad9 and the middle pad.
 
-![](https://github.com/SeeedDocument/CAN_BUS_Shield/raw/master/image/cut%20this%20wire%20with%20box%20cutter.png)
+![](https://github.com/SeeedDocument/CAN-BUS-Shield-V2.0/raw/master/img/cs_cut.png)
 
- - Step3:Solder the middle pad and pad 10.
+ - Step3:Weld the middle pad and pad 10.
 
-![](https://github.com/SeeedDocument/CAN_BUS_Shield/raw/master/image/sodder%20the%20middle%20pad%20and%20pad%2010.png)
+![](https://github.com/SeeedDocument/CAN-BUS-Shield-V2.0/raw/master/img/weld_cs.png)
 
 
 !!!warning
     Be careful with the box cutter, it's easy to hurt yourself or the PCBA.
+
+
+**INT pin**
+
+INT pin of V2.0 is connected to **D2** by default. If you want to change to **D3**, please follow below instructions.
+
+- Step1: Take a look at the backside of the PCBA, you will find a pad named INT.
+
+![](https://github.com/SeeedDocument/CAN-BUS-Shield-V2.0/raw/master/img/cs_view.png)
+
+ - Step2: Cut the wire between pad 2 and the middle pad.
+
+![](https://github.com/SeeedDocument/CAN-BUS-Shield-V2.0/raw/master/img/INT_1.png)
+
+- Step3:Weld the middle pad and pad 3.
+
+![](https://github.com/SeeedDocument/CAN-BUS-Shield-V2.0/raw/master/img/INT_2.png)
+
 
 **SPI pins**
 
