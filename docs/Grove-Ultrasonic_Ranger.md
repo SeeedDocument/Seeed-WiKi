@@ -6,7 +6,7 @@ oldwikiname: Grove - Ultrasonic Ranger
 prodimagename: 350px-Ultrasonic_Ranger.jpg
 surveyurl: https://www.research.net/r/Grove-Ultrasonic-Ranger
 sku: 101020010
-tags: io_3v, io_5v, plat_duino, plat_pi
+tags: io_3v3, io_5v, plat_duino, plat_pi
 
 ---
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove_Ultrasonic_Ranger/master/image/350px-Ultrasonic_Ranger.jpg)
