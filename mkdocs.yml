@@ -51,7 +51,6 @@ pages:
         - UartSBee V4: UartSBee_V4.md
         - UartSBee v5: UartSBee_v5.md
         - Wio Tracker - GPS, BT3.0, GSM, Arduino Compatible: wio_gps_board.md
-        - Wio Tracker - LTE CAT1: Wio_Tracker_LTE_CAT1.md
 
     - BeagleBone:
         - BeagleBone Introduction: BeagleBone.md
@@ -168,6 +167,10 @@ pages:
         - Wio Link Starter Kit: Wio_Link_Starter_Kit.md
         - Wio Node: Wio_Node.md
 
+    - Wio_Tracker:
+        - Wio_Tracker Introduction: Wio_Tracker.md
+        - Wio LTE - 4G, Cat.1, GNSS, Espruino Compatible: Wio_LTE_4G_Cat_1_GNSS_Espruino_Compatible.md
+
     - Shield:
         - Shield Introduction: Shield.md
         - 2.8&#39;&#39; TFT Touch Shield v2.0: 2.8inch_TFT_Touch_Shield_v2.0.md
@@ -227,8 +230,11 @@ pages:
     - Respeaker:
         - Respeaker Introduction: Respeaker.md
         - ReSpeaker 2-Mics Pi HAT: Respeaker_2_Mics_Pi_HAT.md
+        - ReSpeaker 4-Mic Array for Raspberry Pi: ReSpeaker-4-Mic-Array-for-Raspberry-Pi.md
         - ReSpeaker Mic Array: Respeaker_Mic_Array.md
         - Respeaker Core: Respeaker_Core.md
+
+
 
 
 - Grove:

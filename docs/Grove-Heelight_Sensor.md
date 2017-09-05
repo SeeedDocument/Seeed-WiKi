@@ -119,6 +119,9 @@ void loop() // run over and over
 Open the serial monitor, set baud rate to be 57600, then play the sound. We have prepared 511 different [digital sounds](https://github.com/SeeedDocument/Grove_Heelight_Sensor/raw/master/res/audio.zip) for you. Every time one sound is played, the heelight sensor will output a hex value correspond to the sound, and the last 2 characters of the hex value is the same as the sounds value.
 ![](https://github.com/SeeedDocument/Grove_Heelight_Sensor/raw/master/img/heelight%20sensor%20output.png)
 
+!!!Note
+    If this sensor doesn't work well when you play the specific sounds we provided via PC or other speakers, please set the volume in a low level. We recommend 10/100 in windows PC.
+
 
 ## Resources
 - [Website of Heelight](http://www.heelight.com/)

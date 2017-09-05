@@ -2005,6 +2005,10 @@
   </url>
   
   <url>
+    <loc>http://wiki.seeed.cc/respeaker-4-mic-array-for-raspberry-pi/</loc>
+  </url>
+  
+  <url>
     <loc>http://wiki.seeed.cc/respeaker_mic_array/</loc>
   </url>
   
@@ -2430,6 +2434,10 @@
   </url>
   
   <url>
+    <loc>http://wiki.seeed.cc/wio_lte_4g_cat_1_gnss_espruino_compatible/</loc>
+  </url>
+  
+  <url>
     <loc>http://wiki.seeed.cc/wio_link/</loc>
   </url>
   
@@ -2466,7 +2474,7 @@
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/wio_tracker_lte_cat1/</loc>
+    <loc>http://wiki.seeed.cc/wio_tracker/</loc>
   </url>
   
   <url>

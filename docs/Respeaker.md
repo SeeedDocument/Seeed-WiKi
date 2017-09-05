@@ -9,9 +9,10 @@ ReSpeaker is an open modular voice interface to hack things around you. Let you 
 
 ## Product  List
 ---
-Here is the list of the BeagleBone Boards you can find in the Seeed WiKi. The list will be constantly updated.
+Here is the list of the Respeaker Boards you can find in the Seeed WiKi. The list will be constantly updated.
 
 - [ReSpeaker 2-Mics Pi HAT](/Respeaker_2_Mics_Pi_HAT/)
+- [ReSpeaker 4-Mic Array for Raspberry Pi](/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/)
 - [ReSpeaker Mic Array](/Respeaker_Mic_Array/)
 - [Respeaker Core](/Respeaker_Core/)
 

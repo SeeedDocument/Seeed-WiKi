@@ -1,10 +1,10 @@
 ---
-title: Wio Tracker - LTE CAT1
-category: Arduino
+title: Wio LTE - 4G, Cat.1, GNSS, Espruino Compatible
+category: Wio_Tracker
 bzurl:
 prodimagename: wio_tracker_lte_1.jpg
-surveyurl: https://www.research.net/r/Wio_GPS-LTE_CAT1
-sku: 102990837
+surveyurl: https://www.research.net/r/Wio_LTE_4G_Cat_1_GNSS_Espruino_Compatible
+sku: 
 ---
 
 ![](https://github.com/SeeedDocument/Wio_Tracker_LTE/raw/master/img/wio_tracker_lte_1.jpg)

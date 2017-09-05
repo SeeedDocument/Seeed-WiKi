@@ -4566,6 +4566,16 @@ The board is developed based on WM8960, a low power stereo codec. There are 2 mi
     </item>
     
     <item>
+      <title>ReSpeaker 4-Mic Array for Raspberry Pi</title>
+      <link>http://wiki.seeed.cc/respeaker-4-mic-array-for-raspberry-pi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/respeaker-4-mic-array-for-raspberry-pi/</guid>
+      <description>ReSpeaker 4-Mic Array for Raspberry Pi is a quad-microphone expansion board for Raspberry Pi designed for AI and voice applications. This means that you can build a more powerful and flexible voice product that integrates Amazon Alexa Voice Service, Google Assistant, and so on.
+Different from ReSpeaker 2-Mics Pi HAT, this board is developed based on AC108, a highly integrated quad-channel ADC with I2S/TDM output transition for high definition voice capture, which allows the device to pick up sounds in a 3 meters radius.</description>
+    </item>
+    
+    <item>
       <title>ReSpeaker Mic Array</title>
       <link>http://wiki.seeed.cc/respeaker_mic_array/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4687,8 +4697,8 @@ Note: This tutorial is for information purposes, Dismantle the DSO nano and foll
       
       <guid>http://wiki.seeed.cc/respeaker/</guid>
       <description> ReSpeaker is an open modular voice interface to hack things around you. Let you interact with your home appliances, your plant, your office, your internet-equipped devices or any other things in your daily life, all by your voice.
-Product List Here is the list of the BeagleBone Boards you can find in the Seeed WiKi. The list will be constantly updated.
- ReSpeaker 2-Mics Pi HAT ReSpeaker Mic Array Respeaker Core  </description>
+Product List Here is the list of the Respeaker Boards you can find in the Seeed WiKi. The list will be constantly updated.
+ ReSpeaker 2-Mics Pi HAT ReSpeaker 4-Mic Array for Raspberry Pi ReSpeaker Mic Array Respeaker Core  </description>
     </item>
     
     <item>
@@ -5684,6 +5694,15 @@ The shield&amp;rsquo;s default communication protocol with the Arduino is UART/S
     </item>
     
     <item>
+      <title>Wio LTE - 4G, Cat.1, GNSS, Espruino Compatible</title>
+      <link>http://wiki.seeed.cc/wio_lte_4g_cat_1_gnss_espruino_compatible/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/wio_lte_4g_cat_1_gnss_espruino_compatible/</guid>
+      <description>Wio Tracker is an open source gateway which enable faster IoT GPS solutions. It is Arduino and Grove compatible development boards that helps you track nearly any moving thing on the planet and then upload that data wirelessly. The Wio Tracker - LTE is the LTE version of Wio Tracker, so now we’ve got 2 versions of Wio Tracker, the 2G is like a warm-up product that bring the Wio Tracker series to the world, while the LTE (4G) version is the one that really brings some differences.</description>
+    </item>
+    
+    <item>
       <title>Wio Link</title>
       <link>http://wiki.seeed.cc/wio_link/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5767,12 +5786,12 @@ If you are following the latest news about Low-Power Wide-Area Network(LPWAN), y
     </item>
     
     <item>
-      <title>Wio Tracker - LTE CAT1</title>
-      <link>http://wiki.seeed.cc/wio_tracker_lte_cat1/</link>
+      <title>Wio_Tracker Introduction</title>
+      <link>http://wiki.seeed.cc/wio_tracker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://wiki.seeed.cc/wio_tracker_lte_cat1/</guid>
-      <description>Wio Tracker is an open source gateway which enable faster IoT GPS solutions. It is Arduino and Grove compatible development boards that helps you track nearly any moving thing on the planet and then upload that data wirelessly. The Wio Tracker - LTE is the LTE version of Wio Tracker, so now we’ve got 2 versions of Wio Tracker, the 2G is like a warm-up product that bring the Wio Tracker series to the world, while the LTE (4G) version is the one that really brings some differences.</description>
+      <guid>http://wiki.seeed.cc/wio_tracker/</guid>
+      <description>The Wio_Tracker platform was firstly introduced to the world at the end of 2015 when Wio Link was crowd-founding on Kickstarter. As the second product that we launched at Kickstarter, the result of Wio_Tracker was exceeded our expectation a lot. So not long after that, we released the little brother of Wio link&amp;mdash;-Wio Node. Both has almost the same function but different in size and grove connector quantity, to accommodate to different situations.</description>
     </item>
     
     <item>

@@ -71,7 +71,7 @@ We have a comprehensive line of water flow sensors in different diameters. Check
 <tr>
 <td>Water Pressure
 </td>
-<td>≤2.0MPa
+<td>≤0.8MPa
 </td></tr>
 <tr>
 <td>Storage Temperature
