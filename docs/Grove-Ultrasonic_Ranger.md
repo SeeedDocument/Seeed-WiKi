@@ -11,7 +11,7 @@ tags: io_3v, io_5v, plat_duino, plat_pi
 ---
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove_Ultrasonic_Ranger/master/image/350px-Ultrasonic_Ranger.jpg)
 
-This Grove - Ultrasonic sensor is a non-contact distance measurement module which works at 42KHz, suitable for projects that require middle distance measurement.
+This Grove - Ultrasonic sensor is a non-contact distance measurement module which works at 40KHz, suitable for projects that require middle distance measurement.
 
 [![Get one now](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/image/300px-Get_One_Now_Banner.png)](https://www.seeedstudio.com/Grove-Ultrasonic-Ranger-p-960.html)
 
@@ -20,6 +20,7 @@ We have made some update on this product in order to improve the power stability
 
 - Added an capacitance C14
 - Redesigned the layout to make it more tidy
+- Compatible with 3.3V voltage system
 
 Here we use 2 photos to show the difference:
 

@@ -3022,10 +3022,10 @@ Grove Toy Kit includes:</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://wiki.seeed.cc/grove-ultrasonic_ranger/</guid>
-      <description>This Grove - Ultrasonic sensor is a non-contact distance measurement module which works at 42KHz, suitable for projects that require middle distance measurement.
+      <description>This Grove - Ultrasonic sensor is a non-contact distance measurement module which works at 40KHz, suitable for projects that require middle distance measurement.
 
 Product Update We have made some update on this product in order to improve the power stability when working with some low-voltage main board. The update includes:
- Added an capacitance C14 Redesigned the layout to make it more tidy  Here we use 2 photos to show the difference:</description>
+ Added an capacitance C14 Redesigned the layout to make it more tidy Compatible with 3.3V voltage system  Here we use 2 photos to show the difference:</description>
     </item>
     
     <item>
