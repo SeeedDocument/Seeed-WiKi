@@ -169,7 +169,7 @@ pages:
 
     - Wio_Tracker:
         - Wio_Tracker Introduction: Wio_Tracker.md
-        - Wio LTE - 4G, Cat.1, GNSS, Espruino Compatible: Wio_LTE_4G_Cat_1_GNSS_Espruino_Compatible.md
+        - Wio LTE - 4G, Cat.1: Wio LTE - 4G, Cat.1.md
 
     - Shield:
         - Shield Introduction: Shield.md
