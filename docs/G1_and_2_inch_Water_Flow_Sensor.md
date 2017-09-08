@@ -215,5 +215,5 @@ Here is the Sensors FAQ, people can go here to find questions and answers for th
 ---
 - [Water flow sensor datasheet.pdf](https://github.com/SeeedDocument/G1_and_2_inch_Water_Flow_Sensor/raw/master/res/Water_flow_sensor_datasheet.pdf)
 - [Reading Water Flow rate with Water Flow Sensor](http://www.seeed.cc/topic_detail.html?id=575#p3632)
-- [Water Flow rate display on LCD](http://www.practicalarduino.com/projects/water-flow-gauge)
+- [Water Flow rate display on LCD](https://github.com/practicalarduino/WaterFlowGauge)
 - [datasheet for the material](http://garden.seeedstudio.com/images/4/4e/YEE70G30HSLNC..pdf)

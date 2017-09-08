@@ -5703,6 +5703,16 @@ The shield&amp;rsquo;s default communication protocol with the Arduino is UART/S
     </item>
     
     <item>
+      <title>Wio LTE - GPS, BT3.0, GSM, Arduino Compatible</title>
+      <link>http://wiki.seeed.cc/wio_gps_board/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/wio_gps_board/</guid>
+      <description>What is Wio Tracker? Wio Tracker is an Arduino compatible development board that helps you to track any moving things on the planet. By integrating GSM&amp;amp;GPRS as well as GPS&amp;amp;BeiDou in one board, it provides an all-in-one solution for your out-door IoT project.
+If you are following the latest news about Low-Power Wide-Area Network(LPWAN), you may know that 2016 is a special year because there are new technology like LoRa and Sigfox came out, which remarkably pushed the development of WAN.</description>
+    </item>
+    
+    <item>
       <title>Wio Link</title>
       <link>http://wiki.seeed.cc/wio_link/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5773,16 +5783,6 @@ In order to simplify all these steps, at the end of 2015, Seeed Studio initiated
       
       <guid>http://wiki.seeed.cc/wio_node/</guid>
       <description>Building IoT projects is exciting, as you can connect almost everything around you and control them. However sometime it is not easy to build IoT applications since it requires a lot of hard works, such as hardware, programming, jump wires and soldering etc. Even a well-trained user would spend hours to handle all the work, let alone beginners. In order to simplify the development of IoT project, Seeed launched Wio Link on kickstarter and it turn out a big success.</description>
-    </item>
-    
-    <item>
-      <title>Wio Tracker - GPS, BT3.0, GSM, Arduino Compatible</title>
-      <link>http://wiki.seeed.cc/wio_gps_board/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://wiki.seeed.cc/wio_gps_board/</guid>
-      <description>What is Wio Tracker? Wio Tracker is an Arduino compatible development board that helps you to track any moving things on the planet. By integrating GSM&amp;amp;GPRS as well as GPS&amp;amp;BeiDou in one board, it provides an all-in-one solution for your out-door IoT project.
-If you are following the latest news about Low-Power Wide-Area Network(LPWAN), you may know that 2016 is a special year because there are new technology like LoRa and Sigfox came out, which remarkably pushed the development of WAN.</description>
     </item>
     
     <item>

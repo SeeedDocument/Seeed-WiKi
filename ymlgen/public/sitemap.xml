@@ -2433,6 +2433,10 @@
   </url>
   
   <url>
+    <loc>http://wiki.seeed.cc/wio_gps_board/</loc>
+  </url>
+  
+  <url>
     <loc>http://wiki.seeed.cc/wio_link/</loc>
   </url>
   
@@ -2462,10 +2466,6 @@
   
   <url>
     <loc>http://wiki.seeed.cc/wio_node/</loc>
-  </url>
-  
-  <url>
-    <loc>http://wiki.seeed.cc/wio_gps_board/</loc>
   </url>
   
   <url>
