@@ -1586,6 +1586,11 @@
   </url>
   
   <url>
+    <loc>http://wiki.seeed.cc/tags/io_3v3-io_5v-plat_duino/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://wiki.seeed.cc/tags/io_3v3-io_5v-plat_duino-plat_linkit-plat_bbg-plat_wio-plat_pi-plat_linkit/</loc>
     <priority>0</priority>
   </url>

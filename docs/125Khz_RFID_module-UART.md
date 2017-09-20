@@ -11,7 +11,7 @@ sku:      113990014
 
 RDM 125KHz card mini-module is designed for reading code from 125KHz card compatible read-only tags and read/write card . It can be applied in office/home security, personal identification, access control, anti-forgery, interactive toy and production control systems etc.
 
-[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.research.net/r/125Khz_RFID_module-UART)
+[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/125Khz-RFID-module-UART-p-171.html)
 
 **Note:** Module will notify whenever 125khz tag approaches, tag serial number will be send via TX pin. Easy way for a RFID module on MCU projects or PC connnection via UartSB.
 

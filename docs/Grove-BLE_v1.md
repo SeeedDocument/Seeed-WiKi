@@ -33,7 +33,7 @@ Parameters
 | Service             | Central & Peripheral UUID FFE0,FFE1                              |
 | Supply Power        | 3.3v - 5v                                                        |
 | Working temperature | –5 ~ +65 Centigrade                                              |
-| Size                | 20cm x 10cm                                                      |
+| Size                | 40cm x 20cm                                                      |
 | Working Current     | &lt; 10 mA                                                       |
 | Sourcing Current    | &lt; 20 mA                                                       |
 | Sleeping Current    | &lt; 1 mA                                                        |
@@ -45,7 +45,7 @@ The supply power of HM-11 is 3.3v, but the Grove - BLE is 3.3V to 5V.
 
 !!!Tip
     More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
-    
+
 Platforms Supported
 -------------------
 
@@ -124,7 +124,7 @@ Receive：OK+Get:[para]
 
 Range： 0~2;
 
-0--Transmission Mode, 1--PIO collection Mode + Mode 0, 2--Remote Control Mode + Mode 0 . 
+0--Transmission Mode, 1--PIO collection Mode + Mode 0, 2--Remote Control Mode + Mode 0 .
 
 Default: 0
 
@@ -159,7 +159,7 @@ Send：AT+PASS?
 
 Receive：OK+PASS:[para1]
 
-Range : 000000~999999. 
+Range : 000000~999999.
 
 Default : 000000.
 
@@ -208,25 +208,25 @@ Open Arduino IDE, copy the following program and upload it onto the Arduino/Seee
     #include <SoftwareSerial.h>   //Software Serial Port
     #define RxD 2
     #define TxD 3
-     
+
     #define DEBUG_ENABLED  1
-     
+
     SoftwareSerial BLE(RxD,TxD);
-     
-    void setup() 
-    { 
+
+    void setup()
+    {
       Serial.begin(9600);
       pinMode(RxD, INPUT);
       pinMode(TxD, OUTPUT);
       setupBleConnection();
-     
-    } 
-     
-    void loop() 
-    { 
+
+    }
+
+    void loop()
+    {
       char recvChar;
       while(1){
-        if(BLE.available()){//check if there's any data sent from the remote BLE 
+        if(BLE.available()){//check if there's any data sent from the remote BLE
           recvChar = BLE.read();
           Serial.print(recvChar);
         }
@@ -235,8 +235,8 @@ Open Arduino IDE, copy the following program and upload it onto the Arduino/Seee
           BLE.print(recvChar);
         }
       }
-    } 
-     
+    }
+
     void setupBleConnection()
     {
       BLE.begin(9600); //Set BLE BaudRate to default baud rate 9600
@@ -252,22 +252,22 @@ Open Arduino IDE, copy the following program and upload it onto the Arduino/Seee
     #include <SoftwareSerial.h>   //Software Serial Port
     #define RxD 2
     #define TxD 3
-     
+
     #define DEBUG_ENABLED  1
-     
+
     SoftwareSerial BLE(RxD,TxD);
-     
-    void setup() 
-    { 
+
+    void setup()
+    {
       Serial.begin(9600);
       pinMode(RxD, INPUT);
       pinMode(TxD, OUTPUT);
       setupBleConnection();
-     
-    } 
-     
-    void loop() 
-    { 
+
+    }
+
+    void loop()
+    {
       char recvChar;
       while(1){
         if(BLE.available()){//check if there's any data sent from the remote BLE
@@ -279,8 +279,8 @@ Open Arduino IDE, copy the following program and upload it onto the Arduino/Seee
           BLE.print(recvChar);
         }
       }
-    } 
-     
+    }
+
     void setupBleConnection()
     {
       BLE.begin(9600); //Set BLE BaudRate to default baud rate 9600

@@ -63,6 +63,16 @@ The Wio LTE is well suited for outdoor projects where the device can connect to 
 ||Width|48.2mm|
 ||Weight|||
 
+## Power Consumption
+|status|current|
+|---|---|
+|Normal boot(boot moment)| 700mA |
+|After boot(IDLE mode)| 300mA|
+|After the boot, the normal communication status (network transmission function)|600mA or so, the peak reaches 2A|
+|Call and SMS(signal better)| 100-300mA |
+|Deep sleep mode, turn off all functions, require external wake-up (wake only by Reset)|300uA|
+|MCU Deep Sleep mode, wake-up pin connected to module, wake-up via module|over 300uA (requires testing)
+
 
 ## Application Ideas
 

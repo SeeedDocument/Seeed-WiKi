@@ -64,7 +64,7 @@ Here we will show you how this Grove - Ultrasonic Ranger works via a simple demo
 |[Get ONE Now](http://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html)|[Get ONE Now](https://www.seeedstudio.com/Grove-Ultrasonic-Ranger-p-960.html)|[Get ONE Now](https://www.seeedstudio.com/Base-Shield-V2-p-1378.html)|[Get ONE Now](https://www.seeedstudio.com/Grove-LCD-RGB-Backlight-p-1643.html)|
 
 -   Connect Ultrasonic Ranger to port D7 of Grove-Base Shield.
--   Connect Ultrasonic Ranger to port I2C of Grove-Base Shield.
+-   Connect LCD RGB Backlight to port I2C of Grove-Base Shield.
 -   Plug Grove - Base Shield into Arduino.
 -   Connect Arduino to PC via a USB cable.
 
