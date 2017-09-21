@@ -1,5 +1,5 @@
 ---
-title: Wio LTE - GPS, BT3.0, GSM, Arduino Compatible
+title: Wio Tracker - GPS, BT3.0, GSM, Arduino Compatible
 category: Wio_Tracker
 bzurl: https://www.seeedstudio.com/Wio-Tracker-GPS%2C-BT3.0%2C-GSM%2C-Arduino-Compatible-p-2831.html
 prodimagename: Wio_GPS_Antanna.jpg
@@ -154,7 +154,7 @@ In brief, Groves is hundreds of sensor that in standard style, which is consist 
 !!!Note
     This chapter is based on Win10 and Arduino IDE v1.6.0
 
-First you need to install the latest Arduino IDE, and [ADD Seeeduino LoRa to your Arduino IDE](http://wiki.seeed.cc/Seeed_Arduino_Boards/).
+First you need to install the latest Arduino IDE, and [ADD Seeeduino SAMD to your Arduino IDE](http://wiki.seeed.cc/Seeed_Arduino_Boards/).
 
 ### Install the Driver (For Windows)
 

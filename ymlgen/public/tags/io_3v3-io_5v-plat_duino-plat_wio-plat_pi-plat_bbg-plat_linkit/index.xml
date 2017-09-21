@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Io_3v3 Io_5v Plat_duino Plat_wio Plat_pi Plat_bbg Plat_linkit on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
+    <link>http://wiki.seeed.cc/tags/io_3v3-io_5v-plat_duino-plat_wio-plat_pi-plat_bbg-plat_linkit/</link>
+    <description>Recent content in Io_3v3 Io_5v Plat_duino Plat_wio Plat_pi Plat_bbg Plat_linkit on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://wiki.seeed.cc/tags/io_3v3-io_5v-plat_duino-plat_wio-plat_pi-plat_bbg-plat_linkit/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Grove - Light Sensor</title>
+      <link>http://wiki.seeed.cc/grove-light_sensor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/grove-light_sensor/</guid>
+      <description>The Grove - Light sensor integrates a photo-resistor(light dependent resistor) to detect the intensity of light. The resistance of photo-resistor decreases when the intensity of light increases. A dual OpAmp chip LM358 on board produces voltage corresponding to intensity of light(i.e. based on resistance value). The output signal is analog value, the brighter the light is, the larger the value.
+This module can be used to build a light controlled switch i.</description>
+    </item>
+    
+  </channel>
+</rss>

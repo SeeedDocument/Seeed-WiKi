@@ -169,7 +169,7 @@ pages:
     - Wio_Tracker:
         - Wio_Tracker Introduction: Wio_Tracker.md
         - Wio LTE - 4G, Cat.1: Wio LTE - 4G, Cat.1.md
-        - Wio LTE - GPS, BT3.0, GSM, Arduino Compatible: wio_gps_board.md
+        - Wio Tracker - GPS, BT3.0, GSM, Arduino Compatible: wio_gps_board.md
 
     - Shield:
         - Shield Introduction: Shield.md
@@ -230,7 +230,7 @@ pages:
     - Respeaker:
         - Respeaker Introduction: Respeaker.md
         - ReSpeaker 2-Mics Pi HAT: Respeaker_2_Mics_Pi_HAT.md
-        - ReSpeaker 4-Mic Array for Raspberry Pi: ReSpeaker-4-Mic-Array-for-Raspberry-Pi.md
+        - ReSpeaker 4-Mic Array for Raspberry Pi: ReSpeaker_4_Mic_Array_for_Raspberry_Pi.md
         - ReSpeaker Mic Array: Respeaker_Mic_Array.md
         - Respeaker Core: Respeaker_Core.md
 

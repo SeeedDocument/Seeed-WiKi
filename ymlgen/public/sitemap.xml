@@ -1591,6 +1591,11 @@
   </url>
   
   <url>
+    <loc>http://wiki.seeed.cc/tags/io_3v3-io_5v-plat_duino-plat_linkit-plat_bbg-plat_piplat_wio/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://wiki.seeed.cc/tags/io_3v3-io_5v-plat_duino-plat_linkit-plat_bbg-plat_wio-plat_pi-plat_linkit/</loc>
     <priority>0</priority>
   </url>
@@ -1601,12 +1606,12 @@
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/tags/io_5v-plat_duino/</loc>
+    <loc>http://wiki.seeed.cc/tags/io_3v3-io_5v-plat_duino-plat_wio-plat_pi-plat_bbg-plat_linkit/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/tags/io_5v-plat_duino-plat_linkit-plat_bbg-plat_piplat_wio/</loc>
+    <loc>http://wiki.seeed.cc/tags/io_5v-plat_duino/</loc>
     <priority>0</priority>
   </url>
   
@@ -2005,7 +2010,7 @@
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/respeaker-4-mic-array-for-raspberry-pi/</loc>
+    <loc>http://wiki.seeed.cc/respeaker_4_mic_array_for_raspberry_pi/</loc>
   </url>
   
   <url>
@@ -2438,10 +2443,6 @@
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/wio_gps_board/</loc>
-  </url>
-  
-  <url>
     <loc>http://wiki.seeed.cc/wio_link/</loc>
   </url>
   
@@ -2471,6 +2472,10 @@
   
   <url>
     <loc>http://wiki.seeed.cc/wio_node/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/wio_gps_board/</loc>
   </url>
   
   <url>
