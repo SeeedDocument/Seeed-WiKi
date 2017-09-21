@@ -62,7 +62,7 @@ There're 5 size of Grove.
 
 ##How to connect Grove to your board
 
-If there's no Grove connector on your board, you need a **Grove Expansion Board** which to attach the Grove modules. The Grove Expansion Board provides the processing power, and the modules offer the input sensors and output actuators of your system. There are many Grove Expansion Board for different platform already, they include Arduino UNO, Particle Phone, BeagleBone board etc.
+If there's no Grove connector on your board, you need a **Grove Expansion Board** which to attach the Grove modules. The Grove Expansion Board provides the processing power, and the modules offer the input sensors and output actuators of your system. There are many Grove Expansion Board for different platform already, they include Arduino UNO, Particle Photon, BeagleBone board etc.
 
 | Arduino Base Shield| BeagleBone board | Arduino Mega |
 |----------|---------------------|--------------|
