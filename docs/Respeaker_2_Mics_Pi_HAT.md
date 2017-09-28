@@ -1,6 +1,6 @@
 ---
 title: ReSpeaker 2-Mics Pi HAT
-category: Respeaker
+category: Arduino
 bzurl: https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT-p-2874.html
 prodimagename: 2mics-zero-high-res.jpg
 surveyurl: https://www.research.net/r/ReSpeaker_2-Mics_Pi_HAT
@@ -35,7 +35,7 @@ The board is developed based on WM8960, a low power stereo codec. There are 2 mi
 ![](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/blob/master/img/mic_hatv1.0.png?raw=true)
 
 - BUTTON: a User Button, connected to GPIO17
-- MIC\_L & MIC\_R: 2 Microphones on both sides of the board
+- MIC_Land MIC_R: 2 Microphones on both sides of the board
 - RGB LED: 3 APA102 RGB LEDs, connected to SPI interface
 - WM8960: a low power stereo codec
 - Raspberry Pi 40-Pin Headers: support Raspberry Pi Zero, Raspberry Pi 1 B+, Raspberry Pi 2 B and Raspberry Pi 3 B
@@ -45,9 +45,9 @@ The board is developed based on WM8960, a low power stereo codec. There are 2 mi
 - JST 2.0 SPEAKER OUT: for connecting speaker with JST 2.0 connector
 - 3.5mm AUDIO JACK: for connecting headphone or speaker with 3.5mm Audio Plug
 
-## Usage
+## Getting Started
 
-### Connect ReSpeaker 2-Mics Pi HAT to Raspberry Pi
+### 1. Connect ReSpeaker 2-Mics Pi HAT to Raspberry Pi
 
 Mount ReSpeaker 2-Mics Pi HAT on your Raspberry Pi, make sure that the pins are properly aligned when stacking the ReSpeaker 2-Mics Pi HAT.
 
@@ -55,46 +55,59 @@ Mount ReSpeaker 2-Mics Pi HAT on your Raspberry Pi, make sure that the pins are 
 ![connection picture2](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/blob/master/img/connection2.jpg?raw=true)
 ![connection picture3](https://github.com/yexiaobo-seeedstudio/MIC_HATv1.0_for_raspberrypi/blob/master/img/stack-on-zero.jpg?raw=true)
 
-### Setup the driver on Raspberry Pi
+### 2. Setup the driver on Raspberry Pi
 
-While the upstream wm8960 codec is not currently supported by current Pi kernel builds, upstream wm8960 has some bugs, we had fixed it. we must build it manually. Or you could download and use our [raspbian image(click for guidance)](#about-our-raspbian-image), in which the driver is pre-installed.
+While the upstream wm8960 codec is not currently supported by current Pi kernel builds, upstream wm8960 has some bugs, we had fixed it. We must build it manually.
 
-Get the seeed voice card source code.
+Make sure that you are running [the lastest Raspbian Operating System(debian 9)](https://www.raspberrypi.org/downloads/raspbian/) on your Pi. *(updated at 2017.09.15)*
+
+Then get the seeed voice card source code, install and reboot.
 
 ```
-git clone --depth=1 https://github.com/respeaker/seeed-voicecard
+git clone https://github.com/respeaker/seeed-voicecard.git
 cd seeed-voicecard
-sudo ./install.sh
+sudo ./install.sh 2mic
 reboot
 ```
 
 Check that the sound card name matches the source code seeed-voicecard.
 
 ```
-pi@raspberrypi:~ $ aplay -l
+pi@raspberrypi:~/seeed-voicecard $ aplay -l
 **** List of PLAYBACK Hardware Devices ****
-card 0: seeedvoicecard [seeed-voicecard], device 0: bcm2835-i2s-wm8960-hifi wm8960-hifi-0 []
+card 0: ALSA [bcm2835 ALSA], device 0: bcm2835 ALSA [bcm2835 ALSA]
+  Subdevices: 8/8
+  Subdevice #0: subdevice #0
+  Subdevice #1: subdevice #1
+  Subdevice #2: subdevice #2
+  Subdevice #3: subdevice #3
+  Subdevice #4: subdevice #4
+  Subdevice #5: subdevice #5
+  Subdevice #6: subdevice #6
+  Subdevice #7: subdevice #7
+card 0: ALSA [bcm2835 ALSA], device 1: bcm2835 ALSA [bcm2835 IEC958/HDMI]
   Subdevices: 1/1
   Subdevice #0: subdevice #0
+card 1: seeed2micvoicec [seeed-2mic-voicecard], device 0: bcm2835-i2s-wm8960-hifi wm8960-hifi-0 []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+pi@raspberrypi:~/seeed-voicecard $ arecord -l
+**** List of CAPTURE Hardware Devices ****
+card 1: seeed2micvoicec [seeed-2mic-voicecard], device 0: bcm2835-i2s-wm8960-hifi wm8960-hifi-0 []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+pi@raspberrypi:~/seeed-voicecard $
 ```
-
-Next apply the alsa controls setting
-
-```
-sudo alsactl --file=asound.state restore
-```
-
-If you want to change the alsa settings, You can use `sudo alsactl --file=asound.state store` to save it.
 
 Test, you will hear what you say to the microphones(don't forget to plug in an earphone or a speaker):
 
 ```
-arecord -f cd -Dhw:0 | aplay -Dhw:0
+arecord -f cd -Dhw:1 | aplay -Dhw:1
 ```
 
 Enjoy!
 
-### Configure sound settings and adjust the volume with **alsamixer**
+### 3. Configure sound settings and adjust the volume with **alsamixer**
 
 **alsamixer** is a graphical mixer program for the Advanced Linux Sound Architecture (ALSA) that is used to configure sound settings and adjust the volume.
 
@@ -106,34 +119,57 @@ pi@raspberrypi:~ $ alsamixer
 
 The Left and right arrow keys are used to select the channel or device and the Up and Down Arrows control the volume for the currently selected device. Quit the program with ALT+Q, or by hitting the Esc key. [More information](https://en.wikipedia.org/wiki/Alsamixer)
 
-To test the volume after configuration:
+!!!Note
+        Please use the F6 to select seeed-2mic-voicecard device first.
 
-```
-arecord -f cd -Dhw:0 | aplay -Dhw:0
-```
 
 ### Getting started with **Google Assistant**
 
-There are 2 ways to get started with Google Assistant([what is  Google Assistant](https://assistant.google.com/)), the first is that you could integrate the Google Assistant Library into your raspberry pi system. Here is the link to [Google official guidance](https://developers.google.com/assistant/sdk/prototype/getting-started-pi-python/run-sample). And the other way is that you could download the [raspbian image](#about-our-raspbian-image) we built, in which the Google Assistant Library and example are pre-installed. The following guide will show you how to get started with Google Assistant when using our raspbian image.
+To get started with Google Assistant([what is  Google Assistant](https://assistant.google.com/)), the first is that you should integrate the Google Assistant Library into your raspberry pi system. Here is the link to [Google official guidance](https://developers.google.com/assistant/sdk/prototype/getting-started-pi-python/run-sample).
 
-1. Configure a Developer Project and get JSON file
+And the following guide will also show you how to get started with Google Assistant.
+
+#### 1. Configure a Developer Project and get JSON file
 
     Follow step 1. 2. 3. 4. in the  [guide](https://developers.google.com/assistant/sdk/prototype/getting-started-pi-python/config-dev-project-and-account#config-dev-project) to configure a project on Google Cloud Platform and create an OAuth Client ID JSON file. Don't forget to copy the JSON file to your Raspberry Pi.
 
-2. Authorize the Google Assistant SDK sample to make Google Assistant queries for the given Google Account. Reference the JSON file you copied over to the device in a previous step.
+#### 2. Use a Python virtual environment to isolate the SDK and its dependencies from the system Python packages.
+
+```
+sudo apt-get update
+sudo apt-get install python3-dev python3-venv # Use python3.4-venv if the package cannot be found.
+python3 -m venv env
+env/bin/python -m pip install --upgrade pip setuptools
+source env/bin/activate
+```
+
+#### 3. Install google-assistant-library
+
+The Google Assistant SDK package contains all the code required to get the Google Assistant running on the device, including the library and sample code. Use pip to install the latest version of the Python package in the virtual environment:
+```
+(env) $ python -m pip install --upgrade google-assistant-library
+```
+
+#### 4. Authorize the Google Assistant SDK 
+
+Authorize the Google Assistant SDK sample to make Google Assistant queries for the given Google Account. Reference the JSON file you copied over to the device in Step 1.
 ```
 pi@raspberrypi:~ $ google-oauthlib-tool --client-secrets /home/pi/client_secret_client-id.json --scope https://www.googleapis.com/auth/assistant-sdk-prototype --save --headless
 ```
-   * `/home/pi/client_secret_client-id.json` should be the path of your JSON file, your should modify the commmand above
-   * After running the command, it should display as shown below. Copy the URL and paste it into a browser (this can be done on your development machine, or any other machine). After you approve, a code will appear in your browser, such as "4/XXXX". Copy this and paste this code into the terminal.
+
+* `/home/pi/client_secret_client-id.json` should be the path of your JSON file, your should modify the commmand above
+* After running the command, it should display as shown below. Copy the URL and paste it into a browser (this can be done on your development machine, or any other machine). After you approve, a code will appear in your browser, such as "4/XXXX". Copy this and paste this code into the terminal.
+
 ```
 Please go to this URL: https://...
 Enter the authorization code:
 ```
-   * It should then display: OAuth credentials initialized.
-   * If instead it displays: InvalidGrantError then an invalid code was entered. Try again, taking care to copy and paste the entire code.
 
-3. Install **pulseaudio** and let it run in background
+* It should then display: OAuth credentials initialized.
+* If instead it displays: InvalidGrantError then an invalid code was entered. Try again, taking care to copy and paste the entire code.
+
+#### 5. Install **pulseaudio** and let it run in background
+
 ```
 pi@raspberrypi:~ $ sudo apt install pulseaudio
 pi@raspberrypi:~ $ pulseaudio &
@@ -143,20 +179,26 @@ W: [pulseaudio] main.c: Unable to contact D-Bus: org.freedesktop.DBus.Error.NotS
 E: [pulseaudio] bluez4-util.c: org.bluez.Manager.GetProperties() failed: org.freedesktop.DBus.Error.UnknownMethod: Method "GetProperties" with signature "" on interface "org.bluez.Manager" doesn't exist
 ```
 
-* the pulseaudio error log could be ignored here
+!!!Note
+        the pulseaudio error log could be ignored here.
 
-4. Start the Google Assistant demo
+#### 6. Start the Google Assistant demo
+
 ```
 pi@raspberrypi:~ $ alsamixer    // To adjust the volume
 pi@raspberrypi:~ $ source env/bin/activate
 (env) pi@raspberrypi:~ $ env/bin/google-assistant-demo
 ```
 
-5. Say *Ok Google* or *Hey Google*, followed by your query. The Assistant should respond. If the Assistant does not respond, follow the [troubleshooting instructions](https://developers.google.com/assistant/sdk/prototype/getting-started-pi-python/troubleshooting#hotword).
+#### 7. Play with Google Assistant
 
-    ![run demo](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/blob/master/img/okgoogle.jpg?raw=true)
+Say *Ok Google* or *Hey Google*, followed by your query. The Assistant should respond. If the Assistant does not respond, follow the [troubleshooting instructions](https://developers.google.com/assistant/sdk/prototype/getting-started-pi-python/troubleshooting#hotword).
 
-6. See the [Troubleshooting](https://developers.google.com/assistant/sdk/prototype/getting-started-pi-python/troubleshooting) page if you run into issues.
+![run demo](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/blob/master/img/okgoogle.jpg?raw=true)
+
+#### 8. Troubleshooting
+
+See the [Troubleshooting](https://developers.google.com/assistant/sdk/prototype/getting-started-pi-python/troubleshooting) page if you run into issues.
 
 
 ### How to use the on-board APA102 LEDs
@@ -165,80 +207,25 @@ Each on-board APA102 LED has an additional driver chip. The driver chip takes ca
 
 ![](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/blob/master/img/led.gif?raw=true)
 
-- Activate SPI: `sudo raspi-config`; Go to "Interfacing Options"; Go to "SPI"; Enable SPI; Exit the tool and reboot
-
-
-- Now we have an [new LED library](https://github.com/respeaker/mic_hat):
-
-```
-git clone https://github.com/respeaker/mic_hat.git
-cd mic_hat/
-pip install spidev
-python pixels.py
-```
-
-- You could run `python google-assistant.py` to run the Google Assistant with interactive LEDs.
-
-#### **You could still use the old library:**
-- Get the APA102 Library and sample light programs(if you are using our [raspbian image](#about-our-raspbian-image), please skip this step):
+- Activate SPI: 
+    - sudo raspi-config
+    - Go to "Interfacing Options"
+    - Go to "SPI"; Enable SPI
+    - Exit the tool
+    - Reboot
+- Get the APA102 Library and sample light programs:
 
 ```
 cd ~/
-git clone https://github.com/KillingJacky/APA102_Pi.git
+git clone https://github.com/respeaker/mic_hat.git
+sudo pip install spidev
+cd mic_hat
+python pixels.py
 ```
-- You might want to set the number of LEDs to match your strip: `cd ~/APA102_Pi && nano runcolorcycle.py`; Update the number, Ctrl-X and "Yes" to save.
-- Run the sample lightshow: `python runcolorcycle.py`
-- [More informations](https://github.com/KillingJacky/APA102_Pi)
 
 ### How to use User Button
 
-There is an on-board User Button, which is connected to GPIO17.
-Now **gpiozero** library and **Python3** are recommended to use.
-
-```
-sudo apt-get install python3-gpiozero   // install gpiozero library
-nano button.py                          // copy the following code in button.py
-```
-
-Check if a button is pressed:
-
-```
-from gpiozero import Button
-
-button = Button(17)
-
-while True:
-    if button.is_pressed:
-        print("Button is pressed")
-    else:
-        print("Button is not pressed")
-```
-
-Run the script:
-
-```
-python3 button.py
-```
-
-Run a function every time the button is pressed:
-
-```
-from gpiozero import Button
-from signal import pause
-
-def say_hello():
-    print("Hello!")
-
-button = Button(17)
-
-button.when_pressed = say_hello
-
-pause()
-```
-
-For more informations abour **gpiozero** library, please click [here](http://gpiozero.readthedocs.io/en/stable/recipes.html#button).
-
-And you could also program the user button with python2 and RPi.GPIO.
+There is an on-board User Button, which is connected to GPIO17. Now we will try to detect it with python and RPi.GPIO.
 
 ```
 sudo pip install rpi.gpio    // install RPi.GPIO library
@@ -275,11 +262,11 @@ off
 ```
 
 
-### User Button triggers Google Assisant
+### User Button to trigger Google Assisant
 
 There is an esay way to use a button(instead of speaking "ok google") to trigger Google Assisant.
 
-- Modify `pushtotalk.py`
+#### 1. Modify `pushtotalk.py`
 
 ```
 // when using our Raspbian image
@@ -287,7 +274,7 @@ cd /usr/local/lib/python2.7/dist-packages/googlesamples/assistant/grpc
 sudo nano pushtotalk.py
 ```
 
-Go to the buttom of the file(Line 301), then modify as the following code and save:
+Go to the buttom of the file(Line 301), then modify as the following code and save:  
 
 ```Python
     with SampleAssistant(conversation_stream,
@@ -329,32 +316,27 @@ if __name__ == '__main__':
     main()
 ```
 
-- Run the command to test:
+#### 2. Run the command to test:
 
 ```
 $ googlesamples-assistant-pushtotalk
 ```
 
-- The demo will be displayed as below:
+#### 3. The demo will be displayed as below:
 
 ![](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/blob/master/img/button.jpg?raw=true)
 
 
-### About our Raspbian image
+### Raspbian image
 
-We have built a Raspbian iamge for your convenience, in which ReSpeaker 2-Mics Pi HAT driver, the Google Assistant Library and APA102 LEDs library are pre-installed.
-
-- [Download our Raspbian image](https://s3-us-west-2.amazonaws.com/wiki.seeed.cc/001share/seeed-raspbian-jessie-20170523.7z)
+As Raspbian Operating System is updated to Debian 9, we won't provide our Raspbian image anymore. Click [here](https://www.raspberrypi.org/downloads/raspbian/) to get the lastest Raspbian Operating System.
 
 - [How to install the image](https://www.raspberrypi.org/documentation/installation/installing-images/)
 
 
 ## Resources
-- **[Image]** [Download our Raspbian image](https://s3-us-west-2.amazonaws.com/wiki.seeed.cc/001share/seeed-raspbian-jessie-20170523.7z)
+
 - **[Eagle]** [Respeaker_2_Mics_Pi_HAT_SCH](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/raw/master/src/ReSpeaker%202-Mics%20Pi%20HAT_SCH.zip)
 - **[Eagle]** [Respeaker_2_Mics_Pi_HAT_PCB](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/raw/master/src/ReSpeaker%202-Mics%20Pi%20HAT_PCB.zip)
 - **[PDF]** [Respeaker_2_Mics_Pi_HAT_SCH](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/raw/master/src/ReSpeaker%202-Mics%20Pi%20HAT_SCH.pdf)
 - **[PDF]** [Respeaker_2_Mics_Pi_HAT_PCB](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/raw/master/src/ReSpeaker%202-Mics%20Pi%20HAT_PCB.pdf)
-
-
-
