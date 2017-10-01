@@ -6,12 +6,12 @@ oldwikiname: Grove - Ultrasonic Ranger
 prodimagename: 350px-Ultrasonic_Ranger.jpg
 surveyurl: https://www.research.net/r/Grove-Ultrasonic-Ranger
 sku: 101020010
-tags: io_3v, io_5v, plat_duino, plat_pi
+tags: io_3v3, io_5v, plat_duino, plat_pi
 
 ---
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove_Ultrasonic_Ranger/master/image/350px-Ultrasonic_Ranger.jpg)
 
-This Grove - Ultrasonic sensor is a non-contact distance measurement module which works at 42KHz, suitable for projects that require middle distance measurement.
+This Grove - Ultrasonic sensor is a non-contact distance measurement module which works at 40KHz, suitable for projects that require middle distance measurement.
 
 [![Get one now](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/image/300px-Get_One_Now_Banner.png)](https://www.seeedstudio.com/Grove-Ultrasonic-Ranger-p-960.html)
 
@@ -20,6 +20,7 @@ We have made some update on this product in order to improve the power stability
 
 - Added an capacitance C14
 - Redesigned the layout to make it more tidy
+- Compatible with 3.3V voltage system
 
 Here we use 2 photos to show the difference:
 
@@ -63,7 +64,7 @@ Here we will show you how this Grove - Ultrasonic Ranger works via a simple demo
 |[Get ONE Now](http://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html)|[Get ONE Now](https://www.seeedstudio.com/Grove-Ultrasonic-Ranger-p-960.html)|[Get ONE Now](https://www.seeedstudio.com/Base-Shield-V2-p-1378.html)|[Get ONE Now](https://www.seeedstudio.com/Grove-LCD-RGB-Backlight-p-1643.html)|
 
 -   Connect Ultrasonic Ranger to port D7 of Grove-Base Shield.
--   Connect Ultrasonic Ranger to port I2C of Grove-Base Shield.
+-   Connect LCD RGB Backlight to port I2C of Grove-Base Shield.
 -   Plug Grove - Base Shield into Arduino.
 -   Connect Arduino to PC via a USB cable.
 

@@ -30,7 +30,7 @@ Features
 
 !!!Tip
     More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
-    
+
 Specifications
 --------------
 
@@ -111,7 +111,7 @@ Hardware Overview
 -   **Interface bus selection pads** , to select I<sup>2</sup>C bus, connect the two pads by soldering (this is connected by default); to select SPI bus, cut the two pads with a sharp knife or a soldering iron.
 -   **Slave board address selection pads**, to select slave board address to avoid address collision.
 
-If you have selected I2C bus, the default address for slave board is **0x77**(right-two pads are connected). If you want to use the address **0x76**, connect only left two (disconnect right two) by soldering. 
+If you have selected I2C bus, the default address for slave board is **0x77**(right-two pads are connected). If you want to use the address **0x76**, connect only left two (disconnect right two) by soldering.
 
 **Tips:** You can disconnect pads with just a sharp knife.
 
@@ -170,7 +170,7 @@ You can find more demo sketches [here](https://github.com/Seeed-Studio/Grove_BMP
 Resources
 ---------
 
--   [Schematic(Eagle) file](https://raw.githubusercontent.com/SeeedDocument/Grove-Barometer_Sensor-BMP280/master/res/Battery_kit-3.7V_520mAh_Schematics.zip)
+-   [Schematic(Eagle) file](https://github.com/SeeedDocument/Grove-Barometer_Sensor-BMP280/raw/master/res/Grove%20-%20Barometer%20Sensor_BMP280_Schematic.zip)
 -   [BMP280 Datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-Barometer_Sensor-BMP280/master/res/Grove-Barometer_Sensor-BMP280-BMP280-DS001-12_Datasheet.pdf)
 -   [Library and example code](https://github.com/Seeed-Studio/Grove_BMP280) on GitHub
 -   [I<sup>2</sup>C how-to for Arduino](https://www.arduino.cc/en/Reference/Wire)

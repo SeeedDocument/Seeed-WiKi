@@ -6,7 +6,7 @@ oldwikiname: Grove - Temperature Sensor V1.2
 prodimagename: Grove_Temperature_Sensor_View.jpg
 surveyurl: https://www.surveymonkey.com/r/Grove-Temperature_Sensor_V1-2
 sku: 101020015
-
+tags: io_3v3, io_5v, plat_duino
 ---
 ![](https://github.com/SeeedDocument/Grove-Temperature_Sensor_V1.2/raw/master/img/Grove_Temperature_Sensor_View.jpg)
 
@@ -16,7 +16,7 @@ Note: This wiki works with Grove - Temperature sensor V1.1 as well, for V1.0 ple
 
 [![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/Grove-Temperature-Sensor-p-774.html)
 
-## Specifications
+Specifications
 ---
 - Voltage: 3.3 ~ 5V
 - Zero power resistance: 100 KΩ
@@ -27,7 +27,11 @@ Note: This wiki works with Grove - Temperature sensor V1.1 as well, for V1.0 ple
 !!!Tip
     More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
 
-## Getting Started
+
+Platforms Supported
+-------------------
+
+Getting Started
 ---
 After this section, you can make Grove - Temperature Sensor V1.1/1.2 run with only few steps.
 
@@ -94,14 +98,14 @@ After upload completed, Open Serial Monitor of your Arduino IDE, you can get the
 ![](https://github.com/SeeedDocument/Grove-Temperature_Sensor_V1.2/raw/master/img/Grove_Temperature_Sensor_result.jpg)
 
 
-## Reference
+Reference
 ---
 If you want to know how the algorithm of temperature coming, please refer to the below image:
 
 ![](https://github.com/SeeedDocument/Grove-Temperature_Sensor_V1.2/raw/master/img/Grove_Temperature_Sensor_Basic_Characteristics.jpg)
 
 
-## Resources
+Resources
 ---
 - [Schematic at Easyeda](https://easyeda.com/Seeed/Grove_Temperature_sensor_v1_2-ed433e462f14455e9aa38ae1a06e4680)
 - [Grove - Temperature Sensor v1.1 Eagle File](https://github.com/SeeedDocument/Grove-Temperature_Sensor_V1.2/raw/master/res/Grove_-_Temperature_sensor_v1.1.zip)

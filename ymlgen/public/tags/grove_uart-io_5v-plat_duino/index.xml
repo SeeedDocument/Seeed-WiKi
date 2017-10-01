@@ -2,312 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Grove_uart Io_5v Plat_duino on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
-    <link>http://wiki.seeed.cc/tags/grove_uart-io_5v-plat_duino/index.xml</link>
+    <link>http://wiki.seeed.cc/tags/grove_uart-io_5v-plat_duino/</link>
     <description>Recent content in Grove_uart Io_5v Plat_duino on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://wiki.seeed.cc/tags/grove_uart-io_5v-plat_duino/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://wiki.seeed.cc/tags/grove_uart-io_5v-plat_duino/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Grove - 315MHz RF Kit</title>
-      <link>http://wiki.seeed.cc/Grove-315MHz_RF_Kit/</link>
+      <link>http://wiki.seeed.cc/grove-315mhz_rf_kit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://wiki.seeed.cc/Grove-315MHz_RF_Kit/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-315MHz_RF_Kit/master/img/315MHz-Simple-RF-Link-Kit.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This kit is used for one way wireless communication at a frequency of 315MHz and includes a transmitter module and a receiver module. The twig configuration of this kit allows for around 40 meters of transmitting distance indoors, or around 100 meters outside. The 315 MHz frequency is suitable for use without a license in the United States. For use in Europe, please see the 433 MHz version of this product.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/Grove-315MHz-Simple-RF-Link-Kit-p-1061.html&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;GROVE compatible interface.&lt;/li&gt;
-&lt;li&gt;Uses ASK (Amplitude Shift Keying) Modulation.&lt;/li&gt;
-&lt;li&gt;One way communication.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;!!!Tip
-    More details about Grove modules please refer to &lt;a href=&#34;http://wiki.seeed.cc/Grove_System/&#34;&gt;Grove System&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;application-ideas&#34;&gt;Application Ideas&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Remote control&lt;/li&gt;
-&lt;li&gt;Remote automation&lt;/li&gt;
-&lt;li&gt;Alarm&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;mechanical-dimensions&#34;&gt;Mechanical Dimensions&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Receiver: 24mm by 42mm&lt;/li&gt;
-&lt;li&gt;Transmitter: 20mm by 24mm&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;platforms-supported&#34;&gt;Platforms Supported&lt;/h2&gt;
-
-&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
-
-&lt;p&gt;The transmitter and receiver modules both rely on a single wire for communication. Though using the UART supplied by the arduino platform can work, it is recommended, instead, to use the VirtualWire library which uses Amplitude Shift Keying for modulation which provides better communication.&lt;/p&gt;
-
-&lt;p&gt;Both the transmitter and receiver modules require three wires: Vcc, Ground, and signal. Pin 2 of both parts of the kit are not connected.&lt;/p&gt;
-
-&lt;h3 id=&#34;hardware-installation&#34;&gt;Hardware Installation&lt;/h3&gt;
-
-&lt;p&gt;Connect the Transmitter module to Digital I/O 2 of the &lt;a href=&#34;http://wiki.seeed.cc/Base_Shield_V2&#34; title=&#34;Grove-Base Shield&#34;&gt;Grove-Base Shield V2&lt;/a&gt; on the arduino being used for transmission.&lt;/p&gt;
-
-&lt;p&gt;Connect the Transmitter module to Digital I/O 2 of the &lt;a href=&#34;http://wiki.seeed.cc/Base_Shield_V2&#34; title=&#34;Grove-Base Shield&#34;&gt;Grove-Base Shield V2&lt;/a&gt; on the receiving arduino.&lt;/p&gt;
-
-&lt;h3 id=&#34;programming&#34;&gt;Programming&lt;/h3&gt;
-
-&lt;p&gt;Sample code for Transmitter:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;#include &amp;lt;VirtualWire.h&amp;gt;
- 
-int RF_TX_PIN = 2;
- 
-void setup()
-{
-  vw_set_tx_pin(RF_TX_PIN); // Setup transmit pin
-  vw_setup(2000); // Transmission speed in bits per second.
-}
- 
-void loop()
-{
-  const char *msg = &amp;quot;hello&amp;quot;;
-  vw_send((uint8_t *)msg, strlen(msg));  // Send &#39;hello&#39; every 400ms.
-  delay(400);
- 
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Sample code for Receiver:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;#include &amp;lt;VirtualWire.h&amp;gt;
- 
-int RF_RX_PIN = 2;
- 
-void setup()
-{
-  Serial.begin(9600);
-  Serial.println(&amp;quot;setup&amp;quot;);
-  vw_set_rx_pin(RF_RX_PIN);  // Setup receive pin.
-  vw_setup(2000); // Transmission speed in bits per second.
-  vw_rx_start(); // Start the PLL receiver.
-}
- 
-void loop()
-{
-  uint8_t buf[VW_MAX_MESSAGE_LEN];
-  uint8_t buflen = VW_MAX_MESSAGE_LEN;
-  if(vw_get_message(buf, &amp;amp;buflen)) // non-blocking I/O
-  {
-    int i;
-    // Message with a good checksum received, dump HEX
-    Serial.print(&amp;quot;Got: &amp;quot;);
-    for(i = 0; i &amp;lt; buflen; ++i)
-    {
-      Serial.print(buf[i], HEX);
-      Serial.print(&amp;quot; &amp;quot;);
-    }
-    Serial.println(&amp;quot;&amp;quot;);
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Demo code: &lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-315MHz_RF_Kit/master/res/433MHz_demo.zip&#34; title=&#34;File:433MHz demo.zip&#34;&gt;433MHz demo.zip&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.airspayce.com/mikem/arduino/VirtualWire/VirtualWire-1.27.zip&#34;&gt;VirtualWire 1.27&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.open.com.au/mikem/arduino/VirtualWire.pdf&#34;&gt;VirtualWire Documentation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-315MHz_RF_Kit/master/res/1110010P1.pdf&#34;&gt;TI:LM358PSR&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_315MHz_RF_Kit --&gt;
-</description>
+      <guid>http://wiki.seeed.cc/grove-315mhz_rf_kit/</guid>
+      <description>This kit is used for one way wireless communication at a frequency of 315MHz and includes a transmitter module and a receiver module. The twig configuration of this kit allows for around 40 meters of transmitting distance indoors, or around 100 meters outside. The 315 MHz frequency is suitable for use without a license in the United States. For use in Europe, please see the 433 MHz version of this product.</description>
     </item>
     
     <item>
       <title>Grove - Serial Camera</title>
-      <link>http://wiki.seeed.cc/Grove-Serial_Camera/</link>
+      <link>http://wiki.seeed.cc/grove-serial_camera/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://wiki.seeed.cc/Grove-Serial_Camera/</guid>
-      <description>
+      <guid>http://wiki.seeed.cc/grove-serial_camera/</guid>
+      <description>The Serial Camera is a JPEG color camera module easy for MCU use.It has integrated image processing DSP to generate 320*240 or 640*480 JPEG image without thumbnail information, Captured picture will be stored in internal buffer and transferred via UART port.
 
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Serial_Camera/master/img/Serial_camera.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The Serial Camera is a JPEG color camera module easy for MCU use.It has integrated image processing DSP to generate 320*240 or 640*480 JPEG image without thumbnail information, Captured picture will be stored in internal buffer and transferred via UART port.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/Grove-Serial-Camera-p-945.html&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Grove Interface&lt;/li&gt;
-&lt;li&gt;JPEG compressed image without Thumbnail Information&lt;/li&gt;
-&lt;li&gt;5V power supply&lt;/li&gt;
-&lt;li&gt;Small and compact&lt;/li&gt;
-&lt;li&gt;Protocol control&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;!!!Tip
-    More details about Grove modules please refer to &lt;a href=&#34;http://wiki.seeed.cc/Grove_System/&#34;&gt;Grove System&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;specifications&#34;&gt;Specifications&lt;/h2&gt;
-
-&lt;table border=&#34;1&#34; cellspacing=&#34;0&#34; width=&#34;80%&#34;&gt;
-&lt;tr&gt;
-&lt;th scope=&#34;col&#34;&gt;
-Item
-&lt;/th&gt;
-&lt;th scope=&#34;col&#34;&gt;
-Min
-&lt;/th&gt;
-&lt;th scope=&#34;col&#34;&gt;
-Typical
-&lt;/th&gt;
-&lt;th scope=&#34;col&#34;&gt;
-Max
-&lt;/th&gt;
-&lt;th scope=&#34;col&#34;&gt;
-Unit
-&lt;/th&gt;
-&lt;/tr&gt;
-&lt;tr align=&#34;center&#34;&gt;
-&lt;th scope=&#34;row&#34;&gt;
-Operating Voltage
-&lt;/th&gt;
-&lt;td&gt;
-4,8
-&lt;/td&gt;
-&lt;td&gt;
-5.0
-&lt;/td&gt;
-&lt;td&gt;
-5.3
-&lt;/td&gt;
-&lt;td&gt;
-V
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr align=&#34;center&#34;&gt;
-&lt;th scope=&#34;row&#34;&gt;
-Resolution (default)
-&lt;/th&gt;
-&lt;td colspan=&#34;3&#34;&gt;
-640x480 / 320x240
-&lt;/td&gt;
-&lt;td&gt;
-/
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr align=&#34;center&#34;&gt;
-&lt;th scope=&#34;row&#34;&gt;
-Default Baud rate of serial port
-&lt;/th&gt;
-&lt;td colspan=&#34;3&#34;&gt;
-115200
-&lt;/td&gt;
-&lt;td&gt;
-Baud
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;platforms-supported&#34;&gt;Platforms Supported&lt;/h2&gt;
-
-&lt;h2 id=&#34;application-ideas&#34;&gt;Application Ideas&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Digital Cameras with the &lt;a href=&#34;http://www.seeedstudio.com/depot/sd-card-shield-p-492.html?cPath=109&#34;&gt;SD card shield&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Video monitoring system&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
-
-&lt;h3 id=&#34;use-camera-on-pc&#34;&gt;Use Camera on PC&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Step 1&lt;/strong&gt;:Download dedicated serial port debugging tool &lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Serial_Camera/master/res/VC0703COMTOOL.rar&#34;&gt;VC0703COMTOOL.rar&lt;/a&gt; and install it.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Step 2&lt;/strong&gt;: Connect Serial camera to PC with USB to use serial converter tool &lt;a href=&#34;http://wiki.seeed.cc/UartSBee_v5&#34; title=&#34;UartSBee&#34;&gt;UartSBee&lt;/a&gt;&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Serial camera&lt;/th&gt;
-&lt;th&gt;Uart_SB v3.1&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;GND (black)&lt;/td&gt;
-&lt;td&gt;GND&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;VCC (red)&lt;/td&gt;
-&lt;td&gt;VCC&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;RX (white)&lt;/td&gt;
-&lt;td&gt;TX&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;TX (Yellow)&lt;/td&gt;
-&lt;td&gt;RX&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt;Step 3:&lt;/strong&gt; Connect the Uart_SB v3.1 with Computer and Open the vc0703CommTool software. Choose the correct COM number of the port you link to the camera, default baudrate 115200 ,and then open the port.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Step 4:&lt;/strong&gt; Click the button &amp;ldquo;Get Version&amp;rdquo; and it will reset the camera.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Step 5:&lt;/strong&gt; Click the button &amp;ldquo;Fbuf&amp;rdquo; to get ready to take a picture.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Click &amp;ldquo;stop CFbuf&amp;rdquo; to take a picture.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Click &amp;ldquo;Sel File&amp;rdquo; to select the file name to store the picture.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Click &amp;ldquo;Read&amp;rdquo; to read the data from the buffer to store in the file selected as shown below:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Serial_Camera/master/img/Serial_Camera_Picture.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Click &amp;ldquo;Resume&amp;rdquo; to resume frame update so you can continue to take another picture.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;use-camera-with-arduino-and-sd-card&#34;&gt;Use Camera with Arduino and SD card&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Step 1&lt;/strong&gt;: Connected Grove - Serial Camera to Arduino board, Hardware parts include &lt;a href=&#34;http://www.seeedstudio.com/depot/seeeduino-v30-atmega-328p-p-669.html?cPath=132_133&#34;&gt;Seeeduino V3.0&lt;/a&gt;, &lt;a href=&#34;http://www.seeedstudio.com/depot/sd-card-shield-p-492.html?cPath=109&#34;&gt;SD Card Shield&lt;/a&gt;, SanDisk microSD™ Card 2GB, &lt;a href=&#34;http://www.seeedstudio.com/depot/grove-button-p-766.html?cPath=156_160&#34;&gt;Grove - Button&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Serial_Camera/master/img/Serial_Camera.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Step 2&lt;/strong&gt;: Change the serial receive buffer(default 64 bytes) to 128 bytes. Open up hardware/arduino/cores directory, and edit the file named wiring_serial.c or HardwareSerial.cpp near the top is a #define SERIAL_BUFFER_SIZE 64, which means 64 bytes are used for the buffer. You need to change this to 128 .More details, please refer to &lt;a href=&#34;http://learn.adafruit.com/arduino-tips-tricks-and-techniques/arduino-hacks&#34;&gt;Arduino Hacks&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Step 3&lt;/strong&gt;: Download the &lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Serial_Camera/master/res/SerialCameral_DemoCode.zip&#34;&gt;Grove - Serial Camera Library&lt;/a&gt;, upload it to Seeeduino. If it can&amp;rsquo;t be complied, please confirm if the &lt;a href=&#34;http://arduino.cc/en/Reference/SD&#34;&gt;SD Library&lt;/a&gt; is in your Arduino IDE folder.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Step 4&lt;/strong&gt;: Open the Serial Monitor , press the button to take picture after SD card and Camera initialization.&lt;/p&gt;
-
-&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Serial_Camera/master/res/VC0703COMTOOL.rar&#34;&gt;VC0703 debug tool&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Serial_Camera/master/res/Manual_for_serial_camera.pdf&#34;&gt;Manual for serial camera.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Serial_Camera/master/res/SerialCameral_DemoCode.zip&#34;&gt;Grove - Serial Camera Library&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_Serial_Camera --&gt;
-</description>
+Features  Grove Interface JPEG compressed image without Thumbnail Information 5V power supply Small and compact Protocol control  !!!Tip More details about Grove modules please refer to Grove System</description>
     </item>
     
   </channel>

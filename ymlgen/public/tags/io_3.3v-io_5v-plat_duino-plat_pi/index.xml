@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Io_3.3v Io_5v Plat_duino Plat_pi on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
+    <link>http://wiki.seeed.cc/tags/io_3.3v-io_5v-plat_duino-plat_pi/</link>
+    <description>Recent content in Io_3.3v Io_5v Plat_duino Plat_pi on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://wiki.seeed.cc/tags/io_3.3v-io_5v-plat_duino-plat_pi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Grove - Ultrasonic Ranger</title>
+      <link>http://wiki.seeed.cc/grove-ultrasonic_ranger/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/grove-ultrasonic_ranger/</guid>
+      <description>This Grove - Ultrasonic sensor is a non-contact distance measurement module which works at 40KHz, suitable for projects that require middle distance measurement.
+
+Product Update We have made some update on this product in order to improve the power stability when working with some low-voltage main board. The update includes:
+ Added an capacitance C14 Redesigned the layout to make it more tidy Compatible with 3.3V voltage system  Here we use 2 photos to show the difference:</description>
+    </item>
+    
+  </channel>
+</rss>

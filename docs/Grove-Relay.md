@@ -6,7 +6,7 @@ oldwikiname:
 prodimagename: Twig-Relay.jpg
 surveyurl: https://www.surveymonkey.com/r/Grove_Relay
 sku: 103020005
-tags: io_5v, plat_duino, plat_linkit, plat_bbg, plat_pi,plat_wio
+tags: io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg, plat_pi,plat_wio
 ---
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove-Relay/master/img/Twig-Relay.jpg)

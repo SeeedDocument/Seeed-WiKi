@@ -137,7 +137,7 @@ When you first power on ReSpeaker, it will create a Wi-Fi network called "ReSpea
 ![](https://github.com/SeeedDocument/Respeaker_Core/raw/master/img/wifi1.png)
 
 !!!Note
-    If "ReSpeakerXXXXXX" does not appear, but "LinkIt_Smart_7688_XXXXXX" is found. Please click [here](QuickStart.md#update-for-old-version).
+    If "ReSpeakerXXXXXX" does not appear, but "LinkIt_Smart_7688_XXXXXX" is found. Please click [here](http://wiki.seeed.cc/Respeaker_Core/#q20-system-recovery-by-factory-image).
 
 
 Once you've obtained an IP address, open a web browser, and enter 192.168.100.1 in the address bar. After a few seconds, a web page will appear asking for ssid and password of an existing Wi-Fi network.
@@ -572,12 +572,25 @@ orangectl passwd root 12345678  //replace 12345678 with the password you want to
 	if mic.wakeup('respeaker'):
 	```
 
+### Q20: System recovery by factory image.
+Note: If you can not update your ReSpeaker via Web or can not visit http://192.168.100.1/home.html, please click [here](https://s3-us-west-2.amazonaws.com/respeaker.io/firmware/ramips-openwrt-latest-LinkIt7688-squashfs-sysupgrade.bin). to download the lastest firmware on your computer, copy it to a SD card and plug the SD card into ReSpeaker.
+
+Connect to the [serial console](https://github.com/respeaker/get_started_with_respeaker/blob/master/QuickStart.md#serial-console). of ReSpeaker, type the following command lines to update the firmware:
+
+```
+mount /dev/mmcblk0p1 /mnt
+cd /mnt
+sysupgrade -n -F ramips-openwrt-latest-LinkIt7688-squashfs-sysupgrade.bin
+```
+It will cost about 3 minutes for ReSpeaker to install the firmware and reboot, please **don't turn off** ReSpeaker when updating.
+
+![](https://github.com/SeeedDocument/Respeaker_Core/raw/master/img/systemupdate2.png)
 
 ## Resources
 ----
 
-- **[Eagle]**[ReSpeaker Core v1.0 SCH](https://github.com/respeaker/get_started_with_respeaker/blob/master/files/RespeakerCorev1.0_SCH.sch)
-- **[Eagle]**[ReSpeaker Core v1.0 BRD](https://github.com/respeaker/get_started_with_respeaker/blob/master/files/RespeakerCorev1.0_BRD.brd)
+- **[Eagle]**[ReSpeaker Core v1.0 SCH](https://github.com/SeeedDocument/Respeaker_Core/raw/master/res/RespeakerCorev1.0_SCH.sch.zip)
+- **[Eagle]**[ReSpeaker Core v1.0 BRD](https://github.com/SeeedDocument/Respeaker_Core/raw/master/res/RespeakerCorev1.0_BRD.brd.zip)
 - **[PDF]**[ReSpeaker Core v1.0 Schematic(pdf)](https://github.com/respeaker/get_started_with_respeaker/blob/master/files/RespeakerCorev1.0_Schematic.pdf)
 - **[PDF]**[ReSpeaker Core v1.0 PCB bottom(pdf)](https://github.com/respeaker/get_started_with_respeaker/blob/master/files/RespeakerCorev1.0_PCB_bottom.pdf)
 - **[PDF]**[ReSpeaker Core v1.0 PCB top(pdf)](https://github.com/respeaker/get_started_with_respeaker/blob/master/files/RespeakerCorev1.0_PCB_top.pdf)

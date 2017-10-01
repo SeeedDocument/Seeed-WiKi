@@ -35,7 +35,6 @@ Here is the list of the Grove - Sensor Boards you can find in the Seeed WiKi. Th
 - [Grove - Ear-clip Heart Rate Sensor](/Grove-Ear-clip_Heart_Rate_Sensor/)
 - [Grove - Electricity Sensor](/Grove-Electricity_Sensor/)
 - [Grove - Electromagnet](/Grove-Electromagnet/)
-- [Grove - Encoder](/Grove-Encoder/)
 - [Grove - FM Receiver](/Grove-FM_Receiver/)
 - [Grove - Finger-clip Heart Rate Sensor](/Grove-Finger-clip_Heart_Rate_Sensor/)
 - [Grove - Finger-clip Heart Rate Sensor with shell](/Grove-Finger-clip_Heart_Rate_Sensor_with_shell/)

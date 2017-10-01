@@ -2,421 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Grove_i2c Io_3v3 Io_5v Plat_duino Plat_linkit Plat_bbg on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
-    <link>http://wiki.seeed.cc/tags/grove_i2c-io_3v3-io_5v-plat_duino-plat_linkit-plat_bbg/index.xml</link>
+    <link>http://wiki.seeed.cc/tags/grove_i2c-io_3v3-io_5v-plat_duino-plat_linkit-plat_bbg/</link>
     <description>Recent content in Grove_i2c Io_3v3 Io_5v Plat_duino Plat_linkit Plat_bbg on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://wiki.seeed.cc/tags/grove_i2c-io_3v3-io_5v-plat_duino-plat_linkit-plat_bbg/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://wiki.seeed.cc/tags/grove_i2c-io_3v3-io_5v-plat_duino-plat_linkit-plat_bbg/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Grove - 3-Axis Digital Accelerometer(±400g)</title>
-      <link>http://wiki.seeed.cc/Grove-3-Axis_Digital_Accelerometer-400g/</link>
+      <link>http://wiki.seeed.cc/grove-3-axis_digital_accelerometer-400g/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://wiki.seeed.cc/Grove-3-Axis_Digital_Accelerometer-400g/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-3-Axis_Digital_Accelerometer-400g/master/img/Grove_3Axis_Accelerometer400g.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The H3LIS331DL is a low power high performance 3-axis linear accelerometer belonging to the “nano” family, with digital I2C serial interface standard output. The device features ultra low power operational modes that allow advanced power saving and smart sleep to wake-up functions. The H3LIS331DL has dynamically user selectable full scales of ±100g/±200 g/±400 g and it is capable of measuring accelerations with output data rates from 0.5 Hz to 1 kHz.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.seeedstudio.com/Grove-3-Axis-Digital-Accelerometer(%C2%B1400g)-p-1897.html&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Wide power range DC3.3V to 5V&lt;/li&gt;
-&lt;li&gt;Grove outline&lt;/li&gt;
-&lt;li&gt;3 axis sensing&lt;/li&gt;
-&lt;li&gt;Small, low-profile package: 3×3×1mm TFLGA&lt;/li&gt;
-&lt;li&gt;Low power 300µA at 3.3V (typical)&lt;/li&gt;
-&lt;li&gt;±100g /±200 g /±400 g dynamically selectable full scale&lt;/li&gt;
-&lt;li&gt;I2C digital output interface&lt;/li&gt;
-&lt;li&gt;10000 g high shock survivability&lt;/li&gt;
-&lt;li&gt;ECOPACK®RoHS and “Green” compliant&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;!!!Tip
-    More details about Grove modules please refer to &lt;a href=&#34;http://wiki.seeed.cc/Grove_System/&#34;&gt;Grove System&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;application-ideas&#34;&gt;Application Ideas&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Shock detector&lt;/li&gt;
-&lt;li&gt;Impact recognition and logging&lt;/li&gt;
-&lt;li&gt;Concussion detection&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;platforms-supported&#34;&gt;Platforms Supported&lt;/h2&gt;
-
-&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
-
-&lt;p&gt;Here below we show you how to read the raw data from this accelerometer.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Plug it onto the I2C port of your &lt;a href=&#34;http://www.seeedstudio.com/depot/grove-base-shield-p-754.html?cPath=132_134&#34;&gt;Grove - Base Shield&lt;/a&gt;.
-&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-3-Axis_Digital_Accelerometer-400g/master/img/Grove-3-Axis_Digital_Accelerometer_connect_BaseBoard.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Download the &lt;a href=&#34;https://github.com/Seeed-Studio/Grove_3Axis_Digital_Accelerometer_H3LIS331DL&#34;&gt;Digital Accelerometer(±400g) Library&lt;/a&gt; and unpack it into arduino-1.0\libraries in your Arduino installation folder.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Open the demo code directly by the path:File -&amp;gt; Example -&amp;gt;Grove_3Axis_Digital_Accelerometer_H3LIS331DL-&amp;gt;H3LIS331DL_AdjVal. It is a sketch to adjust the raw data of H3LIS331DL to make it more precise.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Upload the code and open the serial monitor.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Open the serial monitor to get the adjust value of reference as the steps described in serial output.
-&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-3-Axis_Digital_Accelerometer-400g/master/img/Adjust_value_of_Accelerometer.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Open the demo code directly by the path:File -&amp;gt; Example -&amp;gt;Grove_3Axis_Digital_Accelerometer_H3LIS331DL-&amp;gt;H3LIS331DL_Demo. Then modify the VAL_X_AXIS/VAL_Y_AXIS/VAL_Z_AXIS according to what you get from H3LIS331DL_AdjVal Sketch.
-&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-3-Axis_Digital_Accelerometer-400g/master/img/Redefine_the_VAL_of_Accelerometer.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Upload the code and open the serial monitor and open the serial monitor to check the result.
-&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-3-Axis_Digital_Accelerometer-400g/master/img/Raw_data_of_H3LIS331DL.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-3-Axis_Digital_Accelerometer-400g/master/res/Grove-3-Axis_Digital_Accelerometer-400g-v1.0.zip&#34;&gt;Grove - 3-Axis Digital Accelerometer(±400g) Eagle File&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Seeed-Studio/Grove_3Axis_Digital_Accelerometer_H3LIS331DL&#34;&gt;github repository for 3-Axis Digital Accelerometer(±400g)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.st.com/web/en/resource/technical/document/datasheet/DM00053090.pdf&#34;&gt;H3LIS331DL Datasheet PDF&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_3-Axis_Digital_Accelerometer(±400g) --&gt;
-</description>
+      <guid>http://wiki.seeed.cc/grove-3-axis_digital_accelerometer-400g/</guid>
+      <description>The H3LIS331DL is a low power high performance 3-axis linear accelerometer belonging to the “nano” family, with digital I2C serial interface standard output. The device features ultra low power operational modes that allow advanced power saving and smart sleep to wake-up functions. The H3LIS331DL has dynamically user selectable full scales of ±100g/±200 g/±400 g and it is capable of measuring accelerations with output data rates from 0.5 Hz to 1 kHz.</description>
     </item>
     
     <item>
       <title>Grove - IMU 10DOF</title>
-      <link>http://wiki.seeed.cc/Grove-IMU_10DOF/</link>
+      <link>http://wiki.seeed.cc/grove-imu_10dof/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://wiki.seeed.cc/Grove-IMU_10DOF/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_10DOF/master/img/Grove-imu-10dof.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Grove - IMU 10DOF is a combination of Grove - IMU 9DOF and &lt;a href=&#34;http://wiki.seeed.cc/Grove-Barometer_Sensor-BMP180 &amp;quot;Grove - Barometer Sensor (BMP180&#34;&gt;Grove - Barometer Sensor (BMP180)&lt;/a&gt;&amp;rdquo;). This module is base on MPU-9250 and BMP180, the MPU-9250 is a 9-axis MotionTracking device that combines a 3-axis gyroscope, 3-axis accelerometer, 3-axis magnetometer and a Digital Motion Processor(DMP), and BMP180 is a high precision, ultra-low power digital pressure sensors for consumer applications. This module is very suitable for the application of smartphones, tablets and wearable devices.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/Grove-IMU-10DOF-p-2386.html&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;specifications&#34;&gt;Specifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I2C interface&lt;/li&gt;
-&lt;li&gt;MPU-9250 I2C address selectable&lt;/li&gt;
-&lt;li&gt;Low Power Consumption&lt;/li&gt;
-&lt;li&gt;400kHz Fast Mode I2C for communicating with all registers&lt;/li&gt;
-&lt;li&gt;Digital-output X-, Y-, and Z-Axis angular rate sensors (gyroscopes) with a user-programmable full-scale range of ±250, ±500, ±1000, and ±2000°/sec&lt;/li&gt;
-&lt;li&gt;Digital-output 3-Axis accelerometer with a programmable full scale range of ±2g, ±4g, ±8g and ±16g&lt;/li&gt;
-&lt;li&gt;Digital-output magnetometer with a full scale range of ±4800uT&lt;/li&gt;
-&lt;li&gt;Digital-output barometer with range of 300 ~ 1100hPa(+9000m ~ -500m relating to sea level)&lt;/li&gt;
-&lt;li&gt;Dimensions: 25.43mm x 20.35mm&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;!!!Tip
-    More details about Grove modules please refer to &lt;a href=&#34;http://wiki.seeed.cc/Grove_System/&#34;&gt;Grove System&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;platforms-supported&#34;&gt;Platforms Supported&lt;/h2&gt;
-
-&lt;h2 id=&#34;hardware-overview&#34;&gt;Hardware Overview&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_10DOF/master/img/Grove-imu10dof-layout.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;1：MPU-9250 I2C address select Pad, default connected &lt;strong&gt;a&lt;/strong&gt; and &lt;strong&gt;b&lt;/strong&gt; address is 0x68, if connect &lt;strong&gt;b&lt;/strong&gt; and &lt;strong&gt;c&lt;/strong&gt; address is 0x69&lt;/li&gt;
-&lt;li&gt;2：MPU-9250 interrupt pin, the interrupt should be configured, available interrupt sources are: motion detection, fifo overflow, data ready, i2c master error&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
-
-&lt;p&gt;We will provide an example here to show you how to use this sensor.&lt;/p&gt;
-
-&lt;h3 id=&#34;hardware-installation&#34;&gt;Hardware Installation&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_10DOF/master/img/Imu-10dof-hardware-connection.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;software-setup&#34;&gt;Software Setup&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Download the library from &lt;a href=&#34;https://github.com/Seeed-Studio/IMU_10DOF&#34;&gt;https://github.com/Seeed-Studio/IMU_10DOF&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Unzip it into the libraries file of Arduino IDE by the path.&lt;/li&gt;
-&lt;li&gt;Open the code directly by the path: File -&amp;gt; Example -&amp;gt; IMU_10DOF_Test.&lt;/li&gt;
-&lt;li&gt;Upload the code. Note that you should select the correct board type and COM port.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;You can see:
-&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_10DOF/master/img/Imu-10dof-test.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Orientation of Axes&lt;/strong&gt;
-The diagram below shows the orientation of the axes of sensitivity and the polarity of rotation.
-&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_10DOF/master/img/Imu-10dof-dir-axes.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_10DOF/master/res/Grove-IMU_10DOF_v1.0_sch_pcb.zip&#34;&gt;Grove - IMU 10DOF v1.0 eagle file&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_10DOF/master/res/Grove-IMU_10DOF_V1.1_Eagle_file.zip&#34;&gt;Grove - IMU 10DOF v1.1 eagle file&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_10DOF/master/res/Grove-IMU_10DOF_v1.0.pdf&#34;&gt;Grove - IMU 10DOF v1.0 schematics pdf file&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/SeeedDocument/Grove-IMU_10DOF/raw/master/res/Grove%20-%20IMU%2010DOF%20v1.1.pdf&#34;&gt;Grove - IMU 10DOF v1.1 schematics pdf file&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Seeed-Studio/IMU_10DOF&#34;&gt;Get library from github&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_10DOF/master/res/BMP180.pdf&#34;&gt;BMP180 datasheet&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_10DOF/master/res/MPU-9250A_Product_Specification.pdf&#34;&gt;MPU-9250 datasheet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_IMU_10DOF --&gt;
-</description>
+      <guid>http://wiki.seeed.cc/grove-imu_10dof/</guid>
+      <description>Grove - IMU 10DOF is a combination of Grove - IMU 9DOF and Grove - Barometer Sensor (BMP180)&amp;rdquo;). This module is base on MPU-9250 and BMP180, the MPU-9250 is a 9-axis MotionTracking device that combines a 3-axis gyroscope, 3-axis accelerometer, 3-axis magnetometer and a Digital Motion Processor(DMP), and BMP180 is a high precision, ultra-low power digital pressure sensors for consumer applications. This module is very suitable for the application of smartphones, tablets and wearable devices.</description>
     </item>
     
     <item>
       <title>Grove - IMU 10DOF v2.0</title>
-      <link>http://wiki.seeed.cc/Grove-IMU_10DOF_v2.0/</link>
+      <link>http://wiki.seeed.cc/grove-imu_10dof_v2.0/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://wiki.seeed.cc/Grove-IMU_10DOF_v2.0/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://github.com/SeeedDocument/Grove-IMU_10DOF_v2.0/raw/master/img/Grove-imu-10dof-v2.0.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Grove-IMU 10DOF v2.0 is a upgrade version of Grove-IMU-10DOF， which replace BMP180 with BMP280. As the successor to the widely adopted BMP180, the BMP280 delivers high performance in all applications that require precise pressure measurement. This module is base on MPU-9250 and BMP280, the MPU-9250 is a 9-axis MotionTracking device that combines a 3-axis gyroscope, 3-axis accelerometer, 3-axis magnetometer and a Digital Motion Processor(DMP), and BMP280 is a high precision, ultra-low power digital pressure sensors for consumer applications. This module is very suitable for the application of smartphones, tablets and wearable devices.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.seeedstudio.com/Grove-IMU-10DOF-v2.0-p-2691.html&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;version&#34;&gt;Version&lt;/h2&gt;
-
-&lt;hr /&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Product&lt;/th&gt;
-&lt;th&gt;SKU&lt;/th&gt;
-&lt;th&gt;Released Date&lt;/th&gt;
-&lt;th&gt;Description&lt;/th&gt;
-&lt;th&gt;Purchase Link&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Grove - IMU 10DOF&lt;/td&gt;
-&lt;td&gt;101020079&lt;/td&gt;
-&lt;td&gt;March 2015&lt;/td&gt;
-&lt;td&gt;Built on Built on &lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_10DOF/master/res/MPU-9250A_Product_Specification.pdf&#34;&gt;MPU-9250&lt;/a&gt; and &lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_10DOF/master/res/BMP180.pdf&#34;&gt;BMP180&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;EOL&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Grove - IMU 10DOF v2.0&lt;/td&gt;
-&lt;td&gt;101020252&lt;/td&gt;
-&lt;td&gt;September 2016&lt;/td&gt;
-&lt;td&gt;Upgrade BMP180 sensor to &lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Barometer_Sensor-BMP280/master/res/Grove-Barometer_Sensor-BMP280-BMP280-DS001-12_Datasheet.pdf&#34;&gt;BMP280&lt;/a&gt; from BOSCH&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.seeedstudio.com/Grove-IMU-10DOF-v2.0-p-2691.html&#34;&gt;Get One Now&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;specifications&#34;&gt;Specifications&lt;/h2&gt;
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I2C Grove interface, include GND, VCC, SDA, SCL.&lt;/li&gt;
-&lt;li&gt;MPU-9250 I2C address selectable&lt;/li&gt;
-&lt;li&gt;Low Power Consumption&lt;/li&gt;
-&lt;li&gt;400kHz Fast Mode I2C for communicating with all registers&lt;/li&gt;
-&lt;li&gt;Digital-output X-, Y-, and Z-Axis angular rate sensors (gyroscopes) with a user-programmable full-scale range of ±250, ±500, ±1000, and ±2000°/sec&lt;/li&gt;
-&lt;li&gt;Digital-output 3-Axis accelerometer with a programmable full scale range of ±2g, ±4g, ±8g and ±16g&lt;/li&gt;
-&lt;li&gt;Digital-output magnetometer with a full scale range of ±4800uT&lt;/li&gt;
-&lt;li&gt;Digital-output barometer with range of 300 ~ 1100hPa(+9000m ~ -500m relating to sea level)&lt;/li&gt;
-&lt;li&gt;Dimensions: 25.43mm x 20.35mm&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;!!!Tip
-    More details about Grove modules please refer to &lt;a href=&#34;http://wiki.seeed.cc/Grove_System/&#34;&gt;Grove System&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;platforms-supported&#34;&gt;Platforms Supported&lt;/h2&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;hardware-overview&#34;&gt;Hardware Overview&lt;/h2&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://github.com/SeeedDocument/Grove-IMU_10DOF_v2.0/raw/master/img/hardware.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;MPU-9250 I2C address select Pad, default connected &lt;strong&gt;a&lt;/strong&gt; and &lt;strong&gt;b&lt;/strong&gt; address is 0x68, if connect &lt;strong&gt;b&lt;/strong&gt; and &lt;strong&gt;c&lt;/strong&gt; address is 0x69&lt;/li&gt;
-&lt;li&gt;MPU-9250 interrupt pin, the interrupt should be configured, available interrupt sources are: motion detection, fifo overflow, data ready, i2c master error&lt;/li&gt;
-&lt;li&gt;Orientation of Axes:
-The diagram below shows the orientation of the axes of sensitivity and the polarity of rotation.
-&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_10DOF/master/img/Imu-10dof-dir-axes.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
-&lt;li&gt;The BMP280 is an absolute barometric pressure sensor especially designed for mobile applications. The sensor module is housed in an extremely compact 8-pin metal-lid LGA package with a footprint of only 2.0 × 2.5 mm2 and 0.95 mm package height. Its small dimensions and its low power consumption of 2.7 μA @1Hz allow the implementation in battery driven devices such as mobile phones, GPS modules or watches.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h2&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&#34;connections&#34;&gt;Connections&lt;/h4&gt;
-
-&lt;p&gt;Here we will show you how this Grove - IMU 10DOF V2.0 works via a simple demo. First of all, we need to prepare the below stuffs:&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Seeeduino V4&lt;/th&gt;
-&lt;th&gt;Grove - IMU 10DOF v2.0&lt;/th&gt;
-&lt;th&gt;Base Shield&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_1.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&#34;https://github.com/SeeedDocument/Grove-IMU_10DOF_v2.0/raw/master/img/Grove-imu-10dof-v2.0_s.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_4.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;http://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html&#34;&gt;Get ONE Now&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.seeedstudio.com/Grove-IMU-10DOF-v2.0-p-2691.html&#34;&gt;Get ONE Now&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.seeedstudio.com/Base-Shield-V2-p-1378.html&#34;&gt;Get ONE Now&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Connect Grove - IMU 10DOF v2.0 to &lt;strong&gt;I2C&lt;/strong&gt; port of base shield.&lt;/li&gt;
-&lt;li&gt;Plug the base Shield into Arduino.&lt;/li&gt;
-&lt;li&gt;Connect Arduino to PC by using a USB cable.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://github.com/SeeedDocument/Grove-IMU_10DOF_v2.0/raw/master/img/arduino%20connection.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;software&#34;&gt;Software&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Download the &lt;a href=&#34;https://github.com/Seeed-Studio/Grove_IMU_10DOF_v2.0/archive/master.zip&#34;&gt;Grove-IMU_10DOF_v2 library.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Please follow &lt;a href=&#34;http://wiki.seeed.cc/How_to_install_Arduino_Library/&#34;&gt;how to install an arduino library&lt;/a&gt; procedures to install library.&lt;/li&gt;
-&lt;li&gt;Restart the Arduino IDE. Open “ IMM_10DOF_Test example via the path: &lt;strong&gt;File -&amp;gt; Example -&amp;gt;GROVE_IMU_10DOF_V2-master-&amp;gt; IMU_10DOF_V2_Test&lt;/strong&gt;.
-&lt;img src=&#34;https://github.com/SeeedDocument/Grove-IMU_10DOF_v2.0/raw/master/img/library%20example.jpg&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
-&lt;li&gt;Upload the code. Note that we should select the correct board type and COM port.&lt;/li&gt;
-&lt;li&gt;We can see:
-&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_10DOF/master/img/Imu-10dof-test.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;[Eagle]&lt;/strong&gt; &lt;a href=&#34;https://github.com/SeeedDocument/Grove-IMU_10DOF_v2.0/raw/master/res/Grove%20-%20IMU%2010DOF%20v2.0.zip&#34;&gt;Grove - IMU 10DOF v2 eagle file&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[PDF]&lt;/strong&gt; &lt;a href=&#34;https://github.com/SeeedDocument/Grove-IMU_10DOF_v2.0/raw/master/res/Grove%20-%20IMU%2010DOF%20v2.0%20Sch.pdf&#34;&gt;Grove - IMU 10DOF v2 schematics pdf file&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[PDF]&lt;/strong&gt; &lt;a href=&#34;https://github.com/SeeedDocument/Grove-IMU_10DOF_v2.0/raw/master/res/Grove%20-%20IMU%2010DOF%20v2.0%20PCB.pdf&#34;&gt;Grove - IMU 10DOF v2 PCB pdf file&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Library]&lt;/strong&gt; &lt;a href=&#34;https://github.com/Seeed-Studio/Grove_IMU_10DOF_v2.0/archive/master.zip&#34;&gt;Get library from github&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Dtasheet]&lt;/strong&gt; &lt;a href=&#34;https://github.com/SeeedDocument/Grove-IMU_10DOF_v2.0/raw/master/res/BMP280-Datasheet.pdf&#34;&gt;BMP280 datasheet&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Dtasheet]&lt;/strong&gt; &lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_10DOF/master/res/MPU-9250A_Product_Specification.pdf&#34;&gt;MPU-9250 datasheet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_IMU_10DOF --&gt;
-</description>
+      <guid>http://wiki.seeed.cc/grove-imu_10dof_v2.0/</guid>
+      <description>Grove-IMU 10DOF v2.0 is a upgrade version of Grove-IMU-10DOF， which replace BMP180 with BMP280. As the successor to the widely adopted BMP180, the BMP280 delivers high performance in all applications that require precise pressure measurement. This module is base on MPU-9250 and BMP280, the MPU-9250 is a 9-axis MotionTracking device that combines a 3-axis gyroscope, 3-axis accelerometer, 3-axis magnetometer and a Digital Motion Processor(DMP), and BMP280 is a high precision, ultra-low power digital pressure sensors for consumer applications.</description>
     </item>
     
     <item>
       <title>Grove - IMU 9DOF v2.0</title>
-      <link>http://wiki.seeed.cc/Grove-IMU_9DOF_v2.0/</link>
+      <link>http://wiki.seeed.cc/grove-imu_9dof_v2.0/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://wiki.seeed.cc/Grove-IMU_9DOF_v2.0/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_9DOF_v2.0/master/img/Grove-IMU_9DOF_v2.0.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Grove - IMU 9DOF v2.0 is an upgraded version of &lt;strong&gt;Grove - IMU 9DOF v1.0&lt;/strong&gt; and it is a high performance 9-axis motion tracking module, which is based on MPU-9250. The MPU-9250 is an integrated 9-axis motion tracking device designed for the low power, low cost, and high performance requirements of consumer electronics equipment including smartphones, tablets and wearable sensors. MPU-9250 features three 16-bit ADC for digitizing the gyroscope outputs and three 16-bit ADCs for digitizing the accelerometer outputs and three 16-bit ADCs for digitizing the magnetometer outputs.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/Grove-IMU-9DOF-v2.0-p-2400.html&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;specifications&#34;&gt;Specifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I2C/SPI interface&lt;/li&gt;
-&lt;li&gt;Auxiliary I2C&lt;/li&gt;
-&lt;li&gt;Low Power Consumption&lt;/li&gt;
-&lt;li&gt;400kHz Fast Mode I2C for communicating with all registers&lt;/li&gt;
-&lt;li&gt;Digital-output 3-Axis angular rate sensors (gyroscopes) with a user-programmable full-scale range of ±250, ±500, ±1000, and ±2000°/sec&lt;/li&gt;
-&lt;li&gt;Digital-output 3-Axis accelerometer with a programmable full scale range of ±2g, ±4g, ±8g and ±16g&lt;/li&gt;
-&lt;li&gt;Digital-output 3-Axis accelerometer with a full scale measurement range is ±4800μT&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;!!!Tip
-    More details about Grove modules please refer to &lt;a href=&#34;http://wiki.seeed.cc/Grove_System/&#34;&gt;Grove System&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;platforms-supported&#34;&gt;Platforms Supported&lt;/h2&gt;
-
-&lt;h2 id=&#34;hardware-overview&#34;&gt;Hardware Overview&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_9DOF_v2.0/master/img/Grove-IMU_9DOF_v2_inter.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;① - Grove interface,connect to I2C&lt;/p&gt;
-
-&lt;p&gt;② - I2C or SPI select pad(default is I2C), if want to use SPI, disconnect this pad&lt;/p&gt;
-
-&lt;p&gt;③ - Address select pad, default connected b and c address is 0x68, if connect b and a address is 0x69, if want to use SPI, disconnect this pad to either side.&lt;/p&gt;
-
-&lt;p&gt;④ - SPI Interface&lt;/p&gt;
-
-&lt;p&gt;⑤ - Auxiliary I2C master serial data&lt;/p&gt;
-
-&lt;p&gt;⑥ - Auxiliary I2C master serial clock&lt;/p&gt;
-
-&lt;p&gt;⑦ - Interrupt digital output&lt;/p&gt;
-
-&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
-
-&lt;p&gt;Based on library,we can display value of Accel&amp;amp;Gyro&amp;amp;Magnet on serial monitor. Now let&amp;rsquo;s show how to use the module.&lt;/p&gt;
-
-&lt;h3 id=&#34;hardware-installation&#34;&gt;Hardware Installation&lt;/h3&gt;
-
-&lt;p&gt;Hardware installation is very easy, because there&amp;rsquo;s an I2C Grove in Seeeduino, so what we need to do is connect it to I2C Grove via a Grove cable.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_9DOF_v2.0/master/img/Grove-IMU_9DOF_v2.0_connect.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;software-part&#34;&gt;Software Part&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Download the &lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_9DOF_v2.0/master/res/Grove_IMU_9DOF_9250.zip&#34;&gt;library&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Unzip libraries into the libraries file of Arduino IDE by the path: ..\arduino-1.0.5\libraries.&lt;/li&gt;
-&lt;li&gt;Unzip IMU_9D0F_Demo file into the libraries file of Arduino IDE by the path: ..\arduino-1.0.5\libraries.&lt;/li&gt;
-&lt;li&gt;Open the code directly by the path: File -&amp;gt; Example -&amp;gt; Grove_IMU_9DOF_9250&lt;/li&gt;
-&lt;li&gt;Upload the code. Note that you should select the correct board type and COM port.&lt;/li&gt;
-&lt;li&gt;You can see :&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_9DOF_v2.0/master/img/Grove-IMU_9DOF_v2.0_demo.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In static state，the z-Axis output value is about 0.98g，so you can refer to this to test if your sensor can work normally.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Orientation of Axes&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The diagram below shows the orientation of the axes of sensitivity and the polarity of rotation.Note the pin 1 identifier (•) in the figure.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_9DOF_v2.0/master/img/MPU9250_axes.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Orientation of Axes of Sensitivity and Polarity of Rotation for Accelerometer and Gyroscope&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_9DOF_v2.0/master/img/MPU9250_axes2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Orientation of Axes of Sensitivity for Compass&lt;/p&gt;
-
-&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_9DOF_v2.0/master/res/Grove-IMU_9DOF_v2.0_sch_pcb.zip&#34;&gt;Grove - IMU 9DOF v2.0 Eagle File&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_9DOF_v2.0/master/res/MPU-9250A_Product_Specification.pdf&#34;&gt;MPU-9250 datashet&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_9DOF_v2.0/master/res/MPU-9250A_Reg_Map.pdf&#34;&gt;MPU-9250 Register Map&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_9DOF_v2.0/master/res/Grove_IMU_9DOF_9250.zip&#34;&gt;Grove - IMU 9DOF v2.0 library&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_IMU_9DOF_v2.0 --&gt;
-</description>
+      <guid>http://wiki.seeed.cc/grove-imu_9dof_v2.0/</guid>
+      <description>Grove - IMU 9DOF v2.0 is an upgraded version of Grove - IMU 9DOF v1.0 and it is a high performance 9-axis motion tracking module, which is based on MPU-9250. The MPU-9250 is an integrated 9-axis motion tracking device designed for the low power, low cost, and high performance requirements of consumer electronics equipment including smartphones, tablets and wearable sensors. MPU-9250 features three 16-bit ADC for digitizing the gyroscope outputs and three 16-bit ADCs for digitizing the accelerometer outputs and three 16-bit ADCs for digitizing the magnetometer outputs.</description>
     </item>
     
   </channel>

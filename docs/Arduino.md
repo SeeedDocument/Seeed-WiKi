@@ -31,6 +31,7 @@ Here is the list of the Seeeduino Boards you can find in the Seeed WiKi. The lis
 - [Rainbowduino](/Rainbowduino/)
 - [Rainbowduino LED driver platform - ATmega328](/Rainbowduino_LED_driver_platform-ATmega328/)
 - [Rainbowduino v3.0](/Rainbowduino_v3.0/)
+- [ReSpeaker 2-Mics Pi HAT](/Respeaker_2_Mics_Pi_HAT/)
 - [Seeeduino Cloud](/Seeeduino_Cloud/)
 - [Seeeduino Cloud and Grove IoT Starter Kit Powered by AWS](/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/)
 - [Seeeduino Ethernet](/Seeeduino_Ethernet/)
@@ -43,7 +44,7 @@ Here is the list of the Seeeduino Boards you can find in the Seeed WiKi. The lis
 - [Seeeduino Stalker V3 - Waterproof Solar Kit](/Seeeduino_Stalker_V3-Waterproof_Solar_Kit/)
 - [Seeeduino Stalker V3.1](/Seeeduino_Stalker_V3.1/)
 - [Seeeduino Stalker v3 enclosure](/Seeeduino_Stalker_v3_enclosure/)
-- [Seeeduino v4.0‏‎](/Seeeduino_v4.0‏‎/)
+- [Seeeduino v4.0‏‎](/Seeeduino_v4.0/)
 - [Seeeduino v4.2](/Seeeduino_v4.2/)
 - [Shield Bot V1.1](/Shield_Bot_V1.1/)
 - [Shield Bot V1.2](/Shield_Bot_V1.2/)
@@ -55,6 +56,4 @@ Here is the list of the Seeeduino Boards you can find in the Seeed WiKi. The lis
 - [Tricycle Bot](/Tricycle_Bot/)
 - [UartSBee V4](/UartSBee_V4/)
 - [UartSBee v5](/UartSBee_v5/)
-- [Wio Tracker - GPS, BT3.0, GSM, Arduino Compatible](/wio_gps_board/)
-- [Wio Tracker - LTE CAT1](/Wio_Tracker_LTE_CAT1/)
 

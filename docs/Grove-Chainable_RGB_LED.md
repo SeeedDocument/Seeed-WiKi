@@ -14,7 +14,14 @@ tags: grove_digital, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg
 
 **Grove - Chainable RGB LED** is based on P9813 chip which is a full-color LED driver. It provides 3 constant-current drivers as well as modulated output of 256 shades of gray. It communicates with a MCU using 2-wire transmission (Data and Clock). This 2-wire transmission can be used to cascade additional **Grove - Chainable RGB LED** modules. The built-in clock regeneration enhances the transmission distance. This Grove module is suitable for any colorful LED based projects.
 
-[![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](https://www.seeedstudio.com/Grove-Chainable-RGB-LED-p-850.html)
+
+
+Version
+---
+| Revision | Descriptions                                              | Release      |How to Buy|
+|----------|-----------------------------------------------------------|--------------|--------------|
+| v1    | Initial public release (beta)                             | May 5, 2011  |[![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now_small.png)](https://www.seeedstudio.com/Grove-Chainable-RGB-LED-p-850.html)|
+| v2    | Replace P9813S16 with P9813S14  and change Grove connector from Vertical to horizontal | Apr 19, 2016  |[![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now_small.png)](https://www.seeedstudio.com/Grove-%E2%80%93-Chainable-RGB-Led-V2.0-p-2903.html)|
 
 Specifications
 -------------
@@ -42,9 +49,9 @@ To complete this demo, you can use one or more Grove - Chainable RGB LED. Note t
 -   Open the example CycleThroughColors by the path:File->Examples->ChainableLED_master and upload it to Seeeduino.
 
 ```
-    /* 
+    /*
      * Example of using the ChainableRGB library for controlling a Grove RGB.
-     * This code cycles through all the colors in an uniform way. This is accomplished using a HSB color space. 
+     * This code cycles through all the colors in an uniform way. This is accomplished using a HSB color space.
      */
     #include <ChainableLED.h>
 
@@ -63,14 +70,14 @@ To complete this demo, you can use one or more Grove - Chainable RGB LED. Note t
     {
       for (byte i=0; i<NUM_LEDS; i++)
         leds.setColorHSB(i, hue, 1.0, 0.5);
-        
+
       delay(50);
-        
+
       if (up)
         hue+= 0.025;
       else
         hue-= 0.025;
-        
+
       if (hue>=1.0 && up)
         up = false;
       else if (hue<=0.0 && !up)
@@ -104,7 +111,7 @@ Based on [Chainable LED Library](https://github.com/pjpmarques/ChainableLED), we
         {
             sum += analogRead(A0);
         }
-        
+
         return sum>>5;
     }
 
@@ -113,9 +120,9 @@ Based on [Chainable LED Library](https://github.com/pjpmarques/ChainableLED), we
         float temperature = 0.0;
         float resistance = 0.0;
         int B = 3975; //B value of the thermistor
-        
+
         int a = getAnalog();
-        
+
         resistance = (float)(1023-a)*10000/a; //get the resistance of the sensor;
         temperature = 1/(log(resistance/10000)/B+1/298.15)-273.15; //convert to temperature via datasheet ;
         return temperature;
@@ -125,7 +132,7 @@ Based on [Chainable LED Library](https://github.com/pjpmarques/ChainableLED), we
     {
 
         dta = dta/4; // 0 - 255
-        
+
         int colorR = dta;
         int colorG = 255-dta;
         int colorB = 0;
@@ -143,7 +150,7 @@ Based on [Chainable LED Library](https://github.com/pjpmarques/ChainableLED), we
     {
         float temp = getTemp();
         int nTemp = temp*100;
-        
+
         nTemp = nTemp > TEMPUP*100 ? TEMPUP*100 : (nTemp < TEMPDOWN*100 ? TEMPDOWN*100 : nTemp);
         nTemp = map(nTemp, TEMPDOWN*100, TEMPUP*100, 0, 1023);
         ledLight(nTemp);
@@ -671,8 +678,8 @@ class ChainableLED():
                 _led_state[i*3 + _CL_RED] = red;
                 _led_state[i*3 + _CL_GREEN] = green;
                 _led_state[i*3 + _CL_BLUE] = blue;
-            sendColor(_led_state[i*3 + _CL_RED], 
-                      _led_state[i*3 + _CL_GREEN], 
+            sendColor(_led_state[i*3 + _CL_RED],
+                      _led_state[i*3 + _CL_GREEN],
                       _led_state[i*3 + _CL_BLUE]);
             '''
             self.sendColor(red, green, blue)
@@ -716,9 +723,15 @@ if __name__ == "__main__":
 Resources
 ---------
 
--   [Chainable RGB LED eagle file](https://raw.githubusercontent.com/SeeedDocument/Grove-Chainable_RGB_LED/master/res/Chainable_RGB_LED_eagle_file.zip)
--   [P9813 Datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-Chainable_RGB_LED/master/res/P9813_datasheet.pdf)
--   [Chainable RGB LED Library for the P9813](https://github.com/pjpmarques/ChainableLED)
--   [Github repository for Chainable RGB LED Library (new)](https://github.com/Seeed-Studio/Grove_Chainable_RGB_LED)
+-   **[Library]**[Chainable RGB LED Library for the P9813](https://github.com/pjpmarques/ChainableLED)
+-   **[Library]**[Github repository for Chainable RGB LED Library (new)](https://github.com/Seeed-Studio/Grove_Chainable_RGB_LED)
+-   **[Eagle]**[Chainable RGB LED eagle file V1](https://github.com/SeeedDocument/Grove-Chainable_RGB_LED/raw/master/res/Chainable_RGB_LED_eagle_file%20V1.zip)
+-   **[Eagle]**[Chainable RGB LED eagle file V2](https://github.com/SeeedDocument/Grove-Chainable_RGB_LED/raw/master/res/Grove%20-%20Chainable%20RGB%20LED%20v2.0.zip)
+-   **[PDF]**[Chainable RGB LED SCH file V1](https://github.com/SeeedDocument/Grove-Chainable_RGB_LED/raw/master/res/CRGBled%20v1_SCH.pdf)
+-   **[PDF]**[Chainable RGB LED SCH file V2](https://github.com/SeeedDocument/Grove-Chainable_RGB_LED/raw/master/res/Grove%20-%20Chainable%20RGB%20LED%20v2.0%20SCH.pdf)
+-   **[PDF]**[Chainable RGB LED PCB file V1](https://github.com/SeeedDocument/Grove-Chainable_RGB_LED/raw/master/res/CRGBled%20V1_PCB.pdf)
+-   **[PDF]**[Chainable RGB LED PCB file V2](https://github.com/SeeedDocument/Grove-Chainable_RGB_LED/raw/master/res/Grove%20-%20Chainable%20RGB%20LED%20v2.0%20PCB.pdf)
+-   **[Datasheet]**[P9813 Datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-Chainable_RGB_LED/master/res/P9813_datasheet.pdf)
+
 
 <!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_Chainable_RGB_LED -->

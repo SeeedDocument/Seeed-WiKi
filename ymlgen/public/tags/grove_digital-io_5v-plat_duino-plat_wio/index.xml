@@ -2,286 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Grove_digital Io_5v Plat_duino Plat_wio on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
-    <link>http://wiki.seeed.cc/tags/grove_digital-io_5v-plat_duino-plat_wio/index.xml</link>
+    <link>http://wiki.seeed.cc/tags/grove_digital-io_5v-plat_duino-plat_wio/</link>
     <description>Recent content in Grove_digital Io_5v Plat_duino Plat_wio on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://wiki.seeed.cc/tags/grove_digital-io_5v-plat_duino-plat_wio/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://wiki.seeed.cc/tags/grove_digital-io_5v-plat_duino-plat_wio/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Grove - Electromagnet</title>
-      <link>http://wiki.seeed.cc/Grove-Electromagnet/</link>
+      <link>http://wiki.seeed.cc/grove-electromagnet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://wiki.seeed.cc/Grove-Electromagnet/</guid>
-      <description>
-
-&lt;table&gt;
-    &lt;tr&gt;
-        &lt;td&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Electromagnet/master/img/Grove_Electromagnet_02.jpg&#34;&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Electromagnet/master/img/Grove_Electromagnet-1.png&#34;&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-&lt;/table&gt;
-
-&lt;p&gt;An electromagnet is a type of magnet in which the magnetic field is produced by electric current. An electric current flowing in a wire creates a magnetic field around the wire, due to Ampere&amp;rsquo;s law(see drawing below). To concentrate the magnetic field, in an electromagnet the wire is wound into a coil with many turns of wire lying side by side. The magnetic field of all the turns of wire passes through the center of the coil, creating a strong magnetic field there. Grove - Electromagnet can suck 1KG weight and hold on. It is easy to use, to learn electromagnet principle.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/Grove-Electromagnet-p-1820.html&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Grove shape&lt;/li&gt;
-&lt;li&gt;1KG peak suction&lt;/li&gt;
-&lt;li&gt;Low standby current&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;!!!Tip
-    More details about Grove modules please refer to &lt;a href=&#34;http://wiki.seeed.cc/Grove_System/&#34;&gt;Grove System&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;specifications&#34;&gt;Specifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Working Voltage ：DC 5V&lt;/li&gt;
-&lt;li&gt;Working Current ： 400mA&lt;/li&gt;
-&lt;li&gt;Standby current ： 200uA&lt;/li&gt;
-&lt;li&gt;Load Weight： 1KG&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;platforms-supported&#34;&gt;Platforms Supported&lt;/h2&gt;
-
-&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
-
-&lt;h3 id=&#34;with-arduino-arduino-arduino&#34;&gt;With &lt;a href=&#34;http://wiki.seeed.cc/Arduino&#34; title=&#34;Arduino&#34;&gt;Arduino&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Electromagnet/master/img/Grove_Electromagnet-2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Electromagnet/master/img/Grove_Electromagnet-3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;CODE:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;/*
-  Turns on an Electromagnet on for one second, then off for one second, repeatedly.
-  This example code is in the public domain.
-*/
-
-int Electromagnet = 0;
-int LED = 13;
-
-// the setup routine runs once when you press reset:
-void setup() {
-    // initialize the digital pin as an output.
-    pinMode(Electromagnet, OUTPUT);
-    pinMode(LED, OUTPUT);
-}
-
-// the loop routine runs over and over again forever:
-void loop() {
-    digitalWrite(Electromagnet, HIGH);  // turn the Electromagnet on (HIGH is the voltage level)
-    digitalWrite(LED, HIGH);            // turn the LED on (HIGH is the voltage level)
-    delay(1000);                        // wait for a second
-    digitalWrite(Electromagnet, LOW);   // turn the Electromagnet off by making the voltage LOW
-    digitalWrite(LED, LOW);             // turn the LED off by making the voltage LOW
-    delay(1000);                        // wait for a second
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;with-raspberry-pi&#34;&gt;With Raspberry Pi&lt;/h3&gt;
-
-&lt;p&gt;1.You should have got a raspberry pi and a grovepi or grovepi+.&lt;/p&gt;
-
-&lt;p&gt;2.You should have completed configuring the development enviroment, otherwise follow &lt;a href=&#34;http://wiki.seeed.cc/GrovePiPlus&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;3.Connection&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Plug the sensor to grovepi socket D4 by using a grove cable.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;4.Navigate to the demos&amp;rsquo; directory:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;    cd yourpath/GrovePi/Software/Python/
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;To see the code&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code&gt;    nano grove_electromagnet.py   # &amp;quot;Ctrl+x&amp;quot; to exit #
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;    import time
-    import grovepi
-
-    # The electromagnet can hold a 1KG weight
-
-    # Connect the Grove Electromagnet to digital port D4
-    # SIG,NC,VCC,GND
-    electromagnet = 4
-
-    grovepi.pinMode(electromagnet,&amp;quot;OUTPUT&amp;quot;)
-    time.sleep(1)
-
-    while True:
-        try:
-            # Switch on electromagnet
-            grovepi.digitalWrite(electromagnet,1)
-            print &amp;quot;on&amp;quot;
-            time.sleep(2)
-
-            # Switch off electromagnet
-            grovepi.digitalWrite(electromagnet,0)
-            print &amp;quot;off&amp;quot;
-            time.sleep(2)
-
-        except KeyboardInterrupt:
-            grovepi.digitalWrite(electromagnet,0)
-            break
-        except IOError:
-            print &amp;quot;Error&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;5.Run the demo.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;    sudo python grove_electromagnet.py
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Electromagnet/master/res/Grove_Electromagnet_v1.0_SCH_PCB.zip&#34; title=&#34;File:Grove Electromagnet v1.0 SCH PCB.zip&#34;&gt;Grove Electromagnet v1.0 SCH PCB.zip&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Electromagnet/master/res/ZYE1-P20-15.pdf&#34;&gt;Datasheet ZYE1-P20-15 PDF&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_Electromagnet --&gt;
-</description>
+      <guid>http://wiki.seeed.cc/grove-electromagnet/</guid>
+      <description>An electromagnet is a type of magnet in which the magnetic field is produced by electric current. An electric current flowing in a wire creates a magnetic field around the wire, due to Ampere&amp;rsquo;s law(see drawing below). To concentrate the magnetic field, in an electromagnet the wire is wound into a coil with many turns of wire lying side by side. The magnetic field of all the turns of wire passes through the center of the coil, creating a strong magnetic field there.</description>
     </item>
     
     <item>
       <title>Grove - Speaker</title>
-      <link>http://wiki.seeed.cc/Grove-Speaker/</link>
+      <link>http://wiki.seeed.cc/grove-speaker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://wiki.seeed.cc/Grove-Speaker/</guid>
-      <description>
+      <guid>http://wiki.seeed.cc/grove-speaker/</guid>
+      <description>The Grove- Speaker is a module which consists of power amplification and voice outputs. The loudness can be adjusted by the on-board potentiometer. With different input frequencies, the loud-speaker generates different tones. Coding the music into arduino, DIY your own music box!
 
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Speaker/master/img/Grove_Speaker_01.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The Grove- Speaker is a module which consists of power amplification and voice outputs. The loudness can be adjusted by the on-board potentiometer. With different input frequencies, the loud-speaker generates different tones. Coding the music into arduino, DIY your own music box!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.seeedstudio.com/Grove-Speaker-p-1445.html&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Volume Adjustable&lt;/li&gt;
-&lt;li&gt;Grove Interface&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;!!!Tip
-    More details about Grove modules please refer to &lt;a href=&#34;http://wiki.seeed.cc/Grove_System/&#34;&gt;Grove System&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;specifications&#34;&gt;Specifications&lt;/h2&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Item&lt;/th&gt;
-&lt;th&gt;Min&lt;/th&gt;
-&lt;th&gt;Typical&lt;/th&gt;
-&lt;th&gt;Max&lt;/th&gt;
-&lt;th&gt;Unit&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Working Voltage&lt;/td&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;5.0&lt;/td&gt;
-&lt;td&gt;5.5&lt;/td&gt;
-&lt;td&gt;VDC&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Voltage Gain&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;td&gt;46&lt;/td&gt;
-&lt;td&gt;db&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Band Width&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;td&gt;20&lt;/td&gt;
-&lt;td&gt;KHz&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;platforms-supported&#34;&gt;Platforms Supported&lt;/h2&gt;
-
-&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
-
-&lt;p&gt;The speaker can emit a variety of sounds like a car horn, doorbell and ignition . The different sounds are based on the frequency of the input signal.&lt;/p&gt;
-
-&lt;p&gt;You can supply different frequency signal to this module with Arduino. Arduino generates these signal via PWM or even digital write and delay.Here we are going to show you how to generate these signals using &lt;em&gt;delay()&lt;/em&gt;, the speaker sound bass 1~7.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Speaker/master/img/Tone.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;/*macro definition of Speaker pin*/
-#define SPEAKER 3
-
-int BassTab[]={1911,1702,1516,1431,1275,1136,1012};//bass 1~7
-
-void setup()
-{
-    pinInit();
-}
-void loop()
-{
-        /*sound bass 1~7*/
-    for(int note_index=0;note_index&amp;lt;7;note_index++)
-    {
-        sound(note_index);
-        delay(500);
-    }
-}
-void pinInit()
-{
-    pinMode(SPEAKER,OUTPUT);
-    digitalWrite(SPEAKER,LOW);
-}
-void sound(uint8_t note_index)
-{
-    for(int i=0;i&amp;lt;100;i++)
-    {
-        digitalWrite(SPEAKER,HIGH);
-        delayMicroseconds(BassTab[note_index]);
-        digitalWrite(SPEAKER,LOW);
-        delayMicroseconds(BassTab[note_index]);
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;div class=&#34;admonition note&#34;&gt;
-&lt;p class=&#34;admonition-title&#34;&gt;Note&lt;/p&gt;
-Due to the influence of the capacitance, the module can only output the bass signal, and the treble is unable to emit.
-&lt;/div&gt;
-
-&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Speaker/master/res/Grove-Speaker_Eagle_File.zip&#34;&gt;Grove - Speaker Eagle File&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Speaker/master/res/Tone.pdf&#34;&gt;How to generate different tone with MCU&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Speaker/master/res/Grove-Speaker_v1.0_brd.pdf&#34;&gt;Grove_-_Speaker_v1.0_brd.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Speaker/master/res/Grove-Speaker_v1.0_sch.pdf&#34;&gt;Grove_-_Speaker_v1.0_sch.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/SeeedDocument/Grove-Speaker/master/res/LM386_Low_Voltage_Audio_Power_Amplifier_Datasheet.pdf&#34;&gt;LM386 Low Voltage Audio Power Amplifier Datasheet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_Speaker --&gt;
-</description>
+Features  Volume Adjustable Grove Interface  !!!Tip More details about Grove modules please refer to Grove System
+Specifications    Item Min Typical Max Unit     Working Voltage 4.</description>
     </item>
     
   </channel>

@@ -12,10 +12,17 @@ sku: 102020001
 
 Seeeduino Lotus is an ATMEGA328 Microcontroller development board. It is a combination of Seeeduino and Base Shield. It uses an Atmel ATMEGA328P-MU and CH340. ATMEGA328P-MU is a high performance, low power AVR 8-Bit Microcontroller. CH340 is a USB bus converter chip that can realize a USB to serial interface. Seeeduino Lotus has 14 digital input/outputs (6 of which can output PWM) and 7 analog input/outputs, a micro USB connection, an ICSP header, 12 Grove connections, a reset button.
 
-[![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now.png)](https://www.seeedstudio.com/Seeeduino-Lotus-ATMega328-Board-with-Grove-Interface-p-1942.html)
+
 
 !!!Warning
-    Seeeduino Lotus works at Windows Operating System ONLY. DO NOT buy it if you want to use it under MAC or Linux.
+    Seeeduino Lotus 1.0 works at Windows Operating System ONLY. Seeeduino Lotus 1.1 works with Window and Mac.
+
+## Version
+---
+| Revision | Descriptions                                              | Release      |How to buy|
+|----------|-----------------------------------------------------------|--------------|--------------|
+| v1.0   | Initial public release (beta)                             | Jul 22, 2014  |[![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now_small.png)](https://www.seeedstudio.com/Seeeduino-Lotus-ATMega328-Board-with-Grove-Interface-p-1942.html)|
+| v1.1   | Replace CH340 with CP2102N to enable the compatibilty with MAC |Dec 22,2016   |[![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now_small.png)](https://www.seeedstudio.com/Seeeduino-Lotus-V1.1-ATMega328-Board-with-Grove-Interface-p-2917.html)|
 
 ## Application Ideas
 
@@ -102,7 +109,7 @@ Connect the Arduino board to your computer using the USB cable. The green power 
 
 
 !!!Note
-    This drive is available for Windows XP, Windows Vista, Windows 7, Windows 8/8.1 and Windows 10.
+    This CH340 driver (Seeeduino_Lotus V1.0) is available for Windows XP, Windows Vista, Windows 7, Windows 8/8.1 and Windows 10.
 
 [![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/download_driver_for_seeeduino_lotus.png)](https://github.com/SeeedDocument/Seeeduino_Lotus/raw/master/res/CH341SER.EXE)
 
@@ -110,6 +117,10 @@ Double click on the driver and Install it.
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/driver_install.png)
 
+!!!Note
+    This CP2102N driver (Seeeduino_Lotus V1.1) is available for Windows XP, Windows Vista, Windows 7, Windows 8/8.1, Windows 10 and Mac.
+
+[![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/download_driver_for_seeeduino_lotus.png)](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)  
 
 ## Getting Started
 
@@ -162,8 +173,12 @@ A few seconds after the upload finishes, you should see the pin 13 (L) LED on th
 ## Resources
 
 * **Schematic**
-    * [Seeeduino Lotus Eagle file](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/res/Seeeduino_Lotus_v1.0_Sch.zip)
-    * [Seeeduino Lotus PDF file](https://github.com/SeeedDocument/Seeeduino_Lotus/raw/master/res/Seeeduino_Lotus_v1.0_pdf.pdf)
+    * [Seeeduino Lotus Eagle file V1.0](https://github.com/SeeedDocument/Seeeduino_Lotus/raw/master/res/Seeeduino_Lotus_v1.0_Sch.zip)
+    * [Seeeduino Lotus Eagle file V1.1](https://github.com/SeeedDocument/Seeeduino_Lotus/raw/master/res/Seeeduino_Lotus_v1.1.zip)
+    * [Seeeduino Lotus SCH PDF file V1.0](https://github.com/SeeedDocument/Seeeduino_Lotus/raw/master/res/Seeeduino_Lotus_v1.0_SCH.pdf)
+    * [Seeeduino Lotus SCH PDF file V1.1](https://github.com/SeeedDocument/Seeeduino_Lotus/raw/master/res/Seeeduino%20Lotus%20v1.1%20SCH.pdf)
+    * [Seeeduino Lotus PCB PDF file V1.0](https://github.com/SeeedDocument/Seeeduino_Lotus/raw/master/res/Seeeduino_Lotus_v1.0_PCB.pdf)
+    * [Seeeduino Lotus PCB PDF file V1.1](https://github.com/SeeedDocument/Seeeduino_Lotus/raw/master/res/Seeeduino%20Lotus%20v1.1%20PCB.pdf)
 
 * **Datasheet**
     * [ATmega328P](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/res/ATmega328.pdf)
@@ -179,6 +194,7 @@ A few seconds after the upload finishes, you should see the pin 13 (L) LED on th
     * [Arduino FAQ](https://www.arduino.cc/en/Main/FAQ)
     * [Arduino Introduction](https://www.arduino.cc/en/guide/introduction)
     * [Wikipedia page for Arduino](https://en.wikipedia.org/wiki/Arduino)
+    * [Seeeduino Lotus V1.1 USB Driver](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
 
 ## FAQ
 

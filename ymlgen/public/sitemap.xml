@@ -1,76 +1,77 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://wiki.seeed.cc/How_to_choos_A_Gas_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/how_to_choos_a_gas_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Project_Three-Analog_Input/</loc>
+    <loc>http://wiki.seeed.cc/project_three-analog_input/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/README/</loc>
+    <loc>http://wiki.seeed.cc/readme/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/0.5w_Solar_Panel_55x70/</loc>
+    <loc>http://wiki.seeed.cc/0.5w_solar_panel_55x70/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/1.5W_Solar_Panel_81x137/</loc>
+    <loc>http://wiki.seeed.cc/1.5w_solar_panel_81x137/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/125Khz_RFID_module-UART/</loc>
+    <loc>http://wiki.seeed.cc/125khz_rfid_module-uart/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/13.56Mhz_RFID_module-IOS-IEC_14443_type_a/</loc>
+    <loc>http://wiki.seeed.cc/13.56mhz_rfid_module-ios-iec_14443_type_a/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/1w_Solar_Panel_80x100/</loc>
+    <loc>http://wiki.seeed.cc/1w_solar_panel_80x100/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/2.5W_Solar_Panel_116x160/</loc>
+    <loc>http://wiki.seeed.cc/2.5w_solar_panel_116x160/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/2.8inch_TFT_Touch_Shield_v2.0/</loc>
+    <loc>http://wiki.seeed.cc/2.8inch_tft_touch_shield_v2.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/2.8inch-TFT_Touch_Shield_V1.0/</loc>
+    <loc>http://wiki.seeed.cc/2.8inch-tft_touch_shield_v1.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/2KM_Long_Range_RF_link_kits_w_encoder_and_decoder/</loc>
+    <loc>http://wiki.seeed.cc/2km_long_range_rf_link_kits_w_encoder_and_decoder/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/3.6V_Micro_hydro_generator/</loc>
+    <loc>http://wiki.seeed.cc/3.6v_micro_hydro_generator/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/315MHz_Simple_RF_Link_Kit/</loc>
+    <loc>http://wiki.seeed.cc/315mhz_simple_rf_link_kit/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/315Mhz_RF_link_kit/</loc>
+    <loc>http://wiki.seeed.cc/315mhz_rf_link_kit/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/315Mhz_Wireless_car_key_fob_with_key_chain/</loc>
+    <loc>http://wiki.seeed.cc/315mhz_wireless_car_key_fob_with_key_chain/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/315Mhz_remote_relay_switch_kits-2_channels/</loc>
+    <loc>http://wiki.seeed.cc/315mhz_remote_relay_switch_kits-2_channels/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/3W_Solar_Panel_138x160/</loc>
+    <loc>http://wiki.seeed.cc/3w_solar_panel_138x160/</loc>
   </url>
   
   <url>
@@ -78,31 +79,35 @@
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/433Mhz_RF_Link_Kit/</loc>
+    <loc>http://wiki.seeed.cc/433mhz_rf_link_kit/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/4WD_Driver_Platform_V1.0/</loc>
+    <loc>http://wiki.seeed.cc/4a_motor_shield/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/4WD_Mecanum_Wheel_Robot_Kit_Series/</loc>
+    <loc>http://wiki.seeed.cc/4wd_driver_platform_v1.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/5V-3.3V_Breadboard_Power_Supply_v1.1/</loc>
+    <loc>http://wiki.seeed.cc/4wd_mecanum_wheel_robot_kit_series/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/5V-3.3V_Breadboard_Power_Supply%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/5v-3.3v_breadboard_power_supply_v1.1/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/A_Comparison_of_Different_Grove_Temperature_Sensors/</loc>
+    <loc>http://wiki.seeed.cc/5v-3.3v_breadboard_power_supply/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/A_Handy_Serial_Library/</loc>
+    <loc>http://wiki.seeed.cc/a_comparison_of_different_grove_temperature_sensors/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/a_handy_serial_library/</loc>
   </url>
   
   <url>
@@ -111,1195 +116,1196 @@
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/AT_Command_Tester/</loc>
+    <loc>http://wiki.seeed.cc/at_command_tester/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/AT_Command_Tester_Application/</loc>
+    <loc>http://wiki.seeed.cc/at_command_tester_application/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/AVR_USB_Programmer/</loc>
+    <loc>http://wiki.seeed.cc/avr_usb_programmer/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/About/</loc>
+    <loc>http://wiki.seeed.cc/about/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Adjustable_DC_DC_Power_Converter_1V-12V-1.5A/</loc>
+    <loc>http://wiki.seeed.cc/adjustable_dc_dc_power_converter_1v-12v-1.5a/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Arch_BLE/</loc>
+    <loc>http://wiki.seeed.cc/arch_ble/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Arch_GPRS/</loc>
+    <loc>http://wiki.seeed.cc/arch_gprs/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Arch_GPRS_V2/</loc>
+    <loc>http://wiki.seeed.cc/arch_gprs_v2/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Arch_Link/</loc>
+    <loc>http://wiki.seeed.cc/arch_link/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Arch_Max_v1.1/</loc>
+    <loc>http://wiki.seeed.cc/arch_max_v1.1/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Arch_Max%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/arch_max/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Arch_Pro/</loc>
+    <loc>http://wiki.seeed.cc/arch_pro/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Arch_V1.1/</loc>
+    <loc>http://wiki.seeed.cc/arch_v1.1/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Arduino_Breakout_for_LinkIt_Smart_7688_Duo/</loc>
+    <loc>http://wiki.seeed.cc/arduino_breakout_for_linkit_smart_7688_duo/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Arduino_Common_Error/</loc>
+    <loc>http://wiki.seeed.cc/arduino_common_error/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Arduino_IDE_for_RePhone_Kit/</loc>
+    <loc>http://wiki.seeed.cc/arduino_ide_for_rephone_kit/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Arduino/</loc>
+    <loc>http://wiki.seeed.cc/arduino/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Arduino_Software_I2C_user_guide/</loc>
+    <loc>http://wiki.seeed.cc/arduino_software_i2c_user_guide/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Atom_Node/</loc>
+    <loc>http://wiki.seeed.cc/atom_node/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/BLE_dual_Bee_v1.0/</loc>
+    <loc>http://wiki.seeed.cc/ble_dual_bee_v1.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/BLE_Bee%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/ble_bee/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/BLE_Carbon/</loc>
+    <loc>http://wiki.seeed.cc/ble_carbon/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/BLE_Micro/</loc>
+    <loc>http://wiki.seeed.cc/ble_micro/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/BLE_Nitrogen/</loc>
+    <loc>http://wiki.seeed.cc/ble_nitrogen/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Base_Shield_V2/</loc>
+    <loc>http://wiki.seeed.cc/base_shield_v2/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Basic_Fastener_Kit/</loc>
+    <loc>http://wiki.seeed.cc/basic_fastener_kit/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Battery_Detector_with_Polymer_Lithium_Ion_1050mAh_3.7V/</loc>
+    <loc>http://wiki.seeed.cc/battery_detector_with_polymer_lithium_ion_1050mah_3.7v/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Battery_Detector_with_Polymer_Lithium_Ion_5100mAh_3.8V/</loc>
+    <loc>http://wiki.seeed.cc/battery_detector_with_polymer_lithium_ion_5100mah_3.8v/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Battery_kit_3.7V_520_mAh/</loc>
+    <loc>http://wiki.seeed.cc/battery_kit_3.7v_520_mah/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Beagle_Bone_Green_and_Grove_IoT_Starter_Kit_Powered_by_AWS/</loc>
+    <loc>http://wiki.seeed.cc/beagle_bone_green_and_grove_iot_starter_kit_powered_by_aws/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Beaglebone_Case/</loc>
+    <loc>http://wiki.seeed.cc/beaglebone_case/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/BeagleBone_Green/</loc>
+    <loc>http://wiki.seeed.cc/beaglebone_green/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/BeagleBone_Green_HDMI_Cape/</loc>
+    <loc>http://wiki.seeed.cc/beaglebone_green_hdmi_cape/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/BeagleBone_Green_Wireless/</loc>
+    <loc>http://wiki.seeed.cc/beaglebone_green_wireless/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/BeagleBone/</loc>
+    <loc>http://wiki.seeed.cc/beaglebone/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Bees_Shield/</loc>
+    <loc>http://wiki.seeed.cc/bees_shield/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Bicycle_Dynamo_With_Bracket-6V_3W/</loc>
+    <loc>http://wiki.seeed.cc/bicycle_dynamo_with_bracket-6v_3w/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Bluetooth_Bee%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/bluetooth_bee/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Bluetooth_Bee_v2.0/</loc>
+    <loc>http://wiki.seeed.cc/bluetooth_bee_v2.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Bluetooth_Bee_Standalone/</loc>
+    <loc>http://wiki.seeed.cc/bluetooth_bee_standalone/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Bluetooth_Multimeter/</loc>
+    <loc>http://wiki.seeed.cc/bluetooth_multimeter/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Bluetooth_Shield_V2/</loc>
+    <loc>http://wiki.seeed.cc/bluetooth_shield_v2/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Bluetooth_Shield%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/bluetooth_shield/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Bluetooth_V4.0_HM_11_BLE_Module/</loc>
+    <loc>http://wiki.seeed.cc/bluetooth_v4.0_hm_11_ble_module/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Bracket_for_Infrared_Proximity_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/bracket_for_infrared_proximity_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Breakout_for_LinkIt_Smart_7688/</loc>
+    <loc>http://wiki.seeed.cc/breakout_for_linkit_smart_7688/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Breakout_for_LinkIt_Smart_7688_v2.0/</loc>
+    <loc>http://wiki.seeed.cc/breakout_for_linkit_smart_7688_v2.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Bugduino/</loc>
+    <loc>http://wiki.seeed.cc/bugduino/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Bus_Pirate_v3_assembled/</loc>
+    <loc>http://wiki.seeed.cc/bus_pirate_v3_assembled/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/CAN-BUS_Shield_V1.2/</loc>
+    <loc>http://wiki.seeed.cc/can-bus_shield_v1.2/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/CUI32Stem/</loc>
+    <loc>http://wiki.seeed.cc/can-bus_shield_v2.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Camera_Shield/</loc>
+    <loc>http://wiki.seeed.cc/cui32stem/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Capacitance_Meter_Kit/</loc>
+    <loc>http://wiki.seeed.cc/camera_shield/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Codec-Adaptive_Wireless_Relay/</loc>
+    <loc>http://wiki.seeed.cc/capacitance_meter_kit/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/DC_framework_miniature_solenoid_VL-0063/</loc>
+    <loc>http://wiki.seeed.cc/categories/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/DC_framework_solenoid_HCNE1-0520/</loc>
+    <loc>http://wiki.seeed.cc/codec-adaptive_wireless_relay/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/DC_framework_solenoid_HCNE1-0630/</loc>
+    <loc>http://wiki.seeed.cc/dc_framework_miniature_solenoid_vl-0063/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/DSO_Nano/</loc>
+    <loc>http://wiki.seeed.cc/dc_framework_solenoid_hcne1-0520/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/DSO_Nano_v3/</loc>
+    <loc>http://wiki.seeed.cc/dc_framework_solenoid_hcne1-0630/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/DSO_Nano-Development/</loc>
+    <loc>http://wiki.seeed.cc/dso_nano/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/DSO_Nano-OpenOCD_gdb/</loc>
+    <loc>http://wiki.seeed.cc/dso_nano_v3/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/DSO_Nano-Qemu_gdb/</loc>
+    <loc>http://wiki.seeed.cc/dso_nano-development/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/DSO_Nano-gcc/</loc>
+    <loc>http://wiki.seeed.cc/dso_nano-openocd_gdb/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/DSO_Quad/</loc>
+    <loc>http://wiki.seeed.cc/dso_nano-qemu_gdb/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/DSO_Quad_Manual_by_the_community/</loc>
+    <loc>http://wiki.seeed.cc/dso_nano-gcc/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/DSO_Quad-Beta_HW/</loc>
+    <loc>http://wiki.seeed.cc/dso_quad/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/DSO_Quad-Building_Firmware/</loc>
+    <loc>http://wiki.seeed.cc/dso_quad_manual_by_the_community/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/DSO_Quad-Calibration/</loc>
+    <loc>http://wiki.seeed.cc/dso_quad-beta_hw/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Danger_Shield_Complete_Kits/</loc>
+    <loc>http://wiki.seeed.cc/dso_quad-building_firmware/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Dfu-util/</loc>
+    <loc>http://wiki.seeed.cc/dso_quad-calibration/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Discontinued/</loc>
+    <loc>http://wiki.seeed.cc/danger_shield_complete_kits/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Download_Arduino_and_install_Arduino_driver/</loc>
+    <loc>http://wiki.seeed.cc/dfu-util/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/EL_Shield/</loc>
+    <loc>http://wiki.seeed.cc/discontinued/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/ESP32_Breakout_Kit/</loc>
+    <loc>http://wiki.seeed.cc/download_arduino_and_install_arduino_driver/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Eclipse_IDE_for_RePhone_Kit/</loc>
+    <loc>http://wiki.seeed.cc/el_shield/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Edison_4WD_Auto_Robotic_Platform_2.0%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/esp32_breakout_kit/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Edison_4WD_Auto_Robotic_Platform%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/eclipse_ide_for_rephone_kit/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Energy_Monitor_Shield_V0.9b%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/edison_4wd_auto_robotic_platform_2.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Energy_Shield/</loc>
+    <loc>http://wiki.seeed.cc/edison_4wd_auto_robotic_platform/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Essentials/</loc>
+    <loc>http://wiki.seeed.cc/energy_monitor_shield_v0.9b/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Ethernet_Shield_V1.0%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/energy_shield/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Ethernet_Shield_V2.0%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/essentials/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Ethernet_Shield%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/ethernet_shield_v1.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/FM_Receiver/</loc>
+    <loc>http://wiki.seeed.cc/ethernet_shield_v2.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/FSM-55/</loc>
+    <loc>http://wiki.seeed.cc/ethernet_shield/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/FST-01/</loc>
+    <loc>http://wiki.seeed.cc/fm_receiver/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Fubarino_SD/</loc>
+    <loc>http://wiki.seeed.cc/fsm-55/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/G1_Water_Flow_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/fst-01/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/G1_and_2_inch_Water_Flow_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/fubarino_sd/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/G1-1-4_Water_Flow_sensor/</loc>
+    <loc>http://wiki.seeed.cc/g1_water_flow_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/G1_4_Water_Flow_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/g1_and_2_inch_water_flow_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/G1-8_Water_Flow_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/g1-1-4_water_flow_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/G3-4_Water_Flow_sensor/</loc>
+    <loc>http://wiki.seeed.cc/g1-8_water_flow_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/GPRS_Shield_v1.0/</loc>
+    <loc>http://wiki.seeed.cc/g3-4_water_flow_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/GPRS_Shield_V2.0/</loc>
+    <loc>http://wiki.seeed.cc/gprs_shield_v1.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/GPRS_Shield_V3.0/</loc>
+    <loc>http://wiki.seeed.cc/gprs_shield_v2.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/GPRS-Shield%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/gprs_shield_v3.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/GPS_Bee_kit/</loc>
+    <loc>http://wiki.seeed.cc/gprs-shield/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Galileo_Case/</loc>
+    <loc>http://wiki.seeed.cc/gps_bee_kit/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Getting_Started_with_Seeeduino/</loc>
+    <loc>http://wiki.seeed.cc/galileo_case/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-125KHz_RFID_Reader/</loc>
+    <loc>http://wiki.seeed.cc/getting_started_with_seeeduino/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-2-Coil_Latching_Relay/</loc>
+    <loc>http://wiki.seeed.cc/grove-125khz_rfid_reader/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-3-Axis_Digital_Accelerometer-16g/</loc>
+    <loc>http://wiki.seeed.cc/grove-2-coil_latching_relay/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-3-Axis_Analog_Accelerometer/</loc>
+    <loc>http://wiki.seeed.cc/grove-3-axis_digital_accelerometer-16g/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-3-Axis_Compass_V1.0/</loc>
+    <loc>http://wiki.seeed.cc/grove-3-axis_analog_accelerometer/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-3-Axis_Digital_Accelerometer-1.5g/</loc>
+    <loc>http://wiki.seeed.cc/grove-3-axis_compass_v1.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-3-Axis_Digital_Accelerometer-400g/</loc>
+    <loc>http://wiki.seeed.cc/grove-3-axis_digital_accelerometer-1.5g/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-3-Axis_Digital_Gyro/</loc>
+    <loc>http://wiki.seeed.cc/grove-3-axis_digital_accelerometer-400g/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-315MHz_RF_Kit/</loc>
+    <loc>http://wiki.seeed.cc/grove-3-axis_digital_gyro/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-4-Digit_Display/</loc>
+    <loc>http://wiki.seeed.cc/grove-315mhz_rf_kit/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-433MHz_Simple_RF_Link_Kit/</loc>
+    <loc>http://wiki.seeed.cc/grove-4-digit_display/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-6-Axis_AccelerometerAndCompass_V2.0/</loc>
+    <loc>http://wiki.seeed.cc/grove-433mhz_simple_rf_link_kit/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-6-Axis_AccelerometerAndGyroscope/</loc>
+    <loc>http://wiki.seeed.cc/grove-6-axis_accelerometerandcompass_v2.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-80cm_Infrared_Proximity_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-6-axis_accelerometerandgyroscope/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-AND/</loc>
+    <loc>http://wiki.seeed.cc/grove-80cm_infrared_proximity_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Actuator/</loc>
+    <loc>http://wiki.seeed.cc/grove-and/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Air_Quality_Sensor_v1.3/</loc>
+    <loc>http://wiki.seeed.cc/actuator/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Alcohol_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-air_quality_sensor_v1.3/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-BLE-dual_model-v1.0/</loc>
+    <loc>http://wiki.seeed.cc/grove-alcohol_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Barometer-High-Accuracy/</loc>
+    <loc>http://wiki.seeed.cc/grove-ble-dual_model-v1.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Barometer_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-barometer-high-accuracy/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Barometer_Sensor-BMP180/</loc>
+    <loc>http://wiki.seeed.cc/grove-barometer_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Barometer_Sensor-BMP280/</loc>
+    <loc>http://wiki.seeed.cc/grove-barometer_sensor-bmp180/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Barometer_Sensor-BME280/</loc>
+    <loc>http://wiki.seeed.cc/grove-barometer_sensor-bmp280/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Base_Shield_for_IOIO-OTG/</loc>
+    <loc>http://wiki.seeed.cc/grove-barometer_sensor-bme280/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Bee_Socket/</loc>
+    <loc>http://wiki.seeed.cc/grove-base_shield_for_ioio-otg/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Button/</loc>
+    <loc>http://wiki.seeed.cc/grove-bee_socket/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Buzzer/</loc>
+    <loc>http://wiki.seeed.cc/grove-button/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-CO2_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-buzzer/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Chainable_RGB_LED/</loc>
+    <loc>http://wiki.seeed.cc/grove-co2_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Chest_Strap_Heart_Rate_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-chainable_rgb_led/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Circular_LED/</loc>
+    <loc>http://wiki.seeed.cc/grove-chest_strap_heart_rate_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Collision_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-circular_led/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Communication/</loc>
+    <loc>http://wiki.seeed.cc/grove-collision_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-DC_Jack_Power/</loc>
+    <loc>http://wiki.seeed.cc/communication/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-DMX512/</loc>
+    <loc>http://wiki.seeed.cc/grove-dc_jack_power/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Differential_Amplifier_v1.0/</loc>
+    <loc>http://wiki.seeed.cc/grove-dmx512/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Differential_Amplifier_v1.2/</loc>
+    <loc>http://wiki.seeed.cc/grove-differential_amplifier_v1.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Digital_Infrared_Temperature_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-differential_amplifier_v1.2/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Digital_Light_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-digital_infrared_temperature_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Display/</loc>
+    <loc>http://wiki.seeed.cc/grove-digital_light_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Dry-Reed_Relay/</loc>
+    <loc>http://wiki.seeed.cc/display/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Dust_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-dry-reed_relay/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-EL_Driver/</loc>
+    <loc>http://wiki.seeed.cc/grove-dust_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-EMG_Detector/</loc>
+    <loc>http://wiki.seeed.cc/grove-el_driver/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Ear-clip_Heart_Rate_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-emg_detector/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Electricity_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-ear-clip_heart_rate_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Electromagnet/</loc>
+    <loc>http://wiki.seeed.cc/grove-electricity_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Encoder/</loc>
+    <loc>http://wiki.seeed.cc/grove-electromagnet/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-FM_Receiver/</loc>
+    <loc>http://wiki.seeed.cc/grove-fm_receiver/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Finger-clip_Heart_Rate_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-finger-clip_heart_rate_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Finger-clip_Heart_Rate_Sensor_with_shell/</loc>
+    <loc>http://wiki.seeed.cc/grove-finger-clip_heart_rate_sensor_with_shell/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Fingerprint_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-fingerprint_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Flame_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-flame_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-GPS/</loc>
+    <loc>http://wiki.seeed.cc/grove-gps/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-GSR_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-gsr_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Gas_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-gas_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Gas_Sensor-MQ2/</loc>
+    <loc>http://wiki.seeed.cc/grove-gas_sensor-mq2/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Gas_Sensor-MQ3/</loc>
+    <loc>http://wiki.seeed.cc/grove-gas_sensor-mq3/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Gas_Sensor-MQ5/</loc>
+    <loc>http://wiki.seeed.cc/grove-gas_sensor-mq5/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Gas_Sensor-MQ9/</loc>
+    <loc>http://wiki.seeed.cc/grove-gas_sensor-mq9/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Gas_Sensor-O2/</loc>
+    <loc>http://wiki.seeed.cc/grove-gas_sensor-o2/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Gesture_v1.0/</loc>
+    <loc>http://wiki.seeed.cc/grove-gesture_v1.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-HCHO_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-hcho_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Hall_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-hall_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Haptic_Motor/</loc>
+    <loc>http://wiki.seeed.cc/grove-haptic_motor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Heelight_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-heelight_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove_High_Precision_RTC/</loc>
+    <loc>http://wiki.seeed.cc/grove_high_precision_rtc/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-High_Temperature_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-high_temperature_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-I2C_ADC/</loc>
+    <loc>http://wiki.seeed.cc/grove-i2c_adc/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-I2C_Color_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-i2c_color_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-I2C_FM_Receiver/</loc>
+    <loc>http://wiki.seeed.cc/grove-i2c_fm_receiver/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-I2C_Hub/</loc>
+    <loc>http://wiki.seeed.cc/grove-i2c_hub/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-I2C_Motor_Driver/</loc>
+    <loc>http://wiki.seeed.cc/grove-i2c_motor_driver/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-I2C_Motor_Driver_V1.2/</loc>
+    <loc>http://wiki.seeed.cc/grove-i2c_motor_driver_v1.2/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-I2C_Motor_Driver_V1.3/</loc>
+    <loc>http://wiki.seeed.cc/grove-i2c_motor_driver_v1.3/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-I2C_Touch_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-i2c_touch_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-IMU_10DOF/</loc>
+    <loc>http://wiki.seeed.cc/grove-imu_10dof/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-IMU_10DOF_v2.0/</loc>
+    <loc>http://wiki.seeed.cc/grove-imu_10dof_v2.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-IMU_9DOF_v2.0/</loc>
+    <loc>http://wiki.seeed.cc/grove-imu_9dof_v2.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-IR_Distance_Interrupter_v1.2/</loc>
+    <loc>http://wiki.seeed.cc/grove-ir_distance_interrupter_v1.2/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Infrared_Emitter/</loc>
+    <loc>http://wiki.seeed.cc/grove-infrared_emitter/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Infrared_Receiver/</loc>
+    <loc>http://wiki.seeed.cc/grove-infrared_receiver/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Infrared_Reflective_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-infrared_reflective_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Infrared_Temperature_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-infrared_temperature_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Joint_v2.0/</loc>
+    <loc>http://wiki.seeed.cc/grove-joint_v2.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-LCD_RGB_Backlight/</loc>
+    <loc>http://wiki.seeed.cc/grove-lcd_rgb_backlight/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-LED_Bar/</loc>
+    <loc>http://wiki.seeed.cc/grove-led_bar/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-LED_Matrix_Driver_v1.0/</loc>
+    <loc>http://wiki.seeed.cc/grove-led_matrix_driver_v1.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-LED_Socket_Kit/</loc>
+    <loc>http://wiki.seeed.cc/grove-led_socket_kit/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-LED_String_Light/</loc>
+    <loc>http://wiki.seeed.cc/grove-led_string_light/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-LED_Strip_Driver/</loc>
+    <loc>http://wiki.seeed.cc/grove-led_strip_driver/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Light_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-light_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Line_Finder/</loc>
+    <loc>http://wiki.seeed.cc/grove-line_finder/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove_LoRa_Radio/</loc>
+    <loc>http://wiki.seeed.cc/grove_lora_radio/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Loudness_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-loudness_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Luminance_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-luminance_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-MOSFET/</loc>
+    <loc>http://wiki.seeed.cc/grove-mosfet/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-MP3_v2.0/</loc>
+    <loc>http://wiki.seeed.cc/grove-mp3_v2.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Magnetic_Switch/</loc>
+    <loc>http://wiki.seeed.cc/grove-magnetic_switch/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Mega_Shield/</loc>
+    <loc>http://wiki.seeed.cc/grove-mega_shield/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Mini_Camera/</loc>
+    <loc>http://wiki.seeed.cc/grove-mini_camera/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Mini_Fan/</loc>
+    <loc>http://wiki.seeed.cc/grove-mini_fan/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Mini_I2C_Motor_Driver_v1.0/</loc>
+    <loc>http://wiki.seeed.cc/grove-mini_i2c_motor_driver_v1.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Mini_Track_Ball/</loc>
+    <loc>http://wiki.seeed.cc/grove-mini_track_ball/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Mixer_Pack_V2/</loc>
+    <loc>http://wiki.seeed.cc/grove-mixer_pack_v2/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Moisture_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-moisture_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Mouse_Encoder/</loc>
+    <loc>http://wiki.seeed.cc/grove-mouse_encoder/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Multichannel_Gas_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-multichannel_gas_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-NFC/</loc>
+    <loc>http://wiki.seeed.cc/grove-nfc/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-NFC_Tag/</loc>
+    <loc>http://wiki.seeed.cc/grove-nfc_tag/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-NOT/</loc>
+    <loc>http://wiki.seeed.cc/grove-not/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Node/</loc>
+    <loc>http://wiki.seeed.cc/grove-node/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-NunChuck/</loc>
+    <loc>http://wiki.seeed.cc/grove-nunchuck/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-OLED_Display_0.96inch/</loc>
+    <loc>http://wiki.seeed.cc/grove-oled_display_0.96inch/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-OLED_Display_1.12inch/</loc>
+    <loc>http://wiki.seeed.cc/grove-oled_display_1.12inch/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-OR/</loc>
+    <loc>http://wiki.seeed.cc/grove-or/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-PH_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-ph_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-PIR_Motion_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-pir_motion_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-PS_2_Adapter/</loc>
+    <loc>http://wiki.seeed.cc/grove-ps_2_adapter/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Piezo_Vibration_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-piezo_vibration_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Protoshield/</loc>
+    <loc>http://wiki.seeed.cc/grove-protoshield/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Q_Touch_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-q_touch_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-RJ45_Adapter/</loc>
+    <loc>http://wiki.seeed.cc/grove-rj45_adapter/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-RTC/</loc>
+    <loc>http://wiki.seeed.cc/grove-rtc/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove_Recorder/</loc>
+    <loc>http://wiki.seeed.cc/grove_recorder/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Recorder_v3.0/</loc>
+    <loc>http://wiki.seeed.cc/grove-recorder_v3.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Recorder_v2.0/</loc>
+    <loc>http://wiki.seeed.cc/grove-recorder_v2.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Red_LED/</loc>
+    <loc>http://wiki.seeed.cc/grove-red_led/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Relay/</loc>
+    <loc>http://wiki.seeed.cc/grove-relay/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Rotary_Angle_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-rotary_angle_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-SPDT_Relay_30A/</loc>
+    <loc>http://wiki.seeed.cc/grove-spdt_relay_30a/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Screw_Terminal/</loc>
+    <loc>http://wiki.seeed.cc/grove-screw_terminal/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Serial_Bluetooth_v3.0/</loc>
+    <loc>http://wiki.seeed.cc/grove-serial_bluetooth_v3.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Serial_Camera/</loc>
+    <loc>http://wiki.seeed.cc/grove-serial_camera/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Serial_Camera_Kit/</loc>
+    <loc>http://wiki.seeed.cc/grove-serial_camera_kit/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Serial_MP3_Player/</loc>
+    <loc>http://wiki.seeed.cc/grove-serial_mp3_player/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Serial_RF_Pro/</loc>
+    <loc>http://wiki.seeed.cc/grove-serial_rf_pro/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Servo/</loc>
+    <loc>http://wiki.seeed.cc/grove-servo/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Slide_Potentiometer/</loc>
+    <loc>http://wiki.seeed.cc/grove-slide_potentiometer/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Solid_State_Relay/</loc>
+    <loc>http://wiki.seeed.cc/grove-solid_state_relay/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Sound_Recorder/</loc>
+    <loc>http://wiki.seeed.cc/grove-sound_recorder/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Sound_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-sound_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Speaker/</loc>
+    <loc>http://wiki.seeed.cc/grove-speaker/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Speech_Recognizer/</loc>
+    <loc>http://wiki.seeed.cc/grove-speech_recognizer/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove_Starter_Kit_Plus/</loc>
+    <loc>http://wiki.seeed.cc/grove_starter_kit_plus/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Starter_Kit_for_LinkIt_ONE/</loc>
+    <loc>http://wiki.seeed.cc/grove-starter_kit_for_linkit_one/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Starter_Kit_for_mbed/</loc>
+    <loc>http://wiki.seeed.cc/grove-starter_kit_for_mbed/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove_Starter_Kit_v3/</loc>
+    <loc>http://wiki.seeed.cc/grove_starter_kit_v3/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Sunlight_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-sunlight_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Switch-P/</loc>
+    <loc>http://wiki.seeed.cc/grove-switch-p/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-TempAndHumi_Sensor-SHT31/</loc>
+    <loc>http://wiki.seeed.cc/grove-tempandhumi_sensor-sht31/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Temperature_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-temperature_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Temperature_Sensor_V1.2/</loc>
+    <loc>http://wiki.seeed.cc/grove-temperature_sensor_v1.2/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Temperature_and_Humidity_Sensor_Pro/</loc>
+    <loc>http://wiki.seeed.cc/grove-temperature_and_humidity_sensor_pro/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-TemperatureAndHumidity_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-temperatureandhumidity_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-TemperatureAndHumidity_Sensor-HDC1000/</loc>
+    <loc>http://wiki.seeed.cc/grove-temperatureandhumidity_sensor-hdc1000/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-TemptureAndHumidity_Sensor-High-Accuracy_AndMini-v1.0/</loc>
+    <loc>http://wiki.seeed.cc/grove-temptureandhumidity_sensor-high-accuracy_andmini-v1.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Thumb_Joystick/</loc>
+    <loc>http://wiki.seeed.cc/grove-thumb_joystick/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Tilt_Switch/</loc>
+    <loc>http://wiki.seeed.cc/grove-tilt_switch/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Touch_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-touch_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Toy_Kit/</loc>
+    <loc>http://wiki.seeed.cc/grove-toy_kit/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-UART_Wifi/</loc>
+    <loc>http://wiki.seeed.cc/grove-uart_wifi/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-UV_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-uv_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Ultrasonic_Ranger/</loc>
+    <loc>http://wiki.seeed.cc/grove-ultrasonic_ranger/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Variable_Color_LED/</loc>
+    <loc>http://wiki.seeed.cc/grove-variable_color_led/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Vibration_Motor/</loc>
+    <loc>http://wiki.seeed.cc/grove-vibration_motor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Voltage_Divider/</loc>
+    <loc>http://wiki.seeed.cc/grove-voltage_divider/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Water_Atomization/</loc>
+    <loc>http://wiki.seeed.cc/grove-water_atomization/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Water_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/grove-water_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Wrapper/</loc>
+    <loc>http://wiki.seeed.cc/grove-wrapper/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-XBee_Carrier/</loc>
+    <loc>http://wiki.seeed.cc/grove-xbee_carrier/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-BLE_v1/</loc>
+    <loc>http://wiki.seeed.cc/grove-ble_v1/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove_Base_BoosterPack/</loc>
+    <loc>http://wiki.seeed.cc/grove_base_boosterpack/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove_Base_Cape_for_BeagleBone_v2/</loc>
+    <loc>http://wiki.seeed.cc/grove_base_cape_for_beaglebone_v2/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove_Base_Shield_for_NodeMCU_V1.0/</loc>
+    <loc>http://wiki.seeed.cc/grove_base_shield_for_nodemcu_v1.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove_Base_Shield_for_Photon/</loc>
+    <loc>http://wiki.seeed.cc/grove_base_shield_for_photon/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-BlinkM%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/grove-blinkm/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove_Breakout_for_LinkIt_Smart_7688_Duo/</loc>
+    <loc>http://wiki.seeed.cc/grove_breakout_for_linkit_smart_7688_duo/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove_Cape_for_BeagleBone_Series/</loc>
+    <loc>http://wiki.seeed.cc/grove_cape_for_beaglebone_series/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove_Indoor_Environment_Kit_for_Edison/</loc>
+    <loc>http://wiki.seeed.cc/grove_indoor_environment_kit_for_edison/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove/</loc>
+    <loc>http://wiki.seeed.cc/grove/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/</loc>
+    <loc>http://wiki.seeed.cc/grove_iot_developer_kit-microsoft_azure_edition/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove_IoT_Starter_Kits_Powered_by_AWS/</loc>
+    <loc>http://wiki.seeed.cc/grove_iot_starter_kits_powered_by_aws/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove%20Maker%20Kit%20for%20Intel%20Joule/</loc>
+    <loc>http://wiki.seeed.cc/grove-maker-kit-for-intel-joule/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove_Maker_Kit_for_Intel_Joule/</loc>
+    <loc>http://wiki.seeed.cc/grove_maker_kit_for_intel_joule/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Serial_Bluetooth%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/grove-serial_bluetooth/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Serial_LCD_V1.0%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/grove-serial_lcd_v1.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove_Shield_for_Intel_Joule/</loc>
+    <loc>http://wiki.seeed.cc/grove_shield_for_intel_joule/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove_Smart_Plant_Care_Kit/</loc>
+    <loc>http://wiki.seeed.cc/grove_smart_plant_care_kit/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove_Speech_Recognizer_Kit_for_Arduino/</loc>
+    <loc>http://wiki.seeed.cc/grove_speech_recognizer_kit_for_arduino/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove_Starter_Kit_for_BeagleBone_Green/</loc>
+    <loc>http://wiki.seeed.cc/grove_starter_kit_for_beaglebone_green/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove_Starter_Kit_for_IoT_based_on_Raspberry_Pi/</loc>
+    <loc>http://wiki.seeed.cc/grove_starter_kit_for_iot_based_on_raspberry_pi/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove_Starter_kit_for_Arduino_101/</loc>
+    <loc>http://wiki.seeed.cc/grove_starter_kit_for_arduino_101/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove_Starter_kit_for_LinkIt_Smart7688_Duo/</loc>
+    <loc>http://wiki.seeed.cc/grove_starter_kit_for_linkit_smart7688_duo/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove_System/</loc>
+    <loc>http://wiki.seeed.cc/grove_system/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Grove-Single_Axis_Analog_Gyro%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/grove-single_axis_analog_gyro/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/GrovePi_Plus/</loc>
+    <loc>http://wiki.seeed.cc/grovepi_plus/</loc>
   </url>
   
   <url>
@@ -1508,15 +1514,15 @@
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Guide_to_use_demos_downloaded_from_Seeed-s_Github/</loc>
+    <loc>http://wiki.seeed.cc/guide_to_use_demos_downloaded_from_seeed-s_github/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Heart-Sound_Sensor%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/heart-sound_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Hercules_Dual_15A_6-20V_Motor_Controller/</loc>
+    <loc>http://wiki.seeed.cc/hercules_dual_15a_6-20v_motor_controller/</loc>
   </url>
   
   <url>
@@ -1524,63 +1530,68 @@
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/How_To_Choose_The_Right_Cable/</loc>
+    <loc>http://wiki.seeed.cc/how_to_choose_the_right_cable/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/How_To_Use_Sketchbook/</loc>
+    <loc>http://wiki.seeed.cc/how_to_use_sketchbook/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Seeed_Arduino_Boards/</loc>
+    <loc>http://wiki.seeed.cc/seeed_arduino_boards/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/How_to_Chose_A_Gas_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/how_to_chose_a_gas_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/How_to_detect_finger_touch/</loc>
+    <loc>http://wiki.seeed.cc/how_to_detect_finger_touch/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/How_To_Edit_A_Document/</loc>
+    <loc>http://wiki.seeed.cc/how_to_edit_a_document/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/How_to_install_Arduino_Library/</loc>
+    <loc>http://wiki.seeed.cc/how_to_install_arduino_library/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/How_to_use_and_write_a_library/</loc>
+    <loc>http://wiki.seeed.cc/how_to_use_and_write_a_library/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/I2C_And_I2C_Address_of_Seeed_Product/</loc>
+    <loc>http://wiki.seeed.cc/i2c_and_i2c_address_of_seeed_product/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/I2C_LCD/</loc>
+    <loc>http://wiki.seeed.cc/i2c_lcd/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/IR_Remote/</loc>
+    <loc>http://wiki.seeed.cc/ir_remote/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Intel_Edison_and_Grove_IoT_Starter_Kit_Powered_by_AWS/</loc>
+    <loc>http://wiki.seeed.cc/intel_edison_and_grove_iot_starter_kit_powered_by_aws/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/IoT_Fast_Prototyping_Kit%20S5D9_User_Manual/</loc>
+    <loc>http://wiki.seeed.cc/iot_fast_prototyping_kit-s5d9/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/IoT/</loc>
+    <loc>http://wiki.seeed.cc/iot/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/tags/io_3v-io_5v-plat_duino-plat_pi/</loc>
+    <loc>http://wiki.seeed.cc/tags/io_3v3-io_5v-plat_duino/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/tags/io_3v3-io_5v-plat_duino-plat_linkit-plat_bbg-plat_piplat_wio/</loc>
     <priority>0</priority>
   </url>
   
@@ -1595,225 +1606,229 @@
   </url>
   
   <url>
+    <loc>http://wiki.seeed.cc/tags/io_3v3-io_5v-plat_duino-plat_wio-plat_pi-plat_bbg-plat_linkit/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://wiki.seeed.cc/tags/io_5v-plat_duino/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/tags/io_5v-plat_duino-plat_linkit-plat_bbg-plat_piplat_wio/</loc>
-    <priority>0</priority>
+    <loc>http://wiki.seeed.cc/javascript_for_rephone/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/JavaScript_for_RePhone/</loc>
+    <loc>http://wiki.seeed.cc/joystick_control_rgb_led/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Joystick_Control_RGB_Led/</loc>
+    <loc>http://wiki.seeed.cc/lcd_16-2_characters-green_yellow_back_light/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/LCD_16-2_Characters-Green_Yellow_back_light/</loc>
+    <loc>http://wiki.seeed.cc/lcd_8-2_characters-blue_back_light/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/LCD_8-2_Characters-Blue_back_light/</loc>
+    <loc>http://wiki.seeed.cc/license/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/License/</loc>
+    <loc>http://wiki.seeed.cc/light_sensor_and_led_bar/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Light_Sensor_and_LED_Bar/</loc>
+    <loc>http://wiki.seeed.cc/lightview_201k_digital_display_module/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/LightView_201k_Digital_display_module/</loc>
+    <loc>http://wiki.seeed.cc/linkit_one_and_grove_iot_starter_kit_powered_by_aws/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/LinkIT_One_and_Grove_IoT_Starter_Kit_Powered_by_AWS/</loc>
+    <loc>http://wiki.seeed.cc/linkit/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/LinkIt/</loc>
+    <loc>http://wiki.seeed.cc/linkit_one/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/LinkIt_ONE/</loc>
+    <loc>http://wiki.seeed.cc/linkit_one_tutorial-analog_interface/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/LinkIt_ONE_Tutorial-Analog_Interface/</loc>
+    <loc>http://wiki.seeed.cc/linkit_one_tutorial-colorful_world/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/LinkIt_ONE_Tutorial-Colorful_World/</loc>
+    <loc>http://wiki.seeed.cc/linkit_one_tutorial-get_temperature_with_webpage/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/LinkIt_ONE_Tutorial-Get_temperature_with_Webpage/</loc>
+    <loc>http://wiki.seeed.cc/linkit_one_tutorial-hello_world/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/LinkIt_ONE_Tutorial-Hello_World/</loc>
+    <loc>http://wiki.seeed.cc/linkit_one_tutorial-light-sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/LinkIt_ONE_Tutorial-Light-Sensor/</loc>
+    <loc>http://wiki.seeed.cc/linkit_one_tutorial-marquee/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/LinkIt_ONE_Tutorial-Marquee/</loc>
+    <loc>http://wiki.seeed.cc/linkit-one-tutorial---mini-servo/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/LinkIt-ONE-Tutorial---Mini-Servo/</loc>
+    <loc>http://wiki.seeed.cc/linkit_one_tutorial-push_button/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/LinkIt_ONE_Tutorial-Push_Button/</loc>
+    <loc>http://wiki.seeed.cc/linkit_one_tutorial-sms_control_the_led/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/LinkIt_ONE_Tutorial-SMS_control_the_LED/</loc>
+    <loc>http://wiki.seeed.cc/linkit_one_tutorial-the_basics/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/LinkIt_ONE_Tutorial-The_Basics/</loc>
+    <loc>http://wiki.seeed.cc/linkit_smart_7688/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/LinkIt_Smart_7688/</loc>
+    <loc>http://wiki.seeed.cc/linkit_smart_7688_duo/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/LinkIt_Smart_7688_Duo/</loc>
+    <loc>http://wiki.seeed.cc/linkit_connect_7681/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Linkit_Connect_7681/</loc>
+    <loc>http://wiki.seeed.cc/lipo_rider/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Lipo_Rider/</loc>
+    <loc>http://wiki.seeed.cc/lipo_rider_pro/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Lipo_Rider_Pro/</loc>
+    <loc>http://wiki.seeed.cc/lipo_rider_v1.1/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Lipo_Rider_V1.1/</loc>
+    <loc>http://wiki.seeed.cc/lipo_rider_v1.3/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Lipo_Rider_V1.3/</loc>
+    <loc>http://wiki.seeed.cc/lonet_808-mini_gsm_gprs_plus_gps_breakout/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/LoNet_808-Mini_GSM_GPRS_Plus_GPS_Breakout/</loc>
+    <loc>http://wiki.seeed.cc/lora_lorawan_gateway_kit/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/LoRa_LoRaWan_Gateway_Kit/</loc>
+    <loc>http://wiki.seeed.cc/logic_dc_jack/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Logic_DC_Jack%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/lua_for_rephone/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Lua_for_RePhone/</loc>
+    <loc>http://wiki.seeed.cc/m11_1.25_water_flow_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/MakerPro/</loc>
+    <loc>http://wiki.seeed.cc/makerpro/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Matrix_Clock/</loc>
+    <loc>http://wiki.seeed.cc/matrix_clock/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/mbed_Shield/</loc>
+    <loc>http://wiki.seeed.cc/mbed_shield/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Mesh_Bee/</loc>
+    <loc>http://wiki.seeed.cc/mesh_bee/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Mini_GSM_GPRS_GPS_Breakout_SIM808/</loc>
+    <loc>http://wiki.seeed.cc/mini_gsm_gprs_gps_breakout_sim808/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Mini_Soldering_Iron/</loc>
+    <loc>http://wiki.seeed.cc/mini_soldering_iron/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Motor_Bridge_Cape_v1.0/</loc>
+    <loc>http://wiki.seeed.cc/motor_bridge_cape_v1.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Motor_Shield_V1.0/</loc>
+    <loc>http://wiki.seeed.cc/motor_shield_v1.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Motor_Shield_V2.0/</loc>
+    <loc>http://wiki.seeed.cc/motor_shield_v2.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Motor_Shield%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/motor_shield/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Music_Shield/</loc>
+    <loc>http://wiki.seeed.cc/music_shield/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Music_Shield_V1.0%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/music_shield_v1.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Music_Shield_V2.2/</loc>
+    <loc>http://wiki.seeed.cc/music_shield_v2.2/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/NFC_Shield_V1.0/</loc>
+    <loc>http://wiki.seeed.cc/nfc_shield_v1.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/NFC_Shield_V2.0/</loc>
+    <loc>http://wiki.seeed.cc/nfc_shield_v2.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/NFC_Shield%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/nfc_shield/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Nose_LED_Kit/</loc>
+    <loc>http://wiki.seeed.cc/nose_led_kit/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Others/</loc>
+    <loc>http://wiki.seeed.cc/others/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/PIR_Motion_sensor_module/</loc>
+    <loc>http://wiki.seeed.cc/pir_motion_sensor_module/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Photo_Reflective_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/photo_reflective_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Photo_interrupter_OS25B10/</loc>
+    <loc>http://wiki.seeed.cc/photo_interrupter_os25b10/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Piezo_Sensor-MiniSense_100/</loc>
+    <loc>http://wiki.seeed.cc/piezo_sensor-minisense_100/</loc>
   </url>
   
   <url>
@@ -1847,451 +1862,459 @@
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Platform/</loc>
+    <loc>http://wiki.seeed.cc/platform/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Project_Eight-Thermostat/</loc>
+    <loc>http://wiki.seeed.cc/project_eight-thermostat/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Project_Five-Relay_Control/</loc>
+    <loc>http://wiki.seeed.cc/project_five-relay_control/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Project_Four-Noise_Maker/</loc>
+    <loc>http://wiki.seeed.cc/project_four-noise_maker/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Project_One-Blink/</loc>
+    <loc>http://wiki.seeed.cc/project_one-blink/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Project_One-Double_Blink/</loc>
+    <loc>http://wiki.seeed.cc/project_one-double_blink/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Project_Seven-Temperature/</loc>
+    <loc>http://wiki.seeed.cc/project_seven-temperature/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Project_Six-LCD_Demonstration/</loc>
+    <loc>http://wiki.seeed.cc/project_six-lcd_demonstration/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Project_Three-Analog_Input_v1b/</loc>
+    <loc>http://wiki.seeed.cc/project_three-analog_input_v1b/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Project_Two-Digital_Input_v1.0b/</loc>
+    <loc>http://wiki.seeed.cc/project_two-digital_input_v1.0b/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Project_Two-Digital_Input/</loc>
+    <loc>http://wiki.seeed.cc/project_two-digital_input/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Protoshield_Kit_for_Arduino/</loc>
+    <loc>http://wiki.seeed.cc/protoshield_kit_for_arduino/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Qi_Wireless_Charger_Transmitter/</loc>
+    <loc>http://wiki.seeed.cc/qi_wireless_charger_transmitter/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/RF_Explorer_Software/</loc>
+    <loc>http://wiki.seeed.cc/rf_explorer_software/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/RFID_Control_LED/</loc>
+    <loc>http://wiki.seeed.cc/rfid_control_led/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/RFbee_V1.1-Wireless_Arduino_compatible_node/</loc>
+    <loc>http://wiki.seeed.cc/rfbee_v1.1-wireless_arduino_compatible_node/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/RGBW_Stripe_WireLess_Shield_V1.0/</loc>
+    <loc>http://wiki.seeed.cc/rgbw_stripe_wireless_shield_v1.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/RS232_Shield/</loc>
+    <loc>http://wiki.seeed.cc/rs232_shield/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Rainbow_Cube_Kit_Acrylic_Harness/</loc>
+    <loc>http://wiki.seeed.cc/rainbow_cube_kit_acrylic_harness/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible/</loc>
+    <loc>http://wiki.seeed.cc/rainbow_cube_kit_rgb_4_4_4_rainbowduino_compatible/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Rainbowduino/</loc>
+    <loc>http://wiki.seeed.cc/rainbowduino/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Rainbowduino_Extension_Board_v0.9b/</loc>
+    <loc>http://wiki.seeed.cc/rainbowduino_extension_board_v0.9b/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Rainbowduino_LED_driver_platform-ATmega328/</loc>
+    <loc>http://wiki.seeed.cc/rainbowduino_led_driver_platform-atmega328/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Rainbowduino_v3.0/</loc>
+    <loc>http://wiki.seeed.cc/rainbowduino_v3.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Raspberry_PI_Bplus_Case/</loc>
+    <loc>http://wiki.seeed.cc/raspberry_pi_bplus_case/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Raspberry_Pi_3_Model_B/</loc>
+    <loc>http://wiki.seeed.cc/raspberry_pi_3_model_b/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Raspberry_Pi_Breakout_Board_v1.0/</loc>
+    <loc>http://wiki.seeed.cc/raspberry_pi_breakout_board_v1.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Raspberry_Pi/</loc>
+    <loc>http://wiki.seeed.cc/raspberry_pi/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Raspberry_Pi_Motor_Driver_Board_v1.0/</loc>
+    <loc>http://wiki.seeed.cc/raspberry_pi_motor_driver_board_v1.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Raspberry_Pi_R232_Board_v1.0/</loc>
+    <loc>http://wiki.seeed.cc/raspberry_pi_r232_board_v1.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Raspberry_Pi_Relay_Board_v1.0/</loc>
+    <loc>http://wiki.seeed.cc/raspberry_pi_relay_board_v1.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/RePhone_APIs-Audio/</loc>
+    <loc>http://wiki.seeed.cc/rephone_apis-audio/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/RePhone_Geo_Kit/</loc>
+    <loc>http://wiki.seeed.cc/rephone_geo_kit/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/RePhone/</loc>
+    <loc>http://wiki.seeed.cc/rephone/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/RePhone_Lumi_Kit/</loc>
+    <loc>http://wiki.seeed.cc/rephone_lumi_kit/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/RePhone_Strap_Kit_for_Pebble/</loc>
+    <loc>http://wiki.seeed.cc/rephone_strap_kit_for_pebble/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Respeaker_2_Mics_Pi_HAT/</loc>
+    <loc>http://wiki.seeed.cc/respeaker_2_mics_pi_hat/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Respeaker_Mic_Array/</loc>
+    <loc>http://wiki.seeed.cc/respeaker_4_mic_array_for_raspberry_pi/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Relay_Control_LED/</loc>
+    <loc>http://wiki.seeed.cc/respeaker_mic_array/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Relay_Shield%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/relay_control_led/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Relay_Shield_V1/</loc>
+    <loc>http://wiki.seeed.cc/relay_shield/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Relay_Shield_V2/</loc>
+    <loc>http://wiki.seeed.cc/relay_shield_v1/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Relay_Shield_v3/</loc>
+    <loc>http://wiki.seeed.cc/relay_shield_v2/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Renbotics_ServoShield_Rev/</loc>
+    <loc>http://wiki.seeed.cc/relay_shield_v3/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/RePhone_core_2G-Atmel32u4/</loc>
+    <loc>http://wiki.seeed.cc/renbotics_servoshield_rev/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Rephone_core_2G-AtmelSAMD21/</loc>
+    <loc>http://wiki.seeed.cc/rephone_core_2g-atmel32u4/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Replacement_LCD_Screen_for_DSO_nano/</loc>
+    <loc>http://wiki.seeed.cc/rephone_core_2g-atmelsamd21/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Respeaker_Core/</loc>
+    <loc>http://wiki.seeed.cc/replacement_lcd_screen_for_dso_nano/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Respeaker/</loc>
+    <loc>http://wiki.seeed.cc/respeaker_core/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Retro%20Phone%20Kit/</loc>
+    <loc>http://wiki.seeed.cc/respeaker/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/SD_Card_Shield/</loc>
+    <loc>http://wiki.seeed.cc/retro-phone-kit/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/SD_Card_Shield_V3.0%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/sd_card_shield/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/SD_Card_shield_V4.0/</loc>
+    <loc>http://wiki.seeed.cc/sd_card_shield_v3.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/SDLogger-Open_Hardware_Data_Logger/</loc>
+    <loc>http://wiki.seeed.cc/sd_card_shield_v4.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Scream_out_loud-110dBA_fixed_tone_Siren/</loc>
+    <loc>http://wiki.seeed.cc/sdlogger-open_hardware_data_logger/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Secret_Box/</loc>
+    <loc>http://wiki.seeed.cc/scream_out_loud-110dba_fixed_tone_siren/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Seeed_BLE_Shield/</loc>
+    <loc>http://wiki.seeed.cc/secret_box/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Seeeduino_ADK_Main_Board%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/seeed_ble_shield/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Seeeduino_Arch%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/seeeduino_adk_main_board/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Seeeduino_Arch_V1.0/</loc>
+    <loc>http://wiki.seeed.cc/seeeduino_arch/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Seeeduino_Cloud/</loc>
+    <loc>http://wiki.seeed.cc/seeeduino_arch_v1.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/</loc>
+    <loc>http://wiki.seeed.cc/seeeduino_buying_guide/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Seeeduino_Ethernet/</loc>
+    <loc>http://wiki.seeed.cc/seeeduino_cloud/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Seeeduino_GPRS/</loc>
+    <loc>http://wiki.seeed.cc/seeeduino_cloud_and_grove_iot_starter_kit_powered_by_aws/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Seeeduino_Lite/</loc>
+    <loc>http://wiki.seeed.cc/seeeduino_ethernet/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Seeeduino_LoRAWAN/</loc>
+    <loc>http://wiki.seeed.cc/seeeduino_gprs/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Seeeduino_Lotus/</loc>
+    <loc>http://wiki.seeed.cc/seeeduino_lite/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Seeeduino_Mega/</loc>
+    <loc>http://wiki.seeed.cc/seeeduino_lorawan/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Seeeduino_Mega_Protoshield_Kit/</loc>
+    <loc>http://wiki.seeed.cc/seeeduino_lotus/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Seeeduino_Stalker_V3-Waterproof_Solar_Kit/</loc>
+    <loc>http://wiki.seeed.cc/seeeduino_mega/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Seeeduino_Stalker_V3.1/</loc>
+    <loc>http://wiki.seeed.cc/seeeduino_mega_protoshield_kit/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Seeeduino_Stalker_v1.0/</loc>
+    <loc>http://wiki.seeed.cc/seeeduino_stalker_v3-waterproof_solar_kit/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Seeeduino_Stalker_v2.3%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/seeeduino_stalker_v3.1/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Seeeduino_Stalker_v3_enclosure/</loc>
+    <loc>http://wiki.seeed.cc/seeeduino_stalker_v1.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Seeeduino_Stalker%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/seeeduino_stalker_v2.3/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Seeeduino-Stalker_v3%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/seeeduino_stalker_v3_enclosure/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Seeeduino_V2.2_Atmega-168P/</loc>
+    <loc>http://wiki.seeed.cc/seeeduino_stalker/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Seeeduino_V2.2%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/seeeduino-stalker_v3/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Seeeduino_v2.21%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/seeeduino_v2.2_atmega-168p/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Seeeduino_v3.0%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/seeeduino_v2.2/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Seeeduino_v4.0%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/seeeduino_v2.21/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Seeeduino_v4.2/</loc>
+    <loc>http://wiki.seeed.cc/seeeduino_v3.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Seeeduino%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/seeeduino_v4.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Sensor/</loc>
+    <loc>http://wiki.seeed.cc/seeeduino_v4.2/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Serial_port_bluetooth_module_Master-Slave/</loc>
+    <loc>http://wiki.seeed.cc/seeeduino/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Service_for_Fusion_PCB/</loc>
+    <loc>http://wiki.seeed.cc/sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Shield_Bot_V1.1/</loc>
+    <loc>http://wiki.seeed.cc/serial_port_bluetooth_module_master-slave/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Shield_Bot_V1.2/</loc>
+    <loc>http://wiki.seeed.cc/service_for_fusion_pcb/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Shield/</loc>
+    <loc>http://wiki.seeed.cc/shield_bot_v1.1/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Shield-MaTrix-V0.9b/</loc>
+    <loc>http://wiki.seeed.cc/shield_bot_v1.2/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Sidekick_Advanced_Kit%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/shield/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Sidekick_Basic_Kit_for_Arduino_V2/</loc>
+    <loc>http://wiki.seeed.cc/shield-matrix-v0.9b/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Sidekick_Basic_Kit_for_LinkIt_ONE/</loc>
+    <loc>http://wiki.seeed.cc/sidekick_advanced_kit/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Sidekick_Basic_Kit_for_TI_LaunchPad/</loc>
+    <loc>http://wiki.seeed.cc/sidekick_basic_kit_for_arduino_v2/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Skeleton_Bot-4WD_hercules_mobile_robotic_platform/</loc>
+    <loc>http://wiki.seeed.cc/sidekick_basic_kit_for_linkit_one/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Skeleton_Box/</loc>
+    <loc>http://wiki.seeed.cc/sidekick_basic_kit_for_ti_launchpad/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Skeleton_Box_10x7_10x10_17x10/</loc>
+    <loc>http://wiki.seeed.cc/skeleton_bot-4wd_hercules_mobile_robotic_platform/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Skeleton_Box_for_Raspberry_Pi_Compute_Module_Development_Kit/</loc>
+    <loc>http://wiki.seeed.cc/skeleton_box/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Skeleton_box_for_Beaglebone/</loc>
+    <loc>http://wiki.seeed.cc/skeleton_box_10x7_10x10_17x10/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Skeleton_box_for_Rasberry_Pi/</loc>
+    <loc>http://wiki.seeed.cc/skeleton_box_for_raspberry_pi_compute_module_development_kit/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Sketchbook_of_Sidekick_Advanced_Kit/</loc>
+    <loc>http://wiki.seeed.cc/skeleton_box_for_beaglebone/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Small_e-Paper_Shield_V2/</loc>
+    <loc>http://wiki.seeed.cc/skeleton_box_for_rasberry_pi/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Small_e-Paper_Shield%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/sketchbook_of_sidekick_advanced_kit/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Solar_Charger_Shield_V2.2/</loc>
+    <loc>http://wiki.seeed.cc/small_e-paper_shield_v2/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Solar_Charger_Shield%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/small_e-paper_shield/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Sound_Sensor_And_LED_Bar/</loc>
+    <loc>http://wiki.seeed.cc/solar_charger_shield_v2.2/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Starter_bundle_harness_V1/</loc>
+    <loc>http://wiki.seeed.cc/solar_charger_shield/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Starter_Shield_EN%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/sound_sensor_and_led_bar/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Stepper_Motor_Driver%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/starter_bundle_harness_v1/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Stepper_Motor_Driver_v2.3%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/starter_shield_en/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Suli/</loc>
+    <loc>http://wiki.seeed.cc/stepper_motor_driver/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/TFT_Touch_Shield_V1.0%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/stepper_motor_driver_v2.3/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/suli/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/tft_touch_shield_v1.0/</loc>
   </url>
   
   <url>
@@ -2300,7 +2323,7 @@
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Techbox_Tricks%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/techbox_tricks/</loc>
   </url>
   
   <url>
@@ -2308,355 +2331,363 @@
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Tiny_BLE/</loc>
+    <loc>http://wiki.seeed.cc/things_we_make/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Tricycle_Bot/</loc>
+    <loc>http://wiki.seeed.cc/tiny_ble/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Tutorial/</loc>
+    <loc>http://wiki.seeed.cc/tricycle_bot/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/USB_To_Uart_3V3%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/tutorial/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/USB_To_Uart_5V/</loc>
+    <loc>http://wiki.seeed.cc/usb_to_uart_3v3/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/USB_To_Uart_5V_3V3/</loc>
+    <loc>http://wiki.seeed.cc/usb_to_uart_5v/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/UartSB_Frame%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/usb_to_uart_5v_3v3/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/UartSBee_V3.1/</loc>
+    <loc>http://wiki.seeed.cc/uartsb_frame/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/UartSBee_V4/</loc>
+    <loc>http://wiki.seeed.cc/uartsbee_v3.1/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/UartSBee_v5/</loc>
+    <loc>http://wiki.seeed.cc/uartsbee_v4/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Ultra_Sonic_range_measurement_module/</loc>
+    <loc>http://wiki.seeed.cc/uartsbee_v5/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Unibody_box_for_Galileo_Gen2/</loc>
+    <loc>http://wiki.seeed.cc/ultra_sonic_range_measurement_module/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Upload_Code/</loc>
+    <loc>http://wiki.seeed.cc/unibody_box_for_galileo_gen2/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Use_External_Editor/</loc>
+    <loc>http://wiki.seeed.cc/upload_code/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/W5500_Ethernet_Shield_v1.0/</loc>
+    <loc>http://wiki.seeed.cc/use_external_editor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Wifi_Shield%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/w5500_ethernet_shield_v1.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Weight_Sensor_Load_Cell_0-500g/</loc>
+    <loc>http://wiki.seeed.cc/wifi_shield/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/WiFi_Serial_Transceiver_Module/</loc>
+    <loc>http://wiki.seeed.cc/weight_sensor_load_cell_0-500g/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Wifi_Bee_v2.0/</loc>
+    <loc>http://wiki.seeed.cc/wifi_serial_transceiver_module/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Wifi_Bee%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/wifi_bee_v2.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Wifi_Shield_Fi250_V1.1/</loc>
+    <loc>http://wiki.seeed.cc/wifi_bee/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Wifi_Shield_V1.0%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/wifi_shield_fi250_v1.1/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Wifi_Shield_V1.1%E2%80%8F%E2%80%8E/</loc>
+    <loc>http://wiki.seeed.cc/wifi_shield_v1.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Wifi_Shield_V1.2/</loc>
+    <loc>http://wiki.seeed.cc/wifi_shield_v1.1/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Wifi_Shield_V2.0/</loc>
+    <loc>http://wiki.seeed.cc/wifi_shield_v1.2/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Wio/</loc>
+    <loc>http://wiki.seeed.cc/wifi_shield_v2.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Wio_Link/</loc>
+    <loc>http://wiki.seeed.cc/wio/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Wio_Link_Bootcamp_Kit/</loc>
+    <loc>http://wiki.seeed.cc/wio-lte---4g-cat.1/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Wio_Link_Deluxe_Kit/</loc>
+    <loc>http://wiki.seeed.cc/wio_link/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Wio_Link_Deluxe_Plus_Kit/</loc>
+    <loc>http://wiki.seeed.cc/wio_link_bootcamp_kit/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Wio_Link_Environment_Kit/</loc>
+    <loc>http://wiki.seeed.cc/wio_link_deluxe_kit/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Wio_Link_Event_Kit/</loc>
+    <loc>http://wiki.seeed.cc/wio_link_deluxe_plus_kit/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Wio_Link_Starter_Kit/</loc>
+    <loc>http://wiki.seeed.cc/wio_link_environment_kit/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Wio_Node/</loc>
+    <loc>http://wiki.seeed.cc/wio_link_event_kit/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/WIO_GPS_Board/</loc>
+    <loc>http://wiki.seeed.cc/wio_link_starter_kit/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Wio_Tracker_LTE_CAT1/</loc>
+    <loc>http://wiki.seeed.cc/wio_node/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/WireLess_Gate_Shield_V1.0/</loc>
+    <loc>http://wiki.seeed.cc/wio_gps_board/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Wireless/</loc>
+    <loc>http://wiki.seeed.cc/wio_tracker/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Wireless_Sensor_Node-Solar_Kit/</loc>
+    <loc>http://wiki.seeed.cc/wireless_gate_shield_v1.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/XBee_Shield/</loc>
+    <loc>http://wiki.seeed.cc/wireless/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/XBee_Shield_V2.0/</loc>
+    <loc>http://wiki.seeed.cc/wireless_sensor_node-solar_kit/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_3_Aixs_Accelerometer/</loc>
+    <loc>http://wiki.seeed.cc/xbee_shield/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_3_Aixs_Digital_Accelerometer_plusandminus_400g/</loc>
+    <loc>http://wiki.seeed.cc/xbee_shield_v2.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_BLE_Dual_Model_V1.0/</loc>
+    <loc>http://wiki.seeed.cc/xadow_3_aixs_accelerometer/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_BLE_Slave/</loc>
+    <loc>http://wiki.seeed.cc/xadow_3_aixs_digital_accelerometer_plusandminus_400g/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_Breakout/</loc>
+    <loc>http://wiki.seeed.cc/xadow_ble_dual_model_v1.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_Buzzer/</loc>
+    <loc>http://wiki.seeed.cc/xadow_ble_slave/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_Compass/</loc>
+    <loc>http://wiki.seeed.cc/xadow_breakout/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_Edison_Kit/</loc>
+    <loc>http://wiki.seeed.cc/xadow_buzzer/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_GPS/</loc>
+    <loc>http://wiki.seeed.cc/xadow_compass/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_Gesture_v1.0/</loc>
+    <loc>http://wiki.seeed.cc/xadow_edison_kit/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_Grove_Adaptor/</loc>
+    <loc>http://wiki.seeed.cc/xadow_gps/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_IMU_10DOF/</loc>
+    <loc>http://wiki.seeed.cc/xadow_gesture_v1.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_IMU_6DOF/</loc>
+    <loc>http://wiki.seeed.cc/xadow_grove_adaptor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_IMU_9DOF/</loc>
+    <loc>http://wiki.seeed.cc/xadow_imu_10dof/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_LED_5x7/</loc>
+    <loc>http://wiki.seeed.cc/xadow_imu_6dof/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_LED_5_multiply_7_v1.0/</loc>
+    <loc>http://wiki.seeed.cc/xadow_imu_9dof/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_M0/</loc>
+    <loc>http://wiki.seeed.cc/xadow_led_5x7/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_Main_Board/</loc>
+    <loc>http://wiki.seeed.cc/xadow_led_5_multiply_7_v1.0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_Motor_Driver/</loc>
+    <loc>http://wiki.seeed.cc/xadow_m0/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_Multichannel_Gas_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/xadow_main_board/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_NFC_tag/</loc>
+    <loc>http://wiki.seeed.cc/xadow_motor_driver/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xado_OLED_128multiply64/</loc>
+    <loc>http://wiki.seeed.cc/xadow_multichannel_gas_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_RGB_OLED_96multiply64/</loc>
+    <loc>http://wiki.seeed.cc/xadow_nfc_tag/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_RTC/</loc>
+    <loc>http://wiki.seeed.cc/xado_oled_128multiply64/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_Storage/</loc>
+    <loc>http://wiki.seeed.cc/xadow_rgb_oled_96multiply64/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_UV_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/xadow_rtc/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_Vibrator_Motor/</loc>
+    <loc>http://wiki.seeed.cc/xadow_storage/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_1.54_inch_Touchscreen/</loc>
+    <loc>http://wiki.seeed.cc/xadow_uv_sensor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_Audio/</loc>
+    <loc>http://wiki.seeed.cc/xadow_vibrator_motor/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_BLE/</loc>
+    <loc>http://wiki.seeed.cc/xadow_1.54_inch_touchscreen/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_Barometer/</loc>
+    <loc>http://wiki.seeed.cc/xadow_audio/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_Barometer_BMP180/</loc>
+    <loc>http://wiki.seeed.cc/xadow_ble/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_Basic_Sensors/</loc>
+    <loc>http://wiki.seeed.cc/xadow_barometer/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_Duino/</loc>
+    <loc>http://wiki.seeed.cc/xadow_barometer_bmp180/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_GPS_V2/</loc>
+    <loc>http://wiki.seeed.cc/xadow_basic_sensors/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_GSM_Breakout/</loc>
+    <loc>http://wiki.seeed.cc/xadow_duino/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_GSMPlusBLE/</loc>
+    <loc>http://wiki.seeed.cc/xadow_gps_v2/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_IO_pin_mapping/</loc>
+    <loc>http://wiki.seeed.cc/xadow_gsm_breakout/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_Metal_Frame/</loc>
+    <loc>http://wiki.seeed.cc/xadow_gsmplusble/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_NFC/</loc>
+    <loc>http://wiki.seeed.cc/xadow_io_pin_mapping/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_Pebble_Time_Adapter/</loc>
+    <loc>http://wiki.seeed.cc/xadow_metal_frame/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_Tutorial_Acceleration_Detector/</loc>
+    <loc>http://wiki.seeed.cc/xadow_nfc/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_Tutorial_Communicate_via_BLE/</loc>
+    <loc>http://wiki.seeed.cc/xadow_pebble_time_adapter/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_Wearable_Kit_For_Edison/</loc>
+    <loc>http://wiki.seeed.cc/xadow_tutorial_acceleration_detector/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_Q_Touch_Sensor/</loc>
+    <loc>http://wiki.seeed.cc/xadow_tutorial_communicate_via_ble/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Xadow_Tutorial_Shaking_Shaking/</loc>
+    <loc>http://wiki.seeed.cc/xadow_wearable_kit_for_edison/</loc>
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/Zigbee_Networking_with_XBee_Series_2_and_Seeeds_Products/</loc>
+    <loc>http://wiki.seeed.cc/xadow_q_touch_sensor/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/xadow_tutorial_shaking_shaking/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/zigbee_networking_with_xbee_series_2_and_seeeds_products/</loc>
   </url>
   
   <url>

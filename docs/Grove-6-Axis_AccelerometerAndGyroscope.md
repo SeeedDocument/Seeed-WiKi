@@ -36,7 +36,7 @@ Features
 
 !!!Tip
     More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
-    
+
 Application ideas
 -----------------
 
@@ -123,9 +123,11 @@ Download the [library](https://github.com/Seeed-Studio/Accelerometer_And_Gyrosco
 Resources
 ---------
 
--   [Schematic files](https://raw.githubusercontent.com/SeeedDocument/Grove-6-Axis_AccelerometerAndGyroscope/master/res/Schematic_files.zip)
--   [Github](https://github.com/Seeed-Studio/Accelerometer_And_Gyroscope_LSM6DS3)
--   [Datasheet of LSM6DS3](https://raw.githubusercontent.com/SeeedDocument/Grove-6-Axis_AccelerometerAndGyroscope/master/res/LSM6DS3TR.pdf)
+- **[Eagle]** [Grove - 6-Axis Accelerometer&Gyroscopev 1.0](https://github.com/SeeedDocument/Grove-6-Axis_AccelerometerAndGyroscope/raw/master/res/Grove%20-%206-Axis%20AccelerometerGyroscopev1.0.zip)
+- **[PDF]** [Grove - 6-Axis Accelerometer&Gyroscopev 1.0 SCH](https://github.com/SeeedDocument/Grove-6-Axis_AccelerometerAndGyroscope/raw/master/res/Grove%20-%206-Axis%20Accelerometer%26Gyroscope%20v1.0-SCH.zip)
+- **[PDF]** [Grove - 6-Axis Accelerometer&Gyroscopev 1.0 PCB](https://github.com/SeeedDocument/Grove-6-Axis_AccelerometerAndGyroscope/raw/master/res/Grove%20-%206-Axis%20Accelerometer%26Gyroscope%20v1.0_PCB.pdf)
+-  **[Library]** [Grove-6-Axis_AccelerometerAndGyroscope](https://github.com/Seeed-Studio/Accelerometer_And_Gyroscope_LSM6DS3)
+-  **[Datasheet]** [Datasheet of LSM6DS3](https://raw.githubusercontent.com/SeeedDocument/Grove-6-Axis_AccelerometerAndGyroscope/master/res/LSM6DS3TR.pdf)
 
 
 <!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_6-Axis_Accelerometer&Gyroscope -->

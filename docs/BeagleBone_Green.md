@@ -340,7 +340,7 @@ You will need some expansion board when you start a project. There're many cape 
 ## FAQ
 ---
 1. What is the different between BBG 1 and BBG 2?
-   ![](https://github.com/SeeedDocument/BeagleBone_Green/blob/master/bbg12.png)
+   ![](https://github.com/SeeedDocument/BeagleBone_Green/raw/master/bbg12.png)
  We have updated the eMMC on Beaglebone Green in 2016. So the previous firmware for BBG1 is not workable on BBG2, but the new firmware is ok on BBG1 and BBG2.
     
 ## References
@@ -360,6 +360,7 @@ There're many references to help you to get more information about the board.
 ---
 
 * [BEAGLEBONE_GREEN SRM(v1a)(pdf)](https://github.com/SeeedDocument/BeagleBone_Green/raw/master/resources/BBG_SRM_V1a_20151009.pdf)
+* [BEAGLEBONE_GREEN SRM(v3)(pdf)](https://github.com/SeeedDocument/BeagleBone_Green/raw/master/resources/BBG_SRM_V3_20150804.pdf)
 * [BEAGLEBONE_GREEN Schematic(pdf)](https://github.com/SeeedDocument/BeagleBone_Green/raw/master/resources/BEAGLEBONE_GREEN_V1.pdf)
 * [BEAGLEBONE_GREEN Schematic(OrCAD)](https://github.com/SeeedDocument/BeagleBone_Green/raw/master/resources/BEAGLEBONE_GREEN_V1_166%28sch%29.rar)
 * [BEAGLEBONE_GREEN PCB(OrCAD)](https://github.com/SeeedDocument/BeagleBone_Green/blob/master/resources/BeagleBone_Green_v1.166%28board%29.rar)

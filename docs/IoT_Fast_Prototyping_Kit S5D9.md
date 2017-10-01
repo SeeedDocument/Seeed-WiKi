@@ -46,8 +46,6 @@ Please contact a Renesas Electronics sales office if you have any questions rega
 
 ## 1. Overview
 
-![](https://github.com/SeeedDocument/IoT_Fast_Prototyping_Kit_S5D9_User_Manual/raw/master/img/S5D9_MCU_Board.png)
-
 The S5D9 IoT Fast Prototyping Kit features include the following interface options:
 
 - RJ45 10/100Mbps Ethernet x1
@@ -73,6 +71,8 @@ The S5D9 MCU Board is the heart of the IoT Fast Prototyping Kit. It enables the 
 
 The board includes 24V tolerant digital inputs with overvoltage protection suitable for use in noisy industrial environments. The board can also control two digital loads such as solenoids powered with 24V and drawing up to 1A current. The included MOSFET drivers have built-in overcurrent and over temperature protection that ensure robust operation.
 
+![](https://github.com/SeeedDocument/IoT_Fast_Prototyping_Kit_S5D9_User_Manual/raw/master/img/S5D9_MCU_Board.png)
+
 The S5D9 board incorporates a Renesas Synergy Microcontroller with a 640K KB RAM and a 2 MB flash memory. In addition, the board has a 16 MB external flash memory connected through a QSPI interface.
 
 The board can be powered using an industrial Molex connector, or through a USB device connector.
@@ -91,20 +91,7 @@ The S5D9 Fast Prototyping Kit specifications are listed in Table 2.1.
 
 Table 2.1 Electrical Specifications
 
-| Parameter                        | Value  |              |
-|----------------------------------|--------|--------------|
-|                                  | Min    | Max          |
-| Required Logic Power Voltage     | 3.7V   | 5.5V         |
-| Current Consumption              | TBD    | 300mA        |
-| Digital Outputs Drive Capability |        | 1A           |
-| Digital Inputs Voltage           |        | 5.1 V or 24V |
-| Operating Temperature            | -40 °C | +75 °C       |
-| PMOD Connector Power Voltage     | 3.3V   | 5V           |
-| Grove Connectors Power Voltage   | 3.3V   |              |
-| QSPI Flash Capacity              | 32 MB  |              |
-| MCU Flash Capacity               | 2MB    |              |
-| MCU RAM                          | 640KB  |              |
-| MCU Clock                        | 120MHz |              |
+![](https://github.com/SeeedDocument/IoT_Fast_Prototyping_Kit_S5D9_User_Manual/raw/master/img/Table%202.1%20Electrical%20Specifications.png)
 
 ### 2.2.2 Connection Diagram
 
@@ -120,7 +107,7 @@ Figure 2.1 Connection Diagram
 
 The main functional blocks of the S5D9 board are presented in Figure 3.1.
 
-![](https://github.com/SeeedDocument/IoT_Fast_Prototyping_Kit_S5D9_User_Manual/raw/master/img/Block%20Diagram.png)
+![](https://github.com/SeeedDocument/IoT_Fast_Prototyping_Kit_S5D9_User_Manual/raw/master/img/Figure%203.1.png)
 
 Figure 3.1 S5D9 board main functional blocks
 
@@ -137,7 +124,7 @@ The various modules are as follows:
 
 ### 3.2 Components Layout
 
-Calls out the main components of the S5D9 MCU board.
+The following figure calls out the main components of the S5D9 MCU board.
 
 ![](https://github.com/SeeedDocument/IoT_Fast_Prototyping_Kit_S5D9_User_Manual/raw/master/img/Block%20Diagram.png)
 
@@ -158,7 +145,7 @@ Table 4.1 USB Device Connector (J9)
 | Pin #        | Function |
 | --- | --- |
 | 1 | +5VDC |
-| 2        | Data - |
+| 2 | Data - |
 | 3 | Data + |
 | 4 | USB ID |
 | 5 | Ground |
@@ -231,13 +218,7 @@ The S5D9 IoT Fast Prototyping kit provides USB device interface only. The wiring
 
 Table 6.1 USB Micro B Type Receptacle - Device Mode (J9)
 
-| Pin Number | Function | Device Port/ Pin Number |
-| --- | --- | --- |
-| 1 | Power 5V | USB VBUSIN |
-| 2 | Data - | USB DM |
-| 3 | Data + | USB DP |
-| 4 | N.C. |
-| 5 | GND | GND |
+![](https://github.com/SeeedDocument/IoT_Fast_Prototyping_Kit_S5D9_User_Manual/raw/master/img/Table%206.1%20USB%20Micro%20B%20Type%20Receptacle%20-%20Device%20Mode.png)
 
 Figure 6.1 describes the USB interface implementation:
 

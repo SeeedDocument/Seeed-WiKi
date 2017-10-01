@@ -31,6 +31,9 @@ pages:
     - Wio:
         - Wio Introduction: Wio.md
 {{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Wio") (eq $cat2 "Wio") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
+    - Wio_Tracker:
+        - Wio_Tracker Introduction: Wio_Tracker.md
+{{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Wio_Tracker") (eq $cat2 "Wio_Tracker") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
     - Shield:
         - Shield Introduction: Shield.md
 {{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Shield") (eq $cat2 "Shield") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
@@ -43,6 +46,8 @@ pages:
     - Respeaker:
         - Respeaker Introduction: Respeaker.md
 {{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Respeaker") (eq $cat2 "Respeaker") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
+
+
 
 - Grove:
     - Grove Introduction: Grove.md

@@ -126,9 +126,9 @@ We customized a DFU bootloader for you to update your application through Over-T
 
 ##  Resource
 ---
-*   [Tiny BLE V1.0 eagle file](res/BLE_Smurfs_v1.0.zip)
+*   [Tiny BLE V1.0 eagle file](https://github.com/SeeedDocument/Tiny_BLE/raw/master/res/BLE_Smurfs_v1.0.zip)
 
-*   [Tiny BLE V1.0.pdf](http://wiki.seeedstudio.com/images/b/b6/BLE_Smurfs_v1.0_PDF.pdf)
+*   [Tiny BLE V1.0.pdf](https://github.com/SeeedDocument/Tiny_BLE/raw/master/res/BLE_Smurfs_v1.0_PDF.pdf)
 
 *   [Resources on github](https://github.com/Seeed-Studio/Tiny_BLE)
 

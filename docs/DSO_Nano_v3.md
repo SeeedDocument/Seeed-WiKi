@@ -352,6 +352,8 @@ Under windows you will see the "drive" disappear after you copy each hex file an
 
 ##   Resources
 ---
+*   [DSO_Nano_V3_User_Manual v4.22.pdf](https://github.com/SeeedDocument/DSO_Nano_v3/raw/master/res/DS201V_4.22%20User%20Manual%EF%BC%88Increase%20the%20alignment%20and%20hidden%20reference%20line%EF%BC%89.pdf)
+*   [DSO Nano Official Firmware V4.32](https://github.com/SeeedDocument/DSO_Nano_v3/raw/master/res/DS201.V4.32.zip)
 *   [DSO Nano Official Firmware App2.6](https://github.com/SeeedDocument/DSO_Nano_v3/raw/master/res/DSO_Nano_2.6_firmware.zip)
 
 *   [BenF Firmware v3.64](https://github.com/SeeedDocument/DSO_Nano_v3/raw/master/res/BenF364_LIB353.zip)    Thank **Benf **for sharing this great firmware and **Alf **arranging it to work with DFU Ver3.22. Note that the BenF firmware v3.64 **WILL NOT SAVE** to the internal memory of the V3.  If your V3 does not have an external card slot then you will not be able to save images or data.

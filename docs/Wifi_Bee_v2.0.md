@@ -38,9 +38,9 @@ Note: In order to configure this module, you will need an adapter or Xbee shield
 
 Here's all the hardware needed.
 
-<dl><dd>
 
 *   1) Wifi Bee
+
 *   2) An adaptor，such as [SBee](http://www.seeedstudio.com/depot/xbee-shield-v20-p-1375.html?cPath=98_16Uart),  [Grove -Xbee Carrier](http://www.seeedstudio.com/depot/grove-xbee-carrier-p-905.html?cPath=98_16)， [Xbee Shield](http://www.seeedstudio.com/depot/xbee-shield-v20-p-1375.html?cPath=98_16)
 
 *   3) Mini USB cable
@@ -57,15 +57,19 @@ We need a serial monitor for configuring the Wifi Bee. So before configuring Wif
 ![](https://github.com/SeeedDocument/Wifi_Bee_v2.0/raw/master/img/Serial_Tool.png)
 
 *   1) Choose the right serial port and click "Open Com" button，shown above, set the baud rate to 9600.
+
 *   2) Donot select "SendNew", and send AT command <font color="red">$$$</font> to the wifi Bee and it will reply "CMD" to indicate that it enter the configure mode properly.
+
 *   3) Select "SendNew" after entering to configure mode，send AT command <font color="red">set u b 9600</font> to set the baud rate as 9600. Of cource，you can also set it as 38400.
 
 *   4) Type <font color="red">show net</font>   and it will show current network settings.
+
 *   5) Type  <font color="red">scan </font> to view a list of Wifi networks around.
 
 ![](https://github.com/SeeedDocument/Wifi_Bee_v2.0/raw/master/img/Serial_Tool_Scan_net.png)
 
 *   6) Send AT command <font color="red"> set wlan join 1</font>，if the serial port reply "ADK" which indicates Wifi Bee enters to Auto control mode.
+
 *   7)Type join your router's SSID (like join Seeed-STU)to connect to associate with an open access point. If we join a a secure network type like this:<font color="red">
 </font>
 

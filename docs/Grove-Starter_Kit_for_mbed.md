@@ -4,7 +4,7 @@ category: mbed
 bzurl: https://www.seeedstudio.com/Grove-Starter-Kit-for-mbed-p-2032.html
 oldwikiname: Grove - Starter Kit for mbed
 prodimagename: Grove%20Starter%20Kit%20for%20mbed%201.jpg
-surveyurl: https://www.research.net/r/Grove_SPDT_Relay_30A
+surveyurl: https://www.research.net/r/Starter_Kit_for_mbed
 sku: 110990421
 ---
 ![](https://github.com/SeeedDocument/Grove-Starter_Kit_for_mbed/raw/master/img/Grove%20Starter%20Kit%20for%20mbed%201.jpg)
