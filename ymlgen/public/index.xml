@@ -4576,6 +4576,27 @@ Different from ReSpeaker 2-Mics Pi HAT, this board is developed based on AC108, 
     </item>
     
     <item>
+      <title>ReSpeaker Core</title>
+      <link>http://wiki.seeed.cc/respeaker_core/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/respeaker_core/</guid>
+      <description>ReSpeaker is an open modular voice interface to hack things around you. Let you interact with your home appliances, your plant, your office, your internet-equipped devices or any other things in your daily life, all by your voice.
+ It’s a voice-enabled extension for your surroundings  ReSpeaker supports both online cognitive services and offline lightweight speech recognition engine. You can add ReSpeaker to things around you to make them smart(smarter).</description>
+    </item>
+    
+    <item>
+      <title>ReSpeaker Introduction</title>
+      <link>http://wiki.seeed.cc/respeaker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/respeaker/</guid>
+      <description> ReSpeaker is an open modular voice interface to hack things around you. Let you interact with your home appliances, your plant, your office, your internet-equipped devices or any other things in your daily life, all by your voice.
+Product List Here is the list of the ReSpeaker Boards you can find in the Seeed WiKi. The list will be constantly updated.
+ ReSpeaker 2-Mics Pi HAT ReSpeaker 4-Mic Array for Raspberry Pi ReSpeaker Core ReSpeaker Mic Array  </description>
+    </item>
+    
+    <item>
       <title>ReSpeaker Mic Array</title>
       <link>http://wiki.seeed.cc/respeaker_mic_array/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4678,27 +4699,6 @@ The RePhone Core 2G-AtmelSAMD21 v1.0 is a new Arduino compatible RePhone core 2G
       <description>Replacement LCD for DSO nano, purchase this if you broke the original one on your DSO. Please note that you need basic soldering skill to install this LCD to your DSO.
 Usage Hardware Installation Dismantle your DSO nano Dismantel your DSO nano is pretty easy, but it’s still worth writing a tutorial to let people know what does DSO nano look inside before open it.
 Note: This tutorial is for information purposes, Dismantle the DSO nano and follow this tutorial at your own risk!</description>
-    </item>
-    
-    <item>
-      <title>Respeaker Core</title>
-      <link>http://wiki.seeed.cc/respeaker_core/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://wiki.seeed.cc/respeaker_core/</guid>
-      <description>ReSpeaker is an open modular voice interface to hack things around you. Let you interact with your home appliances, your plant, your office, your internet-equipped devices or any other things in your daily life, all by your voice.
- It’s a voice-enabled extension for your surroundings  ReSpeaker supports both online cognitive services and offline lightweight speech recognition engine. You can add ReSpeaker to things around you to make them smart(smarter).</description>
-    </item>
-    
-    <item>
-      <title>Respeaker Introduction</title>
-      <link>http://wiki.seeed.cc/respeaker/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://wiki.seeed.cc/respeaker/</guid>
-      <description> ReSpeaker is an open modular voice interface to hack things around you. Let you interact with your home appliances, your plant, your office, your internet-equipped devices or any other things in your daily life, all by your voice.
-Product List Here is the list of the Respeaker Boards you can find in the Seeed WiKi. The list will be constantly updated.
- ReSpeaker 4-Mic Array for Raspberry Pi ReSpeaker Mic Array Respeaker Core  </description>
     </item>
     
     <item>

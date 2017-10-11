@@ -1,6 +1,6 @@
 ---
 title: ReSpeaker 2-Mics Pi HAT
-category: Arduino
+category: ReSpeaker
 bzurl: https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT-p-2874.html
 prodimagename: 2mics-zero-high-res.jpg
 surveyurl: https://www.research.net/r/ReSpeaker_2-Mics_Pi_HAT

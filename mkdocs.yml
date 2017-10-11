@@ -26,7 +26,6 @@ pages:
         - Rainbowduino: Rainbowduino.md
         - Rainbowduino LED driver platform - ATmega328: Rainbowduino_LED_driver_platform-ATmega328.md
         - Rainbowduino v3.0: Rainbowduino_v3.0.md
-        - ReSpeaker 2-Mics Pi HAT: ReSpeaker_2_Mics_Pi_HAT.md
         - Seeeduino Cloud: Seeeduino_Cloud.md
         - Seeeduino Cloud and Grove IoT Starter Kit Powered by AWS: Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS.md
         - Seeeduino Ethernet: Seeeduino_Ethernet.md
@@ -228,11 +227,12 @@ pages:
         - USB To Uart 5V/3V3: USB_To_Uart_5V_3V3.md
         - Unibody box for Galileo Gen2: Unibody_box_for_Galileo_Gen2.md
 
-    - Respeaker:
-        - Respeaker Introduction: Respeaker.md
+    - ReSpeaker:
+        - ReSpeaker Introduction: ReSpeaker.md
+        - ReSpeaker 2-Mics Pi HAT: ReSpeaker_2_Mics_Pi_HAT.md
         - ReSpeaker 4-Mic Array for Raspberry Pi: ReSpeaker_4_Mic_Array_for_Raspberry_Pi.md
+        - ReSpeaker Core: ReSpeaker_Core.md
         - ReSpeaker Mic Array: ReSpeaker_Mic_Array.md
-        - Respeaker Core: ReSpeaker_Core.md
 
 
 

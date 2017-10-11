@@ -1,5 +1,5 @@
 ---
-title: Respeaker Introduction
+title: ReSpeaker Introduction
 nointro:
 ---
 
@@ -9,6 +9,6 @@ ReSpeaker is an open modular voice interface to hack things around you. Let you 
 
 ## Product  List
 ---
-Here is the list of the Respeaker Boards you can find in the Seeed WiKi. The list will be constantly updated.
+Here is the list of the ReSpeaker Boards you can find in the Seeed WiKi. The list will be constantly updated.
 
-{{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Respeaker") (eq $cat2 "Respeaker") }}- [{{.Title}}](/{{.File.BaseFileName}}/){{"\n"}}{{ end }}{{ end }}
+{{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "ReSpeaker") (eq $cat2 "ReSpeaker") }}- [{{.Title}}](/{{.File.BaseFileName}}/){{"\n"}}{{ end }}{{ end }}

@@ -2014,6 +2014,14 @@
   </url>
   
   <url>
+    <loc>http://wiki.seeed.cc/respeaker_core/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/respeaker/</loc>
+  </url>
+  
+  <url>
     <loc>http://wiki.seeed.cc/respeaker_mic_array/</loc>
   </url>
   
@@ -2051,14 +2059,6 @@
   
   <url>
     <loc>http://wiki.seeed.cc/replacement_lcd_screen_for_dso_nano/</loc>
-  </url>
-  
-  <url>
-    <loc>http://wiki.seeed.cc/respeaker_core/</loc>
-  </url>
-  
-  <url>
-    <loc>http://wiki.seeed.cc/respeaker/</loc>
   </url>
   
   <url>

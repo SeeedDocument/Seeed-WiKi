@@ -1,6 +1,6 @@
 ---
 title: ReSpeaker 4-Mic Array for Raspberry Pi
-category: Respeaker
+category: ReSpeaker
 bzurl: https://www.seeedstudio.com/ReSpeaker-4-Mic-Array-for-Raspberry-Pi-p-2941.html
 oldwikiname:
 prodimagename:

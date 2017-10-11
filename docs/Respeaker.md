@@ -1,5 +1,5 @@
 ---
-title: Respeaker Introduction
+title: ReSpeaker Introduction
 nointro:
 ---
 
@@ -9,9 +9,10 @@ ReSpeaker is an open modular voice interface to hack things around you. Let you 
 
 ## Product  List
 ---
-Here is the list of the Respeaker Boards you can find in the Seeed WiKi. The list will be constantly updated.
+Here is the list of the ReSpeaker Boards you can find in the Seeed WiKi. The list will be constantly updated.
 
+- [ReSpeaker 2-Mics Pi HAT](/ReSpeaker_2_Mics_Pi_HAT/)
 - [ReSpeaker 4-Mic Array for Raspberry Pi](/ReSpeaker_4_Mic_Array_for_Raspberry_Pi/)
+- [ReSpeaker Core](/ReSpeaker_Core/)
 - [ReSpeaker Mic Array](/ReSpeaker_Mic_Array/)
-- [Respeaker Core](/ReSpeaker_Core/)
 

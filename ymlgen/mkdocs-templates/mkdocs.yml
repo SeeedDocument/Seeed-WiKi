@@ -43,9 +43,9 @@ pages:
     - Essentials:
         - Essentials Introduction: Essentials.md
 {{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Essentials") (eq $cat2 "Essentials") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
-    - Respeaker:
-        - Respeaker Introduction: Respeaker.md
-{{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "Respeaker") (eq $cat2 "Respeaker") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
+    - ReSpeaker:
+        - ReSpeaker Introduction: ReSpeaker.md
+{{ range .Data.Pages.ByTitle }}{{ $cat1 := trim (index (split .Params.category ",") 0) " "}}{{ $cat2 := trim (index (split .Params.category ",") 1) " "}}{{if or (eq $cat1 "ReSpeaker") (eq $cat2 "ReSpeaker") }}        - {{.Title}}: {{.File.Path}}{{"\n"}}{{ end }}{{ end }}
 
 
 
