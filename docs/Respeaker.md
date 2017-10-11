@@ -12,6 +12,6 @@ ReSpeaker is an open modular voice interface to hack things around you. Let you 
 Here is the list of the Respeaker Boards you can find in the Seeed WiKi. The list will be constantly updated.
 
 - [ReSpeaker 4-Mic Array for Raspberry Pi](/ReSpeaker_4_Mic_Array_for_Raspberry_Pi/)
-- [ReSpeaker Mic Array](/Respeaker_Mic_Array/)
-- [Respeaker Core](/Respeaker_Core/)
+- [ReSpeaker Mic Array](/ReSpeaker_Mic_Array/)
+- [Respeaker Core](/ReSpeaker_Core/)
 
