@@ -156,7 +156,13 @@ pi@raspberrypi:~/4mics_hat $ source ~/env/bin/activate                   # activ
 (env) pi@raspberrypi:~/4mics_hat $ pip install spidev gpiozero           # install spidev and gpiozero
 ```
 
-#### 3. Then run the example code `python pixels.py`under virtualenv, now we can see the LEDs blink like Google Assistant.
+#### 3. Then run the example code under virtualenv, now we can see the LEDs blink like Google Assistant.
+
+```
+(env) pi@raspberrypi:~/4mics_hat $ python pixels_demo.py
+```
+
+
 
 ### DoA on ReSpeaker 4-Mic Array for Raspberry Pi
 
@@ -175,23 +181,16 @@ pi@raspberrypi:~ $ source ~/env/bin/activate                    # activate the v
 (env) pi@raspberrypi:~ $ git clone https://github.com/voice-engine/voice-engine
 (env) pi@raspberrypi:~ $ cd voice-engine/
 (env) pi@raspberrypi:~/voice-engine $ python setup.py install
-(env) pi@raspberrypi:~/voice-engine $ cd examples
-(env) pi@raspberrypi:~/voice-engine/examples $ nano kws_doa.py
 ```
 
-#### 2. Modify Line 14-21 of `kws_doa.py` to adapt 4-Mics:
+#### 2. Run the demo under virtualenv. Please wake up respeaker with saying `snowboy` and we will see the direction.
 
 ```
-from voice_engine.doa_respeaker_4mic_array import DOA
-
-
-def main():
-    src = Source(rate=16000, channels=4)
-    ch1 = ChannelPicker(channels=4, pick=1)
-    kws = KWS()
-    doa = DOA(rate=16000)
+(env) pi@raspberrypi:~/voice-engine $ cd ~/4mics_hat
+(env) pi@raspberrypi:~/4mics_hat $ python kws_doa.py
 ```
-#### 3. Save and exit, run `python kws_doa.py` under virtualenv. Please wake up respeaker with saying `snowboy` and we will see the directions.
+
+
 
 
 ### Play with Alexa, Baidu and Snowboy
@@ -222,59 +221,16 @@ Run `alexa-auth` in the terminal to get Alexa authorization or run `dueros-auth`
 !!!Note
     If we want to switch between `alexa-auth` and `dueros-auth`, please delete `/home/pi/.avs.json` first. The file is hidden and use the `ls -la` to list the file.
 
+#### 2. Let's Enjoy!
 
-#### 2. Configuration
-
-```
-(env) pi@raspberrypi:~ $ cd /home/pi
-(env) pi@raspberrypi:~ $ git clone https://github.com/respeaker/respeaker_v2_eval.git
-(env) pi@raspberrypi:~ $ cd respeaker_v2_eval/alexa
-(env) pi@raspberrypi:~/respeaker_v2_eval/alexa $ cp ~/4mics_hat/pixels.py ./pixels.py
-(env) pi@raspberrypi:~/respeaker_v2_eval/alexa $ nano ns_kws_doa_alexa.py
-```
-Modify line L15-L50 to below setting:
+Now run `python ns_kws_doa_alexa_with_light.py` under virtualenv, we will see lots of debug message rasing in the terminal. When we see **status code: 204**, try to wake up respeaker with saying `snowboy`. Then the leds will light up, and now we can speak to it, for example, asking "who is the most handsome guy in the world?" or "Do you know how to beat-box?". Just enjoy it!
 
 ```
-    from voice_engine.kws import KWS
-    #from voice_engine.ns import NS
-    #from voice_engine.doa_respeaker_4mic_array import DOA
-    from avs.alexa import Alexa
-    from pixels import pixels
-
-    def main():
-        logging.basicConfig(level=logging.DEBUG)
-
-        src = Source(rate=16000, channels=4, frames_size=800)
-        ch1 = ChannelPicker(channels=4, pick=1)
-        #ns = NS(rate=16000, channels=1)
-        kws = KWS(model='snowboy')
-        #doa = DOA(rate=16000)
-        alexa = Alexa()
-
-        alexa.state_listener.on_listening = pixels.listen
-        alexa.state_listener.on_thinking = pixels.think
-        alexa.state_listener.on_speaking = pixels.speak
-        alexa.state_listener.on_finished = pixels.off
-
-        src.link(ch1)
-        ch1.link(kws)
-        #ch1.link(ns)
-        #ns.link(kws)
-        kws.link(alexa)
-
-        #src.link(doa)
-        def on_detected(keyword):
-            #logging.info('detected {} at direction {}'.format(keyword, doa.get_direction()))
-            logging.info('detected {}'.format(keyword))
-            alexa.listen()
-
-        kws.set_callback(on_detected)
+(env) pi@raspberrypi:~/avs $ cd ~/4mics_hat
+(env) pi@raspberrypi:~/4mics_hat $ python ns_kws_doa_alexa_with_light.py
 ```
-![](https://github.com/SeeedDocument/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/raw/master/img/alexa.png)
 
-#### 3. Let's Enjoy!
 
-Now run `python ns_kws_doa_alexa.py` under virtualenv, we will see lots of debug message rasing in the terminal. When we see **status code: 204**, try to wake up respeaker with saying `snowboy`. Then the leds will light up, and now we can speak to it, for example, asking "who is the most handsome guy in the world?" or "Do you know how to beat-box?". Just enjoy it!
 
 ## Resources
 
