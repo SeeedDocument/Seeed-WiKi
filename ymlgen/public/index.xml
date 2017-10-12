@@ -4586,6 +4586,17 @@ Different from ReSpeaker 2-Mics Pi HAT, this board is developed based on AC108, 
     </item>
     
     <item>
+      <title>ReSpeaker Drive Unit</title>
+      <link>http://wiki.seeed.cc/respeaker_drive_unit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/respeaker_drive_unit/</guid>
+      <description>ReSpeaker Drive Unit is specially designed for ReSpeaker Core, as a separate speaker drive unit.
+With this drive unit that you can build your own smart speaker with Amazon Alexa Voice Services or other voice services. What&amp;rsquo;s more, it supports Airplay that means you can stream your music via smart phone, PC and Mac. And of course play local music is possible.
+ReSpeaker Core contains powerful exntension ability, we hopefully it can help you to enable voice on your prototype/product easily.</description>
+    </item>
+    
+    <item>
       <title>ReSpeaker Introduction</title>
       <link>http://wiki.seeed.cc/respeaker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4593,7 +4604,7 @@ Different from ReSpeaker 2-Mics Pi HAT, this board is developed based on AC108, 
       <guid>http://wiki.seeed.cc/respeaker/</guid>
       <description> ReSpeaker is an open modular voice interface to hack things around you. Let you interact with your home appliances, your plant, your office, your internet-equipped devices or any other things in your daily life, all by your voice.
 Product List Here is the list of the ReSpeaker Boards you can find in the Seeed WiKi. The list will be constantly updated.
- ReSpeaker 2-Mics Pi HAT ReSpeaker 4-Mic Array for Raspberry Pi ReSpeaker Core ReSpeaker Mic Array  </description>
+ ReSpeaker 2-Mics Pi HAT ReSpeaker 4-Mic Array for Raspberry Pi ReSpeaker Core ReSpeaker Drive Unit ReSpeaker Mic Array  </description>
     </item>
     
     <item>
