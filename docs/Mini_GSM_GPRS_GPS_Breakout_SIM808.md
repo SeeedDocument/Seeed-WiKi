@@ -503,8 +503,3 @@ Now share your awesome projects with us on [Recipe](http://www.seeedstudio.com/r
 ##   Support
 
 Any tech support, please contact [_support@deegou.com_](http://www.deegou.com)
-
-##   Service
-
-We do also provide PCB services ( Electronics design, prototype assembly and batch manufacturing )
-If you have any requirements, please contact [_info@deegou.com_](http://www.deegou.com)
