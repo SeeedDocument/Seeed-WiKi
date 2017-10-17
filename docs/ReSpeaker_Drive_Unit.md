@@ -1,8 +1,8 @@
 ---
-title: ReSpeaker Drive Unit 
+title: ReSpeaker Drive Unit
 category: ReSpeaker
-bzurl: 
-oldwikiname:  ReSpeaker Drive Unit 
+bzurl:
+oldwikiname:  ReSpeaker Drive Unit
 prodimagename:  respeaker_core.jpg
 surveyurl:  https://www.research.net/r/ReSpeaker_Drive_Unit
 sku:     
@@ -30,7 +30,7 @@ ReSpeaker Core contains powerful exntension ability, we hopefully it can help yo
 - Impedance: 4Ω
 - SNR: ≥ 75dBA
 - Sensitivity: 550 ± 50mV
-- Degree of Distortion: ≤ 0.5% 
+- Degree of Distortion: ≤ 0.5%
 - Frequency Response: 85Hz - 20kHz
 - Power Supply: 5V through USB or through 3.7V, 1500mAh battery
 - Speaker Diameter: 40mm
@@ -41,7 +41,7 @@ ReSpeaker Core contains powerful exntension ability, we hopefully it can help yo
 
 To drive the Meow King drive unit, the firmware for ReSpeaker Core should be updated. To know the differences between the original stock firmware and this firmware, please refer to the change log [here](https://1drv.ms/u/s!AqG2uRmVUhlShU-EVj-4yeAQ_KoU).
 
-Now let's update the firmware. Firstly, download `ramips-openwrt-v1.0.01-LinkIt7688-squashfs-sysupgrade.bin` from [OneDrive](https://1drv.ms/u/s!AqG2uRmVUhlShU-EVj-4yeAQ_KoU). Copy the firmware to SD card and then plug the SD card into the ReSpeaker Core. Follow [the instruction here](http://wiki.seeed.cc/Respeaker_Core/#2-connect-to-serial-console) to get the serial console. Please note that, to get the USB serial working we need to restore [the default firmware](https://github.com/SeeedDocument/ReSpeaker_Drive_Unit/blob/master/res/respeaker_arduino_library/examples/pixels_pattern/pixels_pattern.ino) for the Arduino chip (ATMega32U4) if we have changed it. After we get the USB serial, type the following commands to update the firmware:
+Now let's update the firmware. Firstly, download `ramips-openwrt-v1.0.01-LinkIt7688-squashfs-sysupgrade.bin` from [OneDrive](https://1drv.ms/f/s!AqG2uRmVUhlShUyg92Q-oNAxNjPR). Copy the firmware to SD card and then plug the SD card into the ReSpeaker Core. Follow [the instruction here](http://wiki.seeed.cc/Respeaker_Core/#2-connect-to-serial-console) to get the serial console. Please note that, to get the USB serial working we need to restore [the default firmware](https://github.com/SeeedDocument/ReSpeaker_Drive_Unit/blob/master/res/respeaker_arduino_library/examples/pixels_pattern/pixels_pattern.ino) for the Arduino chip (ATMega32U4) if we have changed it. After we get the USB serial, type the following commands to update the firmware:
 
 ```shell
 mount /dev/mmcblk0p1 /mnt
@@ -59,14 +59,14 @@ Plug your ReSpeaker Core onto the Meow King drive unit like the image below.
 <img src="https://github.com/SeeedDocument/ReSpeaker_Drive_Unit/raw/master/img/mk_1.jpg" width="50%" height="50%">
 </div>
 
-Press the power logo over 5 seconds, the drive unit will power on, and also the ReSpeaker Core board. 
+Press the power logo over 5 seconds, the drive unit will power on, and also the ReSpeaker Core board.
 
 !!!Note
-    The power control circuit is in the drive unit, even when you pulled the ReSpeaker Core off, pressing the power logo over 5 seconds will still power on the drive unit. 
+    The power control circuit is in the drive unit, even when you pulled the ReSpeaker Core off, pressing the power logo over 5 seconds will still power on the drive unit.
 
 To power down the whole device, please press the power logo over 5 seconds again.
 
-When the device is powered on, the ReSpeaker Core will enter the boot up process. The LED ring will light up with red color for 1 second, indicating that the ReSpeaker Core is booting up. 
+When the device is powered on, the ReSpeaker Core will enter the boot up process. The LED ring will light up with red color for 1 second, indicating that the ReSpeaker Core is booting up.
 
 <div class="text-center">
 <img src="https://github.com/SeeedDocument/ReSpeaker_Drive_Unit/raw/master/img/mk_2.jpg" width="50%" height="50%">
@@ -104,4 +104,3 @@ Now wait a few seconds, find your smart phone and prepare to stream your music o
 
 !!!Note
         An additional tip is that, try to tune the volume up of your player application if you hear no sound after the playing.
-
