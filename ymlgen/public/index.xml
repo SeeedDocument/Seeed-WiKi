@@ -1415,7 +1415,11 @@ Features  Grove Connector Low power consumption Dual Switch  !</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://wiki.seeed.cc/grove-3-axis_digital_accelerometer-16g/</guid>
-      <description>This is a high precision digital accelerometer providing you at max 3.9mg/LSB resolution and large ±16g measurement range. It&amp;rsquo;s base on an advanced 3-axis IC ADXL345. Have no worry to implement it into your free-fall detection project, cause it&amp;rsquo;s robust enough to survive up to 10,000g shock. Meanwhile, it&amp;rsquo;s agile enough to detect single and double taps. It&amp;rsquo;s ideal for motion detection, gesture detection as well as robotics.</description>
+      <description>这是一种高精度数字加速度计，可提供最高 3.9mg / LSB 分辨率和高达±16g测量范围。 它基于先进的 3 轴 IC ADXL345。您无需担心自由落体实验对该模块造成损坏，它可以承受至多 10000g 的振动。此外，它可以灵敏地检查到相关信号，因而可以用于运动检测、手势检测和机器人学。
+
+规格参数  输入电压: 3.3V, 5V 测试范围: ±16 高灵敏度 大测量范围 低功耗电源0.1 μA（在标准模式下VS = 2.5 V (典型值)） 能承受 10,000 g 振动 符合 RoHS/WEEE 无铅标准 Suli标准兼容库  !!!Tip - More details about Grove modules please refer to Grove System
+操作示例 使用 Arduino
+Every accelerometer has been individually tested before shipping to you. But in rare cases, you might need to reset the zero-offset by yourself.</description>
     </item>
     
     <item>
@@ -3204,6 +3208,16 @@ What&amp;rsquo;s included in the kit?</description>
       <guid>http://wiki.seeed.cc/grove/</guid>
       <description>Learn more about Grove System here. The following category of Grove modules are available:
  Grove - Sensor Grove - Actuator Grove - Display Grove - Communication Grove - Others  </description>
+    </item>
+    
+    <item>
+      <title>Grove Inventor Kit for micro:bit</title>
+      <link>http://wiki.seeed.cc/grove_inventor_kit_for_microbit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/grove_inventor_kit_for_microbit/</guid>
+      <description>The BBC micro:bit is a pocket-sized computer that can easily realize your creativity without much electrical and coding knowledge. There are numerous possibility of creation you can dig out by micro:bit, from robots to musical instruments. However if you want to create more things, just 1 micro:bit is barely not enough, That’s why we introduce the Grove Inventor Kit for micro:bit to you.
+The Grove Inventor Kit for Micro:bit brings endless possibilities to your micro:bit.</description>
     </item>
     
     <item>
@@ -5465,7 +5479,7 @@ Further more, you can fix the Arduino board and breadboard as the heart of the r
       
       <guid>http://wiki.seeed.cc/tutorial/</guid>
       <description>Here is the list of the Tutorial you can find in the Seeed WiKi. The list will be constantly updated.
- A Comparison of Different Grove Temperature Sensors A Handy Serial Library AT Command Tester AT Command Tester Application Arduino Common Error Arduino IDE for RePhone Kit Arduino Software I2C user guide Dfu-util Download Arduino and install Arduino driver Eclipse IDE for RePhone Kit FM Receiver Getting Started with Seeeduino Guide to use demos downloaded from Seeed&amp;#39;s Github How To Choose The Right Cable How To Use Sketchbook How to Add Seeed boards to Arduino IDE How to Chose A Gas Sensor How to detect finger touch How to edit a document How to install an Arduino library How to use and write a library I2C And I2C Address of Seeed Product IR Remote IoT Fast Prototyping Kit S5D9 JavaScript for RePhone Joystick Control RGB Led Light Sensor and LED Bar LightView 201k Digital display module LinkIt ONE Tutorial - Analog Interface LinkIt ONE Tutorial - Colorful World LinkIt ONE Tutorial - Get temperature with Webpage LinkIt ONE Tutorial - Hello World LinkIt ONE Tutorial - Light Sensor LinkIt ONE Tutorial - Marquee LinkIt ONE Tutorial - Mini Servo LinkIt ONE Tutorial - Push Button LinkIt ONE Tutorial - SMS control the LED LinkIt ONE Tutorial - The Basics Lua for RePhone Project Eight - Thermostat Project Five – Relay Control Project Four – Noise Maker Project One - Blink Project One - Double Blink Project Seven - Temperature Project Six – LCD Demonstration Project Three – Analog Input v1.</description>
+ A Comparison of Different Grove Temperature Sensors A Handy Serial Library AT Command Tester AT Command Tester Application Arduino Common Error Arduino IDE for RePhone Kit Arduino Software I2C user guide Dfu-util Download Arduino and install Arduino driver Eclipse IDE for RePhone Kit FM Receiver Getting Started with Seeeduino Grove Inventor Kit for micro:bit Guide to use demos downloaded from Seeed&amp;#39;s Github How To Choose The Right Cable How To Use Sketchbook How to Add Seeed boards to Arduino IDE How to Chose A Gas Sensor How to detect finger touch How to edit a document How to install an Arduino library How to use and write a library I2C And I2C Address of Seeed Product IR Remote IoT Fast Prototyping Kit S5D9 JavaScript for RePhone Joystick Control RGB Led Light Sensor and LED Bar LightView 201k Digital display module LinkIt ONE Tutorial - Analog Interface LinkIt ONE Tutorial - Colorful World LinkIt ONE Tutorial - Get temperature with Webpage LinkIt ONE Tutorial - Hello World LinkIt ONE Tutorial - Light Sensor LinkIt ONE Tutorial - Marquee LinkIt ONE Tutorial - Mini Servo LinkIt ONE Tutorial - Push Button LinkIt ONE Tutorial - SMS control the LED LinkIt ONE Tutorial - The Basics Lua for RePhone Project Eight - Thermostat Project Five – Relay Control Project Four – Noise Maker Project One - Blink Project One - Double Blink Project Seven - Temperature Project Six – LCD Demonstration Project Three – Analog Input v1.</description>
     </item>
     
     <item>

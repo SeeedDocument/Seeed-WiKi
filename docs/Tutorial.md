@@ -17,6 +17,7 @@ Here is the list of the Tutorial you can find in the Seeed WiKi. The list will b
 - [Eclipse IDE for RePhone Kit](/Eclipse_IDE_for_RePhone_Kit/)
 - [FM Receiver](/FM_Receiver/)
 - [Getting Started with Seeeduino](/Getting_Started_with_Seeeduino/)
+- [Grove Inventor Kit for micro:bit](/Grove_Inventor_Kit_for_microbit/)
 - [Guide to use demos downloaded from Seeed&#39;s Github](/Guide_to_use_demos_downloaded_from_Seeed-s_Github/)
 - [How To Choose The Right Cable](/How_To_Choose_The_Right_Cable/)
 - [How To Use Sketchbook](/How_To_Use_Sketchbook/)

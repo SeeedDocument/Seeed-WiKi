@@ -11,28 +11,30 @@ sku: 101020054
 ---
 ![](https://github.com/SeeedDocument/Grove_3_Axis_Digital_Accelerometer_Plus_Minus_16g/raw/master/images/Grove-3-Axis_16g_v1.3.jpg)
 
-This is a high precision digital accelerometer providing you at max 3.9mg/LSB resolution and large ±16g measurement range. It's base on an advanced 3-axis IC ADXL345. Have no worry to implement it into your free-fall detection project, cause it's robust enough to survive up to 10,000g shock. Meanwhile, it's agile enough to detect single and double taps. It's ideal for motion detection, gesture detection as well as robotics.
 
-<a href="https://www.seeedstudio.com/Grove-3-Axis-Digital-Accelerometer(%C2%B116g)-p-1156.html">![](https://github.com/SeeedDocument/Grove_3_Axis_Digital_Accelerometer_Plus_Minus_16g/raw/master/images/300px-Get_One_Now_Banner.png)</a>
+这是一种高精度数字加速度计，可提供最高 3.9mg / LSB 分辨率和高达±16g测量范围。 它基于先进的 3 轴 IC ADXL345。您无需担心自由落体实验对该模块造成损坏，它可以承受至多 10000g 的振动。此外，它可以灵敏地检查到相关信号，因而可以用于运动检测、手势检测和机器人学。
 
 
-## Specifications
+[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/click_to_buy.PNG)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.13.5bd1190VbULj1&id=45505202190)
+
+
+## 规格参数
 ---
-- Input Voltage: 3.3V, 5V
-- Test Range: ±16
-- High sensitivity
-- Large measurement range
-- Low power 0.1 μA in standby mode at VS = 2.5 V (typical)
-- 10,000 g shock survival
-- RoHS/WEEE lead-free compliant
-- Suli-compatible Library
+- 输入电压: 3.3V, 5V
+- 测试范围: ±16
+- 高灵敏度
+- 大测量范围
+- 低功耗电源0.1 μA（在标准模式下VS = 2.5 V (典型值)）
+- 能承受 10,000 g 振动
+- 符合 RoHS/WEEE 无铅标准
+- Suli标准兼容库
 
 !!!Tip
-    More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+    - More details about Grove modules please refer to [Grove System](http://seeed.wiki/Grove_System/)
 
-## Demonstration
+## 操作示例
 ---
-**With Arduino**
+**使用 Arduino**
 
 Every accelerometer has been individually tested before shipping to you. But in rare cases, you might need to reset the zero-offset by yourself.
 Here below we show you how to read the raw data and obtain data in the unit of g, AKA g-force, from this accelerometer.
@@ -42,7 +44,7 @@ Here below we show you how to read the raw data and obtain data in the unit of g
 - **Step1:** Plug it onto the I2C port of your Grove - Base Shield.
 - **Step2:** Download the [Digital Accelerometer(±16g) Library](https://github.com/Seeed-Studio/Accelerometer_ADXL345) .zip and unpack it into arduino-1.0\libraries in your Arduino installation folder. If you don't know how to install library for Arduino, please follow the toturial [How to install an Arduino library](/Tutorial/How_to_Install_an_Arduino_Library/)
 - **Step3：** If you  have the library installed, Open the demo code directly by the path:
-**File -> Example ->DigitalAccelerometer_ADXL345->ADXL345_demo_code.**
+** File(文件) -> Example(示例) ->DigitalAccelerometer_ADXL345->ADXL345_demo_code. **
 - **Step4：** Upload the code and open the serial monitor(usually it is on the right up corner). Please refer to the toturial [Upload code](http://wiki.seeedstudio.com/wiki/Upload_Code) if you do not know how to upload.
 - **Step5：** The result will be showed as the format in below image, shake the grove and you will find the number changing.
 
@@ -314,8 +316,8 @@ if __name__ == "__main__":
 
 ## Resources
 ---
-- [Suli-compatible Library](https://github.com/Seeed-Studio/ACC_Adxl345_Suli)
-- [github repository for 3-Axis Digital Accelerometer(±16g)](https://github.com/Seeed-Studio/Accelerometer_ADXL345)
-- [Grove - 3-Axis Digital Accelerometer(±16g)](https://github.com/SeeedDocument/Grove_3_Axis_Digital_Accelerometer_Plus_Minus_16g/raw/master/resources/DigitalAccelerometer_ADXL345.zip)
-- [Eagle file.zip](https://github.com/SeeedDocument/Grove_3_Axis_Digital_Accelerometer_Plus_Minus_16g/raw/master/resources/202000067_PCBA-Grove%203%20Axis%20Digital%20Accelerometer%C2%B116g%20v1.2.zip)
-- [ADXL345 datasheet.pdf](https://github.com/SeeedDocument/Grove_3_Axis_Digital_Accelerometer_Plus_Minus_16g/raw/master/res/ADXL345_datasheet.pdf)
+- **[原理图]** [Eagle file.zip](https://github.com/SeeedDocument/Grove_3_Axis_Digital_Accelerometer_Plus_Minus_16g/raw/master/resources/202000067_PCBA-Grove%203%20Axis%20Digital%20Accelerometer%C2%B116g%20v1.2.zip)
+- **[库文件]**[Suli-compatible Library](https://github.com/Seeed-Studio/ACC_Adxl345_Suli)
+- **[数据手册]**[ADXL345 datasheet.pdf](https://github.com/SeeedDocument/Grove_3_Axis_Digital_Accelerometer_Plus_Minus_16g/raw/master/res/ADXL345_datasheet.pdf)
+- **[其他资源]**[github repository for 3-Axis Digital Accelerometer(±16g)](https://github.com/Seeed-Studio/Accelerometer_ADXL345)
+- **[其他资源]**[Grove - 3-Axis Digital Accelerometer(±16g)](https://github.com/SeeedDocument/Grove_3_Axis_Digital_Accelerometer_Plus_Minus_16g/raw/master/resources/DigitalAccelerometer_ADXL345.zip)
