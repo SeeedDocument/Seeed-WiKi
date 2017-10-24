@@ -38,15 +38,28 @@ Regarding the gateway module RHF0M301, it is a 10 channel(8 x Multi-SF + 1 x Sta
 
 ## User Manual
 The user manual from RisingHF has well instructed how to use the LoRaWan Getway Kit, it will describe the usage of this kit in details, including
-- how to buildup hardware,
+-  how to buildup hardware,
 -  how to connect to a LoRaWan network,
 -  how to test hardware and so on.
 
 Please click to download the [User Manual](https://github.com/SeeedDocument/LoRaWAN_Gateway-868MHz_Kit_with_Raspberry_Pi_3/raw/master/res/%5BRHF-UM01649%5DIoT%20Discovery%20User%20Manual-seeed-v2.1.pdf).
 
 !!!note
-    Please note that the part list in the user manual is not the same as the LoRaWAN Getway Kit.
+    Please note that the part list in the user manual is not the same as the LoRaWAN Getway Kit. When you run Session 3.1 Loriot Server Gateway Registration Step i "./lrt -f -i eth0 -s cn1.loriot.io", there will be an error as below. 
 
+![](https://github.com/SeeedDocument/LoRaWAN_Gateway-868MHz_Kit_with_Raspberry_Pi_3/raw/master/img/Gateway_error.jpg)
+
+The reason behind is that Loriot server is upgraded while our image SDK is not upgraded yet. So please follow below instructions to upgrade the gateway SDK manually. We will upgrade the image later on.
+
+```
+cd /home/rxhf/loriot/1.0.2
+sudo systemctl stop pktfwd
+sudo gwrst
+wget https://cn1.loriot.io/home/gwsw/loriot-risinghf-rhf2s008-rhf1257-SPI-0-latest.bin -O loriot-gw.bin
+chmod +x loriot-gw.bin
+./loriot-gw.bin -f -s cn1.loriot.io
+
+```
 
 ## Resources
 - [User Manual](https://github.com/SeeedDocument/LoRaWAN_Gateway-868MHz_Kit_with_Raspberry_Pi_3/raw/master/res/%5BRHF-UM01649%5DIoT%20Discovery%20User%20Manual-seeed-v2.1.pdf).

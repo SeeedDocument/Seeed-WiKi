@@ -17,7 +17,6 @@ pages:
         - Basic Fastener Kit: Basic_Fastener_Kit.md
         - Galileo Case: Galileo_Case.md
         - Grove Maker Kit for Intel Joule: Grove Maker Kit for Intel Joule.md
-        - Grove Maker Kit for Intel Joule: Grove_Maker_Kit_for_Intel_Joule.md
         - Grove Speech Recognizer Kit for Arduino: Grove_Speech_Recognizer_Kit_for_Arduino.md
         - Grove Starter kit for Arduino&amp;Genuino 101: Grove_Starter_kit_for_Arduino_101.md
         - Hercules Dual 15A 6-20V Motor Controller: Hercules_Dual_15A_6-20V_Motor_Controller.md
@@ -229,11 +228,11 @@ pages:
 
     - ReSpeaker:
         - ReSpeaker Introduction: ReSpeaker.md
-        - ReSpeaker 2-Mics Pi HAT: Respeaker_2_Mics_Pi_HAT.md
+        - ReSpeaker 2-Mics Pi HAT: ReSpeaker_2_Mics_Pi_HAT.md
         - ReSpeaker 4-Mic Array for Raspberry Pi: ReSpeaker_4_Mic_Array_for_Raspberry_Pi.md
-        - ReSpeaker Core: Respeaker_Core.md
+        - ReSpeaker Core: ReSpeaker_Core.md
         - ReSpeaker Drive Unit: ReSpeaker_Drive_Unit.md
-        - ReSpeaker Mic Array: Respeaker_Mic_Array.md
+        - ReSpeaker Mic Array: ReSpeaker_Mic_Array.md
 
 
 
