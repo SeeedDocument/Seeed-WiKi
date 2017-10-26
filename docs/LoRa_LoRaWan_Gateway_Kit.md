@@ -16,7 +16,7 @@ Regarding the gateway module RHF0M301, it is a 10 channel(8 x Multi-SF + 1 x Sta
 
 
 !!!Warning
-    Please always plug 3.7V Lipo battery incase USB power supply is not suffient. This wiki works for both 868MHz kit and 915MHz kit.
+    Please always plug 3.7V Lipo battery in case USB power supply is not sufficient. This wiki works for both 868MHz kit and 915MHz kit.
 
 
 |868MHz Kit with Raspberry Pi 3|[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/LoRa-LoRaWAN-Gateway-868MHz-Kit-with-Raspberry-Pi-3-p-2823.html)|
