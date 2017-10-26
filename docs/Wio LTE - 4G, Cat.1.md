@@ -18,6 +18,9 @@ Apart from the three main updates, the LTE version is almost the same as the 2G 
 
 The Wio LTE is well suited for outdoor projects where the device can connect to the GPS satellites and provide a real-time location of the item it is attached to. The LTE provides a wide bandwidth which allows much faster interaction between the user and device. If you are going to build  projects like a bicycle sharing service, tracking pets or livestock, locating a vehicle, or even keeping track of a child, the Wio LTE is the best solution.
 
+!!!Warning
+    Please always plug 3.7V Lipo battery incase USB power supply is not suffient.
+
 
 ## Features
 
@@ -50,7 +53,8 @@ The Wio LTE is well suited for outdoor projects where the device can connect to 
 ||Precision|<2.5 m CEP|
 |Peripheral|Grove|2 x Grove Digital Port|
 |||2 x Analog Port|
-|||1 x UART||||1 x I2C|
+|||1 x UART|
+|||1 x I2C|
 ||Antenna|2 x LTE Antenna|
 |||1 x GPS Antenna|
 ||Others|USB: Power supply and upload program|

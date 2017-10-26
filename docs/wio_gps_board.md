@@ -19,6 +19,9 @@ Why do we call the Wio Tracker a solution, because it is really not just a board
 
 We have prepared everything, the last thing we need is your creative projects, so if you are making an out-door IOT tracking project, please don’t hesitate to use the Wio Tracker!
 
+!!!Warning
+    Please always plug 3.7V Lipo battery incase USB power supply is not suffient.
+
 [![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/Wio-Tracker-GPS%2C-BT3.0%2C-GSM%2C-Arduino-Compatible-p-2831.html)
 
 ## Features

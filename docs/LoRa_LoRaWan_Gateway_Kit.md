@@ -14,8 +14,10 @@ This kit provides all the basic elements you need: a Raspberry Pi 3, a Seeeduino
 
 Regarding the gateway module RHF0M301, it is a 10 channel(8 x Multi-SF + 1 x Standard LoRa + 1 x FSK) LoRaWan gateway moduel with a 24pin DIP port on board, users can easily connect the RHF0M301 with PRI 2 bridge RHF4T002, adapter for Raspberry Pi 3 and RHF0M301. We also included a 868MHz antenna, an 8GB SD card and USB cables, Ethernet Cables and other accessories.
 
-!!!note
-    This wiki works for both 868MHz kit and 915MHz kit
+
+!!!Warning
+    Please always plug 3.7V Lipo battery incase USB power supply is not suffient. This wiki works for both 868MHz kit and 915MHz kit.
+
 
 |868MHz Kit with Raspberry Pi 3|[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/LoRa-LoRaWAN-Gateway-868MHz-Kit-with-Raspberry-Pi-3-p-2823.html)|
 |---|---|
