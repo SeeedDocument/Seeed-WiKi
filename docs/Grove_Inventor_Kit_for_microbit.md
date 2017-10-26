@@ -205,7 +205,7 @@ display.
 
 ## Resources
 
-  [**Manual book**](https://github.com/SeeedDocument/Grove_kit_for_microbit/blob/master/res/Guide-Grove%20kit%20for%20microbit.pdf)
+  [**Grove Inventor Kit for micro:bit User Manual**](https://github.com/SeeedDocument/Grove_kit_for_microbit/blob/master/res/Guide-Grove%20kit%20for%20microbit.pdf)
 
   [**micro:bit Getting Started Videos**](http://microbit.org/start/)
 

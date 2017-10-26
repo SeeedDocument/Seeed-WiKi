@@ -22,7 +22,7 @@ If you want to build an IoT application quickly, Seeeduino LoRaWAN is your best 
 |Seeeduino LoRaWAN W/GPS |Dec 20, 2016|[![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now_small.png)](https://www.seeedstudio.com/Seeeduino-LoRaWAN-W%2FGPS-p-2781.html)|
 
 !!!Warning
-    Please update the firmware when the first time to use it. Please always plug 3.7V Lipo battery incase USB power supply is not suffient. 
+    Please update the firmware when the first time to use it. Please always plug 3.7V Lipo battery incase USB power supply is not suffient.
 
 !!!Tip
     Seeeduino LoRaWAN W/GPS is consist of GPS module.
@@ -514,3 +514,4 @@ Then the updating is started.
 * [CE certification of RHF 76-052](https://github.com/SeeedDocument/Seeeduino_LoRa/raw/master/res/ce-rhf76-052.pdf)
 * [RHF76-052 Firmware V2.0.10](https://github.com/SeeedDocument/Seeeduino_LoRa/raw/master/res/rhf76-052am-v2.0.10-20160923.ebin 2.bin)
 * [Datasheet of RHF76-052AM](https://github.com/SeeedDocument/Seeeduino_LoRa/raw/master/res/rhf-ds01500_rhf76-052_datasheet_v03.pdf)
+* [Datasheet of GPS Chip L70B-M39 ](https://github.com/SeeedDocument/Seeeduino_LoRa/raw/master/res/L70B-M39.pdf)
