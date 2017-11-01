@@ -236,6 +236,13 @@ SDXC
 
 ![enter image description here](https://github.com/SeeedDocument/LinkIt_Smart_7688/raw/master/img/Back_hardware_view_with_text_1200_s.jpg)
 
+!!!note
+    In order to protect the product from improper operation, please pay attention to below notes.
+Choose more reliable power adapter with stable output.Recommended conditions of power input source for 7688:
+     1. Overshoot voltage of power input should not over 5.5.
+     2. Voltage wave should be within ±100mV of rated voltage.
+
+
 ###  Parts list
 
 <table>

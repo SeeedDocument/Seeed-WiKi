@@ -89,6 +89,14 @@ LinkItTM Smart 7688 Duo(a compact controller board) is an open development board
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/LinkIt_Smart_7688_Duo/master/img/7688_duo_backview_with_text_1200.jpg)
 
+
+!!!note
+    In order to protect the product from improper operation, please pay attention to below notes.
+Choose more reliable power adapter with stable output.Recommended conditions of power input source for 7688:
+     1. Overshoot voltage of power input should not over 5.5.
+     2. Voltage wave should be within ±100mV of rated voltage.
+     
+
 ## Getting started
 
 ### Connecting to the embedded operating system
