@@ -67,7 +67,7 @@ Here is the list of the MakerPro Boards you can find in the Seeed WiKi. The list
 - [M11*1.25 Water Flow Sensor](/M11_1.25_Water_flow_Sensor/)
 - [Matrix Clock](/Matrix_Clock/)
 - [Mini Soldering Iron](/Mini_Soldering_Iron/)
-- [PIR Motion sensor module](/PIR_Motion_sensor_module/)
+- [PIR Motion sensor module](/PIR_Motion_Sensor_Large_Lens_version/)
 - [Photo Reflective Sensor](/Photo_Reflective_Sensor/)
 - [Photo interrupter (OS25B10)](/Photo_interrupter_OS25B10/)
 - [Piezo Sensor - MiniSense 100](/Piezo_Sensor-MiniSense_100/)

@@ -4109,10 +4109,10 @@ Product List Here is the list of Grove Others Boards you can find in the Seeed W
     
     <item>
       <title>PIR Motion sensor module</title>
-      <link>http://wiki.seeed.cc/pir_motion_sensor_module/</link>
+      <link>http://wiki.seeed.cc/pir_motion_sensor_large_lens_version/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://wiki.seeed.cc/pir_motion_sensor_module/</guid>
+      <guid>http://wiki.seeed.cc/pir_motion_sensor_large_lens_version/</guid>
       <description>PIR（Passive Infrared Detection）are used to detect motion of human movement. This version has a large lens which can support long range and wide angle. 2.54mm standard connector is easy to fix it anywhere.
 
 Features  Long range
