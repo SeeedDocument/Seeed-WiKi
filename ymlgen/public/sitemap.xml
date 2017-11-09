@@ -1464,6 +1464,11 @@
   </url>
   
   <url>
+    <loc>http://wiki.seeed.cc/tags/grove_i2c-io_3v3-io_5v-plat_duino-plat_linkit-plat_bbg-plat_wio-plat_pi/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://wiki.seeed.cc/tags/grove_i2c-io_3v3-io_5v-plat_duino-plat_linkit-plat_pi-plat_bbg/</loc>
     <priority>0</priority>
   </url>

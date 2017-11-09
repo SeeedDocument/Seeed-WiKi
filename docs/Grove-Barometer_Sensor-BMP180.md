@@ -7,7 +7,7 @@ prodimagename: Barometer-BMP180-.jpg
 bzprodimageurl: http://statics3.seeedstudio.com/images/product/Grove Barometer Sensor BMP180.jpg
 surveyurl: https://www.research.net/r/Grove-Barometer_Sensor-BMP180
 sku: 101020072
-tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg, plat_wio
+tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg, plat_wio, plat_pi
 ---
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Barometer_Sensor-BMP180/master/img/Barometer-BMP180-.jpg)
@@ -30,7 +30,7 @@ Features
 
 !!!Tip
     More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
-    
+
 Application Ideas
 -----------------
 
@@ -176,16 +176,16 @@ Barometric condition is one of the criteria used to predict coming change in wea
     void setup(){
       Serial.begin(9600);
       myBarometer.init();
-      
+
     }
 
     void loop()
     {
        temperature = myBarometer.bmp085GetTemperature(myBarometer.bmp085ReadUT()); //Get the temperature, bmp085ReadUT MUST be called first
        pressure = myBarometer.bmp085GetPressure(myBarometer.bmp085ReadUP());//Get the temperature
-       altitude = myBarometer.calcAltitude(pressure); //Uncompensated calculation - in Meters 
-       atm = pressure / 101325; 
-      
+       altitude = myBarometer.calcAltitude(pressure); //Uncompensated calculation - in Meters
+       atm = pressure / 101325;
+
       Serial.print("Temperature: ");
       Serial.print(temperature, 2); //display 2 decimal places
       Serial.println("deg C");
