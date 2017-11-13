@@ -51,7 +51,7 @@ Connect the LED to Port D4 and power on the Raspberry Pi, using the Grove wire c
 ![](https://github.com/SeeedDocument/Grove-Red_LED/raw/master/img/GrovePiPlus_red_led.jpg)
 
 
-```
+```python
 # GrovePi LED Blink example
 
 import time
@@ -82,12 +82,12 @@ while True:
 ####   Run The Program
 
 *   Find the path to the file(According to your own path)
-```
+```shell
 cd GrovePi/Software/Python/
 ```
 
 *   Run Program
-```
+```shell
 sudo python grove_led_blink.py
 ```
 

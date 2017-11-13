@@ -144,7 +144,7 @@ Let us implement simple optical encoder to detect the speed of a motor
 
 4.Upload the demo code to your Arduino/Seeeduino.
 
-```
+```cpp
 unsigned int counter=0;
 void blink()
 {
@@ -196,18 +196,18 @@ void loop()
 
 4.Navigate to the demos' directory, run the following command in a terminal.
 
-```
+```shell
     cd yourpath/GrovePi/Software/Python/
 ```
 
 Run the command in a terminal.
-```
+```shell
     nano grove\_infrared\_reflective\_sensor.py
 ```
 
 Copy and save the following code into it.
 
-```
+```python
 import time
 import grovepi
  
@@ -232,7 +232,7 @@ while True:
 ```
 
 5.To run the demo, execute the following command in terminal:
-```
+```shell
     sudo python grove\_infrared\_reflective\_sensor.py
 ```
 

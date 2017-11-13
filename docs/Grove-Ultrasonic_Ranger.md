@@ -75,7 +75,7 @@ Here we will show you how this Grove - Ultrasonic Ranger works via a simple demo
 - Download the  [ UltrasonicRanger Library](https://github.com/Seeed-Studio/Grove_Ultrasonic_Ranger/archive/master.zip) and  [  Grove - LCD RGB Backlight Library ](https://github.com/Seeed-Studio/Grove_LCD_RGB_Backlight/archive/master.zip) from Github.
 -  If you don't know how to install library for Arduino, please refer to [How to install library](/How_to_Install_an_Arduino_Library/)
 
-```
+```cpp
 #include <Wire.h>
 #include "rgb_lcd.h"
 #include "Ultrasonic.h"
@@ -122,7 +122,7 @@ This example shows how to measure the distance to obstacles using the ultrasonic
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove_Ultrasonic_Ranger/master/image/600px-Ultrasonic.jpg)
 
 #### Software
-```
+```cpp
 /*
  Ultrasonic-Ranger to 4-digit-display
  Measure the distance to obstacles in front and display the value on
@@ -225,11 +225,11 @@ while True:
 ```
 ### Run The Program
 - Find the path to the file(According to your own path)
-```Javascript
+```shell
  cd GrovePi/Software/Python/
 ```
 - Run Program
-```Javascript
+```shell
  sudo python grove_ultrasonic.py
 ```
 
