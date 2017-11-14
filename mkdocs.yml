@@ -228,11 +228,11 @@ pages:
 
     - ReSpeaker:
         - ReSpeaker Introduction: ReSpeaker.md
-        - ReSpeaker 2-Mics Pi HAT: Respeaker_2_Mics_Pi_HAT.md
+        - ReSpeaker 2-Mics Pi HAT: ReSpeaker_2_Mics_Pi_HAT.md
         - ReSpeaker 4-Mic Array for Raspberry Pi: ReSpeaker_4_Mic_Array_for_Raspberry_Pi.md
-        - ReSpeaker Core: Respeaker_Core.md
+        - ReSpeaker Core: ReSpeaker_Core.md
         - ReSpeaker Drive Unit: ReSpeaker_Drive_Unit.md
-        - ReSpeaker Mic Array: Respeaker_Mic_Array.md
+        - ReSpeaker Mic Array: ReSpeaker_Mic_Array.md
 
 
 
@@ -332,6 +332,7 @@ pages:
         - Grove - Voltage Divider: Grove-Voltage_Divider.md
         - Grove - Water Sensor: Grove-Water_Sensor.md
         - Grove - XBee Carrier: Grove-XBee_Carrier.md
+        - Grove-TF Mini LiDAR: Grove-TF_Mini_LiDAR.md
 
     - Actuator:
         - Actuator Introduction: Actuator.md

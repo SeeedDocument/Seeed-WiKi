@@ -98,5 +98,6 @@ Here is the list of the Grove - Sensor Boards you can find in the Seeed WiKi. Th
 - [Grove - Voltage Divider](/Grove-Voltage_Divider/)
 - [Grove - Water Sensor](/Grove-Water_Sensor/)
 - [Grove - XBee Carrier](/Grove-XBee_Carrier/)
+- [Grove-TF Mini LiDAR](/Grove-TF_Mini_LiDAR/)
 
 
