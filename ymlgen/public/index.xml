@@ -3033,6 +3033,15 @@ Product Update We have made some update on this product in order to improve the 
     </item>
     
     <item>
+      <title>Grove - Ultrasonic Ranger</title>
+      <link>http://wiki.seeed.cc/grove-ultrasonic_ranger_2017/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/grove-ultrasonic_ranger_2017/</guid>
+      <description>This Grove - Ultrasonic ranger is a non-contact distance measurement module which works at 40KHz. When we provide a pulse trigger signal with more than 10uS through singal pin, the Grove_Ultrasonic_Ranger will issue 8 cycles of 40kHz cycle level and detect the echo. The pulse width of the echo signal is proportional to the measured distance. The formula: Distance = echo signal high time * Sound speed (340M/S)/2. Grove_Ultrasonic_Ranger&amp;rsquo;s trig and echo singal share 1 SIG pin.</description>
+    </item>
+    
+    <item>
       <title>Grove - Variable Color LED</title>
       <link>http://wiki.seeed.cc/grove-variable_color_led/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

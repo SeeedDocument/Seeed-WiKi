@@ -13,7 +13,7 @@ tags: io_3v3, io_5v, plat_duino, plat_pi
 
 This Grove - Ultrasonic ranger is a non-contact distance measurement module which works at 40KHz. When we provide a pulse trigger signal with more than 10uS through singal pin, the Grove_Ultrasonic_Ranger will issue 8 cycles of 40kHz cycle level and detect the echo. The pulse width of the echo signal is proportional to the measured distance. The formula: Distance = echo signal high time * Sound speed (340M/S)/2. Grove_Ultrasonic_Ranger's trig and echo singal share 1 SIG pin.
 
-!!Warning
+!!!Warning
 	Do not hot plug Grove-Ultrasonic-Ranger, otherwise it will damage the sensor. The measured area must be no less than 0.5 square meters and smooth.
 
 [![Get one now](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/image/300px-Get_One_Now_Banner.png)](https://www.seeedstudio.com/Grove-Ultrasonic-Ranger-p-960.html)
@@ -69,7 +69,7 @@ Platforms Supported
 ![](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/img/arduino%20connection.jpg)
 
 !!!Note
-If we don't have Grove Base Shield, We also can directly connect Grove_Ultrasonic_Ranger to Arduino as below.
+	If we don't have Grove Base Shield, We also can directly connect Grove_Ultrasonic_Ranger to Arduino as below.
 
 | Seeeduino       | Grove-Ultrasonic Ranger |
 |---------------|-------------------------|
