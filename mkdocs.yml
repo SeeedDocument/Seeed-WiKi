@@ -167,7 +167,7 @@ pages:
 
     - Wio_Tracker:
         - Wio_Tracker Introduction: Wio_Tracker.md
-        - Wio LTE - 4G, Cat.1: Wio LTE - 4G, Cat.1.md
+        - Wio LTE Cat.1: Wio_LTE_Cat.1.md
         - Wio Tracker - GPS, BT3.0, GSM, Arduino Compatible: wio_gps_board.md
 
     - Shield:

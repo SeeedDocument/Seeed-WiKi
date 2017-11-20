@@ -5716,11 +5716,11 @@ The shield&amp;rsquo;s default communication protocol with the Arduino is UART/S
     </item>
     
     <item>
-      <title>Wio LTE - 4G, Cat.1</title>
-      <link>http://wiki.seeed.cc/wio-lte---4g-cat.1/</link>
+      <title>Wio LTE Cat.1</title>
+      <link>http://wiki.seeed.cc/wio_lte_cat.1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://wiki.seeed.cc/wio-lte---4g-cat.1/</guid>
+      <guid>http://wiki.seeed.cc/wio_lte_cat.1/</guid>
       <description>Wio Tracker (Wireless Input Output) is an open source gateway which enable faster IoT GPS solutions. It is Arduino and Grove compatible development boards that helps you track nearly any moving thing on the planet and then upload that data wirelessly. The Wio LTE is the LTE version of Wio Tracker, so now we’ve got 2 versions of Wio Tracker and the LTE (4G) version will make some differences.</description>
     </item>
     
