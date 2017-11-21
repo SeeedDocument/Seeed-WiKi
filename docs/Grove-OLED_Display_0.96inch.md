@@ -353,6 +353,13 @@ if __name__=="__main__":
 
 **Step5**: Run the code. We'll find that the Grove - OLED outputs "Hello World".
 
+## Try it in JAVA!
+
+Check out this tutorial for the [Grove OLED Display 0.96inch](https://github.com/oci-pronghorn/FogLight-Grove/blob/master/OLED128x64/README.md).   
+Its part of the open source framework FogLight where  many of the [Grove Devices](https://github.com/oci-pronghorn/FogLight-Grove) are supported. 
+It was designed for IoT applications and provides an integrated web server.   
+
+
 ## Resources
 -----------
 - **[Eagle]** [Grove-OLED128x64](https://github.com/SeeedDocument/Grove_OLED_Display_0.96/raw/master/resource/OLED%20128x64.zip)

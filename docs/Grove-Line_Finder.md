@@ -112,6 +112,12 @@ while True:
    sudo python grove_line_finder.py
 ```
 
+## Try it in JAVA!
+
+Check out this tutorial for the [Grove Line Finder](https://github.com/oci-pronghorn/FogLight-Grove/blob/master/LineFinder/README.md).   
+Its part of the open source framework FogLight where  many of the [Grove Devices](https://github.com/oci-pronghorn/FogLight-Grove) are supported. 
+It was designed for IoT applications and provides an integrated web server.   
+
 ## Resources
 ---
 - [Eagle files](https://github.com/SeeedDocument/Grove_Line_Finder/raw/master/res/202000970_Grove%20-%20Line%20Finder%20v1.0_eagle%20files.zip)
