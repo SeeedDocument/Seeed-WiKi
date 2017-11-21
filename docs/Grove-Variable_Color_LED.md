@@ -90,6 +90,11 @@ void loop()  {
 ```
 -   Upload the code.Adjust the three adjustable resistances, I am sure you will like it. Have a try!
 
+## Try it in JAVA!
+
+Check out this tutorial for the [Grove Variable Color LED](https://github.com/oci-pronghorn/FogLight-Grove/blob/master/VariableColorLED/README.md).   
+Its part of the open source framework FogLight where  many of the [Grove Devices](https://github.com/oci-pronghorn/FogLight-Grove) are supported. 
+It was designed for IoT applications and provides an integrated web server.   
 
 Resources
 ---------

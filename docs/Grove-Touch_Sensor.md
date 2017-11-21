@@ -115,6 +115,11 @@ void loop() {
 
         sudo python grove_touch_sensor.py
 
+## Try it in JAVA!
+
+Check out this tutorial for the [Grove Touch Sensor](https://github.com/oci-pronghorn/FogLight-Grove/blob/master/TouchSensor/README.md).   
+Its part of the open source framework FogLight where  many of the [Grove Devices](https://github.com/oci-pronghorn/FogLight-Grove) are supported. 
+It was designed for IoT applications and provides an integrated web server.   
 
 Resources
 ---------

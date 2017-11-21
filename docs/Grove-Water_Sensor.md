@@ -238,6 +238,12 @@ while True:
 sudo python grove_water_sensor.py
 ```
 
+## Try it in JAVA!
+
+Check out this tutorial for the [Grove Water Sensor](https://github.com/oci-pronghorn/FogLight-Grove/blob/master/WaterSensor/README.md).   
+Its part of the open source framework FogLight where  many of the [Grove Devices](https://github.com/oci-pronghorn/FogLight-Grove) are supported. 
+It was designed for IoT applications and provides an integrated web server.   
+
 Resources
 ---------
 

@@ -171,6 +171,12 @@ First of all, we need to prepare the below stuffs:
     sudo python grove_piezo_vibration_sensor.py
 ```
 
+## Try it in JAVA!
+
+Check out this tutorial for the [Grove Piezo Vibration Sensor](https://github.com/oci-pronghorn/FogLight-Grove/blob/master/VibrationSensor/README.md).   
+Its part of the open source framework FogLight where  many of the [Grove Devices](https://github.com/oci-pronghorn/FogLight-Grove) are supported. 
+It was designed for IoT applications and provides an integrated web server.   
+
 ## Resources
 ---------
 

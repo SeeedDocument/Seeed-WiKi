@@ -202,6 +202,12 @@ pi@raspberrypi:~/GrovePi/Software/Python $ python grove_ultrasonic.py
 ## FAQs
 Please click [here](http://support.seeedstudio.com/knowledgebase/articles/1822222-grove-ultrasonic-ranger-sku-101020010) to see all Grove-Ultrasonic Ranger FAQs.
 
+## Try it in JAVA!
+
+Check out this tutorial for the [Grove Ultrasonic Ranger](https://github.com/oci-pronghorn/FogLight-Grove/blob/master/UltrasonicRangefinder/README.md).   
+Its part of the open source framework FogLight where  many of the [Grove Devices](https://github.com/oci-pronghorn/FogLight-Grove) are supported. 
+It was designed for IoT applications and provides an integrated web server.   
+
 ## Resources
 ---
 - **[PDF]** [Grove_Ultrasonic Ranger Schematic](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/res/Grove_Ultrasonic%20Ranger%20Schematic.pdf)
