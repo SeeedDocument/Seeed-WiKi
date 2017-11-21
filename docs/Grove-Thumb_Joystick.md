@@ -179,6 +179,11 @@ The output value from the analog port of Arduino can be converted to the corresp
 ```
     sudo python grove_thumb_joystick.py
 ```
+## Try it in JAVA!
+
+Check out this tutorial for the [Grove Thumb Joystick](https://github.com/oci-pronghorn/FogLight-Grove/blob/master/ThumbJoystick/README.md).   
+Its part of the open source framework FogLight where  many of the [Grove Devices](https://github.com/oci-pronghorn/FogLight-Grove) are supported. 
+It was designed for IoT applications and provides an integrated web server.   
 
 Resources
 ---------

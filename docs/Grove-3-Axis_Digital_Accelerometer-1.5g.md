@@ -148,6 +148,12 @@ The second figure gives some examples:
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-3-Axis_Digital_Accelerometer-1.5g/master/img/Sensing_Direction_1.jpg)
 
+## Try it in JAVA!
+
+Check out this tutorial for the [Grove 3 Axis Accelerometer - 1.5g](https://github.com/oci-pronghorn/FogLight-Grove/blob/master/ThreeAxisAccelerometer/README.md).   
+Its part of the open source framework FogLight where  many of the [Grove Devices](https://github.com/oci-pronghorn/FogLight-Grove) are supported. 
+It was designed for IoT applications and provides an integrated web server.   
+
 Resources
 ---------
 
