@@ -123,6 +123,12 @@ cd GrovePi/Software/Python/
 sudo python grove_led_blink.py
 ```
 
+## Try it in JAVA!
+
+Check out this tutorial for the [Grove LED Socket Kit](https://github.com/oci-pronghorn/FogLight-Grove/blob/master/LED/README.md).   
+Its part of the open source framework FogLight where  many of the [Grove Devices](https://github.com/oci-pronghorn/FogLight-Grove) are supported. 
+It was designed for IoT applications and provides an integrated web server.   
+
 ##  Resources
 ---
 *   [Grove - LED V1.3 Source files (Eagle and pdf)](https://github.com/SeeedDocument/Grove-LED_Socket_Kit/raw/master/res/Grove-LED_v1.3_Schematics.zip)
