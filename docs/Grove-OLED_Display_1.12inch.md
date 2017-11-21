@@ -237,6 +237,12 @@ Example:
 
     SeeedGrayOled.activateScroll();   //Disable scrolling.
 
+## Try it in JAVA!
+
+Check out this tutorial for the [Grove OLED Display 1.12inch](https://github.com/oci-pronghorn/FogLight-Grove/blob/master/OLED96x96/README.md).   
+Its part of the open source framework FogLight where  many of the [Grove Devices](https://github.com/oci-pronghorn/FogLight-Grove) are supported. 
+It was designed for IoT applications and provides an integrated web server.   
+
 ## Resources
 ---------
 * **[Eagle]** [Grove-OLED Display 1.12inch in Eagle](https://github.com/SeeedDocument/Grove_OLED_1.12/raw/master/resources/OLED%20Display.zip)
