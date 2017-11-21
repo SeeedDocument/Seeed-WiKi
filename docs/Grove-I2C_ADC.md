@@ -377,6 +377,14 @@ In order to find out which result is more close to the actual condition, here we
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-I2C_ADC/master/img/Measure_the_real_sensor_value_using_DMM.JPG)
 
+
+## Try it in JAVA!
+
+Check out this tutorial for the [Grove I2C ADC](https://github.com/oci-pronghorn/FogLight-Grove/blob/master/AnalogToIIC/README.md).   
+Its part of the open source framework FogLight where  many of the [Grove Devices](https://github.com/oci-pronghorn/FogLight-Grove) are supported. 
+It was designed for IoT applications and provides an integrated web server.   
+
+
 Resources
 --------
 
