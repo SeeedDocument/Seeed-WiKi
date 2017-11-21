@@ -85,6 +85,12 @@ Please refer [here](https://raw.githubusercontent.com/SeeedDocument/Grove-6-Axis
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-6-Axis_AccelerometerAndCompass_V2.0/master/img/Testing.jpg)
 
+## Try it in JAVA!
+
+Check out this tutorial for the [Grove 6 Axis Accelerometer and Compass v2.0](https://github.com/oci-pronghorn/FogLight-Grove/blob/master/SixAxisAccelerometer/README.md).   
+Its part of the open source framework FogLight where  many of the [Grove Devices](https://github.com/oci-pronghorn/FogLight-Grove) are supported. 
+It was designed for IoT applications and provides an integrated web server.   
+
 Resources
 ---------
 

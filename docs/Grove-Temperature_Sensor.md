@@ -242,6 +242,12 @@ print "Error"
 **Step6:** Run the code.
 You'll find that the terminal outputs Temperature value every 2 seconds.
 
+## Try it in JAVA!
+
+Check out this tutorial for the [Grove Temperature Sensor](https://github.com/oci-pronghorn/FogLight-Grove/blob/master/Temprature/README.md).   
+Its part of the open source framework FogLight where  many of the [Grove Devices](https://github.com/oci-pronghorn/FogLight-Grove) are supported. 
+It was designed for IoT applications and provides an integrated web server.   
+
 ##  Resource
 ---
 *   [Grove - Temperature Sensor v1.0 Eagle File](https://github.com/SeeedDocument/Grove-Temperature_Sensor/raw/master/res/Grove-Temperature_Sensor-Analog-v1.0_Source_File.zip)
