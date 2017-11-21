@@ -417,6 +417,13 @@ Now click Upload(CTRL+U) to burn testing code. Please refer to [here](/Arduino_C
 
 After upload is complete, the motors will rotate in the positive or opposite direction in cycle.
 
+## Try it in JAVA!
+
+Check out this tutorial for the [Grove Mini I2C Motor Driver v1.0](https://github.com/oci-pronghorn/FogLight-Grove/blob/master/IICMiniMotorDriver/README.md).   
+Its part of the open source framework FogLight where  many of the [Grove Devices](https://github.com/oci-pronghorn/FogLight-Grove) are supported. 
+It was designed for IoT applications and provides an integrated web server.   
+
+
 Resources
 ---------
 
