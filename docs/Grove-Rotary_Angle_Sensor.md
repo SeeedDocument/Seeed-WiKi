@@ -318,6 +318,13 @@ This example uses ADC channel 0 to get the value of the rotary angle.Then gives 
     sudo python grove_rotary_angle_sensor.py
 ```
 
+## Try it in JAVA!
+
+Check out this tutorial for the [Grove Rotary Angle Sensor](https://github.com/oci-pronghorn/FogLight-Grove/blob/master/AngleSensor/README.md).   
+Its part of the open source framework FogLight where  many of the [Grove Devices](https://github.com/oci-pronghorn/FogLight-Grove) are supported. 
+It was designed for IoT applications and provides an integrated web server.   
+
+
 Resources
 ---------
 
