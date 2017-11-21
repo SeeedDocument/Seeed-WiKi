@@ -111,6 +111,12 @@ Modify the code about color into:
 
 Upload the code again, woo, see the backlight turn to Red? Then why not try another color? Whatever you like.
 
+## Try it in JAVA!
+
+Check out this tutorial for the [Grove LCD RGB Backlight](https://github.com/oci-pronghorn/FogLight-Grove/blob/master/LCDRGB/README.md).   
+Its part of the open source framework FogLight where  many of the [Grove Devices](https://github.com/oci-pronghorn/FogLight-Grove) are supported. 
+It was designed for IoT applications and provides an integrated web server.   
+
 
 ## Resources
 
