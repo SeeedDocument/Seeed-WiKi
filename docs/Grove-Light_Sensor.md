@@ -129,6 +129,12 @@ Have fun.
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/secret_box.png)
 
+## Try it in JAVA!
+
+Check out this tutorial for the [Grove Light Sensor](https://github.com/oci-pronghorn/FogLight-Grove/blob/master/LightSensor/README.md).   
+Its part of the open source framework FogLight where  many of the [Grove Devices](https://github.com/oci-pronghorn/FogLight-Grove) are supported. 
+It was designed for IoT applications and provides an integrated web server.   
+
 ##Project
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/gun.jpg)
