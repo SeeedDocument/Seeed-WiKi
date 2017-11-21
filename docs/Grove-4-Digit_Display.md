@@ -358,6 +358,13 @@ sudo python grove_4_digit_display.py
 cd yourpath/GrovePi/Firmware
 sudo ./firmware_update.sh
 ```
+
+## Try it in JAVA!
+
+Check out this tutorial for the [Grove 4 Digit Display](https://github.com/oci-pronghorn/FogLight-Grove/blob/master/FourDigitDisplay/README.md).   
+Its part of the open source framework FogLight where  many of the [Grove Devices](https://github.com/oci-pronghorn/FogLight-Grove) are supported. 
+It was designed for IoT applications and provides an integrated web server.   
+
 ##Project
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/gun.jpg)
