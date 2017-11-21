@@ -379,6 +379,12 @@ Without Grove Shield,you can connect to Arduino by increasing an Pinout to a gro
 | SDA   | SDA     |
 | SCL   | SCL     |
 
+## Try it in JAVA!
+
+Check out this tutorial for the [Grove RTC](https://github.com/oci-pronghorn/FogLight-Grove/blob/master/RealTimeClock/README.md).   
+Its part of the open source framework FogLight where  many of the [Grove Devices](https://github.com/oci-pronghorn/FogLight-Grove) are supported. 
+It was designed for IoT applications and provides an integrated web server.   
+
 ## Resources
 ---------
 
