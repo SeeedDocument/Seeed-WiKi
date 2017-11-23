@@ -7,8 +7,6 @@ prodimagename: Aws_seeeduino_wiki_cover.JPG
 bzprodimageurl: https://images-na.ssl-images-amazon.com/images/I/71NtWHsITmL._SL1500_.jpg
 surveyurl: https://www.research.net/r/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS
 ---
-<!-- tags: io_3v3, io_5v, grove_i2c, grove_analog, grove_digital, grove_uart, plat_duino, plat_bbg, plat_pi, plat_wio, plat_linkit -->
-
 ![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/master/img/Aws_seeeduino_wiki_cover.JPG)
 
 *Main articles: Start here [Grove IoT Starter Kits Powered by AWS](/Grove_IoT_Starter_Kits_Powered_by_AWS "Grove IoT Starter Kits Powered by AWS") , [Seeeduino Cloud](/Seeeduino_Cloud "Seeeduino Cloud")*
@@ -17,14 +15,14 @@ surveyurl: https://www.research.net/r/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_
 
 [![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](http://www.amazon.com/dp/B01669BB60)
 
-Features
+## Features
 --------
 
 -   Out-of-the-box, plug and play, no breadboard or soldering work required.
 -   Fully compliant with AWS's services and AWS's practices.
 -   Step-by-step tutorials for developers and makers for quicker prototyping.
 
-Included in the Box
+## Part List
 -------------------
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/master/img/Aws_kit_seeeduino_cloud.JPG)
@@ -49,104 +47,88 @@ Included in the Box
 | Mini Servo                                                                                                                                            | 1   |                                                                               |
 | Micro USB Cable - 48cm                                                                                                                                | 1   |                                                                               |
 
-Configure Your AWS IoT Service
+## Configure Your AWS IoT Service
 ------------------------------
 
-In this section, we will show how to:
+In this section, we will show how to config the AWS IoT Service:
 
-1. Create an [AWS Account](http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/AMS5.0CreatingAnAWSAccount.html).
+- Step 1. Create an [AWS Account](https://aws.amazon.com/free/?nc1=h_ls).
 
-2. Go to [AWS IoT](http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/AMS5.0CreatingAnAWSAccount.html) and open the AWS IoT Dashboard.
+- Step 2. Go to [AWS IoT](https://us-west-2.console.aws.amazon.com/iotv2/home?region=us-west-2#/home).
 
-Sign in with your AWS Account. Click the **Services** on the top-left corner, and then click on AWS IoT, as shown at below image.
+- Step 3. After you load the IoT console, click on “Get Started”.
 
-![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/master/img/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS_configure_AWS.png)
+![](https://github.com/SeeedDocument/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/raw/master/img/Get%20started.png)
 
-![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/master/img/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS_configure_AWS_click_service.png)
+- Step 4. Click on “Manage” on the left side menu.and Click on “Register a thing”.
+- Step 5. Enter a name, whatever you like, in the original tutorial it was called temperature, then click "create" ("Register a thing" image).
 
-Click on **Get Started**.
+![](https://github.com/SeeedDocument/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/raw/master/img/Register%20a%20thing.png)
 
-![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/master/img/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS_configure_AWS_click_get_started.png)
+- Step 6. Click on the thing that you create.
+- Step 7. Click on Security on the left menu and click on Create certificate.
 
-Then, we can create something now. Click on **Create a Resource** and then **Create a thing**.
+![](https://github.com/SeeedDocument/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/raw/master/img/Thing%20-%20Security.png)
 
-![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/master/img/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS_create_a_resource.png)
+- Step 8. It will show three download links which are correspond to different key files or certificate. Download these file, we need them later. Also make sure to download the root CA (above the "Activate" button"). Click on Activate and then click on Attach a policy and then on Create a policy.
 
-![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/master/img/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS_create_a_thing.png)
+![](https://github.com/SeeedDocument/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/raw/master/img/Certificate%20created.png)
 
-Enter a name, whatever you like, here we name it *temperature*.
+- Step 9. Name your policy however you want, we named our policy1. To start, you can use iot:* as the Action and *as the Resource ARN. Check mark Allow and click create.
+For future reference, the * for actions and resource ARN allows you to do all actions on all devices. The best practice for production policies is to make them more specific.
 
-![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/master/img/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS_name_a_thing.png)
+![](https://github.com/SeeedDocument/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/raw/master/img/Create%20a%20policy.png)
 
-Click Create to complete it and then click **View thing** to get information of the thing you create.
+- Step 10. Now that the policy has been created, click on Certificates on the left side.
+Click on the certificate we previously created.
 
-![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/master/img/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS_view_a_thing.png)
+![](https://github.com/SeeedDocument/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/raw/master/img/Certificates.png)
 
-Click on **Connect a device**.
+- Step 11. Click on the Actions button and pick Attach policy from the menu.
 
-![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/master/img/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS_connect_a_thing.png)
+![](https://github.com/SeeedDocument/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/raw/master/img/Certificate%20Actions.png)
 
-Choose **Arduino Yun** and Click on **Generate certificate and policy**.
+- Step 12. Pick the policy we previously created and click Attach.
 
-![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/master/img/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS_select_a_library.png)
+![](https://github.com/SeeedDocument/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/raw/master/img/Attach%20policy.png)
 
-It will show three download links which are correspond to different key files or certificate. Download these file, we need them later. And click on Confirm & start connecting.
-
-![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/master/img/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS_configure_AWS_download_keys_and_cofirm.png)
-
-Then we should download the AWS IoT Arduino Yun SDK. Copy and save the sample code based on your behalf, we will need it later. And then click on Return to Thing Detail.
-
-![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/master/img/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS_configure_AWS_header_files.png)
-
-Set up your Seeeduino Cloud (Arduino Yun)
+## Set up your Seeeduino Cloud (Arduino Yun)
 -----------------------------------------
 
 ### Getting started with Seeeduino Cloud (Arduino Yun)
 
 If this is your first time to use Seeeduino Cloud or Arduino Yun, you can click [here](/Seeeduino_Cloud) to get started. Before proceeding to the following steps, please make sure that you have **expect** installed on your computer and correctly installed the [Arduino IDE](https://www.arduino.cc/en/Main/OldSoftwareReleases).
 
+### Download AWS-IoT-Arduino-Yún-SDK
+Click [here](https://s3.amazonaws.com/aws-iot-device-sdk-arduino-yun/AWS-IoT-Arduino-Yun-SDK-latest.zip) to download AWS-IoT-Arduino-Yún-SDK zip package and extract it to AWS-IoT-Arduino-Yun-SDK on your computer.
+
 ### Installation on Mac OS/Linux
 
-Before proceeding to the following steps, please make sure that you have **expect** installed on your computer and correctly installed the Arduino IDE.
+Before proceeding to the following steps, please make sure that you have installed on your computer and correctly installed the Arduino IDE.
 
-#### To install expect
+#### To install Ubuntu
 
 For Ubuntu, simply run the following command. sudo apt-get install expect For Mac OS X, **expect** is installed as default.
 
 #### To install Arduino IDE
 
-For Arduino IDE installation on Linux, please visit here (<http://playground.arduino.cc/Linux/All>).
+For Arduino IDE installation on Linux, please visit [here](http://playground.arduino.cc/Linux/All).
 
 #### Set up development board
 
-1.Set up the Arduino Yún board and connect it to WiFi. Obtain its IP address and password. If you don’t know how to do it you can follow this [link](/Seeeduino_Cloud#Getting_Started).
-
-2.Make sure your computer is connected to the same network (local IP address range).
-
-3.Download the AWS IoT CA file from [here](https://www.symantec.com/content/en/us/enterprise/verisign/roots/VeriSign-Class%203-Public-Primary-Certification-Authority-G5.pem). And save it as *root-CA.crt*.
-
-4.Put your AWS IoT CA file, private key and certificate into AWS-IoT-Arduino-Yun-SDK/AWS-IoT-Python-Runtime/certs.
-
-5.Open a terminal, cd to **AWS-IoT-Arduino-Yun-SDK**. Do *chmod 755 AWSIoTArduinoYunInstallAll.sh* and execute it as:
+- Step 1. Set up the Arduino Yún board and connect it to WiFi. Obtain its IP address and password. If you don’t know how to do it you can follow this [link](/Seeeduino_Cloud#Getting_Started).
+- Step 2. Make sure your computer is connected to the same network (local IP address range).
+- Step 3. Download the AWS IoT CA file from [here](https://www.symantec.com/content/en/us/enterprise/verisign/roots/VeriSign-Class%203-Public-Primary-Certification-Authority-G5.pem). And save it as *root-CA.crt*.
+- Step 4. Put your AWS IoT CA file, private key and certificate into AWS-IoT-Arduino-Yun-SDK/AWS-IoT-Python-Runtime/certs.
+- Step 5. Open a terminal, cd to **AWS-IoT-Arduino-Yun-SDK**. Do *chmod 755 AWSIoTArduinoYunInstallAll.sh* and execute it as below. By default for Seeeduino Cloud, your username will be root and your password will be seeeduino. Arduino Yún Board, your username will be root and your password will be Arduino. For step 5, it can take 15-20 minutes for the device to download and install the required packages (distribute, python-OpenSSL, pip, paho-MQTT). Do not close the terminal before the script finishes, otherwise you have to start over with step 5. Make sure you are in your local terminal before repeating step 5.
 
 ```
 ./AWSIoTArduinoYunInstallAll.sh <Board IP> <UserName> <Board Password>.
 ```
 
-By default for Seeeduino Cloud, your username will be root and your password will be seeeduino. Arduino Yún Board, your username will be root and your password will be Arduino.
+- Step 6. Copy and paste **AWS-IoT-Arduino-Yun-SDK/AWS-IoT-Arduino-Yun-Library** folder into Arduino libraries that was installed with your Arduino SDK installation. For Mac OS default, it should be under **Documents/Arduino/libraries**.
 
-For step 5, it can take 15-20 minutes for the device to download and install the required packages (distribute, python-OpenSSL, pip, paho-MQTT).
-
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-Do not close the terminal before the script finishes, otherwise you have to start over with step 5. Make sure you are in your local terminal before repeating step 5.
-</div>
-
-6.Copy and paste **AWS-IoT-Arduino-Yun-SDK/AWS-IoT-Arduino-Yun-Library** folder into Arduino libraries that was installed with your Arduino SDK installation. For Mac OS default, it should be under **Documents/Arduino/libraries**.
-
-7.Restart the Arduino IDE if it was running during the installation. You should be able to see the AWS IoT examples in the Examples folder in your IDE.
-
-There are the other two scripts: **AWSIoTArduinoYunScp.sh** and **AWSIoTArduinoYunSetupEnvironment.sh**, which are utilized in **AWSIoTArduinoYunInstallAll.sh**. You can always use **AWSIoTArduinoYunScp.sh** to upload your new credentials to your board. When you are in the directory **AWS-IoT-Arduino-Yun-SDK/**, the command should be something like this:
+- Step 7. Restart the Arduino IDE if it was running during the installation. You should be able to see the AWS IoT examples in the Examples folder in your IDE. There are the other two scripts: **AWSIoTArduinoYunScp.sh** and **AWSIoTArduinoYunSetupEnvironment.sh**, which are utilized in **AWSIoTArduinoYunInstallAll.sh**. You can always use **AWSIoTArduinoYunScp.sh** to upload your new credentials to your board. When you are in the directory **AWS-IoT-Arduino-Yun-SDK/**, the command should be something like this:
 
 ```
 ./AWSIoTArduinoYunScp.sh <Board IP> <UserName> <Board Password> <File> <Destination>
@@ -156,31 +138,34 @@ There are the other two scripts: **AWSIoTArduinoYunScp.sh** and **AWSIoTArduinoY
 
 Before proceeding to the following steps, please make sure that you have Putty and WinSCP installed on your PC. If you prefer to use other tools for SSH-ing into your Arduino Yún board and transferring files, you will have to adjust the steps below according to your tools. Putty can be downloaded from [here](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html). WinSCP can be downloaded from [here](http://winscp.net/eng/download.php). Set up the board.
 
-1.Setup the Arduino Yún Cloud board and connect it to WiFi. Obtain its IP address and password. If you don't know how to do it, please follow this [link](/Seeeduino_Cloud#Getting_Started).
+- Step 1. Setup the Arduino Yún Cloud board and connect it to WiFi. Obtain its IP address and password. If you don't know how to do it, please follow this [link](/Seeeduino_Cloud#Getting_Started).
 
-2.Make sure your PC is connected to the same network (local IP address range).
+- Step 2. Make sure your PC is connected to the same network (local IP address range).
 
-3.Download the AWS IoT CA file from [here](https://www.symantec.com/content/en/us/enterprise/verisign/roots/VeriSign-Class%203-Public-Primary-Certification-Authority-G5.pem). And save it as root-CA.crt
+- Step 3. Download the AWS IoT CA file from [here](https://www.symantec.com/content/en/us/enterprise/verisign/roots/VeriSign-Class%203-Public-Primary-Certification-Authority-G5.pem). And save it as root-CA.crt
 
-4.Put your AWS IoT CA file that you saved before, private key and certificate into folder **AWS-IoT-Arduino-Yun-SDK/AWS-IoT-Python-Runtime/certs**.
+- Step 4. Put your AWS IoT CA file that you saved before, private key and certificate into folder **AWS-IoT-Arduino-Yun-SDK/AWS-IoT-Python-Runtime/certs**.
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/master/img/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS_set_up_arduino_yun_on_windows_copy_certs.png)
 
-5.Start WinSCP and upload AWS-IoT-Python-Runtime/ folder to /root on the board.
+- Step 5. Start WinSCP and upload AWS-IoT-Python-Runtime/ folder to /root on the board.
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/master/img/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS_set_up_arduino_yun_on_windows_copy_run_time_file.png)
 
-6.Use Putty to ssh into OpenWRT on your board and execute the following commands to install the necessary libraries:
+- Step 6. Use Putty to ssh into OpenWRT on your board and execute the following commands to install the necessary libraries. It can take 15-20 minutes for the device to download and install the required packages.
 
-![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/master/img/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS_set_up_arduino_yun_on_windows_login_dragino.png)
-
-It can take 15-20 minutes for the device to download and install the required packages.
-
-7.Copy and paste AWS-IoT-Arduino-Yun-SDK/AWS-IoT-Arduino-Yun-Library folder into Arduino libraries that was installed with your Arduino SDK installation. For Windows default, it should be under **Documents/Arduino/libraries**.
+```
+opkg update
+opkg install distribute
+opkg install python-openssl
+easy_install pip
+pip install AWSIoTPythonSDK==1.0.0
+```
+- Step 7. Copy and paste AWS-IoT-Arduino-Yun-SDK/AWS-IoT-Arduino-Yun-Library folder into Arduino libraries that was installed with your Arduino SDK installation. For Windows default, it should be under **Documents/Arduino/libraries**.
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/master/img/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS_set_up_arduino_yun_on_windows_copy_AWS_library_file_to_arduino_library.png)
 
-8.Restart the Arduino IDE if it was running during the installation. You should be able to see the AWS IoT examples in the Examples folder in your IDE.
+- Step 8. Restart the Arduino IDE if it was running during the installation. You should be able to see the AWS IoT examples in the Examples folder in your IDE.
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/master/img/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS_set_up_arduino_yun_on_windows_load_example.png)
 
@@ -193,46 +178,43 @@ Run examples
 
 ### Download the example project
 
-1.Please download the example project from [here](https://github.com/Lee-Kevin/10.GroveWithAWSIot/) first.
+- Step 1. Please download the example project from [here](https://github.com/Lee-Kevin/10.GroveWithAWSIot/) first.
 
-2.Decompress the downloaded zip files to your computer and remove **-master** in decompressed file name.
+- Step 2. Decompress the downloaded zip files to your computer and remove **-master** in decompressed file name.
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/master/img/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS_open_example_sketch.png)
 
 ### Modify header file
 
-1.Open file **aws_iot_config.h**, and replace the content in red box as picture bellows by the sample code based on your account that you have already saved before.
+- Step 1. Open file **aws_iot_config.h**, and replace the content in red box as picture bellows by the sample code based on your account that you have already saved before.
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/master/img/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS_run_example_replace_header_file.png)
 
-2 .Double click on **GroveWithAWSIot.ino**, replace following marked code with saved header file minutes ago and then click upload.
+- Step 2. Double click on **GroveWithAWSIot.ino**, replace following marked code with saved header file minutes ago and then click upload.
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/master/img/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS_run_example_select_serial_port.png)
 
-3 .When you see the below info. it means you have already download the code to your Seeeduino Cloud successfully.
+- Step 3. When you see the below info. it means you have already download the code to your Seeeduino Cloud successfully.
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/master/img/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS_run_example_upload_complete.png)
 
 ### View Result
 
-1 .Open the serial monitor, you can see the information as below.
+- Step 1. Open the serial monitor, you can see the information as below.
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/master/img/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS_run_example_view_result_in_serial_monitor.png)
 
-2 .Then open AWS IoT website, sign in to your account. And click the thing you created minutes ago.
+- Step 2. Then open AWS IoT website, sign in to your account. And click the thing you created minutes ago.
 
-Click the **Update shadow** button. Now you can see the temperature was upload to the website.
+- Step 3. Click the **Update shadow** button. Now you can see the temperature was upload to the website.
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/master/img/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS_run_example_reopen_thing_and_update_shadow.png)
 
-Resources
+## Resources
 ---------
 
 -   [AWS IoT Documentation](http://aws.amazon.com/documentation/iot/)
 -   [Seeeduino Cloud wiki page](/Seeeduino_Cloud)
--   [AWS IoT Arduino Yún SDK](https://github.com/aws/aws-iot-device-sdk-arduino-yun#yield)
+-   [AWS IoT Arduino Yún SDK](https://github.com/aws/aws-iot-device-sdk-arduino-yun)
 
 
------------------------------------------------------------------------------------
-
-<!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS -->

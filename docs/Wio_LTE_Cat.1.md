@@ -106,3 +106,12 @@ In brief, Groves is hundreds of sensor that in standard style, which is consist 
 
 !!!Tip
     If you want to use the on-board Grove connector, please use digitalWrite(12, HIGH) to open 3V3_B. Otherwise you can't provide power to Grove modules.
+
+
+
+## Resource
+- **[Eagle]**[Wio LTE Cat.1 v1.1.SCH](https://github.com/SeeedDocument/Wio_LTE/raw/master/res/Wio%20LTE%20Cat.1%20v1.1.sch.zip)
+- **[Eagle]**[Wio LTE Cat.1 v1.1.BRD](https://github.com/SeeedDocument/Wio_LTE/raw/master/res/Wio%20LTE%20Cat.1%20v1.1.brd.zip)
+- **[PDF]**[Wio LTE Cat.1 v1.1.SCH](https://github.com/SeeedDocument/Wio_LTE/raw/master/res/Wio%20LTE%20Cat.1%20Sch%20v1.1.pdf.zip)
+- **[PDF]**[Wio LTE Cat.1 v1.1.PCB](https://github.com/SeeedDocument/Wio_LTE/raw/master/res/Wio%20LTE%20Cat.1%20PCB%20v1.1.pdf.zip)
+
