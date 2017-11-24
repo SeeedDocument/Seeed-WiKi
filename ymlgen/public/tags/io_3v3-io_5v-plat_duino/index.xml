@@ -20,15 +20,5 @@
 Note: This wiki works with Grove - Temperature sensor V1.1 as well, for V1.0 please refer to Grove - Temperature Sensor</description>
     </item>
     
-    <item>
-      <title>Grove-TF Mini LiDAR</title>
-      <link>http://wiki.seeed.cc/grove-tf_mini_lidar/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://wiki.seeed.cc/grove-tf_mini_lidar/</guid>
-      <description>This product is based on ToF (Time of Flight) principle and integrated with unique optical and electrical designs, so as to achieve stable, precise, high sensitivity and high-speed distance detection.
-ToF is the abbreviation of Time of Flight technology, and its operating principle is as follows: a modulated near-infrared light is sent from the sensor and reflected by an object; the distance to the object to be shot can be converted with the sensor by calculating the time difference or phase difference between the light sending and the light reflection, so as to produce the depth information.</description>
-    </item>
-    
   </channel>
 </rss>

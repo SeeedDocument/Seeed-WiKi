@@ -6,7 +6,7 @@ oldwikiname: Grove-TF Mini LiDAR
 prodimagename:
 surveyurl:
 sku: 114991434
-tags: io_3v3, io_5v, plat_duino
+tags: io_5v, plat_duino
 
 ---
 ![](https://github.com/SeeedDocument/Grove-TF_Mini_LiDAR/raw/master/img/Grove-TF-Mini-LiDAR.JPG)
@@ -75,10 +75,28 @@ Platforms Supported
 
 ![](https://github.com/SeeedDocument/Grove-TF_Mini_LiDAR/raw/master/img/Seeeduino.JPG)
 
+!!!Note
+    The Grove-TF Mini LiDAR's UART baud rate is 115200 and the SoftwareI2C can't support it. So if we use 1 hardware UART to hook up the sensor and other hardware UART for Serial Port display, we need at least 2 hardware UART platforms, such as arduino mega, seeeduino lite and so on.  If we only have 1 UART platform(ie. seeeduino v4.2, arduino uno), we can use the I2C LCD as display.
+
 
 #### Software
 
-- Step 1. Copy the code into Arduino IDE and upload.
+- Step 1. The Grove-TF Mini LiDAR is a hexadecimal output data. Each frame data is encoded with 9 bytes, including 1 distance data (Dist). Each distance data has corresponding signal strength information (Strength). The frame end is the data parity bit. 
+
+| Byte  | Data encoding interpretation                |
+|-------|---------------------------------------------|
+| Byte1 | 0x59, frame header, all frames are the same |
+| Byte2 | 0x59, frame header, all frames are the same |
+| Byte3 | Dist_L distance value is a low 8-bit.       |
+| Byte4 | Dist_H distance value is a high 8-bit.      |
+| Byte5 | Strength_L is a low 8-bit.                  |
+| Byte6 | Strength_H is a high 8-bit.                 |
+| Byte7 | Reserved bytes.                             |
+| Byte8 | Original signal quality degree.             |
+| Byte9 | Checksum parity                             |
+
+
+- Step 2. Copy the code into Arduino IDE and upload.
 
 ```
 unsigned char dta[100];
@@ -94,32 +112,41 @@ void loop()
 {
     while(Serial1.available()>=9)
     {
-        if((0x59 == Serial1.read()) && (0x59 == Serial1.read()))
+        if((0x59 == Serial1.read()) && (0x59 == Serial1.read())) //Byte1 & Byte2
         {
-            unsigned int t1 = Serial1.read();
-            unsigned int t2 = Serial1.read();
+            unsigned int t1 = Serial1.read(); //Byte3
+            unsigned int t2 = Serial1.read(); //Byte4
 
             t2 <<= 8;
             t2 += t1;
             Serial.print(t2);
             Serial.print('\t');
 
-            t1 = Serial1.read();
-            t2 = Serial1.read();
+            t1 = Serial1.read(); //Byte5
+            t2 = Serial1.read(); //Byte6
 
             t2 <<= 8;
             t2 += t1;
             Serial.println(t2);
 
-            for(int i=0; i<3; i++)Serial1.read();
+            for(int i=0; i<3; i++) 
+            { 
+                Serial1.read(); ////Byte7,8,9
+            }
         }
     }
 }
 ```
-- Step 2. We will see the distance display on terminal.
+- Step 3. We will see the distance display on terminal. The blue curve is the distance and the red is Strength. 
 
+![](https://github.com/SeeedDocument/Grove-TF_Mini_LiDAR/raw/master/img/curve.png)
+
+- Step 4. We also can connect the sensor to PC USB port directly through Serial to USB convertor. We can use the [Grove-TF-Mini-LiDAR Master Computer Software
+](https://github.com/SeeedDocument/Grove-TF_Mini_LiDAR/raw/master/res/Grove-TF-Mini-LiDAR%20Master%20Computer%20Software.zip) to monitor the distance and strength.  
 
 ## Resources
 ---
 - **[Datasheet]** [Grove-TF-Mini-LiDAR
 ](https://github.com/SeeedDocument/Grove-TF_Mini_LiDAR/blob/master/res/DE-LiDAR%20TFmini%20Datasheet-V1.5-EN.pdf)
+- **[Software]** [Grove-TF-Mini-LiDAR Master Computer Software
+](https://github.com/SeeedDocument/Grove-TF_Mini_LiDAR/raw/master/res/Grove-TF-Mini-LiDAR%20Master%20Computer%20Software.zip)
