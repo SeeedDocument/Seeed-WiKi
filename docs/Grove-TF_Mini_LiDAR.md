@@ -34,22 +34,22 @@ ToF is the abbreviation of Time of Flight technology, and its operating principl
 |---------------------------------------------|----------------------------------|
 | Operating range                             | 0.3m-12m                         |
 | Maximum operating range at 10% reflectivity | 5m                               |
-| Average power consumption                   | 0.12W                            |
+| Average power consumption                   | 0.6W                            |
 | Applicable voltage range                    | 4.5V-6V                          |
 | Acceptance angle                            | 2.3°                             |
-| Minimum resolution ratio                    | 5mm                              |
+| Minimum resolution ratio                    | 1cm                              |
 | Frequency                                   | 100Hz                            |
 | Accuracy                                    | 1%   (less than 6m), 2% (6m-12m) |
-| Distance detection unit                     | mm                               |
+| Distance detection unit                     | cm                               |
 | Wavelength                                  | 850nm                            |
 | Size                                        | 42mm×15mm×16mm                   |
 | Operating temperature                       | -20℃-60℃                       |
 | Light sensitivity                           | 70,000lux                        |
-| Weight                                      | 6.1g                             |
+| Weight                                      | 4.7g                             |
 | Communication interface                     | UART 115200                      |
 | LED peak current                            | 800ma                            |
 | Serial port TTL voltage level               | 3.3V                              |
-
+| Electromagnetic Compatibility(EMC)          | EN 55032 Class B                  |
 
 !!!Tip
     More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
@@ -91,9 +91,9 @@ Platforms Supported
 | Byte4 | Dist_H distance value is a high 8-bit.      |
 | Byte5 | Strength_L is a low 8-bit.                  |
 | Byte6 | Strength_H is a high 8-bit.                 |
-| Byte7 | Reserved bytes.                             |
-| Byte8 | Original signal quality degree.             |
-| Byte9 | Checksum parity                             |
+| Byte7 | Integration time.                           |
+| Byte8 | Reserved bytes.                             |
+| Byte9 | Checksum parity.                             |
 
 
 - Step 2. Copy the code into Arduino IDE and upload.
@@ -147,6 +147,6 @@ void loop()
 ## Resources
 ---
 - **[Datasheet]** [Grove-TF-Mini-LiDAR
-](https://github.com/SeeedDocument/Grove-TF_Mini_LiDAR/blob/master/res/DE-LiDAR%20TFmini%20Datasheet-V1.5-EN.pdf)
+](https://github.com/SeeedDocument/Grove-TF_Mini_LiDAR/raw/master/res/DE-LiDAR%20TFmini%20Datasheet-V1.6-EN.pdf)
 - **[Software]** [Grove-TF-Mini-LiDAR Master Computer Software
 ](https://github.com/SeeedDocument/Grove-TF_Mini_LiDAR/raw/master/res/Grove-TF-Mini-LiDAR%20Master%20Computer%20Software.zip)
