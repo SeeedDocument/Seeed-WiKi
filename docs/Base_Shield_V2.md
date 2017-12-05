@@ -97,7 +97,7 @@ Please click [here](http://support.seeedstudio.com/knowledgebase/articles/182644
 
 ## Resources
 
-- **[PDF]** [Download Wiki PDF](https://github.com/SeeedDocument/Base_Shield_V2/raw/master/res/Base_Shiled_V2_WiKi.pdf)
+- **[PDF]** [Download Wiki PDF](https://github.com/SeeedDocument/Base_Shield_V2/raw/master/res/Base_Shield_V2_WiKi.pdf)
 - **[Eagle]** [Base Shiled V2 SCH](https://github.com/SeeedDocument/Base_Shield_V2/raw/master/res/Base%20Shield%20v2_SCH.zip)
 - **[Eagle]** [Base Shiled V2 PCB](https://github.com/SeeedDocument/Base_Shield_V2/raw/master/res/Base%20Shield%20v2_PCB.zip)
 - **[PDF]** [Base Shiled V2 SCH](https://github.com/SeeedDocument/Base_Shield_V2/raw/master/res/Base%20Shield%20v2_SCH.pdf)

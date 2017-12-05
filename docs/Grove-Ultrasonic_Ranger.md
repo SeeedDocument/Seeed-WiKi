@@ -203,7 +203,7 @@ Please click [here](http://support.seeedstudio.com/knowledgebase/articles/182222
 
 ## Resources
 
-- **[PDF]** [Download Wiki PDF](https://github.com/SeeedDocumentGrove_Ultrasonic_Ranger/raw/master/res/Grove-Ultrasonic_Ranger_WiKi.pdf)
+- **[PDF]** [Download Wiki PDF](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/res/Grove-Ultrasonic_Ranger_WiKi.pdf)
 - **[PDF]** [Grove_Ultrasonic Ranger Schematic](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/res/Grove_Ultrasonic%20Ranger%20Schematic.pdf)
 - **[Library]** [Grove_Ultrasonic Ranger library](https://github.com/Seeed-Studio/Grove_Ultrasonic_Ranger/archive/master.zip)
 - **[Project]**[The Color Helix](http://www.seeed.cc/project_detail.html?id=138)
