@@ -7,11 +7,10 @@ prodimagename: 350px-Ultrasonic_Ranger.jpg
 surveyurl: https://www.research.net/r/Grove-Ultrasonic-Ranger
 sku: 101020010
 tags: io_3v3, io_5v, plat_duino, plat_pi
-
 ---
 ![](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/img/Ultrasonic.jpg)
 
-This Grove - Ultrasonic ranger is a non-contact distance measurement module which works at 40KHz. When we provide a pulse trigger signal with more than 10uS through singal pin, the Grove_Ultrasonic_Ranger will issue 8 cycles of 40kHz cycle level and detect the echo. The pulse width of the echo signal is proportional to the measured distance. The formula: Distance = echo signal high time * Sound speed (340M/S)/2. Grove_Ultrasonic_Ranger's trig and echo singal share 1 SIG pin.
+This Grove - Ultrasonic ranger is a non-contact distance measurement module which works at 40KHz. When we provide a pulse trigger signal with more than 10uS through singal pin, the Grove_Ultrasonic_Ranger will issue 8 cycles of 40kHz cycle level and detect the echo. The pulse width of the echo signal is proportional to the measured distance. Here is the formula: Distance = echo signal high time * Sound speed (340M/S)/2. Grove_Ultrasonic_Ranger's trig and echo singal share 1 SIG pin.
 
 !!!Warning
 	Do not hot plug Grove-Ultrasonic-Ranger, otherwise it will damage the sensor. The measured area must be no less than 0.5 square meters and smooth.
@@ -26,7 +25,7 @@ This Grove - Ultrasonic ranger is a non-contact distance measurement module whic
 | Grove-Ultrasonic ranger V2.0 | Improve the power stability with low-voltage main board with below changes: 1. Added an capacitance C14 2. Redesigned the layout to make it more tidy 3. Compatible with 3.3V voltage system | July 2017     |
 
 ## Specification
----
+
 |Parameter|	Value/Range|
 |:------|:------------------|
 |Operating voltage|	3.2~5.2V|
@@ -46,18 +45,18 @@ This Grove - Ultrasonic ranger is a non-contact distance measurement module whic
 !!!Tip
     More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
 
-Platforms Supported
--------------------
+## Platforms Supported
+
 
 ## Getting Started
----
+
 ### Play With Arduino
 
 #### Hardware
 
 - Step 1. Prepare the below stuffs:
 
-| Seeeduino V4 | Base Shield|  Grove - Ultrasonic Ranger |
+| Seeeduino V4.2 | Base Shield|  Grove - Ultrasonic Ranger |
 |--------------|-------------|-----------------|
 |![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_1.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_4.jpg)|![enter image description here](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/img/Ultrasonic_small.jpg)|
 |[Get ONE Now](http://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html)|[Get ONE Now](https://www.seeedstudio.com/Base-Shield-V2-p-1378.html)|[Get ONE Now](https://www.seeedstudio.com/Grove-Ultrasonic-Ranger-p-960.html)|
@@ -81,7 +80,7 @@ Platforms Supported
 #### Software
 
 - Step 1. Download the  [ UltrasonicRanger Library](https://github.com/Seeed-Studio/Grove_Ultrasonic_Ranger/archive/master.zip)  from Github.
-- Step 2. Refer [How to install library](/How_to_Install_an_Arduino_Library/) to install library for Arduino.
+- Step 2. Refer [How to install library](http://wiki.seeed.cc/How_to_install_Arduino_Library) to install library for Arduino.
 - Step 3. Copy the code into Arduino IDE and upload.
 
 ```
@@ -203,7 +202,8 @@ pi@raspberrypi:~/GrovePi/Software/Python $ python grove_ultrasonic.py
 Please click [here](http://support.seeedstudio.com/knowledgebase/articles/1822222-grove-ultrasonic-ranger-sku-101020010) to see all Grove-Ultrasonic Ranger FAQs.
 
 ## Resources
----
+
+- **[PDF]** [Download Wiki PDF](https://github.com/SeeedDocumentGrove_Ultrasonic_Ranger/raw/master/res/Grove-Ultrasonic_Ranger_WiKi.pdf)
 - **[PDF]** [Grove_Ultrasonic Ranger Schematic](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/res/Grove_Ultrasonic%20Ranger%20Schematic.pdf)
 - **[Library]** [Grove_Ultrasonic Ranger library](https://github.com/Seeed-Studio/Grove_Ultrasonic_Ranger/archive/master.zip)
 - **[Project]**[The Color Helix](http://www.seeed.cc/project_detail.html?id=138)

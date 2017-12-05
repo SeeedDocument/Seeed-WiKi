@@ -191,13 +191,10 @@ With the help of these pin diagrams, you know which pin has the function you nee
 
 *   [10. Temperature Humidity Sensor ](/Grove-Temperature_and_Humidity_Sensor#With_TI_LaunchPad)
 
-###   Find the Google doc here
 
-<dl><dd> [https://docs.google.com/document/d/1vD3C1WrGj6_sldslygKBayrhjV9vyxVxkiVRCs8r2jQ/edit?usp=sharing](https://docs.google.com/document/d/1vD3C1WrGj6_sldslygKBayrhjV9vyxVxkiVRCs8r2jQ/edit?usp=sharing)
-</dd></dl>
 
 ##   Resources
 ---
 - [Hardware eagle files](https://github.com/SeeedDocument/Grove_Base_BoosterPack/raw/master/res/Grove_Base_BoosterPack_v1.0.zip)
 
-- [Grove Starter Kit For LaunchPad User's Manual](https://docs.google.com/document/d/1vD3C1WrGj6_sldslygKBayrhjV9vyxVxkiVRCs8r2jQ/edit?usp=sharing)
+- [Grove Starter Kit For LaunchPad User's Manual](https://github.com/SeeedDocument/Grove_Base_BoosterPack/raw/master/res/Grove%20Starter%20Kit%20Manual.pdf)
