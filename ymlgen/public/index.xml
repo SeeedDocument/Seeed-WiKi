@@ -12,6 +12,20 @@
     
     <item>
       <title></title>
+      <link>http://wiki.seeed.cc/download_arduino_and_install_arduino_driver/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/download_arduino_and_install_arduino_driver/</guid>
+      <description>http://wiki.seeed.cc/Get_Started_with_Arduino/
+title: Download Arduino and install Arduino driver category: Tutorial oldwikiname: Download Arduino and install Arduino driver
+surveyurl: https://www.research.net/r/Download_Arduino_and_install_Arduino_driver Download the Arduino Environment Now Arduino IDE is available for Window, Mac OS X and Linux.Please click the button below to download.
+
+!!!Note We recommend using the latest version of the Arduino DIE.
+Setup the Arduino IDE For Window and Mac OS X Download the corresponding software,and click the setup.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>http://wiki.seeed.cc/how_to_choos_a_gas_sensor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1088,13 +1102,12 @@ Product List Here is the list of the BeagleBone Boards you can find in the Seeed
     </item>
     
     <item>
-      <title>Download Arduino and install Arduino driver</title>
-      <link>http://wiki.seeed.cc/download_arduino_and_install_arduino_driver/</link>
+      <title>Driver for Seeeduino</title>
+      <link>http://wiki.seeed.cc/driver_for_seeeduino/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://wiki.seeed.cc/download_arduino_and_install_arduino_driver/</guid>
-      <description>Download the Arduino Environment You can direct download the latest version from this page: http://arduino.cc/en/Main/Software, When the download finishes, unzip the downloaded file. Make sure to preserve the folder structure. Double-click the folder to open it. There should be a few files and sub-folders inside.
-Connect Seeeduino to PC Connect the Seeeduino board to your computer using the USB cable. The green power LED (labeled PWR) should go on.</description>
+      <guid>http://wiki.seeed.cc/driver_for_seeeduino/</guid>
+      <description>Install the driver Installing drivers for the Seeeduino with window7  *Plug in your board and wait for Windows to begin its driver installation process. After a few moments, the process will fail. * Open the Device Manager by right clicking “My computer” and selecting control panel. * Look under Ports (COM &amp;amp; LPT). You should see an open port named &#34;USB Serial Port&#34; Right click on the &#34;USB Serial Port&#34;</description>
     </item>
     
     <item>
@@ -1373,6 +1386,15 @@ Specification  Mini. Wokring Voltage  DC 4.5V   Max. Working Current  15mA(DC 5V
       
       <guid>http://wiki.seeed.cc/galileo_case/</guid>
       <description>When you have a Galileo PCB, do you want to select a suitable case for improving whole felling and protecting it? There is a case that we customize for the PCB. The Case is used to wrap the Galileo PCB, It&amp;rsquo;s constructed from military grade alminum and hardwearing acrylic, Providing the ultimate protection from physical and corrosion!Because we use blue acrylic, So it looks very neatly and beautiful</description>
+    </item>
+    
+    <item>
+      <title>Get Started with Arduino</title>
+      <link>http://wiki.seeed.cc/get_started_with_arduino/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/get_started_with_arduino/</guid>
+      <description> Get Started with Arduino IDE How to download and setup Arduino IDE How to install Arduino Library How to Upload Code Seeeduino Boards How to add Seeed boards to Arduino IDE How to Install the driver for Seeeduino </description>
     </item>
     
     <item>
@@ -3491,8 +3513,8 @@ The capacitance measured on each sensing channel is the total capacitance to gro
       
       <guid>http://wiki.seeed.cc/how_to_install_arduino_library/</guid>
       <description>!!!Note This tutorial is based on Arduino 1.6.9.
-Here we will show you how to install an Arduino library. You should notice that almost all of our library was stored at Github. We will provide Arduino library when a product need a library. For some simple product, it&amp;rsquo;s no need to write a library such as Grove - Button.
-Firstly, there&amp;rsquo;s a download library button at the page of product. Similar to the below:</description>
+Here we will show you how to install an Arduino library. You should notice that almost all of our library was stored at Github. We will provide Arduino library when a product need a library. For some simple product, there is no need to write a library such as Grove - Button.
+Download the Library There are two ways to download a Arduino library.</description>
     </item>
     
     <item>
@@ -5076,8 +5098,8 @@ The Seeeduino v4.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://wiki.seeed.cc/seeeduino_v4.2/</guid>
-      <description>Seeeduino v4 is an Open Source, Arduino-compatible ATmega328 MCU development board. We think Seeeduino v4 is one of the best Arduino derivatives/compatibles available. Seeeduino v4 is feature rich, much more stable, easy-to-use and even good looking.
-Seeeduino v4 is based the Arduino UNO bootloader, an ATmega16U2 as a UART-to-USB converter (basically work like an FTDI USB2UART chip). The board comes with an additional set of through-hole pads for all pins. These pads are aligned to 0.</description>
+      <description>Seeeduino v4.2 is an Open Source, Arduino-compatible ATmega328 MCU development board. We think Seeeduino v4.2 is one of the best Arduino derivatives/compatibles available. Seeeduino v4.2 is feature rich, much more stable, easy-to-use and even good looking.
+Seeeduino v4.2 is based the Arduino UNO bootloader, an ATmega16U2 as a UART-to-USB converter (basically work like an FTDI USB2UART chip). The board comes with an additional set of through-hole pads for all pins.</description>
     </item>
     
     <item>
@@ -5473,7 +5495,7 @@ Further more, you can fix the Arduino board and breadboard as the heart of the r
       
       <guid>http://wiki.seeed.cc/tutorial/</guid>
       <description>Here is the list of the Tutorial you can find in the Seeed WiKi. The list will be constantly updated.
- A Comparison of Different Grove Temperature Sensors A Handy Serial Library AT Command Tester AT Command Tester Application Arduino Common Error Arduino IDE for RePhone Kit Arduino Software I2C user guide Dfu-util Download Arduino and install Arduino driver Eclipse IDE for RePhone Kit FM Receiver Getting Started with Seeeduino Grove Inventor Kit for micro:bit Guide to use demos downloaded from Seeed&amp;#39;s Github How To Choose The Right Cable How To Use Sketchbook How to Add Seeed boards to Arduino IDE How to Chose A Gas Sensor How to detect finger touch How to edit a document How to install an Arduino library How to use and write a library I2C And I2C Address of Seeed Product IR Remote IoT Fast Prototyping Kit S5D9 JavaScript for RePhone Joystick Control RGB Led Light Sensor and LED Bar LightView 201k Digital display module LinkIt ONE Tutorial - Analog Interface LinkIt ONE Tutorial - Colorful World LinkIt ONE Tutorial - Get temperature with Webpage LinkIt ONE Tutorial - Hello World LinkIt ONE Tutorial - Light Sensor LinkIt ONE Tutorial - Marquee LinkIt ONE Tutorial - Mini Servo LinkIt ONE Tutorial - Push Button LinkIt ONE Tutorial - SMS control the LED LinkIt ONE Tutorial - The Basics Lua for RePhone Project Eight - Thermostat Project Five – Relay Control Project Four – Noise Maker Project One - Blink Project One - Double Blink Project Seven - Temperature Project Six – LCD Demonstration Project Three – Analog Input v1.</description>
+ A Comparison of Different Grove Temperature Sensors A Handy Serial Library AT Command Tester AT Command Tester Application Arduino Common Error Arduino IDE for RePhone Kit Arduino Software I2C user guide Dfu-util Driver for Seeeduino Eclipse IDE for RePhone Kit FM Receiver Get Started with Arduino Getting Started with Seeeduino Grove Inventor Kit for micro:bit Guide to use demos downloaded from Seeed&amp;#39;s Github How To Choose The Right Cable How To Use Sketchbook How to Add Seeed boards to Arduino IDE How to Chose A Gas Sensor How to detect finger touch How to edit a document How to install an Arduino library How to use and write a library I2C And I2C Address of Seeed Product IR Remote IoT Fast Prototyping Kit S5D9 JavaScript for RePhone Joystick Control RGB Led Light Sensor and LED Bar LightView 201k Digital display module LinkIt ONE Tutorial - Analog Interface LinkIt ONE Tutorial - Colorful World LinkIt ONE Tutorial - Get temperature with Webpage LinkIt ONE Tutorial - Hello World LinkIt ONE Tutorial - Light Sensor LinkIt ONE Tutorial - Marquee LinkIt ONE Tutorial - Mini Servo LinkIt ONE Tutorial - Push Button LinkIt ONE Tutorial - SMS control the LED LinkIt ONE Tutorial - The Basics Lua for RePhone Project Eight - Thermostat Project Five – Relay Control Project Four – Noise Maker Project One - Blink Project One - Double Blink Project Seven - Temperature Project Six – LCD Demonstration Project Three – Analog Input v1.</description>
     </item>
     
     <item>

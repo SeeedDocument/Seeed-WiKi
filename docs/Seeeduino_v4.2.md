@@ -10,9 +10,9 @@ sku: 102010026
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/cover.JPG)
 
-Seeeduino v4 is an Open Source, Arduino-compatible ATmega328 MCU development board. We think Seeeduino v4 is one of the best Arduino derivatives/compatibles available. Seeeduino v4 is feature rich, much more stable, easy-to-use and even good looking.
+Seeeduino v4.2 is an Open Source, Arduino-compatible ATmega328 MCU development board. We think Seeeduino v4.2 is one of the best Arduino derivatives/compatibles available. Seeeduino v4.2 is feature rich, much more stable, easy-to-use and even good looking.
 
-Seeeduino v4 is based the Arduino UNO bootloader, an ATmega16U2 as a UART-to-USB converter (basically work like an FTDI USB2UART chip). The board comes with an additional set of through-hole pads for all pins. These pads are aligned to 0.1" grid. This makes it easy to solder additional pin-headers to plug into breadboard or create your own attachment/shield with 0.1" dot-matrix general purpose PCBs.
+Seeeduino v4.2 is based the Arduino UNO bootloader, an ATmega16U2 as a UART-to-USB converter (basically work like an FTDI USB2UART chip). The board comes with an additional set of through-hole pads for all pins. These pads are aligned to 0.1" grid. This makes it easy to solder additional pin-headers to plug into breadboard or create your own attachment/shield with 0.1" dot-matrix general purpose PCBs.
 
 
 You can program the board via a micro-USB cable. Also, you can power the board via a DC Jack input (7 to 15V DC) is acceptable. There is a switch to choose the system's supply voltage either 3.3V or 5V, which is very useful if you want to set the system to 3.3V to interact with low voltage sensors.
@@ -20,7 +20,7 @@ You can program the board via a micro-USB cable. Also, you can power the board v
 Finally, the three on-board Grove interfaces can make your board connect to Grove modules easily. Want to make something awesome, maybe just a Seeeduino v4.2 and some Groves is enough.
 
 
-###Version
+## Version
 
 This document applies to the following version of products:
 
@@ -29,7 +29,7 @@ This document applies to the following version of products:
 |Seeeduino V4.0 |Aug 15, 2014|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/EOL.png)|
 |Seeeduino V4.2 |Aug 24, 2015|[![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now_small.png)](http://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html)|
 
-###What's New in Seeeduino V4.2
+### What's New in Seeeduino V4.2
 
 There're many updates from V4.0 to V4.2. Listed below:
 
@@ -39,26 +39,7 @@ There're many updates from V4.0 to V4.2. Listed below:
 - Add an I2C Grove connector
 - Change some silkscreen and part location
 
-##Application Ideas
-
-* DIY
-* IoT and Smart Home
-* Robot
-* Learning
-
-Here is some funny project for your reference.
-
-|Paper Man|Fingerprint Lock|Monitor Stand|
-|-------|-------|-------|
-|![](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/project1.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/project2.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/project3.jpg)|
-| [Make it Now](http://www.instructables.com/id/Paper-Man-a-machine-created-by-Arduino-and-NFC/) | [Make it Now](http://www.instructables.com/id/Door-to-Open-Source-Hardware-A-fingerprint-lock-so/) | [Make it Now](http://www.instructables.com/id/DIY-a-Programmable-Acrylic-Monitor-Stand/)|
-
-|Desk Promo|Tiger Machine|Colorful Pyramid|
-|-------|-------|-------|
-|![](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/project4.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/project5.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/project6.jpg)|
-| [Make it Now](http://www.instructables.com/id/Desk-promo/) | [Make it Now](http://www.instructables.com/id/How-to-Make-Your-Tiny-Tiger-Machine/) | [Make it Now](http://www.instructables.com/id/DIY-a-colorful-pyramid/)|
-
-##Features
+## Features
 
 - Fully compatible with Arduino UNO
 - ATmega328 microcontroller
@@ -72,25 +53,68 @@ Here is some funny project for your reference.
 - Additional pads aligned to 0.1" grid
 
 
-##Specification
+## Specification
 
-| Item | 	Value  |
-| ----------------|--------------------|
-| DC Jack Input       | 7-12V   |
-|DC Output Current|
-|5V Pin | With Micro USB	500mA Max |
-|5V Pin | With DC Jack Power	2000mA Max|
-|3V3 Pin|	500mA Max|
-|DC Current per I/O Pin	|40mA|
-|Flash Memory|	32 KB|
-|RAM|	2 KB|
-|EEPROM	|1 KB|
-|Clock Speed	|16 MHz|
-|Dimension	|68.6mm x 53.4mm|
-|Weight	|26g|
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#999;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#F7FDFA;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;}
+.tg .tg-vn4c{background-color:#D2E4FC}
+.tg .tg-yw4l{vertical-align:top}
+.tg .tg-6k2t{background-color:#D2E4FC;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-yw4l">  Item</th>
+    <th class="tg-yw4l">  Value</th>
+  </tr>
+  <tr>
+    <td class="tg-vn4c">  DC Jack Input </td>
+    <td class="tg-vn4c">  7-12V</td>
+  </tr>
+  <tr>
+    <td class="tg-031e" rowspan="2">  DC Output Current-5V Pin </td>
+    <td class="tg-031e">  With Micro USB 500mA Max</td>
+  </tr>
+  <tr>
+    <td class="tg-vn4c">  With DC Jack Power 2000mA Max  </td>
+  </tr>
+  <tr>
+    <td class="tg-031e">  DC Output Current-3V3 Pin  </td>
+    <td class="tg-031e">  500mA Max</td>
+  </tr>
+  <tr>
+    <td class="tg-vn4c">  DC Current per I/O Pin</td>
+    <td class="tg-vn4c">  40mA</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">  Flash Memory</td>
+    <td class="tg-031e">  32 KB</td>
+  </tr>
+  <tr>
+    <td class="tg-vn4c">  RAM</td>
+    <td class="tg-vn4c">  2 KB</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">  EEPROM</td>
+    <td class="tg-yw4l">  1 KB</td>
+  </tr>
+  <tr>
+    <td class="tg-6k2t">  Clock Speed</td>
+    <td class="tg-6k2t">  16 MHz</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">  Dimension</td>
+    <td class="tg-yw4l">  68.6mm x 53.4mm</td>
+  </tr>
+  <tr>
+    <td class="tg-6k2t">  Weight</td>
+    <td class="tg-6k2t">  26g</td>
+  </tr>
+</table>
 
 
-#Hardware Overview
+## Hardware Overview
 
 !!!Note
     This part is based on Seeeduino V4.2
@@ -100,13 +124,13 @@ The images below show an overview of Seeeduino v4.2 hardware features. The pin-o
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/hardware.JPG)
 
 - **LED-D13**
-An LED is connected to D13 pin of the board. This can be used as an on-board LED indicator for programs/sketches.
+The LED is connected to D13 pin of the board. This can be used as an on-board LED indicator for programs/sketches.
 - **USB Input**
-USB Port is used to connect the board to your PC for programming and for powering up. Micro USB is the ubiquitous version of USB, found in most Android phones, and other devices. You probably have dozens of these cables laying around your house.
+USB Port is used to connect the board to your PC for programming and for powering up.
 - **RX/TX Indicator**
 The TX and RX LED indicators are connected to TX and RX of USB-to-UART chip. They work automatically, they let you know when the board is sending or receiving data respectively.
 - **System Power Switch**
-Slide switch is used to change the logic level and operating voltage of the board to either 5V or 3.3V. Nowadays, many new and great sensors are being developed to work only with 3.3V, with other Arduino boards you would need to place a logic level converter between the board and these sensor(s). With the Seeeduino V4 board all you have to do is slide the switch!
+Slide switch is used to change the logic level and operating voltage of the board to either 5V or 3.3V.
 - **DC Input**
 The DC power jack allows your Seeeduino board to be powered from a wall adapter so that you can supply more power to your project if needed. For example, when using DC motors or other high power devices. The DC input can be 7V-15V.
 - **Reset**
@@ -125,80 +149,58 @@ Sometimes it is very convenient to connect a sensor/device to your board directl
 !!!Warning
     Take gentle care in handling micro USB socket, or you might break the socket off.
 
-##Install the Driver
-
-First of all, you need to:
-
-* **Get a Micro-USB cable**
-    * You need a Micro-USB cable first; the data cable of an Android Phone will do fine.
-If you can't find one, you can buy one [here](http://www.seeedstudio.com/depot/Micro-USB-Cable-48cm-p-1475.html?cPath=98_100).
-
-* **Connect the board**
-    * The Seeeduino V4.2 automatically draw power from either the USB connection to the computer or an external power supply. Connect the Arduino board to your computer using the USB cable. The green power LED (labelled **PWR**) should go on.
 
 
-###For Windows
+## Getting Started
 
 !!!Note
-    This drive is available for Windows XP, Windows Vista, Windows 7, Windows 8/8.1 and Windows 10.
+    If this is your first time using Arduino, please refer to **[Get Started with Arduino](http://wiki.seeed.cc/Get_Started_with_Arduino/)**.
 
-[![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/download_driver.png)](https://github.com/Seeed-Studio/Signed_USB_Serial_Driver/archive/master.zip)
-
-- Plug in your board and wait for Windows to begin its driver installation process. After a few moments, the process will fail, despite best efforts.
-- Click on the Start Menu, and open up the Control Panel.
-- While in the Control Panel, navigate to System and Security. Next, click on System. Once the System window is up, open the **Device Manager**.
-- Look under Ports (COM & LPT). You should find an open port named "Seeeduino v4". If there is no COM & LPT section, look under "Other Devices" for "Unknown Device".
-- Right click on the "Seeeduino v4" port and choose the "Update Driver Software" option.
-- Next, choose the "Browse my computer for Driver software" option.
-- Finally, navigate to and select the driver file named "seeed_usb_serial.inf"
-- Windows will finish up the driver installation from there.
-
-###For Mac OSX
-
-You don't need to install any drivers.
+### Hardware
 
 
-##Getting Started
+#### Hardware connection
+
+![](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/images/connect.jpg)
+
+Connect the Seeeduino board to your computer with the USB cable. The green power LED (labeled PWR) should go on.
 
 !!!Note
-    This part is based on Arduino 1.6.9 under Windows 10.
-
-First of all, you need to Install an Arduino Software.
-
-[![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Stalker_V3_1/master/images/Download_IDE.png)](https://www.arduino.cc/en/Main/Software)
+  Micro USB is the ubiquitous version of USB, found in most Android phones, and other devices. You probably have dozens of these cables laying around your house.Please use the USB cable with 4 wires inside, the 2 wires cable can't transfer data. If you are not sure about the wire you have, you can click [here](https://www.seeedstudio.com/Micro-USB-Cable-48cm-p-1475.html) to buy
 
 
-###Launch the Arduino application
-Double-click the Arduino application (arduino.exe) you have previously downloaded.
+
+### Software
+
+#### Launch the Arduino application
+Double-click the Arduino application (arduino.exe) you have previously setuped.
 
 !!!Note
     If the Arduino Software loads in a different language, you can change it in the preferences dialog. See the [Arduino Software (IDE) page](https://www.arduino.cc/en/Guide/Environment#languages) for details.
 
 
-###Open the Blink example
-Open the LED blink example sketch: **File > Examples >01.Basics > Blink**.
+#### Open the Blink example
+Find the LED blink example sketch: **File > Examples >01.Basics > Blink**.
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/blink.png)
 
-###Add Seeeduino to your Arduino IDE
 
-There is no *Seeeduino V4* option in the boards of your Arduino IDE, click on [How to Add Seeed boards to Arduino IDE](http://wiki.seeed.cc/Seeed_Arduino_Boards/) for the instruction.
 
-###Select your board
+#### Select your board
 You'll need to select the entry in the **Tools > Board** menu that corresponds to your Arduino.
-Selecting a **Seeeduino V4**.
+Selecting a **Seeeduino v4.2**.
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/select_board.png)
 
-###Select your serial port
+#### Select your serial port
 Select the serial device of the Arduino board from the Tools | Serial Port menu. This is likely to be COM3 or higher (**COM1** and **COM2** are usually reserved for hardware serial ports). To find out, you can disconnect your Arduino board and re-open the menu; the entry that disappears should be the Arduino board. Reconnect the board and select that serial port.
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/select_port.png)
 
 !!!Note
-    On the Mac, this should be something with **/dev/tty.USBmodem**.
+    On the Mac or Linux, this should be something with **/dev/tty.USBmodem**.
 
-###Upload the program
+#### Upload the program
 Now, simply click the "Upload" button in the environment. Wait a few seconds - you should see the RX and TX LED indicators on the board flashing. If the upload is successful, the message "Done uploading." will appear in the status bar.
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/upload_button.png)
@@ -207,53 +209,43 @@ A few seconds after the upload finishes, you should see the pin 13 (L) LED on th
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/Seeeduino_v4_2_L.jpg)
 
-##Getting Started on Linux
 
-For using on Linux, please go to [Installing Arduino on Linux](http://playground.arduino.cc/Learning/Linux)
+## Application Ideas
 
-##Resources
+* DIY
+* IoT and Smart Home
+* Robot
+* Learning
 
-* **Schematic**
-    * [Seeeduino V4.2 in EAGLE file](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/SeeeduinoV4.2.zip)
-    * [Seeeduino V4.2 in PDF](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/Seeeduino_v4.2_sch.pdf)
-    * [Seeeduino V4.0 in EAGLE file](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/Seeeduino_v4.0_sch.pdf)
-    * [Seeeduino V4.0 in PDF](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/Seeeduino_v4.0_sch.pdf)
+Here is some funny project for your reference.
 
-* **Datasheet**
-    * [ATmega328P](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/ATmega328.pdf)
-    * [ATmega16U2](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/ATmega16u2.pdf)
+|Paper Man|Fingerprint Lock|Monitor Stand|
+|-------|-------|-------|
+|![](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/project1.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/project2.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/project3.jpg)|
+| [Make it Now](http://www.instructables.com/id/Paper-Man-a-machine-created-by-Arduino-and-NFC/) | [Make it Now](http://www.instructables.com/id/Door-to-Open-Source-Hardware-A-fingerprint-lock-so/) | [Make it Now](http://www.instructables.com/id/DIY-a-Programmable-Acrylic-Monitor-Stand/)|
 
-* **[Download above all](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/resources_seeeduino_v4.zip)**
+|Desk Promo|Tiger Machine|Colorful Pyramid|
+|-------|-------|-------|
+|![](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/project4.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/project5.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/project6.jpg)|
+| [Make it Now](http://www.instructables.com/id/Desk-promo/) | [Make it Now](http://www.instructables.com/id/How-to-Make-Your-Tiny-Tiger-Machine/) | [Make it Now](http://www.instructables.com/id/DIY-a-colorful-pyramid/)|
 
-* **References**
-    * [Getting Started with Arduino](https://www.arduino.cc/en/Guide/HomePage)
-    * [Arduino Language Reference](https://www.arduino.cc/en/Reference/HomePage)
-    * [Download the Arduino Software(IDE)](https://www.arduino.cc/en/Main/Software)
-    * [Arduino FAQ](https://www.arduino.cc/en/Main/FAQ)
-    * [Arduino Introduction](https://www.arduino.cc/en/guide/introduction)
-    * [Wikipedia page for Arduino](https://en.wikipedia.org/wiki/Arduino)
-    * [How to fit RF Explorer 3G+ IoT modules on Seeeduino](http://j3.rf-explorer.com/60-rfe/specifications/184-rf-explorer-3g-iot-for-seeeduino)
+## Resources
+- **[Eagle]** [Seeeduino V4.2 in EAGLE file](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/SeeeduinoV4.2.zip)
+- **[PDF]** [Seeeduino V4.2 in PDF](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/Seeeduino_v4.2_sch.pdf)
+- **[Eagle]** [Seeeduino V4.0 in EAGLE file](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/Seeeduino_v4.0_sch.pdf)
+- **[PDF]** [Seeeduino V4.0 in PDF](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/Seeeduino_v4.0_sch.pdf)
+- **[Datasheet]** [ATmega328P](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/ATmega328.pdf)
+- **[Datasheet]** [ATmega16U2](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/ATmega16u2.pdf)
 
-##FAQ
+### References
+  * [Getting Started with Arduino](https://www.arduino.cc/en/Guide/HomePage)
+  * [Arduino Language Reference](https://www.arduino.cc/en/Reference/HomePage)
+  * [Download the Arduino Software(IDE)](https://www.arduino.cc/en/Main/Software)
+  * [Arduino FAQ](https://www.arduino.cc/en/Main/FAQ)
+  * [Arduino Introduction](https://www.arduino.cc/en/guide/introduction)
+  * [Wikipedia page for Arduino](https://en.wikipedia.org/wiki/Arduino)
+  * [How to fit RF Explorer 3G+ IoT modules on Seeeduino](http://j3.rf-explorer.com/60-rfe/specifications/184-rf-explorer-3g-iot-for-seeeduino)
 
-####Q1. What's the difference between Arduino UNO and Seeeduino V4
+## FAQs
 
-Seeeduino V4 is fully compatible with Arduino UNO. The mainly difference list below:
-
-* Use a micro USB to power and program the board
-* 3 on-board Grove connector
-* 3.3/5V system power switch
-* DCDC circuit instead of LDO, more efficiency
-* Others circuit improve
-
-####Q2. I can't upload my sketch to Seeeduino V4
-
-Please check,
-
-* If the Power LED on
-* If you choose the right Port and Board (Seeeduino V4)
-* Close and reopen Arduino IDE and try again
-
-####Q3. Where can I find technical support if I have some other issue.
-
-You can post a question to [Seeed Forum](http://www.seeed.cc/discover.html?t=Arduino) or send an email to **techsupport@seeed.cc**.
+Please click **[here](http://support.seeedstudio.com/knowledgebase/articles/1826437-seeeduino-v4-2-sku-102010026)** to see all Seeeduino V4.2 FAQs.

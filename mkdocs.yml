@@ -228,11 +228,11 @@ pages:
 
     - ReSpeaker:
         - ReSpeaker Introduction: ReSpeaker.md
-        - ReSpeaker 2-Mics Pi HAT: ReSpeaker_2_Mics_Pi_HAT.md
+        - ReSpeaker 2-Mics Pi HAT: Respeaker_2_Mics_Pi_HAT.md
         - ReSpeaker 4-Mic Array for Raspberry Pi: ReSpeaker_4_Mic_Array_for_Raspberry_Pi.md
-        - ReSpeaker Core: ReSpeaker_Core.md
+        - ReSpeaker Core: Respeaker_Core.md
         - ReSpeaker Drive Unit: ReSpeaker_Drive_Unit.md
-        - ReSpeaker Mic Array: ReSpeaker_Mic_Array.md
+        - ReSpeaker Mic Array: Respeaker_Mic_Array.md
 
 
 
@@ -442,9 +442,10 @@ pages:
         - Arduino IDE for RePhone Kit: Arduino_IDE_for_RePhone_Kit.md
         - Arduino Software I2C user guide: Arduino_Software_I2C_user_guide.md
         - Dfu-util: Dfu-util.md
-        - Download Arduino and install Arduino driver: Download_Arduino_and_install_Arduino_driver.md
+        - Driver for Seeeduino: Driver_for_Seeeduino.md
         - Eclipse IDE for RePhone Kit: Eclipse_IDE_for_RePhone_Kit.md
         - FM Receiver: FM_Receiver.md
+        - Get Started with Arduino: Get_Started_with_Arduino.md
         - Getting Started with Seeeduino: Getting_Started_with_Seeeduino.md
         - Grove Inventor Kit for micro:bit: Grove_Inventor_Kit_for_microbit.md
         - Guide to use demos downloaded from Seeed&#39;s Github: Guide_to_use_demos_downloaded_from_Seeed-s_Github.md

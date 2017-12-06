@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://wiki.seeed.cc/download_arduino_and_install_arduino_driver/</loc>
+  </url>
+  
+  <url>
     <loc>http://wiki.seeed.cc/how_to_choos_a_gas_sensor/</loc>
   </url>
   
@@ -409,7 +413,7 @@
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/download_arduino_and_install_arduino_driver/</loc>
+    <loc>http://wiki.seeed.cc/driver_for_seeeduino/</loc>
   </url>
   
   <url>
@@ -514,6 +518,10 @@
   
   <url>
     <loc>http://wiki.seeed.cc/galileo_case/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/get_started_with_arduino/</loc>
   </url>
   
   <url>
