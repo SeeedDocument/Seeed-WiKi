@@ -12,186 +12,115 @@ tags: grove_digital, io_3v3, io_5v, plat_duino, plat_linkit, plat_pi, plat_bbg
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-GSR_Sensor/master/img/GSR.jpg)
 
-GSR, standing for galvanic skin response, is a method of measuring the electrical conductance of the skin. Strong emotion can cause stimulus to your sympathetic nervous system, resulting more sweat being secreted by the sweat glands. Grove – GSR allows you to spot such strong emotions by simple attaching two electrodes to two fingers on one hand, an interesting gear to create emotion related projects, like sleep quality monitor.
+GSR stands for galvanic skin response, is a method of measuring the electrical conductance of the skin. Strong emotion can cause stimulus to your sympathetic nervous system, resulting more sweat being secreted by the sweat glands. Grove - GSR allows you to spot such strong emotions by simple attaching two electrodes to two fingers on one hand. It is an interesting to create emotion related projects like sleep quality monitor.
 
+!!!Warning
+    Grove-GSR Sensor measures the resistance of the people, NOT Conductivity!
 
 [![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](http://www.seeedstudio.com/Grove-GSR-sensor-p-1614.html)
 
 ## Version
-----
-| Product                  | Released Date  | Description                                |
+
+| Product Version                  |  Changes | Released Date                                |
 |------------------------|----------------|--------------------------------------------|
-| Grove - GSR_Sensor V1.0      | June 19, 2013     | Initial      |
-| Grove - GSR_Sensor V1.2  | July 31, 2014 | Add C3 100nf between M324PW-TSSOP14 and GND |
+| Grove - GSR_Sensor V1.0      | Initial     |  June 19, 2013     |
+| Grove - GSR_Sensor V1.2  |Add C3 100nf between M324PW-TSSOP14 and GND  | July 31, 2014 |
 
-## Specifications
---------------
+## Specification
 
--   Input Voltage: 5V/3.3V
--   Sensitivity adjustable via a potentiometer
--   External measuring finger cots
+| Parameter               | Value/Range                    |
+|-------------------------|--------------------------------|
+| Operating voltage       | 3.3V/5V                        |
+| Sensitivity             | Adjustable via a potentiometer |
+| Input Signal            | Resistance, NOT Conductivity   |
+| Output Signal           | Voltage, analog reading        |
+| Finger contact material | Nickel                         |
+
+
 
 !!!Tip
     More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
 
 ## Platforms Supported
--------------------
+
 
 ## Getting Started
--------------
 
-### Connection
+### Hardware
 
-Here we will show you how this Grove - GSR works via a simple demo. First of all, we need to prepare the below stuffs:
+- Step 1. We need to prepare the below stuffs:
 
+| Seeeduino V4.2 | Base Shield |  Grove - GSR|
+|--------------|----------------------|-----------------|
+|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_1.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_4.jpg)|![enter image description here](https://github.com/SeeedDocument/Grove-GSR_Sensor/raw/master/img/Grove-GSR_s.jpg)|
+|[Get ONE Now](http://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html)|[Get ONE Now](https://www.seeedstudio.com/Base-Shield-V2-p-1378.html)|[Get ONE Now](https://www.seeedstudio.com/Grove-GSR-sensor-p-1614.html)|
 
-| Seeeduino V4 | Grove - GSR | Base Shield |Grove-RGB LCD Backlight |Grove-Buzzer |
-|--------------|----------------------|-----------------|-----------------|-----------------|
-|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_1.jpg)|![enter image description here](https://github.com/SeeedDocument/Grove-GSR_Sensor/raw/master/img/Grove-GSR_s.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_4.jpg)|![enter image description here](https://github.com/SeeedDocument/Grove-GSR_Sensor/raw/master/img/Grove%20-%20LCD%20RGB%20Backlight_s.jpg)|![enter image description here](https://github.com/SeeedDocument/Grove-GSR_Sensor/raw/master/img/Grove-Button_s.jpg)|
-|[Get ONE Now](http://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html)|[Get ONE Now](https://www.seeedstudio.com/Grove-GSR-sensor-p-1614.html)|[Get ONE Now](https://www.seeedstudio.com/Base-Shield-V2-p-1378.html)|[Get ONE Now](https://www.seeedstudio.com/Grove-LCD-RGB-Backlight-p-1643.html)|[Get ONE Now](https://www.seeedstudio.com/Grove-Buzzer-p-768.html)|
+- Step 2. Connect the Grove-GSR to **A0** on Base Shield.
+- Step 3. Plug the base Shield into Seeeduino-V4.2.
+- Step 4. Connect Seeeduino-V4.2 to PC by using a USB cable.
 
-- Connect the Grove-GSR to **A2** on the Grove - Base Shield by using a Grove Universal 4 pin cable.
-- Connect the Grove-Buzzer to **D3** on the Grove - Base Shield by using a Grove Universal 4 pin cable.
-- Connect the Grove-RGB LCD Backlight to **I2C** on the Grove - Base Shield by using a Grove Universal 4 pin cable.
-- Plug the base Shield into Seeeduino-V4.
-- Connect Seeeduino-V4 to PC by using a USB cable.
-
- ![](https://github.com/SeeedDocument/Grove-GSR_Sensor/raw/master/img/GSR_arduino_connection.jpg)
+![](https://github.com/SeeedDocument/Grove-GSR_Sensor/raw/master/img/Hardware_connection.jpg)
 
 !!!Note
-    If you don't have a Base Shield, don't worry, the sensor can be connected to your Arduino directly. Please follow below tables to connect with Arduino.
+    If we don't have a Base Shield, don't worry, the sensor can be connected to your Arduino directly. Please follow below tables to connect with Arduino.
 
-| Grove-GSR Sensor | Arduino       |
-|------------------|---------------|
-| GND              | GND           |
-| VCC              | VCC           |
-| SIG              | A2            |
-| NC               | No connection |
-
-
-| Grove-Buzzer | Arduino       |
-|--------------|---------------|
-| GND          | GND           |
-| VCC          | VCC           |
-| SIG          | 3             |
-| NC           | No connection |
-
-| Grove - LCD RGB Backlight | Arduino Uno |
-|---------------------------|---------|
-| GND                       | GND     |
-| VCC                       | VCC     |
-| SDA                       | A4      |
-| SCL                       | A5      |
-
-As a reference the table below shows where I2C pins are located on various Arduino boards.
-
-| Board         | I2C  pins                      |
-|---------------|--------------------------------|
-| Uno, Ethernet | A4 (SDA), A5 (SCL)             |
-| Mega2560      | 20 (SDA), 21 (SCL)             |
-| Leonardo      | 2 (SDA), 3 (SCL)               |
-| Due           | 20 (SDA), 21 (SCL), SDA1, SCL1 |
-
+| Seeeduino |Grove-GSR Sensor |
+|------------------|------- --|
+| GND              | Black  |
+| 5V               |  Red   |
+| NC               | White  |
+| A0               | Yellow |
 
 ### Software
 
-We need to download Grove_LCD_RGB_Backlight library and install to your Arduino IDE.
-
-- Please follow [how to install an arduino library](http://wiki.seeed.cc/How_to_install_Arduino_Library/) procedures to install LCD RGB Backlight library.
-
-[![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_LCD_RGB_Backlight/master/images/library.png)](https://github.com/Seeed-Studio/Grove_LCD_RGB_Backlight/archive/master.zip)
-
-- Copy and paste the code below to a new Arduino sketch and upload it to Arduino.
+- Step 1. Copy the code into Arduino IDE and upload.
 
 ```
-#include <Wire.h>
-#include "rgb_lcd.h"
+const int GSR=A0;
+int sensorValue=0;
+int gsr_average=0;
 
-    const int BUZZER=3;
-    const int GSR=A2;
-    int threshold=0;
-    int sensorValue;
-    rgb_lcd lcd;
+void setup(){
+  Serial.begin(9600);
+}
 
-    void setup(){
-      long sum=0;
-      lcd.begin(16, 2);
-      Serial.begin(9600);
-      pinMode(BUZZER,OUTPUT);
-      digitalWrite(BUZZER,LOW);
-      delay(1000);
-
-      for(int i=0;i<500;i++)
+void loop(){
+  long sum=0;
+  for(int i=0;i<10;i++)           //Average the 10 measurements to remove the glitch
       {
       sensorValue=analogRead(GSR);
       sum += sensorValue;
       delay(5);
       }
-      threshold = sum/500;
-       Serial.print("threshold =");
-       Serial.println(threshold);
-      }
-
-    void loop(){
-      int temp;
-      sensorValue=analogRead(GSR);
-      Serial.print("sensorValue=");
-      Serial.println(sensorValue);
-      lcd.setCursor(0, 0);
-      lcd.print("GSR Value: ");
-      lcd.print(sensorValue);
-      temp = threshold - sensorValue;
-      if(abs(temp)>50)
-      {
-        sensorValue=analogRead(GSR);
-        temp = threshold - sensorValue;
-        if(abs(temp)>50){
-        digitalWrite(BUZZER,HIGH);
-        Serial.println("YES!");
-        delay(3000);
-        digitalWrite(BUZZER,LOW);
-        delay(1000);}
-      }
-      }
+   gsr_average = sum/10;
+   Serial.println(gsr_average);
+}
 
 ```
 
-- Wear the finger stretch and relax, we can see data from  Grove_LCD_RGB_Backlight and serial port:
+- Step 2. Wear the GSR sensor
+- Step 3. Click the Tools-> Serial Plotter from Arduino IDE
+- Step 4. We will see the below graph. Please deep breath and see the trends.  
 
-  ![](https://raw.githubusercontent.com/SeeedDocument/Grove-GSR_Sensor/master/img/GSR_Result_Data.jpg)
+![](https://github.com/SeeedDocument/Grove-GSR_Sensor/raw/master/img/Grove-GSR_Result.png)
 
+**Human Resistance** = ((1024+2*Serial_Port_Reading)*10000)/(512-Serial_Port_Reading), unit is ohm, Serial_Port_Reading is the value display on Serial Port(between 0~1023)
 
-- Then take a deep breath. The buzzer should trigger now. And an obvious change in the output value should be observed.
-
-
-## Reference
----------
-
-There are several graphs which are created in excel by using GSR data. We can open the [GSR sensor data](https://raw.githubusercontent.com/SeeedDocument/Grove-GSR_Sensor/master/res/GSR_sensor_data.xls) to see the detail data.
-
-- **Deep Breath**
-![](https://raw.githubusercontent.com/SeeedDocument/Grove-GSR_Sensor/master/img/Reference_graphs1.png)
-
-- **Hungry**
-![](https://raw.githubusercontent.com/SeeedDocument/Grove-GSR_Sensor/master/img/Reference_graphs3.png)
-
-- **Relax**
-![](https://raw.githubusercontent.com/SeeedDocument/Grove-GSR_Sensor/master/img/Reference_graphs2.png)
-
-- **My Boss is Coming**
-![](https://raw.githubusercontent.com/SeeedDocument/Grove-GSR_Sensor/master/img/Reference_graphs4.png)
+## FAQ
+Please click [here](http://support.seeedstudio.com/knowledgebase/articles/1827199-grove-gsr-sensor-sku-101020052) to see all Grove - GSR sensor FAQs.
 
 ## Resources
----------
 
-- **[Eagle]** [Grove - GSR v1.0 Eagle File](https://github.com/SeeedDocument/Grove-GSR_Sensor/raw/master/res/Grove-GSR_Eagle_File_V1.0.zip)
+
+- **[PDF]** [Download Wiki PDF](https://github.com/SeeedDocument/Grove-GSR_Sensor/raw/master/res/Grove-GSR_Sensor_WiKi.pdf)
 - **[PDF]** [Grove-GSR v1.0 Sch](https://github.com/SeeedDocument/Grove-GSR_Sensor/raw/master/res/Grove%20-%20GSR%20v1.0%20SCH.pdf)
 - **[PDF]** [Grove-GSR v1.0 PCB](https://github.com/SeeedDocument/Grove-GSR_Sensor/raw/master/res/Grove%20-%20GSR%20v1.0%20PCB.pdf)
-- **[Eagle]** [Grove - GSR v1.2 Eagle File](https://github.com/SeeedDocument/Grove-GSR_Sensor/raw/master/res/Grove-GSR_Eagle_File_V1.2.zip)
 - **[PDF]** [Grove-GSR v1.2 Sch](https://github.com/SeeedDocument/Grove-GSR_Sensor/raw/master/res/Grove%20-%20GSR_v1.2_SCH.pdf)
 - **[PDF]** [Grove-GSR v1.2 PCB](https://github.com/SeeedDocument/Grove-GSR_Sensor/raw/master/res/Grove%20-%20GSR_v1.2_PCB.pdf)
+- **[Eagle]** [Grove - GSR v1.0 Eagle File](https://github.com/SeeedDocument/Grove-GSR_Sensor/raw/master/res/Grove-GSR_Eagle_File_V1.0.zip)
+- **[Eagle]** [Grove - GSR v1.2 Eagle File](https://github.com/SeeedDocument/Grove-GSR_Sensor/raw/master/res/Grove-GSR_Eagle_File_V1.2.zip)
 - **[Datasheet]** [LM324 datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-GSR_Sensor/master/res/Lm324.pdf)
-- **[Document]** [GSR sensor data](https://raw.githubusercontent.com/SeeedDocument/Grove-GSR_Sensor/master/res/GSR_sensor_data.xls "File:GSR sensor data.xls")
+
 
 
 <!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_GSR_Sensor -->

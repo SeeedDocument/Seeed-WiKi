@@ -50,7 +50,7 @@ The Base Shield is tested and fully compatible with following boards:
 - **5-Power Switch**: when using Arduino UNO with Base Shield v2, please turn the switch to 5v position; While using Seeeduino Arch with Base Shield v2, please turn the switch to 3.3v.
 - **6-Reset Buton**: reset the arduino board.
 - **7-PWR  LED**：The Green LED turns on when power on.
-- **8-P1, P2**：please solder the pads, P1 and P2 if use Base Shield v2 with Seeeduino V3.
+- **8-P1, P2**：please solder the pads P1 and P2， if use Base Shield v2 with Seeeduino V3.
 - **Dimension**: 2.1 * 2.7 inch  
 
 ## Getting Started
