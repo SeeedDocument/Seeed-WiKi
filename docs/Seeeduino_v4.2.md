@@ -34,9 +34,9 @@ Finally, the three on-board Grove interfaces can make your board connect to Grov
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-031e">Product Version</th>
-    <th class="tg-031e">Changes</th>
-    <th class="tg-yw4l">Released Date</th>
+    <th width="20%">Product Version</th>
+    <th width="50%">Changes</th>
+    <th width="20%">Released Date</th>
   </tr>
   <tr>
     <td class="tg-4eph">Seeeduino V4.0</td>
@@ -45,7 +45,10 @@ Finally, the three on-board Grove interfaces can make your board connect to Grov
   </tr>
   <tr>
     <td class="tg-031e">Seeeduino V4.2</td>
-    <td class="tg-031e">1.Cancel some pad on the top left corner.<br>2.Change the usb location to middle<br>3.Improve DCDC circuit to get a better performance<br>4.Add an I2C Grove connector<br>5.Change some silkscreen and part location</td>
+    <td class="tg-031e">1.Cancel some pad on the top left corner.<br>
+    2.Change the usb location to middle<br>
+    3.Improve DCDC circuit to get a better performance<br>
+    4.Add an I2C Grove connector<br>5.Change some silkscreen and part location</td>
     <td class="tg-yw4l">Aug 24, 2015</td>
   </tr>
 </table>
@@ -132,31 +135,31 @@ The images below show an overview of Seeeduino v4.2 hardware features. The pin-o
 
 ![enter image description here](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/images/hardware_seeed.png)
 
-- <font face="" size=4 font color="00b0f0">❶</font> **USB Input:**
+- <font face="" size=5 font color="00b0f0">❶</font> **USB Input:**
 USB Port is used to connect the board to your PC for programming and for powering up.
 
-- <font face="" size=4 font color="00b0f0">❷</font> **DC Input:**
+- <font face="" size=5 font color="00b0f0">❷</font> **DC Input:**
 The DC power jack allows your Seeeduino board to be powered from a wall adapter so that you can supply more power to your project if needed. For example, when using DC motors or other high power devices. The DC input can be 7V-15V.
 
-- <font face="" size=4 font color="00b0f0">❸</font> **Grove Connectors:**
+- <font face="" size=5 font color="00b0f0">❸</font> **Grove Connectors:**
 SeeedStudio has a variety of sensors/devices that can make use of this I2C or UART connection. In addition, we sell independent Grove connectors to help you make our own sensor connections. The I2C Grove connector is also connected to analog pin A4 and A5 for SDA and SCL respectively if you would like to use those pins instead. The UART Grove connector is connected to digital pins 0 and 1 for RX and TX respectively.
 
-- <font face="" size=4 font color="00b0f0">❹</font> **ICSP:**
+- <font face="" size=5 font color="00b0f0">❹</font> **ICSP:**
 This is the ICSP connection for the ATmega328P, it is located in the standard ICSP/SPI position for Arduino Uno, Due, Mega, and Leonardo compatible hardware (e.g. shields) that may use this connector. The SPI pins in this port: MISO, SCK, and MOSI, are also connected to digital pins 12, 13, and 11 respectively just like those of the Arduino Uno.
 
-- <font face="" size=4 font color="00b0f0">❺</font> **USB 2 Uart:**
+- <font face="" size=5 font color="00b0f0">❺</font> **USB 2 Uart:**
 Pinout of USB-2-Uart. These pads can be used to interact with other UART devices by putting the on-board ATmega328 in reset mode. This makes Seeeduino V4.2 to be used a USB2UART utility board.
 
-- <font face="" size=4 font color="00b0f0">❻</font> **System Power Switch:**
+- <font face="" size=5 font color="00b0f0">❻</font> **System Power Switch:**
 Slide switch is used to change the logic level and operating voltage of the board to either 5V or 3.3V.
 
-- <font face="" size=4 font color="00b0f0">❼</font> **Reset:**
+- <font face="" size=5 font color="00b0f0">❼</font> **Reset:**
 This button is conveniently placed on the side to allow you to reset the Seeeduino board even when a shield is placed on top. This is not the case in other Arduino boards where the button is placed on top making it hard to access.
 
-- <font face="" size=4 font color="00b0f0">❽</font> **LED-D13:**
+- <font face="" size=5 font color="00b0f0">❽</font> **LED-D13:**
 The LED is connected to D13 pin of the board. This can be used as an on-board LED indicator for programs/sketches.
 
-- <font face="" size=4 font color="00b0f0">❾</font> **RX/TX Indicator:**
+- <font face="" size=5 font color="00b0f0">❾</font> **RX/TX Indicator:**
 The TX and RX LED indicators are connected to TX and RX of USB-to-UART chip. They work automatically, they let you know when the board is sending or receiving data respectively.
 
 
