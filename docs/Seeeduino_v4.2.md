@@ -28,15 +28,16 @@ Finally, the three on-board Grove interfaces can make your board connect to Grov
 .tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#6ab0de;}
-.tg .tg-yw4l{vertical-align:top}
-.tg .tg-4eph{background-color:#f9f9f9}
+.tg .tg-yw4l{vertical-align:top;width:20%}
+.tg .tg-yw42{vertical-align:top;width:50%}
+.tg .tg-4eph{background-color:#f9f9f9;}
 .tg .tg-b7b8{background-color:#f9f9f9;vertical-align:top}
 </style>
 <table class="tg">
   <tr>
-    <th width="20%">Product Version</th>
-    <th width="50%">Changes</th>
-    <th width="20%">Released Date</th>
+    <th class="tg-yw4l">Product Version</th>
+    <th class="tg-yw42">Changes</th>
+    <th class="tg-yw4l">Released Date</th>
   </tr>
   <tr>
     <td class="tg-4eph">Seeeduino V4.0</td>
@@ -45,10 +46,16 @@ Finally, the three on-board Grove interfaces can make your board connect to Grov
   </tr>
   <tr>
     <td class="tg-031e">Seeeduino V4.2</td>
-    <td class="tg-031e">1.Cancel some pad on the top left corner.<br>
+    <td class="tg-031e">
+    1.Cancel some pad on the top left corner.<br>
+    <br>
     2.Change the usb location to middle<br>
+    <br>
     3.Improve DCDC circuit to get a better performance<br>
-    4.Add an I2C Grove connector<br>5.Change some silkscreen and part location</td>
+    <br>
+    4.Add an I2C Grove connector<br>
+    <br>
+    5.Change some silkscreen and part location</td>
     <td class="tg-yw4l">Aug 24, 2015</td>
   </tr>
 </table>
