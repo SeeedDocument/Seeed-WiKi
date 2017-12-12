@@ -169,30 +169,31 @@ The LED is connected to D13 pin of the board. This can be used as an on-board LE
 - <font face="" size=5 font color="00b0f0">❾</font> **RX/TX Indicator:**
 The TX and RX LED indicators are connected to TX and RX of USB-to-UART chip. They work automatically, they let you know when the board is sending or receiving data respectively.
 
-
-
-!!!Warning
-    Please plug the USB cable gently, otherwise you may damage the interface
-
-
-
 ## Getting Started
 
-!!!Note
-    If this is your first time using Arduino, please refer to **[Getting Started with Arduino](http://wiki.seeed.cc/Getting_Started_with_Arduino/)**.
+<div class="admonition note" style="background:#6ab0de; color:#FFF">
+<p class="admonition-title">Note</p>
+<font face="Georgia" size=2 font color="white">    If this is your first time using Arduino, we highly recommend you to refer to  <a href="http://wiki.seeed.cc/Getting_Started_with_Arduino"><B>Getting Started with Arduino</B></a>
+</font>
+</div>
+
+
 
 ### Hardware
 
 - Step 1. Prepare a Seeeduino V4.2 and a Micro-USB cable.
 - Step 2. Connect the Seeeduino V4.2 to your computer with the Micro-USB Cable.
+Then the green power LED (labeled PWR) should go on.
 
 ![](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/images/connect.jpg)
 
-Then the green power LED (labeled PWR) should go on.
 
-!!!Note
-    Please use the USB cable with 4 wires inside, the 2 wires cable can't transfer data. If you are not sure about the wire you have, you can click [here](https://www.seeedstudio.com/Micro-USB-Cable-48cm-p-1475.html) to buy
 
+
+<div class="admonition warning" style="background:#f0b37e; color:#FFF">
+<p class="admonition-title">Caution</p>
+<font face="Georgia" size=2 font color="white">Please plug the USB cable gently, otherwise you may damage the interface.Please use the USB cable with 4 wires inside, the 2 wires cable can't transfer data. If you are not sure about the wire you have, you can click <a href="https://www.seeedstudio.com/Micro-USB-Cable-48cm-p-1475.html"><B>here</B></a> to buy</font>
+</div>
 
 
 ### Software
@@ -201,8 +202,7 @@ Then the green power LED (labeled PWR) should go on.
 
 For Windows
 
-!!!Note
-    This drive is available for Windows XP, Windows Vista, Windows 7, Windows 8/8.1 and Windows 10.
+This drive is available for Windows XP, Windows Vista, Windows 7, Windows 8/8.1 and Windows 10.
 
 [![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/download_driver.png)](https://github.com/Seeed-Studio/Signed_USB_Serial_Driver/archive/master.zip)
 
@@ -224,9 +224,11 @@ You don't need to install any drivers.
 
 Double-click the Arduino application (arduino.exe) you have previously installed.
 
-!!!Note
-    If the Arduino Software loads in a different language, you can change it in the preferences dialog. See the [Arduino Software (IDE) page](https://www.arduino.cc/en/Guide/Environment#languages) for details.
 
+<div class="admonition note" style="background:#6ab0de; color:#FFF">
+<p class="admonition-title">Note</p>
+<font face="Georgia" size=2 font color="white">If the Arduino Software loads in a different language, you can change it in the preferences dialog. See the <a href="https://www.arduino.cc/en/Guide/Environment#languages"><B>Arduino Software (IDE) page</B></a> for details.</font>
+</div>
 
 **Step 3. Open the Blink example.**
 
@@ -248,8 +250,13 @@ Select the serial device of the Arduino board from the Tools | Serial Port menu.
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/select_port.png)
 
-!!!Note
-    On the Mac or Linux, this should be something with **/dev/tty.USBmodem**.
+
+<div class="admonition note" style="background:#6ab0de; color:#FFF">
+<p class="admonition-title">Note</p>
+<font face="Georgia" size=2 font color="white"> On the Mac or Linux, this should be something with **/dev/tty.USBmodem**.</font>
+</div>
+
+
 
 **Step 6. Upload the program.**
 
@@ -287,13 +294,13 @@ Here is some funny project for your reference.
 - **[PDF]** [Seeeduino V4.0 in PDF](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/Seeeduino_v4.0_sch.pdf)
 - **[Datasheet]** [ATmega328P](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/ATmega328.pdf)
 - **[Datasheet]** [ATmega16U2](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/ATmega16u2.pdf)
-- **[References]**[Getting Started with Arduino](https://www.arduino.cc/en/Guide/HomePage)
-- **[References]**[Arduino Language Reference](https://www.arduino.cc/en/Reference/HomePage)
-- **[References]**[Download the Arduino Software(IDE)](https://www.arduino.cc/en/Main/Software)
-- **[References]**[Arduino FAQ](https://www.arduino.cc/en/Main/FAQ)
-- **[References]**[Arduino Introduction](https://www.arduino.cc/en/guide/introduction)
-- **[References]**[Wikipedia page for Arduino](https://en.wikipedia.org/wiki/Arduino)
-- **[References]**[How to fit RF Explorer 3G+ IoT modules on Seeeduino](http://j3.rf-explorer.com/60-rfe/specifications/184-rf-explorer-3g-iot-for-seeeduino)
+- **[References]** [Getting Started with Arduino](https://www.arduino.cc/en/Guide/HomePage)
+- **[References]** [Arduino Language Reference](https://www.arduino.cc/en/Reference/HomePage)
+- **[References]** [Download the Arduino Software(IDE)](https://www.arduino.cc/en/Main/Software)
+- **[References]** [Arduino FAQ](https://www.arduino.cc/en/Main/FAQ)
+- **[References]** [Arduino Introduction](https://www.arduino.cc/en/guide/introduction)
+- **[References]** [Wikipedia page for Arduino](https://en.wikipedia.org/wiki/Arduino)
+- **[References]** [How to fit RF Explorer 3G+ IoT modules on Seeeduino](http://j3.rf-explorer.com/60-rfe/specifications/184-rf-explorer-3g-iot-for-seeeduino)
 
 ## FAQs
 

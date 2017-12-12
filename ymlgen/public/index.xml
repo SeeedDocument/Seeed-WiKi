@@ -5110,7 +5110,7 @@ Seeeduino v4.2 is based the Arduino UNO bootloader, an ATmega16U2 as a UART-to-U
       <guid>http://wiki.seeed.cc/test007/</guid>
       <description>Seeeduino v4.2 is based the Arduino UNO bootloader, an ATmega16U2 as a UART-to-USB converter (basically work like an FTDI USB2UART chip). The board comes with an additional set of through-hole pads for all pins. These pads are aligned to 0.1&amp;rdquo; grid. This makes it easy to solder additional pin-headers to plug into breadboard or create your own attachment/shield with 0.1&amp;rdquo; dot-matrix general purpose PCBs.
 Caution
- Note that the sensor value only reflects the approximated trend of gas concentration in a permissible error range.</description>
+Note that the sensor value only reflects the approximated trend of gas concentration in a permissible error range.</description>
     </item>
     
     <item>

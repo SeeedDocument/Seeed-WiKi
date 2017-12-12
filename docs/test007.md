@@ -10,25 +10,22 @@ sku: 102010026
 
 Seeeduino v4.2 is based the Arduino UNO bootloader, an ATmega16U2 as a UART-to-USB converter (basically work like an FTDI USB2UART chip). The board comes with an additional set of through-hole pads for all pins. These pads are aligned to 0.1" grid. This makes it easy to solder additional pin-headers to plug into breadboard or create your own attachment/shield with 0.1" dot-matrix general purpose PCBs.
 
-<div class="admonition warning">
-<p class="admonition-title">Caution</p>
-<p>
-<font face="Georgia" size=2 font color="white">Note that the sensor value only reflects the approximated trend of gas concentration in a permissible error range. It DOES NOT represent the exact gas concentration. The detection of certain components in the air usually requires a more precise and costly instrument, which cannot be done with a single gas sensor. If your project is aimed at obtaining the gas concentration at a very precise level, then we do not recommend this gas sensor.</font>
-<p>
-</div>
-
-
 -----
-<div class="admonition warning">
+
+
+
+<div class="admonition warning" style=background:#f0b37e; color:#FFF>
 <p class="admonition-title">Caution</p>
-
-<style type="text/css">body { background-color: #f0b37e; }</style>
-
-<font face="Georgia" size=2 font color="white">Note that the sensor value only reflects the approximated trend of gas concentration in a permissible error range. It DOES NOT represent the exact gas concentration. The detection of certain components in the air usually requires a more precise and costly instrument, which cannot be done with a single gas sensor. If your project is aimed at obtaining the gas concentration at a very precise level, then we do not recommend this gas sensor.</font></body>
+<font face="Georgia" size=2 font color="white">Note that the sensor value only reflects the approximated trend of gas concentration in a permissible error range. It DOES NOT represent the exact gas concentration. The detection of certain components in the air usually requires a more precise and costly instrument, which cannot be done with a single gas sensor. If your project is aimed at obtaining the gas concentration at a very precise level, then we do not recommend this gas sensor.</font>
 </div>
 
 
 -------
+<div class="admonition note" style="background:#6ab0de; color:#FFF">
+<p class="admonition-title">Note</p>
+<font face="Georgia" size=2 font color="white">Note that the sensor value only reflects the approximated trend of gas concentration in a permissible error range. It DOES NOT represent the exact gas concentration. The detection of certain components in the air usually requires a more precise and costly instrument, which cannot be done with a single gas sensor. If your project is aimed at obtaining the gas concentration at a very precise level, then we do not recommend this gas sensor.</font>
+</div>
+
 
 
 
@@ -116,7 +113,7 @@ Seeeduino v4.2 is an Open Source, Arduino-compatible ATmega328 MCU development b
 
 <div class="admonition warning">
 <p class="admonition-title">Caution</p>
-<font size=2 font color="##000000">Note that the sensor value only reflects the approximated trend of gas concentration in a permissible error range. It DOES NOT represent the exact gas concentration. The detection of certain components in the air usually requires a more precise and costly instrument, which cannot be done with a single gas sensor. If your project is aimed at obtaining the gas concentration at a very precise level, then we do not recommend this gas sensor.</font>
+<font size=2 font color="##000000" background-color:#D2E4FC>Note that the sensor value only reflects the approximated trend of gas concentration in a permissible error range. It DOES NOT represent the exact gas concentration. The detection of certain components in the air usually requires a more precise and costly instrument, which cannot be done with a single gas sensor. If your project is aimed at obtaining the gas concentration at a very precise level, then we do not recommend this gas sensor.</font>
 </div>
 
 Seeeduino v4.2 is an Open Source, Arduino-compatible ATmega328 MCU development board. We think Seeeduino v4.2 is one of the best Arduino derivatives/compatibles available. Seeeduino v4.2 is feature rich, much more stable, easy-to-use and even good looking.
@@ -203,10 +200,18 @@ Here is some funny project for your reference.
 |Weight	|26g|
 
 
+
+
+
 # Hardware Overview
 
-!!!Note
-    This part is based on Seeeduino V4.2
+
+
+
+
+
+
+
 
 The images below show an overview of Seeeduino v4.2 hardware features. The pin-out and alternate functions of various pins of Seeeduino v4.2 are shown in the pin-out diagram. This could be used as a quick reference.
 
