@@ -1,5 +1,5 @@
 ---
-title: Wio LTE Cat.1 
+title: Wio LTE Cat.1
 category: Wio_Tracker
 bzurl: https://www.seeedstudio.com/Wio-LTE-4G%2C-Cat.1%2C-GNSS%2C-Espruino-Compatible-p-2957.html
 prodimagename: wio_tracker_lte_1.jpg
@@ -19,7 +19,7 @@ Apart from the three main updates, the LTE version is almost the same as the 2G 
 The Wio LTE is well suited for outdoor projects where the device can connect to the GPS satellites and provide a real-time location of the item it is attached to. The LTE provides a wide bandwidth which allows much faster interaction between the user and device. If you are going to build  projects like a bicycle sharing service, tracking pets or livestock, locating a vehicle, or even keeping track of a child, the Wio LTE is the best solution.
 
 !!!Warning
-    Please always plug 3.7V Lipo battery in case USB power supply is not sufficient. 
+    Please always plug 3.7V Lipo battery in case USB power supply is not sufficient.
 
 
 ## Features
@@ -43,10 +43,9 @@ The Wio LTE is well suited for outdoor projects where the device can connect to 
 ||SRAM|192+4KB|
 ||Operating Voltage|3.3V|
 ||DC Current per I/O Pin|7 mA|
-|LTE|LTE Cat.1|FDD LTE: B2/B4/B12 WCDMA: B2/B4/B5|
-|||AT Command: 3GPP TS27.007 and enhanced AT Commands|
+|LTE|LTE Cat.1|AT Command: 3GPP TS27.007 and enhanced AT Commands|
 ||Data|LTE-FDD Max 10Mbps(DL) Max 5Mbps (UL)|
-|||Protocol: TCP/UDP/PPP/FTP/HTTP/SSL/NTP/PING/QMI|
+|||Protocol: TCP/UDP/PPP/FTP/*HTTP/*SSL/NTP/PING/QMI|
 ||SMS|Peer to Peer Message, SMS broadcast, Text and PDU mode|
 ||Audio|Echo cancellation, Noise elimination|
 |GNSS|System|GPS/BeiDou/GLONASS/Galileo/QZSS|
@@ -67,8 +66,9 @@ The Wio LTE is well suited for outdoor projects where the device can connect to 
 ||Width|48.2mm|
 ||Weight|||
 
+
 ## Power Consumption
-|status|current|
+|Status|Current|
 |---|---|
 |Normal boot(boot moment)| 700mA |
 |After boot(IDLE mode)| 300mA|
@@ -105,13 +105,906 @@ In brief, Groves is hundreds of sensor that in standard style, which is consist 
 ![](https://github.com/SeeedDocument/Wio_Tracker_LTE/raw/master/img/wio_tracker_lte_v1_buttom.png)
 
 !!!Tip
-    If you want to use the on-board Grove connector, please use digitalWrite(12, HIGH) to open 3V3_B. Otherwise you can't provide power to Grove modules.
+    If you want to use the on-board Grove connector, please use digitalWrite(12, HIGH) to open 3V3_B. except D38 power on by default. Otherwise you can't provide power to Grove modules.
+
+## EC21 Module
+
+EC21 contains 10 variants: EC21-E, EC21-A, EC21-V, EC21-AUT, EC21-AUTL, EC21-AUV, EC21-J, EC21-KL, EC21-AU and EC21-CT. This makes it backward-compatible with existing EDGE and GSM/GPRS networks, ensuring that it can easily migrate from LTE to 2G or 3G networks.
+
+And **EC21-A** is what we are using in WIO Tracker - LTE, which supports AT&T and T-mobile sim card. If you want to customize EC21 Module for other region, feel free to email us: fae@seeed.cc
+
+|Frequency|EC21-E|EC21-A|EC21-V|EC21-AUT|
+|---|----|---|---|---|
+|FDD-LTE(4G)| B1/ B3/ B5/ B7/ B8/ B20|B2/ B4/ B12|B4/ B8|B1/ B3/ B5/ B7/ B28|
+|TDD-LTE(4G)||
+|WCDMA(3G)|B1/ B5/ B8| B2/ B4/ B5|| B1/ B5|
+|GSM/EDGE(2G)| B3/ B8||||
+|Embedded GNSS| Optional| Optional| Optional| Optional|
+|Wi-Fi Interface| Y| Y| Y| Y|
+|**Region**| EMEA, Korea, Thailand, India| AT&T, T-mobile |Verizon| Telstra|
+|Certification| CE/ GCF/ Vodafone* |FCC/ PTCRB/ AT&T\*/ IC/ ROGERS| FCC/ GCF/ Verizon*|RCM/ Telstra |
+
+|Frequency|EC21-AUTL|EC21-AUV|EC21-AU|EC21-KL|
+|---|----|---|---|---|
+|FDD-LTE(4G)|B3/ B7/ B28|B1/ B3/ B5/ B8/ B28|B1/ B2/ B3/ B4/ B5/ B7/ B8/ B28|B4/ B8|
+|TDD-LTE(4G)|||B40||
+|WCDMA(3G)||B1/ B5/ B8|B1/ B2/ B5/ B8|
+|GSM/EDGE(2G)|||B2/ B3/ B5/ B8||
+|Embedded GNSS| Optional| Optional| Optional| Optional|
+|Wi-Fi Interface| Y| Y| Y| Y|
+|**Region**|Telstra|Vodafone Australia|South America, ANZ, Taiwan|Korea|
+|Certification|RCM/ Telstra|RCM|RCM/ Anatel\*/ NCC\*|KC/ SKT/KT\*/LGU+\*|
+
+|Frequency|EC21-CT|EC21-J|
+|---|----|---|
+|FDD-LTE(4G)|B1/ B3/ B5/ B7/ B28|B3/ B7/ B28|
+|TDD-LTE(4G)|||
+|WCDMA(3G)|B1/ B5||
+|GSM/EDGE(2G)|||||
+|Embedded GNSS| Optional| Optional| Optional| Optional|
+|Wi-Fi Interface| Y| Y| Y| Y|
+|**Region**|China Telecom|Japan|
+|Certification|CCC\*/ SRRC\*/ CTA\*|JATE/ TELEC/ Softbank\*/ KDDI\*|
 
 
+## Getting Started
+
+### Install USB driver
+
+- **Windows Users**: Most versions of Windows won't automatically load the built-in driver for USB com ports. You'll have to download ST's USB driver:
+
+  - Non-Windows XP [Users download version 1.4.0 drivers](http://www.espruino.com/files/stm32_vcp_1.4.0.zip). Unzip the file, run the executable, and then go to C:\Program Files (x86)\STMicroelectronics\Software\Virtual comport driver in Windows Explorer and double-click either dpinst_amd64.exe for 64 bit systems, or dpinst_x86.exe for 32 bit.
+
+  - Windows XP [Users download version 1.3.1 drivers](http://www.espruino.com/files/stm32_vcp_1.3.1.zip). Unzip the file, run VCP_V1.3.1_Setup.exe, and then go to C:\Program Files\STMicroelectronics\Software\Virtual comport driver in Windows Explorer and double-click the executable.
+
+- **Linux users** to ensure that you have the correct permissions to connect as a normal user you'll need to copy the file [45-espruino.rules](https://github.com/espruino/Espruino/blob/master/misc/45-espruino.rules) to /etc/udev/rules.d, reload rules with udevadm control --reload-rules, and ensure your user is in the plugdev group (you can check by typing groups). You add it by typing sudo adduser $USER plugdev and then logging out and back in. Arch Linux users need to add their user to uucp and lock groups instead.
+
+- **Mac OS X and Chromebook Users**: The board will just plug in and work, without drivers!
+
+### Update Firmware
+
+- Step 1: Download WioLTE firmware from [here](http://www.espruino.com/binaries/) or [firmware folder](https://github.com/SeeedDocument/Wio_LTE/firmware)
+- Step 2: Install [dfu-util](http://dfu-util.sourceforge.net/)
+- Step 3: Press and hold BOOT button before connect to computer, release after connecting.
+- Step 4: The Wio LTE board will access DFU mode
+- Step 5: In system command line type **dfu-util -d 0483:df11 -c 1 -i 0 -a 0 -s 0x08000000 -D ***.bin**
+
+![dfu-flash](https://github.com/SeeedDocument/Wio_LTE/blob/master/img/wio_tracker_lte_v1_dfu-flash.png?raw=true)
+
+### Change DFU driver
+
+**For windows users**: Press and hold BOOT button and connect to computer you will see **STM32 Device in DFU Mode** at device manager, this say that you need to use [zadig_xx.exe](https://github.com/SeeedDocument/Wio_LTE/raw/master/res/zadig_2.1.2.exe) to change DFU driver from **STTub30** to **WinUSB** as bellow.
+
+![](https://github.com/SeeedDocument/Wio_LTE/raw/master/img/zadig.png)
+
+
+
+### Play with Javascript
+
+Thanks to G.Williams for providing Espruino the Javascript interpreter, so that we can prototype things with Javascript.
+
+#### Install Espruino web IDE
+
+- Step 1: Install [Chrome Web Browser](https://www.google.com/intl/en/chrome/browser/)
+- Step 2: [Click here to get Espruino Web IDE](https://chrome.google.com/webstore/detail/espruino-web-ide/bleoifhkdalbjfbobjackfdifdneehpo)
+- Step 3: Run Espruino Web IDE from chrome's home screen or the App Launcher (type **chrome://apps*** at the address bar)
+
+![Espruino Web IDE](https://github.com/SeeedDocument/Wio_LTE/blob/master/img/wio_tracker_lte_v1_WebIDE.png?raw=true)
+
+#### How to use Espruino Web IDE
+
+- Step 1: Connect the Wio LTE board to computer using a micro USB cable. On device manager you can see a new COM Port device, on MacOS it is  **STM32 Virtual ComPort**, on windows it is **STMicroelectronic Virtual COM Port**.
+
+- Step 2: On the Web IDE click the left top icon, choose Espruino board in the select box.
+
+![](https://github.com/SeeedDocument/Wio_LTE/blob/master/img/wio_tracker_lte_v1_connectWebIDE.png?raw=true)
+
+- Step 3: To learn more about the IDE you can follow this tour.
+
+![](https://github.com/SeeedDocument/Wio_LTE/blob/master/img/wio_tracker_lte_v1_WebIDEGuide.png?raw=true)
+
+
+#### How to load modules
+
+In Espruino, Modules are pieces of pre-written code (libraries) that perform common tasks, such as interfacing to different bits of hardware.
+
+They can currently be used in a few different ways:
+
+##### Espruino Web IDE
+
+If you're using the Espruino Web IDE, simply write require("modulename") on the right-hand side - as you would have seen in the reference pages. When you click the Send to Espruino button, the Web IDE will automatically look online for minified versions of the modules you need, download them, and load them onto the board. You don't need an SD card or an internet connection to the Espruino board itself.
+
+##### Load Module - the default mechanism
+
+If you are using the Web IDE as is, the modules will be loaded from http://www.espruino.com/modules/. This URL can be changed in Web IDE settings.
+
+To save space, most modules are provided as a minified version and the Web IDE tries to load minified versions first with default configuration.
+
+For example, using ```require("ADNS5050")```; will make the Web IDE loading the minified module from http://www.espruino.com/modules/ADNS5050.min.js.
+
+##### Load Module from Github
+
+For now, as you can type a URL into require, you can actually just pull a module right off GitHub:
+```
+require("https://github.com/espruino/EspruinoDocs/blob/master/devices/PCD8544.js");
+```
+You can even look at the history of something on GitHub, and can then require a specific version of that file with:
+```
+require("https://github.com/espruino/EspruinoDocs/blob/d4996cb3179abe260c030ed02bcb0d2384db6bbd/devices/PCD8544.js");
+```
+The URL comes from clicking **<>** by the commit you were interested in.
+
+##### Load Module from NPM
+
+If you activate this option in Web IDE, you can load modules from the NPM repository. Right now it:
+
+- only loads the latest version there.
+- only works if the module contains a single file.
+- can cause some confusion with Espruino's modules, for instance clock.
+
+For example using **require("async")**; will make the Web IDE loading the tar.gz file (with automatic extraction) of the module from http://registry.npmjs.org/async.
+
+##### Load Module from local folder
+
+If you are using a local project folder, the Web IDE will automatically create an empty modules folder inside. Put a module there and you can load it with **require("myCustomModule");**.
+
+![](https://github.com/SeeedDocument/Wio_LTE/blob/master/img/wio_tracker_lte_v1_projectFiles.png?raw=true)
+
+With default Web IDE configuration, it will look for modules following this order:
+
+* local minified
+* online minified
+* local normal
+* online normal
+
+If your own module has the same name as one of the existing ones, the Web IDE will use the minified version from online first.
+
+If you need it anyway, you can provide a local minified version or you can change the Web IDE configuration from **.min.js|.js to .js|.min.js** or even **myCustomModule.js|.min.js|.js** to get it working.
+
+##### Stand-alone Espruino
+
+If you have an Espruino with an SD card (but you're not using the Web IDE), you can copy the modules you need into a directory called 'node_modules' on the SD card. Now, whenever you write **require("modulename")** the module will be used.
+
+##### Internet-enabled Espruino
+
+Right now there isn't a way to make Espruino automatically load a module from the internet when **required** without the Web IDE. This may be added in the future, but the fact that require is synchronous while network connections are asynchronous makes this difficult to do reliably until **yield** is added into the interpreter.
+
+Until then, the following asyncronous code will dynamically load a module from the internet on demand.
+
+```javascript
+function loadModule(moduleName, callback) {
+  require("http").get("http://www.espruino.com/modules/"+moduleName+".js", function(res) {
+    var contents = "";
+    res.on('data', function(data) { contents += data; });
+    res.on('close', function() {
+      Modules.addCached(moduleName, contents);
+      if (callback) callback();
+    });
+  }).on('error', function(e) {
+    console.log("ERROR", e);
+  });
+}
+```
+
+
+#### Play with Onboard RGB LED
+
+- Step 1. Config the R, G, B numbers, the arrange is 0~255.  
+- Step 2. Copy the code to IDE and upload to board.
+- Step 3. The on board RBG LED will be turned on.  
+```javascript
+WioLTE.setLEDPower(true);
+WioLTE.LED(r,g,b); // please modify the RGB to values with range 0..255)
+```
+
+####  Play with Grove Module
+
+##### Play with Digital Ports
+###### Grove-Button (Input)
+- Step 1. Conenct Grove-Button to Wio LTE D38 port.  
+- Step 2. Copy the code to IDE and upload to board.
+- Step 3. We will see the "Pressed" when we press the button. Or else, we will see "Released" printed on screen.  
+```javascript
+WioLTE.setGrovePower(true);
+var button = new (require("GroveButton"))(WioLTE.D38, function(e) {
+  if (e.state) console.log("Pressed");
+  else console.log("Released");
+});
+```
+
+###### Grove-Ralay (Output)
+- Step 1. Conenct Grove-Ralay to Wio LTE D38 port.  
+- Step 2. Copy the code to IDE and upload to board.
+- Step 3. We will hear the Relay switch and see the "Done" printed on screen.  
+```javascript
+WioLTE.setGrovePower(true);
+var relay = new (require('GroveRelay'))(WioLTE.D38);
+setInterval(function() {
+  relay.off();
+  relay.pulse(1000, function() {
+    console.log("Done!");
+});
+}, 2000);
+```
+
+##### Play with Analog Ports
+###### Grove-Light Sensor
+- Step 1. Conenct Grove-Light Sensor to Wio LTE A4 port.  
+- Step 2. Copy the code to IDE and upload to board.
+- Step 3. We will see the numbers printed on screen.
+```javascript
+WioLTE.setGrovePower(true);
+var light = new (require('GroveLightSensor'))(WioLTE.A4);
+setInterval(function() {
+  console.log(r.read());
+}, 500);
+```
+
+##### Play with UART Ports
+###### Grove-GPS
+- Step 1. Conenct Grove-GPS to Wio LTE UART port.  
+- Step 2. Copy the code to IDE and upload to board.
+```javascript
+WioLTE.setGrovePower(true);
+Serial1.setup(9600,{tx:WioLTE.UART[1],rx:WioLTE.UART[0]});
+var gps = new (require('GPS')).connect(Serial1, function(data) {
+  console.log(data);
+});
+```
+- Step 3. We will see time, lat, lon, satellites and altitude info printed on screen as below.
+```
+{  "time": "09:35:02", "lat": 30.69766, "lon": 104.05367833333, "fix": 1, "satellites": 6, "altitude": 537.2 }
+{  "time": "09:35:03", "lat": 30.69765166666, "lon": 104.05366166666, "fix": 1, "satellites": 6, "altitude": 537.2 }
+{  "time": "09:35:04", "lat": 30.69765, "lon": 104.05363833333, "fix": 1, "satellites": 6, "altitude": 537.1 }
+```
+
+##### Play with I2C Ports
+
+###### Grove 3-Axis Digital Accerlerometer(±16g)
+- Step 1. Conenct Grove 3-Axis Digital Accerlerometer(±16g) to Wio LTE I2C port.  
+- Step 2. Copy the code to IDE and upload to board.
+```javascript
+WioLTE.setGrovePower(true);
+I2C1.setup({scl:WioLTE.I2C[0], sda:WioLTE.I2C[1]});
+var accel = require("ADXL345").connect(I2C1,0,0);
+accel.measure(true);
+setInterval(function(){
+  console.log(accel.read());
+},2000);
+```
+- Step 3. We will see x, y and z info printed on screen as below.
+```
+{ "x": -0.05859375, "y": -0.46484375, "z": 0.76953125 }
+{ "x": -0.0546875, "y": -0.46484375, "z": 0.765625 }
+{ "x": -0.0546875, "y": -0.46875, "z": 0.7578125 }
+{ "x": -0.05078125, "y": -0.47265625, "z": 0.765625 }
+{ "x": -0.0546875, "y": -0.46484375, "z": 0.77734375 }
+{ "x": -0.0546875, "y": -0.46875, "z": 0.765625 }
+{ "x": -0.0546875, "y": -0.46875, "z": 0.765625 }
+{ "x": -0.05078125, "y": -0.47265625, "z": 0.765625 }
+```
+
+#### Play with Onboard LTE and GPS
+
+When **require** modules the Espruino Web IDE will automaticlly search modules at the [modules repository](http://www.espruino.com/modules/).
+To use LTE and GPS functionalities, you need to **require** the **wiolte** module
+with **require('wiolte')**.
+
+##### Play with Send and Receive SMS
+
+- Step 1. Plug the Nano SIM card into Nano SIM slot, near PCB board side.    
+- Step 2. Change the phone number and info.
+- Step 3. Copy the code to IDE and upload to board.
+- Step 4. The phone number owner will receive the message.
+- Step 5. If someone sends the message to you, it will be printed on the screen as well.
+
+```javascript
+digitalWrite(B2, 1);
+var board;
+var APN = "CMAPN";
+var USERNAME = "";
+var PASSWORD = "";
+
+function wiolteStart(debug_quectel, debug_at) {
+  debug_quectel = debug_quectel || false;
+  debug_at = debug_at || false;
+
+  board = require('wiolte').connect(function(err) {
+    console.log("connectCB entered...");
+    if (err) throw err;
+    setTimeout(doConnect,3000);
+  });
+
+  board.debug(debug_quectel, debug_at);
+
+}
+
+function doConnect() {
+  board.connect(APN, USERNAME, PASSWORD, function(err) {
+    console.log("connectCB entered...");
+    if (err) throw err;
+    board.getIP(print);
+
+    // work after connected
+    setTimeout(onConnected, 5000);
+
+  });
+}
+
+function onConnected(){
+  // Send the SMS message, please change the phone number
+  board.SMS.send("18583826402", "What is the story?",function(err) {
+    console.log(err);
+  });
+
+  //Receive SMS coming
+  board.on('message', function(id){
+    board.SMS.read(id, function(d, sms){
+      if(d !== "OK") throw new Error(d);
+      console.log('SMS from:', sms.oaddr);
+      console.log(':', sms.text);
+    });
+  });
+
+}
+
+wiolteStart();
+```
+
+
+##### Play with Call Out
+- Step 1. Plug the Nano SIM card into Nano SIM slot, near PCB board side.
+- Step 2. Plug the Headphone into audio port.  
+- Step 3. Change the phone number.
+- Step 4. Copy the code to IDE and upload to board.
+- Step 5. The phone number owner will receive the phone call.
+
+```javascript
+digitalWrite(B2, 1);
+var board;
+var APN = "CMAPN";
+var USERNAME = "";
+var PASSWORD = "";
+
+function wiolteStart(debug_quectel, debug_at) {
+  debug_quectel = debug_quectel || false;
+  debug_at = debug_at || false;
+
+  board = require('wiolte').connect(function(err) {
+    console.log("connectCB entered...");
+    if (err) throw err;
+    setTimeout(doConnect,3000);
+  });
+
+  board.debug(debug_quectel, debug_at);
+
+}
+
+function doConnect() {
+  board.connect(APN, USERNAME, PASSWORD, function(err) {
+    console.log("connectCB entered...");
+    if (err) throw err;
+    board.getIP(print);
+
+    // work after connected
+    setTimeout(onConnected, 5000);
+
+  });
+}
+
+//please change the phone number
+function onConnected(){
+  board.Call.call("18583826402");
+}
+
+wiolteStart();
+```
+
+- Step 5. If we see "Disconnected" during phone call as below, the root cause is that power supply is not sufficient. Please conenct the battery or connect to a hub with sufficiant power.
+
+```javascript
+_____                 _
+|   __|___ ___ ___ _ _|_|___ ___
+|   __|_ -| . |  _| | | |   | . |
+|_____|___|  _|_| |___|_|_|_|___|
+         |_| http://espruino.com
+1v94 Copyright 2016 G.Williams
+Espruino is Open Source. Our work is supported
+only by sales of official boards and donations:
+http://espruino.com/Donate
+>
+=undefined
+AT passedd
+PS attachment succeeded
+currently selected operator :+COPS: 0,0,"CHINA MOBILE",7
+connectCB entered...
+PDP context successfully activated
+connectCB entered...
+null 10.114.177.248
+IP address allocated, modem is ready to use
+>
+Disconnected
+```
+
+
+##### Play with Answer Call
+
+- Step 1. Plug the Nano SIM card into Nano SIM slot, near PCB board side.
+- Step 2. Plug the Headphone into audio port.     
+- Step 3. Copy the code to IDE and upload to board.
+- Step 4. It will pick up the phone call automatically.
+
+```javascript
+digitalWrite(B2, 1);
+var board;
+var APN = "CMNET";
+var USERNAME = "";
+var PASSWORD = "";
+
+function wiolteStart(debug_quectel, debug_at) {
+  debug_quectel = debug_quectel || false;
+  debug_at = debug_at || false;
+
+  board = require('wiolte').connect(function(err) {
+    console.log("connectCB entered...");
+
+    if (err) throw err;
+    setTimeout(doConnect,3000);
+  });
+
+  board.debug(debug_quectel, debug_at);
+
+}
+
+function doConnect() {
+  board.connect(APN, USERNAME, PASSWORD, function(err) {
+    console.log("connectCB entered...");
+    if (err) throw err;
+    board.getIP(print);
+
+    // work after connected
+    setTimeout(onConnected, 5000);
+
+  });
+}
+
+function onConnected(){
+  // Handle call coming
+  board.Call.handleRing(true);
+  board.on('RING', function(){
+    console.log("RING");
+    board.Call.answer(function(err){
+      print(err);
+    });
+  });
+}
+
+wiolteStart();
+
+```
+
+##### Play with GPS Location
+- Step 1. Plug the Nano SIM card into Nano SIM slot, near PCB board side.
+- Step 2. Copy the code to IDE and upload to board.
+- Step 3. We will see lat, lon info printed on screen.
+
+```javascript
+digitalWrite(B2, 1);
+var board;
+var APN = "CMNET";
+var USERNAME = "";
+var PASSWORD = "";
+
+function wiolteStart(debug_quectel, debug_at) {
+  debug_quectel = debug_quectel || false;
+  debug_at = debug_at || false;
+
+  board = require('wiolte').connect(function(err) {
+    console.log("connectCB entered...");
+    if (err) throw err;
+    setTimeout(doConnect,3000);
+  });
+
+  board.debug(debug_quectel, debug_at);
+
+}
+
+function doConnect() {
+  board.connect(APN, USERNAME, PASSWORD, function(err) {
+    console.log("connectCB entered...");
+    if (err) throw err;
+    board.getIP(print);
+
+    // work after connected
+    setTimeout(onConnected, 5000);
+
+  });
+}
+
+function onConnected(){
+  // fetch longitude, latitude every 10 s
+  board.geoLocStart(10000);
+}
+
+function GeoLoc() {
+  var coord="";
+  board.geoLocGet(function(err, coord) {
+    if(err) throw err;
+    console.log("longitude latitude = " + coord.lat,coord.lng);
+  });
+}
+
+wiolteStart();
+```
+
+##### Play with Get Html Page
+
+- Step 1. Plug the Nano SIM card into Nano SIM slot, near PCB board side.
+- Step 2. Copy the code to IDE and upload to board.
+
+```javascript
+digitalWrite(B2, 1);
+var board;
+var APN = "CMNET";
+var USERNAME = "";
+var PASSWORD = "";
+
+function wiolteStart(debug_quectel, debug_at) {
+  debug_quectel = debug_quectel || false;
+  debug_at = debug_at || false;
+
+  board = require('wiolte').connect(function(err) {
+    console.log("connectCB entered...");
+    if (err) throw err;
+    setTimeout(doConnect,3000);
+  });
+
+  board.debug(debug_quectel, debug_at);
+
+}
+
+function doConnect() {
+  board.connect(APN, USERNAME, PASSWORD, function(err) {
+    console.log("connectCB entered...");
+
+    if (err) throw err;
+    board.getIP(print);
+
+    // work after connected
+    setTimeout(onConnected, 5000);
+
+  });
+}
+
+function onConnected(){
+
+  GetHtmlPage("http://www.pur3.co.uk/hello.txt");
+}
+
+function GetHtmlPage(html_page){
+  require("http").get(html_page, function(res) {
+    var contents = "";
+
+    console.log("Response: ",res);
+
+    res.on('data', function(d) {
+      contents += d;
+    });
+
+    res.on('close', function(d) {
+		console.log("Connection closed");
+		console.log("full page content ---> \r\n"+contents);
+    });
+  });
+}
+
+
+wiolteStart();
+```
+- Step 3. We will see info printed on screen.
+
+```
+_____                 _
+|   __|___ ___ ___ _ _|_|___ ___
+|   __|_ -| . |  _| | | |   | . |
+|_____|___|  _|_| |___|_|_|_|___|
+         |_| http://espruino.com
+1v94 Copyright 2016 G.Williams
+Espruino is Open Source. Our work is supported
+only by sales of official boards and donations:
+http://espruino.com/Donate
+>
+=undefined
+AT passed
+PS attachment succeeded
+currently selected operator :+COPS: 0,0,"CHINA MOBILE",7
+connectCB entered...
+PDP context successfully activated
+connectCB entered...
+null 10.162.62.37
+IP address allocated, modem is ready to use
+Response:  httpCRs {
+ "headers": {
+   "Date": "Thu, 14 Dec 2017 10:25:57 GMT",
+   "Server": "Apache/2.4.18 (Ubuntu)",
+   "Last-Modified": "Fri, 15 Nov 2013 15:42:26 GMT",
+   "ETag": "\"d-4eb390b887c80\"",
+   "Accept-Ranges": "bytes",
+   "Content-Length": "13",
+   "Connection": "close",
+   "Content-Type": "text/plain"
+  },
+ "httpVersion": "1.1",
+ "statusCode": "200",
+ "statusMessage": "OK"
+}
+Connection closed
+full page content --->
+Hello World!
+```
+
+#### Javascript APIs
+
+For more info, please refer to [Wio_LTE_Module](http://www.espruino.com/modules/wiolte.js)
+
+- `debug(boolean, boolean)` - choose debug level
+- `reset(callback)` - Reset LTE
+-  `init(callback)` - Initialise LTE
+-  `getVersion(callback)` - returns LTE firmware version
+-  `connect(apn, username, password, callback)` - Connect to mobile network
+-  `getVersion(callback)` - returns current version
+-  `getIP(callback)` - Get current IP address
+-  `geoLocStart(period_in_milliseconds)` - Start getting geolocation data
+-  `geoLocStop()` - Stop getting geolocation data
+-  `geoLocGet(callback)` - Get last location
+-  `geoLocConvert(callback(err,latlong))` - Get last location as latitude/longitude
+-  `board.SMS` - SMS functionality with `init/read/send/list/delete` functions based on the [[ATSMS]] module
+-  `board.Call`, with:
+  - `call(number, callback)`  
+  -  `answer(callback)`  
+  -  `hangup(callback)`  
+  -  `handleRing(boolean)` - if trie, will call any function added with `board.on('RING', ...)`
+-  `sleep(callback)` -  LTE modem get into sleep mode, it can save about 100mA
+-  `wake(callback)` -  LTE modem wake up from sleep mode
+
+### Play with Arduino
+
+#### Software Configuration
+- Step 1. Install Arduino IDE.
+- Step 2. Follow [How to Add Seeed boards to Arduino IDE](http://wiki.seeed.cc/Seeed_Arduino_Boards/) to add Wio_LTE into arduino board manager.
+- Step 3. Download the [Wio_LTE Library](https://github.com/Seeed-Studio/Wio_LTE_Arduino_Library/archive/master.zip) from Github.
+- Step 4. Refer [How to install library](http://wiki.seeed.cc/How_to_install_Arduino_Library) to install library for Arduino.
+
+#### Play with SMS Send
+
+- Step 1. Plug the Nano SIM card into Nano SIM slot, near PCB board side.    
+- Step 2. Select File--> Examples-->Wio_LTE_Arduino_Library-->SMSSend sketch.
+- Step 3. Change the phone number and info.
+- Step 4. Press and hold BOOT button at back side of the Wio LTE and plug the USB to PC.
+- Step 5. We will see **STM BOOLARDER** in device manager.
+- Step 6. Select Tools-->Boards-->Wio_Tracker_LTE.
+- Step 7. Keep COM Port blank.
+- Step 8. Select Sketch-->Upload to upload the code to Wio_LTE.
+- Step 9. Press **RST** button to enable the COM port.
+- Step 10.Use COM monitor tools to print the serial message. **Please do not use Arduino IDE COM monitor!**
+- Step 11. The phone number owner will receive the message.
+
+```c++
+#include "module_common.h"
+#include "Arduino_Interface.h"
+
+#define RGBPIN 10
+
+const char message[128] = "Hello MC20!";
+
+WioTracker wio = WioTracker();
+
+void setup() {
+  wio.Power_On();
+  SerialUSB.println("Power On!");
+
+  if(!wio.waitForNetworkRegister())
+  {
+    SerialUSB.println("Network error!");
+    return;
+  } else {
+    SerialUSB.println("Network ready!");
+  }
+
+  //Change the phone number and info.
+  wio.sendSMS("13750024343", "Hello from Wio Traker!");  
+
+}
+
+void loop() {
+  AT_bypass();
+}
+```
+
+#### Play with SMS Read
+
+- Step 1. Plug the Nano SIM card into Nano SIM slot, near PCB board side.    
+- Step 2. Select File--> Examples-->Wio_LTE_Arduino_Library-->SMSRead sketch.
+- Step 3. Press and hold BOOT button at back side of the Wio LTE and plug the USB to PC.
+- Step 4. We will see **STM BOOLARDER** in device manager.
+- Step 5. Select Tools-->Boards-->Wio_Tracker_LTE.
+- Step 6. Keep COM Port blank.
+- Step 7. Select Sketch-->Upload to upload the code to Wio_LTE.
+- Step 8. Press **RST** button to enable the COM port.
+- Step 9. Use COM monitor tools to print the serial message. **Please do not use Arduino IDE COM monitor!**
+- Step 10. The receive message will display on the monitor tool.
+
+```C++
+#include "module_common.h"
+#include "Arduino_Interface.h"
+
+uint16_t newSMSNumber = -1;
+char message[128];
+char phone[32];
+char dateTime[32];
+
+
+WioTracker wio = WioTracker();
+
+void setup() {
+  wio.Power_On();
+  SerialUSB.println("Power On!");
+  SerialUSB.println("Wait for network registered...");
+
+  if(!wio.waitForNetworkRegister())
+  {
+    SerialUSB.println("Network error!");
+    return;
+  } else {
+    SerialUSB.println("Network ready!");
+  }
+  wio.readAllRecUnreadSMS();  // Set all "REC UNREAD SMS" to "REC READ SMS"
+}
+
+void loop() {
+  int sms = wio.detectRecUnreadSMS();
+  if(sms != -1){
+    newSMSNumber = sms;
+    wio.readSMS(newSMSNumber, message, 128, phone, dateTime);  // readSMS(int messageIndex, char *message, int length, char *phone, char *datetime)
+    SerialUSB.println("++++++++++++++ Start +++++++++++++++++");
+    SerialUSB.print("From: ");
+    SerialUSB.println(phone);
+    SerialUSB.print("Date: ");
+    SerialUSB.println(dateTime);
+    SerialUSB.println(message);
+    SerialUSB.println("++++++++++++++++ End +++++++++++++++");
+  } else {
+    SerialUSB.println("Waiting for new SMS!");
+  }
+
+  delay(1000);
+}
+```
+
+#### Play with GPS
+
+- Step 1. Plug the Nano SIM card into Nano SIM slot, near PCB board side.
+- Step 2. Select File--> Examples-->Wio_LTE_Arduino_Library-->GNNS-->GNSS_Show_Coordinate sketch.
+- Step 3. Press and hold BOOT button at back side of the Wio LTE and plug the USB to PC.
+- Step 4. We will see **STM BOOLARDER** in device manager.
+- Step 5. Select Tools-->Boards-->Wio_Tracker_LTE.
+- Step 6. Keep COM Port blank.
+- Step 7. Select Sketch-->Upload to upload the code to Wio_LTE.
+- Step 8. Press **RST** button to enable the COM port.
+- Step 9. Use COM monitor tools to print the serial message. **Please do not use Arduino IDE COM monitor!**
+- Step 10. We will see lat, lon info printed on screen.
+
+```c++
+#include "module_common.h"
+#include "Arduino_Interface.h"
+#include "gnss.h"
+
+
+GNSS gnss = GNSS();
+
+void setup() {
+  // Enable Module Power
+  pinMode(gnss.MODULE_PWR_PIN, OUTPUT);
+  digitalWrite(gnss.MODULE_PWR_PIN , HIGH);    
+  // Enable VCCB
+  pinMode(gnss.ENABLE_VCCB_PIN, OUTPUT);
+  digitalWrite(gnss.ENABLE_VCCB_PIN, HIGH);
+
+  // Module power on
+  gnss.Power_On();
+  while(false == gnss.Check_If_Power_On()){
+    SerialUSB.println("Waitting for module to alvie...");
+    delay(1000);
+  }
+  SerialUSB.println("\n\rPower On!");
+
+  if(!(gnss.open_GNSS())){
+    SerialUSB.println("\n\rGNSS init failed!");
+    return;
+  }
+
+  SerialUSB.println("Open GNSS OK.");
+  delay(2000);
+}
+
+void loop() {
+  char buffer[64];
+  if(gnss.getCoordinate()){
+    SerialUSB.print("GNSS: ");
+    SerialUSB.print(gnss.longitude, 6);
+    SerialUSB.print(",");
+    SerialUSB.println(gnss.latitude, 6);
+    SerialUSB.print(gnss.str_longitude);
+    SerialUSB.print(",");
+    SerialUSB.println(gnss.str_latitude);
+  } else{
+    SerialUSB.println("Error!");
+  }
+
+  delay(1000);
+}
+```
+#### Play with Call out
+
+- Step 1. Plug the Nano SIM card into Nano SIM slot, near PCB board side.
+- Step 2. Select File--> Examples-->Wio_LTE_Arduino_Library-->GNNS-->Callup sketch.
+- Step 3. Change the phone number.
+- Step 4. Press and hold BOOT button at back side of the Wio LTE and plug the USB to PC.
+- Step 5. We will see **STM BOOLARDER** in device manager.
+- Step 6. Select Tools-->Boards-->Wio_Tracker_LTE.
+- Step 7. Keep COM Port blank.
+- Step 8. Select Sketch-->Upload to upload the code to Wio_LTE.
+- Step 9. Press **RST** button to enable the COM port.
+- Step 10. Use COM monitor tools to print the serial message. **Please do not use Arduino IDE COM monitor!**
+- Step 11. The phone number owner will receive the call.
+
+```c++
+#include "module_common.h"
+
+#define RGBPIN 10
+
+WioTracker wio = WioTracker();
+
+
+void setup() {
+  wio.Power_On();
+  SerialUSB.println("Power On!");
+
+  while(!wio.init()){
+    delay(1000);
+    SerialUSB.println("Accessing network...");
+  }
+  SerialUSB.println("Initialize done...");
+
+  bool ret = wio.waitForNetworkRegister();
+  if(true == ret){
+      SerialUSB.println("Network accessed!");
+  }else {
+      SerialUSB.println("Network failed!");
+      return;
+  }
+
+  // Make a phone call
+  wio.callUp("xxxxxxxx");
+  SerialUSB.println("Calling...");
+
+}
+
+void loop() {
+  // Debug
+  AT_bypass();
+}
+
+```
+
+## FAQ
+Please click here to see all [Wio_LTE](http://support.seeedstudio.com/knowledgebase/articles/1829333-wio-lte-sku-102990925-102990924-102990923-1029) FAQs.
 
 ## Resource
 - **[Eagle]**[Wio LTE Cat.1 v1.1.SCH](https://github.com/SeeedDocument/Wio_LTE/raw/master/res/Wio%20LTE%20Cat.1%20v1.1.sch.zip)
 - **[Eagle]**[Wio LTE Cat.1 v1.1.BRD](https://github.com/SeeedDocument/Wio_LTE/raw/master/res/Wio%20LTE%20Cat.1%20v1.1.brd.zip)
 - **[PDF]**[Wio LTE Cat.1 v1.1.SCH](https://github.com/SeeedDocument/Wio_LTE/raw/master/res/Wio%20LTE%20Cat.1%20Sch%20v1.1.pdf.zip)
 - **[PDF]**[Wio LTE Cat.1 v1.1.PCB](https://github.com/SeeedDocument/Wio_LTE/raw/master/res/Wio%20LTE%20Cat.1%20PCB%20v1.1.pdf.zip)
-
+- **[Library]**[Wio_LTE_Arduino_Library](https://github.com/Seeed-Studio/Wio_LTE_Arduino_Library)
+- **[Library]**[Wio_LTE_JavaScript_Demo](https://github.com/Seeed-Studio/Wio_LTE_JavaScript_Demo)
+- **[Datasheet]**[AT Command](https://github.com/SeeedDocument/Wio_LTE/raw/master/res/AT_Command.zip)
