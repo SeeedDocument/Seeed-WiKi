@@ -30,6 +30,96 @@ Regarding the gateway module RHF0M301, it is a 10 channel(8 x Multi-SF + 1 x Sta
 - Rich Accessories of sensor and actuator
 - Real time monitoring
 
+## hardware Overview
+
+
+pic_here
+
+### Partlist
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#999;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#F7FDFA;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;}
+.tg .tg-s6z2{text-align:center}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-vn4c{background-color:#D2E4FC}
+.tg .tg-0fxu{background-color:#6ab0de;vertical-align:top}
+.tg .tg-j0tj{background-color:#D2E4FC;text-align:center;vertical-align:top}
+.tg .tg-5hgy{background-color:#D2E4FC;text-align:center}
+.tg .tg-yw4l{vertical-align:top}
+.tg .tg-6k2t{background-color:#D2E4FC;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-0fxu">Parts number</th>
+    <th class="tg-0fxu">Parts name</th>
+    <th class="tg-0fxu">Quantity</th>
+  </tr>
+  <tr>
+    <td class="tg-j0tj"><font face="" size=5 font color="00b0f0"><B>❶</B></font></td>
+    <td class="tg-vn4c">Raspberry Pi 3</td>
+    <td class="tg-5hgy">1 PCS</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh"><font face="" size=6 font color="00b0f0"><B>❶❷❸❹❺</B></font></td>
+    <td class="tg-031e">Gateway module RHF0M301 – 868</td>
+    <td class="tg-s6z2">1 PCS</td>
+  </tr>
+  <tr>
+    <td class="tg-j0tj"><font face="" size=5 font color="00b0f0">❶</font></td>
+    <td class="tg-vn4c">PRI 2 Bridge RHF4T002</td>
+    <td class="tg-5hgy">1 PCS</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">4</td>
+    <td class="tg-031e">Seeeduino LoRaWAN with GPS (RHF76-052AM)</td>
+    <td class="tg-s6z2">1 PCS</td>
+  </tr>
+  <tr>
+    <td class="tg-j0tj">5</td>
+    <td class="tg-vn4c">USB to UART Adapter</td>
+    <td class="tg-5hgy">1 PCS</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">6</td>
+    <td class="tg-031e">8GB Micro SD Card – Class 10</td>
+    <td class="tg-s6z2">1 PCS</td>
+  </tr>
+  <tr>
+    <td class="tg-j0tj">7</td>
+    <td class="tg-vn4c">0dBi Rubber Duck Antenna</td>
+    <td class="tg-5hgy">1 PCS</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">8</td>
+    <td class="tg-yw4l">5V/2.1A American Standard Adapter with Micro USB Connector</td>
+    <td class="tg-baqh">1 PCS</td>
+  </tr>
+  <tr>
+    <td class="tg-j0tj">9</td>
+    <td class="tg-6k2t">Micro USB Cable 20cm</td>
+    <td class="tg-j0tj">1 PCS</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">10</td>
+    <td class="tg-yw4l">Micro USB Cable 100cm</td>
+    <td class="tg-baqh">1 PCS</td>
+  </tr>
+  <tr>
+    <td class="tg-j0tj">11</td>
+    <td class="tg-6k2t">RJ45 Ethernet Cable 200cm</td>
+    <td class="tg-j0tj">1 PCS</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">12</td>
+    <td class="tg-yw4l">JST2.0 Cable 10cm</td>
+    <td class="tg-baqh">1 PCS</td>
+  </tr>
+</table>
+
+
+
+
 ## Application Ideas
 - Internet of Things
 - Smart House
@@ -47,7 +137,7 @@ The user manual from RisingHF has well instructed how to use the LoRaWan Getway 
 Please click to download the [User Manual](https://github.com/SeeedDocument/LoRaWAN_Gateway-868MHz_Kit_with_Raspberry_Pi_3/raw/master/res/%5BRHF-UM01649%5DIoT%20Discovery%20User%20Manual-seeed-v2.1.pdf).
 
 !!!note
-    Please note that the part list in the user manual is not the same as the LoRaWAN Getway Kit. When you run Session 3.1 Loriot Server Gateway Registration Step i "./lrt -f -i eth0 -s cn1.loriot.io", there will be an error as below. 
+    Please note that the part list in the user manual is not the same as the LoRaWAN Getway Kit. When you run Session 3.1 Loriot Server Gateway Registration Step i "./lrt -f -i eth0 -s cn1.loriot.io", there will be an error as below.
 
 ![](https://github.com/SeeedDocument/LoRaWAN_Gateway-868MHz_Kit_with_Raspberry_Pi_3/raw/master/img/Gateway_error.jpg)
 
