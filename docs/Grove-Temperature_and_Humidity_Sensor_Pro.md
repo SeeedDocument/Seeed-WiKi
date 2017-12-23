@@ -62,7 +62,7 @@ We will show you how this Grove - temperature and humidity Sensor pro works thro
 |[Get ONE Now](http://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html)|[Get ONE Now](https://www.seeedstudio.com/Grove-Temperature%26Humidity-Sensor-Pro-p-838.html)|[Get ONE Now](https://www.seeedstudio.com/Base-Shield-V2-p-1378.html)|
 
 
-- Connect the Temperature and Humidity Sensor Pro to D2 of [Grove - Base Shield](http://wiki.seeed.cc/Base_Shield_V2/). Then plug Grove - Base Shield into Arduino and connect Arduino to PC using a USB cable.
+- Connect the Temperature and Humidity Sensor Pro to A0 of [Grove - Base Shield](http://wiki.seeed.cc/Base_Shield_V2/). Then plug Grove - Base Shield into Arduino and connect Arduino to PC using a USB cable.
 ![](https://github.com/SeeedDocument/Grove-Temperature_and_Humidity_Sensor_Pro/raw/master/img/Temperature%26Humidity_Sensor_Pro_demo_Seeeduino_600_s.jpg)
 
 - Please follow [how to install an arduino library](http://wiki.seeed.cc/How_to_install_Arduino_Library/) procedures to install library.

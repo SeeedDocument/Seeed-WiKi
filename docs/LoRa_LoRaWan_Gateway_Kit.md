@@ -412,18 +412,18 @@ Frequency Plan for US915 HYBRID
 
  - Now please open the serial monitor in the upper right corner ( or you can press Ctrl+Shift+M at the same time ).Choose **Newline** (This option will add "\r\n" at the end of each command.), set the baud rate 9600.Then tap the commands below and press **send**.
 
- For EU868
+For EU868
 ```
 AT+FDEFAULT=RISINGHF
 AT+DR=EU868
 ```
 
- For US915
- ```
+For US915
+```
  AT+FDEFAULT=RISINGHF
  AT+DR=US915HYBRID
  AT+RXWIN2=923.3,DR8
- ```
+```
 
  ![](https://github.com/SeeedDocument/LoRaWAN_Gateway-868MHz_Kit_with_Raspberry_Pi_3/raw/master/img/At_send.png)
 
@@ -589,15 +589,9 @@ Then go to **Dashboard -> Applications -> SampleApp ->Device** , click the Node 
 
 
 ## Resources
-- [User Manual](https://github.com/SeeedDocument/LoRaWAN_Gateway-868MHz_Kit_with_Raspberry_Pi_3/raw/master/res/%5BRHF-UM01649%5DIoT%20Discovery%20User%20Manual-seeed-v2.1.pdf).
+
+
+- **[PDF]** [Download Wiki PDF](https://github.com/SeeedDocument/LoRaWAN_Gateway-868MHz_Kit_with_Raspberry_Pi_3/raw/master/res/LoRa_LoRaWan_Gateway_Kit.pdf)
+- **[Uer Manual]** [User Manual](https://github.com/SeeedDocument/LoRaWAN_Gateway-868MHz_Kit_with_Raspberry_Pi_3/raw/master/res/%5BRHF-UM01649%5DIoT%20Discovery%20User%20Manual-seeed-v2.1.pdf).
 - [Wiki of Seeeduino LoRaWAN](/Seeeduino_LoRAWAN/)
 - [RisingHF Website](http://www.risinghf.com/product/risinghf-iot-dicovery/?lang=en)
-The user manual from RisingHF has well instructed how to use the LoRaWan Getway Kit, it will describe the usage of this kit in details, including
--  how to buildup hardware,
--  how to connect to a LoRaWan network,
--  how to test hardware and so on.
-
-Please click to download the [User Manual](https://github.com/SeeedDocument/LoRaWAN_Gateway-868MHz_Kit_with_Raspberry_Pi_3/raw/master/res/%5BRHF-UM01649%5DIoT%20Discovery%20User%20Manual-seeed-v2.1.pdf).
-
-
-[PDF](https://github.com/SeeedDocument/LoRaWAN_Gateway-868MHz_Kit_with_Raspberry_Pi_3/raw/master/res/LoRa_LoRaWan_Gateway_Kit.pdf)
