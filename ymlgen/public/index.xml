@@ -601,6 +601,18 @@ It is strongly recommended that you update your development environment with the
     </item>
     
     <item>
+      <title>Base Shield V2</title>
+      <link>http://wiki.seeed.cc/base_shield_v2_old/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/base_shield_v2_old/</guid>
+      <description>As an expansion board, Base Shield v2 has many Grove connectors, making it convenient for you to use Grove products together. And It is compatible with a series of Arduino products.
+!!!Note Click to get more info about Grove System.
+
+Features  Power Compatible: Every Grove connector has four wires, one of which is Vcc. However, not every micro-controller main board needs a supply voltage of 5V, some need 3.</description>
+    </item>
+    
+    <item>
       <title>Basic Fastener Kit</title>
       <link>http://wiki.seeed.cc/basic_fastener_kit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1952,6 +1964,15 @@ Features  Grove interface FM receiver with a tuning range of 64 MHz to 108 MHz c
       
       <guid>http://wiki.seeed.cc/grove-gsr_sensor/</guid>
       <description>GSR stands for galvanic skin response, is a method of measuring the electrical conductance of the skin. Strong emotion can cause stimulus to your sympathetic nervous system, resulting more sweat being secreted by the sweat glands. Grove - GSR allows you to spot such strong emotions by simple attaching two electrodes to two fingers on one hand. It is an interesting to create emotion related projects like sleep quality monitor.</description>
+    </item>
+    
+    <item>
+      <title>Grove - GSR Sensor</title>
+      <link>http://wiki.seeed.cc/grove-gsr_sensor_old/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/grove-gsr_sensor_old/</guid>
+      <description>GSR, standing for galvanic skin response, is a method of measuring the electrical conductance of the skin. Strong emotion can cause stimulus to your sympathetic nervous system, resulting more sweat being secreted by the sweat glands. Grove – GSR allows you to spot such strong emotions by simple attaching two electrodes to two fingers on one hand, an interesting gear to create emotion related projects, like sleep quality monitor.</description>
     </item>
     
     <item>
@@ -5102,6 +5123,16 @@ Seeeduino v4.2 is based the Arduino UNO bootloader, an ATmega16U2 as a UART-to-U
     
     <item>
       <title>Seeeduino v4.2</title>
+      <link>http://wiki.seeed.cc/seeeduino_v4.2_old/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/seeeduino_v4.2_old/</guid>
+      <description>Seeeduino v4 is an Open Source, Arduino-compatible ATmega328 MCU development board. We think Seeeduino v4 is one of the best Arduino derivatives/compatibles available. Seeeduino v4 is feature rich, much more stable, easy-to-use and even good looking.
+Seeeduino v4 is based the Arduino UNO bootloader, an ATmega16U2 as a UART-to-USB converter (basically work like an FTDI USB2UART chip). The board comes with an additional set of through-hole pads for all pins. These pads are aligned to 0.</description>
+    </item>
+    
+    <item>
+      <title>Seeeduino v4.2</title>
       <link>http://wiki.seeed.cc/test007/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -5187,7 +5218,7 @@ Features  Easy to start - The Shieldbot is plug &amp;amp; play.</description>
       <guid>http://wiki.seeed.cc/shield/</guid>
       <description>This section includes extension boards that created by Seeed.
 Product List Here is the list of the Seeeduino Boards you can find in the Seeed WiKi. The list will constantly updated.
- 2.8&amp;#39;&amp;#39; TFT Touch Shield v2.0 4A Motor Shield Base Shield V2 Bluetooth Shield V2.0 CAN-BUS Shield V1.2 CAN-BUS Shield V2.0 Camera Shield EL Shield Energy Shield GPRS Shield V1.0 GPRS Shield V3.0 Mbed Shield Motor Shield V2.0 Music Shield V2.</description>
+ 2.8&amp;#39;&amp;#39; TFT Touch Shield v2.0 4A Motor Shield Base Shield V2 Base Shield V2 Bluetooth Shield V2.0 CAN-BUS Shield V1.2 CAN-BUS Shield V2.0 Camera Shield EL Shield Energy Shield GPRS Shield V1.0 GPRS Shield V3.0 Mbed Shield Motor Shield V2.</description>
     </item>
     
     <item>

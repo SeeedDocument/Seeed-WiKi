@@ -220,6 +220,10 @@
   </url>
   
   <url>
+    <loc>http://wiki.seeed.cc/base_shield_v2_old/</loc>
+  </url>
+  
+  <url>
     <loc>http://wiki.seeed.cc/basic_fastener_kit/</loc>
   </url>
   
@@ -746,6 +750,10 @@
   
   <url>
     <loc>http://wiki.seeed.cc/grove-gsr_sensor/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/grove-gsr_sensor_old/</loc>
   </url>
   
   <url>
@@ -2216,6 +2224,10 @@
   
   <url>
     <loc>http://wiki.seeed.cc/seeeduino_v4.2/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/seeeduino_v4.2_old/</loc>
   </url>
   
   <url>

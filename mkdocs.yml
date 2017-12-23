@@ -39,6 +39,7 @@ pages:
         - Seeeduino Stalker v3 enclosure: Seeeduino_Stalker_v3_enclosure.md
         - Seeeduino v4.0‏‎: Seeeduino_v4.0.md
         - Seeeduino v4.2: Seeeduino_v4.2.md
+        - Seeeduino v4.2: Seeeduino_v4.2_old.md
         - Seeeduino v4.2: test007.md
         - Shield Bot V1.1: Shield_Bot_V1.1.md
         - Shield Bot V1.2: Shield_Bot_V1.2.md
@@ -176,6 +177,7 @@ pages:
         - 2.8&#39;&#39; TFT Touch Shield v2.0: 2.8inch_TFT_Touch_Shield_v2.0.md
         - 4A Motor Shield: 4A_Motor_Shield.md
         - Base Shield V2: Base_Shield_V2.md
+        - Base Shield V2: Base_Shield_V2_old.md
         - Bluetooth Shield V2.0: Bluetooth_Shield_V2.md
         - CAN-BUS Shield V1.2: CAN-BUS_Shield_V1.2.md
         - CAN-BUS Shield V2.0: CAN-BUS_Shield_V2.0.md
@@ -276,6 +278,7 @@ pages:
         - Grove - Fingerprint Sensor: Grove-Fingerprint_Sensor.md
         - Grove - Flame Sensor: Grove-Flame_Sensor.md
         - Grove - GSR Sensor: Grove-GSR_Sensor.md
+        - Grove - GSR Sensor: Grove-GSR_Sensor_old.md
         - Grove - Gas Sensor: Grove-Gas_Sensor.md
         - Grove - Gas Sensor(MQ2): Grove-Gas_Sensor-MQ2.md
         - Grove - Gas Sensor(MQ3): Grove-Gas_Sensor-MQ3.md
