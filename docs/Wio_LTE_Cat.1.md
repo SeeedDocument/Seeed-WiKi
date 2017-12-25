@@ -22,6 +22,44 @@ The Wio LTE is well suited for outdoor projects where the device can connect to 
     Please always plug 3.7V Lipo battery in case USB power supply is not sufficient.
 
 
+|Product Name | How to Buy|
+|----------------|-----------|
+|Wio LTE JP Version|[![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now_small.png)](https://www.seeedstudio.com/Wio-LTE-JP-Version-4G%2C-Cat.1%2C-Espruino-Compatible-p-3018.html)|
+|Wio LTE AU Version|[![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now_small.png)](https://www.seeedstudio.com/Wio-LTE-AU-Version--4G%2C-Cat.1%2C-GNSS%2C-Espruino-Compatible-p-2999.html)|
+|Wio LTE EU Version|[![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now_small.png)](https://www.seeedstudio.com/Wio-LTE-EU-Version-4G%2C-Cat.1%2C-GNSS%2C-Espruino-Compatible-p-2998.html)|
+|Wio LTE US Version|[![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now_small.png)](https://www.seeedstudio.com/Wio-LTE-US-Version-4G%2C-Cat.1%2C-GNSS%2C-JavaScript%28Espruino%29-Compatible-p-2957.html)|
+
+## Version
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#6ab0de;}
+.tg .tg-yw4l{vertical-align:top;width:20%}
+.tg .tg-yw42{vertical-align:top;width:50%}
+.tg .tg-4eph{background-color:#f9f9f9;}
+.tg .tg-b7b8{background-color:#f9f9f9;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-yw4l">Product Version</th>
+    <th class="tg-yw42">Changes</th>
+    <th class="tg-yw4l">Released Date</th>
+  </tr>
+  <tr>
+    <td class="tg-4eph">Wio Lte V1.0</td>
+    <td class="tg-4eph">Initial</td>
+    <td class="tg-b7b8">Jul 24, 2017</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Wio Lte V1.1</td>
+    <td class="tg-031e">
+    Optimizing production methods<br>
+    <td class="tg-yw4l">Oct 18, 2017</td>
+  </tr>
+</table>
+
+
 ## Features
 
 * Low-cost, low-power LTE connectivity optimized for broad- band IoT applications
@@ -153,9 +191,9 @@ And **EC21-A** is what we are using in WIO Tracker - LTE, which supports AT&T an
 
 - **Windows Users**: Most versions of Windows won't automatically load the built-in driver for USB com ports. You'll have to download ST's USB driver:
 
-  - Non-Windows XP [Users download version 1.4.0 drivers](http://www.espruino.com/files/stm32_vcp_1.4.0.zip). Unzip the file, run the executable, and then go to C:\Program Files (x86)\STMicroelectronics\Software\Virtual comport driver in Windows Explorer and double-click either dpinst_amd64.exe for 64 bit systems, or dpinst_x86.exe for 32 bit.
+   - Non-Windows XP [Users download version 1.4.0 drivers](http://www.espruino.com/files/stm32_vcp_1.4.0.zip). Unzip the file, run the executable, and then go to C:\Program Files (x86)\STMicroelectronics\Software\Virtual comport driver in Windows Explorer and double-click either dpinst_amd64.exe for 64 bit systems, or dpinst_x86.exe for 32 bit.
 
-  - Windows XP [Users download version 1.3.1 drivers](http://www.espruino.com/files/stm32_vcp_1.3.1.zip). Unzip the file, run VCP_V1.3.1_Setup.exe, and then go to C:\Program Files\STMicroelectronics\Software\Virtual comport driver in Windows Explorer and double-click the executable.
+   - Windows XP [Users download version 1.3.1 drivers](http://www.espruino.com/files/stm32_vcp_1.3.1.zip). Unzip the file, run VCP_V1.3.1_Setup.exe, and then go to C:\Program Files\STMicroelectronics\Software\Virtual comport driver in Windows Explorer and double-click the executable.
 
 - **Linux users** to ensure that you have the correct permissions to connect as a normal user you'll need to copy the file [45-espruino.rules](https://github.com/espruino/Espruino/blob/master/misc/45-espruino.rules) to /etc/udev/rules.d, reload rules with udevadm control --reload-rules, and ensure your user is in the plugdev group (you can check by typing groups). You add it by typing sudo adduser $USER plugdev and then logging out and back in. Arch Linux users need to add their user to uucp and lock groups instead.
 
@@ -811,13 +849,13 @@ void setup() {
   } else {
     SerialUSB.println("Network ready!");
   }
-  
+
   // Change xxxxxxxxxxx to your test phone number
   if(wio.sendSMS("13750024343", message))
   {
     SerialUSB.println("Send OK!");
   }
-  else 
+  else
   {
     SerialUSB.println("Send Error!");
   }
@@ -946,7 +984,7 @@ void setup() {
   while(false == gnss.Check_If_Power_On()){
     SerialUSB.println("Waitting for module to alvie...");
     delay(1000);
-  } 
+  }
   SerialUSB.println("\n\rPower On!");
 
   if(!(gnss.open_GNSS())){
@@ -968,7 +1006,7 @@ void loop() {
     SerialUSB.print(gnss.longitude, 6);
     SerialUSB.print(",");
     SerialUSB.println(gnss.latitude, 6);
-    
+
     // Output char* type
     SerialUSB.print("Data type in string: ");
     SerialUSB.print(gnss.str_longitude);
@@ -1000,19 +1038,19 @@ Power On!
 
 Open GNSS OK.
 .................................
-GNSS: 
+GNSS:
 Data type in double: 113.966255,22.583820
 Data type in string: 113.966255,22.583819
 
-GNSS: 
+GNSS:
 Data type in double: 113.966248,22.583818
 Data type in string: 113.966248,22.583818
 
-GNSS: 
+GNSS:
 Data type in double: 113.966248,22.583817
 Data type in string: 113.966248,22.583816
 
-GNSS: 
+GNSS:
 Data type in double: 113.966248,22.583820
 Data type in string: 113.966248,22.583819
 ```
@@ -1111,18 +1149,18 @@ void setup() {
   SerialUSB.print("\n\rIP: ");
   SerialUSB.print(eth.ip_string);
 
-  if(eth.connect(URL, port, TCP)) 
+  if(eth.connect(URL, port, TCP))
   {
-    eth.write(http_cmd); 
+    eth.write(http_cmd);
     while(MODULE_PORT.available()){
         serialDebug.write(MODULE_PORT.read());
     }    
     eth.close(1);
-  } 
+  }
   else {
     SerialUSB.println("Connect Error!");
   }
-  
+
 }
 
 void loop() {
@@ -1150,7 +1188,7 @@ Initialize done...
 
 IP: 10.229.226.108
 
- 
+
 
 
 +QIURC: "recv",0,389
@@ -1212,8 +1250,8 @@ void setup()
     SerialUSB.println("* is a card is inserted?");
     SerialUSB.println("* Is your wiring correct?");
     SerialUSB.println("* did you change the chipSelect pin to match your shield or module?");
-  } 
-  
+  }
+
   // print the type of card
   SerialUSB.print("\nCard type: ");
   switch(card.type()) {
@@ -1242,7 +1280,7 @@ void setup()
   SerialUSB.print("\nVolume type is FAT");
   SerialUSB.println(volume.fatType(), DEC);
   SerialUSB.println();
-  
+
   volumesize = volume.blocksPerCluster();    // clusters are collections of blocks
   volumesize *= volume.clusterCount();       // we'll have a lot of clusters
   volumesize *= 512;                            // SD card blocks are always 512 bytes
@@ -1255,17 +1293,17 @@ void setup()
   volumesize /= 1024;
   SerialUSB.println(volumesize);
 
-  
+
   SerialUSB.println("\nFiles found on the card (name, date and size in bytes): ");
   root.openRoot(volume);
-  
+
   // list all files in the card with date and size
   root.ls(LS_R | LS_DATE | LS_SIZE);
 }
 
 
 void loop(void) {
-  
+
 }
 ```
 
@@ -1285,7 +1323,7 @@ Volume size (bytes): 2689048576
 Volume size (Kbytes): 2626024
 Volume size (Mbytes): 2564
 
-Files found on the card (name, date and size in bytes): 
+Files found on the card (name, date and size in bytes):
 
 ```
 
