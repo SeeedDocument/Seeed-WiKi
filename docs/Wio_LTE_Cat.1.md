@@ -1178,7 +1178,7 @@ Hello world!
 #### Play with SD Card
 
 - Step 1. Plug micro SD card to the SD card slot.
-- Step 2. Select File--> Examples-->Wio_LTE_Arduino_Library-->SDCard.
+- Step 2. Select File--> Examples-->Wio_LTE_Arduino_Library-->SDCard->CardInfo.
 - Step 3. Change the phone number.
 - Step 4. Press and hold BOOT button at back side of the Wio LTE and plug the USB to PC.
 - Step 5. We will see **STM BOOLARDER** in device manager.
