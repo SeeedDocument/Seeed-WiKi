@@ -36,46 +36,46 @@ The Wio LTE is well suited for outdoor projects where the device can connect to 
 
 ## Specification
 
-| Item|Function|Value|
-|--------------|-------------------------------------|-------|
-|Microcontroller |Processor|STM32F405RG, ARM 32-bit Cortex-M4, 168MHZ|
-||Flash Memory|1MB|
-||SRAM|192+4KB|
-||Operating Voltage|3.3V|
-||DC Current per I/O Pin|7 mA|
-|LTE|LTE Cat.1|AT Command: 3GPP TS27.007 and enhanced AT Commands|
-||Data|LTE-FDD Max 10Mbps(DL) Max 5Mbps (UL)|
-|||Protocol: TCP/UDP/PPP/FTP/*HTTP/*SSL/NTP/PING/QMI|
-||SMS|Peer to Peer Message, SMS broadcast, Text and PDU mode|
-||Audio|Echo cancellation, Noise elimination|
-|GNSS|System|GPS/BeiDou/GLONASS/Galileo/QZSS|
-||Precision|<2.5 m CEP|
-|Peripheral|Grove|2 x Grove Digital Port|
-|||2 x Analog Port|
-|||1 x UART|
-|||1 x I2C|
-||Antenna|2 x LTE Antenna|
-|||1 x GPS Antenna|
-||Others|USB: Power supply and upload program|
-|||JST 1.0 connecter for battery|
-|||3.5mm Audio Jack|
-|||MCU Reset Button, EC21 Power Button|
-|||1 x User RGB LED SK6812|
-|||Nano SIM and TF card 2 in 1 socket|
-|Size|Length|54.7mm|
-||Width|48.2mm|
-||Weight|||
+| Item            | Function               | Value                                                                           |
+| --------------- | ---------------------- | ------------------------------------------------------------------------------- |
+| Microcontroller | Processor              | STM32F405RG, ARM 32-bit Cortex-M4, 168MHZ                                       |
+|                 | Flash Memory           | 1MB                                                                             |
+|                 | SRAM                   | 192+4KB                                                                         |
+|                 | Operating Voltage      | 3.3V                                                                            |
+|                 | DC Current per I/O Pin | 7 mA                                                                            |
+| LTE             | LTE Cat.1              | AT Command: 3GPP TS27.007 and enhanced AT Commands                              |
+|                 | Data                   | LTE-FDD Max 10Mbps(DL) Max 5Mbps (UL)                                           |
+|                 |                        | Protocol: TCP/UDP/PPP/FTP/HTTP/NTP/PING/QMI/HTTPS*/SMTP*/MMS*/FTPS*/SMTPS*/SSL* |
+|                 | SMS                    | Peer to Peer Message, SMS broadcast, Text and PDU mode                          |
+|                 | Audio                  | Echo cancellation, Noise elimination                                            |
+| GNSS            | System                 | GPS/BeiDou/GLONASS/Galileo/QZSS                                                 |
+|                 | Precision              | <2.5 m CEP                                                                      |
+| Peripheral      | Grove                  | 2 x Digital Port                                                                |
+|                 |                        | 2 x Analog Port                                                                 |
+|                 |                        | 1 x UART                                                                        |
+|                 |                        | 1 x I2C                                                                         |
+|                 | Antenna                | 2 x LTE Antenna                                                                 |
+|                 |                        | 1 x GPS Antenna                                                                 |
+|                 | Others                 | USB: Power supply and upload program                                            |
+|                 |                        | JST 1.0 connecter for battery                                                   |
+|                 |                        | 3.5mm Audio Jack                                                                |
+|                 |                        | MCU Reset Button, MCU Boot(DFU) Button，EC21 Power Button                       |
+|                 |                        | 1 x User RGB LED SK6812                                                         |
+|                 |                        | Nano SIM and TF card 2 in 1 socket                                              |
+| Size            | Length                 | 54.7mm                                                                          |
+|                 | Width                  | 48.2mm                                                                          |
+|                 | Weight                 |                                                                                 |  |
 
 
 ## Power Consumption
-|Status|Current|
-|---|---|
-|Normal boot(boot moment)| 700mA |
-|After boot(IDLE mode)| 300mA|
-|After the boot, the normal communication status (network transmission function)|600mA or so, the peak reaches 2A|
-|Call and SMS(signal better)| 100-300mA |
-|Deep sleep mode, turn off all functions, require external wake-up (wake only by Reset)|300uA|
-|MCU Deep Sleep mode, wake-up pin connected to module, wake-up via module|over 300uA (requires testing)
+| Status                                                                                 | Current                          |
+| -------------------------------------------------------------------------------------- | -------------------------------- |
+| Normal boot(boot moment)                                                               | 700mA                            |
+| After boot(IDLE mode)                                                                  | 300mA                            |
+| After the boot, the normal communication status (network transmission function)        | 600mA or so, the peak reaches 2A |
+| Call and SMS(signal better)                                                            | 100-300mA                        |
+| Deep sleep mode, turn off all functions, require external wake-up (wake only by Reset) | 300uA                            |
+| MCU Deep Sleep mode, wake-up pin connected to module, wake-up via module               | over 300uA (requires testing)    |
 
 
 ## Application Ideas
@@ -113,38 +113,38 @@ EC21 contains 10 variants: EC21-E, EC21-A, EC21-V, EC21-AUT, EC21-AUTL, EC21-AUV
 
 And **EC21-A** is what we are using in WIO Tracker - LTE, which supports AT&T and T-mobile sim card. If you want to customize EC21 Module for other region, feel free to email us: fae@seeed.cc
 
-|Frequency|EC21-E|EC21-A|EC21-V|EC21-AUT|
-|---|----|---|---|---|
-|FDD-LTE(4G)| B1/ B3/ B5/ B7/ B8/ B20|B2/ B4/ B12|B4/ B8|B1/ B3/ B5/ B7/ B28|
-|TDD-LTE(4G)||
-|WCDMA(3G)|B1/ B5/ B8| B2/ B4/ B5|| B1/ B5|
-|GSM/EDGE(2G)| B3/ B8||||
-|Embedded GNSS| Optional| Optional| Optional| Optional|
-|Wi-Fi Interface| Y| Y| Y| Y|
-|**Region**| EMEA, Korea, Thailand, India| AT&T, T-mobile |Verizon| Telstra|
-|Certification| CE/ GCF/ Vodafone* |FCC/ PTCRB/ AT&T\*/ IC/ ROGERS| FCC/ GCF/ Verizon*|RCM/ Telstra |
+| Frequency       | EC21-E                       | EC21-A                         | EC21-V             | EC21-AUT            |
+| --------------- | ---------------------------- | ------------------------------ | ------------------ | ------------------- |
+| FDD-LTE(4G)     | B1/ B3/ B5/ B7/ B8/ B20      | B2/ B4/ B12                    | B4/ B8             | B1/ B3/ B5/ B7/ B28 |
+| TDD-LTE(4G)     |                              |
+| WCDMA(3G)       | B1/ B5/ B8                   | B2/ B4/ B5                     |                    | B1/ B5              |
+| GSM/EDGE(2G)    | B3/ B8                       |                                |                    |                     |
+| Embedded GNSS   | Optional                     | Optional                       | Optional           | Optional            |
+| Wi-Fi Interface | Y                            | Y                              | Y                  | Y                   |
+| **Region**      | EMEA, Korea, Thailand, India | AT&T, T-mobile                 | Verizon            | Telstra             |
+| Certification   | CE/ GCF/ Vodafone*           | FCC/ PTCRB/ AT&T\*/ IC/ ROGERS | FCC/ GCF/ Verizon* | RCM/ Telstra        |
 
-|Frequency|EC21-AUTL|EC21-AUV|EC21-AU|EC21-KL|
-|---|----|---|---|---|
-|FDD-LTE(4G)|B3/ B7/ B28|B1/ B3/ B5/ B8/ B28|B1/ B2/ B3/ B4/ B5/ B7/ B8/ B28|B4/ B8|
-|TDD-LTE(4G)|||B40||
-|WCDMA(3G)||B1/ B5/ B8|B1/ B2/ B5/ B8|
-|GSM/EDGE(2G)|||B2/ B3/ B5/ B8||
-|Embedded GNSS| Optional| Optional| Optional| Optional|
-|Wi-Fi Interface| Y| Y| Y| Y|
-|**Region**|Telstra|Vodafone Australia|South America, ANZ, Taiwan|Korea|
-|Certification|RCM/ Telstra|RCM|RCM/ Anatel\*/ NCC\*|KC/ SKT/KT\*/LGU+\*|
+| Frequency       | EC21-AUTL    | EC21-AUV            | EC21-AU                         | EC21-KL             |
+| --------------- | ------------ | ------------------- | ------------------------------- | ------------------- |
+| FDD-LTE(4G)     | B3/ B7/ B28  | B1/ B3/ B5/ B8/ B28 | B1/ B2/ B3/ B4/ B5/ B7/ B8/ B28 | B4/ B8              |
+| TDD-LTE(4G)     |              |                     | B40                             |                     |
+| WCDMA(3G)       |              | B1/ B5/ B8          | B1/ B2/ B5/ B8                  |
+| GSM/EDGE(2G)    |              |                     | B2/ B3/ B5/ B8                  |                     |
+| Embedded GNSS   | Optional     | Optional            | Optional                        | Optional            |
+| Wi-Fi Interface | Y            | Y                   | Y                               | Y                   |
+| **Region**      | Telstra      | Vodafone Australia  | South America, ANZ, Taiwan      | Korea               |
+| Certification   | RCM/ Telstra | RCM                 | RCM/ Anatel\*/ NCC\*            | KC/ SKT/KT\*/LGU+\* |
 
-|Frequency|EC21-CT|EC21-J|
-|---|----|---|
-|FDD-LTE(4G)|B1/ B3/ B5/ B7/ B28|B3/ B7/ B28|
-|TDD-LTE(4G)|||
-|WCDMA(3G)|B1/ B5||
-|GSM/EDGE(2G)|||||
-|Embedded GNSS| Optional| Optional| Optional| Optional|
-|Wi-Fi Interface| Y| Y| Y| Y|
-|**Region**|China Telecom|Japan|
-|Certification|CCC\*/ SRRC\*/ CTA\*|JATE/ TELEC/ Softbank\*/ KDDI\*|
+| Frequency       | EC21-CT              | EC21-J                          |
+| --------------- | -------------------- | ------------------------------- |
+| FDD-LTE(4G)     | B1/ B3/ B5/ B7/ B28  | B3/ B7/ B28                     |
+| TDD-LTE(4G)     |                      |                                 |
+| WCDMA(3G)       | B1/ B5               |                                 |
+| GSM/EDGE(2G)    |                      |                                 |  |  |
+| Embedded GNSS   | Optional             | Optional                        | Optional | Optional |
+| Wi-Fi Interface | Y                    | Y                               | Y | Y |
+| **Region**      | China Telecom        | Japan                           |
+| Certification   | CCC\*/ SRRC\*/ CTA\* | JATE/ TELEC/ Softbank\*/ KDDI\* |
 
 
 ## Getting Started
@@ -163,17 +163,17 @@ And **EC21-A** is what we are using in WIO Tracker - LTE, which supports AT&T an
 
 ### Update Firmware
 
-- Step 1: Download WioLTE firmware from [here](http://www.espruino.com/binaries/) or [firmware folder](https://github.com/SeeedDocument/Wio_LTE/firmware)
-- Step 2: Install [dfu-util](http://dfu-util.sourceforge.net/)
-- Step 3: Press and hold BOOT button before connect to computer, release after connecting.
-- Step 4: The Wio LTE board will access DFU mode
-- Step 5: In system command line type **dfu-util -d 0483:df11 -c 1 -i 0 -a 0 -s 0x08000000 -D ***.bin**
+- Step 1: Download WioLTE firmware [**v1.93**](https://raw.githubusercontent.com/SeeedDocument/Wio_LTE/master/firmware/espruino_1v93.3171_Wio_LTE.bin) or look for **espruino_xxx_Wio_LTE.bin** [**here**](http://www.espruino.com/binaries/) (**v1.94** didn't support SD card, please download **v1.93**).
+- Step 2: Install [dfu-util](http://dfu-util.sourceforge.net/), add **dfu-util** to **PATH** or **Environment Variables**, so that we can use it directlly in **command line**.
+- Step 3: Press and hold **BOOT0** button before connect to computer, release after connect.
+- Step 4: The Wio LTE board will access **DFU mode**.
+- Step 5: In **command line windows** type **dfu-util -d 0483:df11 -c 1 -i 0 -a 0 -s 0x08000000 -D xxx.bin**.
 
 ![dfu-flash](https://github.com/SeeedDocument/Wio_LTE/blob/master/img/wio_tracker_lte_v1_dfu-flash.png?raw=true)
 
 ### Change DFU driver
 
-**For windows users**: Press and hold BOOT button and connect to computer you will see **STM32 Device in DFU Mode** at device manager, this say that you need to use [zadig_xx.exe](https://github.com/SeeedDocument/Wio_LTE/raw/master/res/zadig_2.1.2.exe) to change DFU driver from **STTub30** to **WinUSB** as bellow.
+**For windows users**: Press and hold BOOT button and connect to computer you will see **STM32 Device in DFU Mode** at device manager, this says that you need to use [zadig_xx.exe](https://github.com/SeeedDocument/Wio_LTE/raw/master/res/zadig_2.1.2.exe) to change DFU driver from **STTub30** to **WinUSB** as bellow.
 
 ![](https://github.com/SeeedDocument/Wio_LTE/raw/master/img/zadig.png)
 
@@ -289,21 +289,42 @@ function loadModule(moduleName, callback) {
 
 #### Play with Onboard RGB LED
 
-- Step 1. Config the R, G, B numbers, the arrange is 0~255.  
+- Step 1. Config the R, G, B numbers, the arrange is 0~255.
 - Step 2. Copy the code to IDE and upload to board.
-- Step 3. The on board RBG LED will be turned on.  
+- Step 3. The on board RBG LED will be turned on.
 ```javascript
 WioLTE.setLEDPower(true);
 WioLTE.LED(r,g,b); // please modify the RGB to values with range 0..255)
+```
+
+```Javascript
+// Dynamic colors show
+WioLTE.setLEDPower(true);
+
+var rgb = new Uint8ClampedArray(3);
+var pos = 0;
+function getPattern() {
+  pos++;
+  for (var i=0;i<rgb.length;) {
+    rgb[i++] = (1 + Math.sin((i+pos)*0.1324)) * 10;
+    rgb[i++] = (1 + Math.sin((i+pos)*0.1654)) * 10;
+    rgb[i++] = (1 + Math.sin((i+pos)*0.1)) * 10;
+  }
+  return rgb;
+}
+setInterval(function() {
+  var color = getPattern();
+  WioLTE.LED(color[0], color[1], color[2]);
+}, 100);
 ```
 
 ####  Play with Grove Module
 
 ##### Play with Digital Ports
 ###### Grove-Button (Input)
-- Step 1. Conenct Grove-Button to Wio LTE D38 port.  
+- Step 1. Conenct Grove-Button to Wio LTE D38 port.
 - Step 2. Copy the code to IDE and upload to board.
-- Step 3. We will see the "Pressed" when we press the button. Or else, we will see "Released" printed on screen.  
+- Step 3. We will see the "Pressed" when we press the button. Or else, we will see "Released" printed on screen.
 ```javascript
 WioLTE.setGrovePower(true);
 var button = new (require("GroveButton"))(WioLTE.D38, function(e) {
@@ -313,9 +334,9 @@ var button = new (require("GroveButton"))(WioLTE.D38, function(e) {
 ```
 
 ###### Grove-Ralay (Output)
-- Step 1. Conenct Grove-Ralay to Wio LTE D38 port.  
+- Step 1. Conenct Grove-Ralay to Wio LTE D38 port.
 - Step 2. Copy the code to IDE and upload to board.
-- Step 3. We will hear the Relay switch and see the "Done" printed on screen.  
+- Step 3. We will hear the Relay switch and see the "Done" printed on screen.
 ```javascript
 WioLTE.setGrovePower(true);
 var relay = new (require('GroveRelay'))(WioLTE.D38);
@@ -329,7 +350,7 @@ setInterval(function() {
 
 ##### Play with Analog Ports
 ###### Grove-Light Sensor
-- Step 1. Conenct Grove-Light Sensor to Wio LTE A4 port.  
+- Step 1. Conenct Grove-Light Sensor to Wio LTE A4 port.
 - Step 2. Copy the code to IDE and upload to board.
 - Step 3. We will see the numbers printed on screen.
 ```javascript
@@ -342,7 +363,7 @@ setInterval(function() {
 
 ##### Play with UART Ports
 ###### Grove-GPS
-- Step 1. Conenct Grove-GPS to Wio LTE UART port.  
+- Step 1. Conenct Grove-GPS to Wio LTE UART port.
 - Step 2. Copy the code to IDE and upload to board.
 ```javascript
 WioLTE.setGrovePower(true);
@@ -361,7 +382,7 @@ var gps = new (require('GPS')).connect(Serial1, function(data) {
 ##### Play with I2C Ports
 
 ###### Grove 3-Axis Digital Accerlerometer(±16g)
-- Step 1. Conenct Grove 3-Axis Digital Accerlerometer(±16g) to Wio LTE I2C port.  
+- Step 1. Conenct Grove 3-Axis Digital Accerlerometer(±16g) to Wio LTE I2C port.
 - Step 2. Copy the code to IDE and upload to board.
 ```javascript
 WioLTE.setGrovePower(true);
@@ -392,7 +413,7 @@ with **require('wiolte')**.
 
 ##### Play with Send and Receive SMS
 
-- Step 1. Plug the Nano SIM card into Nano SIM slot, near PCB board side.    
+- Step 1. Plug the Nano SIM card into Nano SIM slot, near PCB board side.
 - Step 2. Change the phone number and info.
 - Step 3. Copy the code to IDE and upload to board.
 - Step 4. The phone number owner will receive the message.
@@ -454,7 +475,7 @@ wiolteStart();
 
 ##### Play with Call Out
 - Step 1. Plug the Nano SIM card into Nano SIM slot, near PCB board side.
-- Step 2. Plug the Headphone into audio port.  
+- Step 2. Plug the Headphone into audio port.
 - Step 3. Change the phone number.
 - Step 4. Copy the code to IDE and upload to board.
 - Step 5. The phone number owner will receive the phone call.
@@ -500,7 +521,7 @@ function onConnected(){
 wiolteStart();
 ```
 
-- Step 5. If we see "Disconnected" during phone call as below, the root cause is that power supply is not sufficient. Please conenct the battery or connect to a hub with sufficiant power.
+- Step 5. If we see "Disconnected" during phone call as below, the root cause is that power supply is not sufficient. Please connect the battery or connect to a hub with sufficiant power.
 
 ```javascript
 _____                 _
@@ -530,7 +551,7 @@ Disconnected
 ##### Play with Answer Call
 
 - Step 1. Plug the Nano SIM card into Nano SIM slot, near PCB board side.
-- Step 2. Plug the Headphone into audio port.     
+- Step 2. Plug the Headphone into audio port.
 - Step 3. Copy the code to IDE and upload to board.
 - Step 4. It will pick up the phone call automatically.
 
@@ -586,44 +607,25 @@ wiolteStart();
 ##### Play with GPS Location
 - Step 1. Plug the Nano SIM card into Nano SIM slot, near PCB board side.
 - Step 2. Copy the code to IDE and upload to board.
-- Step 3. We will see lat, lon info printed on screen.
+- Step 3. After **Geolocalization error : +CME ERROR: 516** stop logging, type **Geoloc()** to show GPS infomation.
 
 ```javascript
 digitalWrite(B2, 1);
 var board;
-var APN = "CMNET";
-var USERNAME = "";
-var PASSWORD = "";
 
 function wiolteStart(debug_quectel, debug_at) {
-  debug_quectel = debug_quectel || false;
-  debug_at = debug_at || false;
-
   board = require('wiolte').connect(function(err) {
     console.log("connectCB entered...");
-    if (err) throw err;
-    setTimeout(doConnect,3000);
+    if (err) console.log(err);
+    setTimeout(onStart,3000);
   });
-
   board.debug(debug_quectel, debug_at);
-
 }
 
-function doConnect() {
-  board.connect(APN, USERNAME, PASSWORD, function(err) {
-    console.log("connectCB entered...");
-    if (err) throw err;
-    board.getIP(print);
-
-    // work after connected
-    setTimeout(onConnected, 5000);
-
-  });
-}
-
-function onConnected(){
+function onStart(){
   // fetch longitude, latitude every 10 s
   board.geoLocStart(10000);
+  setInterval(GeoLoc, 2000);
 }
 
 function GeoLoc() {
@@ -636,6 +638,8 @@ function GeoLoc() {
 
 wiolteStart();
 ```
+
+![](https://raw.githubusercontent.com/SeeedDocument/Wio_LTE/master/img/espruino_GPS.png)
 
 ##### Play with Get Html Page
 
@@ -760,24 +764,26 @@ For more info, please refer to [Wio_LTE_Module](http://www.espruino.com/modules/
 -  `geoLocConvert(callback(err,latlong))` - Get last location as latitude/longitude
 -  `board.SMS` - SMS functionality with `init/read/send/list/delete` functions based on the [[ATSMS]] module
 -  `board.Call`, with:
-  - `call(number, callback)`  
-  -  `answer(callback)`  
-  -  `hangup(callback)`  
+  - `call(number, callback)`
+  -  `answer(callback)`
+  -  `hangup(callback)`
   -  `handleRing(boolean)` - if trie, will call any function added with `board.on('RING', ...)`
 -  `sleep(callback)` -  LTE modem get into sleep mode, it can save about 100mA
 -  `wake(callback)` -  LTE modem wake up from sleep mode
 
+
+
 ### Play with Arduino
 
 #### Software Configuration
-- Step 1. Install Arduino IDE.
+- Step 1. Install Arduino IDE, recommand IDE version upon 1.8.0.
 - Step 2. Follow [How to Add Seeed boards to Arduino IDE](http://wiki.seeed.cc/Seeed_Arduino_Boards/) to add Wio_LTE into arduino board manager.
-- Step 3. Download the [Wio_LTE Library](https://github.com/Seeed-Studio/Wio_LTE_Arduino_Library/archive/master.zip) from Github.
+- Step 3. Download the [Wio_LTE Library](https://github.com/Seeed-Studio/Wio_LTE_Arduino_Library) from Github.
 - Step 4. Refer [How to install library](http://wiki.seeed.cc/How_to_install_Arduino_Library) to install library for Arduino.
 
 #### Play with SMS Send
 
-- Step 1. Plug the Nano SIM card into Nano SIM slot, near PCB board side.    
+- Step 1. Plug the Nano SIM card into Nano SIM slot, near PCB board side.
 - Step 2. Select File--> Examples-->Wio_LTE_Arduino_Library-->SMSSend sketch.
 - Step 3. Change the phone number and info.
 - Step 4. Press and hold BOOT button at back side of the Wio LTE and plug the USB to PC.
@@ -786,16 +792,11 @@ For more info, please refer to [Wio_LTE_Module](http://www.espruino.com/modules/
 - Step 7. Keep COM Port blank.
 - Step 8. Select Sketch-->Upload to upload the code to Wio_LTE.
 - Step 9. Press **RST** button to enable the COM port.
-- Step 10.Use COM monitor tools to print the serial message. **Please do not use Arduino IDE COM monitor!**
-- Step 11. The phone number owner will receive the message.
 
 ```c++
-#include "module_common.h"
-#include "Arduino_Interface.h"
+#include "wio_tracker.h"
 
-#define RGBPIN 10
-
-const char message[128] = "Hello MC20!";
+char message[128] = "Hello from Wio Traker!";
 
 WioTracker wio = WioTracker();
 
@@ -810,9 +811,16 @@ void setup() {
   } else {
     SerialUSB.println("Network ready!");
   }
-
-  //Change the phone number and info.
-  wio.sendSMS("13750024343", "Hello from Wio Traker!");  
+  
+  // Change xxxxxxxxxxx to your test phone number
+  if(wio.sendSMS("13750024343", message))
+  {
+    SerialUSB.println("Send OK!");
+  }
+  else 
+  {
+    SerialUSB.println("Send Error!");
+  }
 
 }
 
@@ -820,10 +828,23 @@ void loop() {
   AT_bypass();
 }
 ```
+- Step 10.Use COM monitor tools to print the serial message. **Please do not use Arduino IDE COM monitor! That may cause the next time downloading fail, bute reopen Arduino IDE can recover that issue**.
+- Step 11. The phone number owner will receive the message.
+
+```C++
+Power On!
+
+
+Network ready!
+
+
+
+Send OK!
+```
 
 #### Play with SMS Read
 
-- Step 1. Plug the Nano SIM card into Nano SIM slot, near PCB board side.    
+- Step 1. Plug the Nano SIM card into Nano SIM slot, near PCB board side.
 - Step 2. Select File--> Examples-->Wio_LTE_Arduino_Library-->SMSRead sketch.
 - Step 3. Press and hold BOOT button at back side of the Wio LTE and plug the USB to PC.
 - Step 4. We will see **STM BOOLARDER** in device manager.
@@ -831,12 +852,9 @@ void loop() {
 - Step 6. Keep COM Port blank.
 - Step 7. Select Sketch-->Upload to upload the code to Wio_LTE.
 - Step 8. Press **RST** button to enable the COM port.
-- Step 9. Use COM monitor tools to print the serial message. **Please do not use Arduino IDE COM monitor!**
-- Step 10. The receive message will display on the monitor tool.
 
 ```C++
-#include "module_common.h"
-#include "Arduino_Interface.h"
+#include "wiowio_trackerlte.h"
 
 uint16_t newSMSNumber = -1;
 char message[128];
@@ -862,10 +880,10 @@ void setup() {
 }
 
 void loop() {
-  int sms = wio.detectRecUnreadSMS();
-  if(sms != -1){
-    newSMSNumber = sms;
-    wio.readSMS(newSMSNumber, message, 128, phone, dateTime);  // readSMS(int messageIndex, char *message, int length, char *phone, char *datetime)
+  int id = wio.detectRecUnreadSMS();
+  if(-1 != id){
+    newSMSNumber = id;
+    wio.readSMS(newSMSNumber, message, 128, phone, dateTime);
     SerialUSB.println("++++++++++++++ Start +++++++++++++++++");
     SerialUSB.print("From: ");
     SerialUSB.println(phone);
@@ -879,6 +897,31 @@ void loop() {
 
   delay(1000);
 }
+
+```
+
+- Step 9.Use COM monitor tools to print the serial message. **Please do not use Arduino IDE COM monitor! That may cause the next time downloading fail, bute reopen Arduino IDE can recover that issue**.
+- Step 10. Open serial monitor, when seeing **Waitting for new SMS!**, send message to the board, the new message will display soon with phone number, time, content.
+
+```C
+Power On!
+Wait for network registered...
+
+
+Network ready!
+
+
+Waiting for new SMS!
+Waiting for new SMS!
+Waiting for new SMS!
+
+++++++++++++++ Start +++++++++++++++++
+From: 1375002xxxx
+Date: 17/12/20,17:40:38+32
+Hello tracker
+++++++++++++++++ End +++++++++++++++
+Waiting for new SMS!
+Waiting for new SMS!
 ```
 
 #### Play with GPS
@@ -891,31 +934,19 @@ void loop() {
 - Step 6. Keep COM Port blank.
 - Step 7. Select Sketch-->Upload to upload the code to Wio_LTE.
 - Step 8. Press **RST** button to enable the COM port.
-- Step 9. Use COM monitor tools to print the serial message. **Please do not use Arduino IDE COM monitor!**
-- Step 10. We will see lat, lon info printed on screen.
 
 ```c++
-#include "module_common.h"
-#include "Arduino_Interface.h"
 #include "gnss.h"
 
 
 GNSS gnss = GNSS();
 
 void setup() {
-  // Enable Module Power
-  pinMode(gnss.MODULE_PWR_PIN, OUTPUT);
-  digitalWrite(gnss.MODULE_PWR_PIN , HIGH);    
-  // Enable VCCB
-  pinMode(gnss.ENABLE_VCCB_PIN, OUTPUT);
-  digitalWrite(gnss.ENABLE_VCCB_PIN, HIGH);
-
-  // Module power on
   gnss.Power_On();
   while(false == gnss.Check_If_Power_On()){
     SerialUSB.println("Waitting for module to alvie...");
     delay(1000);
-  }
+  } 
   SerialUSB.println("\n\rPower On!");
 
   if(!(gnss.open_GNSS())){
@@ -928,26 +959,68 @@ void setup() {
 }
 
 void loop() {
-  char buffer[64];
   if(gnss.getCoordinate()){
-    SerialUSB.print("GNSS: ");
+    SerialUSB.println();
+    SerialUSB.print("GNSS: \r\n");
+
+    // Output double type
+    SerialUSB.print("Data type in double: ");
     SerialUSB.print(gnss.longitude, 6);
     SerialUSB.print(",");
     SerialUSB.println(gnss.latitude, 6);
+    
+    // Output char* type
+    SerialUSB.print("Data type in string: ");
     SerialUSB.print(gnss.str_longitude);
     SerialUSB.print(",");
     SerialUSB.println(gnss.str_latitude);
   } else{
-    SerialUSB.println("Error!");
+    SerialUSB.print("...");
   }
-
-  delay(1000);
 }
+
 ```
+
+- Step 9.Use COM monitor tools to print the serial message. **Please do not use Arduino IDE COM monitor! That may cause the next time downloading fail, bute reopen Arduino IDE can recover that issue**.
+- Step 10. We will see lat, lon info printed on screen.
+
+```C
+Waitting for module to alvie...
+Waitting for module to alvie...
+Waitting for module to alvie...
+
+RDY
+AT
+
+OK
+
+
+Power On!
+
+
+Open GNSS OK.
+.................................
+GNSS: 
+Data type in double: 113.966255,22.583820
+Data type in string: 113.966255,22.583819
+
+GNSS: 
+Data type in double: 113.966248,22.583818
+Data type in string: 113.966248,22.583818
+
+GNSS: 
+Data type in double: 113.966248,22.583817
+Data type in string: 113.966248,22.583816
+
+GNSS: 
+Data type in double: 113.966248,22.583820
+Data type in string: 113.966248,22.583819
+```
+
 #### Play with Call out
 
 - Step 1. Plug the Nano SIM card into Nano SIM slot, near PCB board side.
-- Step 2. Select File--> Examples-->Wio_LTE_Arduino_Library-->GNNS-->Callup sketch.
+- Step 2. Select File--> Examples-->Wio_LTE_Arduino_Library-->Callup sketch.
 - Step 3. Change the phone number.
 - Step 4. Press and hold BOOT button at back side of the Wio LTE and plug the USB to PC.
 - Step 5. We will see **STM BOOLARDER** in device manager.
@@ -955,16 +1028,13 @@ void loop() {
 - Step 7. Keep COM Port blank.
 - Step 8. Select Sketch-->Upload to upload the code to Wio_LTE.
 - Step 9. Press **RST** button to enable the COM port.
-- Step 10. Use COM monitor tools to print the serial message. **Please do not use Arduino IDE COM monitor!**
+- Step 10.Use COM monitor tools to print the serial message. **Please do not use Arduino IDE COM monitor! That may cause the next time downloading fail, bute reopen Arduino IDE can recover that issue**.
 - Step 11. The phone number owner will receive the call.
 
 ```c++
-#include "module_common.h"
-
-#define RGBPIN 10
+#include "wio_tracker.h"
 
 WioTracker wio = WioTracker();
-
 
 void setup() {
   wio.Power_On();
@@ -991,9 +1061,231 @@ void setup() {
 }
 
 void loop() {
-  // Debug
+  /* Debug */
   AT_bypass();
 }
+
+```
+
+#### Play with Socket TCP/UDP client
+
+- Step 1. Plug the Nano SIM card into Nano SIM slot, near PCB board side.
+- Step 2. Select File--> Examples-->Wio_LTE_Arduino_Library-->TCPConnect.
+- Step 3. Change the phone number.
+- Step 4. Press and hold BOOT button at back side of the Wio LTE and plug the USB to PC.
+- Step 5. We will see **STM BOOLARDER** in device manager.
+- Step 6. Select Tools-->Boards-->Wio_Tracker_LTE.
+- Step 7. Keep COM Port blank.
+- Step 8. Select Sketch-->Upload to upload the code to Wio_LTE.
+
+```C
+#include "ethernet.h"
+
+Ethernet eth = Ethernet();
+
+
+// const char apn[10] = "CMNET";
+const char apn[10] = "UNINET";
+const char URL[100] = "mbed.org";
+char http_cmd[100] = "GET /media/uploads/mbed_official/hello.txt HTTP/1.0\n\r\n\r";
+int port = 80;
+
+int ret = 0;
+
+
+void setup() {
+  SerialUSB.println("Begin...");
+  eth.Power_On();
+  while(false == eth.Check_If_Power_On()){
+    SerialUSB.println("Waitting for module to alvie...");
+    delay(1000);
+  }
+
+  while(!eth.init()){
+    delay(1000);
+    SerialUSB.println("Accessing network...");
+  }
+  SerialUSB.println("Initialize done...");
+
+  eth.join(apn);
+  SerialUSB.print("\n\rIP: ");
+  SerialUSB.print(eth.ip_string);
+
+  if(eth.connect(URL, port, TCP)) 
+  {
+    eth.write(http_cmd); 
+    while(MODULE_PORT.available()){
+        serialDebug.write(MODULE_PORT.read());
+    }    
+    eth.close(1);
+  } 
+  else {
+    SerialUSB.println("Connect Error!");
+  }
+  
+}
+
+void loop() {
+  /* Debug */
+  AT_bypass();
+}
+```
+- Step 9. Press **RST** button to enable the COM port.
+- Step 10.Use COM monitor tools to print the serial message. **Please do not use Arduino IDE COM monitor! That may cause the next time downloading fail, bute reopen Arduino IDE can recover that issue**.
+
+```
+Begin...
+Waitting for module to alvie...
+Waitting for module to alvie...
+Waitting for module to alvie...
+
+
+
+
+Initialize done...
+
+
+
+
+
+IP: 10.229.226.108
+
+ 
+
+
++QIURC: "recv",0,389
+HTTP/1.1 200 OK
+Server: nginx/1.11.12
+Date: Mon, 25 Dec 2017 04:45:01 GMT
+Content-Type: text/plain
+Content-Length: 14
+Connection: close
+Last-Modified: Fri, 27 Jul 2012 13:30:34 GMT
+Accept-Ranges: bytes
+Cache-Control: max-age=36000
+Expires: Mon, 25 Dec 2017 14:44:58 GMT
+X-Upstream-L1-next-hop: 217.140.101.22:8080
+X-Upstream-L1: developer-sjc-cyan-border-nginx
+
+Hello world!
+
+
++QIURC: "closed",0
+```
+
+
+
+#### Play with SD Card
+
+- Step 1. Plug micro SD card to the SD card slot.
+- Step 2. Select File--> Examples-->Wio_LTE_Arduino_Library-->SDCard.
+- Step 3. Change the phone number.
+- Step 4. Press and hold BOOT button at back side of the Wio LTE and plug the USB to PC.
+- Step 5. We will see **STM BOOLARDER** in device manager.
+- Step 6. Select Tools-->Boards-->Wio_Tracker_LTE.
+- Step 7. Keep COM Port blank.
+- Step 8. Select Sketch-->Upload to upload the code to Wio_LTE.
+
+
+```C
+ // include the SD library:
+#include <SD.h>
+
+// set up variables using the SD utility library functions:
+Sd2Card card;
+SdVolume volume;
+SdFile root;
+
+const int chipSelect = 43;
+
+void setup()
+{
+
+  SerialUSB.print("\nInitializing SD card...");
+  pinMode(SS, OUTPUT);
+
+
+  // we'll use the initialization code from the utility libraries
+  // since we're just testing if the card is working!
+  while (!card.init(SPI_HALF_SPEED, chipSelect)) {
+    SerialUSB.println("initialization failed. Things to check:");
+    SerialUSB.println("* is a card is inserted?");
+    SerialUSB.println("* Is your wiring correct?");
+    SerialUSB.println("* did you change the chipSelect pin to match your shield or module?");
+  } 
+  
+  // print the type of card
+  SerialUSB.print("\nCard type: ");
+  switch(card.type()) {
+    case SD_CARD_TYPE_SD1:
+      SerialUSB.println("SD1");
+      break;
+    case SD_CARD_TYPE_SD2:
+      SerialUSB.println("SD2");
+      break;
+    case SD_CARD_TYPE_SDHC:
+      SerialUSB.println("SDHC");
+      break;
+    default:
+      SerialUSB.println("Unknown");
+  }
+
+  // Now we will try to open the 'volume'/'partition' - it should be FAT16 or FAT32
+  if (!volume.init(card)) {
+    SerialUSB.println("Could not find FAT16/FAT32 partition.\nMake sure you've formatted the card");
+    return;
+  }
+
+
+  // print the type and size of the first FAT-type volume
+  uint32_t volumesize;
+  SerialUSB.print("\nVolume type is FAT");
+  SerialUSB.println(volume.fatType(), DEC);
+  SerialUSB.println();
+  
+  volumesize = volume.blocksPerCluster();    // clusters are collections of blocks
+  volumesize *= volume.clusterCount();       // we'll have a lot of clusters
+  volumesize *= 512;                            // SD card blocks are always 512 bytes
+  SerialUSB.print("Volume size (bytes): ");
+  SerialUSB.println(volumesize);
+  SerialUSB.print("Volume size (Kbytes): ");
+  volumesize /= 1024;
+  SerialUSB.println(volumesize);
+  SerialUSB.print("Volume size (Mbytes): ");
+  volumesize /= 1024;
+  SerialUSB.println(volumesize);
+
+  
+  SerialUSB.println("\nFiles found on the card (name, date and size in bytes): ");
+  root.openRoot(volume);
+  
+  // list all files in the card with date and size
+  root.ls(LS_R | LS_DATE | LS_SIZE);
+}
+
+
+void loop(void) {
+  
+}
+```
+
+- Step 9. Press **RST** button to enable the COM port.
+- Step 10.Use COM monitor tools to print the serial message. **Please do not use Arduino IDE COM monitor! That may cause the next time downloading fail, bute reopen Arduino IDE can recover that issue**.
+
+
+
+```C
+
+Initializing SD card...
+Card type: SDHC
+
+Volume type is FAT32
+
+Volume size (bytes): 2689048576
+Volume size (Kbytes): 2626024
+Volume size (Mbytes): 2564
+
+Files found on the card (name, date and size in bytes): 
 
 ```
 
