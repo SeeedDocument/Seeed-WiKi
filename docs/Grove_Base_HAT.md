@@ -82,10 +82,12 @@ Please click **[here](http://support.seeedstudio.com/knowledgebase/articles/1831
 
 ## Resources
 
-- **[PDF]** [Download Wiki PDF]()
+- **[PDF]** [Download Wiki PDF](https://github.com/SeeedDocument/Grove_Base_HAT/raw/master/res/Grove_Base_HAT.pdf)
 - **[PDF]** [Grove Base HAT SCH](https://github.com/SeeedDocument/Grove_Base_HAT/raw/master/res/Raspberry%20Pi%20Grove%20Base%20HAT%20SCH.pdf)
 - **[PDF]** [Grove Base HAT BRD](https://github.com/SeeedDocument/Grove_Base_HAT/raw/master/res/Raspberry%20Pi%20Grove%20Base%20HAT%20BRD.pdf)
 - **[Eagle]** [Grove Base HAT SCH](https://github.com/SeeedDocument/Grove_Base_HAT/raw/master/res/Raspberry%20Pi%20Grove%20Base%20HAT%20SCH.zip)
 - **[Eagle]** [Grove Base HAT BRD](https://github.com/SeeedDocument/Grove_Base_HAT/raw/master/res/Raspberry%20Pi%20Grove%20Base%20HAT%20PCB.zip)
 - **[Datasheet]** [ADS1015](https://github.com/SeeedDocument/Grove_Base_HAT/raw/master/res/ads1015.pdf)
 - **[Datasheet]** [TXS0108](https://github.com/SeeedDocument/Grove_Base_HAT/raw/master/res/txs0108e.pdf)
+- **[PDF]** [Grove Base HAT Mechanical](https://github.com/SeeedDocument/Grove_Base_HAT/raw/master/res/hat-board-mechanical.pdf)
+- **[Github]** [HAT](https://github.com/raspberrypi/hats)
