@@ -44,7 +44,6 @@ Here is the list of the Seeeduino Boards you can find in the Seeed WiKi. The lis
 - [Seeeduino Stalker v3 enclosure](/Seeeduino_Stalker_v3_enclosure/)
 - [Seeeduino v4.0‏‎](/Seeeduino_v4.0/)
 - [Seeeduino v4.2](/Seeeduino_v4.2/)
-- [Seeeduino v4.2](/Seeeduino_v4.2_old/)
 - [Seeeduino v4.2](/test007/)
 - [Shield Bot V1.1](/Shield_Bot_V1.1/)
 - [Shield Bot V1.2](/Shield_Bot_V1.2/)

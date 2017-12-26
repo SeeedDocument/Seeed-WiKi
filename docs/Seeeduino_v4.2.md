@@ -286,6 +286,12 @@ Here is some funny project for your reference.
 |![](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/project4.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/project5.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/project6.jpg)|
 | [Make it Now](http://www.instructables.com/id/Desk-promo/) | [Make it Now](http://www.instructables.com/id/How-to-Make-Your-Tiny-Tiger-Machine/) | [Make it Now](http://www.instructables.com/id/DIY-a-colorful-pyramid/)|
 
+
+## FAQs
+
+Please click **[here](http://support.seeedstudio.com/knowledgebase/articles/1826437-seeeduino-v4-2-sku-102010026)** to see all Seeeduino V4.2 FAQs.
+
+
 ## Resources
 - **[PDF]** [Download Wiki PDF](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/Seeeduino_v4.2.pdf)
 - **[Eagle]** [Seeeduino V4.2 in EAGLE file](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/SeeeduinoV4.2.zip)
@@ -294,14 +300,10 @@ Here is some funny project for your reference.
 - **[PDF]** [Seeeduino V4.0 in PDF](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/Seeeduino_v4.0_sch.pdf)
 - **[Datasheet]** [ATmega328P](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/ATmega328.pdf)
 - **[Datasheet]** [ATmega16U2](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/ATmega16u2.pdf)
-- **[References]** [Getting Started with Arduino](https://www.arduino.cc/en/Guide/HomePage)
-- **[References]** [Arduino Language Reference](https://www.arduino.cc/en/Reference/HomePage)
-- **[References]** [Download the Arduino Software(IDE)](https://www.arduino.cc/en/Main/Software)
-- **[References]** [Arduino FAQ](https://www.arduino.cc/en/Main/FAQ)
-- **[References]** [Arduino Introduction](https://www.arduino.cc/en/guide/introduction)
-- **[References]** [Wikipedia page for Arduino](https://en.wikipedia.org/wiki/Arduino)
-- **[References]** [How to fit RF Explorer 3G+ IoT modules on Seeeduino](http://j3.rf-explorer.com/60-rfe/specifications/184-rf-explorer-3g-iot-for-seeeduino)
-
-## FAQs
-
-Please click **[here](http://support.seeedstudio.com/knowledgebase/articles/1826437-seeeduino-v4-2-sku-102010026)** to see all Seeeduino V4.2 FAQs.
+- **[MoreReading]** [Getting Started with Arduino](https://www.arduino.cc/en/Guide/HomePage)
+- **[MoreReading]** [Arduino Language Reference](https://www.arduino.cc/en/Reference/HomePage)
+- **[MoreReading]** [Download the Arduino Software(IDE)](https://www.arduino.cc/en/Main/Software)
+- **[MoreReading]** [Arduino FAQ](https://www.arduino.cc/en/Main/FAQ)
+- **[MoreReading]** [Arduino Introduction](https://www.arduino.cc/en/guide/introduction)
+- **[MoreReading]** [Wikipedia page for Arduino](https://en.wikipedia.org/wiki/Arduino)
+- **[MoreReading]** [How to fit RF Explorer 3G+ IoT modules on Seeeduino](http://j3.rf-explorer.com/60-rfe/specifications/184-rf-explorer-3g-iot-for-seeeduino)

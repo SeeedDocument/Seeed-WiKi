@@ -220,10 +220,6 @@
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/base_shield_v2_old/</loc>
-  </url>
-  
-  <url>
     <loc>http://wiki.seeed.cc/basic_fastener_kit/</loc>
   </url>
   
@@ -753,10 +749,6 @@
   </url>
   
   <url>
-    <loc>http://wiki.seeed.cc/grove-gsr_sensor_old/</loc>
-  </url>
-  
-  <url>
     <loc>http://wiki.seeed.cc/grove-gas_sensor/</loc>
   </url>
   
@@ -1230,6 +1222,10 @@
   
   <url>
     <loc>http://wiki.seeed.cc/grove_base_cape_for_beaglebone_v2/</loc>
+  </url>
+  
+  <url>
+    <loc>http://wiki.seeed.cc/grove_base_hat/</loc>
   </url>
   
   <url>
@@ -2224,10 +2220,6 @@
   
   <url>
     <loc>http://wiki.seeed.cc/seeeduino_v4.2/</loc>
-  </url>
-  
-  <url>
-    <loc>http://wiki.seeed.cc/seeeduino_v4.2_old/</loc>
   </url>
   
   <url>

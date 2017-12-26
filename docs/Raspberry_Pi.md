@@ -16,6 +16,7 @@ At Seeed Studio, we provide not only different raspberry pi boards that mentione
 
 Here is the list of the Raspberry Pi Boards you can find in the Seeed WiKi. The list will be constantly updated.
 
+- [Grove Base HAT](/Grove_Base_HAT/)
 - [Grove Starter Kit for IoT based on Raspberry Pi](/Grove_Starter_Kit_for_IoT_based_on_Raspberry_Pi/)
 - [GrovePi&#43;](/GrovePi_Plus/)
 - [Raspberry Pi Breakout Board v1.0](/Raspberry_Pi_Breakout_Board_v1.0/)

@@ -41,7 +41,6 @@ Here is the list of the Grove - Sensor Boards you can find in the Seeed WiKi. Th
 - [Grove - Fingerprint Sensor](/Grove-Fingerprint_Sensor/)
 - [Grove - Flame Sensor](/Grove-Flame_Sensor/)
 - [Grove - GSR Sensor](/Grove-GSR_Sensor/)
-- [Grove - GSR Sensor](/Grove-GSR_Sensor_old/)
 - [Grove - Gas Sensor](/Grove-Gas_Sensor/)
 - [Grove - Gas Sensor(MQ2)](/Grove-Gas_Sensor-MQ2/)
 - [Grove - Gas Sensor(MQ3)](/Grove-Gas_Sensor-MQ3/)
