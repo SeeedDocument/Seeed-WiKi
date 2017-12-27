@@ -328,6 +328,22 @@ for i in range(1, 5):
    relay_off(i)
 ```
 
+### Controlling the relay board with Node-Red
+You can also use [Node-Red](https://nodered.org) to make it easy to drive your relay board with cool features such as HTTP requests, Twitter messages or MQTT endpoints.
+
+![](images/node-red-seeed-relayboard.png)
+
+You only need to install the [i2c nodes package for Node-Red](https://www.npmjs.com/package/node-red-contrib-i2c) as outlined in the package document. This typically involves going into the `.node-red` subdirectory and invoking the `npm install` command to install the i2c nodes into your Node-Red deployment:
+
+```
+$ cd ~/.node-red
+$ npm install --unsafe-perm node-red-contrib-i2c
+```
+
+Then, start node-red and validate that the I2C nodes appear on the palette (they're easily identifiable as they're vivid-red colored). You can then [copy-paste this flow](https://flows.nodered.org/flow/cf775dab1be2b5f2b0898592264a8362) into your deployment and start experimenting!
+
+
+
 That’s it, that’s all there is to it. Enjoy.
 
 Resources
