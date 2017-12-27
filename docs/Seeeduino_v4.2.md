@@ -291,6 +291,8 @@ Here is some funny project for your reference.
 
 Please click **[here](http://support.seeedstudio.com/knowledgebase/articles/1826437-seeeduino-v4-2-sku-102010026)** to see all Seeeduino V4.2 FAQs.
 
+## Tech Support
+Please do not hesitate to contact **techsupport@seeed.cc** if you require further information.
 
 ## Resources
 - **[PDF]** [Download Wiki PDF](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/Seeeduino_v4.2.pdf)

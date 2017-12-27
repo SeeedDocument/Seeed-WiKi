@@ -7,7 +7,7 @@ prodimagename: High_Temperature_Sensor_01.jpg
 bzprodimageurl: http://statics3.seeedstudio.com/images/product/High Temperature Sensor.jpg
 surveyurl: https://www.research.net/r/Grove-High_Temperature_Sensor
 sku: 111020002
-tags: grove_analog, io_3v3, io_5v, plat_duino, plat_linkit
+tags: grove_analog, io_3v3, io_5v, plat_duino, plat_linkit, plat_pi
 ---
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-High_Temperature_Sensor/master/img/High_Temperature_Sensor_01.jpg)
@@ -259,6 +259,9 @@ pi@raspberrypi:~/GrovePi/Software/Python/grove_hightemperature_sensor $ python h
 
 ## FAQ
 Please click [here](http://support.seeedstudio.com/knowledgebase/articles/743697-grove-high-temperature-sensor-sku-111020002) to see all Grove-High_Temperature_Sensor FAQs.
+
+## Tech Support
+Please do not hesitate to contact **techsupport@seeed.cc** if you require further information.
 
 ## Resources
 

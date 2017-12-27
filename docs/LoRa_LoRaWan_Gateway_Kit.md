@@ -586,12 +586,13 @@ Then go to **Dashboard -> Applications -> SampleApp ->Device** , click the Node 
 
 ![](https://github.com/SeeedDocument/LoRaWAN_Gateway-868MHz_Kit_with_Raspberry_Pi_3/raw/master/img/final.png).
 
+## FAQ
+Please click [here](http://support.seeedstudio.com/knowledgebase/articles/1831525-lorawan-gateway-kit-sku-110060622-110060623) to see all LoraWan GateWay Kit FAQs.
 
+## Tech Support
+Please do not hesitate to contact **techsupport@seeed.cc** if you require further information.
 
 ## Resources
-
-
 - **[PDF]** [Download Wiki PDF](https://github.com/SeeedDocument/LoRaWAN_Gateway-868MHz_Kit_with_Raspberry_Pi_3/raw/master/res/LoRa_LoRaWan_Gateway_Kit.pdf)
 - **[Uer Manual]** [User Manual](https://github.com/SeeedDocument/LoRaWAN_Gateway-868MHz_Kit_with_Raspberry_Pi_3/raw/master/res/%5BRHF-UM01649%5DIoT%20Discovery%20User%20Manual-seeed-v2.1.pdf).
-- [Wiki of Seeeduino LoRaWAN](/Seeeduino_LoRAWAN/)
 - [RisingHF Website](http://www.risinghf.com/product/risinghf-iot-dicovery/?lang=en)

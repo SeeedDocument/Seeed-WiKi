@@ -95,6 +95,9 @@ void loop()
 ## FAQ
 Please click [here](http://support.seeedstudio.com/knowledgebase/articles/1826443-base-shield-v2-sku-103030000) to see all Base Shield V2 FAQs.
 
+## Tech Support
+Please do not hesitate to contact **techsupport@seeed.cc** if you require further information.
+
 ## Resources
 
 - **[PDF]** [Download Wiki PDF](https://github.com/SeeedDocument/Base_Shield_V2/raw/master/res/Base_Shield_V2_WiKi.pdf)

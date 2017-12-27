@@ -107,7 +107,10 @@ void loop(){
 **Human Resistance** = ((1024+2*Serial_Port_Reading)*10000)/(512-Serial_Port_Reading), unit is ohm, Serial_Port_Reading is the value display on Serial Port(between 0~1023)
 
 ## FAQ
-Please click [here](http://support.seeedstudio.com/knowledgebase/articles/1827199-grove-gsr-sensor-sku-101020052) to see all Grove - GSR sensor FAQs.
+Please click [here](http://support.seeedstudio.com/knowledgebase/articles/1827199-grove-gsr-sensor-sku-101020052) to see all Grove - GSR sensor FAQs. 
+
+## Tech Support
+Please do not hesitate to contact **techsupport@seeed.cc** if you require further information.
 
 ## Resources
 

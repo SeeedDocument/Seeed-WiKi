@@ -22,17 +22,6 @@ The sensor cannot be used for medical purposes.  In standby mode, the output vol
     </item>
     
     <item>
-      <title>Grove - High Temperature Sensor</title>
-      <link>http://wiki.seeed.cc/grove-high_temperature_sensor/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://wiki.seeed.cc/grove-high_temperature_sensor/</guid>
-      <description>Thermocouples are very sensitive devices. It requires a good amplifier with cold-junction compensation. The Grove - High Temperatire Sensor uses a K-Type themocouple and a thermocouple amplifier that measures ambient temperature using thermistor for cold-junction compensation. The detectable range of this Sensor is -50~600°C , and the accuracy is ±(2.0% + 2°C).
-
-Version .tg {border-collapse:collapse;border-spacing:0;border-color:#ccc;} .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;} .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#6ab0de;} .tg .tg-yw4l{vertical-align:top;width:20%} .tg .tg-yw42{vertical-align:top;width:50%} .tg .</description>
-    </item>
-    
-    <item>
       <title>Grove - Luminance Sensor</title>
       <link>http://wiki.seeed.cc/grove-luminance_sensor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
