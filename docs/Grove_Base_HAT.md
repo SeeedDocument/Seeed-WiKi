@@ -75,6 +75,69 @@ This 8-bit non-inverting translator uses two separate configurable power-supply 
 - <font face="" size=5 font color="00b0f0">❽</font> **FREE:**
 The FREE pins are not used by Grove Base HAT.
 
+## Getting Started
+
+### Hardware
+- Step 1. Prepare the below stuffs:
+
+| Raspberry pi | Grove base HAT |
+|--------------|-------------|
+|![enter image description here](https://github.com/SeeedDocument/Grove_Ultrasonic_Ranger/raw/master/img/rasp.jpg)|![enter image description here](https://github.com/SeeedDocument/Grove_Base_HAT/raw/master/img/Grove%20Base%20HAT_s.JPG)|
+|[Get ONE Now](https://www.seeedstudio.com/Raspberry-Pi-3-Model-B-p-2625.html)|[Get ONE Now]()|
+
+- Step 2. Plug the Grove Base HAT into Raspberry.
+- Step 3. Connect the Raspberry to PC through USB cable.
+
+### Software
+
+- Step 1. Configure I2C, I2C is not turned on by default. We can use raspi-config to enable it. Run "sudo raspi-config".
+- Step 2. Arrow down to 5 interfacing Options and press "enter" to select.
+![](https://github.com/SeeedDocument/Grove_Base_HAT/raw/master/img/enable_i2C.1.png)
+
+- Step 3. Arrow down to P5 I2C and press "enter" to select.
+![](https://github.com/SeeedDocument/Grove_Base_HAT/raw/master/img/enable_i2C.2.png)
+
+- Step 4. Select "Yes" to enable it.
+![](https://github.com/SeeedDocument/Grove_Base_HAT/raw/master/img/enable_i2C.3.png)
+
+- Step 5. Select "Ok".
+![](https://github.com/SeeedDocument/Grove_Base_HAT/raw/master/img/enable_i2C.4.png)
+
+- Step 6. Select "Finish" to save the changes.
+![](https://github.com/SeeedDocument/Grove_Base_HAT/raw/master/img/enable_i2C.5.png)
+
+- Step 7. Download [ADS1X15_Driver](https://github.com/SeeedDocument/Grove_Base_HAT/raw/master/res/ADS1X15_Driver.zip) to Raspberry /home/pi folder and unzip.
+
+```
+wget https://github.com/SeeedDocument/Grove_Base_HAT/raw/master/res/ADS1X15_Driver.zip
+unzip ADS1X15_Driver.zip
+```
+- Step 8. Go to singleended folder and make. We will see the Singleended file highlighted in Green.
+
+```
+pi@raspberrypi:~ $ cd ~/Adafruit_ADS1X15_Linux/examples/singleended
+pi@raspberrypi:~/Adafruit_ADS1X15_Linux/examples/singleended $ make
+g++ -o singleended.o -c singleended.cpp -I../../ -W -Wall
+g++ -o Singleended singleended.o -lads1015 -L../../
+pi@raspberrypi:~/Adafruit_ADS1X15_Linux/examples/singleended $ ls
+Makefile  Singleended  singleended.cpp  singleended.o
+
+```
+
+- Step 9. Run the singleended to read the data.
+
+```
+pi@raspberrypi:~/Adafruit_ADS1X15_Linux/examples/singleended $ ./Singleended
+Hello!
+Getting single-ended readings from AIN0..3
+ADC Range: +/- 6.144V (1 bit = 3mV/ADS1015, 0.1875mV/ADS1115)
+AIN0: 4095
+AIN1: 4095
+AIN2: 4095
+AIN3: 4095
+```
+
+
 ## FAQs
 
 Please click **[here](http://support.seeedstudio.com/knowledgebase/articles/1831468-grove-base-hat-sku-tbd)** to see all Grove_Base_HAT FAQs.
