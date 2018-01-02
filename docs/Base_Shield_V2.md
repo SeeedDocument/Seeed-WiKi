@@ -10,7 +10,7 @@ sku: 103030000
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Base_Shield_V2/master/img/Base_Shield_v2-1.png)
 
-Arduino Uno is the most popular Arduino board so far, however it is sometimes frustrating when your project requires a lot of sensors or Leds and your jumper wires are in a mess. The purpose of creating the Base Shield is to help you get rid of bread board and jumper wires. With the rich grove connectors on the base board, you can add all the grove modules to the Arduino Uno conveniently! The pinout of Base Shield V2 is the same as Arduino Uno R3, however Arduino Uno is not the board one that the Base Shield V2 is compatible with plenty of boards.
+Arduino Uno is the most popular Arduino board so far, however it is sometimes frustrating when your project requires a lot of sensors or Leds and your jumper wires are in a mess. The purpose of creating the Base Shield is to help you get rid of bread board and jumper wires. With the rich grove connectors on the base board, you can add all the grove modules to the Arduino Uno conveniently! The pinout of Base Shield V2 is the same as Arduino Uno R3, however Arduino Uno is not the only one that the Base Shield V2 is compatible with.
 
 [![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now.png)](https://www.seeedstudio.com/base-shield-v13-p-1378.html)  
 
@@ -36,21 +36,21 @@ The Base Shield is tested and fully compatible with following boards:
 - Linkit One
 
 !!!Note
-    The boards are not listed above mean that it might have chance to work with the platform board however requires extra work such as jump wires or rewriting the code. If you are interested in digging more, welcome to contact techsupport@seeed.cc.
+    The boards not listed above might also work with the base shield but require extra work such as jump wires or rewriting the code. If you are interested in digging more, welcome to contact techsupport@seeed.cc.
 
 
 ## Hardware Overview
 
 ![](https://github.com/SeeedDocument/Base_Shield_V2/raw/master/img/hardware_overview.jpg)
 
-- **1-Analog Ports**: include 4 anlog ports, A0, A1, A2 and A3.
-- **2-Digital Ports**: include 7 digital ports, D2, D3, D4, D5, D6, D7 and D8.
-- **3-UART Port**: 1 UART port.
-- **4-I2C Ports**: 4 I2C ports.
-- **5-Power Switch**: when using Arduino UNO with Base Shield v2, please turn the switch to 5v position; While using Seeeduino Arch with Base Shield v2, please turn the switch to 3.3v.
-- **6-Reset Buton**: reset the arduino board.
-- **7-PWR  LED**：The Green LED turns on when power on.
-- **8-P1, P2**：please solder the pads P1 and P2， if use Base Shield v2 with Seeeduino V3.
+- **① Analog Ports**: 4 anlog ports - A0, A1, A2 and A3.
+- **② Digital Ports**: 7 digital ports - D2, D3, D4, D5, D6, D7 and D8.
+- **③ UART Port**: 1 UART port.
+- **④ I2C Ports**: 4 I2C ports.
+- **⑤ Power Switch**: When using Arduino UNO with Base Shield v2, please turn the switch to 5V position; While using Seeeduino Arch with Base Shield v2, please turn the switch to 3.3V.
+- **⑥ Reset Buton**: Reset the arduino board.
+- **⑦ PWR  LED**：The Green LED turns on when it's powered on.
+- **⑧ P1, P2**：Please solder the pads P1 and P2， if use Base Shield v2 with Seeeduino V3.
 - **Dimension**: 2.1 * 2.7 inch  
 
 ## Getting Started
