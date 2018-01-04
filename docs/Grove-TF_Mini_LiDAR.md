@@ -147,6 +147,6 @@ void loop()
 ## Resources
 ---
 - **[Datasheet]** [Grove-TF-Mini-LiDAR
-](https://github.com/SeeedDocument/Grove-TF_Mini_LiDAR/raw/master/res/DE-LiDAR%20TFmini%20Datasheet-V1.6-EN.pdf)
+](https://github.com/SeeedDocument/Grove-TF_Mini_LiDAR/raw/master/res/DE-LiDAR%20TFmini%20Datasheet-V1.7-EN.pdf)
 - **[Software]** [Grove-TF-Mini-LiDAR Master Computer Software
 ](https://github.com/SeeedDocument/Grove-TF_Mini_LiDAR/raw/master/res/Grove-TF-Mini-LiDAR%20Master%20Computer%20Software.zip)

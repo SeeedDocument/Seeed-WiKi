@@ -106,14 +106,14 @@ The Wio LTE is well suited for outdoor projects where the device can connect to 
 
 
 ## Power Consumption
-| Status                                                                                 | Current                          |
-| -------------------------------------------------------------------------------------- | -------------------------------- |
-| Normal boot(boot moment)                                                               | 700mA                            |
-| After boot(IDLE mode)                                                                  | 300mA                            |
-| After the boot, the normal communication status (network transmission function)        | 600mA or so, the peak reaches 2A |
-| Call and SMS(signal better)                                                            | 100-300mA                        |
-| Deep sleep mode, turn off all functions, require external wake-up (wake only by Reset) | 300uA                            |
-| MCU Deep Sleep mode, wake-up pin connected to module, wake-up via module               | over 300uA (requires testing)    |
+| Status                                                                                 | Current                          |Voltage                         |
+| -------------------------------------------------------------------------------------- | -------------------------------- |--------------------------------|
+| Normal boot(boot moment)                                                               | 700mA                            |5V                              |       
+| After boot(IDLE mode)                                                                  | 300mA                            |5V                              |  
+| After the boot, the normal communication status (network transmission function)        | 600mA or so, the peak reaches 2A |5V                              |  
+| Call and SMS(signal better)                                                            | 100-300mA                        |5V                              |  
+| Deep sleep mode, turn off all functions, require external wake-up (wake only by Reset) | 300uA                            |4.2V                            |  
+| MCU Deep Sleep mode, wake-up pin connected to module, wake-up via module               | over 300uA (requires testing)    |4.2V                            |  
 
 
 ## Application Ideas
