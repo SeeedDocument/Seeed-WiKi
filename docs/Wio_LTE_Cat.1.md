@@ -1054,6 +1054,134 @@ Data type in double: 113.966248,22.583820
 Data type in string: 113.966248,22.583819
 ```
 
+#### Play with GPS in NMEA mode
+
+- Step 1. Plug the Nano SIM card into Nano SIM slot, near PCB board side.
+- Step 2. Select File--> Examples-->Wio_LTE_Arduino_Library-->GNNS-->GNSS_NMEA sketch.
+- Step 3. Press and hold BOOT button at back side of the Wio LTE and plug the USB to PC.
+- Step 4. We will see **STM BOOLARDER** in device manager.
+- Step 5. Select Tools-->Boards-->Wio_Tracker_LTE.
+- Step 6. Keep COM Port blank.
+- Step 7. Select Sketch-->Upload to upload the code to Wio_LTE.
+- Step 8. Press **RST** button to enable the COM port.
+
+```C
+#include "gnss.h"
+
+
+char nmea_sentence[192];
+char nmea_GSV_sentence[512];
+GNSS gnss = GNSS();
+
+void setup() {
+  gnss.Power_On();
+  while(false == gnss.Check_If_Power_On()){
+    SerialUSB.println("Waitting for module to alvie...");
+    delay(1000);
+  } 
+  SerialUSB.println("\n\rPower On!");
+
+  if(!(gnss.open_GNSS())){
+    SerialUSB.println("\n\rGNSS init failed!");
+    return;
+  }
+  SerialUSB.println("Open GNSS OK.");
+  gnss.enable_NMEA_mode();  // Set output sentence in NMEA mode
+}
+
+void loop() {  
+  clean_buffer(nmea_sentence, 192);
+  gnss.read_NMEA(GGA, nmea_sentence);
+  SerialUSB.print(nmea_sentence);
+
+  clean_buffer(nmea_sentence, 192);
+  gnss.read_NMEA(RMC, nmea_sentence);
+  SerialUSB.print(nmea_sentence);
+
+  clean_buffer(nmea_sentence, 192);
+  gnss.read_NMEA(GSA, nmea_sentence);
+  SerialUSB.print(nmea_sentence);
+
+  clean_buffer(nmea_sentence, 192);
+  gnss.read_NMEA(VTG, nmea_sentence);
+  SerialUSB.print(nmea_sentence);
+
+  clean_buffer(nmea_GSV_sentence, 512);
+  gnss.read_NMEA_GSV(nmea_sentence);
+  SerialUSB.print(nmea_sentence);
+  
+  SerialUSB.println("\r\n");
+
+  delay(1000);
+}
+
+```
+- Step 9.Use COM monitor tools to print the serial message. **Please do not use Arduino IDE COM monitor! That may cause the next time downloading fail, bute reopen Arduino IDE can recover that issue**.
+- Step 10. We will see below logs.
+
+```C
+Waitting for module to alvie...
+Waitting for module to alvie...
+Waitting for module to alvie...
+Waitting for module to alvie...
+
+
+
+Power On!
+
+
+Open GNSS OK.
+
+$GPRMC,,V,,,,,,,,,,N*53
+$GPGSA,A,1,,,,,,,,,,,,,,,*1E
+$GPVTG,,T,,M,,N,,K,N*2C
+$GPGSV,3,1,12,16,60,324,40,27,54,171,40,03,19,253,,08,21,198,*7B
+$GPGSV,3,2,12,09,02,322,,14,32,147,,21,04,080,,22,17,233,*7E
+$GPGSV,3,3,12,23,32,314,,26,45,018,,31,35,073,,32,10,149,*7C
+
+
+$GPGGA,,,,,,0,,,,,,,,*66
+$GPRMC,,V,,,,,,,,,,N*53
+$GPGSA,A,1,,,,,,,,,,,,,,,*1E
+$GPVTG,,T,,M,,N,,K,N*2C
+$GPGSV,3,1,12,03,19,253,38,08,21,198,34,14,32,147,37,16,60,324,42*70
+$GPGSV,3,2,12,22,17,233,37,23,32,314,38,26,45,018,40,27,54,171,44*7D
+$GPGSV,3,3,12,31,35,073,40,09,02,322,,21,04,080,,32,10,149,*75
+
+
+$GPGGA,,,,,,0,,,,,,,,*66
+$GPRMC,,V,,,,,,,,,,N*53
+$GPGSA,A,1,,,,,,,,,,,,,,,*1E
+$GPVTG,,T,,M,,N,,K,N*2C
+$GPGSV,4,1,13,03,19,253,40,04,,,37,08,21,198,36,09,02,322,33*43
+$GPGSV,4,2,13,14,32,147,37,16,60,324,41,22,17,233,40,23,32,314,39*72
+$GPGSV,4,3,13,26,45,018,41,27,54,171,41,31,35,073,40,21,04,080,*78
+$GPGSV,4,4,13,32,10,149,*47
+
+
+$GPGGA,,,,,,0,,,,,,,,*66
+$GPRMC,,V,,,,,,,,,,N*53
+$GPGSA,A,1,,,,,,,,,,,,,,,*1E
+$GPVTG,,T,,M,,N,,K,N*2C
+$GPGSV,4,1,14,03,19,253,39,04,,,37,08,21,198,36,09,02,322,34*4D
+$GPGSV,4,2,14,14,32,147,36,16,60,324,41,22,17,233,37,23,32,314,39*74
+$GPGSV,4,3,14,26,45,018,41,27,54,171,41,31,35,073,41,21,04,080,*7E
+$GPGSV,4,4,14,32,10,149,,33,,,34*47
+$GPVTG,,T,,M,,N,,K,N*2C
+
+
+$GPGGA,110917.30,2235.028403,N,11357.974736,E,1,10,0.9,52.2,M,-1.0,M,,*43
+$GPRMC,110917.30,A,2235.028403,N,11357.974736,E,0.0,,050118,2.3,W,A*0B
+$GPGSA,A,3,03,08,09,14,16,22,23,26,27,31,,,1.8,0.9,1.6*37
+$GPVTG,,T,2.3,M,0.0,N,0.0,K,A*0C
+$GPGSV,4,1,15,03,19,253,38,04,,,36,08,21,198,34,09,02,322,33*49
+$GPGSV,4,2,15,14,32,147,36,16,60,324,40,22,17,233,36,23,32,314,38*74
+$GPGSV,4,3,15,26,45,018,40,27,54,171,40,31,35,073,40,21,04,080,*7E
+$GPGSV,4,4,15,32,10,149,,33,,,34,46,,,34*43
+$GPVTG,,T,2.3,M,0.0,N,0.0,K,A*0C
+
+```
+
 #### Play with Call out
 
 - Step 1. Plug the Nano SIM card into Nano SIM slot, near PCB board side.
