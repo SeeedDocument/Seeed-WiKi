@@ -78,12 +78,20 @@ Thermocouples are very sensitive devices. It requires a good amplifier with cold
     <td class="tg-vn4c">  0 ~ 3.3 V</td>
   </tr>
   <tr>
+    <td class="tg-vn4c">  Thermocouple material </td>
+    <td class="tg-vn4c">  Glass Fiber</td>
+  </tr>
+  <tr>
     <td class="tg-yw4l">  Cold junction compensation</td>
-    <td class="tg-yw4l">  environment temperature measurement</td>
+    <td class="tg-yw4l">  Environment temperature measurement</td>
   </tr>
   <tr>
     <td class="tg-6k2t">   Thermocouple temperature measurement accuracy</td>
     <td class="tg-6k2t">   +/-2.0% (+ 2 ℃) </td>
+  </tr>
+  <tr>
+    <td class="tg-6k2t">   Thermocouple temperature sensor cable length</td>
+    <td class="tg-6k2t">   100cm </td>
   </tr>
   <tr>
     <td class="tg-yw4l">  Dimension</td>
