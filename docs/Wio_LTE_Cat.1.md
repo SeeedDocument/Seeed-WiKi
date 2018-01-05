@@ -102,7 +102,7 @@ The Wio LTE is well suited for outdoor projects where the device can connect to 
 |                 |                        | Nano SIM and TF card 2 in 1 socket                                              |
 | Size            | Length                 | 54.7mm                                                                          |
 |                 | Width                  | 48.2mm                                                                          |
-|                 | Weight                 |                                                                                 |  |
+| Weight                  |                 | 18g                                                                                |  |
 
 
 ## Power Consumption
@@ -131,10 +131,7 @@ The Wio LTE is well suited for outdoor projects where the device can connect to 
 
 
 !!!Tip
-    Use Grove modules to expand your application
-
-There are 6 Grove connects on board. If this is your first time to hear about Grove, please put had on [Grove System](http://wiki.seeed.cc/Grove_System/) for more details.
-In brief, Groves is hundreds of sensor that in standard style, which is consist of sensors, actuators, displays as well as communication.
+    Use Grove modules to expand your application. There are 6 Grove connects on board. If this is your first time to hear about Grove, please put had on [Grove System](http://wiki.seeed.cc/Grove_System/) for more details. In brief, Groves is hundreds of sensor that in standard style, which is consist of sensors, actuators, displays as well as communication.
 
 ## Hardware Overview
 
@@ -143,9 +140,9 @@ In brief, Groves is hundreds of sensor that in standard style, which is consist 
 ![](https://github.com/SeeedDocument/Wio_Tracker_LTE/raw/master/img/wio_tracker_lte_v1_buttom.png)
 
 !!!Tip
-    If you want to use the on-board Grove connector, please use digitalWrite(12, HIGH) to open 3V3_B. except D38 power on by default. Otherwise you can't provide power to Grove modules.
+    If you want to use the on-board Grove connector, please use digitalWrite(B10, HIGH) to open 3V3_B. except D38 power on by default. Otherwise you can't provide power to Grove modules.
 
-## EC21 Module
+### EC21 Module
 
 EC21 contains 10 variants: EC21-E, EC21-A, EC21-V, EC21-AUT, EC21-AUTL, EC21-AUV, EC21-J, EC21-KL, EC21-AU and EC21-CT. This makes it backward-compatible with existing EDGE and GSM/GPRS networks, ensuring that it can easily migrate from LTE to 2G or 3G networks.
 
@@ -191,27 +188,29 @@ And **EC21-A** is what we are using in WIO Tracker - LTE, which supports AT&T an
 
 - **Windows Users**: Most versions of Windows won't automatically load the built-in driver for USB com ports. You'll have to download ST's USB driver:
 
-   - Non-Windows XP [Users download version 1.4.0 drivers](http://www.espruino.com/files/stm32_vcp_1.4.0.zip). Unzip the file, run the executable, and then go to C:\Program Files (x86)\STMicroelectronics\Software\Virtual comport driver in Windows Explorer and double-click either dpinst_amd64.exe for 64 bit systems, or dpinst_x86.exe for 32 bit.
+    - Non-Windows XP [Users download version 1.4.0 drivers](http://www.espruino.com/files/stm32_vcp_1.4.0.zip). Unzip the file, run the executable, and then go to C:\Program Files (x86)\STMicroelectronics\Software\Virtual comport driver in Windows Explorer and double-click either dpinst_amd64.exe for 64 bit systems, or dpinst_x86.exe for 32 bit.
 
-   - Windows XP [Users download version 1.3.1 drivers](http://www.espruino.com/files/stm32_vcp_1.3.1.zip). Unzip the file, run VCP_V1.3.1_Setup.exe, and then go to C:\Program Files\STMicroelectronics\Software\Virtual comport driver in Windows Explorer and double-click the executable.
+    - Windows XP [Users download version 1.3.1 drivers](http://www.espruino.com/files/stm32_vcp_1.3.1.zip). Unzip the file, run VCP_V1.3.1_Setup.exe, and then go to C:\Program Files\STMicroelectronics\Software\Virtual comport driver in Windows Explorer and double-click the executable.
 
 - **Linux users** to ensure that you have the correct permissions to connect as a normal user you'll need to copy the file [45-espruino.rules](https://github.com/espruino/Espruino/blob/master/misc/45-espruino.rules) to /etc/udev/rules.d, reload rules with udevadm control --reload-rules, and ensure your user is in the plugdev group (you can check by typing groups). You add it by typing sudo adduser $USER plugdev and then logging out and back in. Arch Linux users need to add their user to uucp and lock groups instead.
 
 - **Mac OS X and Chromebook Users**: The board will just plug in and work, without drivers!
 
-### Update Firmware
-
-- Step 1: Download WioLTE firmware [**v1.93**](https://raw.githubusercontent.com/SeeedDocument/Wio_LTE/master/firmware/espruino_1v93.3171_Wio_LTE.bin) or look for **espruino_xxx_Wio_LTE.bin** [**here**](http://www.espruino.com/binaries/) (**v1.94** didn't support SD card, please download **v1.93**).
-- Step 2: Install [dfu-util](http://dfu-util.sourceforge.net/), add **dfu-util** to **PATH** or **Environment Variables**, so that we can use it directlly in **command line**.
-- Step 3: Press and hold **BOOT0** button before connect to computer, release after connect.
-- Step 4: The Wio LTE board will access **DFU mode**.
-- Step 5: In **command line windows** type **dfu-util -d 0483:df11 -c 1 -i 0 -a 0 -s 0x08000000 -D xxx.bin**.
-
-![dfu-flash](https://github.com/SeeedDocument/Wio_LTE/blob/master/img/wio_tracker_lte_v1_dfu-flash.png?raw=true)
-
 ### Change DFU driver
 
 **For windows users**: Press and hold BOOT button and connect to computer you will see **STM32 Device in DFU Mode** at device manager, this says that you need to use [zadig_xx.exe](https://github.com/SeeedDocument/Wio_LTE/raw/master/res/zadig_2.1.2.exe) to change DFU driver from **STTub30** to **WinUSB** as bellow.
+
+### Update Firmware
+
+- Step 1: Download WioLTE firmware [**v1.93**](https://raw.githubusercontent.com/SeeedDocument/Wio_LTE/master/firmware/espruino_1v93.3171_Wio_LTE.bin) or look for **espruino_xxx_Wio_LTE.bin** [**here**](http://www.espruino.com/binaries/) (**v1.94** didn't support SD card, please download **v1.93**).
+- Step 2: Install [dfu-util](http://dfu-util.sourceforge.net/releases/), add **dfu-util** to **PATH** or **Environment Variables**, so that we can use it directlly in **command line**.
+- Step 3: Press and hold **BOOT0** button before connect to computer, release after connect.
+- Step 4: The Wio LTE board will access **DFU mode**.
+- Step 5: In **command line windows** type **dfu-util -d 0483:df11 -c 1 -i 0 -a 0 -s 0x08000000 -D xxx.bin**. For windows, Please enter the full path of the bin file.
+
+![dfu-flash](https://github.com/SeeedDocument/Wio_LTE/blob/master/img/wio_tracker_lte_v1_dfu-flash.png?raw=true)
+
+
 
 ![](https://github.com/SeeedDocument/Wio_LTE/raw/master/img/zadig.png)
 
@@ -237,7 +236,7 @@ Thanks to G.Williams for providing Espruino the Javascript interpreter, so that 
 
 ![](https://github.com/SeeedDocument/Wio_LTE/blob/master/img/wio_tracker_lte_v1_connectWebIDE.png?raw=true)
 
-- Step 3: To learn more about the IDE you can follow this tour.
+- Step 3: To learn more about the IDE, please click help and then tour as below.
 
 ![](https://github.com/SeeedDocument/Wio_LTE/blob/master/img/wio_tracker_lte_v1_WebIDEGuide.png?raw=true)
 
@@ -254,11 +253,11 @@ If you're using the Espruino Web IDE, simply write require("modulename") on the 
 
 ##### Load Module - the default mechanism
 
-If you are using the Web IDE as is, the modules will be loaded from http://www.espruino.com/modules/. This URL can be changed in Web IDE settings.
+If you are using the Web IDE as is, the modules will be loaded from [http://www.espruino.com/modules/](http://www.espruino.com/modules/). This URL can be changed in Web IDE settings.
 
 To save space, most modules are provided as a minified version and the Web IDE tries to load minified versions first with default configuration.
 
-For example, using ```require("ADNS5050")```; will make the Web IDE loading the minified module from http://www.espruino.com/modules/ADNS5050.min.js.
+For example, using require("ADNS5050"); will make the Web IDE loading the minified module from [http://www.espruino.com/modules/ADNS5050.min.js](http://www.espruino.com/modules/ADNS5050.min.js).
 
 ##### Load Module from Github
 
@@ -280,11 +279,11 @@ If you activate this option in Web IDE, you can load modules from the NPM reposi
 - only works if the module contains a single file.
 - can cause some confusion with Espruino's modules, for instance clock.
 
-For example using **require("async")**; will make the Web IDE loading the tar.gz file (with automatic extraction) of the module from http://registry.npmjs.org/async.
+For example using require("async"); will make the Web IDE loading the tar.gz file (with automatic extraction) of the module from [http://registry.npmjs.org/async](http://registry.npmjs.org/async).
 
 ##### Load Module from local folder
 
-If you are using a local project folder, the Web IDE will automatically create an empty modules folder inside. Put a module there and you can load it with **require("myCustomModule");**.
+If you are using a local project folder, the Web IDE will automatically create an empty modules folder inside. Put a module there and you can load it with require("myCustomModule");.
 
 ![](https://github.com/SeeedDocument/Wio_LTE/blob/master/img/wio_tracker_lte_v1_projectFiles.png?raw=true)
 
@@ -297,11 +296,11 @@ With default Web IDE configuration, it will look for modules following this orde
 
 If your own module has the same name as one of the existing ones, the Web IDE will use the minified version from online first.
 
-If you need it anyway, you can provide a local minified version or you can change the Web IDE configuration from **.min.js|.js to .js|.min.js** or even **myCustomModule.js|.min.js|.js** to get it working.
+If you need it anyway, you can provide a local minified version or you can change the Web IDE configuration from .min.js|.js to .js|.min.js or even myCustomModule.js|.min.js|.js to get it working.
 
 ##### Stand-alone Espruino
 
-If you have an Espruino with an SD card (but you're not using the Web IDE), you can copy the modules you need into a directory called 'node_modules' on the SD card. Now, whenever you write **require("modulename")** the module will be used.
+If you have an Espruino with an SD card (but you're not using the Web IDE), you can copy the modules you need into a directory called 'node_modules' on the SD card. Now, whenever you write require("modulename") the module will be used.
 
 ##### Internet-enabled Espruino
 
@@ -445,9 +444,9 @@ setInterval(function(){
 
 #### Play with Onboard LTE and GPS
 
-When **require** modules the Espruino Web IDE will automaticlly search modules at the [modules repository](http://www.espruino.com/modules/).
-To use LTE and GPS functionalities, you need to **require** the **wiolte** module
-with **require('wiolte')**.
+When require modules the Espruino Web IDE will automaticlly search modules at the [modules repository](http://www.espruino.com/modules/).
+To use LTE and GPS functionalities, you need to require the wiolte module
+with require('wiolte').
 
 ##### Play with Send and Receive SMS
 
@@ -492,7 +491,7 @@ function doConnect() {
 
 function onConnected(){
   // Send the SMS message, please change the phone number
-  board.SMS.send("18583826402", "What is the story?",function(err) {
+  board.SMS.send("185XXX26402", "What is the story?",function(err) {
     console.log(err);
   });
 
@@ -553,7 +552,7 @@ function doConnect() {
 
 //please change the phone number
 function onConnected(){
-  board.Call.call("18583826402");
+  board.Call.call("185XXX26402");
 }
 
 wiolteStart();
@@ -789,25 +788,25 @@ Hello World!
 
 For more info, please refer to [Wio_LTE_Module](http://www.espruino.com/modules/wiolte.js)
 
-- `debug(boolean, boolean)` - choose debug level
-- `reset(callback)` - Reset LTE
--  `init(callback)` - Initialise LTE
--  `getVersion(callback)` - returns LTE firmware version
--  `connect(apn, username, password, callback)` - Connect to mobile network
--  `getVersion(callback)` - returns current version
--  `getIP(callback)` - Get current IP address
--  `geoLocStart(period_in_milliseconds)` - Start getting geolocation data
--  `geoLocStop()` - Stop getting geolocation data
--  `geoLocGet(callback)` - Get last location
--  `geoLocConvert(callback(err,latlong))` - Get last location as latitude/longitude
--  `board.SMS` - SMS functionality with `init/read/send/list/delete` functions based on the [[ATSMS]] module
--  `board.Call`, with:
-  - `call(number, callback)`
-  -  `answer(callback)`
-  -  `hangup(callback)`
-  -  `handleRing(boolean)` - if trie, will call any function added with `board.on('RING', ...)`
--  `sleep(callback)` -  LTE modem get into sleep mode, it can save about 100mA
--  `wake(callback)` -  LTE modem wake up from sleep mode
+- debug(boolean, boolean) - choose debug level
+- reset(callback) - Reset LTE
+- init(callback) - Initialise LTE
+- getVersion(callback) - returns LTE firmware version
+- connect(apn, username, password, callback) - Connect to mobile network
+- getVersion(callback) - returns current version
+- getIP(callback) - Get current IP address
+- geoLocStart(period_in_milliseconds) - Start getting geolocation data
+- geoLocStop() - Stop getting geolocation data
+- geoLocGet(callback) - Get last location
+- geoLocConvert(callback(err,latlong)) - Get last location as latitude/longitude
+- board.SMS - SMS functionality with init/read/send/list/delete functions based on the [[ATSMS]] module
+- board.Call, with:
+  - call(number, callback)
+  - answer(callback)
+  - hangup(callback)
+  - handleRing(boolean) - if trie, will call any function added with board.on('RING', ...)
+- sleep(callback) -  LTE modem get into sleep mode, it can save about 100mA
+- wake(callback) -  LTE modem wake up from sleep mode
 
 
 
@@ -851,7 +850,7 @@ void setup() {
   }
 
   // Change xxxxxxxxxxx to your test phone number
-  if(wio.sendSMS("13750024343", message))
+  if(wio.sendSMS("185XXX26402", message))
   {
     SerialUSB.println("Send OK!");
   }
@@ -1093,7 +1092,7 @@ void setup() {
   }
 
   // Make a phone call
-  wio.callUp("xxxxxxxx");
+  wio.callUp("185XXX26402");
   SerialUSB.println("Calling...");
 
 }
