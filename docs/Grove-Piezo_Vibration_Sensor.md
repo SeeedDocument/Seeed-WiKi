@@ -66,6 +66,7 @@ The Grove - Piezo Vibration Sensor outputs a logic HIGH when vibration was detec
 - Step 2. Connect the module to the **D2** of base shield using the 4-pin grove cable, we use **digital pin13 on board LED** as output.
 - Step 3. Plug the Basic Shield into Arduino.
 - Step 4. Connect Arduino to PC by using a USB cable.
+
 ![](https://github.com/SeeedDocument/Grove-Piezo_Vibration_Sensor/raw/master/img/piezo%20vibration%20connection.jpg)
 
 !!!note
