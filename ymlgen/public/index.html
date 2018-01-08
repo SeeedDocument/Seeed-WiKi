@@ -19,6 +19,7 @@ Here is the list of the Seeeduino Boards you can find in the Seeed WiKi. The lis
 - [Bluetooth Bee-Standalone](/Bluetooth_Bee_Standalone/)
 - [ESP32 Breakout Kit](/ESP32_Breakout_Kit/)
 - [Grove - Mega Shield](/Grove-Mega_Shield/)
+- [LoRa/LoRaWAN Gateway Kit](/LoRa_LoRaWan_Gateway_Kit/)
 - [Mesh Bee](/Mesh_Bee/)
 - [Qi Wireless Charger Transmitter](/Qi_Wireless_Charger_Transmitter/)
 - [RFbee V1.1 - Wireless Arduino compatible node](/RFbee_V1.1-Wireless_Arduino_compatible_node/)

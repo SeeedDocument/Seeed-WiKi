@@ -36,15 +36,6 @@ surveyurl: https://www.research.net/r/How_to_Choose_A_Gas_Sensor If you search �
     
     <item>
       <title></title>
-      <link>http://wiki.seeed.cc/lora_lorawan_gateway_kit/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://wiki.seeed.cc/lora_lorawan_gateway_kit/</guid>
-      <description>LoRaWAN Gateway Kit LoRa is a perfect long-range wireless solution to create low-power, wide area networks.So far we have released several “LoRa” boards such as Seeeduino LoRaWan and Grove LoRa Radio etc. However if you want to build you own LoRa network, there are 3 things that you should prepare to get started: a Gateway, at least one Node and a local server where you can monitor all your devices.</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>http://wiki.seeed.cc/project_three-analog_input/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -3924,6 +3915,16 @@ The GPS receiver is incredibly sensitive with 22 tracking and 66 acquisition cha
     </item>
     
     <item>
+      <title>LoRa/LoRaWAN Gateway Kit</title>
+      <link>http://wiki.seeed.cc/lora_lorawan_gateway_kit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/lora_lorawan_gateway_kit/</guid>
+      <description>LoRa is a perfect long-range wireless solution to create low-power, wide area networks.So far we have released several “LoRa” boards such as Seeeduino LoRaWan and Grove LoRa Radio etc. However if you want to build you own LoRa network, there are 3 things that you should prepare to get started: a Gateway, at least one Node and a local server where you can monitor all your devices.
+This kit provides all the basic elements you need: a Raspberry Pi 3, a Seeeduino LoRaWAN with GPS and a gateway &amp;amp; local server that allows you to collect and transfer data among all your LoRa nodes.</description>
+    </item>
+    
+    <item>
       <title>Logic_DC_Jack‏‎</title>
       <link>http://wiki.seeed.cc/logic_dc_jack/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5871,7 +5872,7 @@ Features  Interface to connect the transceiver 315/433/868/915 MHz (depending on
       <guid>http://wiki.seeed.cc/wireless/</guid>
       <description>This section includes Wireless boards that created by Seeed.
 Product List Here is the list of the Seeeduino Boards you can find in the Seeed WiKi. The list will constantly updated.
- BLE (dual) Bee v1.0 BLE Carbon BLE Micro BLE Nitrogen Bluetooth Bee v2.0 Bluetooth Bee-Standalone ESP32 Breakout Kit Grove - Mega Shield LoRa/LoRaWAN Gateway Kit Mesh Bee Qi Wireless Charger Transmitter RFbee V1.1 - Wireless Arduino compatible node Wifi Bee v2.</description>
+ BLE (dual) Bee v1.0 BLE Carbon BLE Micro BLE Nitrogen Bluetooth Bee v2.0 Bluetooth Bee-Standalone ESP32 Breakout Kit Grove - Mega Shield Mesh Bee Qi Wireless Charger Transmitter RFbee V1.1 - Wireless Arduino compatible node Wifi Bee v2.</description>
     </item>
     
     <item>
