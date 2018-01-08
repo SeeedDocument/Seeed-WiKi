@@ -1,10 +1,4 @@
----
-title: LoRa/LoRaWAN Gateway Kit
-category: Wireless
-bzurl:  https://www.seeedstudio.com/LoRa-LoRaWAN-Gateway-868MHz-Kit-with-Raspberry-Pi-3-p-2823.html
-prodimagename:
-surveyurl: https://www.research.net/r/LoRa_LoRaWAN_Gateway-868MHz_Kit_with_Raspberry_Pi_3
-sku: 110060622
+# LoRaWAN Gateway Kit
 ---
 ![](https://github.com/SeeedDocument/LoRaWAN_Gateway-868MHz_Kit_with_Raspberry_Pi_3/raw/master/img/LoraWan%20Getway%20868MHz.jpg)
 
@@ -22,9 +16,26 @@ Regarding the gateway module RHF0M301, it is a 10 channel(8 x Multi-SF + 1 x Sta
 </div>
 
 
-|868MHz Kit with Raspberry Pi 3|[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/LoRa-LoRaWAN-Gateway-868MHz-Kit-with-Raspberry-Pi-3-p-2823.html)|
-|---|---|
-|**915MHz Kit for Raspberry Pi 3**|[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/LoRa%2FLoRaWAN-Gateway-915MHz-for-Raspberry-Pi-3-p-2821.html)|
+
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#999;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#F7FDFA;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;}
+.tg .tg-s6z2{text-align:center}
+.tg .tg-5hgy{background-color:#D2E4FC;text-align:center}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-s6z2">868MHz Kit for Raspberry Pi 3</th>
+    <th class="tg-s6z2"><a href="https://www.seeedstudio.com/LoRa-LoRaWAN-Gateway-868MHz-Kit-with-Raspberry-Pi-3-p-2823.html" target="_blank"><img src="https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png" width="200" height="30"  border=0 /></a></th>
+  </tr>
+  <tr>
+    <td class="tg-5hgy">915MHz Kit for Raspberry Pi 3</td>
+    <td class="tg-5hgy"><a href="https://www.seeedstudio.com/LoRa%2FLoRaWAN-Gateway-915MHz-for-Raspberry-Pi-3-p-2821.html" target="_blank"><img src="https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png" width="200" height="30" border=0 /></a></td>
+  </tr>
+</table>
+
 
 ## Features
 - Low power consumption & wide area
@@ -106,12 +117,12 @@ Regarding the gateway module RHF0M301, it is a 10 channel(8 x Multi-SF + 1 x Sta
     <td class="tg-yw4l">1 PCS</td>
   </tr>
   <tr>
-    <td class="tg-6k2t"><font face="" size=4 font color="00b0f0">⓫</font></td>
+    <td class="tg-6k2t"><font face="" size=5 font color="00b0f0">⓫</font></td>
     <td class="tg-6k2t">RJ45 Ethernet Cable 200cm</td>
     <td class="tg-6k2t">1 PCS</td>
   </tr>
   <tr>
-    <td class="tg-yw4l"><font face="" size=4 font color="00b0f0">⓬</font></td>
+    <td class="tg-yw4l"><font face="" size=5 font color="00b0f0">⓬</font></td>
     <td class="tg-yw4l">JST2.0 Cable 10cm</td>
     <td class="tg-yw4l">1 PCS</td>
   </tr>
@@ -135,31 +146,31 @@ Regarding the gateway module RHF0M301, it is a 10 channel(8 x Multi-SF + 1 x Sta
 Since there are many interfaces here, it is necessary to know the capabilities of these interfaces. Please refer to the following figure for details.
 ![](https://github.com/SeeedDocument/LoRaWAN_Gateway-868MHz_Kit_with_Raspberry_Pi_3/raw/master/img/Lora_interface.jpg)
 
-- <font face="" size=4 font color="ffc000">❶</font> **Micro-USB Input:**
+- <font face="" size=5 font color="ffc000">❶</font> **Micro-USB Input:**
 The whole system use this Micro-USB interface for power supply.
 
-- <font face="" size=4 font color="ffc000">❷</font> **USB HOST Connector:**
+- <font face="" size=5 font color="ffc000">❷</font> **USB HOST Connector:**
  Output power to supply for Raspberry Pi
 
-- <font face="" size=4 font color="ffc000">❸</font> **Raspberry Pi power input:** Input power for Raspberry.
+- <font face="" size=5 font color="ffc000">❸</font> **Raspberry Pi power input:** Input power for Raspberry.
 
-- <font face="" size=4 font color="ffc000">❹</font> **HDMI:** HD digital video output interface.
+- <font face="" size=5 font color="ffc000">❹</font> **HDMI:** HD digital video output interface.
 
-- <font face="" size=4 font color="ffc000">❺</font> **Headphone jack:** 3.5mm Headphone jack
+- <font face="" size=5 font color="ffc000">❺</font> **Headphone jack:** 3.5mm Headphone jack
 
-- <font face="" size=4 font color="ffc000">❻</font> **Ethernet interface:** You can use the Ethernet interface to connect this system to the Internet. Or you can use Wifi after you configured the wireless network.
+- <font face="" size=5 font color="ffc000">❻</font> **Ethernet interface:** You can use the Ethernet interface to connect this system to the Internet. Or you can use Wifi after you configured the wireless network.
 
 ### Hardware connection
 
 - Step 1. Plug **Gateway module RHF0M301–868** into **PRI 2 Bridge RHF4T002**.
 - Step 2. Plug **PRI 2 Bridge RHF4T002** into **Raspberry Pi 3**.
-- Step 3. Connect <font face="" size=4 font color="ffc000">❷</font> and <font face="" size=4 font color="ffc000">❸</font> via the 20cm Micro-USB cable.
+- Step 3. Connect <font face="" size=5 font color="ffc000">❷</font> and <font face="" size=5 font color="ffc000">❸</font> via the 20cm Micro-USB cable.
 - Step 4. Connect the **USB to UART Adapter** to the GPIO of **Raspberry Pi 3**. Please connect them as the picture shown below.
 
 ![](https://github.com/SeeedDocument/LoRaWAN_Gateway-868MHz_Kit_with_Raspberry_Pi_3/raw/master/img/RX-TX.png)
 
 - Step 5. Plug the **USB to UART Adapter** into your PC.
-- Step 6. Connect <font face="" size=4 font color="ffc000">❶</font> with 5V/2.1A Standard Adapter via 100cm Micro-USB cable.
+- Step 6. Connect <font face="" size=5 font color="ffc000">❶</font> with 5V/2.1A Standard Adapter via 100cm Micro-USB cable.
 
 When you finished all the steps, the whole system should be like the picture below.
 
@@ -409,6 +420,7 @@ Frequency Plan for US915 HYBRID
      }
  }
 ```
+
  - Then choose the right serial port of Seeeduino Lora GPS, and choose the board **Tool->Board->Seeeduino_LoRAWAN**. After that you can click the upload button.If you can not find Seeeduino_LoRAWAN in the board list or do not know how to update the code,please click [here](http://wiki.seeed.cc/Seeeduino_LoRAWAN/#install-the-driver-for-windows) for more information.
 
 ![](https://github.com/SeeedDocument/LoRaWAN_Gateway-868MHz_Kit_with_Raspberry_Pi_3/raw/master/img/port_lora.png)
@@ -589,13 +601,18 @@ Then go to **Dashboard -> Applications -> SampleApp ->Device** , click the Node 
 
 ![](https://github.com/SeeedDocument/LoRaWAN_Gateway-868MHz_Kit_with_Raspberry_Pi_3/raw/master/img/final.png).
 
-## FAQ
-Please click [here](http://support.seeedstudio.com/knowledgebase/articles/1831525-lorawan-gateway-kit-sku-110060622-110060623) to see all LoraWan GateWay Kit FAQs.
 
-## Tech Support
-Please do not hesitate to contact **techsupport@seeed.cc** if you require further information.
+## FAQs
+Please click [here](http://support.seeedstudio.com/knowledgebase/articles/1822222-grove-ultrasonic-ranger-sku-101020010) to see all LoRa/LoRaWAN Gateway Kit FAQs.
+
+## Tech support
+
+Please do not hesitate to contact [techsupport@seeed.cc](techsupport@seeed.cc) if you require further information.
+
 
 ## Resources
+
 - **[PDF]** [Download Wiki PDF](https://github.com/SeeedDocument/LoRaWAN_Gateway-868MHz_Kit_with_Raspberry_Pi_3/raw/master/res/LoRa_LoRaWan_Gateway_Kit.pdf)
 - **[Uer Manual]** [User Manual](https://github.com/SeeedDocument/LoRaWAN_Gateway-868MHz_Kit_with_Raspberry_Pi_3/raw/master/res/%5BRHF-UM01649%5DIoT%20Discovery%20User%20Manual-seeed-v2.1.pdf).
-- **[MoreReading]** [RisingHF Website](http://www.risinghf.com/product/risinghf-iot-dicovery/?lang=en)
+- **[More Reading]** [Wiki of Seeeduino LoRaWAN](/Seeeduino_LoRAWAN/)
+- **[More Reading]** [RisingHF Website](http://www.risinghf.com/product/risinghf-iot-dicovery/?lang=en)

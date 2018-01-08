@@ -211,7 +211,6 @@ pages:
         - Bluetooth Bee-Standalone: Bluetooth_Bee_Standalone.md
         - ESP32 Breakout Kit: ESP32_Breakout_Kit.md
         - Grove - Mega Shield: Grove-Mega_Shield.md
-        - LoRa/LoRaWAN Gateway Kit: LoRa_LoRaWan_Gateway_Kit.md
         - Mesh Bee: Mesh_Bee.md
         - Qi Wireless Charger Transmitter: Qi_Wireless_Charger_Transmitter.md
         - RFbee V1.1 - Wireless Arduino compatible node: RFbee_V1.1-Wireless_Arduino_compatible_node.md
