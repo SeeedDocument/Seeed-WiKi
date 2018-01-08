@@ -144,42 +144,168 @@ The Wio LTE is well suited for outdoor projects where the device can connect to 
 
 ### EC21 Module
 
-EC21 contains 10 variants: EC21-E, EC21-A, EC21-V, EC21-AUT, EC21-AUTL, EC21-AUV, EC21-J, EC21-KL, EC21-AU and EC21-CT. This makes it backward-compatible with existing EDGE and GSM/GPRS networks, ensuring that it can easily migrate from LTE to 2G or 3G networks.
+EC21 contains 9 variants: EC21-E, EC21-A, EC21-V, EC21-AUT, EC21-AUV, EC21-AU, EC21-KL, EC21-J and EC21-CEL. This makes it backward-compatible with existing EDGE and GSM/GPRS networks, ensuring that it can easily migrate from LTE to 2G or 3G networks.
 
 And **EC21-A** is what we are using in WIO Tracker - LTE, which supports AT&T and T-mobile sim card. If you want to customize EC21 Module for other region, feel free to email us: fae@seeed.cc
 
-| Frequency       | EC21-E                       | EC21-A                         | EC21-V             | EC21-AUT            |
-| --------------- | ---------------------------- | ------------------------------ | ------------------ | ------------------- |
-| FDD-LTE(4G)     | B1/ B3/ B5/ B7/ B8/ B20      | B2/ B4/ B12                    | B4/ B8             | B1/ B3/ B5/ B7/ B28 |
-| TDD-LTE(4G)     |                              |
-| WCDMA(3G)       | B1/ B5/ B8                   | B2/ B4/ B5                     |                    | B1/ B5              |
-| GSM/EDGE(2G)    | B3/ B8                       |                                |                    |                     |
-| Embedded GNSS   | Optional                     | Optional                       | Optional           | Optional            |
-| Wi-Fi Interface | Y                            | Y                              | Y                  | Y                   |
-| **Region**      | EMEA, Korea, Thailand, India | AT&T, T-mobile                 | Verizon            | Telstra             |
-| Certification   | CE/ GCF/ Vodafone*           | FCC/ PTCRB/ AT&T\*/ IC/ ROGERS | FCC/ GCF/ Verizon* | RCM/ Telstra        |
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-031e" colspan="2">Frequency</th>
+    <th class="tg-yw4l">EC21-E</th>
+    <th class="tg-yw4l">EC21-A</th>
+    <th class="tg-yw4l">EC21-V</th>
+    <th class="tg-yw4l">EC21-AUT</th>
+  </tr>
+  <tr>
+    <td class="tg-031e" rowspan="2">LTE</td>
+    <td class="tg-031e">FDD-LTE</td>
+    <td class="tg-yw4l">B1/ B3/ B5/ B7/ B8/ B20</td>
+    <td class="tg-yw4l">B2/ B4/ B12</td>
+    <td class="tg-yw4l">B4/ B13</td>
+    <td class="tg-yw4l">B1/ B3/ B5/ B7/ B28</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">TDD-LTE</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-031e">3G</td>
+    <td class="tg-031e">WCDMA</td>
+    <td class="tg-yw4l">B1/ B5/ B8</td>
+    <td class="tg-yw4l">B2/ B4/ B5</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l">B1/ B5</td>
+  </tr>
+  <tr>
+    <td class="tg-031e" colspan="2">GSM/EDGE</td>
+    <td class="tg-yw4l">B3/ B8</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-031e" colspan="2">Embedded GNSS</td>
+    <td class="tg-yw4l">Optional</td>
+    <td class="tg-yw4l">Optional</td>
+    <td class="tg-yw4l">Optional</td>
+    <td class="tg-yw4l">Optional</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" colspan="2">Wi-Fi Interface</td>
+    <td class="tg-yw4l">Y</td>
+    <td class="tg-yw4l">Y</td>
+    <td class="tg-yw4l">Y</td>
+    <td class="tg-yw4l">Y</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" colspan="2">Region</td>
+    <td class="tg-yw4l">EMEA, Korea, Thailand, India</td>
+    <td class="tg-yw4l">North America</td>
+    <td class="tg-yw4l">North America</td>
+    <td class="tg-yw4l">Australia</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" colspan="2">Certification</td>
+    <td class="tg-yw4l">CE/ GCF/ Vodafone</td>
+    <td class="tg-yw4l">FCC/ PTCRB/ AT&amp;T/ IC/ ROGERS</td>
+    <td class="tg-yw4l">FCC/ GCF/ Verizon</td>
+    <td class="tg-yw4l">RCM/ Telstra</td>
+  </tr>
+</table>
 
-| Frequency       | EC21-AUTL    | EC21-AUV            | EC21-AU                         | EC21-KL             |
-| --------------- | ------------ | ------------------- | ------------------------------- | ------------------- |
-| FDD-LTE(4G)     | B3/ B7/ B28  | B1/ B3/ B5/ B8/ B28 | B1/ B2/ B3/ B4/ B5/ B7/ B8/ B28 | B4/ B8              |
-| TDD-LTE(4G)     |              |                     | B40                             |                     |
-| WCDMA(3G)       |              | B1/ B5/ B8          | B1/ B2/ B5/ B8                  |
-| GSM/EDGE(2G)    |              |                     | B2/ B3/ B5/ B8                  |                     |
-| Embedded GNSS   | Optional     | Optional            | Optional                        | Optional            |
-| Wi-Fi Interface | Y            | Y                   | Y                               | Y                   |
-| **Region**      | Telstra      | Vodafone Australia  | South America, ANZ, Taiwan      | Korea               |
-| Certification   | RCM/ Telstra | RCM                 | RCM/ Anatel\*/ NCC\*            | KC/ SKT/KT\*/LGU+\* |
 
-| Frequency       | EC21-CT              | EC21-J                          |
-| --------------- | -------------------- | ------------------------------- |
-| FDD-LTE(4G)     | B1/ B3/ B5/ B7/ B28  | B3/ B7/ B28                     |
-| TDD-LTE(4G)     |                      |                                 |
-| WCDMA(3G)       | B1/ B5               |                                 |
-| GSM/EDGE(2G)    |                      |                                 |  |  |
-| Embedded GNSS   | Optional             | Optional                        | Optional | Optional |
-| Wi-Fi Interface | Y                    | Y                               | Y | Y |
-| **Region**      | China Telecom        | Japan                           |
-| Certification   | CCC\*/ SRRC\*/ CTA\* | JATE/ TELEC/ Softbank\*/ KDDI\* |
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-031e" colspan="2">Frequency</th>
+    <th class="tg-yw4l">EC21-AUV</th>
+    <th class="tg-yw4l">EC21-AU</th>
+    <th class="tg-yw4l">EC21-KL</th>
+    <th class="tg-yw4l">EC21-J</th>
+    <th class="tg-yw4l">EC20-CEL</th>
+  </tr>
+  <tr>
+    <td class="tg-031e" rowspan="2">LTE</td>
+    <td class="tg-031e">FDD-LTE</td>
+    <td class="tg-yw4l">B1/ B3/ B5/ B8/ B28</td>
+    <td class="tg-yw4l">B1/ B2①/ B3/ B4/ B5/ B7/ B8/ B28</td>
+    <td class="tg-yw4l">B1/ B3/ B5/ B7/ B8</td>
+    <td class="tg-yw4l">B1/ B3/ B8/ B18/ B19/ B26</td>
+    <td class="tg-yw4l">B1/ B3/ B5</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">TDD-LTE</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l">B40</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-031e">3G</td>
+    <td class="tg-031e">WCDMA</td>
+    <td class="tg-yw4l">B1/ B5/ B8</td>
+    <td class="tg-yw4l">B1/ B2/ B5/ B8</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-031e" colspan="2">GSM/EDGE</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l">Quad-band</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-031e" colspan="2">Embedded GNSS</td>
+    <td class="tg-yw4l">N<br>			</td>
+    <td class="tg-yw4l">Optional<br>			</td>
+    <td class="tg-yw4l">N<br>			</td>
+    <td class="tg-yw4l">N<br>			</td>
+    <td class="tg-yw4l">N</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" colspan="2">Wi-Fi Interface</td>
+    <td class="tg-yw4l">Y</td>
+    <td class="tg-yw4l">Y</td>
+    <td class="tg-yw4l">Y</td>
+    <td class="tg-yw4l">Y</td>
+    <td class="tg-yw4l">Y</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" colspan="2">Region</td>
+    <td class="tg-yw4l">Vodafone Australia</td>
+    <td class="tg-yw4l">South America, ANZ, Taiwan</td>
+    <td class="tg-yw4l">Korea</td>
+    <td class="tg-yw4l">Japan</td>
+    <td class="tg-yw4l">China Telecom</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" colspan="2">Certification</td>
+    <td class="tg-yw4l">RCM</td>
+    <td class="tg-yw4l">RCM/ Anatel/ NCC</td>
+    <td class="tg-yw4l">KC/ SKT/KT*/ LGU+*</td>
+    <td class="tg-yw4l">JATE/ TELEC/ DOCOMO*</td>
+    <td class="tg-yw4l">CCC/ SRRC/ NAL</td>
+  </tr>
+</table>
 
 
 ## Getting Started
@@ -1078,7 +1204,7 @@ void setup() {
   while(false == gnss.Check_If_Power_On()){
     SerialUSB.println("Waitting for module to alvie...");
     delay(1000);
-  } 
+  }
   SerialUSB.println("\n\rPower On!");
 
   if(!(gnss.open_GNSS())){
@@ -1109,7 +1235,7 @@ void loop() {
   clean_buffer(nmea_GSV_sentence, 512);
   gnss.read_NMEA_GSV(nmea_sentence);
   SerialUSB.print(nmea_sentence);
-  
+
   SerialUSB.println("\r\n");
 
   delay(1000);
