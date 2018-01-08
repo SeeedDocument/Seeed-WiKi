@@ -15,8 +15,11 @@ This kit provides all the basic elements you need: a Raspberry Pi 3, a Seeeduino
 Regarding the gateway module RHF0M301, it is a 10 channel(8 x Multi-SF + 1 x Standard LoRa + 1 x FSK) LoRaWan gateway moduel with a 24pin DIP port on board, users can easily connect the RHF0M301 with PRI 2 bridge RHF4T002, adapter for Raspberry Pi 3 and RHF0M301. We also included a 868MHz antenna, an 8GB SD card and USB cables, Ethernet Cables and other accessories.
 
 
-!!!Warning
-    Please always plug 3.7V Lipo battery in case USB power supply is not sufficient. This wiki works for both 868MHz kit and 915MHz kit.
+
+<div class="admonition warning" style="background:#f0b37e; color:#FFF">
+<p class="admonition-title">Caution</p>
+<font face="Georgia" size=2 font color="white">Please always plug 3.7V Lipo battery in case USB power supply is not sufficient. This wiki works for both 868MHz kit and 915MHz kit.</font>
+</div>
 
 
 |868MHz Kit with Raspberry Pi 3|[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/LoRa-LoRaWAN-Gateway-868MHz-Kit-with-Raspberry-Pi-3-p-2823.html)|
@@ -387,7 +390,7 @@ Frequency Plan for US915 HYBRID
 
  - Secondly, open the **[Arduino](http://wiki.seeed.cc/Getting_Started_with_Arduino/)** IDE, and copy the code blew into a new skech.
 
- ```
+```
  void setup()
  {
      Serial1.begin(9600);
@@ -405,7 +408,7 @@ Frequency Plan for US915 HYBRID
          Serial1.write(SerialUSB.read());
      }
  }
- ```
+```
  - Then choose the right serial port of Seeeduino Lora GPS, and choose the board **Tool->Board->Seeeduino_LoRAWAN**. After that you can click the upload button.If you can not find Seeeduino_LoRAWAN in the board list or do not know how to update the code,please click [here](http://wiki.seeed.cc/Seeeduino_LoRAWAN/#install-the-driver-for-windows) for more information.
 
 ![](https://github.com/SeeedDocument/LoRaWAN_Gateway-868MHz_Kit_with_Raspberry_Pi_3/raw/master/img/port_lora.png)
@@ -595,4 +598,4 @@ Please do not hesitate to contact **techsupport@seeed.cc** if you require furthe
 ## Resources
 - **[PDF]** [Download Wiki PDF](https://github.com/SeeedDocument/LoRaWAN_Gateway-868MHz_Kit_with_Raspberry_Pi_3/raw/master/res/LoRa_LoRaWan_Gateway_Kit.pdf)
 - **[Uer Manual]** [User Manual](https://github.com/SeeedDocument/LoRaWAN_Gateway-868MHz_Kit_with_Raspberry_Pi_3/raw/master/res/%5BRHF-UM01649%5DIoT%20Discovery%20User%20Manual-seeed-v2.1.pdf).
-- [RisingHF Website](http://www.risinghf.com/product/risinghf-iot-dicovery/?lang=en)
+- **[MoreReading]** [RisingHF Website](http://www.risinghf.com/product/risinghf-iot-dicovery/?lang=en)

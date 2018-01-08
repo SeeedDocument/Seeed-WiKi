@@ -2044,6 +2044,10 @@
   </url>
   
   <url>
+    <loc>http://wiki.seeed.cc/respeaker_core_v2/</loc>
+  </url>
+  
+  <url>
     <loc>http://wiki.seeed.cc/respeaker_drive_unit/</loc>
   </url>
   
@@ -2225,10 +2229,6 @@
   
   <url>
     <loc>http://wiki.seeed.cc/seeeduino_v4.2/</loc>
-  </url>
-  
-  <url>
-    <loc>http://wiki.seeed.cc/test007/</loc>
   </url>
   
   <url>
