@@ -5872,7 +5872,7 @@ Features  Interface to connect the transceiver 315/433/868/915 MHz (depending on
       <guid>http://wiki.seeed.cc/wireless/</guid>
       <description>This section includes Wireless boards that created by Seeed.
 Product List Here is the list of the Seeeduino Boards you can find in the Seeed WiKi. The list will constantly updated.
- BLE (dual) Bee v1.0 BLE Carbon BLE Micro BLE Nitrogen Bluetooth Bee v2.0 Bluetooth Bee-Standalone ESP32 Breakout Kit Grove - Mega Shield Mesh Bee Qi Wireless Charger Transmitter RFbee V1.1 - Wireless Arduino compatible node Wifi Bee v2.</description>
+ BLE (dual) Bee v1.0 BLE Carbon BLE Micro BLE Nitrogen Bluetooth Bee v2.0 Bluetooth Bee-Standalone ESP32 Breakout Kit Grove - Mega Shield LoRa/LoRaWAN Gateway Kit Mesh Bee Qi Wireless Charger Transmitter RFbee V1.1 - Wireless Arduino compatible node Wifi Bee v2.</description>
     </item>
     
     <item>

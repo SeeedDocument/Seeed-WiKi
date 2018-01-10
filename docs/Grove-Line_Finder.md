@@ -13,7 +13,7 @@ sku: 101020009
 
 Grove-Line finder is designed for line-following robot. It has an IR emitting LED and an IR sensitive phototransistor. It can output digital signal to a microcontroller so that the robot can reliably follow a black line on white background, or vice versa.
 
-[![](https://github.com/SeeedDocument/Grove_Line_Finder/raw/master/images/300px-Get_One_Now_Banner.png)](https://www.seeedstudio.com/Grove-Line-Finder-p-825.html)
+[![](https://github.com/SeeedDocument/Grove_Line_Finder/raw/master/images/300px-Get_One_Now_Banner.png)](https://www.seeedstudio.com/Grove-Line-Finder-v1.1-p-2712.html)
 
 ## Specification
 ---
@@ -27,7 +27,7 @@ Grove-Line finder is designed for line-following robot. It has an IR emitting LE
 
 !!!Tip
     More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
-  
+
 ## Demonstration
 ---
 **With Arduino**
