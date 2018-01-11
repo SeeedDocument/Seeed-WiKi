@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Grove_analog Io_3v3 Io_5v Plat_duino Plat_linkit Plat_bbg Plat_wio Plat_pi on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
+    <link>http://wiki.seeed.cc/tags/grove_analog-io_3v3-io_5v-plat_duino-plat_linkit-plat_bbg-plat_wio-plat_pi/</link>
+    <description>Recent content in Grove_analog Io_3v3 Io_5v Plat_duino Plat_linkit Plat_bbg Plat_wio Plat_pi on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://wiki.seeed.cc/tags/grove_analog-io_3v3-io_5v-plat_duino-plat_linkit-plat_bbg-plat_wio-plat_pi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Grove - Rotary Angle Sensor</title>
+      <link>http://wiki.seeed.cc/grove-rotary_angle_sensor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/grove-rotary_angle_sensor/</guid>
+      <description>The rotary angle sensor produces analog output between 0 and Vcc (5V DC with Seeeduino) on its D1 connector. The D2 connector is not used. The angular range is 300 degrees with a linear change in value. The resistance value is 10k ohms, perfect for Arduino use. This may also be known as a “potentiometer ”.
+
+There is another product - Grove - Rotary Angle Sensor(P). What does “P” mean?</description>
+    </item>
+    
+  </channel>
+</rss>

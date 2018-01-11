@@ -7,7 +7,7 @@ prodimagename: Grove-Rotary_Angle_Sensor.jpg
 bzprodimageurl: http://statics3.seeedstudio.com/images/101020017 1.jpg
 surveyurl: https://www.research.net/r/Grove-Rotary_Angle_Sensor
 sku: 101020017
-tags: grove_analog, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg, plat_wio
+tags: grove_analog, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg, plat_wio, plat_pi
 ---
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Rotary_Angle_Sensor/master/img/Grove-Rotary_Angle_Sensor.jpg)
@@ -38,7 +38,7 @@ Features
 
 !!!Tip
     More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
-    
+
 Specifications
 --------------
 
@@ -132,25 +132,25 @@ The following sketch demonstrates a simple application of using the rotary angle
                      //board switches to 3V3, the ADC_REF should be 3.3
     #define GROVE_VCC 5//VCC of the grove interface is normally 5v
     #define FULL_ANGLE 300//full value of the rotary angle is 300 degrees
-    void setup() 
+    void setup()
     {
         Serial.begin(9600);
         pinsInit();
     }
 
-    void loop() 
+    void loop()
     {
         int degrees;
         degrees = getDegree();
         Serial.println("The angle between the mark and the starting position:");
         Serial.println(degrees);
-        
+
         int brightness;
         /*The degrees is 0~300, should be converted to be 0~255 to control the*/
         /*brightness of LED                                                   */
-        brightness = map(degrees, 0, FULL_ANGLE, 0, 255); 
+        brightness = map(degrees, 0, FULL_ANGLE, 0, 255);
         controlBrightness(brightness);
-        
+
         delay(500);
     }
     void pinsInit()
@@ -195,25 +195,25 @@ This example shows how to read the analog output coming from the Grove potentiom
 ```
     /*
       Rotary Angle Sensor
-     Demonstrates analog input by reading an analog sensor on J16 of the Grove Base BoosterPack. The speed of the red LED on the LaunchPad will change depending on the position of the potentiometer knob. This example will also display the analog reading value on the Grove 4-digital display. 
-     
+     Demonstrates analog input by reading an analog sensor on J16 of the Grove Base BoosterPack. The speed of the red LED on the LaunchPad will change depending on the position of the potentiometer knob. This example will also display the analog reading value on the Grove 4-digital display.
+
      The circuit:
      * Potentiometer attached to pin 24 (J6 on Grove Base BoosterPack)
      * center pin of the potentiometer to the analog pin
      * one side pin (either one) to ground
      * the other side pin to VCC (3.3V)
-     
-     * Note: Because of unstable of the voltage, the value of the rotary angle sensor 
+
+     * Note: Because of unstable of the voltage, the value of the rotary angle sensor
              varies slightly from run to run even you don't touch it.  
-     
+
      Created by Oliver Wang
-     
+
      This example code is in the public domain.
-     
-     http://www.seeedstudio.com/wiki/GROVE_-_Starter_Kit_v1.1b#Grove_-_Rotary_Angle_Sensor 
+
+     http://www.seeedstudio.com/wiki/GROVE_-_Starter_Kit_v1.1b#Grove_-_Rotary_Angle_Sensor
      */
-     
-    #include "TM1637.h" 
+
+    #include "TM1637.h"
 
     /* Macro Define */
     #define CLK               39                  /* 4-digital display clock pin */
@@ -228,16 +228,16 @@ This example shows how to read the analog output coming from the Grove potentiom
 
     /* the setup() method runs once, when the sketch starts */
     void setup() {
-        
+
         /* Initialize 4-digital display */
         tm1637.init();
         tm1637.set(BRIGHT_TYPICAL);
-      
+
     }
 
     /* the loop() method runs over and over again */
     void loop() {   
-      
+
         analog_value = analogRead(ROTARY_ANGLE_P);      /* read the value from the sensor */
         memset(bits, 0, 4);                             /* reset array when we use it */
         for(int i = 3; i >= 0; i--) {
