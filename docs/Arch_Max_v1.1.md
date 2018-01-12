@@ -107,10 +107,10 @@ The latest firmware version for the Arch Max is v0203 built at Oct 8, 2014. To c
 
 [The firmware v0203 2014-10-08 for Arch Max](https://developer.mbed.org/media/uploads/yihui/lpc11u35_nrf51822_if_mbed_v203_20141008.bin)
 
--   Press and hold the Arch Max's button to power it on.
--   A CRP DISABLD disk will show
-    -   On Windows, replace firmware.bin with the above firmware
-    -   On Linux/Mac, enter command: **dd if={new\_firmware.bin} of={firmware.bin} conv=notrunc**
+1. Press and hold the Arch Max's SW1 button while powering on the board.
+2. A disk called "CRP DISABLD" will show:
+   * On Windows, replace firmware.bin with the above firmware.
+   * On Linux/Mac, enter command: **dd if={new\_firmware.bin} of={firmware.bin} conv=notrunc**.
 
 Resources
 ---------
