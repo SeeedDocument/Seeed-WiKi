@@ -2481,19 +2481,19 @@ This sensor belongs to Grove system, and you can plug it onto the Base shield an
     
     <item>
       <title>Grove - NFC</title>
-      <link>http://wiki.seeed.cc/grove-nfc/</link>
+      <link>http://wiki.seeed.cc/grove_nfc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://wiki.seeed.cc/grove-nfc/</guid>
+      <guid>http://wiki.seeed.cc/grove_nfc/</guid>
       <description>Near Field Communication (NFC) is a set of short-range wireless technologies. It is behind daily applications such as access control system and mobile payment system. Grove NFC features a highly integrated transceiver module PN532 which handles contactless communication at 13.56MHz. You can read and write a 13.56MHz tag with this module or implement point to point data exchange with two NFCs. Grove NFC is designed to use I2C or UART communication protocols, and UART is the default mode.</description>
     </item>
     
     <item>
       <title>Grove - NFC Tag</title>
-      <link>http://wiki.seeed.cc/grove-nfc_tag/</link>
+      <link>http://wiki.seeed.cc/grove_nfc_tag/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://wiki.seeed.cc/grove-nfc_tag/</guid>
+      <guid>http://wiki.seeed.cc/grove_nfc_tag/</guid>
       <description>Grove - NFC Tag is a highly integrated Near Field Communication Tag module,this module is I2C interface,which base on M24LR64E-R,M24LR64E-R have a 64-bit unique identifier and 64 -Kbit EEPROM.Grove - NFC Tag attach an independent PCB antenna which can easily stretch out of any enclosure you use, leaving more room for you to design the exterior of your project.
 
 Specifications  Working Voltage:5V or 3V3 Working Current&amp;lt;1mA Effective range&amp;lt;2cm Serve for contactless communication at 13.</description>

@@ -12,10 +12,10 @@
     
     <item>
       <title>Grove - NFC Tag</title>
-      <link>http://wiki.seeed.cc/grove-nfc_tag/</link>
+      <link>http://wiki.seeed.cc/grove_nfc_tag/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://wiki.seeed.cc/grove-nfc_tag/</guid>
+      <guid>http://wiki.seeed.cc/grove_nfc_tag/</guid>
       <description>Grove - NFC Tag is a highly integrated Near Field Communication Tag module,this module is I2C interface,which base on M24LR64E-R,M24LR64E-R have a 64-bit unique identifier and 64 -Kbit EEPROM.Grove - NFC Tag attach an independent PCB antenna which can easily stretch out of any enclosure you use, leaving more room for you to design the exterior of your project.
 
 Specifications  Working Voltage:5V or 3V3 Working Current&amp;lt;1mA Effective range&amp;lt;2cm Serve for contactless communication at 13.</description>

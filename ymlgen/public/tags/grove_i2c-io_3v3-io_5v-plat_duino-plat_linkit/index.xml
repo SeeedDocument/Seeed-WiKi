@@ -98,10 +98,10 @@ Specifications    Parameter Value/Range     Operating voltage 3~5.5V   Standby M
     
     <item>
       <title>Grove - NFC</title>
-      <link>http://wiki.seeed.cc/grove-nfc/</link>
+      <link>http://wiki.seeed.cc/grove_nfc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://wiki.seeed.cc/grove-nfc/</guid>
+      <guid>http://wiki.seeed.cc/grove_nfc/</guid>
       <description>Near Field Communication (NFC) is a set of short-range wireless technologies. It is behind daily applications such as access control system and mobile payment system. Grove NFC features a highly integrated transceiver module PN532 which handles contactless communication at 13.56MHz. You can read and write a 13.56MHz tag with this module or implement point to point data exchange with two NFCs. Grove NFC is designed to use I2C or UART communication protocols, and UART is the default mode.</description>
     </item>
     
