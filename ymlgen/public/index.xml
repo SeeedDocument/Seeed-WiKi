@@ -652,6 +652,16 @@ BeagleBone Green (BBG) is a joint effort by BeagleBoard.org and Seeed Studio. It
     </item>
     
     <item>
+      <title>BeagleBone Blue</title>
+      <link>http://wiki.seeed.cc/beaglebone_blue/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/beaglebone_blue/</guid>
+      <description>BeagleBone™ Blue is based on the extremely successful open-source hardware design of BeagleBone™ Black, a high-expansion, maker-focused, community-supported open hardware computer, created by the BeagleBoard.Org Foundation.
+BeagleBone™ Blue combines the high-performance flexible WiFi/Bluetooth WiLink™ interface of the BeagleBone™ Black Wireless and the robotics capabilities of the Robotics Cape from Strawson Design. BeagleBone™ Blue has onboard 2 cell (2S) LiPo battery management with charger and battery level LEDs, 8 servo motor outputs, 4 DC motor drivers, 4 quadrature encoder inputs, a wide array of GPIO and serial protocol connectors including CAN, a 9 axis IMU and barometer, 4 ADC inputs, a PC USB interface, an USB 2.</description>
+    </item>
+    
+    <item>
       <title>BeagleBone Case</title>
       <link>http://wiki.seeed.cc/beaglebone_case/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -18,6 +18,7 @@ Not lone afte that, we released another BeagleBone named BeagleBone Green Wirele
 Here is the list of the BeagleBone Boards you can find in the Seeed WiKi. The list will be constantly updated.
 
 - [Beagle Bone Green and Grove IoT Starter Kit Powered by AWS](/Beagle_Bone_Green_and_Grove_IoT_Starter_Kit_Powered_by_AWS/)
+- [BeagleBone Blue](/BeagleBone_Blue/)
 - [BeagleBone Case](/Beaglebone_Case/)
 - [BeagleBone Green](/BeagleBone_Green/)
 - [BeagleBone Green HDMI Cape](/BeagleBone_Green_HDMI_Cape/)

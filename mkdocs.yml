@@ -54,6 +54,7 @@ pages:
     - BeagleBone:
         - BeagleBone Introduction: BeagleBone.md
         - Beagle Bone Green and Grove IoT Starter Kit Powered by AWS: Beagle_Bone_Green_and_Grove_IoT_Starter_Kit_Powered_by_AWS.md
+        - BeagleBone Blue: BeagleBone_Blue.md
         - BeagleBone Case: Beaglebone_Case.md
         - BeagleBone Green: BeagleBone_Green.md
         - BeagleBone Green HDMI Cape: BeagleBone_Green_HDMI_Cape.md
