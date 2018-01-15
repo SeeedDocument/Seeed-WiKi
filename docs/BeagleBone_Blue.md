@@ -53,90 +53,119 @@ BeagleBone™ Blue combines the high-performance flexible WiFi/Bluetooth WiLink�
 .tg  {border-collapse:collapse;border-spacing:0;border-color:#999;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#F7FDFA;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;}
-.tg .tg-s6z2{text-align:center}
-.tg .tg-baqh{text-align:center;vertical-align:top}
 .tg .tg-yw4l{vertical-align:top}
-.tg .tg-j0tj{background-color:#D2E4FC;text-align:center;vertical-align:top}
 .tg .tg-6k2t{background-color:#D2E4FC;vertical-align:top}
 </style>
-<table class="tg">
+<table class="tg" style="undefined;table-layout: fixed; width: 1031px">
+<colgroup>
+<col style="width: 154.090909px">
+<col style="width: 381.090909px">
+<col style="width: 496.090909px">
+</colgroup>
   <tr>
-    <th class="tg-s6z2">Item</th>
-    <th class="tg-yw4l">Parameter</th>
+    <th class="tg-031e">Item</th>
+    <th class="tg-yw4l" colspan="2">Description</th>
   </tr>
   <tr>
-    <td class="tg-j0tj">Processor<br>(Integrated<br>in the OSD3358)</td>
-    <td class="tg-6k2t">i.,AM335x 1GHz ARM® Cortex-A8,<br>ii.,SGX530 graphics accelerator,<br>iii.,NEON floating-point accelerator,<br>iv.,2x PRU 32-bit 200MHz microcontrollers</td>
+    <td class="tg-6k2t">Processor<br>(Integrated in <br>the OSD3358)</td>
+    <td class="tg-6k2t" colspan="2">● AM335x 1GHz ARM® Cortex-A8<br>● SGX530 graphics accelerator<br>● NEON floating-point accelerator<br>● 2x PRU 32-bit 200MHz microcontrollers</td>
   </tr>
   <tr>
-    <td class="tg-baqh">Memory</td>
-    <td class="tg-yw4l">i.,512MB DDR3<br>800MHZ RAM (Integrated in the OSD3358),ii.,4GB 8-bit eMMC on-board flash storage,iii.,SD/MMC Connector for microSD</td>
+    <td class="tg-yw4l">Memory</td>
+    <td class="tg-yw4l" colspan="2">● 512MB DDR3800MHZ RAM (Integrated in the OSD3358)<br>● 4GB 8-bit eMMC on-board flash storage<br>● SD/MMC Connector for microSD</td>
   </tr>
   <tr>
-    <td class="tg-j0tj" rowspan="11"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Connectivity</td>
-    <td class="tg-6k2t">High speed USB 2.0 Client port: Access to USB0,<br>Client mode via microUSB</td>
+    <td class="tg-6k2t" rowspan="18">Connectivity</td>
+    <td class="tg-6k2t">High speed USB 2.0 Client port</td>
+    <td class="tg-6k2t">Access to USB0,Client mode via microUSB</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">High speed USB 2.0 Host port: Access to USB1,<br>Type A Socket, 500mA LS/FS/HS</td>
+    <td class="tg-yw4l">High speed USB 2.0 Host port</td>
+    <td class="tg-yw4l">Access to USB1,Type A Socket, 500mA LS/FS/HS</td>
   </tr>
   <tr>
-    <td class="tg-6k2t">WiLink<br>1835 WiFi 802.11 b/g/n 2.4GHz.,Supports<br>the following modes<br>1.,2x2 MIMO,<br>2.,AP,<br>3.,SmartConfig,<br>4.,STA,<br>5.,Wi-Fi Direct,<br>6.,Mesh over Wi-Fi based on 802.11s</td>
+    <td class="tg-6k2t" rowspan="6">WiLink1835 WiFi 802.11 b/g/n 2.4GHz.<br>Supportsthe following modes:</td>
+    <td class="tg-6k2t">2x2 MIMO</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">WiLink 1835 Bluetooth 4.1 with BLE</td>
+    <td class="tg-yw4l">AP</td>
   </tr>
   <tr>
-    <td class="tg-6k2t">Serial port:,1.,UART0, UART1, UART5 available via 4 pin JST connectors,2.,UART2 available via 6 pin JST connector (EM-506 GPS style connector),3.,UART4 RX available via 3 pin DSM2 connector</td>
+    <td class="tg-6k2t">SmartConfig</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">I2C1 available via 4 pin JST connector</td>
+    <td class="tg-yw4l">STA</td>
   </tr>
   <tr>
-    <td class="tg-6k2t">SPI1 CS0 (S1.1) and SPI1 CS1 (S1.2) available via 6 pin JST<br>connectors</td>
+    <td class="tg-6k2t">Wi-Fi Direct</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">CAN available via 4 pin JST connector (includes TCAN1051 CAN<br>transceiver)</td>
+    <td class="tg-yw4l">Mesh over Wi-Fi based on 802.11s</td>
   </tr>
   <tr>
-    <td class="tg-6k2t">8 GPIOs (GP0 and GPI1) available via 6 pin JST connectors</td>
+    <td class="tg-6k2t" rowspan="3">Serial port</td>
+    <td class="tg-6k2t">UART0, UART1, UART5 available via 4 pin JST connectors</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">ADC inputs 0 to 3 available via 6 pin JST connector</td>
+    <td class="tg-yw4l">UART2 available via 6 pin JST connector (EM-506 GPS style connector)</td>
   </tr>
   <tr>
-    <td class="tg-6k2t">3.3VDC and 5VDC power output via<br>4 pin JST connector</td>
+    <td class="tg-6k2t">UART4 RX available via 3 pin DSM2 connector</td>
   </tr>
   <tr>
-    <td class="tg-baqh" rowspan="3">Power management:</td>
-    <td class="tg-yw4l">TPS65217C PMIC is used along with<br>a separate LDO to provide power to the system (Integrated<br>in the OSD3358)</td>
+    <td class="tg-yw4l" colspan="2">WiLink 1835 Bluetooth 4.1 with BLE</td>
   </tr>
   <tr>
-    <td class="tg-6k2t">2 cell (2S) LiPo battery charger (powered by 9 – 18VDC DC Jack),1.,4 battery level LEDs,2.,1 charger LED</td>
+    <td class="tg-6k2t" colspan="2">I2C1 available via 4 pin JST connector</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">6VDC 4A regulator to drive servo motor outputs</td>
+    <td class="tg-yw4l" colspan="2">SPI1 CS0 (S1.1) and SPI1 CS1 (S1.2) available via 6 pin JST connectors</td>
   </tr>
   <tr>
-    <td class="tg-j0tj">Debug Support</td>
-    <td class="tg-6k2t">JTAG test points</td>
+    <td class="tg-6k2t" colspan="2">CAN available via 4 pin JST connector (includes TCAN1051 CAN transceiver)</td>
   </tr>
   <tr>
-    <td class="tg-baqh">Power Source</td>
-    <td class="tg-yw4l">i.,microUSB USB,ii.,2 cell (2S) LiPo battery<br>connector,iii.,9 - 18VDC DC Jack</td>
+    <td class="tg-yw4l" colspan="2">8 GPIOs (GP0 and GPI1) available via 6 pin JST connectors</td>
   </tr>
   <tr>
-    <td class="tg-j0tj">User Input / Output</td>
-    <td class="tg-6k2t">i.,Power Button,ii.,Reset Button,iii.,Boot Button,iv.,2 user configurable buttons,v.,6 user configurable LEDs; Power LED</td>
+    <td class="tg-6k2t" colspan="2">ADC inputs 0 to 3 available via 6 pin JST connector</td>
   </tr>
   <tr>
-    <td class="tg-baqh">Motor<br>Control (requires power from either DC Jack or 2S battery)</td>
-    <td class="tg-yw4l">i.,4 DC motor drivers,ii.,4 Quadrature encoder inputs,iii.,8 Servo motor outputs</td>
+    <td class="tg-yw4l" colspan="2">3.3VDC and 5VDC power output via 4 pin JST connector</td>
   </tr>
   <tr>
-    <td class="tg-6k2t">Sensors</td>
-    <td class="tg-6k2t">i.,9 axis IMU,ii.,Barometer</td>
+    <td class="tg-6k2t" rowspan="3">Power management</td>
+    <td class="tg-6k2t" colspan="2">TPS65217C PMIC is used along with a separate LDO to provide power to the system (Integrated in the OSD3358)</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" colspan="2">2 cell (2S) LiPo battery charger (powered by 9 – 18VDC DC Jack). 1.,4 battery level LEDs; 2.,1 charger LED</td>
+  </tr>
+  <tr>
+    <td class="tg-6k2t" colspan="2">6VDC 4A regulator to drive servo motor outputs</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Debug Support</td>
+    <td class="tg-yw4l" colspan="2">JTAG test points</td>
+  </tr>
+  <tr>
+    <td class="tg-6k2t">Power Source</td>
+    <td class="tg-6k2t" colspan="2">i.,  microUSB USB,<br>ii., 2 cell (2S) LiPo battery connector,<br>iii.,9 - 18VDC DC Jack</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">User Input / Output</td>
+    <td class="tg-yw4l" colspan="2">i.,Power Button; ii.,Reset Button; iii.,Boot Button; iv.,2 user configurable buttons; v.,6 user configurable LEDs;vi Power LED</td>
+  </tr>
+  <tr>
+    <td class="tg-6k2t">Motor Control (requires power from either DC Jack or 2S battery)</td>
+    <td class="tg-6k2t" colspan="2">i.,  4 DC motor drivers,<br>ii., 4 Quadrature encoder inputs,<br>iii.,8 Servo motor outputs</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Sensors</td>
+    <td class="tg-yw4l" colspan="2">i., 9 axis IMU,<br>ii.,Barometer</td>
   </tr>
 </table>
+
+--------
 
 
 ## Application Ideas
@@ -145,81 +174,14 @@ BeagleBone™ Blue combines the high-performance flexible WiFi/Bluetooth WiLink�
 - Industrial
 - Automation & Process Control
 - Human Machine Interface
-- Sensor Hub
+- motor control
+- UAV control
 - Robot
 
-###BBGW Starter Tutorial #1-#6
-Here are some tutorials for the starters to use some Grove modules to realize their interesting ideas with BeagleBone Green Wireless(BBGW). The tutorials are based on Python and mraa/upm library.  
-
-|#1 The Breath LED|#2 Storm on your table|#3 Speak Louuuuuudly|
-|---------------|-----|--------------|
-|![](http://statics3.seeedstudio.com/seeed/img/2016-06/OHfZigwiAdjKOyhXkxIsIzGW.jpg)|![](http://statics3.seeedstudio.com/seeed/img/2016-06/auGIP35SMMZsK87FELS1pkRF.jpg)|![](http://statics3.seeedstudio.com/seeed/img/2016-06/GmpI3336wzuJ3teZ3O4GXMSB.jpg)|
-|[MAKE IT NOW!](http://www.seeed.cc/BBGW-starter-tutorial%231-The-breath-LED-p-1641.html)|[MAKE IT NOW!](http://www.seeed.cc/BBGW-starter-tutorial%232%3A-storm-on-your-table-p-1643.html)|[MAKE IT NOW!](http://www.seeed.cc/BBGW-starter-tutorial%233-Speak-louuuuuudly-p-1644.html)|
-
-|#4 How hot is it today?|#5 Where are you?|#6 My Little alarm clock|
-|---------------|-----|--------------|
-|![](http://statics3.seeedstudio.com/seeed/img/2016-06/THIPlcFCtqtxnSWBkiJPf59M.jpg)|![](http://statics3.seeedstudio.com/seeed/img/2016-06/tOZJ1MeVXARwuqxTkfYD2aUx.jpg)|![](http://statics3.seeedstudio.com/seeed/img/2016-06/tuZhqFgoabZkjJFpHBUzeKrO.jpg)|
-|[MAKE IT NOW!](http://www.seeed.cc/BBGW-starter-tutorial%234%3AHow-hot-is-it-today%3F-Ask-BBGW!-p-1645.html)|[MAKE IT NOW!](http://www.seeed.cc/BBGW-starter-tutorial%235-Where-are-you%3F-p-1648.html)|[MAKE IT NOW!](http://www.seeed.cc/BBGW-starter-tutorial%236-My-little-alarm-clock-p-1646.html)|
-
-###Funny Projects
-
-|Bluetooth Device Detection|Home Control Center|SAP HCP IoT Service|
-|---------------|-----|--------------|
-|![](http://statics3.seeedstudio.com/upload/img/community/20160526075527-90edbd.png)|![](http://statics3.seeedstudio.com/upload/img/community/20160524014508-4a47a0.png)|![](http://statics3.seeedstudio.com/upload/img/community/20160523121641-1ed045.png)|
-|[MAKE IT NOW!](http://www.seeed.cc/Bluetooth-Device-Detection-with-the-BeagleBone-Green-Wireless-p-1601.html)|[MAKE IT NOW!](http://www.seeed.cc/Home-Control-Center-using-BeagleBone-Green-Wireless-p-1596.html)|[MAKE IT NOW!](http://www.seeed.cc/SAP-HCP-IOT-SERVICE-WITH-WIOLINK-p-1581.html)|
 
 ## Hardware Overview
 
-![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/green_wireless_hardware_details.png?raw=true)
-
-###Pin map
-
-Each digital I/O pin has 8 different modes that can be selected, including GPIO.
-
-####65 Possible Digital I/Os
-
-!!!Note
-    In GPIO mode, each digital I/O can produce interrupts.
-
-![enter image description here](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/BeagleBoneGreenWirelessPins.jpg?raw=true)
-
-####PWMs and Timers
-
-!!!Note
-    Up to 8 digital I/O pins can be configured with pulse-width modulators (PWM) to produce signals to control motors or create pseudo analog voltage levels, without taking up any extra CPU cycles.
-
-![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/cape-headers-pwm.png?raw=true)
-
-####Analog Inputs
-
-!!!Note
-    Make sure you don't input more than 1.8V to the analog input pins. This is a single 12-bit analog-to-digital converter with 8 channels, 7 of which are made available on the headers.
-
-![enter image description here](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/cape-headers-analog.png?raw=true)
-
-
-####UART
-
-!!!Note
-    There is a dedicated header for getting to the UART0 pins and connecting a debug cable. Five additional serial ports are brought to the expansion headers, but one of them only has a single direction brought to the headers.
-
-![enter image description here](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/cape-headers-serial.png?raw=true)
-
-
-####I2C
-
-!!!Note
-    The first I2C bus is utilized for reading EEPROMS on cape add-on boards and can't be used for other digital I/O operations without interfering with that function, but you can still use it to add other I2C devices at available addresses. The second I2C bus is available for you to configure and use.
-
-![enter image description here](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/cape-headers-i2c.png?raw=true)
-
-####SPI
-
-!!!Note
-    For shifting out data fast, you might consider using one of the SPI ports.
-
-![enter image description here](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/cape-headers-spi.png?raw=true)
-
+![](https://github.com/SeeedDocument/Beaglebone_Blue/raw/master/img/Hardware_overviw.png)
 
 ## Getting Started
 ----
