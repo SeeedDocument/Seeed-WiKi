@@ -56,11 +56,11 @@ BeagleBone™ Blue combines the high-performance flexible WiFi/Bluetooth WiLink�
 .tg .tg-yw4l{vertical-align:top}
 .tg .tg-6k2t{background-color:#D2E4FC;vertical-align:top}
 </style>
-<table class="tg" style="undefined;table-layout: fixed; width: 1031px">
+<table class="tg" style="undefined;table-layout: fixed; width: 776px">
 <colgroup>
 <col style="width: 154.090909px">
-<col style="width: 381.090909px">
-<col style="width: 496.090909px">
+<col style="width: 264.090909px">
+<col style="width: 358.090909px">
 </colgroup>
   <tr>
     <th class="tg-031e">Item</th>
@@ -84,7 +84,7 @@ BeagleBone™ Blue combines the high-performance flexible WiFi/Bluetooth WiLink�
     <td class="tg-yw4l">Access to USB1,Type A Socket, 500mA LS/FS/HS</td>
   </tr>
   <tr>
-    <td class="tg-6k2t" rowspan="6">WiLink1835 WiFi 802.11 b/g/n 2.4GHz.<br>Supportsthe following modes:</td>
+    <td class="tg-6k2t" rowspan="6">WiLink1835 <br>WiFi 802.11 b/g/n 2.4GHz.<br>Supportsthe following modes:</td>
     <td class="tg-6k2t">2x2 MIMO</td>
   </tr>
   <tr>
@@ -138,7 +138,7 @@ BeagleBone™ Blue combines the high-performance flexible WiFi/Bluetooth WiLink�
     <td class="tg-6k2t" colspan="2">TPS65217C PMIC is used along with a separate LDO to provide power to the system (Integrated in the OSD3358)</td>
   </tr>
   <tr>
-    <td class="tg-yw4l" colspan="2">2 cell (2S) LiPo battery charger (powered by 9 – 18VDC DC Jack). 1.,4 battery level LEDs; 2.,1 charger LED</td>
+    <td class="tg-yw4l" colspan="2">2 cell (2S) LiPo battery charger (powered by 9 – 18VDC DC Jack): <br>i., 4 battery level LEDs; <br>ii.,1 charger LED</td>
   </tr>
   <tr>
     <td class="tg-6k2t" colspan="2">6VDC 4A regulator to drive servo motor outputs</td>
@@ -153,7 +153,7 @@ BeagleBone™ Blue combines the high-performance flexible WiFi/Bluetooth WiLink�
   </tr>
   <tr>
     <td class="tg-yw4l">User Input / Output</td>
-    <td class="tg-yw4l" colspan="2">i.,Power Button; ii.,Reset Button; iii.,Boot Button; iv.,2 user configurable buttons; v.,6 user configurable LEDs;vi Power LED</td>
+    <td class="tg-yw4l" colspan="2">i.,Power Button; ii.,Reset Button; iii.,Boot Button; iv.,2 user configurable buttons;<br>v.,6 user configurable LEDs;vi Power LED</td>
   </tr>
   <tr>
     <td class="tg-6k2t">Motor Control (requires power from either DC Jack or 2S battery)</td>
@@ -186,339 +186,279 @@ BeagleBone™ Blue combines the high-performance flexible WiFi/Bluetooth WiLink�
 ## Getting Started
 ----
 
-!!!Note
-    This chapter is writing under Win10. The steps are familiar for the other operate systems.
-
-###STEP1. Plug in your BBGW via USB
-Use the provided micro USB cable to plug your BBGW into your computer. This will both power the board and provide a development interface. BBGW will boot Linux from the **on-board 2GB** or 4GB eMMC.
-
-BBGW will operate as a flash drive providing you with a local copy of the documentation and drivers. Note that this interface may not be used to re-configure the microSD card with a new image, but may be used to update the boot parameters using the uEnv.txt file.
-
-You’ll see the PWR LED lit steadily. Within 10 seconds, you should see the other LEDs blinking in their default configurations.
-
-- D2 is configured at boot to blink in a heartbeat pattern
-- D3 is configured at boot to light during microSD card accesses
-- D4 is configured at boot to light during CPU activity
-- D5 is configured at boot to light during eMMC accesses
-
-###STEP2. Install Drivers
-
-Install the drivers for your operating system to give you network-over-USB access to your Beagle. Additional drivers give you serial access to your board.
-
-|Operating System |	USB Drivers |	Comments |
-|---------------------|---------|------------|
-|Windows (64-bit) |	[64-bit installer](http://beagleboard.org/static/Drivers/Windows/BONE_D64.exe)	 | |
-|Windows (32-bit) |	[32-bit installer](http://beagleboard.org/static/Drivers/Windows/BONE_DRV.exe)||
-|Mac OS X|[Network](http://beagleboard.org/static/Drivers/MacOSX/RNDIS/HoRNDIS.pkg) [Serial](http://beagleboard.org/static/Drivers/MacOSX/FTDI/EnergiaFTDIDrivers2.2.18.pkg) | Install both sets of drivers.|
-|Linux|[mkudevrule.sh](http://beagleboard.org/static/Drivers/Linux/FTDI/mkudevrule.sh)|Driver installation isn't required, but you might find a few udev rules helpful.|
-
-!!!Note
-    For window system, please note that:
-
-    * Windows Driver Certification warning may pop up two or three times. Click "Ignore", "Install" or "Run"
-    * To check if you're running 32 or 64-bit Windows see [this](https://support.microsoft.com/kb/827218).
-    *  On systems without the latest service release, you may get an error (0xc000007b). In that case, please [install](https://www.microsoft.com/en-us/download/confirmation.aspx?id=13523) and retry:
-    * You may need to reboot Windows.
-    * These drivers have been tested to work up to Windows 10
+### Preparation
 
 
-###STEP3. Browse to your Beagle
+
+#### STEP1. Update the latest image
+
+When you receive a Beaglebone_Blue from seeed, the image is already burned into the on-board eMMC. Which means you can skip this step. However we highly recommend you update the latest image.
+
+i. Click and download the latest image from [beagleboard.org](https://beagleboard.org/latest-images).
+
+<div class="admonition note" style="background:#6ab0de; color:#FFF">
+<p class="admonition-title">Note</p>
+<font face="Georgia" size=2 font color="white">The "IoT" images provide more free disk space if you don't need to use a graphical user interface (GUI).Due to sizing necessities, this download may take 30 minutes or more.
+</font>
+</div>
+
+The Debian distribution is provied for the boards. The file you download will have an .img.xz extension. This is a compressed sector-by-sector image of the SD card.
+
+ii. Plug the SD card into your PC or MAC with an SD card reader.You need an SD card with a capacity of more than 4G.
+
+
+iii. Download and install [Etcher](https://etcher.io/)
+
+Click to download <a href="https://etcher.io/">Etcher</a> here, and burn the ```*.img.xz``` file directly to your SD card with Etcher. Or unzip the ```*.img.xz``` file to a ```*.img``` file, then burn it to SD card with other image writing tools.
+
+Click the Plus icon to add the image you just download, the software will automatically select the SD card you plug. Then click Flash! to start burning. It will takes about 20 minutes to flash.
+
+![](https://github.com/SeeedDocument/Respeaker_V2/raw/master/img/v2-flash-sd.png)
+
+
+Then reject the SD card and Insert it into your Beaglebone_Blue.
+
+#### STEP2. Power and boot
+
+Connect the BeagleBone_Blue to your computer with the Micro-USB Cable.
+
+
+![](https://github.com/SeeedDocument/Beaglebone_Blue/raw/master/img/connect.jpg)
+
+<div class="admonition warning" style="background:#f0b37e; color:#FFF">
+<p class="admonition-title">Caution</p>
+<font face="Georgia" size=2 font color="white">Please plug the USB cable gently, otherwise you may damage the interface.Please use the USB cable with 4 wires inside, the 2 wires cable can't transfer data. If you are not sure about the wire you have, you can click <a href="https://www.seeedstudio.com/Micro-USB-Cable-48cm-p-1475.html"><B>here</B></a> to buy. If you want to use the Motor Control modules of Beaglebone_Blue, the power supply via USB Port is not sufficiant, you need to use DC-DC Port or 2S battery. </font>
+</div>
+
+You'll see the power (PWR or ON) LED lit steadily. Within a minute or so, you should see the other LEDs blinking in their default configurations.
+
+* USR0 is typically configured at boot to blink in a heartbeat pattern
+* USR1 is typically configured at boot to light during SD (microSD) card accesses
+* USR2 is typically configured at boot to light during CPU activity
+* USR3 is typically configured at boot to light during eMMC accesses
+* WIFI LED is typically configured at boot to light with WiFi network association (BeagleBone Blue only)
+
+
+
+With the latest images, it should no longer be necessary to install drivers for your operating system to give you network-over-USB access to your Beagle. In case you are running an older image, an older operating system or need additional drivers for serial access to older boards, links to the old drivers are below.
+
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#999;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#F7FDFA;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;}
+.tg .tg-vn4c{background-color:#D2E4FC}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-031e">Operating System</th>
+    <th class="tg-031e">USB Drivers</th>
+    <th class="tg-031e">Comments</th>
+  </tr>
+  <tr>
+    <td class="tg-vn4c">Windows <br>(64-bit)</td>
+    <td class="tg-vn4c"><a href="https://beagleboard.org/static/Drivers/Windows/BONE_D64.exe">64-bit installer</a></td>
+    <td class="tg-vn4c" rowspan="2">If in doubt, try the 64-bit installer first.<br><br>●1: Windows Driver Certification warning may pop up two or three times. Click "Ignore", "Install" or "Run"<br>●2: To check if you're running 32 or 64-bit Windows see this <a href="https://support.microsoft.com/kb/827218">Link</a>.<br>●3: On systems without the latest service release, you may get an error (0xc000007b). In that case, please click this <a href="https://www.microsoft.com/en-us/download/confirmation.aspx?id=13523">Link</a> to install and retry.<br>●4: You may need to reboot Windows.<br>●5: These drivers have been tested to work up to Windows 10</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Windows <br>(32-bit)</td>
+    <td class="tg-031e"><a href="https://beagleboard.org/static/Drivers/Windows/BONE_DRV.exe">32-bit installer</a></td>
+  </tr>
+  <tr>
+    <td class="tg-vn4c">Mac OS X</td>
+    <td class="tg-vn4c">
+		<br>
+		<a href="https://beagleboard.org/static/Drivers/MacOSX/RNDIS/HoRNDIS.pkg">Network</a>
+    <br>
+		<a href="https://beagleboard.org/static/Drivers/MacOSX/FTDI/EnergiaFTDIDrivers2.2.18.pkg">Serial</a>
+		</td>
+    <td class="tg-vn4c">Install both Network and Serial driver.</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Linux</td>
+    <td class="tg-031e"><a href="https://beagleboard.org/static/Drivers/Linux/FTDI/mkudevrule.sh">mkudevrule.sh</a></td>
+    <td class="tg-031e">Driver installation isn't required, but you might find a few udev rules helpful.</td>
+  </tr>
+</table>
+
+
+#### STEP3. Browse to your Beagle
 
 Using either Chrome or Firefox (Internet Explorer will NOT work), browse to the web server running on your board. It will load a presentation showing you the capabilities of the board. Use the arrow keys on your keyboard to navigate the presentation.
 
-Click [http://192.168.7.2](http://192.168.7.2) to launch to your BBGW.
-Older software images require you to EJECT the BEAGLE_BONE drive to start the network. With the latest software image, that step is no longer required.
+When the boot is done, a network adapter should show up on your computer. You can click to enter the [Cloud 9 IDE](http://beaglebone.local:3000/).
 
-[![Click to view larger image](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/launch.png)](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/launch.png)
+![Click to view larger image](https://github.com/SeeedDocument/Beaglebone_Blue/raw/master/img/cloud9.png)
 
-###STEP4. Cloud9 IDE
+#### STEP4. Connect to wifi
 
-To begin editing programs that live on your board, you can use the Cloud9 IDE by click
+Open a new terminal,then tap the command below
+```
+root@beaglebone:/var/lib/cloud9# connmanctl
+connmanctl> enable wifi
+Enabled wifi
+connmanctl> tether wifi disable
+Error disabling wifi tethering: Already disabled
+connmanctl> scan wifi
+Scan completed for wifi
+connmanctl> services
+*AO seeed                wifi_f45eabf743ad_7365656564_managed_psk
+    CHAIHUOMAKERS        wifi_f45eabf743ad_4348414948554f4d414b455253_managed_psk
+    DIRECT-99-HP DeskJet 4670 series wifi_f45eabf743ad_4449524543542d39392d4850204465736b4a6574203436373020736572696573_managed_psk
+    mostfun-5bf7         wifi_f45eabf743ad_6d6f737466756e2d35626637_managed_psk
+    DIRECT-TNDESKTOP-71PTKLKmsXO wifi_f45eabf743ad_4449524543542d544e4445534b544f502d373150544b4c4b6d73584f_managed_psk
+    HPKJ                 wifi_f45eabf743ad_48504b4a_managed_psk
+    ChinaNet-yTGy        wifi_f45eabf743ad_4368696e614e65742d79544779_managed_psk
+    GPKJ1                wifi_f45eabf743ad_47504b4a31_managed_psk
+    GUMO                 wifi_f45eabf743ad_47554d4f_managed_psk
+    jdsfkf               wifi_f45eabf743ad_6a6473666b66_managed_psk
+connmanctl> agent on
+Agent registered
+connmanctl> connect wifi_f45eabf743ad_7365656564_managed_psk
+Error /net/connman/service/wifi_f45eabf743ad_7365656564_managed_psk: Already connected
+connmanctl> quit
+root@beaglebone:/var/lib/cloud9# ifconfig wlan0
+wlan0     Link encap:Ethernet  HWaddr f4:5e:ab:f7:43:ad  
+          inet addr:192.168.199.145  Bcast:192.168.199.255  Mask:255.255.255.0
+          inet6 addr: fe80::f65e:abff:fef7:43ad/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST DYNAMIC  MTU:1500  Metric:1
+          RX packets:8920 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:3531 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000
+          RX bytes:1166820 (1.1 MiB)  TX bytes:3352208 (3.1 MiB)
 
-[![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/cloud9.png)](http://192.168.7.2:3000/ide.html)
+root@beaglebone:/var/lib/cloud9#
+```
+When you tap ```ifconfig wlan0 ``` and the internet address is something like 192.168.199.145, congratulations, you have connected to wifi successfully.
 
-###STEP5. Connect your BBGW to Wi-Fi
 
-Using your smart phone or computer to scan local Wi-Fi network and connect to the AP named "BeagleBone XXX"
-
-![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/wifi1.png?raw=true)
-
-After connection succeeded, it will head to the login page automatically. Select the SSID of your Wi-Fi and enter the passwd, click OK.
-
-![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/wifi2.png?raw=true)
-
-Now your BBGW is connected to Wi-Fi.
-
-![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/wifi3.png?raw=true)
-
-###STEP6. Connect your BBGW to your Bluetooth Device
-
-Connect to Cloud9 IDE and start a new terminal.
-Start the bluetooth config with the command:
+When the Beaglebone_Blue connect to the Internet, we highly recommend	you use the command below to update your Beaglebone_Blue.
 
 ```
-bb-wl18x-bluetooth
-bluetoothctl
+sudo apt-get update
+sudo apt-get upgrade
 ```
 
-![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/bluetooth1.jpg?raw=true)
+It may take a long time to update, but it is worthwhile.
 
-Type ``scan on`` to scan local bluetooth devices. My device named "jy" is found.
 
-![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/bluetooth2.jpg?raw=true)
 
-Copy the device mac address, then contect to the device  with the command:
+### Demo.1 Blink
+This is a Javascript demo.
+
+ckick the **File->New File->** button at the top light corner of Cloud9 IDE.
+copy the code below and click **Run**
+```
+var b = require('bonescript');
+
+var state = b.LOW;
+
+b.pinMode("USR0", b.OUTPUT);
+b.pinMode("USR1", b.OUTPUT);
+b.pinMode("USR2", b.OUTPUT);
+b.pinMode("USR3", b.OUTPUT);
+setInterval(toggle, 1000);
+
+function toggle() {
+    if(state == b.LOW) state = b.HIGH;
+    else state = b.LOW;
+    b.digitalWrite("USR2", state);
+}
+```
+Then you will see the USER2 LED blink.
+
+
+### Demo.2 USE GPIO With Grove-LED
+step .1 Please prepare staff as the Partlist below.
+
+| Beaglebone_Blue | Grove - LED Socket Kit|Grove Adapter cable(6pin)|
+|--------------|-------------|-------|
+|![enter image description here](https://github.com/SeeedDocument/Beaglebone_Blue/raw/master/img/cover_icon.jpg)|![enter image description here](https://github.com/SeeedDocument/Beaglebone_Blue/raw/master/img/Grove-White-LED-p-2016.jpeg)|![](https://github.com/SeeedDocument/Beaglebone_Blue/raw/master/img/Grove_4pin.jpg)|
+|[Get ONE Now](https://www.seeedstudio.com/BeagleBone-Blue-p-2809.html)|[Get ONE Now](https://www.seeedstudio.com/Grove-Green-LED-p-1144.html)|[Get ONE Now](https://www.seeedstudio.com/Grove-Universal-4-Pin-to-Beaglebone-Blue-6-Pin-Female-JST%2FSH-Conversion-Cable-%2810-pcs-pack%29-p-3027.html)|
+
+step .2 Connect the LED Socket Kit to the 6 pin **GPIO** interface of Beaglebone_Blue.
+
+![](https://github.com/SeeedDocument/Beaglebone_Blue/raw/master/img/LED.jpg)
+
+step .3 Open a new terminal in the Cloud9 IDE, tap the code below into this terminal,then click **Enter** Key.
 
 ```
-pair 0C:xx:xx:xx:xx:0B
-trust 0C:xx:xx:xx:xx:0B
-connect 0C:xx:xx:xx:xx:0B
+cd /sys/class/gpio
+echo 49 >export
+cd gpio49
+echo out >direction
+while sleep 1;
+do echo 0 >value;
+sleep 1;
+echo 1 >value;
+done
+
+```
+Now you will see your LED light up in the heartbeat mode.
+
+### Demo 3. USE UART With Grove-GPS
+
+step .1 Please prepare staff as the Partlist below.
+
+| Beaglebone_Blue | Grove - LED Socket Kit|Grove Adapter cable(4pin)|
+|--------------|-------------|-------|
+|![enter image description here](https://github.com/SeeedDocument/Beaglebone_Blue/raw/master/img/cover_icon.jpg)|![enter image description here](https://github.com/SeeedDocument/Beaglebone_Blue/raw/master/img/Grove-GPS.jpg)|![](https://github.com/SeeedDocument/Beaglebone_Blue/raw/master/img/Grove_4pin.jpg)|
+|[Get ONE Now](https://www.seeedstudio.com/BeagleBone-Blue-p-2809.html)|[Get ONE Now](https://www.seeedstudio.com/grove-gps-p-959.html)|[Get ONE Now](https://www.seeedstudio.com/category/Grove-Universal-4-Pin-to-Beaglebone-Blue-4-Pin-Female-JST-SH-Conversion-Cable-(10-pcs-pack)-p-3026.html)|
+
+step .2 Connect the Grove-GPS sensor to the 4 pin **UART1** interface of Beaglebone_Blue.
+
+![](https://github.com/SeeedDocument/Beaglebone_Blue/raw/master/img/GPS_hARD.jpg)
+
+step .3 Open a new terminal in the Cloud9 IDE, tap the code below into this terminal,then click **Enter** Key.
+
+```
+apt install tio
+tio /dev/ttyO1 -b 9600
 ```
 
-![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/bluetooth3.jpg?raw=true)
+Then you will see the GPS information on the terminal as the picture shown below.
 
-Now your BBGW is connected to your bluetooth device. Type ``quit`` back to the terminal.
-Play music on BBGW, then you will hear music on your bluetooth speaker device.
+![](https://github.com/SeeedDocument/Beaglebone_Blue/raw/master/img/GPS.png)
 
-## Update to latest software
+### Demo .4 USE I2C With Grove-Digital Light Sensor
+
+step .1 Please prepare staff as the Partlist below.
+
+| Beaglebone_Blue | Grove - LED Socket Kit|Grove Adapter cable(4pin)|
+|--------------|-------------|-------|
+|![enter image description here](https://github.com/SeeedDocument/Beaglebone_Blue/raw/master/img/cover_icon.jpg)|![enter image description here](https://github.com/SeeedDocument/Beaglebone_Blue/raw/master/img/Digital_Light_Sensor.jpg)|![](https://github.com/SeeedDocument/Beaglebone_Blue/raw/master/img/Grove_4pin.jpg)|
+|[Get ONE Now](https://www.seeedstudio.com/BeagleBone-Blue-p-2809.html)|[Get ONE Now](https://www.seeedstudio.com/Grove-Digital-Light-Sensor-p-1281.html)|[Get ONE Now](https://www.seeedstudio.com/category/Grove-Universal-4-Pin-to-Beaglebone-Blue-4-Pin-Female-JST-SH-Conversion-Cable-(10-pcs-pack)-p-3026.html)|
+
+step .2 Connect the Grove-Digital Light Sensor to the 4 pin **I2C** interface of Beaglebone_Blue.
+
+![](https://github.com/SeeedDocument/Beaglebone_Blue/raw/master/img/Digital_light.jpg)
+
+step .3 Open a new terminal in the Cloud9 IDE, tap the code below into this terminal,then click **Enter** Key.
+```
+cd /sys/bus/i2c/devices/i2c-1;
+echo tsl2561 0x29 >new_device;
+watch -n0 cat 1-0029/iio\:device0/in_illuminance0_input
+
+```
+Then you will get the light value as the picture below.
+
+
+<img src="https://github.com/SeeedDocument/Beaglebone_Blue/raw/master/img/Digital_520.png";  border=0 />
+
+
+
+## Resources
 -----
+- **[PCB]** [BeagleBone_Blue PCB](https://github.com/SeeedDocument/Beaglebone_Blue/raw/master/res/BeagleBone_Blue_brd.zip)
+- **[Schematic]** [BeagleBone_Blue Schematic](https://github.com/SeeedDocument/Beaglebone_Blue/raw/master/res/BeagleBone_Blue_sch.zip)
 
-You need to update the board to latest software to keep a better performance, here we will show you how to make it step by step.
+-----
+### References
 
-###STEP1. Download the latest software image
-
-First of all, you have to download the suitable image here.
-
-[![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green_Wireless/master/images/download_the_lastest_image_of_bbgw.png)](https://www.dropbox.com/s/9qsa75cazhjgb1x/BBGW-blank-debian-8.4-seeed-iot-armhf-2016-06-27-4gb1.zip?dl=0)
-
-!!!Note
-    Due to sizing necessities, this download may take about 30 minutes or more.
-
-The file you download will have an **.img.xz** extension. This is a compressed sector-by-sector image of the SD card.
-
-###STEP2. Install compression utility and decompress the image
-
-Download and install [7-zip.](http://www.7-zip.org/download.html)
-
-!!!Note
-    Choose a version that suitable for your system.
-
-Use 7-zip to decompress the SD card **.img file**
-
-###STEP3. Install SD card programming utility
-
-Download and install [Image Writer for Windows](https://sourceforge.net/projects/win32diskimager/files/latest/download). Be sure to download the binary distribution.
-
-###STEP4. Write the image to your SD card
-
-You need a SD adapter to connect your microSD card to your computer at the first. Then use the software Image Write for Windows to write the decompressed image to your SD card.
-
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/win32_disk_image.png)
-
-Click on **Write** button, then the process is started.
-
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/win32_disk_image_process.png)
-
-!!!Note
-    * You may see a warning about damaging your device. This is fine to accept as long as you are pointing to your SD card for writing.
-    * You should not have your BeagleBone connected to your computer at this time.
-    * This process may need up to 10 minutes.
-
-
-###STEP5. Boot your board off of the SD card
-
-Insert SD card into your (powered-down first) board. Then the board will boot from the SD card.
-
-!!!Note
-    If you don't need to write the image to your on-board eMMC, you don't need to read the last of this chapter.  Otherwise pleas go ahead.
-
-If you desire to write the image to your on-board eMMC, you need to launch to the board, and modify a file.
-
-In **/boot/uEnv.txt**:
-
-    ##enable Generic eMMC Flasher:
-    ##make sure, these tools are installed: dosfstools rsync
-    #cmdline=init=/opt/scripts/tools/eMMC/init-eMMC-flasher-v3.sh
-
-Change to:
-
-    ##enable Generic eMMC Flasher:
-    ##make sure, these tools are installed: dosfstools rsync
-    cmdline=init=/opt/scripts/tools/eMMC/init-eMMC-flasher-v3.sh
-
-Then you will find the 4 user led light as below:
-
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/flashing.gif)
-
-!!!Note
-    If you don't find the upper tracing light, please power down and power up the board.
-
-When the flashing is complete, all 4 USRx LEDs will be **off**. The latest Debian flasher images automatically power down the board upon completion. This can take up to **10 minutes**. Power-down your board, remove the SD card and apply power again to be complete.
-
-
-## Program Grove Module with Mraa and UPM
-
-We have provided Mraa library and UPM library to make it easy for developers and sensor manufacturers to map their sensors & actuators on top of supported hardware and to allow control of low level communication protocol by high level languages & constructs.
-###What are Mraa and UPM?
-Mraa is a C/C++ library with bindings to Python, Javascript and Java to interface with the I/O on BBG, BBGW and other platforms, with a structured and sane API where port names/numbering matches the board that you are on. Use of Mraa does not tie you to specific hardware with board detection done at runtime you can create portable code that will work across the supported platforms.
-UPM is a high level repository for sensors that use MRAA. Each sensor links to MRAA and are not meant to be interlinked although some groups of sensors may be. Each sensor contains a header which allows to interface with it. Typically a sensor is represented as a class and instantiated.The constructor is expected to initialise the sensor and parameters may be used to provide identification/pin location on the board.
-
-###Install and update
-Mraa and UPM are already installed in the system image of BBGW, so **you don't need to install it.** However if you want to update the library, or want to upgrade the library, use ``apt-get update`` and ``apt-get upgrade`` please. Refer to [https://github.com/intel-iot-devkit/mraa](https://github.com/intel-iot-devkit/mraa) and [https://github.com/intel-iot-devkit/upm](https://github.com/intel-iot-devkit/upm) for more information.
-
-###Mraa Example
-
-- light a led
-
-```
-import mraa
-import time
-#mraa.gpio60 = P9_14 = GPIO_50
-led = mraa.Gpio(60)
-led.dir(mraa.DIR_OUT)
-
-while True:
-    led.write(1)
-    time.sleep(1)
-    led.write(0)
-    time.sleep(1)
-
-```
-
-- Grove - PIR Sensor
-
-```
-import mraa
-import time
-#mraa.gpio73 = P9_27 = GPIO_115
-pir = mraa.Gpio(73)
-pir.dir(mraa.DIR_IN)
-
-while True:
-    print (pir.read())
-    time.sleep(1)
-```
-
-- Grove - Rotary Angle Sensor
-
-```
-import mraa
-import time
-#mraa.aio1 = AIN0
-rotary = mraa.Aio(1)
-
-while True:
-    print(rotary.read())
-    time.sleep(1)
-```
-
-- More Tutorials
-
-[Grove - 3-Axis Digital Accelerometer(±16g)
- Grove - Variable Color LED](http://www.seeed.cc/BBGW-starter-tutorial%231-The-breath-LED-p-1641.html)
-
-[Grove - Mini Fan
-Grove - PIR Motion Sensor
-Grove - Rotary Angle Sensor
-](http://www.seeed.cc/BBGW-starter-tutorial%232%3A-storm-on-your-table-p-1643.html)
-
-[Grove - Relay
-Grove - Sound Sensor
-](http://www.seeed.cc/BBGW-starter-tutorial%233-Speak-louuuuuudly-p-1644.html)
-
-[Grove - OLED Display 0.96”
-Grove - Light Sensor
-Grove - Temperature Sensor
-](http://www.seeed.cc/BBGW-starter-tutorial%234%3AHow-hot-is-it-today%3F-Ask-BBGW!-p-1645.html)
-
-[Grove - GPS
-Grove - Button(P)
-Grove - Buzzer
-Grove - RTC v2.0
-](http://www.seeed.cc/BBGW-starter-tutorial%235-Where-are-you%3F-p-1648.html)
-
-
-###Mraa Map for BBGW
-
-![GPIO](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/BBGW_Mraa_Gpio.png?raw=true)
-
-![I2C](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/BBGW_Mraa_I2C.png?raw=true)
-
-![PWM](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/BBGW_Mraa_PWM.png?raw=true)
-
-![ADC_IN](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/BBGW_Mraa_ADC.png?raw=true)
-
-![UART](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/BBGW_Mraa_UART.png?raw=true)
-
-## Grove for BBG
-------
-
-Grove is a modular, standardized connecter prototyping system. Grove takes a building block approach to assembling electronics. Compared to the jumper or solder based system, it is easier to connect, experiment and build and simplifies the learning system, but not to the point where it becomes dumbed down.  Some of the other prototype systems out there takes the level down to building blocks.   Good stuff to be learned that way, but the Grove system allows you to build real systems.   It requires some learning and expertise to hook things up.
-
-Below listed the Grove modules that work well with BBG.
-
-
-|SKU        |Name|Interface|link|
-|-----------|-----|-----|----------|
-|101020054  |Grove - 3-Axis Digital Accelerometer(+16g)     |	I2C| [link](http://www.seeedstudio.com/Grove-3-Axis-Digital-Accelerometer%28%C2%B116g%29-p-1156.html)|
-|101020071  |Grove - 3-Axis Digital Accelerometer(+400g)    |	I2C| [link](http://www.seeedstudio.com/Grove-3-Axis-Digital-Accelerometer%28%C2%B1400g%29-p-1897.html)|
-|101020034  |Grove - 3-Axis Digital Compass                 |	I2C| [link](http://www.seeedstudio.com/Grove-3-Axis-Digital-Compass-p-759.html)|
-|101020050  |Grove - 3-Axis Digital Gyro                    |	Analog| [link](http://www.seeedstudio.com/Grove-3-Axis-Digital-Gyro-p-750.html)|
-|101020081	|Grove - 6-Axis Accelerometer&Compass v2.0      |	I2C| [link](http://www.seeedstudio.com/Grove-6-Axis-Accelerometer&Compass-v2.0-p-2476.html)|
-|101020072	|Grove - Barometer Sensor(BMP180)              |	I2C| [link](http://www.seeedstudio.com/Grove-Barometer-Sensor-%28BMP180%29-p-1840.html)|
-|104030010	|Grove - Blue LED                               |	I/O| [link](http://www.seeedstudio.com/Grove-Blue-LED-p-1139.html)|
-|101020003	|Grove - Button	                                |I/O| [link](http://www.seeedstudio.com/Grove-Button-p-766.html)|
-|111020000	|Grove - Button(P)	                            |I/O| [link](http://www.seeedstudio.com/Grove-Button%28P%29-p-1243.html)|
-|107020000	|Grove - Buzzer	                                |I/O| [link](http://www.seeedstudio.com/Grove-Buzzer-p-768.html)|
-|104030006	|Grove - Chainable RGB LED	                    |I2C| [link](http://www.seeedstudio.com/Grove-Chainable-RGB-LED-p-850.html)|
-|101020030	|Grove - Digital Light Sensor	                |I2C| [link](http://www.seeedstudio.com/Grove-Digital-Light-Sensor-p-1281.html)|
-|103020024	|Grove - Finger-clip Heart Rate Sensor	        |I2C| [link](http://www.seeedstudio.com/Grove-Finger-clip-Heart-Rate-Sensor-p-2425.html)|
-|101020082	|Grove - Finger-clip Heart Rate Sensor with shell	|I2C|[link](http://www.seeedstudio.com/Grove-Finger-clip-Heart-Rate-Sensor-with-shell-p-2420.html)|
-|113020003	|Grove - GPS	                        |UART| [link](http://www.seeedstudio.com/Grove-GPS-p-959.html)|
-|104030007	|Grove - Green LED	|I/O| [link](http://www.seeedstudio.com/Grove-Green-LED-p-1144.html)|
-|103020013	|Grove - I2C ADC	|I2C| [link](http://www.seeedstudio.com/Grove-Green-LED-p-1144.html)|
-|103020006	|Grove - I2C Hub	|I2C| [link](http://www.seeedstudio.com/Grove-I2C-Hub-p-851.html)|
-|101020079	|Grove - IMU 10DOF	|I2C| [link](http://www.seeedstudio.com/Grove-IMU-10DOF-p-2386.html)|
-|101020080	|Grove - IMU 9DOF v2.0	|I2C| [link](http://www.seeedstudio.com/Grove-IMU-9DOF-v2.0-p-2400.html)|
-|101020040	|Grove - IR Distance Interrupter	|I/O| [link](http://www.seeedstudio.com/Grove-IR-Distance-Interrupter-p-1278.html)|
-|104030011	|Grove - OLED Display 0.96''	|I2C| [link](http://www.seeedstudio.com/Grove-OLED-Display-1.12%22-p-824.html)|
-|104030008	|Grove - OLED Display 1.12''	|I2C| [link](http://www.seeedstudio.com/Grove-OLED-Display-0.96%22-p-781.html)|
-|104030005	|Grove - Red LED	|I/O| [link](http://www.seeedstudio.com/Grove-Red-LED-p-1142.html)|
-|103020005	|Grove - Relay	|I/O| [link](http://www.seeedstudio.com/Grove-Relay-p-769.html)|
-|316010005	|Grove - Servo	|I/O| [link](http://www.seeedstudio.com/Grove-Servo-p-1241.html)|
-|101020023	|Grove - Sound Sensor	|Analog| [link](http://www.seeedstudio.com/Grove-Sound-Sensor-p-752.html)|
-|101020004	|Grove - Switch(P)	|I/O| [link](http://www.seeedstudio.com/Grove-Switch%28P%29-p-1252.html)|
-|101020015	|Grove - Temperature Sensor	|Analog| [link](http://www.seeedstudio.com/Grove-Temperature-Sensor-p-774.html)|
-|101020019	|Grove - Temperature&Humidity Sensor Pro	|Analog| [link](http://www.seeedstudio.com/Grove-Temperature&Humidity-Sensor-Pro-p-838.html)|
-
-
-## Cape for BBG
--------
-
-You will need some expansion board when you start a project. There're many cape for BBG already, they include LCD display, motor driver as well as HDMI expansion etc. Below is some of them recommend.
-
-|Grove Cape| Motor Bridge Cape|HDMI Cape|
-|------------|----------------|----------|
-|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/product1.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/product2.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/product3.jpg)|
-|[GET ONE NOW!](http://www.seeedstudio.com/Grove-Cape-for-BeagleBone-Series-p-1718.html)|[GET ONE NOW!](http://www.seeedstudio.com/Motor-Bridge-Cape-p-2569.html)|[GET ONE NOW!](http://www.seeedstudio.com/SeeedStudio-BeagleBone-Green-HDMI-Cape-p-2570.html)|
-
-|Grove Cape| 5 Inch LCD|7 Inch LCD|
-|------------|----------------|----------|
-|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/product4.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/product5.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/product6.jpg)|
-|[GET ONE NOW!](http://www.seeedstudio.com/Grove-Base-Cape-for-Beaglebone-v2.0-p-2644.html)|[GET ONE NOW!](http://www.seeedstudio.com/5-Inch-BeagleBone-Green-LCD-Cape-with-Resistive-Touch-p-2642.html)|[GET ONE NOW!](http://www.seeedstudio.com/7-Inch-BeagleBone-Green-LCD-Cape-with-Resistive-Touch-p-2643.html)|
-
-## References and Resources
-###References
-----
 There're many references to help you to get more information about the board.
 
 * [BeagleBoard Main Page](http://beagleboard.org/)
-* [BeagleBone Green Wireless info at BeagleBoard page](http://beagleboard.org/green-wireless)
 * [BeagleBoard Getting Started](http://beagleboard.org/getting-started)
 * [Troubleshooting](http://beagleboard.org/getting-started#troubleshooting)
 * [Hardware documentation](http://beagleboard.org/getting-started#hardware)
 * [Projects of BeagleBoard](http://beagleboard.org/project)
-
-## Resources
------
-- [BeagleBone_Green_Wireless Schematic(pdf)](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/tree/master/resources/BeagleBone_Green Wireless_V1.0_SCH_20160314.pdf)
