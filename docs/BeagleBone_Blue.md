@@ -443,10 +443,16 @@ watch -n0 cat 1-0029/iio\:device0/in_illuminance0_input
 Then you will get the light value as the picture below.
 
 
-<p style="text-align:left"><img src="https://github.com/SeeedDocument/Beaglebone_Blue/raw/master/img/Digital_520.png" border=0 /></p>
 
+<style>
+.div1{ border:0px solid #000; text-align:left}
 
-<img src="";  border=0 />
+</style>
+</head>
+<body>
+<div class="div1"><img src="https://github.com/SeeedDocument/Beaglebone_Blue/raw/master/img/Digital_520.png" border=0 /></div>
+</body>
+
 
 
 ## Grove Compatibility List
