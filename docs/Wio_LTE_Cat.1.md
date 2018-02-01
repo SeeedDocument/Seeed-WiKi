@@ -481,6 +481,28 @@ setInterval(function() {
 }, 100);
 ```
 
+#### Play with SD Card 
+***Note: espruino firmware v1.94 is not support SD card drive, please use v1.93 or v1.96(May not released)***
+- Step 1. Plug a micro SD card to the card slot
+- Step 2. Copy the code to Espruino IDE and upload it.
+```javascript
+var fs = require('fs');
+
+// Init SDCard
+WioLTE.init;
+
+// List files
+console.log('List files on root path:\r\n', fs.readdirSync());
+// Write file  
+fs.writeFileSync("hello.txt", "Hello World");
+// read file
+console.log(fs.readFileSync("hello.txt"));
+// append file
+fs.appendFileSync("hello.txt", "!!!");
+// read again
+console.log(fs.readFileSync("hello.txt"));
+```
+
 ####  Play with Grove Module
 
 ##### Play with Digital Ports
