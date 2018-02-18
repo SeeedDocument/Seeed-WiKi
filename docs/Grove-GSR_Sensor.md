@@ -7,7 +7,7 @@ prodimagename: GSR.jpg
 bzprodimageurl: http://statics3.seeedstudio.com/images/101020052 1.jpg
 surveyurl: https://www.research.net/r/Grove-GSR_Sensor
 sku: 101020052
-tags: grove_digital, io_3v3, io_5v, plat_duino, plat_linkit, plat_pi, plat_bbg
+tags: grove_analog, io_3v3, io_5v, plat_duino, plat_linkit, plat_pi, plat_bbg
 ---
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-GSR_Sensor/master/img/GSR.jpg)
@@ -107,7 +107,7 @@ void loop(){
 **Human Resistance** = ((1024+2*Serial_Port_Reading)*10000)/(512-Serial_Port_Reading), unit is ohm, Serial_Port_Reading is the value display on Serial Port(between 0~1023)
 
 ## FAQ
-Please click [here](http://support.seeedstudio.com/knowledgebase/articles/1827199-grove-gsr-sensor-sku-101020052) to see all Grove - GSR sensor FAQs. 
+Please click [here](http://support.seeedstudio.com/knowledgebase/articles/1827199-grove-gsr-sensor-sku-101020052) to see all Grove - GSR sensor FAQs.
 
 ## Tech Support
 Please do not hesitate to contact **techsupport@seeed.cc** if you require further information.

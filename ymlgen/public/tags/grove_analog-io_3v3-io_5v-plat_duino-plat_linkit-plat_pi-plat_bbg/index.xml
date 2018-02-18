@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Grove_analog Io_3v3 Io_5v Plat_duino Plat_linkit Plat_pi Plat_bbg on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</title>
+    <link>http://wiki.seeed.cc/tags/grove_analog-io_3v3-io_5v-plat_duino-plat_linkit-plat_pi-plat_bbg/</link>
+    <description>Recent content in Grove_analog Io_3v3 Io_5v Plat_duino Plat_linkit Plat_pi Plat_bbg on A test config to generate mkdocs.yml frontmatter using Hugo&#39;s templating engine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://wiki.seeed.cc/tags/grove_analog-io_3v3-io_5v-plat_duino-plat_linkit-plat_pi-plat_bbg/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Grove - GSR Sensor</title>
+      <link>http://wiki.seeed.cc/grove-gsr_sensor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.seeed.cc/grove-gsr_sensor/</guid>
+      <description>GSR stands for galvanic skin response, is a method of measuring the electrical conductance of the skin. Strong emotion can cause stimulus to your sympathetic nervous system, resulting more sweat being secreted by the sweat glands. Grove - GSR allows you to spot such strong emotions by simple attaching two electrodes to two fingers on one hand. It is an interesting to create emotion related projects like sleep quality monitor.</description>
+    </item>
+    
+  </channel>
+</rss>
