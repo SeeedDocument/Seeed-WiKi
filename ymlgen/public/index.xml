@@ -2555,7 +2555,7 @@ It integrates Bluetooth Low Energy (BLE) which makes it extremely easy to intera
       
       <guid>http://wiki.seeed.cc/grove-oled_display_1.12inch/</guid>
       <description>Our new 1.12” OLED displays are perfect when you need a small display with 16 grayscale. The visible portion of the OLED measures 1.12” diagonal and contains 96x96 grayscale pixels. Because the display uses OLEDs, there is no backlight, and the contrast is very high.
-This OLED uses the SSD1327 driver chip, which manages the display. You can talk to the driver chip using 4-wire I2C (clock, data, power, and GND pins).</description>
+This OLED uses the SSD1327(V1.0) or SH1107G(V2.1) driver chip, which manages the display. You can talk to the driver chip using 4-wire I2C (clock, data, power, and GND pins).</description>
     </item>
     
     <item>

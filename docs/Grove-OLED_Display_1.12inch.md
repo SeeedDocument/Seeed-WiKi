@@ -5,7 +5,7 @@ bzurl: https://www.seeedstudio.com/Grove-OLED-Display-1.12%22-p-824.html
 oldwikiname: Grove_-_OLED_Display_1.12"
 prodimagename: main.jpg
 surveyurl: https://www.research.net/r/F79KN2D
-sku: 104030011
+sku: 101020452
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_bbg, plat_pi, plat_wio, plat_linkit
 ---
 
@@ -13,8 +13,7 @@ tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_bbg, plat_pi, plat_wio, plat_li
 
 Our new 1.12” OLED displays are perfect when you need a small display with 16 grayscale. The visible portion of the OLED measures 1.12” diagonal and contains 96x96 grayscale pixels. Because the display uses OLEDs, there is no backlight, and the contrast is very high.
 
-This OLED uses the SSD1327 driver chip, which manages the display. You can talk to the driver chip using 4-wire I2C (clock, data, power, and GND pins).
-
+This OLED uses the SSD1327(V1.0) or SH1107G(V2.1) driver chip, which manages the display. You can talk to the driver chip using 4-wire I2C (clock, data, power, and GND pins).
 
 * Communicate Mode: I2C
 * Grayscale Display: 16 Gray shades.
@@ -22,7 +21,14 @@ This OLED uses the SSD1327 driver chip, which manages the display. You can talk 
 * Supports Continuous Horizontal Scrolling.
 * Grove compatible Interface
 
-  [![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now.png)](http://www.seeedstudio.com/Grove-OLED-Display-1.12%22-p-824.html)
+  [![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now.png)](https://www.seeedstudio.com/Grove-OLED-Display-1.12%27%27-V2-p-3031.html)
+
+## Version
+  ---
+  | Product Version              | Changes                                                                                                                                                                                    | Released Date |
+  |------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
+  |Grove - OLED Display 1.12" V1.0 | Initial                                                                                                                                                                                    | Mar 2012      |
+  |Grove - OLED Display 1.12" V2.1 | Change the driver IC from SSD1327 to SH1107G | Nov 2015     |
 
 
 ## Specifications
@@ -52,14 +58,14 @@ This OLED uses the SSD1327 driver chip, which manages the display. You can talk 
 !!!Note
     This chapter is based on Win10 and Arduino IDE 1.6.9
 
-### Connection
+### Hardware
 
 Here we will show you how this Grove - OLED Display works via a simple demo. First of all, you need to prepare the below stuffs:
 
 | Seeeduino V4 | Grove - OLED Display 1.12`` | Base Shield |
 |--------------|----------------------|-----------------|
 |![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_1.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_OLED_1.12/master/images/product.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_4.jpg)|
-|[Get ONE Now](http://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html)|[Get ONE Now](http://www.seeedstudio.com/Grove-OLED-Display-1.12%22-p-824.html)|[Get ONE Now](https://www.seeedstudio.com/Base-Shield-V2-p-1378.html)|
+|[Get ONE Now](http://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html)|[Get ONE Now](https://www.seeedstudio.com/Grove-OLED-Display-1.12%27%27-V2-p-3031.html)|[Get ONE Now](https://www.seeedstudio.com/Base-Shield-V2-p-1378.html)|
 
 This is an easy-to-use module, what you need to do is connect the module to I2C port of a Base Shield. There're 4 pins, defined as below.
 
@@ -93,12 +99,14 @@ There're many examples in this library, which is consist of
     7. OLED_Scroll_Right
     8. OLED_Z_Display_Driver_Test_Suite
 
+!!!Note
+    Please change the parameter of the SeeedGrayOled.init() base on different version. For V1.0, please config as SeeedGrayOled.init(SSD1327). For V2.1, please config as  SeeedGrayOled.init(SH1107G).
+
 - Now let's try upload **OLED_Hello_World** to Seeeduino V4. Open your Arduino IDE, click on **File > Example > OLED_Display_96x96-master > OLED_Hello_World**
 
   ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_OLED_1.12/master/images/example.png)
 
 - When the code is open, select the right board and right COM Port, then click on Upload button which will take few seconds.
-
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_OLED_1.12/master/images/arduino.png)
 
 - If the code is uploaded correctly, you will see the hello world on the OLELD.
