@@ -1,11 +1,11 @@
 ---
 title: ReSpeaker Core v2
-category: Arduino
-bzurl: http://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html
+category: ReSpeaker
+bzurl: 
 oldwikiname: ReSpeaker Core v2
 prodimagename: cover.JPG
-wikiurl: http://seeed.wiki/Seeeduino_v4.2/
-sku: 102990883
+surveyurl:  https://www.research.net/r/Respeaker_Core
+sku: 
 ---
 
 ![enter image description here](https://github.com/SeeedDocument/Respeaker_V2/raw/master/img/ReSpeaker_V2_front.JPG)

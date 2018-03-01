@@ -30,7 +30,6 @@ Here is the list of the Seeeduino Boards you can find in the Seeed WiKi. The lis
 - [Rainbowduino](/Rainbowduino/)
 - [Rainbowduino LED driver platform - ATmega328](/Rainbowduino_LED_driver_platform-ATmega328/)
 - [Rainbowduino v3.0](/Rainbowduino_v3.0/)
-- [ReSpeaker Core v2](/ReSpeaker_Core_v2/)
 - [Seeeduino Cloud](/Seeeduino_Cloud/)
 - [Seeeduino Cloud and Grove IoT Starter Kit Powered by AWS](/Seeeduino_Cloud_and_Grove_IoT_Starter_Kit_Powered_by_AWS/)
 - [Seeeduino Ethernet](/Seeeduino_Ethernet/)

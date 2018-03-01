@@ -168,21 +168,7 @@ Enter the authorization code:
 * It should then display: OAuth credentials initialized.
 * If instead it displays: InvalidGrantError then an invalid code was entered. Try again, taking care to copy and paste the entire code.
 
-#### 5. Install **pulseaudio** and let it run in background
-
-```
-pi@raspberrypi:~ $ sudo apt install pulseaudio
-pi@raspberrypi:~ $ pulseaudio &
-[1] 1244
-pi@raspberrypi:~ $ W: [pulseaudio] server-lookup.c: Unable to contact D-Bus: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
-W: [pulseaudio] main.c: Unable to contact D-Bus: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
-E: [pulseaudio] bluez4-util.c: org.bluez.Manager.GetProperties() failed: org.freedesktop.DBus.Error.UnknownMethod: Method "GetProperties" with signature "" on interface "org.bluez.Manager" doesn't exist
-```
-
-!!!Note
-        the pulseaudio error log could be ignored here.
-
-#### 6. Start the Google Assistant demo
+#### 5. Start the Google Assistant demo
 
 ```
 pi@raspberrypi:~ $ alsamixer    // To adjust the volume
@@ -190,13 +176,13 @@ pi@raspberrypi:~ $ source env/bin/activate
 (env) pi@raspberrypi:~ $ env/bin/google-assistant-demo
 ```
 
-#### 7. Play with Google Assistant
+#### 6. Play with Google Assistant
 
 Say *Ok Google* or *Hey Google*, followed by your query. The Assistant should respond. If the Assistant does not respond, follow the [troubleshooting instructions](https://developers.google.com/assistant/sdk/prototype/getting-started-pi-python/troubleshooting#hotword).
 
 ![run demo](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/blob/master/img/okgoogle.jpg?raw=true)
 
-#### 8. Troubleshooting
+#### 7. Troubleshooting
 
 See the [Troubleshooting](https://developers.google.com/assistant/sdk/prototype/getting-started-pi-python/troubleshooting) page if you run into issues.
 

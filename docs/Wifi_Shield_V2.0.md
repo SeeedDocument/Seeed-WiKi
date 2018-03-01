@@ -542,6 +542,8 @@ void setup()
         Serial.println("Failed");
     }
 
+    delay(5000);
+
     wifly.sendCommand("get ip\r");
     char c;
 
@@ -693,6 +695,8 @@ void setup()
     } else {
         Serial.println("Failed");
     }
+
+    delay(5000);
 
     wifly.sendCommand("get ip\r");
 
@@ -934,6 +938,8 @@ void setup()
         Serial.println("Failed");
     }
 
+    delay(5000);
+
     wifly.sendCommand("set ip proto 18\r"); //enable html client
     delay(100);
 
@@ -1055,6 +1061,8 @@ void setup()
     } else {
         Serial.println("Failed");
     }
+
+    delay(5000);
 
     wifly.sendCommand("get ip\r");
     char c;

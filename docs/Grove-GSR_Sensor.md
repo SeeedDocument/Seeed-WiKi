@@ -98,13 +98,16 @@ void loop(){
 
 ```
 
-- Step 2. Wear the GSR sensor
+- Step 2. Do not Wear the GSR sensor.
 - Step 3. Click the Tools-> Serial Plotter from Arduino IDE
-- Step 4. We will see the below graph. Please deep breath and see the trends.  
+- Step 4. Use the screw driver to adjust resistor until the serial output as 512.
+- Step 5. Wear the GSR sensor.
+- Step 6. We will see the below graph. Please deep breath and see the trends.  
 
 ![](https://github.com/SeeedDocument/Grove-GSR_Sensor/raw/master/img/Grove-GSR_Result.png)
 
 **Human Resistance** = ((1024+2*Serial_Port_Reading)*10000)/(512-Serial_Port_Reading), unit is ohm, Serial_Port_Reading is the value display on Serial Port(between 0~1023)
+
 
 ## FAQ
 Please click [here](http://support.seeedstudio.com/knowledgebase/articles/1827199-grove-gsr-sensor-sku-101020052) to see all Grove - GSR sensor FAQs.
