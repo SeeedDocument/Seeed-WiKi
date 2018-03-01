@@ -70,31 +70,36 @@ Hardware Overview
 | **Parts name**             | Quantity |
 | BeagleBone Green HDMI Cape | 1        |
 
-Get started
+Getting Started
 -----------
 
 ***This part will show you how to start with this product in a few steps.***
 
 ### Preparations
 
--   BeagleBone Green board(with OS [Installed first](http://beagleboard.org/getting-started)) × 1.
+-   BeagleBone Green board × 1.
 -   USB cable (type A to micro type B) × 1.
 -   Standard HDMI cable(type A to type A) × 1.
 
 ### Hardware Connection
 
+- Step 1. Please follow below picture to connect the hardware.
 ![](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green_HDMI_Cape/master/img/BeagleBone_Green_HDMI_Cape_Connection_1200_s.jpg)
 
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-We use Windows 7 in this case. After connection work is done, plug a computer mouse into USB interface on BeagleBone Green board.
-</div>
+- Step 2. Plug USB cable(type C end) to your PC.
 
-Plug USB cable(type C end) to your PC, you will find that a BeagleBone desktop is shown on your computer monitor.
+### Software
 
-Then you can use BeagleBone like a PC or a Mac.
+- Step 1. Please download [Debian 8.10 2018-02-01 4GB SD SeeedStudio IoT](https://debian.beagleboard.org/images/bone-debian-8.10-seeed-iot-armhf-2018-02-01-4gb.img.xz) image from beaglebone.org.
+- Step 2. Please use the [Etcher](https://etcher.io/) to burn images to SD cards. 
+- Step 3. We can see the linux command line on the screen.
+- Step 4. If we want to use the graphic UI. Please follow below instructions to install lxde.
 
-![](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green_HDMI_Cape/master/img/Bbb_vnc.jpg)
+```
+sudo apt-get update 
+sudo apt-get install lxde lxde-core lxde-icon-theme
+```
+
 
 #### Trouble shooting
 
@@ -112,6 +117,25 @@ Then you can use BeagleBone like a PC or a Mac.
 
 3. How disassemble BeagleBone Green HDMI Cape quickly?
     -   Pull(with your hand) the end with HDMI receptacle out first, then pull the other end out. Repeat previous two steps again if it is necessary.
+
+
+4. If the lxde Graphic keeps asking the wicd password, please follow below instructions. 
+
+    - Step 1. Please ingore it.
+    - Step 2. Open the terminal, run below commands.
+
+    ```
+    rm /etc/resolv.conf
+    ln -s /run/resolvconf/resolv.conf
+    rm /var/lib/wicd/resolv.conf.orig
+    ln -s /run/resolvconf/resolv.conf /var/lib/wicd/resolv.conf.orig
+    sudo service wicd start
+    sudo reboot
+    ``` 
+
+    - Step 3. Please use the wicd graphic tool to connect to wifi.
+    - Step 4. We can use wifi, SSH tools. 
+
 
 Demo
 ----
