@@ -143,7 +143,7 @@ Example: card number: 62E3086CED
 
 ![](https://github.com/SeeedDocument/125Khz_RFID_module-UART/raw/master/img/RFID-wiegand-time-seq.JPG)
 
-###   Exampel
+###   Example
 
 ![](https://github.com/SeeedDocument/125Khz_RFID_module-UART/raw/master/img/125k_RFID_uasge.JPG)
 
@@ -179,3 +179,7 @@ void loop()
 *   Datasheet: [RDM630-Spec.pdf](https://github.com/SeeedDocument/125Khz_RFID_module-UART/raw/master/res/RDM630-Spec.pdf)
 
 *   [How to connect Arduino and RFID](http://www.instructables.com/id/Arduino-and-RFID-from-seeedstudio/)
+
+*   Tutorial and Source Code for Arduino: How to write a library for the RDM630 including Checksum support (https://www.mschoeffler.de/2018/01/05/arduino-tutorial-how-to-use-the-rdm630-rdm6300-rfid-reader/)
+
+*   Video Tutorial: How to use the RDM630 with an Arduino Uno + Performance Evaluation (https://www.youtube.com/watch?v=l8RDbHd1cak)
