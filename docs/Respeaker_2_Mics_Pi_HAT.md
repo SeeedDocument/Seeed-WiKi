@@ -210,7 +210,6 @@ python pixels.py
 ```
 
 ### How to use User Button
-
 There is an on-board User Button, which is connected to GPIO17. Now we will try to detect it with python and RPi.GPIO.
 
 ```
@@ -260,7 +259,7 @@ cd /usr/local/lib/python2.7/dist-packages/googlesamples/assistant/grpc
 sudo nano pushtotalk.py
 ```
 
-Go to the buttom of the file(Line 301), then modify as the following code and save:  
+Go to the buttom of the file(Line 301), then modify the following code and save:
 
 ```Python
     with SampleAssistant(conversation_stream,
@@ -314,7 +313,6 @@ $ googlesamples-assistant-pushtotalk
 
 
 ### Raspbian image
-
 As Raspbian Operating System is updated to Debian 9, we won't provide our Raspbian image anymore. Click [here](https://www.raspberrypi.org/downloads/raspbian/) to get the lastest Raspbian Operating System.
 
 - [How to install the image](https://www.raspberrypi.org/documentation/installation/installing-images/)
