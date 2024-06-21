@@ -76,7 +76,7 @@ On the left-hand side are four Grove ports for taking analog readings. Analog se
 
 Below the digital ports are four I2C Grove ports. I2C is a low-speed bus protocol that transfers data via two wires: SCL and SDA. SCL is the clock line for synchronizing data transfer over the I2C bus; SDA is the data line.
 
-For detailed information on how to use your Grove – Base Shield, go to [Base Shield v2](/Base_shield_v2).
+For detailed information on how to use your Grove – Base Shield, go to [Base Shield v2](http://wiki.seeed.cc/Base_Shield_V2/).
 
 ####  Grove - LCD RGB Backlight
 
