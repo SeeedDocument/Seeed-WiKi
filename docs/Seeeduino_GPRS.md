@@ -107,7 +107,19 @@ Operating Status Indication
 |64ms on/3000ms off|SIM800H registered the network|
 |64ms on/300ms off|SIM800H communication is established|
 
+## Arduino pin usage
 
+|Pin number|Usage|
+|----------|--------|
+|7|SIM800H RX|
+|8|SIM800H TX|
+|9|SIM800H Power|
+|11|SIM800H DTR|
+|12|SIM800H Status (See below)|
+|13|Builtin LED|
+
+Note; Pin 12 only measures around 0.65V when module is on. Use analogRead on port A11, a number above 100 indicates the module is powered on. Port A11 uses the same physical pin as pin 12 but for analog reads.
+ 
 ## Install the Driver
 
 First of all, you need to:
